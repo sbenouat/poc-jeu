@@ -14,7 +14,7 @@
       <h1>PoCer</h1>
       <p class="subtitle">Jeu de quiz — 1 téléphone, jusqu’à 5 joueurs</p>
 
-      <form id="playersForm" class="card">
+      <form id="playersForm" class="card" onsubmit="return false;">
         <h2>Joueurs</h2>
         <div class="players-inputs">
           <input type="text" name="player" placeholder="Joueur 1" required />
@@ -24,8 +24,8 @@
           <input type="text" name="player" placeholder="Joueur 5" />
         </div>
         <div class="row">
-          <button type="button" id="loadDemo" class="btn ghost">Remplir un exemple</button>
-          <button type="submit" class="btn primary">Commencer</button>
+          <button type="button" id="start5" class="btn secondary">Partie courte (5 manches)</button>
+          <button type="button" id="start10" class="btn primary">Partie normale (10 manches)</button>
         </div>
       </form>
     </section>
@@ -35,21 +35,11 @@
       <!-- Bandeau manche + progression -->
       <header class="round-header">
         <div class="round-info">
-          <span class="round-chip" aria-live="polite">Manche <span id="roundNum">1</span>/10</span>
+          <span class="round-chip" aria-live="polite">Manche <span id="roundNum">1</span>/<span id="roundTotal">10</span></span>
           <span class="theme-chip">Thème : <strong id="currentTheme">—</strong> 🎯</span>
         </div>
-        <div class="round-progress" aria-hidden="true">
-          <!-- 10 points -->
-          <span class="dot" data-i="1"></span>
-          <span class="dot" data-i="2"></span>
-          <span class="dot" data-i="3"></span>
-          <span class="dot" data-i="4"></span>
-          <span class="dot" data-i="5"></span>
-          <span class="dot" data-i="6"></span>
-          <span class="dot" data-i="7"></span>
-          <span class="dot" data-i="8"></span>
-          <span class="dot" data-i="9"></span>
-          <span class="dot" data-i="10"></span>
+        <div class="round-progress" aria-hidden="true" id="roundDots">
+          <!-- points générés en JS -->
         </div>
       </header>
 
@@ -105,7 +95,6 @@
       <p id="winners" class="winners"></p>
       <ul id="finalTable" class="scoreboard"></ul>
       <div class="row">
-        <button id="shareBtn" class="btn">Partager</button>
         <button id="restartBtn" class="btn primary">Rejouer</button>
       </div>
     </section>
