@@ -1,24 +1,4341 @@
 {
   "themes": [
     {
-      "id": "demo",
-      "name": "Démo",
+      "id": "geo",
+      "name": "Géographie",
       "questions": {
         "1": [
-          { "q": "Capitale de la France ?", "a": "Paris" },
-          { "q": "Symbole chimique de l'eau ?", "a": "H2O" }
+          {
+            "q": "Quelle est la capitale de la France ?",
+            "a": "Paris"
+          },
+          {
+            "q": "Quelle est la capitale de l’Espagne ?",
+            "a": "Madrid"
+          },
+          {
+            "q": "Quelle est la capitale de l’Italie ?",
+            "a": "Rome"
+          },
+          {
+            "q": "Quelle est la capitale de l’Allemagne ?",
+            "a": "Berlin"
+          },
+          {
+            "q": "Dans quel pays se trouve le mont Fuji ?",
+            "a": "Japon"
+          },
+          {
+            "q": "Quel détroit sépare l’Espagne du Maroc ?",
+            "a": "Gibraltar"
+          },
+          {
+            "q": "Quel océan borde l’ouest de l’Europe ?",
+            "a": "Atlantique"
+          },
+          {
+            "q": "Quel grand désert couvre le nord de l’Afrique ?",
+            "a": "Sahara"
+          },
+          {
+            "q": "Quel fleuve traverse Paris ?",
+            "a": "La Seine"
+          },
+          {
+            "q": "Quelle est la capitale du Royaume-Uni ?",
+            "a": "Londres"
+          }
         ],
         "2": [
-          { "q": "Année de la Révolution française ?", "a": "1789" }
+          {
+            "q": "Quelle est la capitale du Portugal ?",
+            "a": "Lisbonne"
+          },
+          {
+            "q": "Quelle est la capitale de la Grèce ?",
+            "a": "Athènes"
+          },
+          {
+            "q": "Quelle est la capitale du Canada ?",
+            "a": "Ottawa"
+          },
+          {
+            "q": "Quelle ville est considérée comme la capitale de la Suisse ?",
+            "a": "Berne"
+          },
+          {
+            "q": "Quelle est la capitale des Pays-Bas ?",
+            "a": "Amsterdam"
+          },
+          {
+            "q": "Quel est le plus grand pays du monde par superficie ?",
+            "a": "La Russie"
+          },
+          {
+            "q": "Quel est le plus petit État du monde ?",
+            "a": "La Cité du Vatican"
+          },
+          {
+            "q": "Quel est le seul pays lusophone d’Amérique du Sud ?",
+            "a": "Le Brésil"
+          },
+          {
+            "q": "Quelle chaîne de montagnes sépare la France et l’Espagne ?",
+            "a": "Les Pyrénées"
+          },
+          {
+            "q": "Comment s’appelle la mer entre la France et l’Angleterre ?",
+            "a": "La Manche"
+          }
         ],
-        "3": [],
-        "4": [],
-        "5": [],
-        "6": [],
-        "7": [],
-        "8": [],
-        "9": [],
-        "10": []
+        "3": [
+          {
+            "q": "Quelle est la capitale de la Turquie ?",
+            "a": "Ankara"
+          },
+          {
+            "q": "Quelle est la capitale de l’Australie ?",
+            "a": "Canberra"
+          },
+          {
+            "q": "Quelle est la capitale du Maroc ?",
+            "a": "Rabat"
+          },
+          {
+            "q": "Quelle est la capitale de l’Égypte ?",
+            "a": "Le Caire"
+          },
+          {
+            "q": "Quel est le plus grand lac d’Afrique ?",
+            "a": "Le lac Victoria"
+          },
+          {
+            "q": "Quel est le plus haut sommet d’Afrique ?",
+            "a": "Le Kilimandjaro"
+          },
+          {
+            "q": "Comment s’appelle la péninsule qui regroupe l’Espagne et le Portugal ?",
+            "a": "La péninsule Ibérique"
+          },
+          {
+            "q": "Quel grand pays insulaire se trouve au large de l’Afrique australe ?",
+            "a": "Madagascar"
+          },
+          {
+            "q": "Quelle est la grande chaîne de montagnes le long de la côte ouest de l’Amérique du Sud ?",
+            "a": "Les Andes"
+          },
+          {
+            "q": "Quel fleuve traverse Londres ?",
+            "a": "La Tamise"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quelle est la capitale de la Nouvelle-Zélande ?",
+            "a": "Wellington"
+          },
+          {
+            "q": "Quelle est la capitale du Nigeria ?",
+            "a": "Abuja"
+          },
+          {
+            "q": "Quelle est la capitale du Viêt Nam ?",
+            "a": "Hanoï"
+          },
+          {
+            "q": "Quelle est la capitale de la Corée du Sud ?",
+            "a": "Séoul"
+          },
+          {
+            "q": "Quel détroit sépare l’Asie de l’Amérique du Nord ?",
+            "a": "Le détroit de Béring"
+          },
+          {
+            "q": "Quel désert se situe entre la Chine et la Mongolie ?",
+            "a": "Le désert de Gobi"
+          },
+          {
+            "q": "Quel est le lac le plus profond du monde ?",
+            "a": "Le lac Baïkal"
+          },
+          {
+            "q": "Quel est le plus long fleuve d’Europe ?",
+            "a": "La Volga"
+          },
+          {
+            "q": "Quel micro-État est entièrement enclavé dans l’Italie (hors Vatican) ?",
+            "a": "Saint-Marin"
+          },
+          {
+            "q": "Quel est le plus haut sommet des Alpes ?",
+            "a": "Le mont Blanc"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quelle est la capitale du Kazakhstan ?",
+            "a": "Astana"
+          },
+          {
+            "q": "Quelle est la capitale constitutionnelle de la Bolivie ?",
+            "a": "Sucre"
+          },
+          {
+            "q": "Quelle est la capitale politique de la Côte d’Ivoire ?",
+            "a": "Yamoussoukro"
+          },
+          {
+            "q": "Quelle est la capitale de la Tanzanie ?",
+            "a": "Dodoma"
+          },
+          {
+            "q": "Quelle est la capitale du Myanmar (Birmanie) ?",
+            "a": "Naypyidaw"
+          },
+          {
+            "q": "Quel pays enclavé d’Asie du Sud-Est est situé entre la Thaïlande et le Vietnam ?",
+            "a": "Le Laos"
+          },
+          {
+            "q": "Quel fleuve traverse Bagdad ?",
+            "a": "Le Tigre"
+          },
+          {
+            "q": "Quel vaste plan d’eau fermé d’Eurasie est souvent appelé une mer ?",
+            "a": "La mer Caspienne"
+          },
+          {
+            "q": "Quel est le plus grand désert au monde (tous types confondus) ?",
+            "a": "L’Antarctique"
+          },
+          {
+            "q": "Quelle chaîne sépare en partie l’Europe et l’Asie en Russie ?",
+            "a": "L’Oural"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quelle est la capitale de l’Éthiopie ?",
+            "a": "Addis-Abeba"
+          },
+          {
+            "q": "Quelle est la capitale de la Mongolie ?",
+            "a": "Oulan-Bator"
+          },
+          {
+            "q": "Quelle est la capitale du Népal ?",
+            "a": "Katmandou"
+          },
+          {
+            "q": "Quelle est la capitale de l’Azerbaïdjan ?",
+            "a": "Bakou"
+          },
+          {
+            "q": "Quelle est la capitale de la Colombie ?",
+            "a": "Bogota"
+          },
+          {
+            "q": "Quel État insulaire de Méditerranée forme un archipel entre la Sicile et la Tunisie ?",
+            "a": "Malte"
+          },
+          {
+            "q": "Quel est le point émergé le plus bas de la surface terrestre ?",
+            "a": "Le rivage de la mer Morte"
+          },
+          {
+            "q": "Quel fleuve traverse Budapest ?",
+            "a": "Le Danube"
+          },
+          {
+            "q": "Quel détroit relie la mer Rouge au golfe d’Aden ?",
+            "a": "Bab el-Mandeb"
+          },
+          {
+            "q": "Quel désert s’étend en Arizona et au nord-ouest du Mexique (Sonora/Basse-Californie) ?",
+            "a": "Le désert de Sonora"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quelle est la capitale de l’Ouzbékistan ?",
+            "a": "Tachkent"
+          },
+          {
+            "q": "Quelle est la capitale officielle (administrative) du Sri Lanka ?",
+            "a": "Sri Jayawardenepura Kotte"
+          },
+          {
+            "q": "Quelle est la capitale de l’Érythrée ?",
+            "a": "Asmara"
+          },
+          {
+            "q": "Quelle est la capitale du Paraguay ?",
+            "a": "Asunción"
+          },
+          {
+            "q": "Quelle est la capitale de la Lituanie ?",
+            "a": "Vilnius"
+          },
+          {
+            "q": "Quel grand pays-archipel compte plus de 17 000 îles ?",
+            "a": "L’Indonésie"
+          },
+          {
+            "q": "Quel plateau d’Asie est surnommé « le toit du monde » ?",
+            "a": "Le plateau du Tibet"
+          },
+          {
+            "q": "Quelle chaîne de montagnes s’étend au Maroc, en Algérie et en Tunisie ?",
+            "a": "L’Atlas"
+          },
+          {
+            "q": "Quel désert d’Amérique du Sud est réputé le plus aride ?",
+            "a": "Le désert d’Atacama"
+          },
+          {
+            "q": "Quel fleuve forme en partie la frontière entre les États-Unis et le Mexique ?",
+            "a": "Le Rio Grande"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quelle est la capitale du Bhoutan ?",
+            "a": "Thimphou"
+          },
+          {
+            "q": "Quelle est la capitale du Lesotho ?",
+            "a": "Maseru"
+          },
+          {
+            "q": "Quelle est la capitale du Malawi ?",
+            "a": "Lilongwe"
+          },
+          {
+            "q": "Quelle est la capitale du Tadjikistan ?",
+            "a": "Douchanbé"
+          },
+          {
+            "q": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
+            "a": "Port Moresby"
+          },
+          {
+            "q": "Quel est le plus grand delta du monde par la superficie des marais ?",
+            "a": "Le delta du Gange-Brahmapoutre (Sundarbans)"
+          },
+          {
+            "q": "Quelle mer au nord-est de l’Australie abrite la Grande Barrière de corail ?",
+            "a": "La mer de Corail"
+          },
+          {
+            "q": "Quelle est la plus grande île de la Méditerranée ?",
+            "a": "La Sicile"
+          },
+          {
+            "q": "Quelle grande chaîne montagneuse traverse l’Iran du nord-ouest au sud-est ?",
+            "a": "Le Zagros"
+          },
+          {
+            "q": "Comment s’appelle la dépression désertique d’Éthiopie aux extrêmes chaleurs ?",
+            "a": "La dépression du Danakil"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quelle est la capitale du Kirghizistan ?",
+            "a": "Bichkek"
+          },
+          {
+            "q": "Quelle est la capitale du Suriname ?",
+            "a": "Paramaribo"
+          },
+          {
+            "q": "Quelle est la capitale de la Mauritanie ?",
+            "a": "Nouakchott"
+          },
+          {
+            "q": "Quelle est la capitale du Belize ?",
+            "a": "Belmopan"
+          },
+          {
+            "q": "Quelle est la capitale des États fédérés de Micronésie ?",
+            "a": "Palikir"
+          },
+          {
+            "q": "Quel est le plus long fleuve d’Asie ?",
+            "a": "Le Yangtsé"
+          },
+          {
+            "q": "Quelle mer intérieure relie la mer Noire à la Méditerranée via les Dardanelles ?",
+            "a": "La mer de Marmara"
+          },
+          {
+            "q": "Comment appelle-t-on l’arc volcanique qui borde le Pacifique ?",
+            "a": "La ceinture de feu du Pacifique"
+          },
+          {
+            "q": "Quel grand lac salé d’Asie centrale s’est fortement asséché depuis les années 1960 ?",
+            "a": "La mer d’Aral"
+          },
+          {
+            "q": "Quelle est l’île la plus peuplée du monde ?",
+            "a": "Java"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel pays n’a pas de capitale officielle (le gouvernement siège à Yaren) ?",
+            "a": "Nauru"
+          },
+          {
+            "q": "Quelle est la capitale des Palaos (Peleliu/Belau) ?",
+            "a": "Ngerulmud"
+          },
+          {
+            "q": "Quelle est la capitale des Îles Marshall ?",
+            "a": "Majuro"
+          },
+          {
+            "q": "Quelle est la capitale du Burundi (depuis 2019) ?",
+            "a": "Gitega"
+          },
+          {
+            "q": "Quel est le point culminant du continent européen (au sens géographique) ?",
+            "a": "L’Elbrouz"
+          },
+          {
+            "q": "Quel est le plus grand lac du monde par superficie ?",
+            "a": "La mer Caspienne"
+          },
+          {
+            "q": "Quel archipel norvégien de l’Arctique abrite Longyearbyen ?",
+            "a": "Le Svalbard"
+          },
+          {
+            "q": "Quel est le plus grand atoll corallien du monde ?",
+            "a": "Kiritimati (île Christmas)"
+          },
+          {
+            "q": "Quel cap marque l’extrémité méridionale du continent africain ?",
+            "a": "Le cap des Aiguilles"
+          },
+          {
+            "q": "Quelle est la fosse océanique la plus profonde de la planète ?",
+            "a": "La fosse des Mariannes (Challenger Deep)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "histoire",
+      "name": "Histoire",
+      "questions": {
+        "1": [
+          {
+            "q": "En quelle année a eu lieu la Révolution française ?",
+            "a": "1789"
+          },
+          {
+            "q": "Qui fut le premier empereur de France ?",
+            "a": "Napoléon Ier"
+          },
+          {
+            "q": "Qui était le roi de France pendant la Révolution française ?",
+            "a": "Louis XVI"
+          },
+          {
+            "q": "Qui a découvert l’Amérique en 1492 ?",
+            "a": "Christophe Colomb"
+          },
+          {
+            "q": "Quel mur est tombé en 1989 ?",
+            "a": "Le mur de Berlin"
+          },
+          {
+            "q": "Quel général a libéré la France pendant la Seconde Guerre mondiale ?",
+            "a": "Charles de Gaulle"
+          },
+          {
+            "q": "En quelle année a eu lieu le débarquement de Normandie ?",
+            "a": "1944"
+          },
+          {
+            "q": "Quel roi est surnommé le « Roi Soleil » ?",
+            "a": "Louis XIV"
+          },
+          {
+            "q": "Quelle reine d’Égypte était connue pour sa beauté ?",
+            "a": "Cléopâtre"
+          },
+          {
+            "q": "Quel empire a construit le Colisée ?",
+            "a": "L’Empire romain"
+          }
+        ],
+        "2": [
+          {
+            "q": "En quelle année a eu lieu la Première Guerre mondiale ?",
+            "a": "1914-1918"
+          },
+          {
+            "q": "Qui fut assassiné à Sarajevo en 1914, déclenchant la Première Guerre mondiale ?",
+            "a": "L’archiduc François-Ferdinand"
+          },
+          {
+            "q": "Quel empereur romain a fait adopter le christianisme ?",
+            "a": "Constantin Ier"
+          },
+          {
+            "q": "Quel roi d’Angleterre a eu six épouses ?",
+            "a": "Henri VIII"
+          },
+          {
+            "q": "Qui était Jeanne d’Arc ?",
+            "a": "Une héroïne française de la guerre de Cent Ans"
+          },
+          {
+            "q": "Quelle grande peste a ravagé l’Europe au XIVe siècle ?",
+            "a": "La peste noire"
+          },
+          {
+            "q": "En quelle année l’homme a-t-il marché sur la Lune ?",
+            "a": "1969"
+          },
+          {
+            "q": "Qui fut président des États-Unis pendant la guerre de Sécession ?",
+            "a": "Abraham Lincoln"
+          },
+          {
+            "q": "Quel empire précolombien a construit Machu Picchu ?",
+            "a": "L’Empire inca"
+          },
+          {
+            "q": "Qui a peint la Cène ?",
+            "a": "Léonard de Vinci"
+          }
+        ],
+        "3": [
+          {
+            "q": "En quelle année a pris fin l’Empire romain d’Occident ?",
+            "a": "476"
+          },
+          {
+            "q": "Qui était le premier président de la Ve République française ?",
+            "a": "Charles de Gaulle"
+          },
+          {
+            "q": "Quel empire avait pour capitale Constantinople ?",
+            "a": "L’Empire byzantin"
+          },
+          {
+            "q": "Quel traité a mis fin à la Première Guerre mondiale ?",
+            "a": "Le traité de Versailles"
+          },
+          {
+            "q": "Qui était Martin Luther King ?",
+            "a": "Un leader du mouvement des droits civiques aux États-Unis"
+          },
+          {
+            "q": "Quel célèbre chef militaire carthaginois a traversé les Alpes avec ses éléphants ?",
+            "a": "Hannibal"
+          },
+          {
+            "q": "Quel pays a été dirigé par Franco après la guerre civile ?",
+            "a": "L’Espagne"
+          },
+          {
+            "q": "Quel événement a eu lieu le 11 septembre 2001 ?",
+            "a": "Les attentats aux États-Unis"
+          },
+          {
+            "q": "Quel roi fut guillotiné pendant la Révolution française ?",
+            "a": "Louis XVI"
+          },
+          {
+            "q": "Qui a écrit le « Contrat social » ?",
+            "a": "Jean-Jacques Rousseau"
+          }
+        ],
+        "4": [
+          {
+            "q": "En quelle année Christophe Colomb a-t-il découvert l’Amérique ?",
+            "a": "1492"
+          },
+          {
+            "q": "Quelle guerre opposa le Nord et le Sud des États-Unis ?",
+            "a": "La guerre de Sécession"
+          },
+          {
+            "q": "Quel pharaon est associé au masque funéraire en or découvert en 1922 ?",
+            "a": "Toutankhamon"
+          },
+          {
+            "q": "Quel explorateur portugais a contourné le cap de Bonne-Espérance ?",
+            "a": "Vasco de Gama"
+          },
+          {
+            "q": "Quel chef nazi fut responsable de la solution finale ?",
+            "a": "Heinrich Himmler"
+          },
+          {
+            "q": "Qui était le premier président de la République française ?",
+            "a": "Louis-Napoléon Bonaparte"
+          },
+          {
+            "q": "Quelle bataille a mis fin à l’Empire napoléonien ?",
+            "a": "Waterloo"
+          },
+          {
+            "q": "Quel mur a divisé Berlin pendant la guerre froide ?",
+            "a": "Le mur de Berlin"
+          },
+          {
+            "q": "Quel pays a lancé Spoutnik, le premier satellite ?",
+            "a": "L’URSS"
+          },
+          {
+            "q": "Qui a fondé l’Empire mongol ?",
+            "a": "Gengis Khan"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel roi franc fut couronné empereur en 800 ?",
+            "a": "Charlemagne"
+          },
+          {
+            "q": "Quelle dynastie a dirigé la Chine pendant le Moyen Âge ?",
+            "a": "Les Tang (entre autres)"
+          },
+          {
+            "q": "Quel pays a mené la révolution bolchevique ?",
+            "a": "La Russie"
+          },
+          {
+            "q": "Quelle guerre a opposé Athènes et Sparte ?",
+            "a": "La guerre du Péloponnèse"
+          },
+          {
+            "q": "Quel dirigeant soviétique a lancé la perestroïka ?",
+            "a": "Mikhaïl Gorbatchev"
+          },
+          {
+            "q": "Quelle révolution a eu lieu en 1917 ?",
+            "a": "La révolution russe"
+          },
+          {
+            "q": "Quelle guerre a opposé le Vietnam du Nord et le Vietnam du Sud ?",
+            "a": "La guerre du Vietnam"
+          },
+          {
+            "q": "Qui a écrit « Mein Kampf » ?",
+            "a": "Adolf Hitler"
+          },
+          {
+            "q": "Quelle dynastie française succède aux Mérovingiens ?",
+            "a": "Les Carolingiens"
+          },
+          {
+            "q": "Quel roi anglais a signé la Magna Carta en 1215 ?",
+            "a": "Jean sans Terre"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel traité a partagé le Nouveau Monde entre l’Espagne et le Portugal en 1494 ?",
+            "a": "Le traité de Tordesillas"
+          },
+          {
+            "q": "Qui était le premier tsar de Russie ?",
+            "a": "Ivan le Terrible"
+          },
+          {
+            "q": "Quel roi de Prusse est surnommé le « Grand » ?",
+            "a": "Frédéric II"
+          },
+          {
+            "q": "Qui a fondé l’Empire perse achéménide ?",
+            "a": "Cyrus le Grand"
+          },
+          {
+            "q": "Quelle bataille navale opposa Rome et Carthage ?",
+            "a": "La bataille des îles Égates"
+          },
+          {
+            "q": "Quelle croisade a abouti à la prise de Jérusalem en 1099 ?",
+            "a": "La première croisade"
+          },
+          {
+            "q": "Quel traité a mis fin à la guerre de Cent Ans ?",
+            "a": "Le traité de Picquigny"
+          },
+          {
+            "q": "Qui était le dernier roi de France ?",
+            "a": "Louis-Philippe Ier"
+          },
+          {
+            "q": "Quel mouvement a conduit à l’indépendance de l’Inde ?",
+            "a": "Le mouvement de Gandhi (non-violence)"
+          },
+          {
+            "q": "Quelle conférence de 1945 a préparé l’ONU ?",
+            "a": "La conférence de San Francisco"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quelle bataille a marqué la fin de l’empire perse face à Alexandre le Grand ?",
+            "a": "La bataille de Gaugamèles"
+          },
+          {
+            "q": "Qui a mené la longue marche en Chine ?",
+            "a": "Mao Zedong"
+          },
+          {
+            "q": "Quelle guerre a opposé Athènes et Sparte au Ve siècle av. J.-C. ?",
+            "a": "La guerre du Péloponnèse"
+          },
+          {
+            "q": "Quel roi a établi l’édit de Nantes ?",
+            "a": "Henri IV"
+          },
+          {
+            "q": "Quel événement marque le début du Moyen Âge en Europe ?",
+            "a": "La chute de l’Empire romain d’Occident (476)"
+          },
+          {
+            "q": "Qui fut le premier président de la IVe République française ?",
+            "a": "Vincent Auriol"
+          },
+          {
+            "q": "Quel traité a mis fin à la guerre de Trente Ans ?",
+            "a": "Le traité de Westphalie"
+          },
+          {
+            "q": "Quel général grec a vaincu les Perses à Marathon ?",
+            "a": "Miltiade"
+          },
+          {
+            "q": "Quel pays a subi l’Inquisition espagnole ?",
+            "a": "L’Espagne"
+          },
+          {
+            "q": "Quel leader soviétique a succédé à Staline ?",
+            "a": "Nikita Khrouchtchev"
+          }
+        ],
+        "8": [
+          {
+            "q": "Qui a mené la réforme protestante en 1517 ?",
+            "a": "Martin Luther"
+          },
+          {
+            "q": "Quel traité a mis fin à la guerre d’Indépendance américaine ?",
+            "a": "Le traité de Paris (1783)"
+          },
+          {
+            "q": "Quelle dynastie française a précédé les Capétiens ?",
+            "a": "Les Carolingiens"
+          },
+          {
+            "q": "Qui a dirigé la Révolution culturelle en Chine ?",
+            "a": "Mao Zedong"
+          },
+          {
+            "q": "Quel chef gaulois a résisté à Jules César ?",
+            "a": "Vercingétorix"
+          },
+          {
+            "q": "Quel empereur romain a divisé l’Empire en deux parties ?",
+            "a": "Dioclétien"
+          },
+          {
+            "q": "Quel événement a eu lieu en France en mai 1968 ?",
+            "a": "Les manifestations étudiantes et ouvrières"
+          },
+          {
+            "q": "Qui a signé les Accords de Camp David en 1978 ?",
+            "a": "Anouar el-Sadate, Menahem Begin, Jimmy Carter"
+          },
+          {
+            "q": "Qui était le premier président noir d’Afrique du Sud ?",
+            "a": "Nelson Mandela"
+          },
+          {
+            "q": "Quel empereur byzantin a fait construire Sainte-Sophie ?",
+            "a": "Justinien Ier"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quelle est la plus ancienne civilisation connue de Mésopotamie ?",
+            "a": "Les Sumériens"
+          },
+          {
+            "q": "Quelle reine anglaise a vaincu l’Armada espagnole ?",
+            "a": "Élisabeth Ire"
+          },
+          {
+            "q": "Qui a fondé l’Empire ottoman ?",
+            "a": "Osman Ier"
+          },
+          {
+            "q": "Quel traité de 1919 a imposé de lourdes sanctions à l’Allemagne ?",
+            "a": "Le traité de Versailles"
+          },
+          {
+            "q": "Qui a fondé la dynastie Ming en Chine ?",
+            "a": "Zhu Yuanzhang (Hongwu)"
+          },
+          {
+            "q": "Quelle révolution a débuté en Angleterre au XVIIIe siècle ?",
+            "a": "La révolution industrielle"
+          },
+          {
+            "q": "Quel roi est connu pour avoir lancé les croisades ?",
+            "a": "Urbain II (pape)"
+          },
+          {
+            "q": "Quel dirigeant cubain a pris le pouvoir en 1959 ?",
+            "a": "Fidel Castro"
+          },
+          {
+            "q": "Quel événement marque le début de la Révolution russe ?",
+            "a": "La révolution de Février 1917"
+          },
+          {
+            "q": "Quelle bataille a opposé Napoléon et les Russes en 1812 ?",
+            "a": "La bataille de la Moskova (Borodino)"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel traité a fondé la Communauté économique européenne en 1957 ?",
+            "a": "Le traité de Rome"
+          },
+          {
+            "q": "Quel empereur romain est mort en 180 ap. J.-C., marquant la fin de la Pax Romana ?",
+            "a": "Marc Aurèle"
+          },
+          {
+            "q": "Qui a été le premier président de la République populaire de Chine ?",
+            "a": "Mao Zedong"
+          },
+          {
+            "q": "Quel roi a lancé la construction de Versailles ?",
+            "a": "Louis XIV"
+          },
+          {
+            "q": "Qui a aboli l’apartheid en Afrique du Sud ?",
+            "a": "Nelson Mandela (avec F. W. de Klerk)"
+          },
+          {
+            "q": "Quel événement a eu lieu le 14 juillet 1789 ?",
+            "a": "La prise de la Bastille"
+          },
+          {
+            "q": "Quelle bataille a été la plus meurtrière de la Première Guerre mondiale ?",
+            "a": "La bataille de Verdun"
+          },
+          {
+            "q": "Quel empereur romain a construit un mur en Angleterre ?",
+            "a": "Hadrien"
+          },
+          {
+            "q": "Qui a fondé l’Empire carolingien ?",
+            "a": "Charlemagne"
+          },
+          {
+            "q": "Quel traité a mis fin à la Seconde Guerre mondiale avec le Japon ?",
+            "a": "Le traité de San Francisco (1951)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sciences",
+      "name": "Sciences",
+      "questions": {
+        "1": [
+          {
+            "q": "Combien font 2 + 2 ?",
+            "a": "4"
+          },
+          {
+            "q": "Quelle planète est surnommée la planète bleue ?",
+            "a": "La Terre"
+          },
+          {
+            "q": "Quelle planète est la plus proche du Soleil ?",
+            "a": "Mercure"
+          },
+          {
+            "q": "Combien de pattes a une araignée ?",
+            "a": "8"
+          },
+          {
+            "q": "Quel est l’organe qui pompe le sang ?",
+            "a": "Le cœur"
+          },
+          {
+            "q": "Quel gaz respirons-nous principalement ?",
+            "a": "L’oxygène (O2)"
+          },
+          {
+            "q": "Quel est le symbole chimique de l’eau ?",
+            "a": "H2O"
+          },
+          {
+            "q": "Quel est l’astre qui éclaire la Terre la nuit ?",
+            "a": "La Lune"
+          },
+          {
+            "q": "Quel est l’état de l’eau à 0°C ?",
+            "a": "Solide (glace)"
+          },
+          {
+            "q": "Combien de continents y a-t-il sur Terre ?",
+            "a": "7"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel est l’astre autour duquel tourne la Terre ?",
+            "a": "Le Soleil"
+          },
+          {
+            "q": "Quel organe nous permet de respirer ?",
+            "a": "Les poumons"
+          },
+          {
+            "q": "Quel est l’organe principal du système nerveux ?",
+            "a": "Le cerveau"
+          },
+          {
+            "q": "Combien de dents a un adulte en moyenne ?",
+            "a": "32"
+          },
+          {
+            "q": "Quel est le plus grand océan du monde ?",
+            "a": "Le Pacifique"
+          },
+          {
+            "q": "Quelle étoile est la plus proche de la Terre ?",
+            "a": "Le Soleil"
+          },
+          {
+            "q": "Quel est le gaz le plus abondant dans l’atmosphère terrestre ?",
+            "a": "L’azote (N2)"
+          },
+          {
+            "q": "Quel est l’organe qui fabrique l’urine ?",
+            "a": "Les reins"
+          },
+          {
+            "q": "Combien de paires de chromosomes possède l’être humain ?",
+            "a": "23"
+          },
+          {
+            "q": "Quel est l’organe qui filtre le sang ?",
+            "a": "Les reins"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel savant a formulé la théorie de la relativité ?",
+            "a": "Albert Einstein"
+          },
+          {
+            "q": "Quel savant a découvert la gravitation universelle ?",
+            "a": "Isaac Newton"
+          },
+          {
+            "q": "Quel est le plus gros organe du corps humain ?",
+            "a": "La peau"
+          },
+          {
+            "q": "Quel métal est liquide à température ambiante ?",
+            "a": "Le mercure"
+          },
+          {
+            "q": "Quel est le symbole chimique du sodium ?",
+            "a": "Na"
+          },
+          {
+            "q": "Quel est l’organe qui sécrète l’insuline ?",
+            "a": "Le pancréas"
+          },
+          {
+            "q": "Quel instrument mesure la température ?",
+            "a": "Le thermomètre"
+          },
+          {
+            "q": "Quel est le plus grand os du corps humain ?",
+            "a": "Le fémur"
+          },
+          {
+            "q": "Combien de dents de sagesse peut-on avoir ?",
+            "a": "4"
+          },
+          {
+            "q": "Quelle science étudie les étoiles et planètes ?",
+            "a": "L’astronomie"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quelle est la vitesse de la lumière dans le vide (approx.) ?",
+            "a": "300 000 km/s"
+          },
+          {
+            "q": "Qui est considéré comme le père de la microbiologie ?",
+            "a": "Louis Pasteur"
+          },
+          {
+            "q": "Quel est le point d’ébullition de l’eau à pression normale ?",
+            "a": "100°C"
+          },
+          {
+            "q": "Quel gaz est produit par les plantes lors de la photosynthèse ?",
+            "a": "L’oxygène"
+          },
+          {
+            "q": "Quel est le plus petit os du corps humain ?",
+            "a": "L’étrier (dans l’oreille)"
+          },
+          {
+            "q": "Quel type de sang est donneur universel ?",
+            "a": "O négatif"
+          },
+          {
+            "q": "Quelle planète est surnommée la planète rouge ?",
+            "a": "Mars"
+          },
+          {
+            "q": "Quelle est la planète la plus grosse du système solaire ?",
+            "a": "Jupiter"
+          },
+          {
+            "q": "Quel est le principal constituant de l’air ?",
+            "a": "L’azote"
+          },
+          {
+            "q": "Quel instrument mesure la pression atmosphérique ?",
+            "a": "Le baromètre"
+          }
+        ],
+        "5": [
+          {
+            "q": "Qui a inventé la pénicilline ?",
+            "a": "Alexander Fleming"
+          },
+          {
+            "q": "Quelle unité mesure l’énergie ?",
+            "a": "Le joule"
+          },
+          {
+            "q": "Quelle unité mesure la force ?",
+            "a": "Le newton"
+          },
+          {
+            "q": "Quelle unité mesure la puissance ?",
+            "a": "Le watt"
+          },
+          {
+            "q": "Quel gaz est nécessaire à la respiration cellulaire ?",
+            "a": "L’oxygène"
+          },
+          {
+            "q": "Quel est le nom scientifique de l’homme moderne ?",
+            "a": "Homo sapiens"
+          },
+          {
+            "q": "Quel est l’acide nucléique qui code nos gènes ?",
+            "a": "L’ADN"
+          },
+          {
+            "q": "Quel est l’autre acide nucléique impliqué dans la synthèse des protéines ?",
+            "a": "L’ARN"
+          },
+          {
+            "q": "Quel élément chimique a pour symbole Fe ?",
+            "a": "Le fer"
+          },
+          {
+            "q": "Quel est l’organe qui produit la bile ?",
+            "a": "Le foie"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quelle unité mesure la fréquence ?",
+            "a": "Le hertz (Hz)"
+          },
+          {
+            "q": "Quelle est la formule chimique du dioxyde de carbone ?",
+            "a": "CO2"
+          },
+          {
+            "q": "Quel est l’autre nom de la vitamine C ?",
+            "a": "Acide ascorbique"
+          },
+          {
+            "q": "Quelle planète possède le plus grand nombre de lunes ?",
+            "a": "Saturne"
+          },
+          {
+            "q": "Quel organe est touché par l’hépatite ?",
+            "a": "Le foie"
+          },
+          {
+            "q": "Quel physicien est célèbre pour l’équation E=mc² ?",
+            "a": "Albert Einstein"
+          },
+          {
+            "q": "Quelle unité mesure l’intensité électrique ?",
+            "a": "L’ampère"
+          },
+          {
+            "q": "Quelle unité mesure la tension électrique ?",
+            "a": "Le volt"
+          },
+          {
+            "q": "Quelle unité mesure la résistance électrique ?",
+            "a": "L’ohm"
+          },
+          {
+            "q": "Quel est le nom scientifique du sucre de table ?",
+            "a": "Saccharose"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel est l’élément chimique le plus léger ?",
+            "a": "L’hydrogène"
+          },
+          {
+            "q": "Quel est l’élément chimique le plus abondant dans l’univers ?",
+            "a": "L’hydrogène"
+          },
+          {
+            "q": "Quel est l’élément chimique le plus abondant dans la croûte terrestre ?",
+            "a": "L’oxygène"
+          },
+          {
+            "q": "Quel scientifique a proposé la théorie de l’évolution ?",
+            "a": "Charles Darwin"
+          },
+          {
+            "q": "Quel est le centre de contrôle de la cellule ?",
+            "a": "Le noyau"
+          },
+          {
+            "q": "Quel est l’organe qui produit l’insuline ?",
+            "a": "Le pancréas"
+          },
+          {
+            "q": "Quel est le pH de l’eau pure ?",
+            "a": "7"
+          },
+          {
+            "q": "Quel gaz est utilisé pour gonfler les ballons dirigeables car il est plus léger que l’air ?",
+            "a": "L’hélium"
+          },
+          {
+            "q": "Quelle planète a des anneaux spectaculaires ?",
+            "a": "Saturne"
+          },
+          {
+            "q": "Quelle unité mesure la température dans le système international ?",
+            "a": "Le kelvin"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel est le nom de la première femme dans l’espace ?",
+            "a": "Valentina Terechkova"
+          },
+          {
+            "q": "Quel est le nom du premier homme dans l’espace ?",
+            "a": "Youri Gagarine"
+          },
+          {
+            "q": "Quel est le nom du premier homme à avoir marché sur la Lune ?",
+            "a": "Neil Armstrong"
+          },
+          {
+            "q": "Quel est l’organe qui capte la lumière pour la vision ?",
+            "a": "La rétine"
+          },
+          {
+            "q": "Quel est le gaz le plus lourd de l’atmosphère terrestre ?",
+            "a": "Le dioxyde de carbone (CO2)"
+          },
+          {
+            "q": "Quelle particule est chargée positivement dans l’atome ?",
+            "a": "Le proton"
+          },
+          {
+            "q": "Quelle particule est chargée négativement ?",
+            "a": "L’électron"
+          },
+          {
+            "q": "Quelle particule est neutre ?",
+            "a": "Le neutron"
+          },
+          {
+            "q": "Quel est le plus grand organe interne du corps humain ?",
+            "a": "Le foie"
+          },
+          {
+            "q": "Quel est le nombre atomique de l’hydrogène ?",
+            "a": "1"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel est le nombre atomique de l’oxygène ?",
+            "a": "8"
+          },
+          {
+            "q": "Quel est le nombre atomique du carbone ?",
+            "a": "6"
+          },
+          {
+            "q": "Quel est le nombre atomique du fer ?",
+            "a": "26"
+          },
+          {
+            "q": "Quel est le nombre atomique de l’or ?",
+            "a": "79"
+          },
+          {
+            "q": "Quel est le nombre atomique de l’uranium ?",
+            "a": "92"
+          },
+          {
+            "q": "Quel scientifique a découvert la radioactivité ?",
+            "a": "Henri Becquerel"
+          },
+          {
+            "q": "Quel couple de scientifiques a étudié le radium ?",
+            "a": "Pierre et Marie Curie"
+          },
+          {
+            "q": "Quelle est la molécule qui transporte l’oxygène dans le sang ?",
+            "a": "L’hémoglobine"
+          },
+          {
+            "q": "Quelle est la planète la plus éloignée du Soleil ?",
+            "a": "Neptune"
+          },
+          {
+            "q": "Quel est l’autre nom de la loi de l’inertie ?",
+            "a": "La première loi de Newton"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel est le nombre d’éléments dans le tableau périodique (2023) ?",
+            "a": "118"
+          },
+          {
+            "q": "Quel est le nom du plus grand accélérateur de particules du monde ?",
+            "a": "Le LHC (Large Hadron Collider)"
+          },
+          {
+            "q": "Quelle particule élémentaire est associée au champ de masse découvert en 2012 ?",
+            "a": "Le boson de Higgs"
+          },
+          {
+            "q": "Quelle est la théorie qui décrit les particules élémentaires et leurs interactions ?",
+            "a": "Le modèle standard de la physique des particules"
+          },
+          {
+            "q": "Quel est l’âge approximatif de l’univers ?",
+            "a": "13,8 milliards d’années"
+          },
+          {
+            "q": "Quel est le nom de la première théorie de l’évolution publiée en 1859 ?",
+            "a": "L’Origine des espèces (Darwin)"
+          },
+          {
+            "q": "Quel est le nom de la constante gravitationnelle universelle ?",
+            "a": "G"
+          },
+          {
+            "q": "Quel est le nom de la plus célèbre équation d’Einstein ?",
+            "a": "E=mc²"
+          },
+          {
+            "q": "Quelle unité mesure l’énergie nucléaire libérée par une bombe atomique ?",
+            "a": "Le kilotonne (ou mégatonne) de TNT"
+          },
+          {
+            "q": "Quel est le nom de la sonde qui a quitté le système solaire en 2012 ?",
+            "a": "Voyager 1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "litterature",
+      "name": "Littérature",
+      "questions": {
+        "1": [
+          {
+            "q": "Qui a écrit « Le Petit Prince » ?",
+            "a": "Antoine de Saint-Exupéry"
+          },
+          {
+            "q": "Qui a écrit « Les Misérables » ?",
+            "a": "Victor Hugo"
+          },
+          {
+            "q": "Qui a écrit « Le Comte de Monte-Cristo » ?",
+            "a": "Alexandre Dumas"
+          },
+          {
+            "q": "Qui est l’auteur de « Candide » ?",
+            "a": "Voltaire"
+          },
+          {
+            "q": "Quel auteur a créé le détective Sherlock Holmes ?",
+            "a": "Arthur Conan Doyle"
+          },
+          {
+            "q": "Qui a écrit « L’Étranger » ?",
+            "a": "Albert Camus"
+          },
+          {
+            "q": "Qui a écrit « Germinal » ?",
+            "a": "Émile Zola"
+          },
+          {
+            "q": "Qui a écrit « L’Île au trésor » ?",
+            "a": "Robert Louis Stevenson"
+          },
+          {
+            "q": "Qui a écrit « Orgueil et Préjugés » ?",
+            "a": "Jane Austen"
+          },
+          {
+            "q": "Qui a écrit « Don Quichotte » ?",
+            "a": "Miguel de Cervantès"
+          }
+        ],
+        "2": [
+          {
+            "q": "Qui a écrit « Le Rouge et le Noir » ?",
+            "a": "Stendhal"
+          },
+          {
+            "q": "Qui a écrit « Madame Bovary » ?",
+            "a": "Gustave Flaubert"
+          },
+          {
+            "q": "Qui a écrit « Le Vieil Homme et la Mer » ?",
+            "a": "Ernest Hemingway"
+          },
+          {
+            "q": "Qui a écrit « 1984 » ?",
+            "a": "George Orwell"
+          },
+          {
+            "q": "Qui a écrit « Le Seigneur des Anneaux » ?",
+            "a": "J. R. R. Tolkien"
+          },
+          {
+            "q": "Qui a écrit « Le Nom de la rose » ?",
+            "a": "Umberto Eco"
+          },
+          {
+            "q": "Qui a écrit « Le Parfum » ?",
+            "a": "Patrick Süskind"
+          },
+          {
+            "q": "Qui a écrit « La Métamorphose » ?",
+            "a": "Franz Kafka"
+          },
+          {
+            "q": "Qui a écrit « Bel-Ami » ?",
+            "a": "Guy de Maupassant"
+          },
+          {
+            "q": "Qui a écrit « Les Fleurs du mal » ?",
+            "a": "Charles Baudelaire"
+          }
+        ],
+        "3": [
+          {
+            "q": "De quel pays est originaire Gabriel García Márquez ?",
+            "a": "Colombie"
+          },
+          {
+            "q": "De quel pays est originaire Haruki Murakami ?",
+            "a": "Japon"
+          },
+          {
+            "q": "Qui a créé le personnage d’Hercule Poirot ?",
+            "a": "Agatha Christie"
+          },
+          {
+            "q": "Quelle héroïne aime Mr. Rochester dans « Jane Eyre » ?",
+            "a": "Jane Eyre"
+          },
+          {
+            "q": "Quel roman commence par « Longtemps, je me suis couché de bonne heure » ?",
+            "a": "Du côté de chez Swann"
+          },
+          {
+            "q": "Qui a écrit « Le Meilleur des mondes » ?",
+            "a": "Aldous Huxley"
+          },
+          {
+            "q": "Qui a écrit « La Chartreuse de Parme » ?",
+            "a": "Stendhal"
+          },
+          {
+            "q": "Qui a écrit « Notre-Dame de Paris » ?",
+            "a": "Victor Hugo"
+          },
+          {
+            "q": "Quel écrivain russe a écrit « Crime et Châtiment » ?",
+            "a": "Fiodor Dostoïevski"
+          },
+          {
+            "q": "Quel auteur a écrit « Dix Petits Nègres » (titre original) ?",
+            "a": "Agatha Christie"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui a écrit « Cent ans de solitude » ?",
+            "a": "Gabriel García Márquez"
+          },
+          {
+            "q": "Qui a écrit « La Peste » ?",
+            "a": "Albert Camus"
+          },
+          {
+            "q": "Quel poète a écrit « Les Contemplations » ?",
+            "a": "Victor Hugo"
+          },
+          {
+            "q": "Qui a écrit « Voyage au bout de la nuit » ?",
+            "a": "Louis-Ferdinand Céline"
+          },
+          {
+            "q": "Quel auteur a écrit « Le Procès » ?",
+            "a": "Franz Kafka"
+          },
+          {
+            "q": "Qui a écrit « Le Vieil Homme et la Mer » et a obtenu le Nobel ?",
+            "a": "Ernest Hemingway"
+          },
+          {
+            "q": "Quel auteur a écrit « La Condition humaine » ?",
+            "a": "André Malraux"
+          },
+          {
+            "q": "Qui a écrit « Belle du Seigneur » ?",
+            "a": "Albert Cohen"
+          },
+          {
+            "q": "Quel écrivain a créé le personnage de D’Artagnan ?",
+            "a": "Alexandre Dumas"
+          },
+          {
+            "q": "Qui est l’auteur de « Les Trois Mousquetaires » ?",
+            "a": "Alexandre Dumas"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel écrivain a reçu le Nobel pour « Cent ans de solitude » ?",
+            "a": "Gabriel García Márquez"
+          },
+          {
+            "q": "Qui a écrit « La Divine Comédie » ?",
+            "a": "Dante Alighieri"
+          },
+          {
+            "q": "Qui a écrit « Faust » ?",
+            "a": "Goethe"
+          },
+          {
+            "q": "Qui a écrit « Le Décaméron » ?",
+            "a": "Boccace"
+          },
+          {
+            "q": "Quel auteur a écrit « Les Frères Karamazov » ?",
+            "a": "Fiodor Dostoïevski"
+          },
+          {
+            "q": "Qui a écrit « Guerre et Paix » ?",
+            "a": "Léon Tolstoï"
+          },
+          {
+            "q": "Qui a écrit « Le Bruit et la Fureur » ?",
+            "a": "William Faulkner"
+          },
+          {
+            "q": "Qui a écrit « Moby Dick » ?",
+            "a": "Herman Melville"
+          },
+          {
+            "q": "Qui a écrit « Ulysse » ?",
+            "a": "James Joyce"
+          },
+          {
+            "q": "Qui a écrit « Les Liaisons dangereuses » ?",
+            "a": "Choderlos de Laclos"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel dramaturge a écrit « Hamlet » ?",
+            "a": "William Shakespeare"
+          },
+          {
+            "q": "Quel dramaturge a écrit « Phèdre » ?",
+            "a": "Jean Racine"
+          },
+          {
+            "q": "Quel dramaturge a écrit « Le Cid » ?",
+            "a": "Pierre Corneille"
+          },
+          {
+            "q": "Quel dramaturge a écrit « Tartuffe » ?",
+            "a": "Molière"
+          },
+          {
+            "q": "Qui a écrit « En attendant Godot » ?",
+            "a": "Samuel Beckett"
+          },
+          {
+            "q": "Qui a écrit « Rhinocéros » ?",
+            "a": "Eugène Ionesco"
+          },
+          {
+            "q": "Qui a écrit « Antigone » (version moderne, 1944) ?",
+            "a": "Jean Anouilh"
+          },
+          {
+            "q": "Quel auteur a écrit « Huis clos » ?",
+            "a": "Jean-Paul Sartre"
+          },
+          {
+            "q": "Qui a écrit « Cyrano de Bergerac » ?",
+            "a": "Edmond Rostand"
+          },
+          {
+            "q": "Qui a écrit « Mère Courage et ses enfants » ?",
+            "a": "Bertolt Brecht"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel auteur a écrit « À la recherche du temps perdu » ?",
+            "a": "Marcel Proust"
+          },
+          {
+            "q": "Quel roman de Zola se déroule dans une mine ?",
+            "a": "Germinal"
+          },
+          {
+            "q": "Quel roman de Flaubert met en scène Emma ?",
+            "a": "Madame Bovary"
+          },
+          {
+            "q": "Quel roman de Stendhal raconte l’ambition de Julien Sorel ?",
+            "a": "Le Rouge et le Noir"
+          },
+          {
+            "q": "Quel écrivain a créé le personnage de Meursault ?",
+            "a": "Albert Camus"
+          },
+          {
+            "q": "Quel auteur argentin a écrit « Fictions » ?",
+            "a": "Jorge Luis Borges"
+          },
+          {
+            "q": "Quel poète français a écrit « Une saison en enfer » ?",
+            "a": "Arthur Rimbaud"
+          },
+          {
+            "q": "Qui a écrit « Le Maître et Marguerite » ?",
+            "a": "Mikhaïl Boulgakov"
+          },
+          {
+            "q": "Quel auteur a écrit « La Nausée » ?",
+            "a": "Jean-Paul Sartre"
+          },
+          {
+            "q": "Quel auteur a écrit « Les Racines du ciel » (Goncourt) ?",
+            "a": "Romain Gary"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel roman de Kafka met en scène un homme transformé en insecte ?",
+            "a": "La Métamorphose"
+          },
+          {
+            "q": "Quel roman d’Orwell décrit une société de surveillance extrême ?",
+            "a": "1984"
+          },
+          {
+            "q": "Quel roman de Huxley décrit une société eugéniste et conditionnée ?",
+            "a": "Le Meilleur des mondes"
+          },
+          {
+            "q": "Quel roman de Tolstoï met en scène Anna et Vronski ?",
+            "a": "Anna Karénine"
+          },
+          {
+            "q": "Quel roman de Dostoïevski met en scène Raskolnikov ?",
+            "a": "Crime et Châtiment"
+          },
+          {
+            "q": "Quel roman de Melville raconte la traque d’un cachalot blanc ?",
+            "a": "Moby Dick"
+          },
+          {
+            "q": "Quel roman de Cervantès met en scène un hidalgo fou ?",
+            "a": "Don Quichotte"
+          },
+          {
+            "q": "Quel roman de Victor Hugo raconte une émeute à Paris autour de Marius et Cosette ?",
+            "a": "Les Misérables"
+          },
+          {
+            "q": "Quel roman de Maupassant raconte l’ascension d’un séducteur arriviste ?",
+            "a": "Bel-Ami"
+          },
+          {
+            "q": "Quel roman de Zola se déroule dans un grand magasin ?",
+            "a": "Au Bonheur des Dames"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel poète a inventé le concept de « correspondances » ?",
+            "a": "Charles Baudelaire"
+          },
+          {
+            "q": "Quel recueil de Rimbaud contient « Le Bateau ivre » ?",
+            "a": "Poésies (ou Recueils divers de Rimbaud, souvent associé à « Une saison en enfer » et « Illuminations »)"
+          },
+          {
+            "q": "Quel poète a écrit « Le Dormeur du val » ?",
+            "a": "Arthur Rimbaud"
+          },
+          {
+            "q": "Qui a écrit « Les Chants de Maldoror » ?",
+            "a": "Lautréamont (Isidore Ducasse)"
+          },
+          {
+            "q": "Quel recueil de Mallarmé contient « L’Après-midi d’un faune » ?",
+            "a": "Poésies (poème éponyme)"
+          },
+          {
+            "q": "Quel poète surréaliste a écrit « Capitale de la douleur » ?",
+            "a": "Paul Éluard"
+          },
+          {
+            "q": "Qui est l’auteur de « Alcools » ?",
+            "a": "Guillaume Apollinaire"
+          },
+          {
+            "q": "Quel poète a théorisé le « cadavre exquis » avec Breton ?",
+            "a": "Paul Éluard (avec Breton, Tzara, etc.)"
+          },
+          {
+            "q": "Quel poète a écrit « Liberté » pendant la Seconde Guerre mondiale ?",
+            "a": "Paul Éluard"
+          },
+          {
+            "q": "Quel recueil de Baudelaire a été partiellement censuré en 1857 ?",
+            "a": "Les Fleurs du mal"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel écrivain a popularisé le monologue intérieur dans « Ulysse » ?",
+            "a": "James Joyce"
+          },
+          {
+            "q": "Quel roman de Proust explore la mémoire involontaire avec la madeleine ?",
+            "a": "Du côté de chez Swann"
+          },
+          {
+            "q": "Quel roman de Faulkner met en scène des points de vue multiples et un temps éclaté ?",
+            "a": "Le Bruit et la Fureur"
+          },
+          {
+            "q": "Quel roman de Musil est resté inachevé et monumental ?",
+            "a": "L’Homme sans qualités"
+          },
+          {
+            "q": "Quel roman de Borges est célèbre pour ses labyrinthes textuels ? (recueil)",
+            "a": "Fictions"
+          },
+          {
+            "q": "Quel roman de Nabokov met en scène Humbert Humbert ?",
+            "a": "Lolita"
+          },
+          {
+            "q": "Quel roman de Bulgakov mêle le diable et Moscou ?",
+            "a": "Le Maître et Marguerite"
+          },
+          {
+            "q": "Quel roman de Calvino explore des villes imaginaires ?",
+            "a": "Les Villes invisibles"
+          },
+          {
+            "q": "Quel roman de García Márquez incarne le réalisme magique dans la ville de Macondo ?",
+            "a": "Cent ans de solitude"
+          },
+          {
+            "q": "Quel roman de Thomas Mann raconte la vie d’un compositeur et questionne le génie et la morale ?",
+            "a": "Docteur Faustus"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cinema",
+      "name": "Cinéma",
+      "questions": {
+        "1": [
+          {
+            "q": "Qui a réalisé le film « Titanic » ?",
+            "a": "James Cameron"
+          },
+          {
+            "q": "Quel acteur joue Jack dans « Titanic » ?",
+            "a": "Leonardo DiCaprio"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un jeune sorcier nommé Harry ?",
+            "a": "Harry Potter"
+          },
+          {
+            "q": "Qui a réalisé « Jurassic Park » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Quel super-héros est aussi appelé l’homme chauve-souris ?",
+            "a": "Batman"
+          },
+          {
+            "q": "Quel est le premier film d’animation de Disney ?",
+            "a": "Blanche-Neige et les Sept Nains"
+          },
+          {
+            "q": "Quel est le prénom du héros dans « Indiana Jones » ?",
+            "a": "Indiana"
+          },
+          {
+            "q": "Quel monstre vit à Skull Island ?",
+            "a": "King Kong"
+          },
+          {
+            "q": "Quel est le vrai nom de Spider-Man ?",
+            "a": "Peter Parker"
+          },
+          {
+            "q": "Quel extraterrestre dit « E.T. téléphone maison » ?",
+            "a": "E.T."
+          }
+        ],
+        "2": [
+          {
+            "q": "Qui a réalisé « Inception » ?",
+            "a": "Christopher Nolan"
+          },
+          {
+            "q": "Qui joue Neo dans « Matrix » ?",
+            "a": "Keanu Reeves"
+          },
+          {
+            "q": "Quel film met en scène un requin géant en 1975 ?",
+            "a": "Les Dents de la mer"
+          },
+          {
+            "q": "Quel film a pour réplique « Hasta la vista, baby » ?",
+            "a": "Terminator 2"
+          },
+          {
+            "q": "Quel acteur incarne Iron Man ?",
+            "a": "Robert Downey Jr."
+          },
+          {
+            "q": "Quel film raconte la vie de Simba ?",
+            "a": "Le Roi Lion"
+          },
+          {
+            "q": "Quel est le nom du robot dans « Star Wars » avec la forme cylindrique ?",
+            "a": "R2-D2"
+          },
+          {
+            "q": "Qui a réalisé « Pulp Fiction » ?",
+            "a": "Quentin Tarantino"
+          },
+          {
+            "q": "Quel film met en scène des dinosaures clonés ?",
+            "a": "Jurassic Park"
+          },
+          {
+            "q": "Quel film d’animation met en scène Woody et Buzz ?",
+            "a": "Toy Story"
+          }
+        ],
+        "3": [
+          {
+            "q": "Qui a réalisé « Avatar » ?",
+            "a": "James Cameron"
+          },
+          {
+            "q": "Quel film raconte l’histoire du naufrage du Titanic ?",
+            "a": "Titanic"
+          },
+          {
+            "q": "Quel réalisateur est surnommé « le maître du suspense » ?",
+            "a": "Alfred Hitchcock"
+          },
+          {
+            "q": "Qui a réalisé « E.T. » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Quel film commence par « Il était une fois dans l’Ouest » ?",
+            "a": "Il était une fois dans l’Ouest"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un ogre vert ?",
+            "a": "Shrek"
+          },
+          {
+            "q": "Qui a réalisé « The Dark Knight » ?",
+            "a": "Christopher Nolan"
+          },
+          {
+            "q": "Quel film raconte l’histoire de Rose et Jack ?",
+            "a": "Titanic"
+          },
+          {
+            "q": "Qui a réalisé « Les Évadés » (The Shawshank Redemption) ?",
+            "a": "Frank Darabont"
+          },
+          {
+            "q": "Quel film d’animation met en scène une fourmi nommée Z ?",
+            "a": "Fourmiz"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui a réalisé « Gladiator » ?",
+            "a": "Ridley Scott"
+          },
+          {
+            "q": "Quel acteur joue le Joker dans « The Dark Knight » ?",
+            "a": "Heath Ledger"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un naufragé avec un ballon nommé Wilson ?",
+            "a": "Seul au monde"
+          },
+          {
+            "q": "Quel film met en scène Jack Sparrow ?",
+            "a": "Pirates des Caraïbes"
+          },
+          {
+            "q": "Quel film d’animation raconte l’histoire de Nemo ?",
+            "a": "Le Monde de Nemo"
+          },
+          {
+            "q": "Quel film met en scène un extraterrestre bleu nommé Neytiri ?",
+            "a": "Avatar"
+          },
+          {
+            "q": "Quel film raconte la vie de Forrest ?",
+            "a": "Forrest Gump"
+          },
+          {
+            "q": "Quel film a pour réplique « Je suis ton père » ?",
+            "a": "Star Wars V"
+          },
+          {
+            "q": "Qui a réalisé « Les Affranchis » ?",
+            "a": "Martin Scorsese"
+          },
+          {
+            "q": "Quel film raconte l’histoire de Marty McFly ?",
+            "a": "Retour vers le futur"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel film d’animation raconte l’histoire de Wall-E ?",
+            "a": "Wall-E"
+          },
+          {
+            "q": "Quel film raconte l’histoire de Andy et ses jouets ?",
+            "a": "Toy Story"
+          },
+          {
+            "q": "Qui a réalisé « Le Parrain » ?",
+            "a": "Francis Ford Coppola"
+          },
+          {
+            "q": "Qui a réalisé « Apocalypse Now » ?",
+            "a": "Francis Ford Coppola"
+          },
+          {
+            "q": "Qui a réalisé « Taxi Driver » ?",
+            "a": "Martin Scorsese"
+          },
+          {
+            "q": "Quel film raconte la vie de Rocky Balboa ?",
+            "a": "Rocky"
+          },
+          {
+            "q": "Quel film d’animation raconte l’histoire de deux sœurs, Anna et Elsa ?",
+            "a": "La Reine des neiges"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un ogre vert ?",
+            "a": "Shrek"
+          },
+          {
+            "q": "Qui a réalisé « Le Fabuleux Destin d’Amélie Poulain » ?",
+            "a": "Jean-Pierre Jeunet"
+          },
+          {
+            "q": "Qui a réalisé « Inglourious Basterds » ?",
+            "a": "Quentin Tarantino"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel film d’animation met en scène une voiture rouge nommée Flash McQueen ?",
+            "a": "Cars"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un clown maléfique ?",
+            "a": "Ça"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un robot nommé R2-D2 ?",
+            "a": "Star Wars"
+          },
+          {
+            "q": "Qui a réalisé « Interstellar » ?",
+            "a": "Christopher Nolan"
+          },
+          {
+            "q": "Qui a réalisé « Inception » ?",
+            "a": "Christopher Nolan"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un super-héros appelé Clark Kent ?",
+            "a": "Superman"
+          },
+          {
+            "q": "Quel film d’animation raconte la vie d’une famille de super-héros ?",
+            "a": "Les Indestructibles"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un roi lion ?",
+            "a": "Le Roi Lion"
+          },
+          {
+            "q": "Qui a réalisé « Blade Runner » ?",
+            "a": "Ridley Scott"
+          },
+          {
+            "q": "Qui a réalisé « Alien » ?",
+            "a": "Ridley Scott"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel film raconte l’histoire d’un hobbit nommé Frodon ?",
+            "a": "Le Seigneur des Anneaux"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un sorcier nommé Harry ?",
+            "a": "Harry Potter"
+          },
+          {
+            "q": "Quel film raconte l’histoire d’un magicien nommé Gandalf ?",
+            "a": "Le Seigneur des Anneaux"
+          },
+          {
+            "q": "Qui a réalisé « Le Silence des agneaux » ?",
+            "a": "Jonathan Demme"
+          },
+          {
+            "q": "Qui a réalisé « Shutter Island » ?",
+            "a": "Martin Scorsese"
+          },
+          {
+            "q": "Qui a réalisé « La Ligne verte » ?",
+            "a": "Frank Darabont"
+          },
+          {
+            "q": "Qui a réalisé « Fight Club » ?",
+            "a": "David Fincher"
+          },
+          {
+            "q": "Qui a réalisé « Seven » ?",
+            "a": "David Fincher"
+          },
+          {
+            "q": "Qui a réalisé « Gone Girl » ?",
+            "a": "David Fincher"
+          },
+          {
+            "q": "Qui a réalisé « Zodiac » ?",
+            "a": "David Fincher"
+          }
+        ],
+        "8": [
+          {
+            "q": "Qui a réalisé « Lawrence d’Arabie » ?",
+            "a": "David Lean"
+          },
+          {
+            "q": "Qui a réalisé « Docteur Jivago » ?",
+            "a": "David Lean"
+          },
+          {
+            "q": "Qui a réalisé « Les Aventuriers de l’arche perdue » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « La Liste de Schindler » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « Il faut sauver le soldat Ryan » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « Minority Report » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « Le Terminal » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « Munich » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « Ready Player One » ?",
+            "a": "Steven Spielberg"
+          },
+          {
+            "q": "Qui a réalisé « West Side Story » (2021) ?",
+            "a": "Steven Spielberg"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 1994 ?",
+            "a": "Forrest Gump"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 1997 ?",
+            "a": "Titanic"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2001 ?",
+            "a": "Gladiator"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2004 ?",
+            "a": "Le Seigneur des Anneaux : Le Retour du roi"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2009 ?",
+            "a": "Slumdog Millionaire"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2010 ?",
+            "a": "The Hurt Locker"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2012 ?",
+            "a": "The Artist"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2020 ?",
+            "a": "Parasite"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2021 ?",
+            "a": "Nomadland"
+          },
+          {
+            "q": "Quel film a gagné l’Oscar du meilleur film en 2022 ?",
+            "a": "CODA"
+          }
+        ],
+        "10": [
+          {
+            "q": "Qui a réalisé « Citizen Kane » ?",
+            "a": "Orson Welles"
+          },
+          {
+            "q": "Qui a réalisé « 2001, l’Odyssée de l’espace » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Orange mécanique » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Full Metal Jacket » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Eyes Wide Shut » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Barry Lyndon » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Shining » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Dr Folamour » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Spartacus » ?",
+            "a": "Stanley Kubrick"
+          },
+          {
+            "q": "Qui a réalisé « Paths of Glory » (Les Sentiers de la gloire) ?",
+            "a": "Stanley Kubrick"
+          }
+        ]
+      }
+    },
+    {
+      "id": "musique",
+      "name": "Musique",
+      "questions": {
+        "1": [
+          {
+            "q": "Quel groupe a chanté « Yesterday » ?",
+            "a": "The Beatles"
+          },
+          {
+            "q": "Qui est le « King of Pop » ?",
+            "a": "Michael Jackson"
+          },
+          {
+            "q": "Qui a chanté « Shape of You » ?",
+            "a": "Ed Sheeran"
+          },
+          {
+            "q": "Qui a chanté « Rolling in the Deep » ?",
+            "a": "Adele"
+          },
+          {
+            "q": "Qui a composé « La Flûte enchantée » ?",
+            "a": "Mozart"
+          },
+          {
+            "q": "Qui a chanté « Thriller » ?",
+            "a": "Michael Jackson"
+          },
+          {
+            "q": "Qui a composé « La Lettre à Élise » ?",
+            "a": "Beethoven"
+          },
+          {
+            "q": "Qui a chanté « Poker Face » ?",
+            "a": "Lady Gaga"
+          },
+          {
+            "q": "Quel groupe a chanté « Bohemian Rhapsody » ?",
+            "a": "Queen"
+          },
+          {
+            "q": "Qui a composé « L’Hymne à la joie » ?",
+            "a": "Beethoven"
+          }
+        ],
+        "2": [
+          {
+            "q": "Qui a chanté « Hello » ?",
+            "a": "Adele"
+          },
+          {
+            "q": "Qui a chanté « Someone Like You » ?",
+            "a": "Adele"
+          },
+          {
+            "q": "Quel chanteur est surnommé le Boss ?",
+            "a": "Bruce Springsteen"
+          },
+          {
+            "q": "Qui a chanté « Like a Virgin » ?",
+            "a": "Madonna"
+          },
+          {
+            "q": "Quel groupe a chanté « Smells Like Teen Spirit » ?",
+            "a": "Nirvana"
+          },
+          {
+            "q": "Qui a chanté « Purple Rain » ?",
+            "a": "Prince"
+          },
+          {
+            "q": "Quel groupe a chanté « Hotel California » ?",
+            "a": "The Eagles"
+          },
+          {
+            "q": "Quel chanteur est connu pour « Imagine » ?",
+            "a": "John Lennon"
+          },
+          {
+            "q": "Quel groupe a chanté « Satisfaction » ?",
+            "a": "The Rolling Stones"
+          },
+          {
+            "q": "Qui a chanté « All of Me » ?",
+            "a": "John Legend"
+          }
+        ],
+        "3": [
+          {
+            "q": "Qui a composé « La 9e Symphonie » ?",
+            "a": "Beethoven"
+          },
+          {
+            "q": "Qui a composé « Les Quatre Saisons » ?",
+            "a": "Vivaldi"
+          },
+          {
+            "q": "Qui a composé « Le Lac des cygnes » ?",
+            "a": "Tchaïkovski"
+          },
+          {
+            "q": "Qui a composé « Carmen » ?",
+            "a": "Bizet"
+          },
+          {
+            "q": "Qui a composé « La Traviata » ?",
+            "a": "Verdi"
+          },
+          {
+            "q": "Qui a composé « L’Art de la fugue » ?",
+            "a": "Bach"
+          },
+          {
+            "q": "Qui a composé « Le Boléro » ?",
+            "a": "Ravel"
+          },
+          {
+            "q": "Qui a composé « La Symphonie fantastique » ?",
+            "a": "Berlioz"
+          },
+          {
+            "q": "Qui a composé « Guillaume Tell » ?",
+            "a": "Rossini"
+          },
+          {
+            "q": "Qui a composé « La Flûte enchantée » ?",
+            "a": "Mozart"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui a chanté « Born in the USA » ?",
+            "a": "Bruce Springsteen"
+          },
+          {
+            "q": "Qui a chanté « Like a Rolling Stone » ?",
+            "a": "Bob Dylan"
+          },
+          {
+            "q": "Qui a chanté « Respect » ?",
+            "a": "Aretha Franklin"
+          },
+          {
+            "q": "Qui a chanté « I Will Always Love You » ?",
+            "a": "Whitney Houston"
+          },
+          {
+            "q": "Qui a chanté « My Heart Will Go On » ?",
+            "a": "Céline Dion"
+          },
+          {
+            "q": "Qui a chanté « No Woman, No Cry » ?",
+            "a": "Bob Marley"
+          },
+          {
+            "q": "Qui a chanté « Wonderwall » ?",
+            "a": "Oasis"
+          },
+          {
+            "q": "Qui a chanté « Hey Jude » ?",
+            "a": "The Beatles"
+          },
+          {
+            "q": "Qui a chanté « Smooth Criminal » ?",
+            "a": "Michael Jackson"
+          },
+          {
+            "q": "Qui a chanté « Umbrella » ?",
+            "a": "Rihanna"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel groupe a chanté « Stairway to Heaven » ?",
+            "a": "Led Zeppelin"
+          },
+          {
+            "q": "Quel groupe a chanté « Another Brick in the Wall » ?",
+            "a": "Pink Floyd"
+          },
+          {
+            "q": "Quel groupe a chanté « Highway to Hell » ?",
+            "a": "AC/DC"
+          },
+          {
+            "q": "Quel groupe a chanté « Enter Sandman » ?",
+            "a": "Metallica"
+          },
+          {
+            "q": "Quel groupe a chanté « Sweet Child O’ Mine » ?",
+            "a": "Guns N’ Roses"
+          },
+          {
+            "q": "Quel groupe a chanté « Paranoid » ?",
+            "a": "Black Sabbath"
+          },
+          {
+            "q": "Quel groupe a chanté « Californication » ?",
+            "a": "Red Hot Chili Peppers"
+          },
+          {
+            "q": "Quel groupe a chanté « Losing My Religion » ?",
+            "a": "R.E.M."
+          },
+          {
+            "q": "Quel groupe a chanté « Radioactive » ?",
+            "a": "Imagine Dragons"
+          },
+          {
+            "q": "Quel groupe a chanté « Seven Nation Army » ?",
+            "a": "The White Stripes"
+          }
+        ],
+        "6": [
+          {
+            "q": "Qui est le chanteur principal de U2 ?",
+            "a": "Bono"
+          },
+          {
+            "q": "Qui est le chanteur principal de Coldplay ?",
+            "a": "Chris Martin"
+          },
+          {
+            "q": "Qui est le chanteur principal de Queen ?",
+            "a": "Freddie Mercury"
+          },
+          {
+            "q": "Qui est le chanteur principal des Rolling Stones ?",
+            "a": "Mick Jagger"
+          },
+          {
+            "q": "Qui est le chanteur principal de Nirvana ?",
+            "a": "Kurt Cobain"
+          },
+          {
+            "q": "Qui est le chanteur principal de Maroon 5 ?",
+            "a": "Adam Levine"
+          },
+          {
+            "q": "Qui est le chanteur principal de Muse ?",
+            "a": "Matthew Bellamy"
+          },
+          {
+            "q": "Qui est le chanteur principal de Radiohead ?",
+            "a": "Thom Yorke"
+          },
+          {
+            "q": "Qui est le chanteur principal de Metallica ?",
+            "a": "James Hetfield"
+          },
+          {
+            "q": "Qui est le chanteur principal de Pearl Jam ?",
+            "a": "Eddie Vedder"
+          }
+        ],
+        "7": [
+          {
+            "q": "Qui est la chanteuse de « Single Ladies » ?",
+            "a": "Beyoncé"
+          },
+          {
+            "q": "Qui est la chanteuse de « Bad Romance » ?",
+            "a": "Lady Gaga"
+          },
+          {
+            "q": "Qui est la chanteuse de « Wrecking Ball » ?",
+            "a": "Miley Cyrus"
+          },
+          {
+            "q": "Qui est la chanteuse de « Shake It Off » ?",
+            "a": "Taylor Swift"
+          },
+          {
+            "q": "Qui est la chanteuse de « Material Girl » ?",
+            "a": "Madonna"
+          },
+          {
+            "q": "Qui est la chanteuse de « Rehab » ?",
+            "a": "Amy Winehouse"
+          },
+          {
+            "q": "Qui est la chanteuse de « Vogue » ?",
+            "a": "Madonna"
+          },
+          {
+            "q": "Qui est la chanteuse de « Hollaback Girl » ?",
+            "a": "Gwen Stefani"
+          },
+          {
+            "q": "Qui est la chanteuse de « Rolling in the Deep » ?",
+            "a": "Adele"
+          },
+          {
+            "q": "Qui est la chanteuse de « Diamonds » ?",
+            "a": "Rihanna"
+          }
+        ],
+        "8": [
+          {
+            "q": "Qui est le compositeur de l’opéra « La Bohème » ?",
+            "a": "Puccini"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Aïda » ?",
+            "a": "Verdi"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Don Giovanni » ?",
+            "a": "Mozart"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Le Barbier de Séville » ?",
+            "a": "Rossini"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Tristan et Isolde » ?",
+            "a": "Wagner"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Carmen » ?",
+            "a": "Bizet"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Tosca » ?",
+            "a": "Puccini"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Nabucco » ?",
+            "a": "Verdi"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « Les Noces de Figaro » ?",
+            "a": "Mozart"
+          },
+          {
+            "q": "Qui est le compositeur de l’opéra « L’Anneau du Nibelung » ?",
+            "a": "Wagner"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel artiste est surnommé le « Roi du reggae » ?",
+            "a": "Bob Marley"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Roi du jazz » ?",
+            "a": "Louis Armstrong"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Roi du rock’n’roll » ?",
+            "a": "Elvis Presley"
+          },
+          {
+            "q": "Quel artiste est surnommé la « Reine de la soul » ?",
+            "a": "Aretha Franklin"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Duc du jazz » ?",
+            "a": "Duke Ellington"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Prince de la pop » ?",
+            "a": "Justin Timberlake"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Roi du blues » ?",
+            "a": "B.B. King"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Roi du funk » ?",
+            "a": "James Brown"
+          },
+          {
+            "q": "Quel artiste est surnommé le « Roi du rap » ?",
+            "a": "Jay-Z"
+          },
+          {
+            "q": "Quel artiste est surnommé la « Reine du R&B » ?",
+            "a": "Beyoncé"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel compositeur est surnommé le « Cantor de Leipzig » ?",
+            "a": "Bach"
+          },
+          {
+            "q": "Quel compositeur est sourd à la fin de sa vie mais continue à composer ?",
+            "a": "Beethoven"
+          },
+          {
+            "q": "Quel compositeur est mort très jeune, à 35 ans, en 1791 ?",
+            "a": "Mozart"
+          },
+          {
+            "q": "Quel compositeur a écrit la « Symphonie du Nouveau Monde » ?",
+            "a": "Dvořák"
+          },
+          {
+            "q": "Quel compositeur russe a écrit « Casse-Noisette » ?",
+            "a": "Tchaïkovski"
+          },
+          {
+            "q": "Quel compositeur a écrit « L’Oiseau de feu » ?",
+            "a": "Stravinsky"
+          },
+          {
+            "q": "Quel compositeur français a écrit « Le Carnaval des animaux » ?",
+            "a": "Saint-Saëns"
+          },
+          {
+            "q": "Quel compositeur allemand a écrit « L’Or du Rhin » ?",
+            "a": "Wagner"
+          },
+          {
+            "q": "Quel compositeur italien a écrit « Otello » ?",
+            "a": "Verdi"
+          },
+          {
+            "q": "Quel compositeur a écrit « Les Tableaux d’une exposition » ?",
+            "a": "Moussorgski"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "questions": {
+        "1": [
+          {
+            "q": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?",
+            "a": "11"
+          },
+          {
+            "q": "Quel sport pratique Lionel Messi ?",
+            "a": "Football"
+          },
+          {
+            "q": "Quel sport pratique Roger Federer ?",
+            "a": "Tennis"
+          },
+          {
+            "q": "Quel sport pratique Michael Jordan ?",
+            "a": "Basketball"
+          },
+          {
+            "q": "Quel sport pratique Usain Bolt ?",
+            "a": "Athlétisme"
+          },
+          {
+            "q": "Quel sport pratique Tiger Woods ?",
+            "a": "Golf"
+          },
+          {
+            "q": "Quel sport pratique Serena Williams ?",
+            "a": "Tennis"
+          },
+          {
+            "q": "Quel sport pratique Lewis Hamilton ?",
+            "a": "Formule 1"
+          },
+          {
+            "q": "Quel sport pratique Tony Parker ?",
+            "a": "Basketball"
+          },
+          {
+            "q": "Quel sport pratique Rafael Nadal ?",
+            "a": "Tennis"
+          }
+        ],
+        "2": [
+          {
+            "q": "Combien de points vaut un essai au rugby ?",
+            "a": "5"
+          },
+          {
+            "q": "Quel sport se joue avec une batte et une balle en Angleterre ?",
+            "a": "Cricket"
+          },
+          {
+            "q": "Quel sport se joue avec une planche et des vagues ?",
+            "a": "Surf"
+          },
+          {
+            "q": "Combien de minutes dure un match de football ?",
+            "a": "90"
+          },
+          {
+            "q": "Quel sport utilise un tatami ?",
+            "a": "Judo"
+          },
+          {
+            "q": "Quel sport pratique Novak Djokovic ?",
+            "a": "Tennis"
+          },
+          {
+            "q": "Quel sport pratique Michael Phelps ?",
+            "a": "Natation"
+          },
+          {
+            "q": "Quel sport pratique Simone Biles ?",
+            "a": "Gymnastique"
+          },
+          {
+            "q": "Quel sport pratique Kylian Mbappé ?",
+            "a": "Football"
+          },
+          {
+            "q": "Quel sport pratique Stephen Curry ?",
+            "a": "Basketball"
+          }
+        ],
+        "3": [
+          {
+            "q": "Combien de joueurs dans une équipe de volley-ball ?",
+            "a": "6"
+          },
+          {
+            "q": "Combien de joueurs dans une équipe de handball ?",
+            "a": "7"
+          },
+          {
+            "q": "Combien de joueurs dans une équipe de basket sur le terrain ?",
+            "a": "5"
+          },
+          {
+            "q": "Combien de joueurs dans une équipe de rugby à XV ?",
+            "a": "15"
+          },
+          {
+            "q": "Combien de joueurs dans une équipe de baseball ?",
+            "a": "9"
+          },
+          {
+            "q": "Quel sport pratique Diego Maradona ?",
+            "a": "Football"
+          },
+          {
+            "q": "Quel sport pratique Pelé ?",
+            "a": "Football"
+          },
+          {
+            "q": "Quel sport pratique Kobe Bryant ?",
+            "a": "Basketball"
+          },
+          {
+            "q": "Quel sport pratique Alain Prost ?",
+            "a": "Formule 1"
+          },
+          {
+            "q": "Quel sport pratique Mike Tyson ?",
+            "a": "Boxe"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel pays a remporté la Coupe du Monde 2018 ?",
+            "a": "France"
+          },
+          {
+            "q": "Quel pays a remporté la Coupe du Monde 2014 ?",
+            "a": "Allemagne"
+          },
+          {
+            "q": "Quel pays a remporté la Coupe du Monde 2010 ?",
+            "a": "Espagne"
+          },
+          {
+            "q": "Quel pays a remporté la Coupe du Monde 2006 ?",
+            "a": "Italie"
+          },
+          {
+            "q": "Quel pays a remporté la Coupe du Monde 2002 ?",
+            "a": "Brésil"
+          },
+          {
+            "q": "Qui a remporté Roland-Garros en 2020 ?",
+            "a": "Rafael Nadal"
+          },
+          {
+            "q": "Qui a remporté Wimbledon en 2019 ?",
+            "a": "Novak Djokovic"
+          },
+          {
+            "q": "Qui a remporté l’Euro 2016 ?",
+            "a": "Portugal"
+          },
+          {
+            "q": "Qui a remporté l’Euro 2000 ?",
+            "a": "France"
+          },
+          {
+            "q": "Qui a remporté l’Euro 1992 ?",
+            "a": "Danemark"
+          }
+        ],
+        "5": [
+          {
+            "q": "Combien de médailles d’or a gagné Michael Phelps ?",
+            "a": "23"
+          },
+          {
+            "q": "Combien de fois Rafael Nadal a-t-il gagné Roland-Garros ?",
+            "a": "14"
+          },
+          {
+            "q": "Combien de fois la France a-t-elle gagné la Coupe du Monde de football ?",
+            "a": "2"
+          },
+          {
+            "q": "Combien de fois le Brésil a-t-il gagné la Coupe du Monde ?",
+            "a": "5"
+          },
+          {
+            "q": "Combien de fois l’Allemagne a-t-elle gagné la Coupe du Monde ?",
+            "a": "4"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or 2021 ?",
+            "a": "Lionel Messi"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or 2008 ?",
+            "a": "Cristiano Ronaldo"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or 1998 ?",
+            "a": "Zinedine Zidane"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or 1986 ?",
+            "a": "Diego Maradona"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or 1970 ?",
+            "a": "Pelé"
+          }
+        ],
+        "6": [
+          {
+            "q": "Qui a gagné les JO de Londres 2012 au 100m ?",
+            "a": "Usain Bolt"
+          },
+          {
+            "q": "Qui a gagné les JO de Pékin 2008 au 100m ?",
+            "a": "Usain Bolt"
+          },
+          {
+            "q": "Qui a gagné les JO de Rio 2016 au 100m ?",
+            "a": "Usain Bolt"
+          },
+          {
+            "q": "Quelle équipe NBA a gagné le plus de titres ?",
+            "a": "Boston Celtics et Los Angeles Lakers"
+          },
+          {
+            "q": "Quel joueur NBA est surnommé « King James » ?",
+            "a": "LeBron James"
+          },
+          {
+            "q": "Qui est le meilleur buteur de l’histoire de la Ligue des Champions ?",
+            "a": "Cristiano Ronaldo"
+          },
+          {
+            "q": "Qui est le meilleur buteur de l’histoire de la Coupe du Monde ?",
+            "a": "Miroslav Klose"
+          },
+          {
+            "q": "Qui est le meilleur buteur de l’histoire de l’équipe de France ?",
+            "a": "Olivier Giroud"
+          },
+          {
+            "q": "Qui a gagné Roland-Garros 1983 pour la France ?",
+            "a": "Yannick Noah"
+          },
+          {
+            "q": "Qui a gagné le Tour de France 2019 ?",
+            "a": "Egan Bernal"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel club a remporté la Ligue des Champions 2020 ?",
+            "a": "Bayern Munich"
+          },
+          {
+            "q": "Quel club a remporté la Ligue des Champions 2019 ?",
+            "a": "Liverpool"
+          },
+          {
+            "q": "Quel club a remporté la Ligue des Champions 2018 ?",
+            "a": "Real Madrid"
+          },
+          {
+            "q": "Quel club a remporté la Ligue des Champions 2017 ?",
+            "a": "Real Madrid"
+          },
+          {
+            "q": "Quel club a remporté la Ligue des Champions 2016 ?",
+            "a": "Real Madrid"
+          },
+          {
+            "q": "Qui a remporté la Coupe du Monde 1998 ?",
+            "a": "France"
+          },
+          {
+            "q": "Qui a remporté la Coupe du Monde 1994 ?",
+            "a": "Brésil"
+          },
+          {
+            "q": "Qui a remporté la Coupe du Monde 1982 ?",
+            "a": "Italie"
+          },
+          {
+            "q": "Qui a remporté la Coupe du Monde 1978 ?",
+            "a": "Argentine"
+          },
+          {
+            "q": "Qui a remporté la Coupe du Monde 1966 ?",
+            "a": "Angleterre"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel sportif a remporté 7 Tours de France mais a été déchu pour dopage ?",
+            "a": "Lance Armstrong"
+          },
+          {
+            "q": "Quel cycliste français a remporté le Tour de France 1985 ?",
+            "a": "Bernard Hinault"
+          },
+          {
+            "q": "Quel cycliste espagnol a remporté plusieurs fois le Tour de France ?",
+            "a": "Miguel Indurain"
+          },
+          {
+            "q": "Quel cycliste a gagné 5 Tours de France dans les années 60-70 ?",
+            "a": "Eddy Merckx"
+          },
+          {
+            "q": "Quel coureur a gagné le 100m en 9,58 secondes (record du monde) ?",
+            "a": "Usain Bolt"
+          },
+          {
+            "q": "Quel nageur détient le record de médailles olympiques ?",
+            "a": "Michael Phelps"
+          },
+          {
+            "q": "Quel joueur a marqué la « Main de Dieu » ?",
+            "a": "Diego Maradona"
+          },
+          {
+            "q": "Quel joueur français a marqué une panenka en finale de Coupe du Monde ?",
+            "a": "Zinedine Zidane"
+          },
+          {
+            "q": "Quel boxeur est surnommé « The Greatest » ?",
+            "a": "Muhammad Ali"
+          },
+          {
+            "q": "Quel boxeur est surnommé « Iron Mike » ?",
+            "a": "Mike Tyson"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel sport pratique Nadia Comaneci ?",
+            "a": "Gymnastique"
+          },
+          {
+            "q": "Quel sport pratique Carl Lewis ?",
+            "a": "Athlétisme"
+          },
+          {
+            "q": "Quel sport pratique Alain Bernard ?",
+            "a": "Natation"
+          },
+          {
+            "q": "Quel sport pratique Teddy Riner ?",
+            "a": "Judo"
+          },
+          {
+            "q": "Quel sport pratique Clarisse Agbégnénou ?",
+            "a": "Judo"
+          },
+          {
+            "q": "Quel sport pratique Laure Manaudou ?",
+            "a": "Natation"
+          },
+          {
+            "q": "Quel sport pratique Yohan Blake ?",
+            "a": "Athlétisme"
+          },
+          {
+            "q": "Quel sport pratique Novak Djokovic ?",
+            "a": "Tennis"
+          },
+          {
+            "q": "Quel sport pratique Zinédine Zidane ?",
+            "a": "Football"
+          },
+          {
+            "q": "Quel sport pratique Diego Forlán ?",
+            "a": "Football"
+          }
+        ],
+        "10": [
+          {
+            "q": "Qui a remporté le premier Ballon d’Or en 1956 ?",
+            "a": "Stanley Matthews"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 2005 ?",
+            "a": "Ronaldinho"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1995 ?",
+            "a": "George Weah"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1991 ?",
+            "a": "Jean-Pierre Papin"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1983 ?",
+            "a": "Michel Platini"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1982 ?",
+            "a": "Paolo Rossi"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1974 ?",
+            "a": "Johan Cruyff"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1969 ?",
+            "a": "Gianni Rivera"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1961 ?",
+            "a": "Omar Sívori"
+          },
+          {
+            "q": "Qui a remporté le Ballon d’Or en 1958 ?",
+            "a": "Raymond Kopa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harrypotter",
+      "name": "Harry Potter",
+      "questions": {
+        "1": [
+          {
+            "q": "Quel est le prénom du héros de la saga ?",
+            "a": "Harry"
+          },
+          {
+            "q": "Quel est le nom de famille de Ron ?",
+            "a": "Weasley"
+          },
+          {
+            "q": "Quel est le nom de famille d’Hermione ?",
+            "a": "Granger"
+          },
+          {
+            "q": "Comment s’appelle l’école de sorcellerie ?",
+            "a": "Poudlard"
+          },
+          {
+            "q": "Quel animal est Hedwige ?",
+            "a": "Une chouette"
+          }
+        ],
+        "2": [
+          {
+            "q": "Dans quelle maison est envoyé Harry ?",
+            "a": "Gryffondor"
+          },
+          {
+            "q": "Qui est le directeur de Poudlard ?",
+            "a": "Albus Dumbledore"
+          },
+          {
+            "q": "Quel est le sport favori des sorciers ?",
+            "a": "Le Quidditch"
+          },
+          {
+            "q": "Quel est le prénom du professeur Rogue ?",
+            "a": "Severus"
+          },
+          {
+            "q": "Quel est le nom du château où se trouve Poudlard ?",
+            "a": "Poudlard"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel est le nom du chien à trois têtes de Hagrid ?",
+            "a": "Touffu"
+          },
+          {
+            "q": "Quel est le nom du parrain de Harry ?",
+            "a": "Sirius Black"
+          },
+          {
+            "q": "Qui est l’elfe de maison de la famille Malefoy ?",
+            "a": "Dobby"
+          },
+          {
+            "q": "Qui est l’ennemi juré de Harry à l’école ?",
+            "a": "Drago Malefoy"
+          },
+          {
+            "q": "Quel professeur enseigne la métamorphose ?",
+            "a": "Minerva McGonagall"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui tue Dumbledore ?",
+            "a": "Severus Rogue"
+          },
+          {
+            "q": "Quel professeur enseigne la défense contre les forces du mal dans le tome 2 ?",
+            "a": "Gilderoy Lockhart"
+          },
+          {
+            "q": "Quel est le nom du gobelin qui travaille à Gringotts ?",
+            "a": "Gripsec"
+          },
+          {
+            "q": "Quel est le sort utilisé pour désarmer un adversaire ?",
+            "a": "Expelliarmus"
+          },
+          {
+            "q": "Quel est le nom du serpent de Voldemort ?",
+            "a": "Nagini"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel est le vrai nom de Voldemort ?",
+            "a": "Tom Elvis Jedusor"
+          },
+          {
+            "q": "Quel sort sert à tuer ?",
+            "a": "Avada Kedavra"
+          },
+          {
+            "q": "Quel professeur est loup-garou ?",
+            "a": "Remus Lupin"
+          },
+          {
+            "q": "Quel objet rend invisible ?",
+            "a": "La cape d’invisibilité"
+          },
+          {
+            "q": "Quel animal est Croûtard en réalité ?",
+            "a": "Peter Pettigrow"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel est le nom complet de l’école concurrente venue au Tournoi des Trois Sorciers dirigée par Madame Maxime ?",
+            "a": "Beauxbâtons"
+          },
+          {
+            "q": "Qui gagne le Tournoi des Trois Sorciers avec Harry ?",
+            "a": "Cedric Diggory (ils gagnent ensemble mais il meurt)"
+          },
+          {
+            "q": "Quel professeur enseigne les potions ?",
+            "a": "Severus Rogue"
+          },
+          {
+            "q": "Quel est le prénom de la mère de Harry ?",
+            "a": "Lily"
+          },
+          {
+            "q": "Quel est le prénom du père de Harry ?",
+            "a": "James"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel personnage peut se transformer en rat ?",
+            "a": "Peter Pettigrow"
+          },
+          {
+            "q": "Quel personnage est l’héritière de Serpentard dans le tome 2 ?",
+            "a": "Ginny Weasley (possédée par le journal)"
+          },
+          {
+            "q": "Quel objet Voldemort transforme-t-il en Horcruxe dans le tome 2 ?",
+            "a": "Le journal de Jedusor"
+          },
+          {
+            "q": "Quel est le patronus de Harry ?",
+            "a": "Un cerf"
+          },
+          {
+            "q": "Quel professeur est directeur de Serpentard ?",
+            "a": "Severus Rogue"
+          }
+        ],
+        "8": [
+          {
+            "q": "Qui tue Bellatrix Lestrange ?",
+            "a": "Molly Weasley"
+          },
+          {
+            "q": "Qui devient ministre de la Magie après la guerre ?",
+            "a": "Kingsley Shacklebolt"
+          },
+          {
+            "q": "Quel est le vrai maître de la baguette de Sureau avant Harry ?",
+            "a": "Draco Malefoy"
+          },
+          {
+            "q": "Quelle est la devise de Poudlard ?",
+            "a": "Draco dormiens nunquam titillandus"
+          },
+          {
+            "q": "Quel objet est nécessaire pour ouvrir la Chambre des Secrets ?",
+            "a": "Parler Fourchelang"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel est le prénom de la sœur de Dumbledore ?",
+            "a": "Ariana"
+          },
+          {
+            "q": "Quel est le prénom du frère de Dumbledore ?",
+            "a": "Aberforth"
+          },
+          {
+            "q": "Quel Horcruxe Hermione détruit-elle ?",
+            "a": "La coupe de Helga Poufsouffle"
+          },
+          {
+            "q": "Qui tue Nagini ?",
+            "a": "Neville Londubat"
+          },
+          {
+            "q": "Qui est le fantôme de Serdaigle ?",
+            "a": "La Dame Grise (Helena Serdaigle)"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel personnage est le véritable maître de la baguette de Sureau à la fin ?",
+            "a": "Harry Potter"
+          },
+          {
+            "q": "Quel Horcruxe est caché dans le médaillon ?",
+            "a": "Le médaillon de Salazar Serpentard"
+          },
+          {
+            "q": "Qui tue Voldemort ?",
+            "a": "Harry Potter (indirectement, son propre sort se retourne contre lui)"
+          },
+          {
+            "q": "Quel est le nom complet de Dumbledore ?",
+            "a": "Albus Percival Wulfric Brian Dumbledore"
+          },
+          {
+            "q": "Quelle pierre est l’un des Reliques de la Mort ?",
+            "a": "La pierre de résurrection"
+          }
+        ]
+      }
+    },
+    {
+      "id": "himym",
+      "name": "How I Met Your Mother",
+      "questions": {
+        "1": [
+          {
+            "q": "Quel est le prénom du personnage principal qui raconte l’histoire ?",
+            "a": "Ted"
+          },
+          {
+            "q": "Comment s’appelle le meilleur ami de Ted ?",
+            "a": "Marshall"
+          },
+          {
+            "q": "Qui est l’épouse de Marshall ?",
+            "a": "Lily"
+          },
+          {
+            "q": "Comment s’appelle l’ami séducteur de Ted ?",
+            "a": "Barney"
+          },
+          {
+            "q": "De quel pays vient Robin ?",
+            "a": "Canada"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel est le nom de famille de Ted ?",
+            "a": "Mosby"
+          },
+          {
+            "q": "Quel est le nom de famille de Barney ?",
+            "a": "Stinson"
+          },
+          {
+            "q": "Quel est le nom de famille de Marshall ?",
+            "a": "Eriksen"
+          },
+          {
+            "q": "Quel est le nom de famille de Robin ?",
+            "a": "Scherbatsky"
+          },
+          {
+            "q": "Quel est le nom de famille de Lily ?",
+            "a": "Aldrin"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quelle est la profession de Ted ?",
+            "a": "Architecte"
+          },
+          {
+            "q": "Quelle est la profession de Marshall ?",
+            "a": "Avocat"
+          },
+          {
+            "q": "Quelle est la profession de Lily ?",
+            "a": "Institutrice / artiste"
+          },
+          {
+            "q": "Quelle est la profession de Barney ?",
+            "a": "Inconnue (il dit « Please »)"
+          },
+          {
+            "q": "Quelle est la profession de Robin ?",
+            "a": "Journaliste / présentatrice télé"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel bar fréquentent-ils régulièrement ?",
+            "a": "MacLaren’s Pub"
+          },
+          {
+            "q": "Qui est le barman ami du groupe ?",
+            "a": "Carl"
+          },
+          {
+            "q": "Comment s’appelle le frère de Barney ?",
+            "a": "James"
+          },
+          {
+            "q": "Quel est le deuxième prénom de Ted ?",
+            "a": "Evelyn"
+          },
+          {
+            "q": "Qui est le colocataire de Ted dans la saison 1 ?",
+            "a": "Marshall"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel objet jaune devient un symbole récurrent ?",
+            "a": "Le parapluie jaune"
+          },
+          {
+            "q": "Comment s’appelle le site de rencontres que Ted utilise ?",
+            "a": "Love Solutions"
+          },
+          {
+            "q": "Quel est le jeu inventé par Marshall et Barney ?",
+            "a": "Marshgammon"
+          },
+          {
+            "q": "Quel est le plat préféré de Marshall ?",
+            "a": "Le sandwich (en réalité cannabis)"
+          },
+          {
+            "q": "Quelle est la boisson préférée de Barney ?",
+            "a": "Le scotch"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel est le nom du blog de Barney ?",
+            "a": "The Bro Code Blog"
+          },
+          {
+            "q": "Quel livre Barney a-t-il écrit ?",
+            "a": "The Bro Code"
+          },
+          {
+            "q": "Quel autre livre Barney a-t-il écrit ?",
+            "a": "The Playbook"
+          },
+          {
+            "q": "Qui est la première petite amie sérieuse de Ted dans la série ?",
+            "a": "Robin"
+          },
+          {
+            "q": "Qui est Stella ?",
+            "a": "La dermatologue qui sort avec Ted"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel est le prénom du père de Marshall ?",
+            "a": "Marvin"
+          },
+          {
+            "q": "Quel est le prénom de la mère de Marshall ?",
+            "a": "Judy"
+          },
+          {
+            "q": "Comment s’appelle le père de Barney qu’il retrouve ?",
+            "a": "Jerome"
+          },
+          {
+            "q": "Quel est le surnom de Robin en tant que chanteuse adolescente ?",
+            "a": "Robin Sparkles"
+          },
+          {
+            "q": "Quel est le tube célèbre de Robin Sparkles ?",
+            "a": "Let’s Go to the Mall"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel est le prénom de la mère des enfants de Ted ?",
+            "a": "Tracy"
+          },
+          {
+            "q": "Comment meurt le père de Marshall ?",
+            "a": "Crise cardiaque"
+          },
+          {
+            "q": "Quel est le nom du chien de Ted que Robin déteste ?",
+            "a": "Porthos (puis on apprend qu’il n’en a plus)"
+          },
+          {
+            "q": "Quelle université fréquentent Ted, Marshall et Lily ?",
+            "a": "Wesleyan University"
+          },
+          {
+            "q": "Quel est le nom du collègue de Barney, souvent mentionné ?",
+            "a": "Randy"
+          }
+        ],
+        "9": [
+          {
+            "q": "Qui est la première femme de Barney ?",
+            "a": "Robin"
+          },
+          {
+            "q": "Quel est le prénom de la fille de Marshall et Lily ?",
+            "a": "Daisy"
+          },
+          {
+            "q": "Quel est le prénom du fils de Marshall et Lily ?",
+            "a": "Marvin"
+          },
+          {
+            "q": "Qui est Zoey ?",
+            "a": "Une militante qui sort avec Ted"
+          },
+          {
+            "q": "Qui est The Mother (Tracy) avant de rencontrer Ted ?",
+            "a": "La colocataire de Cindy"
+          }
+        ],
+        "10": [
+          {
+            "q": "Avec qui Ted finit-il sa vie à la fin de la série ?",
+            "a": "Robin"
+          },
+          {
+            "q": "Comment s’appelle le mari de Tracy, décédé avant qu’elle rencontre Ted ?",
+            "a": "Il n’existe pas, elle n’était pas mariée"
+          },
+          {
+            "q": "Qui finit par devenir juge ?",
+            "a": "Marshall"
+          },
+          {
+            "q": "Quelle chanson joue lors du mariage de Barney et Robin ?",
+            "a": "Sandcastles in the Sand"
+          },
+          {
+            "q": "Qui raconte l’histoire de « How I Met Your Mother » aux enfants ?",
+            "a": "Ted, leur père"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plusoumoins",
+      "name": "Le plus ou le moins",
+      "questions": {
+        "1": [
+          {
+            "q": "Qui est le plus grand animal terrestre : l’éléphant ou la girafe ?",
+            "a": "La girafe"
+          },
+          {
+            "q": "Qui est plus rapide : le guépard ou l’autruche ?",
+            "a": "Le guépard"
+          },
+          {
+            "q": "Quel océan est le plus grand : Atlantique ou Pacifique ?",
+            "a": "Le Pacifique"
+          },
+          {
+            "q": "Qui vit le plus longtemps : la tortue ou le chien ?",
+            "a": "La tortue"
+          },
+          {
+            "q": "Quelle planète est la plus proche du Soleil : Mercure ou Vénus ?",
+            "a": "Mercure"
+          }
+        ],
+        "2": [
+          {
+            "q": "Qui a vécu le plus longtemps : Victor Hugo ou Napoléon Bonaparte ?",
+            "a": "Victor Hugo"
+          },
+          {
+            "q": "Quel pays est plus vaste : la Chine ou le Canada ?",
+            "a": "Le Canada"
+          },
+          {
+            "q": "Qui est plus lourd : un kilo de plumes ou un kilo de plomb ?",
+            "a": "C’est égal (1 kilo)"
+          },
+          {
+            "q": "Quel continent compte le plus de pays : l’Afrique ou l’Europe ?",
+            "a": "L’Afrique"
+          },
+          {
+            "q": "Qui a régné le plus longtemps : Louis XIV ou Napoléon Ier ?",
+            "a": "Louis XIV"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel est le plus haut sommet : l’Everest ou le Mont Blanc ?",
+            "a": "L’Everest"
+          },
+          {
+            "q": "Quel pays a la plus grande population : Inde ou Chine ?",
+            "a": "L’Inde (depuis 2023)"
+          },
+          {
+            "q": "Qui a écrit le plus de pièces de théâtre : Molière ou Racine ?",
+            "a": "Molière"
+          },
+          {
+            "q": "Quel sport attire le plus de spectateurs mondiaux : le football ou le cricket ?",
+            "a": "Le football"
+          },
+          {
+            "q": "Quel fruit contient le plus de vitamine C : l’orange ou le kiwi ?",
+            "a": "Le kiwi"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui est mort le plus tôt : Mozart ou Beethoven ?",
+            "a": "Mozart (35 ans)"
+          },
+          {
+            "q": "Quel pays est le plus peuplé d’Afrique : Nigeria ou Égypte ?",
+            "a": "Le Nigeria"
+          },
+          {
+            "q": "Qui a découvert l’Amérique en premier : Christophe Colomb ou Leif Erikson ?",
+            "a": "Leif Erikson"
+          },
+          {
+            "q": "Qui est plus vieux : la Tour Eiffel ou la Statue de la Liberté ?",
+            "a": "La Statue de la Liberté"
+          },
+          {
+            "q": "Qui a peint le plus de tableaux : Picasso ou Van Gogh ?",
+            "a": "Picasso"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel roman est plus ancien : L’Iliade ou Don Quichotte ?",
+            "a": "L’Iliade"
+          },
+          {
+            "q": "Quel pays est plus vaste : Russie ou États-Unis ?",
+            "a": "La Russie"
+          },
+          {
+            "q": "Qui est né en premier : Albert Einstein ou Isaac Newton ?",
+            "a": "Isaac Newton"
+          },
+          {
+            "q": "Quelle ville est plus ancienne : Rome ou Paris ?",
+            "a": "Rome"
+          },
+          {
+            "q": "Qui a écrit le plus de symphonies : Mozart ou Beethoven ?",
+            "a": "Haydn (plus que les deux), mais entre Mozart et Beethoven : Mozart"
+          }
+        ],
+        "6": [
+          {
+            "q": "Qui a gagné le plus de Coupes du Monde de football : Brésil ou Allemagne ?",
+            "a": "Brésil"
+          },
+          {
+            "q": "Qui a eu le mandat le plus long : Angela Merkel ou Emmanuel Macron ?",
+            "a": "Angela Merkel"
+          },
+          {
+            "q": "Qui a régné plus longtemps : Élisabeth II ou Victoria ?",
+            "a": "Élisabeth II"
+          },
+          {
+            "q": "Quel océan est le plus profond : Atlantique ou Pacifique ?",
+            "a": "Le Pacifique"
+          },
+          {
+            "q": "Qui est plus grand : Tour Eiffel ou Empire State Building ?",
+            "a": "Empire State Building"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel pays produit le plus de vin : Italie ou France ?",
+            "a": "Italie"
+          },
+          {
+            "q": "Qui est plus vieux : Google ou Facebook ?",
+            "a": "Google"
+          },
+          {
+            "q": "Qui est plus ancien : le téléphone ou l’ampoule électrique ?",
+            "a": "Le téléphone"
+          },
+          {
+            "q": "Quel est le plus grand désert : Sahara ou Gobi ?",
+            "a": "Sahara"
+          },
+          {
+            "q": "Qui est plus rapide : avion Concorde ou TGV ?",
+            "a": "Concorde"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel écrivain a vendu le plus de livres : J.K. Rowling ou J.R.R. Tolkien ?",
+            "a": "J.K. Rowling"
+          },
+          {
+            "q": "Qui a été président le premier : Barack Obama ou Donald Trump ?",
+            "a": "Barack Obama"
+          },
+          {
+            "q": "Quel pays a le plus de volcans : Indonésie ou Islande ?",
+            "a": "Indonésie"
+          },
+          {
+            "q": "Qui a gagné le plus de Tour de France : Bernard Hinault ou Eddy Merckx ?",
+            "a": "Eddy Merckx"
+          },
+          {
+            "q": "Quelle ville a le plus d’habitants : Tokyo ou New York ?",
+            "a": "Tokyo"
+          }
+        ],
+        "9": [
+          {
+            "q": "Qui a écrit le plus de pièces : Shakespeare ou Molière ?",
+            "a": "Shakespeare"
+          },
+          {
+            "q": "Qui est plus vieux : le Big Bang (théorie scientifique) ou la Terre ?",
+            "a": "Le Big Bang"
+          },
+          {
+            "q": "Quelle guerre a duré le plus longtemps : Guerre de Cent Ans ou Première Guerre mondiale ?",
+            "a": "La Guerre de Cent Ans"
+          },
+          {
+            "q": "Qui a été inventé en premier : l’imprimerie ou la boussole ?",
+            "a": "La boussole"
+          },
+          {
+            "q": "Quel peintre a produit le plus d’œuvres : Picasso ou Monet ?",
+            "a": "Picasso"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel empire a duré le plus longtemps : Empire romain d’Occident ou Empire byzantin ?",
+            "a": "Empire byzantin"
+          },
+          {
+            "q": "Qui a vécu le plus vieux : Jeanne Calment ou Michelangelo ?",
+            "a": "Jeanne Calment"
+          },
+          {
+            "q": "Quel est le plus vieux texte écrit : l’Épopée de Gilgamesh ou la Bible ?",
+            "a": "L’Épopée de Gilgamesh"
+          },
+          {
+            "q": "Qui a existé le premier : les dinosaures ou les premiers mammifères ?",
+            "a": "Les dinosaures"
+          },
+          {
+            "q": "Quelle est la plus ancienne université : Bologne ou Oxford ?",
+            "a": "Bologne"
+          }
+        ]
+      }
+    },
+    {
+      "id": "quisuisje",
+      "name": "Qui suis-je ?",
+      "questions": {
+        "1": [
+          {
+            "q": "Je suis le président actuel de la France (2023). Qui suis-je ?",
+            "a": "Emmanuel Macron"
+          },
+          {
+            "q": "Je suis un fruit jaune et courbé. Qui suis-je ?",
+            "a": "La banane"
+          },
+          {
+            "q": "Je suis le sorcier avec une cicatrice en forme d’éclair. Qui suis-je ?",
+            "a": "Harry Potter"
+          },
+          {
+            "q": "Je suis le meilleur ami de Batman. Qui suis-je ?",
+            "a": "Robin"
+          },
+          {
+            "q": "Je suis un animal qui dit « meuh ». Qui suis-je ?",
+            "a": "La vache"
+          }
+        ],
+        "2": [
+          {
+            "q": "Je suis la capitale de la France. Qui suis-je ?",
+            "a": "Paris"
+          },
+          {
+            "q": "Je suis le héros qui a vaincu Voldemort. Qui suis-je ?",
+            "a": "Harry Potter"
+          },
+          {
+            "q": "Je suis un animal qui vit dans la mer et a huit bras. Qui suis-je ?",
+            "a": "La pieuvre"
+          },
+          {
+            "q": "Je suis l’homme qui a marché sur la Lune en 1969. Qui suis-je ?",
+            "a": "Neil Armstrong"
+          },
+          {
+            "q": "Je suis le créateur de Facebook. Qui suis-je ?",
+            "a": "Mark Zuckerberg"
+          }
+        ],
+        "3": [
+          {
+            "q": "Je suis un célèbre roi de France, surnommé le Roi-Soleil. Qui suis-je ?",
+            "a": "Louis XIV"
+          },
+          {
+            "q": "Je suis l’auteur de « Les Misérables ». Qui suis-je ?",
+            "a": "Victor Hugo"
+          },
+          {
+            "q": "Je suis un film de James Cameron sorti en 1997. Qui suis-je ?",
+            "a": "Titanic"
+          },
+          {
+            "q": "Je suis le dieu de la foudre dans la mythologie nordique. Qui suis-je ?",
+            "a": "Thor"
+          },
+          {
+            "q": "Je suis un détective londonien créé par Arthur Conan Doyle. Qui suis-je ?",
+            "a": "Sherlock Holmes"
+          }
+        ],
+        "4": [
+          {
+            "q": "Je suis une scientifique franco-polonaise, deux fois prix Nobel. Qui suis-je ?",
+            "a": "Marie Curie"
+          },
+          {
+            "q": "Je suis le premier président noir des États-Unis. Qui suis-je ?",
+            "a": "Barack Obama"
+          },
+          {
+            "q": "Je suis le célèbre peintre de la Joconde. Qui suis-je ?",
+            "a": "Léonard de Vinci"
+          },
+          {
+            "q": "Je suis un géant vert qui crie « Hulk Smash ! ». Qui suis-je ?",
+            "a": "Hulk"
+          },
+          {
+            "q": "Je suis le créateur d’Apple. Qui suis-je ?",
+            "a": "Steve Jobs"
+          }
+        ],
+        "5": [
+          {
+            "q": "Je suis un dictateur allemand pendant la Seconde Guerre mondiale. Qui suis-je ?",
+            "a": "Adolf Hitler"
+          },
+          {
+            "q": "Je suis la ville détruite par un volcan en 79 après J.-C. Qui suis-je ?",
+            "a": "Pompéi"
+          },
+          {
+            "q": "Je suis une planète rouge. Qui suis-je ?",
+            "a": "Mars"
+          },
+          {
+            "q": "Je suis le frère de Luigi. Qui suis-je ?",
+            "a": "Mario"
+          },
+          {
+            "q": "Je suis un écrivain britannique, créateur de Sherlock Holmes. Qui suis-je ?",
+            "a": "Arthur Conan Doyle"
+          }
+        ],
+        "6": [
+          {
+            "q": "Je suis une reine d’Égypte, connue pour ma beauté. Qui suis-je ?",
+            "a": "Cléopâtre"
+          },
+          {
+            "q": "Je suis un dictateur soviétique du XXe siècle. Qui suis-je ?",
+            "a": "Joseph Staline"
+          },
+          {
+            "q": "Je suis le créateur de Microsoft. Qui suis-je ?",
+            "a": "Bill Gates"
+          },
+          {
+            "q": "Je suis le chanteur de « Thriller ». Qui suis-je ?",
+            "a": "Michael Jackson"
+          },
+          {
+            "q": "Je suis une aventurière de jeu vidéo, archéologue. Qui suis-je ?",
+            "a": "Lara Croft"
+          }
+        ],
+        "7": [
+          {
+            "q": "Je suis un empereur français, célèbre pour Waterloo. Qui suis-je ?",
+            "a": "Napoléon Bonaparte"
+          },
+          {
+            "q": "Je suis le créateur du Seigneur des Anneaux. Qui suis-je ?",
+            "a": "J.R.R. Tolkien"
+          },
+          {
+            "q": "Je suis un scientifique qui a proposé la relativité. Qui suis-je ?",
+            "a": "Albert Einstein"
+          },
+          {
+            "q": "Je suis le plus célèbre vampire de la littérature. Qui suis-je ?",
+            "a": "Dracula"
+          },
+          {
+            "q": "Je suis le premier homme à voyager dans l’espace. Qui suis-je ?",
+            "a": "Youri Gagarine"
+          }
+        ],
+        "8": [
+          {
+            "q": "Je suis un roi macédonien qui a conquis la moitié du monde connu. Qui suis-je ?",
+            "a": "Alexandre le Grand"
+          },
+          {
+            "q": "Je suis un dictateur italien allié de Hitler. Qui suis-je ?",
+            "a": "Benito Mussolini"
+          },
+          {
+            "q": "Je suis une princesse Disney qui perd sa pantoufle. Qui suis-je ?",
+            "a": "Cendrillon"
+          },
+          {
+            "q": "Je suis l’auteur de Harry Potter. Qui suis-je ?",
+            "a": "J.K. Rowling"
+          },
+          {
+            "q": "Je suis une déesse grecque de la sagesse. Qui suis-je ?",
+            "a": "Athéna"
+          }
+        ],
+        "9": [
+          {
+            "q": "Je suis un roi des Huns, redouté dans l’Antiquité. Qui suis-je ?",
+            "a": "Attila"
+          },
+          {
+            "q": "Je suis un pharaon dont le tombeau fut découvert en 1922. Qui suis-je ?",
+            "a": "Toutânkhamon"
+          },
+          {
+            "q": "Je suis un philosophe grec, maître de Platon. Qui suis-je ?",
+            "a": "Socrate"
+          },
+          {
+            "q": "Je suis un héros grec qui a combattu à Troie. Qui suis-je ?",
+            "a": "Achille"
+          },
+          {
+            "q": "Je suis un leader sud-africain ayant lutté contre l’apartheid. Qui suis-je ?",
+            "a": "Nelson Mandela"
+          }
+        ],
+        "10": [
+          {
+            "q": "Je suis le fondateur de l’Empire mongol. Qui suis-je ?",
+            "a": "Gengis Khan"
+          },
+          {
+            "q": "Je suis le premier empereur de Chine. Qui suis-je ?",
+            "a": "Qin Shi Huangdi"
+          },
+          {
+            "q": "Je suis un philosophe allemand, auteur de « Ainsi parlait Zarathoustra ». Qui suis-je ?",
+            "a": "Friedrich Nietzsche"
+          },
+          {
+            "q": "Je suis un stratège chinois, auteur de « L’Art de la guerre ». Qui suis-je ?",
+            "a": "Sun Tzu"
+          },
+          {
+            "q": "Je suis un roi d’Angleterre exécuté pendant la révolution anglaise. Qui suis-je ?",
+            "a": "Charles Ier"
+          }
+        ]
+      }
+    },
+    {
+      "id": "inventions",
+      "name": "Inventions et découvertes",
+      "questions": {
+        "1": [
+          {
+            "q": "Qui a inventé le téléphone ?",
+            "a": "Alexander Graham Bell"
+          },
+          {
+            "q": "Qui a inventé l’ampoule électrique ?",
+            "a": "Thomas Edison"
+          },
+          {
+            "q": "Qui a découvert la gravité en voyant une pomme tomber ?",
+            "a": "Isaac Newton"
+          },
+          {
+            "q": "Qui a inventé l’avion avec son frère Orville ?",
+            "a": "Wilbur Wright"
+          },
+          {
+            "q": "Qui a inventé la radio ?",
+            "a": "Guglielmo Marconi"
+          }
+        ],
+        "2": [
+          {
+            "q": "Qui a découvert l’Amérique en 1492 ?",
+            "a": "Christophe Colomb"
+          },
+          {
+            "q": "Qui a inventé la pénicilline ?",
+            "a": "Alexander Fleming"
+          },
+          {
+            "q": "Qui a inventé la machine à vapeur moderne ?",
+            "a": "James Watt"
+          },
+          {
+            "q": "Qui a inventé le World Wide Web ?",
+            "a": "Tim Berners-Lee"
+          },
+          {
+            "q": "Qui a inventé l’imprimerie en Europe ?",
+            "a": "Gutenberg"
+          }
+        ],
+        "3": [
+          {
+            "q": "Qui a inventé la dynamite ?",
+            "a": "Alfred Nobel"
+          },
+          {
+            "q": "Qui a inventé le cinéma ?",
+            "a": "Les frères Lumière"
+          },
+          {
+            "q": "Qui a découvert la relativité ?",
+            "a": "Albert Einstein"
+          },
+          {
+            "q": "Qui a inventé le stylo à bille ?",
+            "a": "László Bíró"
+          },
+          {
+            "q": "Qui a inventé le phonographe ?",
+            "a": "Thomas Edison"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui a inventé l’électricité moderne avec le courant alternatif ?",
+            "a": "Nikola Tesla"
+          },
+          {
+            "q": "Qui a inventé la pile électrique ?",
+            "a": "Alessandro Volta"
+          },
+          {
+            "q": "Qui a découvert l’insuline ?",
+            "a": "Frederick Banting et Charles Best"
+          },
+          {
+            "q": "Qui a inventé le revolver Colt ?",
+            "a": "Samuel Colt"
+          },
+          {
+            "q": "Qui a inventé le premier ordinateur programmable ?",
+            "a": "Konrad Zuse"
+          }
+        ],
+        "5": [
+          {
+            "q": "Qui a découvert l’Amérique du Sud par voie maritime ?",
+            "a": "Amerigo Vespucci"
+          },
+          {
+            "q": "Qui a inventé le parachute ?",
+            "a": "Louis-Sébastien Lenormand"
+          },
+          {
+            "q": "Qui a découvert l’ADN avec James Watson ?",
+            "a": "Francis Crick"
+          },
+          {
+            "q": "Qui a inventé le téléphone portable ?",
+            "a": "Martin Cooper"
+          },
+          {
+            "q": "Qui a inventé la machine à écrire ?",
+            "a": "Christopher Sholes"
+          }
+        ],
+        "6": [
+          {
+            "q": "Qui a inventé la voiture moderne avec le moteur à explosion ?",
+            "a": "Karl Benz"
+          },
+          {
+            "q": "Qui a inventé l’aspirine ?",
+            "a": "Felix Hoffmann"
+          },
+          {
+            "q": "Qui a inventé le microscope ?",
+            "a": "Antoni van Leeuwenhoek"
+          },
+          {
+            "q": "Qui a inventé la boussole ?",
+            "a": "Les Chinois"
+          },
+          {
+            "q": "Qui a inventé le moteur diesel ?",
+            "a": "Rudolf Diesel"
+          }
+        ],
+        "7": [
+          {
+            "q": "Qui a inventé l’hélicoptère moderne ?",
+            "a": "Igor Sikorsky"
+          },
+          {
+            "q": "Qui a inventé la télévision ?",
+            "a": "John Logie Baird"
+          },
+          {
+            "q": "Qui a inventé le code Morse ?",
+            "a": "Samuel Morse"
+          },
+          {
+            "q": "Qui a inventé la photographie ?",
+            "a": "Nicéphore Niépce"
+          },
+          {
+            "q": "Qui a inventé le radar ?",
+            "a": "Robert Watson-Watt"
+          }
+        ],
+        "8": [
+          {
+            "q": "Qui a inventé le stéthoscope ?",
+            "a": "René Laennec"
+          },
+          {
+            "q": "Qui a découvert la radioactivité avec Pierre Curie ?",
+            "a": "Marie Curie"
+          },
+          {
+            "q": "Qui a inventé l’électricité statique (premières expériences) ?",
+            "a": "Benjamin Franklin"
+          },
+          {
+            "q": "Qui a inventé la lunette astronomique ?",
+            "a": "Galilée"
+          },
+          {
+            "q": "Qui a inventé le télescope Hubble (concept) ?",
+            "a": "NASA/ESA"
+          }
+        ],
+        "9": [
+          {
+            "q": "Qui a inventé le vaccin contre la rage ?",
+            "a": "Louis Pasteur"
+          },
+          {
+            "q": "Qui a inventé la locomotive à vapeur ?",
+            "a": "George Stephenson"
+          },
+          {
+            "q": "Qui a inventé le cinéma sonore ?",
+            "a": "Warner Bros avec The Jazz Singer"
+          },
+          {
+            "q": "Qui a inventé la première imprimante 3D ?",
+            "a": "Chuck Hull"
+          },
+          {
+            "q": "Qui a inventé le premier satellite artificiel (Spoutnik 1) ?",
+            "a": "URSS"
+          }
+        ],
+        "10": [
+          {
+            "q": "Qui a inventé l’écriture cunéiforme ?",
+            "a": "Les Sumériens"
+          },
+          {
+            "q": "Qui a inventé le papier ?",
+            "a": "Cai Lun (Chine, IIe siècle)"
+          },
+          {
+            "q": "Qui a inventé l’alphabet moderne ?",
+            "a": "Les Phéniciens"
+          },
+          {
+            "q": "Qui a inventé l’imprimerie à caractères mobiles ?",
+            "a": "Bi Sheng (Chine, XIe siècle)"
+          },
+          {
+            "q": "Qui a inventé le zéro en mathématiques ?",
+            "a": "Les Indiens (civilisation Gupta)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mythologie",
+      "name": "Mythologie",
+      "questions": {
+        "1": [
+          {
+            "q": "Qui est le dieu grec du tonnerre ?",
+            "a": "Zeus"
+          },
+          {
+            "q": "Qui est le dieu romain équivalent à Zeus ?",
+            "a": "Jupiter"
+          },
+          {
+            "q": "Qui est le dieu nordique du tonnerre ?",
+            "a": "Thor"
+          },
+          {
+            "q": "Qui est la déesse grecque de l’amour ?",
+            "a": "Aphrodite"
+          },
+          {
+            "q": "Qui est le dieu égyptien à tête de chacal ?",
+            "a": "Anubis"
+          }
+        ],
+        "2": [
+          {
+            "q": "Qui est la déesse romaine de la chasse ?",
+            "a": "Diane"
+          },
+          {
+            "q": "Qui est le dieu grec de la mer ?",
+            "a": "Poséidon"
+          },
+          {
+            "q": "Quel héros grec a tué le Minotaure ?",
+            "a": "Thésée"
+          },
+          {
+            "q": "Quel dieu nordique est le père de Thor ?",
+            "a": "Odin"
+          },
+          {
+            "q": "Qui est la déesse égyptienne de la maternité et de la magie ?",
+            "a": "Isis"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel héros grec a accompli 12 travaux ?",
+            "a": "Héraclès"
+          },
+          {
+            "q": "Qui est le dieu romain de la guerre ?",
+            "a": "Mars"
+          },
+          {
+            "q": "Qui est le dieu grec du soleil ?",
+            "a": "Apollon"
+          },
+          {
+            "q": "Qui est le dieu nordique de la ruse et du chaos ?",
+            "a": "Loki"
+          },
+          {
+            "q": "Quel fleuve séparait le monde des vivants et des morts dans la mythologie grecque ?",
+            "a": "Le Styx"
+          }
+        ],
+        "4": [
+          {
+            "q": "Qui est la déesse grecque de la sagesse ?",
+            "a": "Athéna"
+          },
+          {
+            "q": "Quel héros grec a construit le cheval de Troie ?",
+            "a": "Ulysse"
+          },
+          {
+            "q": "Qui est le dieu égyptien du soleil ?",
+            "a": "Rê"
+          },
+          {
+            "q": "Qui est le dieu romain des enfers ?",
+            "a": "Pluton"
+          },
+          {
+            "q": "Qui est la déesse nordique de la mort ?",
+            "a": "Hel"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel titan a volé le feu pour le donner aux hommes ?",
+            "a": "Prométhée"
+          },
+          {
+            "q": "Qui est le dieu grec des enfers ?",
+            "a": "Hadès"
+          },
+          {
+            "q": "Quel dieu nordique est destiné à tuer Odin au Ragnarök ?",
+            "a": "Fenrir (le loup)"
+          },
+          {
+            "q": "Quel dieu romain est le messager des dieux ?",
+            "a": "Mercure"
+          },
+          {
+            "q": "Quel monstre avait des serpents à la place des cheveux ?",
+            "a": "Méduse"
+          }
+        ],
+        "6": [
+          {
+            "q": "Qui est la déesse grecque de la chasse ?",
+            "a": "Artémis"
+          },
+          {
+            "q": "Quel dieu grec est souvent représenté avec des ailes aux pieds ?",
+            "a": "Hermès"
+          },
+          {
+            "q": "Qui est le dieu égyptien du chaos et du désert ?",
+            "a": "Seth"
+          },
+          {
+            "q": "Quel dieu nordique a donné un œil pour obtenir la sagesse ?",
+            "a": "Odin"
+          },
+          {
+            "q": "Quel est le dieu romain de la mer ?",
+            "a": "Neptune"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel héros grec a vaincu le Cyclope Polyphème ?",
+            "a": "Ulysse"
+          },
+          {
+            "q": "Qui est la déesse grecque de la terre ?",
+            "a": "Gaïa"
+          },
+          {
+            "q": "Quel est le dieu nordique de la lumière et de la beauté ?",
+            "a": "Baldr"
+          },
+          {
+            "q": "Quel dieu romain est l’équivalent d’Apollon ?",
+            "a": "Apollon (même nom)"
+          },
+          {
+            "q": "Qui est le dieu grec du vin et des festivités ?",
+            "a": "Dionysos"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel héros grec a traversé la Méditerranée pour retrouver Iphigénie ?",
+            "a": "Oreste"
+          },
+          {
+            "q": "Quel dieu nordique est lié à la fertilité et à la prospérité ?",
+            "a": "Freyr"
+          },
+          {
+            "q": "Quel dieu égyptien avait une tête de faucon ?",
+            "a": "Horus"
+          },
+          {
+            "q": "Qui est la déesse grecque des moissons ?",
+            "a": "Déméter"
+          },
+          {
+            "q": "Quel monstre marin a été terrassé par Persée ?",
+            "a": "Cétus"
+          }
+        ],
+        "9": [
+          {
+            "q": "Qui est le dieu grec du sommeil ?",
+            "a": "Hypnos"
+          },
+          {
+            "q": "Qui est le dieu romain du sommeil ?",
+            "a": "Somnus"
+          },
+          {
+            "q": "Quel est le lieu de repos des héros dans la mythologie grecque ?",
+            "a": "Les Champs Élysées"
+          },
+          {
+            "q": "Qui est le dieu égyptien associé à la momification ?",
+            "a": "Anubis"
+          },
+          {
+            "q": "Quel dieu nordique sera tué par une branche de gui ?",
+            "a": "Baldr"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel est le nom du serpent géant qui encercle le monde dans la mythologie nordique ?",
+            "a": "Jörmungandr"
+          },
+          {
+            "q": "Qui est le titan père de Zeus, Poséidon et Hadès ?",
+            "a": "Cronos"
+          },
+          {
+            "q": "Quel est le dieu égyptien créateur du monde selon la cosmogonie d’Héliopolis ?",
+            "a": "Atoum"
+          },
+          {
+            "q": "Qui est la déesse grecque de la discorde, à l’origine de la guerre de Troie ?",
+            "a": "Éris"
+          },
+          {
+            "q": "Quel est le royaume des morts dans la mythologie nordique ?",
+            "a": "Helheim"
+          }
+        ]
       }
     }
   ]
