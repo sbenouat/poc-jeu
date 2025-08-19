@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>PoCer — Quiz mobile</title>
+  <meta name="theme-color" content="#111" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="appbar">
+    <h1>PoCer</h1>
+    <button id="installBtn" class="ghost" hidden>Installer</button>
+  </header>
+
+  <main id="app" class="container">
+    <!-- Écran 1 : setup joueurs -->
+    <section id="screen-setup" class="screen active">
+      <h2>Nouvelle partie</h2>
+      <p>Entre les noms des joueurs (1 à 5)</p>
+
+      <form id="playersForm">
+        <div class="players">
+          <input type="text" name="player" placeholder="Joueur 1" required maxlength="20" />
+          <input type="text" name="player" placeholder="Joueur 2" maxlength="20" />
+          <input type="text" name="player" placeholder="Joueur 3" maxlength="20" />
+          <input type="text" name="player" placeholder="Joueur 4" maxlength="20" />
+          <input type="text" name="player" placeholder="Joueur 5" maxlength="20" />
+        </div>
+        <div class="row">
+          <button type="submit" class="primary">Lancer</button>
+          <button type="button" id="loadDemo" class="ghost">Charger démo</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Écran 2 : jeu -->
+    <section id="screen-game" class="screen">
+      <div class="topbar">
+        <button id="endGameBtn" class="ghost">Fin de partie</button>
+        <div class="theme-tag">Thème : <span id="currentTheme">—</span></div>
+        <div class="round-tag">Manche <span id="roundNum">1</span></div>
+      </div>
+
+      <div id="scoreboard" class="scoreboard"></div>
+      <div id="turnInfo" class="turn-info">Au tour de <strong id="currentPlayerName">—</strong></div>
+      <div id="difficultyGrid" class="difficulty-grid"></div>
+
+      <!-- Carte Q/R avec bouton "Afficher la réponse" -->
+      <div id="qaCard" class="card hidden">
+        <div class="q" aria-live="polite">❓ <span id="questionText"></span></div>
+
+        <!-- Bouton pour révéler la réponse -->
+        <div class="row" id="revealRow">
+          <button id="showAnswerBtn" class="ghost" aria-controls="answerBlock" aria-expanded="false">
+            Afficher la réponse
+          </button>
+        </div>
+
+        <!-- Réponse (cachée au départ) -->
+        <div class="a hidden" id="answerBlock">
+          ✅ <span id="answerText"></span>
+        </div>
+
+        <!-- Boutons validation, visibles après révélation -->
+        <div class="row hidden" id="judgeRow">
+          <button id="btnCorrect" class="success">Bonne réponse</button>
+          <button id="btnWrong" class="danger">Mauvaise réponse</button>
+        </div>
+      </div>
+
+      <div id="deckEmpty" class="note hidden">
+        Plus de questions disponibles pour cette difficulté. Choisis-en une autre.
+      </div>
+    </section>
+
+    <!-- Écran 3 : récap -->
+    <section id="screen-recap" class="screen">
+      <h2>Résultats</h2>
+      <div id="winners" class="winners"></div>
+      <div id="finalTable" class="scoreboard"></div>
+      <div class="row">
+        <button id="restartBtn" class="primary">Rejouer</button>
+        <button id="shareBtn" class="ghost">Partager le score</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <button id="prevBtn" class="ghost" hidden>◀</button>
+    <button id="nextBtn" class="ghost" hidden>▶</button>
+  </footer>
+
+  <template id="playerRowTpl">
+    <div class="score-row">
+      <div class="name"></div>
+      <div class="score">0</div>
+    </div>
+  </template>
+
+  <script defer src="script.js"></script>
+</body>
+</html>
