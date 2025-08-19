@@ -1,4 +1,4 @@
-/* PoCer — jeu de quiz mobile-first (UX clarifiée) */
+/* PoCer — jeu de quiz mobile-first (UX + choix 5/10 manches) */
 const $ = (s, ctx = document) => ctx.querySelector(s);
 const $$ = (s, ctx = document) => [...ctx.querySelectorAll(s)];
 
@@ -11,11 +11,13 @@ const screens = {
 const els = {
   // setup
   playersForm: $("#playersForm"),
-  loadDemo: $("#loadDemo"),
+  start5: $("#start5"),
+  start10: $("#start10"),
   // header
   roundNum: $("#roundNum"),
+  roundTotal: $("#roundTotal"),
   currentTheme: $("#currentTheme"),
-  roundDots: $$(".round-progress .dot"),
+  roundDotsWrap: $("#roundDots"),
   // current player
   currentPlayerName: $("#currentPlayerName"),
   currentAvatar: $("#currentAvatar"),
@@ -45,7 +47,7 @@ const els = {
   shareBtn: $("#shareBtn"),
 };
 
-const MAX_ROUNDS = 10;
+let MAX_ROUNDS = 10; // défini au démarrage selon le bouton
 
 // --------- État ----------
 const STATE = {
@@ -78,6 +80,7 @@ function saveLocal(){
     usedQuestions: STATE.usedQuestions,
     lastThemeId: STATE.lastThemeId,
     usedThemes: [...STATE.usedThemes],
+    maxRounds: MAX_ROUNDS,
   }));
 }
 function loadLocal(){
@@ -114,14 +117,10 @@ async function loadQuestions(){
   }
 }
 
-function getThemeById(id){
-  return STATE.questions.themes.find(t=>t.id===id) || null;
-}
+function getThemeById(id){ return STATE.questions.themes.find(t=>t.id===id) || null; }
 function ensureUsedQuestionsPaths(themeId){
   if(!STATE.usedQuestions[themeId]) STATE.usedQuestions[themeId] = {};
-  for(let d=1; d<=10; d++){
-    if(!STATE.usedQuestions[themeId][d]) STATE.usedQuestions[themeId][d] = [];
-  }
+  for(let d=1; d<=10; d++){ if(!STATE.usedQuestions[themeId][d]) STATE.usedQuestions[themeId][d] = []; }
 }
 function remainingCount(theme, d){
   const list = theme.questions[String(d)] || [];
@@ -164,9 +163,20 @@ function showScreen(name){
 }
 function renderRoundHeader(){
   els.roundNum.textContent = String(STATE.round);
+  els.roundTotal.textContent = String(MAX_ROUNDS);
   els.currentTheme.textContent = STATE.theme ? STATE.theme.name : "—";
-  // progression dots
-  els.roundDots.forEach((dot,i)=>{
+
+  // points de progression : (re)générer si besoin
+  if (els.roundDotsWrap.childElementCount !== MAX_ROUNDS){
+    els.roundDotsWrap.innerHTML = "";
+    for (let i=1; i<=MAX_ROUNDS; i++){
+      const dot = document.createElement("span");
+      dot.className = "dot";
+      dot.dataset.i = String(i);
+      els.roundDotsWrap.appendChild(dot);
+    }
+  }
+  [...els.roundDotsWrap.children].forEach((dot,i)=>{
     const idx = i+1;
     dot.classList.toggle("done", idx < STATE.round);
     dot.classList.toggle("active", idx === STATE.round);
@@ -191,13 +201,7 @@ function renderCurrentPlayer(){
     els.turnOrder.appendChild(chip);
   });
 
-  // petite vibration pour donner le tour
   if (navigator.vibrate) navigator.vibrate(15);
-  // annonce ARIA
-  try{
-    const live = $(".round-chip");
-    if(live){ live.setAttribute("aria-label", `Manche ${STATE.round} — à ${p?.name} de jouer`); }
-  }catch{}
 }
 function renderScoreboard(intoEl){
   intoEl.innerHTML = "";
@@ -334,8 +338,9 @@ function onAnswer(isCorrect){
 }
 
 // --------- Game flow ----------
-async function startGame(players){
+async function startGame(players, rounds){
   resetState();
+  MAX_ROUNDS = rounds;                    // <- défini par le bouton choisi
   STATE.players = players.map(n=>({name:n, score:0}));
   STATE.starterIndex = 0;
   STATE.turnIndex = STATE.starterIndex;
@@ -366,18 +371,20 @@ function shareScores(){
 }
 
 // --------- Events ----------
-els.playersForm.addEventListener("submit",(e)=>{
-  e.preventDefault();
+function collectNames(){
   const names = $$("input[name=player]", els.playersForm).map(i=>i.value.trim()).filter(Boolean);
-  if(names.length<1 || names.length>5){ alert("Entre 1 à 5 joueurs."); return; }
-  startGame(names);
+  if(names.length<1 || names.length>5){ alert("Entre 1 à 5 joueurs."); return null; }
+  return names;
+}
+els.start10.addEventListener("click", ()=>{
+  const names = collectNames(); if(!names) return;
+  startGame(names, 10);
 });
-els.loadDemo.addEventListener("click", ()=>{
-  $$("input[name=player]", els.playersForm).forEach((i,idx)=>{
-    i.value = idx<3 ? ["Lina","Max","Sam"][idx] : "";
-  });
+els.start5.addEventListener("click", ()=>{
+  const names = collectNames(); if(!names) return;
+  startGame(names, 5);
 });
-els.showAnswerBtn.addEventListener("click", onShowAnswer);
+$("#showAnswerBtn").addEventListener("click", onShowAnswer);
 els.btnCorrect.addEventListener("click", ()=>onAnswer(true));
 els.btnWrong.addEventListener("click", ()=>onAnswer(false));
 els.endGameBtn.addEventListener("click", finishGame);
@@ -391,6 +398,7 @@ window.addEventListener("load", async ()=>{
   await loadQuestions();
   const saved = loadLocal();
   if(saved && confirm("Reprendre la partie sauvegardée ?")){
+    MAX_ROUNDS = saved.maxRounds || 10;
     STATE.players = saved.players || [];
     STATE.turnIndex = saved.turnIndex ?? 0;
     STATE.starterIndex = saved.starterIndex ?? 0;
