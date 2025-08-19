@@ -1,8 +1,0 @@
-{
-  "name": "PoCer — Quiz mobile",
-  "short_name": "PoCer",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#0e0f12",
-  "theme_color": "#0e0f12"
-}
