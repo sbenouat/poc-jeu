@@ -36,12 +36,13 @@ const els = {
 };
 
 // ---------- Paramètres de partie ----------
-const MAX_ROUNDS = 10; // ✅ 10 manches par partie
+const MAX_ROUNDS = 10; // 10 manches par partie
 
 // ---------- État du jeu ----------
 const STATE = {
   players: [],              // [{name, score}]
-  turnIndex: 0,             // index du joueur dont c'est le tour
+  turnIndex: 0,             // index du joueur dont c'est le tour (actuel)
+  starterIndex: 0,          // ✅ index du joueur qui démarre la manche en cours
   round: 1,
   theme: null,              // {id, name, ...}
   usedDifficulties: new Set(), // difficultés prises dans la manche
@@ -60,6 +61,7 @@ function saveLocal(){
   localStorage.setItem("pocer_state", JSON.stringify({
     players: STATE.players,
     turnIndex: STATE.turnIndex,
+    starterIndex: STATE.starterIndex,
     round: STATE.round,
     themeId: STATE.theme?.id ?? null,
     usedDifficulties: [...STATE.usedDifficulties],
@@ -79,6 +81,7 @@ function loadLocal(){
 function resetState(){
   STATE.players = [];
   STATE.turnIndex = 0;
+  STATE.starterIndex = 0;
   STATE.round = 1;
   STATE.theme = null;
   STATE.usedDifficulties = new Set();
@@ -239,19 +242,26 @@ function setThemeForRound(){
   }
 }
 
-// ---------- Logique du jeu ----------
+// ---------- Logique du jeu (rotation du starter) ----------
 function nextPlayer(){
+  // Tour suivant
   STATE.turnIndex = (STATE.turnIndex + 1) % STATE.players.length;
 
-  // Nouvelle manche quand on revient au premier joueur
-  if(STATE.turnIndex === 0){
+  // 👉 Si on revient au starter, la manche est finie
+  if (STATE.turnIndex === STATE.starterIndex) {
     STATE.round += 1;
 
-    // ✅ Stop après 10 manches
+    // Fin de partie après MAX_ROUNDS manches
     if (STATE.round > MAX_ROUNDS) {
       finishGame();
       return;
     }
+
+    // Nouveau starter pour la nouvelle manche
+    STATE.starterIndex = (STATE.starterIndex + 1) % STATE.players.length;
+    STATE.turnIndex = STATE.starterIndex;
+
+    // Nouveau thème
     setThemeForRound();
   }
 
@@ -298,8 +308,10 @@ function onAnswer(isCorrect){
 async function startGame(players){
   resetState();
   STATE.players = players.map(n=>({name:n, score:0}));
+  STATE.starterIndex = 0;          // premier starter = joueur 0
+  STATE.turnIndex = STATE.starterIndex;
   await loadQuestions();
-  setThemeForRound(); // round=1
+  setThemeForRound();              // round=1
   saveLocal();
   showScreen("game");
   renderGame();
@@ -383,7 +395,8 @@ window.addEventListener("load", async ()=>{
   const saved = loadLocal();
   if(saved && confirm("Reprendre la partie sauvegardée ?")){
     STATE.players = saved.players || [];
-    STATE.turnIndex = saved.turnIndex || 0;
+    STATE.turnIndex = saved.turnIndex ?? 0;
+    STATE.starterIndex = saved.starterIndex ?? 0;
     STATE.round = saved.round || 1;
     STATE.usedQuestions = saved.usedQuestions || {};
     STATE.usedDifficulties = new Set(saved.usedDifficulties || []);
