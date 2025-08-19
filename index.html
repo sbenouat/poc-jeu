@@ -1,103 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>PoCer — Quiz mobile</title>
-  <meta name="theme-color" content="#111" />
+  <title>PoCer</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="appbar">
-    <h1>PoCer</h1>
-    <button id="installBtn" class="ghost" hidden>Installer</button>
-  </header>
+  <main>
 
-  <main id="app" class="container">
-    <!-- Écran 1 : setup joueurs -->
+    <!-- Écran Setup -->
     <section id="screen-setup" class="screen active">
-      <h2>Nouvelle partie</h2>
-      <p>Entre les noms des joueurs (1 à 5)</p>
+      <h1>PoCer</h1>
+      <p class="subtitle">Jeu de quiz — 1 téléphone, jusqu’à 5 joueurs</p>
 
-      <form id="playersForm">
-        <div class="players">
-          <input type="text" name="player" placeholder="Joueur 1" required maxlength="20" />
-          <input type="text" name="player" placeholder="Joueur 2" maxlength="20" />
-          <input type="text" name="player" placeholder="Joueur 3" maxlength="20" />
-          <input type="text" name="player" placeholder="Joueur 4" maxlength="20" />
-          <input type="text" name="player" placeholder="Joueur 5" maxlength="20" />
+      <form id="playersForm" class="card">
+        <h2>Joueurs</h2>
+        <div class="players-inputs">
+          <input type="text" name="player" placeholder="Joueur 1" required />
+          <input type="text" name="player" placeholder="Joueur 2" />
+          <input type="text" name="player" placeholder="Joueur 3" />
+          <input type="text" name="player" placeholder="Joueur 4" />
+          <input type="text" name="player" placeholder="Joueur 5" />
         </div>
         <div class="row">
-          <button type="submit" class="primary">Lancer</button>
-          <button type="button" id="loadDemo" class="ghost">Charger démo</button>
+          <button type="button" id="loadDemo" class="btn ghost">Remplir un exemple</button>
+          <button type="submit" class="btn primary">Commencer</button>
         </div>
       </form>
     </section>
 
-    <!-- Écran 2 : jeu -->
+    <!-- Écran Jeu -->
     <section id="screen-game" class="screen">
-      <div class="topbar">
-        <button id="endGameBtn" class="ghost">Fin de partie</button>
-        <div class="theme-tag">Thème : <span id="currentTheme">—</span></div>
-        <div class="round-tag">Manche <span id="roundNum">1</span>/10</div>
-      </div>
-
-      <div id="scoreboard" class="scoreboard"></div>
-      <div id="turnInfo" class="turn-info">Au tour de <strong id="currentPlayerName">—</strong></div>
-      <div id="difficultyGrid" class="difficulty-grid"></div>
-
-      <!-- Carte Q/R avec bouton "Afficher la réponse" -->
-      <div id="qaCard" class="card hidden">
-        <div class="q" aria-live="polite">❓ <span id="questionText"></span></div>
-
-        <!-- Bouton pour révéler la réponse -->
-        <div class="row" id="revealRow">
-          <button id="showAnswerBtn" class="ghost" aria-controls="answerBlock" aria-expanded="false">
-            Afficher la réponse
-          </button>
+      <!-- Bandeau manche + progression -->
+      <header class="round-header">
+        <div class="round-info">
+          <span class="round-chip" aria-live="polite">Manche <span id="roundNum">1</span>/10</span>
+          <span class="theme-chip">Thème : <strong id="currentTheme">—</strong> 🎯</span>
         </div>
-
-        <!-- Réponse (cachée au départ) -->
-        <div class="a hidden" id="answerBlock">
-          ✅ <span id="answerText"></span>
+        <div class="round-progress" aria-hidden="true">
+          <!-- 10 points -->
+          <span class="dot" data-i="1"></span>
+          <span class="dot" data-i="2"></span>
+          <span class="dot" data-i="3"></span>
+          <span class="dot" data-i="4"></span>
+          <span class="dot" data-i="5"></span>
+          <span class="dot" data-i="6"></span>
+          <span class="dot" data-i="7"></span>
+          <span class="dot" data-i="8"></span>
+          <span class="dot" data-i="9"></span>
+          <span class="dot" data-i="10"></span>
         </div>
+      </header>
 
-        <!-- Boutons validation, visibles après révélation -->
-        <div class="row hidden" id="judgeRow">
-          <button id="btnCorrect" class="success">Bonne réponse</button>
-          <button id="btnWrong" class="danger">Mauvaise réponse</button>
+      <!-- Panneau joueur courant -->
+      <section class="current-player card elevate" aria-live="polite">
+        <div class="avatar" id="currentAvatar" aria-hidden="true">A</div>
+        <div class="cp-text">
+          <div class="cp-eyebrow">À toi de jouer</div>
+          <div class="cp-name" id="currentPlayerName">—</div>
+          <div class="cp-sub" id="turnOrderSub">Ordre : —</div>
         </div>
-      </div>
+      </section>
 
-      <div id="deckEmpty" class="note hidden">
-        Plus de questions disponibles pour cette difficulté. Choisis-en une autre.
+      <!-- Ordre des tours (chips) -->
+      <section class="turn-order" id="turnOrder" aria-label="Ordre des joueurs"></section>
+
+      <!-- Scoreboard -->
+      <section class="card">
+        <h2>Scores</h2>
+        <ul id="scoreboard" class="scoreboard"></ul>
+      </section>
+
+      <!-- Choix de difficulté -->
+      <section class="card">
+        <h2>Choisis ta difficulté</h2>
+        <div id="difficultyGrid" class="difficulty-grid" role="group" aria-label="Choix de difficulté"></div>
+        <div id="deckEmpty" class="hint hidden">Plus de questions à cette difficulté dans ce thème.</div>
+      </section>
+
+      <!-- Carte Q/R -->
+      <section id="qaCard" class="card hidden">
+        <div class="qa-row">
+          <div class="q">❓ <span id="questionText"></span></div>
+          <div id="revealRow" class="reveal-row">
+            <button id="showAnswerBtn" class="btn secondary" aria-expanded="false">Afficher la réponse</button>
+          </div>
+          <div id="answerBlock" class="a hidden">✅ <span id="answerText"></span></div>
+          <div id="judgeRow" class="judge-row hidden">
+            <button id="btnWrong" class="btn ghost">Mauvaise</button>
+            <button id="btnCorrect" class="btn success">Bonne (+<span id="pts"></span>)</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="toolbar">
+        <button id="endGameBtn" class="btn ghost">Terminer la partie</button>
       </div>
     </section>
 
-    <!-- Écran 3 : récap -->
+    <!-- Écran Récap -->
     <section id="screen-recap" class="screen">
-      <h2>Résultats</h2>
-      <div id="winners" class="winners"></div>
-      <div id="finalTable" class="scoreboard"></div>
+      <h2>Récapitulatif</h2>
+      <p id="winners" class="winners"></p>
+      <ul id="finalTable" class="scoreboard"></ul>
       <div class="row">
-        <button id="restartBtn" class="primary">Rejouer</button>
-        <button id="shareBtn" class="ghost">Partager le score</button>
+        <button id="shareBtn" class="btn">Partager</button>
+        <button id="restartBtn" class="btn primary">Rejouer</button>
       </div>
     </section>
+
+    <!-- Templates -->
+    <template id="playerRowTpl">
+      <li class="score-row">
+        <span class="name"></span>
+        <span class="score"></span>
+      </li>
+    </template>
+
   </main>
-
-  <footer class="footer">
-    <button id="prevBtn" class="ghost" hidden>◀</button>
-    <button id="nextBtn" class="ghost" hidden>▶</button>
-  </footer>
-
-  <template id="playerRowTpl">
-    <div class="score-row">
-      <div class="name"></div>
-      <div class="score">0</div>
-    </div>
-  </template>
-
-  <script defer src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
