@@ -28,12 +28,15 @@ const els = {
   restartBtn: $("#restartBtn"),
   shareBtn: $("#shareBtn"),
   installBtn: $("#installBtn"),
-  // Nouveaux éléments pour le flux "révéler la réponse"
+  // UI révélation
   showAnswerBtn: $("#showAnswerBtn"),
   answerBlock: $("#answerBlock"),
   revealRow: $("#revealRow"),
   judgeRow: $("#judgeRow"),
 };
+
+// ---------- Paramètres de partie ----------
+const MAX_ROUNDS = 10; // ✅ 10 manches par partie
 
 // ---------- État du jeu ----------
 const STATE = {
@@ -46,7 +49,7 @@ const STATE = {
   lastThemeId: null,
   questions: null,          // données chargées
   currentQA: null,          // {q, a, diff}
-  answerRevealed: false,    // nouvel état pour contrôler l'affichage de la réponse
+  answerRevealed: false,    // contrôle l'affichage de la réponse
 };
 
 // ---------- Utilitaires ----------
@@ -120,18 +123,18 @@ function getThemeById(id){
   return STATE.questions.themes.find(t=>t.id===id) || null;
 }
 
-function remainingCount(theme, difficulty){
-  const list = theme.questions[String(difficulty)] || [];
-  ensureUsedQuestionsPaths(theme.id);
-  const used = new Set(STATE.usedQuestions[theme.id][difficulty]);
-  return list.length - used.size;
-}
-
 function ensureUsedQuestionsPaths(themeId){
   if(!STATE.usedQuestions[themeId]) STATE.usedQuestions[themeId] = {};
   for(let d=1; d<=10; d++){
     if(!STATE.usedQuestions[themeId][d]) STATE.usedQuestions[themeId][d] = [];
   }
+}
+
+function remainingCount(theme, difficulty){
+  const list = theme.questions[String(difficulty)] || [];
+  ensureUsedQuestionsPaths(theme.id);
+  const used = new Set(STATE.usedQuestions[theme.id][difficulty]);
+  return list.length - used.size;
 }
 
 function drawQuestion(theme, difficulty){
@@ -239,10 +242,19 @@ function setThemeForRound(){
 // ---------- Logique du jeu ----------
 function nextPlayer(){
   STATE.turnIndex = (STATE.turnIndex + 1) % STATE.players.length;
+
+  // Nouvelle manche quand on revient au premier joueur
   if(STATE.turnIndex === 0){
     STATE.round += 1;
+
+    // ✅ Stop après 10 manches
+    if (STATE.round > MAX_ROUNDS) {
+      finishGame();
+      return;
+    }
     setThemeForRound();
   }
+
   saveLocal();
   renderGame();
 }
@@ -287,7 +299,7 @@ async function startGame(players){
   resetState();
   STATE.players = players.map(n=>({name:n, score:0}));
   await loadQuestions();
-  setThemeForRound();
+  setThemeForRound(); // round=1
   saveLocal();
   showScreen("game");
   renderGame();
@@ -307,7 +319,7 @@ function shareScores(){
   const lines = [
     "PoCer — Résultats",
     ...STATE.players.map(p=>`${p.name}: ${p.score} pts`),
-    `(Manche ${STATE.round-1})`
+    `(Manches jouées: ${Math.min(STATE.round, MAX_ROUNDS)})`
   ];
   const text = lines.join("\n");
   if(navigator.share){
