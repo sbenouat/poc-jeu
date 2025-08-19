@@ -4337,6 +4337,1362 @@
           }
         ]
       }
+    },
+    {
+      "id": "culture_francaise",
+      "name": "Culture française",
+      "questions": {
+        "1": [
+          {
+            "q": "Quelle est la capitale de la France ?",
+            "a": "Paris"
+          },
+          {
+            "q": "Quelle est la devise de la République française ?",
+            "a": "Liberté, Égalité, Fraternité"
+          },
+          {
+            "q": "De quelle couleur est le béret traditionnel français ?",
+            "a": "Noir (souvent)"
+          },
+          {
+            "q": "Quel est le monument le plus célèbre de Paris construit en 1889 ?",
+            "a": "La tour Eiffel"
+          },
+          {
+            "q": "Quel est le fromage à pâte persillée bleu-blanc-rouge sur l’étiquette célèbre ?",
+            "a": "Le Roquefort"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel fleuve traverse Paris ?",
+            "a": "La Seine"
+          },
+          {
+            "q": "Quel animal est l’emblème officieux de la France ?",
+            "a": "Le coq"
+          },
+          {
+            "q": "Dans quel stade joue l’équipe de France de football à domicile ?",
+            "a": "Stade de France"
+          },
+          {
+            "q": "Quel jour célèbre-t-on la Fête nationale française ?",
+            "a": "Le 14 juillet"
+          },
+          {
+            "q": "Quel pain long et croustillant est typiquement français ?",
+            "a": "La baguette"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel est le plat traditionnel à base de bœuf mijoté au vin rouge ?",
+            "a": "Le bœuf bourguignon"
+          },
+          {
+            "q": "Quel écrivain a écrit « Les Misérables » ?",
+            "a": "Victor Hugo"
+          },
+          {
+            "q": "Comment s’appelle la célèbre avenue parisienne reliant l’Arc de triomphe à la Concorde ?",
+            "a": "Les Champs-Élysées"
+          },
+          {
+            "q": "Quel peintre impressionniste a peint « Impression, soleil levant » ?",
+            "a": "Claude Monet"
+          },
+          {
+            "q": "Quel dessert flambé composé de crêpes et d’orange est né en France ?",
+            "a": "La crêpe Suzette"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel roi est surnommé le « Roi-Soleil » ?",
+            "a": "Louis XIV"
+          },
+          {
+            "q": "Quel fromage est réputé pour son odeur forte et vient de Normandie ?",
+            "a": "Le Camembert"
+          },
+          {
+            "q": "Quel est le plus grand musée de Paris par sa collection ?",
+            "a": "Le Louvre"
+          },
+          {
+            "q": "Quel acteur incarne OSS 117 dans les films récents ?",
+            "a": "Jean Dujardin"
+          },
+          {
+            "q": "Quel vin effervescent est produit en Champagne ?",
+            "a": "Le champagne"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel chef a rendu célèbre la ratatouille dans un film d’animation Pixar ?",
+            "a": "Rémy (le rat) — « Ratatouille »"
+          },
+          {
+            "q": "Quelle mer borde Nice et Marseille ?",
+            "a": "La mer Méditerranée"
+          },
+          {
+            "q": "Quel écrivain a créé Arsène Lupin ?",
+            "a": "Maurice Leblanc"
+          },
+          {
+            "q": "Quel est le nom du palais présidentiel à Paris ?",
+            "a": "Le palais de l’Élysée"
+          },
+          {
+            "q": "Quel gâteau en pâte feuilletée et crème d’amande se partage en janvier ?",
+            "a": "La galette des Rois (à la frangipane)"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel est le fromage au lait de chèvre cylindrique cendré de la Loire ?",
+            "a": "Le Sainte-Maure-de-Touraine"
+          },
+          {
+            "q": "Quel cinéaste a réalisé « La Haine » ?",
+            "a": "Mathieu Kassovitz"
+          },
+          {
+            "q": "Quel écrivain a reçu le Goncourt pour « L’Amant » ?",
+            "a": "Marguerite Duras"
+          },
+          {
+            "q": "Quel site mégalithique se trouve en Bretagne, près de Carnac ?",
+            "a": "Les alignements de menhirs de Carnac"
+          },
+          {
+            "q": "De quel département viennent traditionnellement les choucroute et flammekueche ?",
+            "a": "Du Bas-Rhin / Haut-Rhin (Alsace)"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel architecte a conçu la pyramide du Louvre inaugurée en 1989 ?",
+            "a": "Ieoh Ming Pei (I. M. Pei)"
+          },
+          {
+            "q": "Quel poète a écrit « Une saison en enfer » ?",
+            "a": "Arthur Rimbaud"
+          },
+          {
+            "q": "Quel couturier a popularisé la petite robe noire et le tailleur Chanel ?",
+            "a": "Coco Chanel (Gabrielle Chanel)"
+          },
+          {
+            "q": "Quel village médiéval perché, classé, se trouve sur un rocher dans le Lot ?",
+            "a": "Rocamadour"
+          },
+          {
+            "q": "Quel festival de cinéma se tient chaque année sur la Croisette ?",
+            "a": "Le Festival de Cannes"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel est le plus haut sommet de France métropolitaine ?",
+            "a": "Le mont Blanc"
+          },
+          {
+            "q": "Quel compositeur français a écrit « Le Boléro » ?",
+            "a": "Maurice Ravel"
+          },
+          {
+            "q": "Quel écrivain a publié « À la recherche du temps perdu » ?",
+            "a": "Marcel Proust"
+          },
+          {
+            "q": "Quel courant artistique regroupe Monet, Renoir, Degas… ?",
+            "a": "L’impressionnisme"
+          },
+          {
+            "q": "Quelle spécialité lyonnaise associe quenelles et sauce écrevisses ?",
+            "a": "Les quenelles (souvent sauce Nantua)"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel chef 3 étoiles a tenu l’Auberge du Pont de Collonges ?",
+            "a": "Paul Bocuse"
+          },
+          {
+            "q": "Quel philosophe a écrit « Le contrat social » ?",
+            "a": "Jean-Jacques Rousseau"
+          },
+          {
+            "q": "Quel château de la Loire est connu pour son escalier à double révolution ?",
+            "a": "Le château de Chambord"
+          },
+          {
+            "q": "Quel écrivain a créé le commissaire Maigret ?",
+            "a": "Georges Simenon"
+          },
+          {
+            "q": "Quelle danse née dans le Sud-Ouest accompagne souvent les bandas ?",
+            "a": "La féria / la banda (rép. attendue : la « fête »; sinon précise « la danse gasconne/folklorique »)"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel architecte a bâti la villa Savoye (icône moderniste) ?",
+            "a": "Le Corbusier"
+          },
+          {
+            "q": "Quel peintre français a réalisé « Le Déjeuner sur l’herbe » et « Olympia » ?",
+            "a": "Édouard Manet"
+          },
+          {
+            "q": "Quel écrivain a reçu le Nobel en 2014 pour « Le Sermon sur la chute de Rome » (via Patrick Modiano 2014; attention : Modiano l’a reçu pour l’ensemble de son œuvre) ?",
+            "a": "Patrick Modiano"
+          },
+          {
+            "q": "Quel linguiste/écrivain a fixé en partie la langue française avec son « Dictionnaire » (XVIIe) ?",
+            "a": "L’Académie française (collectif) ; sinon : Vaugelas pour les Remarques"
+          },
+          {
+            "q": "Quel chef-d’œuvre roman orne Conques sur le chemin de Compostelle ?",
+            "a": "Le tympan du Jugement dernier de l’abbatiale Sainte-Foy de Conques"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chansons_2010",
+      "name": "Chansons US & FR des années 2010",
+      "questions": {
+        "1": [
+          {
+            "q": "Quel titre d’Adele sorti en 2010 commence par 'There's a fire starting in my heart' ?",
+            "a": "Rolling in the Deep"
+          },
+          {
+            "q": "Quelle chanson de Stromae a pour refrain 'Alors on danse' ?",
+            "a": "Alors on danse"
+          },
+          {
+            "q": "Dans quel film d’animation de 2013 entend-on 'Let It Go' ?",
+            "a": "La Reine des Neiges (Frozen)"
+          },
+          {
+            "q": "Quel duo français est derrière le tube mondial 'Get Lucky' ?",
+            "a": "Daft Punk"
+          },
+          {
+            "q": "Quel chanteur français a sorti 'Formidable' en 2013 ?",
+            "a": "Stromae"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quelle chanson de Pharrell Williams est devenue un hymne à la bonne humeur en 2013 ?",
+            "a": "Happy"
+          },
+          {
+            "q": "Quel titre d’Indila en 2013 contient le refrain 'Oh ma douce souffrance' ?",
+            "a": "Dernière danse"
+          },
+          {
+            "q": "Quelle chanteuse américaine a sorti 'Born This Way' en 2011 ?",
+            "a": "Lady Gaga"
+          },
+          {
+            "q": "Quel groupe français a signé le hit 'Désolé' en 2010 ?",
+            "a": "Sexion d’Assaut"
+          },
+          {
+            "q": "Quel artiste britannique a enchaîné les tubes avec 'Shape of You' en 2017 ?",
+            "a": "Ed Sheeran"
+          }
+        ],
+        "3": [
+          {
+            "q": "Dans quelle chanson de 2013 Lorde critique-t-elle les codes du luxe ('gold teeth, Grey Goose...') ?",
+            "a": "Royals"
+          },
+          {
+            "q": "Quel titre d’Angèle et Roméo Elvis a été un énorme succès en 2018 ?",
+            "a": "Tout oublier"
+          },
+          {
+            "q": "Quel hit latino de 2017 a explosé les records de vues sur YouTube ?",
+            "a": "Despacito"
+          },
+          {
+            "q": "Quelle chanteuse australienne a sorti 'Chandelier' en 2014 ?",
+            "a": "Sia"
+          },
+          {
+            "q": "Quel rappeur français a popularisé 'Sapés comme jamais' ?",
+            "a": "Maître Gims (feat. Niska)"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel titre de Rihanna et Calvin Harris (2011) répète 'We found love in a hopeless place' ?",
+            "a": "We Found Love"
+          },
+          {
+            "q": "Quelle chanson de Nekfeu (2015) commence par 'J'fais partie de ces gens qui s'laissent guider par la chance' ?",
+            "a": "On verra"
+          },
+          {
+            "q": "Quel tube d’Imagine Dragons (2012) a pour refrain 'Welcome to the new age' ?",
+            "a": "Radioactive"
+          },
+          {
+            "q": "Quelle chanteuse française a marqué 2014 avec 'Christine' ?",
+            "a": "Christine and the Queens"
+          },
+          {
+            "q": "Quel hit de 2010 de Shakira était l’hymne officiel de la Coupe du monde de football ?",
+            "a": "Waka Waka (This Time for Africa)"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel duo franco-américain a sorti 'Titanium' en 2011 ?",
+            "a": "David Guetta feat. Sia"
+          },
+          {
+            "q": "Quelle chanson d’Indila parle d’un personnage 'qui tourne dans le vide' ?",
+            "a": "Tourner dans le vide"
+          },
+          {
+            "q": "Quel single d’Adele a remporté le Grammy de la chanson de l’année en 2012 ?",
+            "a": "Rolling in the Deep"
+          },
+          {
+            "q": "Quel hit électro de 2011 signé LMFAO répète 'Everyday I’m shufflin’' ?",
+            "a": "Party Rock Anthem"
+          },
+          {
+            "q": "Quel rappeur français a sorti 'Dommage' en 2017 ?",
+            "a": "Bigflo & Oli"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel titre de Sia de 2016 contient le refrain 'Baby I don’t need dollar bills to have fun tonight' ?",
+            "a": "Cheap Thrills"
+          },
+          {
+            "q": "Quel album d’Ed Sheeran sorti en 2017 contient 'Shape of You' ?",
+            "a": "÷ (Divide)"
+          },
+          {
+            "q": "Quel morceau de Black M (2014) contient le refrain 'Sur ma route, oui, il y a eu du move' ?",
+            "a": "Sur ma route"
+          },
+          {
+            "q": "Quel hit de Lady Gaga de 2011 s’inspire des années 80 et a pour titre 'The Edge of …' ?",
+            "a": "The Edge of Glory"
+          },
+          {
+            "q": "Quel rappeur canadien a sorti 'Hotline Bling' en 2015 ?",
+            "a": "Drake"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel tube de Mark Ronson feat. Bruno Mars (2014) a pour refrain 'Uptown funk you up' ?",
+            "a": "Uptown Funk"
+          },
+          {
+            "q": "Quelle chanson de Vianney (2014) répète 'Si tu m’emmènes, j’te suivrai partout' ?",
+            "a": "Pas là"
+          },
+          {
+            "q": "Quel single de Billie Eilish de 2019 commence par 'White shirt now red, my bloody nose' ?",
+            "a": "Bad Guy"
+          },
+          {
+            "q": "Quel titre de Dadju (2017) est une déclaration romantique avec un seul mot en titre ?",
+            "a": "Reine"
+          },
+          {
+            "q": "Quel groupe électro français a signé 'Midnight City' en 2011 ?",
+            "a": "M83"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel hit de Drake de 2018 contient 'Kiki, do you love me?' ?",
+            "a": "In My Feelings"
+          },
+          {
+            "q": "Quel rappeur français a popularisé 'Tchikita' en 2016 ?",
+            "a": "Jul"
+          },
+          {
+            "q": "Quel titre d’Ellie Goulding a été la BO de 'Cinquante nuances de Grey' (2015) ?",
+            "a": "Love Me Like You Do"
+          },
+          {
+            "q": "Quel artiste belge a sorti 'Balance ton quoi' en 2019 ?",
+            "a": "Angèle"
+          },
+          {
+            "q": "Quel titre d’Ariana Grande (2019) cite ses ex dans le refrain ?",
+            "a": "Thank U, Next"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel album de Kendrick Lamar (2015) est considéré comme une œuvre majeure du rap US ?",
+            "a": "To Pimp a Butterfly"
+          },
+          {
+            "q": "Quel hit de Taylor Swift (2014) répète 'Cause the players gonna play, play, play, play, play' ?",
+            "a": "Shake It Off"
+          },
+          {
+            "q": "Quelle chanson de Maître Gims et Vianney (2018) répète 'Et même si je meurs demain...' ?",
+            "a": "La même"
+          },
+          {
+            "q": "Quel single de The Weeknd (2015) contient 'I only call you when it's half past five' ?",
+            "a": "The Hills"
+          },
+          {
+            "q": "Quel duo français a cartonné avec 'Je te promets' en version reprise 2010 (Stars 80) ?",
+            "a": "Garou & Jenifer"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel album de Beyoncé sorti en 2016 inclut 'Formation' ?",
+            "a": "Lemonade"
+          },
+          {
+            "q": "Quel rappeur français a sorti l’album 'Les étoiles vagabondes' en 2019 ?",
+            "a": "Nekfeu"
+          },
+          {
+            "q": "Quel morceau de Kendrick Lamar a reçu le prix Pulitzer en 2018 (album complet) ?",
+            "a": "DAMN."
+          },
+          {
+            "q": "Quel hit de Post Malone (2017) répète 'I fall apart' ?",
+            "a": "I Fall Apart"
+          },
+          {
+            "q": "Quel titre de Mylène Farmer (2015) avec Sting s’intitule 'Stolen Car' ?",
+            "a": "Stolen Car"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gastronomie_mondiale",
+      "name": "Gastronomie mondiale",
+      "questions": {
+        "1": [
+          {
+            "q": "De quel pays vient la pizza ?",
+            "a": "Italie"
+          },
+          {
+            "q": "Quel plat japonais est composé de riz vinaigré et de poisson cru ?",
+            "a": "Sushi"
+          },
+          {
+            "q": "Quel plat mexicain est une galette de maïs garnie ?",
+            "a": "Taco"
+          },
+          {
+            "q": "Quel fromage français célèbre vient de Normandie et a une croûte blanche ?",
+            "a": "Camembert"
+          },
+          {
+            "q": "Quel plat espagnol à base de riz et de safran est célèbre à Valence ?",
+            "a": "Paella"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel dessert italien est fait de couches de biscuits imbibés de café et de mascarpone ?",
+            "a": "Tiramisu"
+          },
+          {
+            "q": "Quelle soupe froide espagnole à base de tomate est servie en été ?",
+            "a": "Gazpacho"
+          },
+          {
+            "q": "Quel plat indien à base de riz et d’épices peut inclure viande ou légumes ?",
+            "a": "Biryani"
+          },
+          {
+            "q": "Quel fromage grec est souvent utilisé dans la salade grecque ?",
+            "a": "Feta"
+          },
+          {
+            "q": "Quelle pâte italienne se mange avec du pesto ou de la sauce tomate ?",
+            "a": "Spaghetti"
+          }
+        ],
+        "3": [
+          {
+            "q": "De quel pays vient le couscous traditionnel ?",
+            "a": "Maghreb (Maroc, Algérie, Tunisie)"
+          },
+          {
+            "q": "Quel plat coréen est du chou fermenté pimenté ?",
+            "a": "Kimchi"
+          },
+          {
+            "q": "Quel plat japonais consiste à tremper de la viande dans un bouillon bouillant ?",
+            "a": "Shabu-shabu"
+          },
+          {
+            "q": "Quel pays est célèbre pour ses tapas ?",
+            "a": "Espagne"
+          },
+          {
+            "q": "Quel dessert français est flambé avec du rhum et se compose de crêpes ?",
+            "a": "Crêpe Suzette"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel plat russe est une soupe de betterave rouge ?",
+            "a": "Bortsch"
+          },
+          {
+            "q": "Quel plat libanais est une salade de persil, tomates, boulgour et citron ?",
+            "a": "Taboulé"
+          },
+          {
+            "q": "Quel pays est à l’origine du plat Pho, soupe de nouilles ?",
+            "a": "Vietnam"
+          },
+          {
+            "q": "Quel fromage italien est à la base de la pizza Margherita ?",
+            "a": "Mozzarella"
+          },
+          {
+            "q": "Quel dessert autrichien est une tarte à l’abricot avec pâte sablée et tressage sur le dessus ?",
+            "a": "Linzer Torte"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel plat américain est une galette de viande servie dans un pain rond ?",
+            "a": "Hamburger"
+          },
+          {
+            "q": "Quel dessert portugais est une petite tartelette à la crème ?",
+            "a": "Pastel de nata"
+          },
+          {
+            "q": "Quel plat turc consiste en viande grillée servie sur une brochette ?",
+            "a": "Kebab"
+          },
+          {
+            "q": "Quelle soupe française contient oignons caramélisés et fromage gratiné ?",
+            "a": "Soupe à l’oignon"
+          },
+          {
+            "q": "Quel plat japonais est constitué de brochettes de poulet grillées ?",
+            "a": "Yakitori"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel plat brésilien associe haricots noirs, porc et riz ?",
+            "a": "Feijoada"
+          },
+          {
+            "q": "Quel plat hongrois est un ragoût épicé au paprika ?",
+            "a": "Goulash"
+          },
+          {
+            "q": "Quel plat éthiopien est servi sur une grande galette appelée injera ?",
+            "a": "Wat (ragoût éthiopien)"
+          },
+          {
+            "q": "Quel fromage suisse est fondu pour la raclette ?",
+            "a": "Fromage à raclette (Valais)"
+          },
+          {
+            "q": "Quel dessert américain est une tarte aux pommes traditionnelle ?",
+            "a": "Apple Pie"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel plat japonais est un bouillon de nouilles servi chaud, parfois au porc ?",
+            "a": "Ramen"
+          },
+          {
+            "q": "Quel vin mousseux italien ressemble au champagne mais vient de Vénétie ?",
+            "a": "Prosecco"
+          },
+          {
+            "q": "Quel plat thaïlandais est une salade de papaye verte pimentée ?",
+            "a": "Som Tam"
+          },
+          {
+            "q": "Quel dessert indien à base de lait et de sucre se forme en petites boules sucrées ?",
+            "a": "Gulab Jamun"
+          },
+          {
+            "q": "Quel plat allemand est une saucisse servie avec de la moutarde ?",
+            "a": "Bratwurst"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel plat marocain se prépare dans un plat en terre cuite conique ?",
+            "a": "Tajine"
+          },
+          {
+            "q": "Quel dessert grec est constitué de pâte filo, de miel et de noix ?",
+            "a": "Baklava"
+          },
+          {
+            "q": "Quel plat japonais de poisson cru tranché finement s’appelle ?",
+            "a": "Sashimi"
+          },
+          {
+            "q": "Quel pays a inventé la fondue au fromage partagée ?",
+            "a": "Suisse"
+          },
+          {
+            "q": "Quel plat mexicain est un roulé de maïs farci, souvent nappé de sauce chili ?",
+            "a": "Enchilada"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel dessert français à base de meringue et de crème est nommé d’après une danse ?",
+            "a": "Pavlova"
+          },
+          {
+            "q": "Quel plat japonais est une omelette fourrée de riz sauté ?",
+            "a": "Omurice"
+          },
+          {
+            "q": "Quel plat espagnol de petites fritures d’encornets s’appelle ?",
+            "a": "Calamares fritos"
+          },
+          {
+            "q": "Quel dessert turc est un flan au lait souvent parfumé à l’eau de rose ?",
+            "a": "Muhallebi"
+          },
+          {
+            "q": "Quel plat indien est un pain plat cuit au four tandoor ?",
+            "a": "Naan"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel plat japonais consiste en légumes ou crevettes frits dans une pâte légère ?",
+            "a": "Tempura"
+          },
+          {
+            "q": "Quel dessert français sophistiqué associe couches de pâte feuilletée et crème pâtissière ?",
+            "a": "Mille-feuille"
+          },
+          {
+            "q": "Quel plat du Moyen-Orient est un mélange de pois chiches et d’épices frits ?",
+            "a": "Falafel"
+          },
+          {
+            "q": "Quel dessert italien glacé est préparé avec du café et de la crème glacée ?",
+            "a": "Affogato"
+          },
+          {
+            "q": "Quel plat japonais festif de riz, poisson, algue et garnitures variées est servi en plateau ?",
+            "a": "Chirashi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boissons_monde",
+      "name": "Boissons du monde",
+      "questions": {
+        "1": [
+          {
+            "q": "Quelle boisson chaude se prépare en infusant des feuilles de théier ?",
+            "a": "Le thé"
+          },
+          {
+            "q": "Quelle boisson est faite à base de grains torréfiés et moulus ?",
+            "a": "Le café"
+          },
+          {
+            "q": "Quel jus d’agrume est souvent bu au petit-déjeuner ?",
+            "a": "Le jus d’orange"
+          },
+          {
+            "q": "Quel soda brun célèbre a été inventé en 1886 à Atlanta ?",
+            "a": "Coca-Cola"
+          },
+          {
+            "q": "Quel alcool est associé à la bière blonde allemande servie à l’Oktoberfest ?",
+            "a": "La bière"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel vin effervescent vient exclusivement de la région de Champagne en France ?",
+            "a": "Le champagne"
+          },
+          {
+            "q": "Quelle boisson japonaise est faite à partir de riz fermenté ?",
+            "a": "Le saké"
+          },
+          {
+            "q": "Quel cocktail à base de rhum, menthe, sucre, citron vert et eau gazeuse vient de Cuba ?",
+            "a": "Le mojito"
+          },
+          {
+            "q": "Quelle boisson chaude mexicaine se prépare avec du cacao et de la cannelle ?",
+            "a": "Le chocolat chaud mexicain"
+          },
+          {
+            "q": "Quelle boisson gazeuse française, aromatisée au citron, s’appelle aussi 'limonade' ?",
+            "a": "La limonade"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel alcool anisé est très populaire en Grèce et à Chypre ?",
+            "a": "L’ouzo"
+          },
+          {
+            "q": "Quel thé parfumé à la bergamote porte le nom d’un comte anglais ?",
+            "a": "Le thé Earl Grey"
+          },
+          {
+            "q": "Quel alcool est utilisé pour préparer une caïpirinha brésilienne ?",
+            "a": "La cachaça"
+          },
+          {
+            "q": "Quelle boisson indienne est un mélange de thé noir, lait et épices ?",
+            "a": "Le chai masala"
+          },
+          {
+            "q": "Quel café italien est servi dans une petite tasse concentrée ?",
+            "a": "L’espresso"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel vin fortifié portugais est produit dans la vallée du Douro ?",
+            "a": "Le porto"
+          },
+          {
+            "q": "Quel cocktail américain est composé de bourbon, sucre, eau et feuilles de menthe ?",
+            "a": "Le mint julep"
+          },
+          {
+            "q": "Quelle boisson fermentée mongole est faite à partir de lait de jument ?",
+            "a": "Le koumis"
+          },
+          {
+            "q": "Quel thé traditionnel chinois est vieilli et compressé en galettes ?",
+            "a": "Le thé Pu-erh"
+          },
+          {
+            "q": "Quelle boisson à base de pommes fermentées est appelée cidre ?",
+            "a": "Le cidre"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel cocktail mexicain est à base de tequila, triple sec et jus de citron vert ?",
+            "a": "La margarita"
+          },
+          {
+            "q": "Quel apéritif français est fait de vin et de crème de cassis ?",
+            "a": "Le kir"
+          },
+          {
+            "q": "Quelle boisson gazeuse sud-américaine est faite de feuilles de coca (sans cocaïne aujourd’hui) ?",
+            "a": "Inca Kola"
+          },
+          {
+            "q": "Quel alcool de canne à sucre est produit notamment en Martinique et en Guadeloupe ?",
+            "a": "Le rhum"
+          },
+          {
+            "q": "Quel cocktail new-yorkais est composé de whisky, vermouth rouge et bitter ?",
+            "a": "Le Manhattan"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quelle boisson fermentée coréenne est faite à base de riz et servie claire ou laiteuse ?",
+            "a": "Le makgeolli"
+          },
+          {
+            "q": "Quel cocktail à base de vodka, jus de tomate, épices et céleri porte un nom sanglant ?",
+            "a": "Le Bloody Mary"
+          },
+          {
+            "q": "Quel alcool écossais est vieilli en fût de chêne et se boit pur ou en cocktail ?",
+            "a": "Le whisky (scotch)"
+          },
+          {
+            "q": "Quel café glacé italien est servi avec de la glace vanille ou crème chantilly ?",
+            "a": "L’affogato"
+          },
+          {
+            "q": "Quelle boisson gazeuse canadienne est à base de gingembre ?",
+            "a": "Le ginger ale"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel spiritueux mexicain est fabriqué à partir d’agave bleue ?",
+            "a": "La tequila"
+          },
+          {
+            "q": "Quel cocktail tropical associe rhum, jus d’ananas et crème de coco ?",
+            "a": "La piña colada"
+          },
+          {
+            "q": "Quel vin fortifié espagnol est souvent servi à l’apéritif, notamment en Andalousie ?",
+            "a": "Le xérès (sherry)"
+          },
+          {
+            "q": "Quel thé japonais en poudre verte est utilisé dans la cérémonie du thé ?",
+            "a": "Le matcha"
+          },
+          {
+            "q": "Quel café glacé américain très populaire est vendu par Starbucks ?",
+            "a": "Le Frappuccino"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel alcool italien amer est la base du spritz ?",
+            "a": "L’Aperol (ou le Campari)"
+          },
+          {
+            "q": "Quel cocktail new-yorkais est fait de vodka, triple sec, citron vert et cranberry ?",
+            "a": "Le cosmopolitan"
+          },
+          {
+            "q": "Quel alcool japonais est distillé à partir d’orge, patates douces ou riz ?",
+            "a": "Le shōchū"
+          },
+          {
+            "q": "Quel café turc est préparé dans une petite casserole appelée cezve ?",
+            "a": "Le café turc"
+          },
+          {
+            "q": "Quelle boisson sud-américaine se boit avec une calebasse et une bombilla ?",
+            "a": "Le maté"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel spiritueux italien à base de marc de raisin se boit en digestif ?",
+            "a": "La grappa"
+          },
+          {
+            "q": "Quel cocktail est composé de rhum blanc, citron vert et sucre de canne, servi à La Havane ?",
+            "a": "Le daiquiri"
+          },
+          {
+            "q": "Quel alcool fortifié français vient de la région de Cognac ?",
+            "a": "Le cognac"
+          },
+          {
+            "q": "Quel café italien mélangé avec du lait chaud mousseux est servi le matin ?",
+            "a": "Le cappuccino"
+          },
+          {
+            "q": "Quel cocktail tiki inventé en Californie mélange rhum, amaretto, jus de citron vert et sirop d’orgeat ?",
+            "a": "Le Mai Tai"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel whisky japonais de la distillerie Suntory est célèbre dans le monde entier ?",
+            "a": "Yamazaki (ou Hibiki)"
+          },
+          {
+            "q": "Quel alcool chinois très fort à base de sorgho est le plus bu au monde ?",
+            "a": "Le baijiu"
+          },
+          {
+            "q": "Quel cocktail de la Nouvelle-Orléans contient absinthe, whisky de seigle, sucre et bitter ?",
+            "a": "Le Sazerac"
+          },
+          {
+            "q": "Quel café vietnamien se prépare avec du lait concentré sucré ?",
+            "a": "Le café vietnamien"
+          },
+          {
+            "q": "Quel alcool péruvien et chilien est utilisé pour faire le Pisco Sour ?",
+            "a": "Le pisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jeux_video",
+      "name": "Jeux vidéo",
+      "questions": {
+        "1": [
+          {
+            "q": "Quel est le plombier moustachu le plus célèbre du jeu vidéo ?",
+            "a": "Mario"
+          },
+          {
+            "q": "Dans quel jeu doit-on attraper des créatures appelées Pokémon ?",
+            "a": "Pokémon"
+          },
+          {
+            "q": "Quel hérisson bleu est la mascotte de Sega ?",
+            "a": "Sonic"
+          },
+          {
+            "q": "Dans quel jeu incarne-t-on un guerrier qui affronte des creepers ?",
+            "a": "Minecraft"
+          },
+          {
+            "q": "Quel jeu d’Activision met en scène un soldat dans des guerres modernes ?",
+            "a": "Call of Duty"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel jeu de tir multijoueur a popularisé le mode Battle Royale en 2017 ?",
+            "a": "Fortnite"
+          },
+          {
+            "q": "Quelle licence Nintendo met en avant des courses de kart ?",
+            "a": "Mario Kart"
+          },
+          {
+            "q": "Quel jeu de danse utilise une caméra ou manette pour suivre les mouvements ?",
+            "a": "Just Dance"
+          },
+          {
+            "q": "Quelle console portable de Nintendo succède à la Game Boy ?",
+            "a": "La Nintendo DS"
+          },
+          {
+            "q": "Quel studio a créé la série The Legend of Zelda ?",
+            "a": "Nintendo"
+          }
+        ],
+        "3": [
+          {
+            "q": "Quel jeu de rôle en ligne massivement multijoueur (MMORPG) a été lancé en 2004 par Blizzard ?",
+            "a": "World of Warcraft"
+          },
+          {
+            "q": "Quel héros porte un grappin et combat des pirates dans Uncharted ?",
+            "a": "Nathan Drake"
+          },
+          {
+            "q": "Quel est le jeu culte où l’on capture des fantômes avec un aspirateur dans un manoir ?",
+            "a": "Luigi’s Mansion"
+          },
+          {
+            "q": "Quel jeu de survie et d’horreur met en scène Leon Kennedy et Umbrella Corporation ?",
+            "a": "Resident Evil"
+          },
+          {
+            "q": "Quel jeu en monde ouvert de Rockstar met en scène des cowboys ?",
+            "a": "Red Dead Redemption"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quelle franchise de combat inclut des personnages comme Ryu et Ken ?",
+            "a": "Street Fighter"
+          },
+          {
+            "q": "Quel jeu de tir futuriste oppose les Spartans de l’UNSC à l’Alliance Covenante ?",
+            "a": "Halo"
+          },
+          {
+            "q": "Quel jeu de rôle japonais se distingue par ses invocations et son héros Cloud Strife ?",
+            "a": "Final Fantasy VII"
+          },
+          {
+            "q": "Quel jeu d’aventure a pour héroïne Lara Croft ?",
+            "a": "Tomb Raider"
+          },
+          {
+            "q": "Quel studio a développé The Witcher et Cyberpunk 2077 ?",
+            "a": "CD Projekt Red"
+          }
+        ],
+        "5": [
+          {
+            "q": "Dans quel jeu incarne-t-on un assassin équipé d’une lame cachée ?",
+            "a": "Assassin’s Creed"
+          },
+          {
+            "q": "Quel est le jeu le plus vendu de tous les temps (plus de 200 millions d’exemplaires) ?",
+            "a": "Minecraft"
+          },
+          {
+            "q": "Quel jeu de tir en équipe met en scène Tracer, Winston et Genji ?",
+            "a": "Overwatch"
+          },
+          {
+            "q": "Quel jeu de stratégie met en scène des Zergs, Protoss et Terrans ?",
+            "a": "StarCraft"
+          },
+          {
+            "q": "Quel héros est accompagné de Yoshi dans plusieurs aventures ?",
+            "a": "Mario"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quelle série de jeux vidéo de sport met en avant Cristiano Ronaldo ou Lionel Messi ?",
+            "a": "FIFA"
+          },
+          {
+            "q": "Quel jeu en 2D a popularisé l’expression 'Finish him!' ?",
+            "a": "Mortal Kombat"
+          },
+          {
+            "q": "Quel jeu d’infiltration met en scène Solid Snake ?",
+            "a": "Metal Gear Solid"
+          },
+          {
+            "q": "Dans quel jeu de rôle incarne-t-on le 'Dovahkiin' ?",
+            "a": "The Elder Scrolls V: Skyrim"
+          },
+          {
+            "q": "Quel jeu indépendant met en scène un chevalier insecte dans un monde souterrain ?",
+            "a": "Hollow Knight"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel jeu de tir à la première personne de Valve a popularisé le mode compétitif 'Dust II' ?",
+            "a": "Counter-Strike"
+          },
+          {
+            "q": "Quel jeu met en scène Kratos, le dieu de la guerre ?",
+            "a": "God of War"
+          },
+          {
+            "q": "Quel jeu de simulation permet de gérer une ville et son maire ?",
+            "a": "SimCity"
+          },
+          {
+            "q": "Quel jeu de survie horrifique se déroule dans la ville de Silent Hill ?",
+            "a": "Silent Hill"
+          },
+          {
+            "q": "Quel jeu de rythme demande de frapper des cubes en musique avec des sabres lasers ?",
+            "a": "Beat Saber"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quelle licence met en scène un hérisson bleu affrontant le Dr Robotnik ?",
+            "a": "Sonic the Hedgehog"
+          },
+          {
+            "q": "Quel jeu de rôle propose de devenir le 'Champion de Kanto' ?",
+            "a": "Pokémon Rouge/Bleu"
+          },
+          {
+            "q": "Quelle licence Nintendo a pour mascotte un elfe vêtu de vert ?",
+            "a": "The Legend of Zelda (Link)"
+          },
+          {
+            "q": "Quel jeu de survie multijoueur met en scène des imposteurs dans un vaisseau ?",
+            "a": "Among Us"
+          },
+          {
+            "q": "Quel FPS de Valve repose sur la résolution d’énigmes avec des portails ?",
+            "a": "Portal"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel jeu en monde ouvert de Rockstar met en scène la ville fictive de Los Santos ?",
+            "a": "Grand Theft Auto V"
+          },
+          {
+            "q": "Quel jeu indépendant de Toby Fox raconte l’histoire de Frisk dans un univers souterrain ?",
+            "a": "Undertale"
+          },
+          {
+            "q": "Quel MOBA oppose des champions sur la Faille de l’invocateur ?",
+            "a": "League of Legends"
+          },
+          {
+            "q": "Quel jeu d’horreur indépendant met en scène un animatronique tueur ?",
+            "a": "Five Nights at Freddy’s"
+          },
+          {
+            "q": "Quel jeu de FromSoftware met en scène des morts-vivants et une difficulté extrême ?",
+            "a": "Dark Souls"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quel jeu de rôle de 2017 de Nintendo met en scène Hyrule en monde ouvert ?",
+            "a": "The Legend of Zelda: Breath of the Wild"
+          },
+          {
+            "q": "Quel jeu de 2018 raconte l’histoire d’Arthur Morgan et du gang Van der Linde ?",
+            "a": "Red Dead Redemption 2"
+          },
+          {
+            "q": "Quel battle royale de Respawn Entertainment est sorti en 2019 ?",
+            "a": "Apex Legends"
+          },
+          {
+            "q": "Quel jeu de stratégie au tour par tour met en scène des civilisations de l’Antiquité à l’ère moderne ?",
+            "a": "Civilization"
+          },
+          {
+            "q": "Quel RPG japonais sorti en 1997 est souvent considéré comme une révolution du genre ?",
+            "a": "Final Fantasy VII"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sagas_celebres",
+      "name": "Sagas célèbres",
+      "questions": {
+        "1": [
+          {
+            "q": "Qui est le sorcier à la cicatrice en forme d’éclair ?",
+            "a": "Harry Potter"
+          },
+          {
+            "q": "Quel héros manie un sabre laser vert dans Star Wars ?",
+            "a": "Luke Skywalker"
+          },
+          {
+            "q": "Dans quelle saga trouve-t-on Katniss Everdeen ?",
+            "a": "Hunger Games"
+          },
+          {
+            "q": "Qui est l’elfe compagnon de Frodon dans Le Seigneur des Anneaux ?",
+            "a": "Legolas"
+          },
+          {
+            "q": "Quel super-héros Marvel est aussi appelé 'L’homme-araignée' ?",
+            "a": "Spider-Man"
+          }
+        ],
+        "2": [
+          {
+            "q": "Quel anneau doit être détruit dans la saga Le Seigneur des Anneaux ?",
+            "a": "L’Anneau Unique"
+          },
+          {
+            "q": "Quel district représente Katniss Everdeen dans Hunger Games ?",
+            "a": "District 12"
+          },
+          {
+            "q": "Comment s’appelle l’école de sorcellerie de Harry Potter ?",
+            "a": "Poudlard"
+          },
+          {
+            "q": "Qui est le seigneur Sith maître de Dark Vador ?",
+            "a": "Dark Sidious (Palpatine)"
+          },
+          {
+            "q": "Quel super-héros Marvel brandit le marteau Mjolnir ?",
+            "a": "Thor"
+          }
+        ],
+        "3": [
+          {
+            "q": "Dans quelle saga trouve-t-on Peeta Mellark ?",
+            "a": "Hunger Games"
+          },
+          {
+            "q": "Quel personnage dit 'Je suis ton père' dans Star Wars ?",
+            "a": "Dark Vador"
+          },
+          {
+            "q": "Quel hobbit porte l’Anneau Unique jusqu’au Mordor ?",
+            "a": "Frodon Sacquet"
+          },
+          {
+            "q": "Quel est le nom complet de 'Gandalf' ?",
+            "a": "Gandalf le Gris (puis le Blanc)"
+          },
+          {
+            "q": "Dans quelle saga retrouve-t-on les reliques de la mort ?",
+            "a": "Harry Potter"
+          }
+        ],
+        "4": [
+          {
+            "q": "Quel mentor de Katniss Everdeen a gagné les Hunger Games avant elle ?",
+            "a": "Haymitch Abernathy"
+          },
+          {
+            "q": "Quel droïde doré parle six millions de formes de communication ?",
+            "a": "C-3PO"
+          },
+          {
+            "q": "Quel royaume est gouverné par Aragorn à la fin du Seigneur des Anneaux ?",
+            "a": "Le Gondor"
+          },
+          {
+            "q": "Quel personnage de Harry Potter est surnommé 'Le Prince de Sang-Mêlé' ?",
+            "a": "Severus Rogue"
+          },
+          {
+            "q": "Quel super-héros Marvel dit 'Je suis Iron Man' ?",
+            "a": "Tony Stark / Iron Man"
+          }
+        ],
+        "5": [
+          {
+            "q": "Quel arène des Hunger Games est une horloge géante mortelle ?",
+            "a": "Celle du 75ème Hunger Games (l’Expiation)"
+          },
+          {
+            "q": "Quel maître Jedi entraîne Obi-Wan Kenobi ?",
+            "a": "Qui-Gon Jinn"
+          },
+          {
+            "q": "Quel objet lumineux guide Frodon dans les ténèbres, offert par Galadriel ?",
+            "a": "La lumière d’Eärendil"
+          },
+          {
+            "q": "Quel est le nom du rival principal de Harry Potter à Poudlard ?",
+            "a": "Draco Malefoy"
+          },
+          {
+            "q": "Quelle saga oppose Avengers et Thanos ?",
+            "a": "Marvel / Avengers"
+          }
+        ],
+        "6": [
+          {
+            "q": "Quel événement est surnommé 'La Moisson' dans Hunger Games ?",
+            "a": "La sélection des tributs"
+          },
+          {
+            "q": "Quel chasseur de primes capture Han Solo dans L’Empire contre-attaque ?",
+            "a": "Boba Fett"
+          },
+          {
+            "q": "Quel est le nom complet de Gollum dans Le Seigneur des Anneaux ?",
+            "a": "Sméagol"
+          },
+          {
+            "q": "Quelle saga raconte l’histoire des sorciers 'Les Animaux Fantastiques' ?",
+            "a": "Harry Potter (univers)"
+          },
+          {
+            "q": "Dans Marvel, qui est le roi du Wakanda ?",
+            "a": "Black Panther / T’Challa"
+          }
+        ],
+        "7": [
+          {
+            "q": "Quel président cruel règne sur Panem dans Hunger Games ?",
+            "a": "Président Snow"
+          },
+          {
+            "q": "Quel est le vrai prénom de Dark Vador ?",
+            "a": "Anakin Skywalker"
+          },
+          {
+            "q": "Quel est le vrai nom du 'Balrog' affronté par Gandalf ?",
+            "a": "Durin’s Bane (Fléau de Durin)"
+          },
+          {
+            "q": "Quel sorcier a fondé la maison Serpentard à Poudlard ?",
+            "a": "Salazar Serpentard"
+          },
+          {
+            "q": "Quel artefact Marvel est dans le Tesseract ?",
+            "a": "La Pierre de l’Espace (Infinity Stone)"
+          }
+        ],
+        "8": [
+          {
+            "q": "Quel symbole devient l’emblème de la rébellion dans Hunger Games ?",
+            "a": "Le geai moqueur (Mockingjay)"
+          },
+          {
+            "q": "Quel Jedi est maître de Yoda dans certaines légendes ?",
+            "a": "N’Kata Del Gormo (légendes)"
+          },
+          {
+            "q": "Quel anneau offre Galadriel à Frodon dans la Communauté de l’Anneau ?",
+            "a": "Elle n’offre pas d’anneau mais la lumière d’Eärendil (attention piège)"
+          },
+          {
+            "q": "Quelle baguette magique est la plus puissante dans Harry Potter ?",
+            "a": "La baguette de Sureau"
+          },
+          {
+            "q": "Dans Marvel, quelle saga s’achève par 'Avengers: Endgame' ?",
+            "a": "La saga de l’Infini"
+          }
+        ],
+        "9": [
+          {
+            "q": "Quel livre dans Hunger Games raconte la rébellion passée de Panem ?",
+            "a": "La Ballade du serpent et de l’oiseau chanteur"
+          },
+          {
+            "q": "Qui est le créateur de Star Wars ?",
+            "a": "George Lucas"
+          },
+          {
+            "q": "Quel auteur a écrit Le Seigneur des Anneaux ?",
+            "a": "J.R.R. Tolkien"
+          },
+          {
+            "q": "Qui tue Bellatrix Lestrange dans Harry Potter ?",
+            "a": "Molly Weasley"
+          },
+          {
+            "q": "Quel super-vilain Marvel veut éliminer la moitié de l’univers ?",
+            "a": "Thanos"
+          }
+        ],
+        "10": [
+          {
+            "q": "Quelle édition des Hunger Games voit Katniss briser l’arène ?",
+            "a": "Le 75ème Hunger Games (Expiation)"
+          },
+          {
+            "q": "Quel est le vrai nom du 'Seigneur des Ténèbres' dans Harry Potter ?",
+            "a": "Tom Elvis Jedusor / Voldemort"
+          },
+          {
+            "q": "Quel anneau Sauron a-t-il forgé pour lui-même ?",
+            "a": "L’Anneau Unique"
+          },
+          {
+            "q": "Quel Jedi s’exile sur Dagobah après l’Ordre 66 ?",
+            "a": "Yoda"
+          },
+          {
+            "q": "Dans Marvel, quel personnage manie le Gantelet de l’Infini à la fin d’Endgame ?",
+            "a": "Tony Stark / Iron Man"
+          }
+        ]
+      }
     }
   ]
 }
