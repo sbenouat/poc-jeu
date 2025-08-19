@@ -387,9 +387,6 @@ els.restartBtn.addEventListener("click", ()=>{
 els.shareBtn.addEventListener("click", shareScores);
 
 window.addEventListener("load", async ()=>{
-  if('serviceWorker' in navigator){
-    try{ await navigator.serviceWorker.register("./sw.js"); }catch(e){}
-  }
   handleInstallPrompt();
   await loadQuestions();
   const saved = loadLocal();
