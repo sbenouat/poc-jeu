@@ -32,6 +32,20 @@
         "a": "Tennis"
       },
       {
+        "q": "Quel sport pratique Rafael Nadal ?",
+        "a": "Tennis"
+      },
+      {
+        "q": "Quel sport pratique Kylian Mbappé ?",
+        "a": "Football"
+      },
+      {
+        "q": "Combien de minutes dure un match de football ?",
+        "a": "90"
+      }
+    ],
+    "2": [
+      {
         "q": "Quel sport pratique Lewis Hamilton ?",
         "a": "Formule 1"
       },
@@ -40,26 +54,12 @@
         "a": "Basketball"
       },
       {
-        "q": "Quel sport pratique Rafael Nadal ?",
-        "a": "Tennis"
-      }
-    ],
-    "2": [
-      {
         "q": "Combien de points vaut un essai au rugby ?",
         "a": "5"
       },
       {
-        "q": "Quel sport se joue avec une batte et une balle en Angleterre ?",
-        "a": "Cricket"
-      },
-      {
         "q": "Quel sport se joue avec une planche et des vagues ?",
         "a": "Surf"
-      },
-      {
-        "q": "Combien de minutes dure un match de football ?",
-        "a": "90"
       },
       {
         "q": "Quel sport utilise un tatami ?",
@@ -74,16 +74,16 @@
         "a": "Natation"
       },
       {
-        "q": "Quel sport pratique Simone Biles ?",
-        "a": "Gymnastique"
-      },
-      {
-        "q": "Quel sport pratique Kylian Mbappé ?",
-        "a": "Football"
-      },
-      {
         "q": "Quel sport pratique Stephen Curry ?",
         "a": "Basketball"
+      },
+      {
+        "q": "Quel sport pratique Teddy Riner ?",
+        "a": "Judo"
+      },
+      {
+        "q": "Quel sport pratique Zinedine Zidane ?",
+        "a": "Football"
       }
     ],
     "3": [
@@ -104,10 +104,6 @@
         "a": "15"
       },
       {
-        "q": "Combien de joueurs dans une équipe de baseball ?",
-        "a": "9"
-      },
-      {
         "q": "Quel sport pratique Diego Maradona ?",
         "a": "Football"
       },
@@ -116,23 +112,23 @@
         "a": "Football"
       },
       {
-        "q": "Quel sport pratique Kobe Bryant ?",
-        "a": "Basketball"
-      },
-      {
-        "q": "Quel sport pratique Alain Prost ?",
-        "a": "Formule 1"
-      },
-      {
         "q": "Quel sport pratique Mike Tyson ?",
         "a": "Boxe"
-      }
-    ],
-    "4": [
+      },
+      {
+        "q": "Quel boxeur est surnommé « The Greatest » ?",
+        "a": "Muhammad Ali"
+      },
+      {
+        "q": "Quel joueur NBA est surnommé « King James » ?",
+        "a": "LeBron James"
+      },
       {
         "q": "Quel pays a remporté la Coupe du Monde 2018 ?",
         "a": "France"
-      },
+      }
+    ],
+    "4": [
       {
         "q": "Quel pays a remporté la Coupe du Monde 2014 ?",
         "a": "Allemagne"
@@ -141,6 +137,82 @@
         "q": "Quel pays a remporté la Coupe du Monde 2010 ?",
         "a": "Espagne"
       },
+      {
+        "q": "Qui a remporté l'Euro 2016 ?",
+        "a": "Portugal"
+      },
+      {
+        "q": "Combien de fois le Brésil a-t-il gagné la Coupe du Monde ?",
+        "a": "5"
+      },
+      {
+        "q": "Qui a remporté la Coupe du Monde 1998 ?",
+        "a": "France"
+      },
+      {
+        "q": "Qui a gagné les JO de Londres 2012 au 100m ?",
+        "a": "Usain Bolt"
+      },
+      {
+        "q": "Quel coureur a gagné le 100m en 9,58 secondes (record du monde) ?",
+        "a": "Usain Bolt"
+      },
+      {
+        "q": "Quel joueur a marqué la « Main de Dieu » ?",
+        "a": "Diego Maradona"
+      },
+      {
+        "q": "Quel boxeur est surnommé « Iron Mike » ?",
+        "a": "Mike Tyson"
+      },
+      {
+        "q": "Qui est le meilleur buteur de l'histoire de la Ligue des Champions ?",
+        "a": "Cristiano Ronaldo"
+      }
+    ],
+    "5": [
+      {
+        "q": "Combien de médailles d'or a gagné Michael Phelps ?",
+        "a": "23"
+      },
+      {
+        "q": "Combien de fois Rafael Nadal a-t-il gagné Roland-Garros ?",
+        "a": "14"
+      },
+      {
+        "q": "Combien de fois la France a-t-elle gagné la Coupe du Monde de football ?",
+        "a": "2"
+      },
+      {
+        "q": "Combien de fois l'Allemagne a-t-elle gagné la Coupe du Monde ?",
+        "a": "4"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 2021 ?",
+        "a": "Lionel Messi"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 1998 ?",
+        "a": "Zinedine Zidane"
+      },
+      {
+        "q": "Quelle équipe NBA a gagné le plus de titres ?",
+        "a": "Boston Celtics et Los Angeles Lakers"
+      },
+      {
+        "q": "Qui est le meilleur buteur de l'histoire de l'équipe de France ?",
+        "a": "Olivier Giroud"
+      },
+      {
+        "q": "Quel nageur détient le record de médailles olympiques ?",
+        "a": "Michael Phelps"
+      },
+      {
+        "q": "Quel joueur français a marqué une panenka en finale de Coupe du Monde ?",
+        "a": "Zinedine Zidane"
+      }
+    ],
+    "6": [
       {
         "q": "Quel pays a remporté la Coupe du Monde 2006 ?",
         "a": "Italie"
@@ -154,107 +226,25 @@
         "a": "Rafael Nadal"
       },
       {
-        "q": "Qui a remporté Wimbledon en 2019 ?",
-        "a": "Novak Djokovic"
-      },
-      {
-        "q": "Qui a remporté l’Euro 2016 ?",
-        "a": "Portugal"
-      },
-      {
-        "q": "Qui a remporté l’Euro 2000 ?",
+        "q": "Qui a remporté l'Euro 2000 ?",
         "a": "France"
       },
       {
-        "q": "Qui a remporté l’Euro 1992 ?",
-        "a": "Danemark"
-      }
-    ],
-    "5": [
-      {
-        "q": "Combien de médailles d’or a gagné Michael Phelps ?",
-        "a": "23"
-      },
-      {
-        "q": "Combien de fois Rafael Nadal a-t-il gagné Roland-Garros ?",
-        "a": "14"
-      },
-      {
-        "q": "Combien de fois la France a-t-elle gagné la Coupe du Monde de football ?",
-        "a": "2"
-      },
-      {
-        "q": "Combien de fois le Brésil a-t-il gagné la Coupe du Monde ?",
-        "a": "5"
-      },
-      {
-        "q": "Combien de fois l’Allemagne a-t-elle gagné la Coupe du Monde ?",
-        "a": "4"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or 2021 ?",
-        "a": "Lionel Messi"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or 2008 ?",
+        "q": "Qui a remporté le Ballon d'Or 2008 ?",
         "a": "Cristiano Ronaldo"
       },
       {
-        "q": "Qui a remporté le Ballon d’Or 1998 ?",
-        "a": "Zinedine Zidane"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or 1986 ?",
+        "q": "Qui a remporté le Ballon d'Or 1986 ?",
         "a": "Diego Maradona"
       },
       {
-        "q": "Qui a remporté le Ballon d’Or 1970 ?",
-        "a": "Pelé"
-      }
-    ],
-    "6": [
-      {
-        "q": "Qui a gagné les JO de Londres 2012 au 100m ?",
-        "a": "Usain Bolt"
-      },
-      {
-        "q": "Qui a gagné les JO de Pékin 2008 au 100m ?",
-        "a": "Usain Bolt"
-      },
-      {
-        "q": "Qui a gagné les JO de Rio 2016 au 100m ?",
-        "a": "Usain Bolt"
-      },
-      {
-        "q": "Quelle équipe NBA a gagné le plus de titres ?",
-        "a": "Boston Celtics et Los Angeles Lakers"
-      },
-      {
-        "q": "Quel joueur NBA est surnommé « King James » ?",
-        "a": "LeBron James"
-      },
-      {
-        "q": "Qui est le meilleur buteur de l’histoire de la Ligue des Champions ?",
-        "a": "Cristiano Ronaldo"
-      },
-      {
-        "q": "Qui est le meilleur buteur de l’histoire de la Coupe du Monde ?",
+        "q": "Qui est le meilleur buteur de l'histoire de la Coupe du Monde ?",
         "a": "Miroslav Klose"
-      },
-      {
-        "q": "Qui est le meilleur buteur de l’histoire de l’équipe de France ?",
-        "a": "Olivier Giroud"
       },
       {
         "q": "Qui a gagné Roland-Garros 1983 pour la France ?",
         "a": "Yannick Noah"
       },
-      {
-        "q": "Qui a gagné le Tour de France 2019 ?",
-        "a": "Egan Bernal"
-      }
-    ],
-    "7": [
       {
         "q": "Quel club a remporté la Ligue des Champions 2020 ?",
         "a": "Bayern Munich"
@@ -262,22 +252,12 @@
       {
         "q": "Quel club a remporté la Ligue des Champions 2019 ?",
         "a": "Liverpool"
-      },
+      }
+    ],
+    "7": [
       {
         "q": "Quel club a remporté la Ligue des Champions 2018 ?",
         "a": "Real Madrid"
-      },
-      {
-        "q": "Quel club a remporté la Ligue des Champions 2017 ?",
-        "a": "Real Madrid"
-      },
-      {
-        "q": "Quel club a remporté la Ligue des Champions 2016 ?",
-        "a": "Real Madrid"
-      },
-      {
-        "q": "Qui a remporté la Coupe du Monde 1998 ?",
-        "a": "France"
       },
       {
         "q": "Qui a remporté la Coupe du Monde 1994 ?",
@@ -288,19 +268,35 @@
         "a": "Italie"
       },
       {
-        "q": "Qui a remporté la Coupe du Monde 1978 ?",
-        "a": "Argentine"
-      },
-      {
         "q": "Qui a remporté la Coupe du Monde 1966 ?",
         "a": "Angleterre"
-      }
-    ],
-    "8": [
+      },
       {
         "q": "Quel sportif a remporté 7 Tours de France mais a été déchu pour dopage ?",
         "a": "Lance Armstrong"
       },
+      {
+        "q": "Quel cycliste a gagné 5 Tours de France dans les années 60-70 ?",
+        "a": "Eddy Merckx"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 2005 ?",
+        "a": "Ronaldinho"
+      },
+      {
+        "q": "Quel sport pratique Simone Biles ?",
+        "a": "Gymnastique"
+      },
+      {
+        "q": "Quel sport pratique Kobe Bryant ?",
+        "a": "Basketball"
+      },
+      {
+        "q": "Combien de joueurs dans une équipe de baseball ?",
+        "a": "9"
+      }
+    ],
+    "8": [
       {
         "q": "Quel cycliste français a remporté le Tour de France 1985 ?",
         "a": "Bernard Hinault"
@@ -310,35 +306,17 @@
         "a": "Miguel Indurain"
       },
       {
-        "q": "Quel cycliste a gagné 5 Tours de France dans les années 60-70 ?",
-        "a": "Eddy Merckx"
+        "q": "Qui a remporté l'Euro 1992 ?",
+        "a": "Danemark"
       },
       {
-        "q": "Quel coureur a gagné le 100m en 9,58 secondes (record du monde) ?",
-        "a": "Usain Bolt"
+        "q": "Qui a remporté la Coupe du Monde 1978 ?",
+        "a": "Argentine"
       },
       {
-        "q": "Quel nageur détient le record de médailles olympiques ?",
-        "a": "Michael Phelps"
+        "q": "Qui a gagné le Tour de France 2019 ?",
+        "a": "Egan Bernal"
       },
-      {
-        "q": "Quel joueur a marqué la « Main de Dieu » ?",
-        "a": "Diego Maradona"
-      },
-      {
-        "q": "Quel joueur français a marqué une panenka en finale de Coupe du Monde ?",
-        "a": "Zinedine Zidane"
-      },
-      {
-        "q": "Quel boxeur est surnommé « The Greatest » ?",
-        "a": "Muhammad Ali"
-      },
-      {
-        "q": "Quel boxeur est surnommé « Iron Mike » ?",
-        "a": "Mike Tyson"
-      }
-    ],
-    "9": [
       {
         "q": "Quel sport pratique Nadia Comaneci ?",
         "a": "Gymnastique"
@@ -348,12 +326,38 @@
         "a": "Athlétisme"
       },
       {
-        "q": "Quel sport pratique Alain Bernard ?",
-        "a": "Natation"
+        "q": "Quel sport pratique Alain Prost ?",
+        "a": "Formule 1"
       },
       {
-        "q": "Quel sport pratique Teddy Riner ?",
-        "a": "Judo"
+        "q": "Qui a remporté le Ballon d'Or 1995 ?",
+        "a": "George Weah"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 1991 ?",
+        "a": "Jean-Pierre Papin"
+      }
+    ],
+    "9": [
+      {
+        "q": "Qui a remporté le Ballon d'Or 1983 ?",
+        "a": "Michel Platini"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 1982 ?",
+        "a": "Paolo Rossi"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 1974 ?",
+        "a": "Johan Cruyff"
+      },
+      {
+        "q": "Qui a remporté le Ballon d'Or 1970 ?",
+        "a": "Pelé"
+      },
+      {
+        "q": "Quel sport pratique Alain Bernard ?",
+        "a": "Natation"
       },
       {
         "q": "Quel sport pratique Clarisse Agbégnénou ?",
@@ -364,16 +368,12 @@
         "a": "Natation"
       },
       {
-        "q": "Quel sport pratique Yohan Blake ?",
-        "a": "Athlétisme"
+        "q": "Quel sport se joue avec une batte et une balle en Angleterre ?",
+        "a": "Cricket"
       },
       {
-        "q": "Quel sport pratique Novak Djokovic ?",
-        "a": "Tennis"
-      },
-      {
-        "q": "Quel sport pratique Zinédine Zidane ?",
-        "a": "Football"
+        "q": "Qui a remporté Wimbledon en 2019 ?",
+        "a": "Novak Djokovic"
       },
       {
         "q": "Quel sport pratique Diego Forlán ?",
@@ -382,44 +382,24 @@
     ],
     "10": [
       {
-        "q": "Qui a remporté le premier Ballon d’Or en 1956 ?",
+        "q": "Qui a remporté le premier Ballon d'Or en 1956 ?",
         "a": "Stanley Matthews"
       },
       {
-        "q": "Qui a remporté le Ballon d’Or en 2005 ?",
-        "a": "Ronaldinho"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or en 1995 ?",
-        "a": "George Weah"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or en 1991 ?",
-        "a": "Jean-Pierre Papin"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or en 1983 ?",
-        "a": "Michel Platini"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or en 1982 ?",
-        "a": "Paolo Rossi"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or en 1974 ?",
-        "a": "Johan Cruyff"
-      },
-      {
-        "q": "Qui a remporté le Ballon d’Or en 1969 ?",
+        "q": "Qui a remporté le Ballon d'Or en 1969 ?",
         "a": "Gianni Rivera"
       },
       {
-        "q": "Qui a remporté le Ballon d’Or en 1961 ?",
+        "q": "Qui a remporté le Ballon d'Or en 1961 ?",
         "a": "Omar Sívori"
       },
       {
-        "q": "Qui a remporté le Ballon d’Or en 1958 ?",
+        "q": "Qui a remporté le Ballon d'Or en 1958 ?",
         "a": "Raymond Kopa"
+      },
+      {
+        "q": "Quel sport pratique Yohan Blake ?",
+        "a": "Athlétisme"
       }
     ]
   }

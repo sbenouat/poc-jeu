@@ -12,16 +12,42 @@
         "a": "Napoléon Ier"
       },
       {
-        "q": "Qui était le roi de France pendant la Révolution française ?",
-        "a": "Louis XVI"
-      },
-      {
-        "q": "Qui a découvert l’Amérique en 1492 ?",
+        "q": "Qui a découvert l'Amérique en 1492 ?",
         "a": "Christophe Colomb"
       },
       {
         "q": "Quel mur est tombé en 1989 ?",
         "a": "Le mur de Berlin"
+      },
+      {
+        "q": "Quel roi est surnommé le « Roi Soleil » ?",
+        "a": "Louis XIV"
+      },
+      {
+        "q": "Quel événement a eu lieu le 14 juillet 1789 ?",
+        "a": "La prise de la Bastille"
+      },
+      {
+        "q": "Quel roi a lancé la construction de Versailles ?",
+        "a": "Louis XIV"
+      },
+      {
+        "q": "Qui a fondé l'Empire carolingien ?",
+        "a": "Charlemagne"
+      },
+      {
+        "q": "Quelle reine d'Égypte était connue pour sa beauté ?",
+        "a": "Cléopâtre"
+      },
+      {
+        "q": "Quel empire a construit le Colisée ?",
+        "a": "L'Empire romain"
+      }
+    ],
+    "2": [
+      {
+        "q": "Qui était le roi de France pendant la Révolution française ?",
+        "a": "Louis XVI"
       },
       {
         "q": "Quel général a libéré la France pendant la Seconde Guerre mondiale ?",
@@ -32,45 +58,11 @@
         "a": "1944"
       },
       {
-        "q": "Quel roi est surnommé le « Roi Soleil » ?",
-        "a": "Louis XIV"
-      },
-      {
-        "q": "Quelle reine d’Égypte était connue pour sa beauté ?",
-        "a": "Cléopâtre"
-      },
-      {
-        "q": "Quel empire a construit le Colisée ?",
-        "a": "L’Empire romain"
-      }
-    ],
-    "2": [
-      {
         "q": "En quelle année a eu lieu la Première Guerre mondiale ?",
         "a": "1914-1918"
       },
       {
-        "q": "Qui fut assassiné à Sarajevo en 1914, déclenchant la Première Guerre mondiale ?",
-        "a": "L’archiduc François-Ferdinand"
-      },
-      {
-        "q": "Quel empereur romain a fait adopter le christianisme ?",
-        "a": "Constantin Ier"
-      },
-      {
-        "q": "Quel roi d’Angleterre a eu six épouses ?",
-        "a": "Henri VIII"
-      },
-      {
-        "q": "Qui était Jeanne d’Arc ?",
-        "a": "Une héroïne française de la guerre de Cent Ans"
-      },
-      {
-        "q": "Quelle grande peste a ravagé l’Europe au XIVe siècle ?",
-        "a": "La peste noire"
-      },
-      {
-        "q": "En quelle année l’homme a-t-il marché sur la Lune ?",
+        "q": "En quelle année l'homme a-t-il marché sur la Lune ?",
         "a": "1969"
       },
       {
@@ -78,130 +70,160 @@
         "a": "Abraham Lincoln"
       },
       {
-        "q": "Quel empire précolombien a construit Machu Picchu ?",
-        "a": "L’Empire inca"
-      },
-      {
         "q": "Qui a peint la Cène ?",
         "a": "Léonard de Vinci"
-      }
-    ],
-    "3": [
-      {
-        "q": "En quelle année a pris fin l’Empire romain d’Occident ?",
-        "a": "476"
-      },
-      {
-        "q": "Qui était le premier président de la Ve République française ?",
-        "a": "Charles de Gaulle"
-      },
-      {
-        "q": "Quel empire avait pour capitale Constantinople ?",
-        "a": "L’Empire byzantin"
-      },
-      {
-        "q": "Quel traité a mis fin à la Première Guerre mondiale ?",
-        "a": "Le traité de Versailles"
-      },
-      {
-        "q": "Qui était Martin Luther King ?",
-        "a": "Un leader du mouvement des droits civiques aux États-Unis"
-      },
-      {
-        "q": "Quel célèbre chef militaire carthaginois a traversé les Alpes avec ses éléphants ?",
-        "a": "Hannibal"
-      },
-      {
-        "q": "Quel pays a été dirigé par Franco après la guerre civile ?",
-        "a": "L’Espagne"
-      },
-      {
-        "q": "Quel événement a eu lieu le 11 septembre 2001 ?",
-        "a": "Les attentats aux États-Unis"
       },
       {
         "q": "Quel roi fut guillotiné pendant la Révolution française ?",
         "a": "Louis XVI"
       },
       {
-        "q": "Qui a écrit le « Contrat social » ?",
-        "a": "Jean-Jacques Rousseau"
+        "q": "Qui était le premier président noir d'Afrique du Sud ?",
+        "a": "Nelson Mandela"
+      },
+      {
+        "q": "Qui a aboli l'apartheid en Afrique du Sud ?",
+        "a": "Nelson Mandela (avec F. W. de Klerk)"
       }
     ],
-    "4": [
+    "3": [
       {
-        "q": "En quelle année Christophe Colomb a-t-il découvert l’Amérique ?",
-        "a": "1492"
+        "q": "Qui était le premier président de la Ve République française ?",
+        "a": "Charles de Gaulle"
+      },
+      {
+        "q": "Qui était Jeanne d'Arc ?",
+        "a": "Une héroïne française de la guerre de Cent Ans"
+      },
+      {
+        "q": "Quelle grande peste a ravagé l'Europe au XIVe siècle ?",
+        "a": "La peste noire"
+      },
+      {
+        "q": "Quel roi d'Angleterre a eu six épouses ?",
+        "a": "Henri VIII"
+      },
+      {
+        "q": "Qui était Martin Luther King ?",
+        "a": "Un leader du mouvement des droits civiques aux États-Unis"
+      },
+      {
+        "q": "Quel événement a eu lieu le 11 septembre 2001 ?",
+        "a": "Les attentats aux États-Unis"
       },
       {
         "q": "Quelle guerre opposa le Nord et le Sud des États-Unis ?",
         "a": "La guerre de Sécession"
       },
       {
+        "q": "Quelle bataille a mis fin à l'Empire napoléonien ?",
+        "a": "Waterloo"
+      },
+      {
+        "q": "Qui a fondé l'Empire mongol ?",
+        "a": "Gengis Khan"
+      },
+      {
+        "q": "Quel pays a lancé Spoutnik, le premier satellite ?",
+        "a": "L'URSS"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui fut assassiné à Sarajevo en 1914, déclenchant la Première Guerre mondiale ?",
+        "a": "L'archiduc François-Ferdinand"
+      },
+      {
+        "q": "Quel empereur romain a fait adopter le christianisme ?",
+        "a": "Constantin Ier"
+      },
+      {
+        "q": "Quel traité a mis fin à la Première Guerre mondiale ?",
+        "a": "Le traité de Versailles"
+      },
+      {
+        "q": "Quel célèbre chef militaire carthaginois a traversé les Alpes avec ses éléphants ?",
+        "a": "Hannibal"
+      },
+      {
+        "q": "Quel empire précolombien a construit Machu Picchu ?",
+        "a": "L'Empire inca"
+      },
+      {
         "q": "Quel pharaon est associé au masque funéraire en or découvert en 1922 ?",
         "a": "Toutankhamon"
       },
       {
-        "q": "Quel explorateur portugais a contourné le cap de Bonne-Espérance ?",
-        "a": "Vasco de Gama"
+        "q": "Qui a écrit le « Contrat social » ?",
+        "a": "Jean-Jacques Rousseau"
       },
-      {
-        "q": "Quel chef nazi fut responsable de la solution finale ?",
-        "a": "Heinrich Himmler"
-      },
-      {
-        "q": "Qui était le premier président de la République française ?",
-        "a": "Louis-Napoléon Bonaparte"
-      },
-      {
-        "q": "Quelle bataille a mis fin à l’Empire napoléonien ?",
-        "a": "Waterloo"
-      },
-      {
-        "q": "Quel mur a divisé Berlin pendant la guerre froide ?",
-        "a": "Le mur de Berlin"
-      },
-      {
-        "q": "Quel pays a lancé Spoutnik, le premier satellite ?",
-        "a": "L’URSS"
-      },
-      {
-        "q": "Qui a fondé l’Empire mongol ?",
-        "a": "Gengis Khan"
-      }
-    ],
-    "5": [
       {
         "q": "Quel roi franc fut couronné empereur en 800 ?",
         "a": "Charlemagne"
-      },
-      {
-        "q": "Quelle dynastie a dirigé la Chine pendant le Moyen Âge ?",
-        "a": "Les Tang (entre autres)"
-      },
-      {
-        "q": "Quel pays a mené la révolution bolchevique ?",
-        "a": "La Russie"
-      },
-      {
-        "q": "Quelle guerre a opposé Athènes et Sparte ?",
-        "a": "La guerre du Péloponnèse"
-      },
-      {
-        "q": "Quel dirigeant soviétique a lancé la perestroïka ?",
-        "a": "Mikhaïl Gorbatchev"
       },
       {
         "q": "Quelle révolution a eu lieu en 1917 ?",
         "a": "La révolution russe"
       },
       {
+        "q": "Qui a écrit « Mein Kampf » ?",
+        "a": "Adolf Hitler"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel empire avait pour capitale Constantinople ?",
+        "a": "L'Empire byzantin"
+      },
+      {
+        "q": "Quel pays a été dirigé par Franco après la guerre civile ?",
+        "a": "L'Espagne"
+      },
+      {
+        "q": "En quelle année a pris fin l'Empire romain d'Occident ?",
+        "a": "476"
+      },
+      {
+        "q": "Quel dirigeant soviétique a lancé la perestroïka ?",
+        "a": "Mikhaïl Gorbatchev"
+      },
+      {
         "q": "Quelle guerre a opposé le Vietnam du Nord et le Vietnam du Sud ?",
         "a": "La guerre du Vietnam"
       },
       {
-        "q": "Qui a écrit « Mein Kampf » ?",
-        "a": "Adolf Hitler"
+        "q": "Quel pays a mené la révolution bolchevique ?",
+        "a": "La Russie"
+      },
+      {
+        "q": "Quel chef gaulois a résisté à Jules César ?",
+        "a": "Vercingétorix"
+      },
+      {
+        "q": "Quel événement a eu lieu en France en mai 1968 ?",
+        "a": "Les manifestations étudiantes et ouvrières"
+      },
+      {
+        "q": "Qui a mené la réforme protestante en 1517 ?",
+        "a": "Martin Luther"
+      },
+      {
+        "q": "Quel dirigeant cubain a pris le pouvoir en 1959 ?",
+        "a": "Fidel Castro"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel explorateur portugais a contourné le cap de Bonne-Espérance ?",
+        "a": "Vasco de Gama"
+      },
+      {
+        "q": "Qui était le premier président de la République française ?",
+        "a": "Louis-Napoléon Bonaparte"
+      },
+      {
+        "q": "Quelle guerre a opposé Athènes et Sparte ?",
+        "a": "La guerre du Péloponnèse"
       },
       {
         "q": "Quelle dynastie française succède aux Mérovingiens ?",
@@ -210,132 +232,110 @@
       {
         "q": "Quel roi anglais a signé la Magna Carta en 1215 ?",
         "a": "Jean sans Terre"
-      }
-    ],
-    "6": [
-      {
-        "q": "Quel traité a partagé le Nouveau Monde entre l’Espagne et le Portugal en 1494 ?",
-        "a": "Le traité de Tordesillas"
       },
       {
         "q": "Qui était le premier tsar de Russie ?",
         "a": "Ivan le Terrible"
       },
       {
-        "q": "Quel roi de Prusse est surnommé le « Grand » ?",
-        "a": "Frédéric II"
-      },
-      {
-        "q": "Qui a fondé l’Empire perse achéménide ?",
-        "a": "Cyrus le Grand"
-      },
-      {
-        "q": "Quelle bataille navale opposa Rome et Carthage ?",
-        "a": "La bataille des îles Égates"
-      },
-      {
-        "q": "Quelle croisade a abouti à la prise de Jérusalem en 1099 ?",
-        "a": "La première croisade"
-      },
-      {
-        "q": "Quel traité a mis fin à la guerre de Cent Ans ?",
-        "a": "Le traité de Picquigny"
+        "q": "Quel mouvement a conduit à l'indépendance de l'Inde ?",
+        "a": "Le mouvement de Gandhi (non-violence)"
       },
       {
         "q": "Qui était le dernier roi de France ?",
         "a": "Louis-Philippe Ier"
       },
       {
-        "q": "Quel mouvement a conduit à l’indépendance de l’Inde ?",
-        "a": "Le mouvement de Gandhi (non-violence)"
-      },
-      {
-        "q": "Quelle conférence de 1945 a préparé l’ONU ?",
-        "a": "La conférence de San Francisco"
-      }
-    ],
-    "7": [
-      {
-        "q": "Quelle bataille a marqué la fin de l’empire perse face à Alexandre le Grand ?",
-        "a": "La bataille de Gaugamèles"
+        "q": "Quelle bataille a été la plus meurtrière de la Première Guerre mondiale ?",
+        "a": "La bataille de Verdun"
       },
       {
         "q": "Qui a mené la longue marche en Chine ?",
         "a": "Mao Zedong"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel chef nazi fut responsable de la solution finale ?",
+        "a": "Heinrich Himmler"
       },
       {
-        "q": "Quelle guerre a opposé Athènes et Sparte au Ve siècle av. J.-C. ?",
-        "a": "La guerre du Péloponnèse"
+        "q": "Qui a fondé l'Empire perse achéménide ?",
+        "a": "Cyrus le Grand"
       },
       {
-        "q": "Quel roi a établi l’édit de Nantes ?",
+        "q": "Quelle croisade a abouti à la prise de Jérusalem en 1099 ?",
+        "a": "La première croisade"
+      },
+      {
+        "q": "Quel roi a établi l'édit de Nantes ?",
         "a": "Henri IV"
       },
       {
         "q": "Quel événement marque le début du Moyen Âge en Europe ?",
-        "a": "La chute de l’Empire romain d’Occident (476)"
-      },
-      {
-        "q": "Qui fut le premier président de la IVe République française ?",
-        "a": "Vincent Auriol"
+        "a": "La chute de l'Empire romain d'Occident (476)"
       },
       {
         "q": "Quel traité a mis fin à la guerre de Trente Ans ?",
         "a": "Le traité de Westphalie"
       },
       {
-        "q": "Quel général grec a vaincu les Perses à Marathon ?",
-        "a": "Miltiade"
-      },
-      {
-        "q": "Quel pays a subi l’Inquisition espagnole ?",
-        "a": "L’Espagne"
-      },
-      {
         "q": "Quel leader soviétique a succédé à Staline ?",
         "a": "Nikita Khrouchtchev"
-      }
-    ],
-    "8": [
-      {
-        "q": "Qui a mené la réforme protestante en 1517 ?",
-        "a": "Martin Luther"
-      },
-      {
-        "q": "Quel traité a mis fin à la guerre d’Indépendance américaine ?",
-        "a": "Le traité de Paris (1783)"
-      },
-      {
-        "q": "Quelle dynastie française a précédé les Capétiens ?",
-        "a": "Les Carolingiens"
       },
       {
         "q": "Qui a dirigé la Révolution culturelle en Chine ?",
         "a": "Mao Zedong"
       },
       {
-        "q": "Quel chef gaulois a résisté à Jules César ?",
-        "a": "Vercingétorix"
-      },
-      {
-        "q": "Quel empereur romain a divisé l’Empire en deux parties ?",
+        "q": "Quel empereur romain a divisé l'Empire en deux parties ?",
         "a": "Dioclétien"
       },
       {
-        "q": "Quel événement a eu lieu en France en mai 1968 ?",
-        "a": "Les manifestations étudiantes et ouvrières"
+        "q": "Quelle reine anglaise a vaincu l'Armada espagnole ?",
+        "a": "Élisabeth Ire"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quel traité a partagé le Nouveau Monde entre l'Espagne et le Portugal en 1494 ?",
+        "a": "Le traité de Tordesillas"
+      },
+      {
+        "q": "Quel roi de Prusse est surnommé le « Grand » ?",
+        "a": "Frédéric II"
+      },
+      {
+        "q": "Quelle bataille navale opposa Rome et Carthage ?",
+        "a": "La bataille des îles Égates"
+      },
+      {
+        "q": "Quel traité a mis fin à la guerre de Cent Ans ?",
+        "a": "Le traité de Picquigny"
+      },
+      {
+        "q": "Quelle conférence de 1945 a préparé l'ONU ?",
+        "a": "La conférence de San Francisco"
+      },
+      {
+        "q": "Quelle bataille a marqué la fin de l'empire perse face à Alexandre le Grand ?",
+        "a": "La bataille de Gaugamèles"
+      },
+      {
+        "q": "Qui fut le premier président de la IVe République française ?",
+        "a": "Vincent Auriol"
+      },
+      {
+        "q": "Quel général grec a vaincu les Perses à Marathon ?",
+        "a": "Miltiade"
+      },
+      {
+        "q": "Quel traité a mis fin à la guerre d'Indépendance américaine ?",
+        "a": "Le traité de Paris (1783)"
       },
       {
         "q": "Qui a signé les Accords de Camp David en 1978 ?",
         "a": "Anouar el-Sadate, Menahem Begin, Jimmy Carter"
-      },
-      {
-        "q": "Qui était le premier président noir d’Afrique du Sud ?",
-        "a": "Nelson Mandela"
-      },
-      {
-        "q": "Quel empereur byzantin a fait construire Sainte-Sophie ?",
-        "a": "Justinien Ier"
       }
     ],
     "9": [
@@ -344,32 +344,16 @@
         "a": "Les Sumériens"
       },
       {
-        "q": "Quelle reine anglaise a vaincu l’Armada espagnole ?",
-        "a": "Élisabeth Ire"
-      },
-      {
-        "q": "Qui a fondé l’Empire ottoman ?",
+        "q": "Qui a fondé l'Empire ottoman ?",
         "a": "Osman Ier"
-      },
-      {
-        "q": "Quel traité de 1919 a imposé de lourdes sanctions à l’Allemagne ?",
-        "a": "Le traité de Versailles"
       },
       {
         "q": "Qui a fondé la dynastie Ming en Chine ?",
         "a": "Zhu Yuanzhang (Hongwu)"
       },
       {
-        "q": "Quelle révolution a débuté en Angleterre au XVIIIe siècle ?",
-        "a": "La révolution industrielle"
-      },
-      {
-        "q": "Quel roi est connu pour avoir lancé les croisades ?",
-        "a": "Urbain II (pape)"
-      },
-      {
-        "q": "Quel dirigeant cubain a pris le pouvoir en 1959 ?",
-        "a": "Fidel Castro"
+        "q": "Quel empereur byzantin a fait construire Sainte-Sophie ?",
+        "a": "Justinien Ier"
       },
       {
         "q": "Quel événement marque le début de la Révolution russe ?",
@@ -378,12 +362,6 @@
       {
         "q": "Quelle bataille a opposé Napoléon et les Russes en 1812 ?",
         "a": "La bataille de la Moskova (Borodino)"
-      }
-    ],
-    "10": [
-      {
-        "q": "Quel traité a fondé la Communauté économique européenne en 1957 ?",
-        "a": "Le traité de Rome"
       },
       {
         "q": "Quel empereur romain est mort en 180 ap. J.-C., marquant la fin de la Pax Romana ?",
@@ -394,32 +372,38 @@
         "a": "Mao Zedong"
       },
       {
-        "q": "Quel roi a lancé la construction de Versailles ?",
-        "a": "Louis XIV"
-      },
-      {
-        "q": "Qui a aboli l’apartheid en Afrique du Sud ?",
-        "a": "Nelson Mandela (avec F. W. de Klerk)"
-      },
-      {
-        "q": "Quel événement a eu lieu le 14 juillet 1789 ?",
-        "a": "La prise de la Bastille"
-      },
-      {
-        "q": "Quelle bataille a été la plus meurtrière de la Première Guerre mondiale ?",
-        "a": "La bataille de Verdun"
-      },
-      {
         "q": "Quel empereur romain a construit un mur en Angleterre ?",
         "a": "Hadrien"
       },
       {
-        "q": "Qui a fondé l’Empire carolingien ?",
-        "a": "Charlemagne"
+        "q": "Quelle dynastie a dirigé la Chine pendant le Moyen Âge ?",
+        "a": "Les Tang (entre autres)"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel traité a fondé la Communauté économique européenne en 1957 ?",
+        "a": "Le traité de Rome"
       },
       {
         "q": "Quel traité a mis fin à la Seconde Guerre mondiale avec le Japon ?",
         "a": "Le traité de San Francisco (1951)"
+      },
+      {
+        "q": "Quelle dynastie française a précédé les Capétiens ?",
+        "a": "Les Carolingiens"
+      },
+      {
+        "q": "Quel roi est connu pour avoir lancé les croisades ?",
+        "a": "Urbain II (pape)"
+      },
+      {
+        "q": "Quelle révolution a débuté en Angleterre au XVIIIe siècle ?",
+        "a": "La révolution industrielle"
+      },
+      {
+        "q": "Quel pays a subi l'Inquisition espagnole ?",
+        "a": "L'Espagne"
       }
     ]
   }

@@ -12,49 +12,49 @@
         "a": "La Terre"
       },
       {
-        "q": "Quelle planète est la plus proche du Soleil ?",
-        "a": "Mercure"
-      },
-      {
         "q": "Combien de pattes a une araignée ?",
         "a": "8"
       },
       {
-        "q": "Quel est l’organe qui pompe le sang ?",
+        "q": "Quel est l'organe qui pompe le sang ?",
         "a": "Le cœur"
       },
       {
-        "q": "Quel gaz respirons-nous principalement ?",
-        "a": "L’oxygène (O2)"
-      },
-      {
-        "q": "Quel est le symbole chimique de l’eau ?",
+        "q": "Quel est le symbole chimique de l'eau ?",
         "a": "H2O"
       },
       {
-        "q": "Quel est l’astre qui éclaire la Terre la nuit ?",
+        "q": "Quel est l'astre qui éclaire la Terre la nuit ?",
         "a": "La Lune"
       },
       {
-        "q": "Quel est l’état de l’eau à 0°C ?",
+        "q": "Quel est l'état de l'eau à 0°C ?",
         "a": "Solide (glace)"
       },
       {
         "q": "Combien de continents y a-t-il sur Terre ?",
         "a": "7"
-      }
-    ],
-    "2": [
+      },
       {
-        "q": "Quel est l’astre autour duquel tourne la Terre ?",
+        "q": "Quel est l'astre autour duquel tourne la Terre ?",
         "a": "Le Soleil"
       },
       {
         "q": "Quel organe nous permet de respirer ?",
         "a": "Les poumons"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quelle planète est la plus proche du Soleil ?",
+        "a": "Mercure"
       },
       {
-        "q": "Quel est l’organe principal du système nerveux ?",
+        "q": "Quel gaz respirons-nous principalement ?",
+        "a": "L'oxygène (O2)"
+      },
+      {
+        "q": "Quel est l'organe principal du système nerveux ?",
         "a": "Le cerveau"
       },
       {
@@ -70,20 +70,20 @@
         "a": "Le Soleil"
       },
       {
-        "q": "Quel est le gaz le plus abondant dans l’atmosphère terrestre ?",
-        "a": "L’azote (N2)"
+        "q": "Quelle planète est surnommée la planète rouge ?",
+        "a": "Mars"
       },
       {
-        "q": "Quel est l’organe qui fabrique l’urine ?",
-        "a": "Les reins"
+        "q": "Quelle est la planète la plus grosse du système solaire ?",
+        "a": "Jupiter"
       },
       {
-        "q": "Combien de paires de chromosomes possède l’être humain ?",
-        "a": "23"
+        "q": "Quel est le point d'ébullition de l'eau à pression normale ?",
+        "a": "100°C"
       },
       {
-        "q": "Quel est l’organe qui filtre le sang ?",
-        "a": "Les reins"
+        "q": "Quel gaz est produit par les plantes lors de la photosynthèse ?",
+        "a": "L'oxygène"
       }
     ],
     "3": [
@@ -100,18 +100,6 @@
         "a": "La peau"
       },
       {
-        "q": "Quel métal est liquide à température ambiante ?",
-        "a": "Le mercure"
-      },
-      {
-        "q": "Quel est le symbole chimique du sodium ?",
-        "a": "Na"
-      },
-      {
-        "q": "Quel est l’organe qui sécrète l’insuline ?",
-        "a": "Le pancréas"
-      },
-      {
         "q": "Quel instrument mesure la température ?",
         "a": "Le thermomètre"
       },
@@ -120,12 +108,24 @@
         "a": "Le fémur"
       },
       {
-        "q": "Combien de dents de sagesse peut-on avoir ?",
-        "a": "4"
+        "q": "Quelle science étudie les étoiles et planètes ?",
+        "a": "L'astronomie"
       },
       {
-        "q": "Quelle science étudie les étoiles et planètes ?",
-        "a": "L’astronomie"
+        "q": "Quel est le nom du premier homme à avoir marché sur la Lune ?",
+        "a": "Neil Armstrong"
+      },
+      {
+        "q": "Quel physicien est célèbre pour l'équation E=mc² ?",
+        "a": "Albert Einstein"
+      },
+      {
+        "q": "Quel est le nom de la plus célèbre équation d'Einstein ?",
+        "a": "E=mc²"
+      },
+      {
+        "q": "Quelle planète a des anneaux spectaculaires ?",
+        "a": "Saturne"
       }
     ],
     "4": [
@@ -138,36 +138,36 @@
         "a": "Louis Pasteur"
       },
       {
-        "q": "Quel est le point d’ébullition de l’eau à pression normale ?",
-        "a": "100°C"
+        "q": "Quel est le gaz le plus abondant dans l'atmosphère terrestre ?",
+        "a": "L'azote (N2)"
       },
       {
-        "q": "Quel gaz est produit par les plantes lors de la photosynthèse ?",
-        "a": "L’oxygène"
+        "q": "Combien de paires de chromosomes possède l'être humain ?",
+        "a": "23"
       },
       {
-        "q": "Quel est le plus petit os du corps humain ?",
-        "a": "L’étrier (dans l’oreille)"
+        "q": "Quel métal est liquide à température ambiante ?",
+        "a": "Le mercure"
       },
       {
-        "q": "Quel type de sang est donneur universel ?",
-        "a": "O négatif"
+        "q": "Quel est le symbole chimique du sodium ?",
+        "a": "Na"
       },
       {
-        "q": "Quelle planète est surnommée la planète rouge ?",
-        "a": "Mars"
+        "q": "Quel est l'acide nucléique qui code nos gènes ?",
+        "a": "L'ADN"
       },
       {
-        "q": "Quelle est la planète la plus grosse du système solaire ?",
-        "a": "Jupiter"
+        "q": "Quel est le nom scientifique de l'homme moderne ?",
+        "a": "Homo sapiens"
       },
       {
-        "q": "Quel est le principal constituant de l’air ?",
-        "a": "L’azote"
+        "q": "Quel scientifique a proposé la théorie de l'évolution ?",
+        "a": "Charles Darwin"
       },
       {
-        "q": "Quel instrument mesure la pression atmosphérique ?",
-        "a": "Le baromètre"
+        "q": "Quel est le principal constituant de l'air ?",
+        "a": "L'azote"
       }
     ],
     "5": [
@@ -176,7 +176,45 @@
         "a": "Alexander Fleming"
       },
       {
-        "q": "Quelle unité mesure l’énergie ?",
+        "q": "Quel est l'organe qui sécrète l'insuline ?",
+        "a": "Le pancréas"
+      },
+      {
+        "q": "Quel type de sang est donneur universel ?",
+        "a": "O négatif"
+      },
+      {
+        "q": "Quel est le plus petit os du corps humain ?",
+        "a": "L'étrier (dans l'oreille)"
+      },
+      {
+        "q": "Quel instrument mesure la pression atmosphérique ?",
+        "a": "Le baromètre"
+      },
+      {
+        "q": "Quel est l'organe qui fabrique l'urine ?",
+        "a": "Les reins"
+      },
+      {
+        "q": "Combien de dents de sagesse peut-on avoir ?",
+        "a": "4"
+      },
+      {
+        "q": "Quelle particule est chargée positivement dans l'atome ?",
+        "a": "Le proton"
+      },
+      {
+        "q": "Quelle particule est chargée négativement ?",
+        "a": "L'électron"
+      },
+      {
+        "q": "Quelle particule est neutre ?",
+        "a": "Le neutron"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quelle unité mesure l'énergie ?",
         "a": "Le joule"
       },
       {
@@ -188,41 +226,41 @@
         "a": "Le watt"
       },
       {
-        "q": "Quel gaz est nécessaire à la respiration cellulaire ?",
-        "a": "L’oxygène"
-      },
-      {
-        "q": "Quel est le nom scientifique de l’homme moderne ?",
-        "a": "Homo sapiens"
-      },
-      {
-        "q": "Quel est l’acide nucléique qui code nos gènes ?",
-        "a": "L’ADN"
-      },
-      {
-        "q": "Quel est l’autre acide nucléique impliqué dans la synthèse des protéines ?",
-        "a": "L’ARN"
+        "q": "Quel est l'élément chimique le plus léger ?",
+        "a": "L'hydrogène"
       },
       {
         "q": "Quel élément chimique a pour symbole Fe ?",
         "a": "Le fer"
       },
       {
-        "q": "Quel est l’organe qui produit la bile ?",
+        "q": "Quel est l'organe qui produit la bile ?",
         "a": "Le foie"
-      }
-    ],
-    "6": [
-      {
-        "q": "Quelle unité mesure la fréquence ?",
-        "a": "Le hertz (Hz)"
       },
       {
         "q": "Quelle est la formule chimique du dioxyde de carbone ?",
         "a": "CO2"
       },
       {
-        "q": "Quel est l’autre nom de la vitamine C ?",
+        "q": "Quel est le centre de contrôle de la cellule ?",
+        "a": "Le noyau"
+      },
+      {
+        "q": "Quel est le pH de l'eau pure ?",
+        "a": "7"
+      },
+      {
+        "q": "Quelle est la planète la plus éloignée du Soleil ?",
+        "a": "Neptune"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quelle unité mesure la fréquence ?",
+        "a": "Le hertz (Hz)"
+      },
+      {
+        "q": "Quel est l'autre nom de la vitamine C ?",
         "a": "Acide ascorbique"
       },
       {
@@ -230,16 +268,12 @@
         "a": "Saturne"
       },
       {
-        "q": "Quel organe est touché par l’hépatite ?",
+        "q": "Quel organe est touché par l'hépatite ?",
         "a": "Le foie"
       },
       {
-        "q": "Quel physicien est célèbre pour l’équation E=mc² ?",
-        "a": "Albert Einstein"
-      },
-      {
-        "q": "Quelle unité mesure l’intensité électrique ?",
-        "a": "L’ampère"
+        "q": "Quelle unité mesure l'intensité électrique ?",
+        "a": "L'ampère"
       },
       {
         "q": "Quelle unité mesure la tension électrique ?",
@@ -247,100 +281,66 @@
       },
       {
         "q": "Quelle unité mesure la résistance électrique ?",
-        "a": "L’ohm"
+        "a": "L'ohm"
       },
       {
         "q": "Quel est le nom scientifique du sucre de table ?",
         "a": "Saccharose"
-      }
-    ],
-    "7": [
-      {
-        "q": "Quel est l’élément chimique le plus léger ?",
-        "a": "L’hydrogène"
       },
       {
-        "q": "Quel est l’élément chimique le plus abondant dans l’univers ?",
-        "a": "L’hydrogène"
+        "q": "Quel est l'autre acide nucléique impliqué dans la synthèse des protéines ?",
+        "a": "L'ARN"
       },
       {
-        "q": "Quel est l’élément chimique le plus abondant dans la croûte terrestre ?",
-        "a": "L’oxygène"
-      },
-      {
-        "q": "Quel scientifique a proposé la théorie de l’évolution ?",
-        "a": "Charles Darwin"
-      },
-      {
-        "q": "Quel est le centre de contrôle de la cellule ?",
-        "a": "Le noyau"
-      },
-      {
-        "q": "Quel est l’organe qui produit l’insuline ?",
-        "a": "Le pancréas"
-      },
-      {
-        "q": "Quel est le pH de l’eau pure ?",
-        "a": "7"
-      },
-      {
-        "q": "Quel gaz est utilisé pour gonfler les ballons dirigeables car il est plus léger que l’air ?",
-        "a": "L’hélium"
-      },
-      {
-        "q": "Quelle planète a des anneaux spectaculaires ?",
-        "a": "Saturne"
-      },
-      {
-        "q": "Quelle unité mesure la température dans le système international ?",
-        "a": "Le kelvin"
+        "q": "Quel gaz est utilisé pour gonfler les ballons dirigeables car il est plus léger que l'air ?",
+        "a": "L'hélium"
       }
     ],
     "8": [
       {
-        "q": "Quel est le nom de la première femme dans l’espace ?",
+        "q": "Quel est le nom de la première femme dans l'espace ?",
         "a": "Valentina Terechkova"
       },
       {
-        "q": "Quel est le nom du premier homme dans l’espace ?",
+        "q": "Quel est le nom du premier homme dans l'espace ?",
         "a": "Youri Gagarine"
       },
       {
-        "q": "Quel est le nom du premier homme à avoir marché sur la Lune ?",
-        "a": "Neil Armstrong"
-      },
-      {
-        "q": "Quel est l’organe qui capte la lumière pour la vision ?",
+        "q": "Quel est l'organe qui capte la lumière pour la vision ?",
         "a": "La rétine"
       },
       {
-        "q": "Quel est le gaz le plus lourd de l’atmosphère terrestre ?",
-        "a": "Le dioxyde de carbone (CO2)"
+        "q": "Quel est le nombre atomique de l'hydrogène ?",
+        "a": "1"
       },
       {
-        "q": "Quelle particule est chargée positivement dans l’atome ?",
-        "a": "Le proton"
+        "q": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+        "a": "L'hydrogène"
       },
       {
-        "q": "Quelle particule est chargée négativement ?",
-        "a": "L’électron"
+        "q": "Quel est l'élément chimique le plus abondant dans la croûte terrestre ?",
+        "a": "L'oxygène"
       },
       {
-        "q": "Quelle particule est neutre ?",
-        "a": "Le neutron"
+        "q": "Quelle unité mesure la température dans le système international ?",
+        "a": "Le kelvin"
       },
       {
         "q": "Quel est le plus grand organe interne du corps humain ?",
         "a": "Le foie"
       },
       {
-        "q": "Quel est le nombre atomique de l’hydrogène ?",
-        "a": "1"
+        "q": "Quelle est la molécule qui transporte l'oxygène dans le sang ?",
+        "a": "L'hémoglobine"
+      },
+      {
+        "q": "Quel est l'autre nom de la loi de l'inertie ?",
+        "a": "La première loi de Newton"
       }
     ],
     "9": [
       {
-        "q": "Quel est le nombre atomique de l’oxygène ?",
+        "q": "Quel est le nombre atomique de l'oxygène ?",
         "a": "8"
       },
       {
@@ -352,11 +352,11 @@
         "a": "26"
       },
       {
-        "q": "Quel est le nombre atomique de l’or ?",
+        "q": "Quel est le nombre atomique de l'or ?",
         "a": "79"
       },
       {
-        "q": "Quel est le nombre atomique de l’uranium ?",
+        "q": "Quel est le nombre atomique de l'uranium ?",
         "a": "92"
       },
       {
@@ -368,21 +368,21 @@
         "a": "Pierre et Marie Curie"
       },
       {
-        "q": "Quelle est la molécule qui transporte l’oxygène dans le sang ?",
-        "a": "L’hémoglobine"
+        "q": "Quel est le gaz le plus lourd de l'atmosphère terrestre ?",
+        "a": "Le dioxyde de carbone (CO2)"
       },
       {
-        "q": "Quelle est la planète la plus éloignée du Soleil ?",
-        "a": "Neptune"
+        "q": "Gaz rare utilisé dans les enseignes lumineuses ?",
+        "a": "Le néon"
       },
       {
-        "q": "Quel est l’autre nom de la loi de l’inertie ?",
-        "a": "La première loi de Newton"
+        "q": "Quel est le nom de la première théorie de l'évolution publiée en 1859 ?",
+        "a": "L'Origine des espèces (Darwin)"
       }
     ],
     "10": [
       {
-        "q": "Quel est le nombre d’éléments dans le tableau périodique (2023) ?",
+        "q": "Quel est le nombre d'éléments dans le tableau périodique (2023) ?",
         "a": "118"
       },
       {
@@ -398,23 +398,15 @@
         "a": "Le modèle standard de la physique des particules"
       },
       {
-        "q": "Quel est l’âge approximatif de l’univers ?",
-        "a": "13,8 milliards d’années"
-      },
-      {
-        "q": "Quel est le nom de la première théorie de l’évolution publiée en 1859 ?",
-        "a": "L’Origine des espèces (Darwin)"
+        "q": "Quel est l'âge approximatif de l'univers ?",
+        "a": "13,8 milliards d'années"
       },
       {
         "q": "Quel est le nom de la constante gravitationnelle universelle ?",
         "a": "G"
       },
       {
-        "q": "Quel est le nom de la plus célèbre équation d’Einstein ?",
-        "a": "E=mc²"
-      },
-      {
-        "q": "Quelle unité mesure l’énergie nucléaire libérée par une bombe atomique ?",
+        "q": "Quelle unité mesure l'énergie nucléaire libérée par une bombe atomique ?",
         "a": "Le kilotonne (ou mégatonne) de TNT"
       },
       {
