@@ -1,0 +1,226 @@
+{
+  "id": "jeux_video",
+  "name": "Jeux vidéo",
+  "questions": {
+    "1": [
+      {
+        "q": "Quel est le plombier moustachu le plus célèbre du jeu vidéo ?",
+        "a": "Mario"
+      },
+      {
+        "q": "Dans quel jeu doit-on attraper des créatures appelées Pokémon ?",
+        "a": "Pokémon"
+      },
+      {
+        "q": "Quel hérisson bleu est la mascotte de Sega ?",
+        "a": "Sonic"
+      },
+      {
+        "q": "Dans quel jeu incarne-t-on un guerrier qui affronte des creepers ?",
+        "a": "Minecraft"
+      },
+      {
+        "q": "Quel jeu d’Activision met en scène un soldat dans des guerres modernes ?",
+        "a": "Call of Duty"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quel jeu de tir multijoueur a popularisé le mode Battle Royale en 2017 ?",
+        "a": "Fortnite"
+      },
+      {
+        "q": "Quelle licence Nintendo met en avant des courses de kart ?",
+        "a": "Mario Kart"
+      },
+      {
+        "q": "Quel jeu de danse utilise une caméra ou manette pour suivre les mouvements ?",
+        "a": "Just Dance"
+      },
+      {
+        "q": "Quelle console portable de Nintendo succède à la Game Boy ?",
+        "a": "La Nintendo DS"
+      },
+      {
+        "q": "Quel studio a créé la série The Legend of Zelda ?",
+        "a": "Nintendo"
+      }
+    ],
+    "3": [
+      {
+        "q": "Quel jeu de rôle en ligne massivement multijoueur (MMORPG) a été lancé en 2004 par Blizzard ?",
+        "a": "World of Warcraft"
+      },
+      {
+        "q": "Quel héros porte un grappin et combat des pirates dans Uncharted ?",
+        "a": "Nathan Drake"
+      },
+      {
+        "q": "Quel est le jeu culte où l’on capture des fantômes avec un aspirateur dans un manoir ?",
+        "a": "Luigi’s Mansion"
+      },
+      {
+        "q": "Quel jeu de survie et d’horreur met en scène Leon Kennedy et Umbrella Corporation ?",
+        "a": "Resident Evil"
+      },
+      {
+        "q": "Quel jeu en monde ouvert de Rockstar met en scène des cowboys ?",
+        "a": "Red Dead Redemption"
+      }
+    ],
+    "4": [
+      {
+        "q": "Quelle franchise de combat inclut des personnages comme Ryu et Ken ?",
+        "a": "Street Fighter"
+      },
+      {
+        "q": "Quel jeu de tir futuriste oppose les Spartans de l’UNSC à l’Alliance Covenante ?",
+        "a": "Halo"
+      },
+      {
+        "q": "Quel jeu de rôle japonais se distingue par ses invocations et son héros Cloud Strife ?",
+        "a": "Final Fantasy VII"
+      },
+      {
+        "q": "Quel jeu d’aventure a pour héroïne Lara Croft ?",
+        "a": "Tomb Raider"
+      },
+      {
+        "q": "Quel studio a développé The Witcher et Cyberpunk 2077 ?",
+        "a": "CD Projekt Red"
+      }
+    ],
+    "5": [
+      {
+        "q": "Dans quel jeu incarne-t-on un assassin équipé d’une lame cachée ?",
+        "a": "Assassin’s Creed"
+      },
+      {
+        "q": "Quel est le jeu le plus vendu de tous les temps (plus de 200 millions d’exemplaires) ?",
+        "a": "Minecraft"
+      },
+      {
+        "q": "Quel jeu de tir en équipe met en scène Tracer, Winston et Genji ?",
+        "a": "Overwatch"
+      },
+      {
+        "q": "Quel jeu de stratégie met en scène des Zergs, Protoss et Terrans ?",
+        "a": "StarCraft"
+      },
+      {
+        "q": "Quel héros est accompagné de Yoshi dans plusieurs aventures ?",
+        "a": "Mario"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quelle série de jeux vidéo de sport met en avant Cristiano Ronaldo ou Lionel Messi ?",
+        "a": "FIFA"
+      },
+      {
+        "q": "Quel jeu en 2D a popularisé l’expression 'Finish him!' ?",
+        "a": "Mortal Kombat"
+      },
+      {
+        "q": "Quel jeu d’infiltration met en scène Solid Snake ?",
+        "a": "Metal Gear Solid"
+      },
+      {
+        "q": "Dans quel jeu de rôle incarne-t-on le 'Dovahkiin' ?",
+        "a": "The Elder Scrolls V: Skyrim"
+      },
+      {
+        "q": "Quel jeu indépendant met en scène un chevalier insecte dans un monde souterrain ?",
+        "a": "Hollow Knight"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel jeu de tir à la première personne de Valve a popularisé le mode compétitif 'Dust II' ?",
+        "a": "Counter-Strike"
+      },
+      {
+        "q": "Quel jeu met en scène Kratos, le dieu de la guerre ?",
+        "a": "God of War"
+      },
+      {
+        "q": "Quel jeu de simulation permet de gérer une ville et son maire ?",
+        "a": "SimCity"
+      },
+      {
+        "q": "Quel jeu de survie horrifique se déroule dans la ville de Silent Hill ?",
+        "a": "Silent Hill"
+      },
+      {
+        "q": "Quel jeu de rythme demande de frapper des cubes en musique avec des sabres lasers ?",
+        "a": "Beat Saber"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quelle licence met en scène un hérisson bleu affrontant le Dr Robotnik ?",
+        "a": "Sonic the Hedgehog"
+      },
+      {
+        "q": "Quel jeu de rôle propose de devenir le 'Champion de Kanto' ?",
+        "a": "Pokémon Rouge/Bleu"
+      },
+      {
+        "q": "Quelle licence Nintendo a pour mascotte un elfe vêtu de vert ?",
+        "a": "The Legend of Zelda (Link)"
+      },
+      {
+        "q": "Quel jeu de survie multijoueur met en scène des imposteurs dans un vaisseau ?",
+        "a": "Among Us"
+      },
+      {
+        "q": "Quel FPS de Valve repose sur la résolution d’énigmes avec des portails ?",
+        "a": "Portal"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel jeu en monde ouvert de Rockstar met en scène la ville fictive de Los Santos ?",
+        "a": "Grand Theft Auto V"
+      },
+      {
+        "q": "Quel jeu indépendant de Toby Fox raconte l’histoire de Frisk dans un univers souterrain ?",
+        "a": "Undertale"
+      },
+      {
+        "q": "Quel MOBA oppose des champions sur la Faille de l’invocateur ?",
+        "a": "League of Legends"
+      },
+      {
+        "q": "Quel jeu d’horreur indépendant met en scène un animatronique tueur ?",
+        "a": "Five Nights at Freddy’s"
+      },
+      {
+        "q": "Quel jeu de FromSoftware met en scène des morts-vivants et une difficulté extrême ?",
+        "a": "Dark Souls"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel jeu de rôle de 2017 de Nintendo met en scène Hyrule en monde ouvert ?",
+        "a": "The Legend of Zelda: Breath of the Wild"
+      },
+      {
+        "q": "Quel jeu de 2018 raconte l’histoire d’Arthur Morgan et du gang Van der Linde ?",
+        "a": "Red Dead Redemption 2"
+      },
+      {
+        "q": "Quel battle royale de Respawn Entertainment est sorti en 2019 ?",
+        "a": "Apex Legends"
+      },
+      {
+        "q": "Quel jeu de stratégie au tour par tour met en scène des civilisations de l’Antiquité à l’ère moderne ?",
+        "a": "Civilization"
+      },
+      {
+        "q": "Quel RPG japonais sorti en 1997 est souvent considéré comme une révolution du genre ?",
+        "a": "Final Fantasy VII"
+      }
+    ]
+  }
+}

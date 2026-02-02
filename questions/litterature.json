@@ -1,0 +1,426 @@
+{
+  "id": "litterature",
+  "name": "Littérature",
+  "questions": {
+    "1": [
+      {
+        "q": "Qui a écrit « Le Petit Prince » ?",
+        "a": "Antoine de Saint-Exupéry"
+      },
+      {
+        "q": "Qui a écrit « Les Misérables » ?",
+        "a": "Victor Hugo"
+      },
+      {
+        "q": "Qui a écrit « Le Comte de Monte-Cristo » ?",
+        "a": "Alexandre Dumas"
+      },
+      {
+        "q": "Qui est l’auteur de « Candide » ?",
+        "a": "Voltaire"
+      },
+      {
+        "q": "Quel auteur a créé le détective Sherlock Holmes ?",
+        "a": "Arthur Conan Doyle"
+      },
+      {
+        "q": "Qui a écrit « L’Étranger » ?",
+        "a": "Albert Camus"
+      },
+      {
+        "q": "Qui a écrit « Germinal » ?",
+        "a": "Émile Zola"
+      },
+      {
+        "q": "Qui a écrit « L’Île au trésor » ?",
+        "a": "Robert Louis Stevenson"
+      },
+      {
+        "q": "Qui a écrit « Orgueil et Préjugés » ?",
+        "a": "Jane Austen"
+      },
+      {
+        "q": "Qui a écrit « Don Quichotte » ?",
+        "a": "Miguel de Cervantès"
+      }
+    ],
+    "2": [
+      {
+        "q": "Qui a écrit « Le Rouge et le Noir » ?",
+        "a": "Stendhal"
+      },
+      {
+        "q": "Qui a écrit « Madame Bovary » ?",
+        "a": "Gustave Flaubert"
+      },
+      {
+        "q": "Qui a écrit « Le Vieil Homme et la Mer » ?",
+        "a": "Ernest Hemingway"
+      },
+      {
+        "q": "Qui a écrit « 1984 » ?",
+        "a": "George Orwell"
+      },
+      {
+        "q": "Qui a écrit « Le Seigneur des Anneaux » ?",
+        "a": "J. R. R. Tolkien"
+      },
+      {
+        "q": "Qui a écrit « Le Nom de la rose » ?",
+        "a": "Umberto Eco"
+      },
+      {
+        "q": "Qui a écrit « Le Parfum » ?",
+        "a": "Patrick Süskind"
+      },
+      {
+        "q": "Qui a écrit « La Métamorphose » ?",
+        "a": "Franz Kafka"
+      },
+      {
+        "q": "Qui a écrit « Bel-Ami » ?",
+        "a": "Guy de Maupassant"
+      },
+      {
+        "q": "Qui a écrit « Les Fleurs du mal » ?",
+        "a": "Charles Baudelaire"
+      }
+    ],
+    "3": [
+      {
+        "q": "De quel pays est originaire Gabriel García Márquez ?",
+        "a": "Colombie"
+      },
+      {
+        "q": "De quel pays est originaire Haruki Murakami ?",
+        "a": "Japon"
+      },
+      {
+        "q": "Qui a créé le personnage d’Hercule Poirot ?",
+        "a": "Agatha Christie"
+      },
+      {
+        "q": "Quelle héroïne aime Mr. Rochester dans « Jane Eyre » ?",
+        "a": "Jane Eyre"
+      },
+      {
+        "q": "Quel roman commence par « Longtemps, je me suis couché de bonne heure » ?",
+        "a": "Du côté de chez Swann"
+      },
+      {
+        "q": "Qui a écrit « Le Meilleur des mondes » ?",
+        "a": "Aldous Huxley"
+      },
+      {
+        "q": "Qui a écrit « La Chartreuse de Parme » ?",
+        "a": "Stendhal"
+      },
+      {
+        "q": "Qui a écrit « Notre-Dame de Paris » ?",
+        "a": "Victor Hugo"
+      },
+      {
+        "q": "Quel écrivain russe a écrit « Crime et Châtiment » ?",
+        "a": "Fiodor Dostoïevski"
+      },
+      {
+        "q": "Quel auteur a écrit « Dix Petits Nègres » (titre original) ?",
+        "a": "Agatha Christie"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui a écrit « Cent ans de solitude » ?",
+        "a": "Gabriel García Márquez"
+      },
+      {
+        "q": "Qui a écrit « La Peste » ?",
+        "a": "Albert Camus"
+      },
+      {
+        "q": "Quel poète a écrit « Les Contemplations » ?",
+        "a": "Victor Hugo"
+      },
+      {
+        "q": "Qui a écrit « Voyage au bout de la nuit » ?",
+        "a": "Louis-Ferdinand Céline"
+      },
+      {
+        "q": "Quel auteur a écrit « Le Procès » ?",
+        "a": "Franz Kafka"
+      },
+      {
+        "q": "Qui a écrit « Le Vieil Homme et la Mer » et a obtenu le Nobel ?",
+        "a": "Ernest Hemingway"
+      },
+      {
+        "q": "Quel auteur a écrit « La Condition humaine » ?",
+        "a": "André Malraux"
+      },
+      {
+        "q": "Qui a écrit « Belle du Seigneur » ?",
+        "a": "Albert Cohen"
+      },
+      {
+        "q": "Quel écrivain a créé le personnage de D’Artagnan ?",
+        "a": "Alexandre Dumas"
+      },
+      {
+        "q": "Qui est l’auteur de « Les Trois Mousquetaires » ?",
+        "a": "Alexandre Dumas"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel écrivain a reçu le Nobel pour « Cent ans de solitude » ?",
+        "a": "Gabriel García Márquez"
+      },
+      {
+        "q": "Qui a écrit « La Divine Comédie » ?",
+        "a": "Dante Alighieri"
+      },
+      {
+        "q": "Qui a écrit « Faust » ?",
+        "a": "Goethe"
+      },
+      {
+        "q": "Qui a écrit « Le Décaméron » ?",
+        "a": "Boccace"
+      },
+      {
+        "q": "Quel auteur a écrit « Les Frères Karamazov » ?",
+        "a": "Fiodor Dostoïevski"
+      },
+      {
+        "q": "Qui a écrit « Guerre et Paix » ?",
+        "a": "Léon Tolstoï"
+      },
+      {
+        "q": "Qui a écrit « Le Bruit et la Fureur » ?",
+        "a": "William Faulkner"
+      },
+      {
+        "q": "Qui a écrit « Moby Dick » ?",
+        "a": "Herman Melville"
+      },
+      {
+        "q": "Qui a écrit « Ulysse » ?",
+        "a": "James Joyce"
+      },
+      {
+        "q": "Qui a écrit « Les Liaisons dangereuses » ?",
+        "a": "Choderlos de Laclos"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel dramaturge a écrit « Hamlet » ?",
+        "a": "William Shakespeare"
+      },
+      {
+        "q": "Quel dramaturge a écrit « Phèdre » ?",
+        "a": "Jean Racine"
+      },
+      {
+        "q": "Quel dramaturge a écrit « Le Cid » ?",
+        "a": "Pierre Corneille"
+      },
+      {
+        "q": "Quel dramaturge a écrit « Tartuffe » ?",
+        "a": "Molière"
+      },
+      {
+        "q": "Qui a écrit « En attendant Godot » ?",
+        "a": "Samuel Beckett"
+      },
+      {
+        "q": "Qui a écrit « Rhinocéros » ?",
+        "a": "Eugène Ionesco"
+      },
+      {
+        "q": "Qui a écrit « Antigone » (version moderne, 1944) ?",
+        "a": "Jean Anouilh"
+      },
+      {
+        "q": "Quel auteur a écrit « Huis clos » ?",
+        "a": "Jean-Paul Sartre"
+      },
+      {
+        "q": "Qui a écrit « Cyrano de Bergerac » ?",
+        "a": "Edmond Rostand"
+      },
+      {
+        "q": "Qui a écrit « Mère Courage et ses enfants » ?",
+        "a": "Bertolt Brecht"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel auteur a écrit « À la recherche du temps perdu » ?",
+        "a": "Marcel Proust"
+      },
+      {
+        "q": "Quel roman de Zola se déroule dans une mine ?",
+        "a": "Germinal"
+      },
+      {
+        "q": "Quel roman de Flaubert met en scène Emma ?",
+        "a": "Madame Bovary"
+      },
+      {
+        "q": "Quel roman de Stendhal raconte l’ambition de Julien Sorel ?",
+        "a": "Le Rouge et le Noir"
+      },
+      {
+        "q": "Quel écrivain a créé le personnage de Meursault ?",
+        "a": "Albert Camus"
+      },
+      {
+        "q": "Quel auteur argentin a écrit « Fictions » ?",
+        "a": "Jorge Luis Borges"
+      },
+      {
+        "q": "Quel poète français a écrit « Une saison en enfer » ?",
+        "a": "Arthur Rimbaud"
+      },
+      {
+        "q": "Qui a écrit « Le Maître et Marguerite » ?",
+        "a": "Mikhaïl Boulgakov"
+      },
+      {
+        "q": "Quel auteur a écrit « La Nausée » ?",
+        "a": "Jean-Paul Sartre"
+      },
+      {
+        "q": "Quel auteur a écrit « Les Racines du ciel » (Goncourt) ?",
+        "a": "Romain Gary"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quel roman de Kafka met en scène un homme transformé en insecte ?",
+        "a": "La Métamorphose"
+      },
+      {
+        "q": "Quel roman d’Orwell décrit une société de surveillance extrême ?",
+        "a": "1984"
+      },
+      {
+        "q": "Quel roman de Huxley décrit une société eugéniste et conditionnée ?",
+        "a": "Le Meilleur des mondes"
+      },
+      {
+        "q": "Quel roman de Tolstoï met en scène Anna et Vronski ?",
+        "a": "Anna Karénine"
+      },
+      {
+        "q": "Quel roman de Dostoïevski met en scène Raskolnikov ?",
+        "a": "Crime et Châtiment"
+      },
+      {
+        "q": "Quel roman de Melville raconte la traque d’un cachalot blanc ?",
+        "a": "Moby Dick"
+      },
+      {
+        "q": "Quel roman de Cervantès met en scène un hidalgo fou ?",
+        "a": "Don Quichotte"
+      },
+      {
+        "q": "Quel roman de Victor Hugo raconte une émeute à Paris autour de Marius et Cosette ?",
+        "a": "Les Misérables"
+      },
+      {
+        "q": "Quel roman de Maupassant raconte l’ascension d’un séducteur arriviste ?",
+        "a": "Bel-Ami"
+      },
+      {
+        "q": "Quel roman de Zola se déroule dans un grand magasin ?",
+        "a": "Au Bonheur des Dames"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel poète a inventé le concept de « correspondances » ?",
+        "a": "Charles Baudelaire"
+      },
+      {
+        "q": "Quel recueil de Rimbaud contient « Le Bateau ivre » ?",
+        "a": "Poésies (ou Recueils divers de Rimbaud, souvent associé à « Une saison en enfer » et « Illuminations »)"
+      },
+      {
+        "q": "Quel poète a écrit « Le Dormeur du val » ?",
+        "a": "Arthur Rimbaud"
+      },
+      {
+        "q": "Qui a écrit « Les Chants de Maldoror » ?",
+        "a": "Lautréamont (Isidore Ducasse)"
+      },
+      {
+        "q": "Quel recueil de Mallarmé contient « L’Après-midi d’un faune » ?",
+        "a": "Poésies (poème éponyme)"
+      },
+      {
+        "q": "Quel poète surréaliste a écrit « Capitale de la douleur » ?",
+        "a": "Paul Éluard"
+      },
+      {
+        "q": "Qui est l’auteur de « Alcools » ?",
+        "a": "Guillaume Apollinaire"
+      },
+      {
+        "q": "Quel poète a théorisé le « cadavre exquis » avec Breton ?",
+        "a": "Paul Éluard (avec Breton, Tzara, etc.)"
+      },
+      {
+        "q": "Quel poète a écrit « Liberté » pendant la Seconde Guerre mondiale ?",
+        "a": "Paul Éluard"
+      },
+      {
+        "q": "Quel recueil de Baudelaire a été partiellement censuré en 1857 ?",
+        "a": "Les Fleurs du mal"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel écrivain a popularisé le monologue intérieur dans « Ulysse » ?",
+        "a": "James Joyce"
+      },
+      {
+        "q": "Quel roman de Proust explore la mémoire involontaire avec la madeleine ?",
+        "a": "Du côté de chez Swann"
+      },
+      {
+        "q": "Quel roman de Faulkner met en scène des points de vue multiples et un temps éclaté ?",
+        "a": "Le Bruit et la Fureur"
+      },
+      {
+        "q": "Quel roman de Musil est resté inachevé et monumental ?",
+        "a": "L’Homme sans qualités"
+      },
+      {
+        "q": "Quel roman de Borges est célèbre pour ses labyrinthes textuels ? (recueil)",
+        "a": "Fictions"
+      },
+      {
+        "q": "Quel roman de Nabokov met en scène Humbert Humbert ?",
+        "a": "Lolita"
+      },
+      {
+        "q": "Quel roman de Bulgakov mêle le diable et Moscou ?",
+        "a": "Le Maître et Marguerite"
+      },
+      {
+        "q": "Quel roman de Calvino explore des villes imaginaires ?",
+        "a": "Les Villes invisibles"
+      },
+      {
+        "q": "Quel roman de García Márquez incarne le réalisme magique dans la ville de Macondo ?",
+        "a": "Cent ans de solitude"
+      },
+      {
+        "q": "Quel roman de Thomas Mann raconte la vie d’un compositeur et questionne le génie et la morale ?",
+        "a": "Docteur Faustus"
+      }
+    ]
+  }
+}

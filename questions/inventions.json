@@ -1,0 +1,226 @@
+{
+  "id": "inventions",
+  "name": "Inventions et découvertes",
+  "questions": {
+    "1": [
+      {
+        "q": "Qui a inventé le téléphone ?",
+        "a": "Alexander Graham Bell"
+      },
+      {
+        "q": "Qui a inventé l’ampoule électrique ?",
+        "a": "Thomas Edison"
+      },
+      {
+        "q": "Qui a découvert la gravité en voyant une pomme tomber ?",
+        "a": "Isaac Newton"
+      },
+      {
+        "q": "Qui a inventé l’avion avec son frère Orville ?",
+        "a": "Wilbur Wright"
+      },
+      {
+        "q": "Qui a inventé la radio ?",
+        "a": "Guglielmo Marconi"
+      }
+    ],
+    "2": [
+      {
+        "q": "Qui a découvert l’Amérique en 1492 ?",
+        "a": "Christophe Colomb"
+      },
+      {
+        "q": "Qui a inventé la pénicilline ?",
+        "a": "Alexander Fleming"
+      },
+      {
+        "q": "Qui a inventé la machine à vapeur moderne ?",
+        "a": "James Watt"
+      },
+      {
+        "q": "Qui a inventé le World Wide Web ?",
+        "a": "Tim Berners-Lee"
+      },
+      {
+        "q": "Qui a inventé l’imprimerie en Europe ?",
+        "a": "Gutenberg"
+      }
+    ],
+    "3": [
+      {
+        "q": "Qui a inventé la dynamite ?",
+        "a": "Alfred Nobel"
+      },
+      {
+        "q": "Qui a inventé le cinéma ?",
+        "a": "Les frères Lumière"
+      },
+      {
+        "q": "Qui a découvert la relativité ?",
+        "a": "Albert Einstein"
+      },
+      {
+        "q": "Qui a inventé le stylo à bille ?",
+        "a": "László Bíró"
+      },
+      {
+        "q": "Qui a inventé le phonographe ?",
+        "a": "Thomas Edison"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui a inventé l’électricité moderne avec le courant alternatif ?",
+        "a": "Nikola Tesla"
+      },
+      {
+        "q": "Qui a inventé la pile électrique ?",
+        "a": "Alessandro Volta"
+      },
+      {
+        "q": "Qui a découvert l’insuline ?",
+        "a": "Frederick Banting et Charles Best"
+      },
+      {
+        "q": "Qui a inventé le revolver Colt ?",
+        "a": "Samuel Colt"
+      },
+      {
+        "q": "Qui a inventé le premier ordinateur programmable ?",
+        "a": "Konrad Zuse"
+      }
+    ],
+    "5": [
+      {
+        "q": "Qui a découvert l’Amérique du Sud par voie maritime ?",
+        "a": "Amerigo Vespucci"
+      },
+      {
+        "q": "Qui a inventé le parachute ?",
+        "a": "Louis-Sébastien Lenormand"
+      },
+      {
+        "q": "Qui a découvert l’ADN avec James Watson ?",
+        "a": "Francis Crick"
+      },
+      {
+        "q": "Qui a inventé le téléphone portable ?",
+        "a": "Martin Cooper"
+      },
+      {
+        "q": "Qui a inventé la machine à écrire ?",
+        "a": "Christopher Sholes"
+      }
+    ],
+    "6": [
+      {
+        "q": "Qui a inventé la voiture moderne avec le moteur à explosion ?",
+        "a": "Karl Benz"
+      },
+      {
+        "q": "Qui a inventé l’aspirine ?",
+        "a": "Felix Hoffmann"
+      },
+      {
+        "q": "Qui a inventé le microscope ?",
+        "a": "Antoni van Leeuwenhoek"
+      },
+      {
+        "q": "Qui a inventé la boussole ?",
+        "a": "Les Chinois"
+      },
+      {
+        "q": "Qui a inventé le moteur diesel ?",
+        "a": "Rudolf Diesel"
+      }
+    ],
+    "7": [
+      {
+        "q": "Qui a inventé l’hélicoptère moderne ?",
+        "a": "Igor Sikorsky"
+      },
+      {
+        "q": "Qui a inventé la télévision ?",
+        "a": "John Logie Baird"
+      },
+      {
+        "q": "Qui a inventé le code Morse ?",
+        "a": "Samuel Morse"
+      },
+      {
+        "q": "Qui a inventé la photographie ?",
+        "a": "Nicéphore Niépce"
+      },
+      {
+        "q": "Qui a inventé le radar ?",
+        "a": "Robert Watson-Watt"
+      }
+    ],
+    "8": [
+      {
+        "q": "Qui a inventé le stéthoscope ?",
+        "a": "René Laennec"
+      },
+      {
+        "q": "Qui a découvert la radioactivité avec Pierre Curie ?",
+        "a": "Marie Curie"
+      },
+      {
+        "q": "Qui a inventé l’électricité statique (premières expériences) ?",
+        "a": "Benjamin Franklin"
+      },
+      {
+        "q": "Qui a inventé la lunette astronomique ?",
+        "a": "Galilée"
+      },
+      {
+        "q": "Qui a inventé le télescope Hubble (concept) ?",
+        "a": "NASA/ESA"
+      }
+    ],
+    "9": [
+      {
+        "q": "Qui a inventé le vaccin contre la rage ?",
+        "a": "Louis Pasteur"
+      },
+      {
+        "q": "Qui a inventé la locomotive à vapeur ?",
+        "a": "George Stephenson"
+      },
+      {
+        "q": "Qui a inventé le cinéma sonore ?",
+        "a": "Warner Bros avec The Jazz Singer"
+      },
+      {
+        "q": "Qui a inventé la première imprimante 3D ?",
+        "a": "Chuck Hull"
+      },
+      {
+        "q": "Qui a inventé le premier satellite artificiel (Spoutnik 1) ?",
+        "a": "URSS"
+      }
+    ],
+    "10": [
+      {
+        "q": "Qui a inventé l’écriture cunéiforme ?",
+        "a": "Les Sumériens"
+      },
+      {
+        "q": "Qui a inventé le papier ?",
+        "a": "Cai Lun (Chine, IIe siècle)"
+      },
+      {
+        "q": "Qui a inventé l’alphabet moderne ?",
+        "a": "Les Phéniciens"
+      },
+      {
+        "q": "Qui a inventé l’imprimerie à caractères mobiles ?",
+        "a": "Bi Sheng (Chine, XIe siècle)"
+      },
+      {
+        "q": "Qui a inventé le zéro en mathématiques ?",
+        "a": "Les Indiens (civilisation Gupta)"
+      }
+    ]
+  }
+}

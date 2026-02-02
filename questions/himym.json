@@ -1,0 +1,226 @@
+{
+  "id": "himym",
+  "name": "How I Met Your Mother",
+  "questions": {
+    "1": [
+      {
+        "q": "Quel est le prénom du personnage principal qui raconte l’histoire ?",
+        "a": "Ted"
+      },
+      {
+        "q": "Comment s’appelle le meilleur ami de Ted ?",
+        "a": "Marshall"
+      },
+      {
+        "q": "Qui est l’épouse de Marshall ?",
+        "a": "Lily"
+      },
+      {
+        "q": "Comment s’appelle l’ami séducteur de Ted ?",
+        "a": "Barney"
+      },
+      {
+        "q": "De quel pays vient Robin ?",
+        "a": "Canada"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quel est le nom de famille de Ted ?",
+        "a": "Mosby"
+      },
+      {
+        "q": "Quel est le nom de famille de Barney ?",
+        "a": "Stinson"
+      },
+      {
+        "q": "Quel est le nom de famille de Marshall ?",
+        "a": "Eriksen"
+      },
+      {
+        "q": "Quel est le nom de famille de Robin ?",
+        "a": "Scherbatsky"
+      },
+      {
+        "q": "Quel est le nom de famille de Lily ?",
+        "a": "Aldrin"
+      }
+    ],
+    "3": [
+      {
+        "q": "Quelle est la profession de Ted ?",
+        "a": "Architecte"
+      },
+      {
+        "q": "Quelle est la profession de Marshall ?",
+        "a": "Avocat"
+      },
+      {
+        "q": "Quelle est la profession de Lily ?",
+        "a": "Institutrice / artiste"
+      },
+      {
+        "q": "Quelle est la profession de Barney ?",
+        "a": "Inconnue (il dit « Please »)"
+      },
+      {
+        "q": "Quelle est la profession de Robin ?",
+        "a": "Journaliste / présentatrice télé"
+      }
+    ],
+    "4": [
+      {
+        "q": "Quel bar fréquentent-ils régulièrement ?",
+        "a": "MacLaren’s Pub"
+      },
+      {
+        "q": "Qui est le barman ami du groupe ?",
+        "a": "Carl"
+      },
+      {
+        "q": "Comment s’appelle le frère de Barney ?",
+        "a": "James"
+      },
+      {
+        "q": "Quel est le deuxième prénom de Ted ?",
+        "a": "Evelyn"
+      },
+      {
+        "q": "Qui est le colocataire de Ted dans la saison 1 ?",
+        "a": "Marshall"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel objet jaune devient un symbole récurrent ?",
+        "a": "Le parapluie jaune"
+      },
+      {
+        "q": "Comment s’appelle le site de rencontres que Ted utilise ?",
+        "a": "Love Solutions"
+      },
+      {
+        "q": "Quel est le jeu inventé par Marshall et Barney ?",
+        "a": "Marshgammon"
+      },
+      {
+        "q": "Quel est le plat préféré de Marshall ?",
+        "a": "Le sandwich (en réalité cannabis)"
+      },
+      {
+        "q": "Quelle est la boisson préférée de Barney ?",
+        "a": "Le scotch"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel est le nom du blog de Barney ?",
+        "a": "The Bro Code Blog"
+      },
+      {
+        "q": "Quel livre Barney a-t-il écrit ?",
+        "a": "The Bro Code"
+      },
+      {
+        "q": "Quel autre livre Barney a-t-il écrit ?",
+        "a": "The Playbook"
+      },
+      {
+        "q": "Qui est la première petite amie sérieuse de Ted dans la série ?",
+        "a": "Robin"
+      },
+      {
+        "q": "Qui est Stella ?",
+        "a": "La dermatologue qui sort avec Ted"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel est le prénom du père de Marshall ?",
+        "a": "Marvin"
+      },
+      {
+        "q": "Quel est le prénom de la mère de Marshall ?",
+        "a": "Judy"
+      },
+      {
+        "q": "Comment s’appelle le père de Barney qu’il retrouve ?",
+        "a": "Jerome"
+      },
+      {
+        "q": "Quel est le surnom de Robin en tant que chanteuse adolescente ?",
+        "a": "Robin Sparkles"
+      },
+      {
+        "q": "Quel est le tube célèbre de Robin Sparkles ?",
+        "a": "Let’s Go to the Mall"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quel est le prénom de la mère des enfants de Ted ?",
+        "a": "Tracy"
+      },
+      {
+        "q": "Comment meurt le père de Marshall ?",
+        "a": "Crise cardiaque"
+      },
+      {
+        "q": "Quel est le nom du chien de Ted que Robin déteste ?",
+        "a": "Porthos (puis on apprend qu’il n’en a plus)"
+      },
+      {
+        "q": "Quelle université fréquentent Ted, Marshall et Lily ?",
+        "a": "Wesleyan University"
+      },
+      {
+        "q": "Quel est le nom du collègue de Barney, souvent mentionné ?",
+        "a": "Randy"
+      }
+    ],
+    "9": [
+      {
+        "q": "Qui est la première femme de Barney ?",
+        "a": "Robin"
+      },
+      {
+        "q": "Quel est le prénom de la fille de Marshall et Lily ?",
+        "a": "Daisy"
+      },
+      {
+        "q": "Quel est le prénom du fils de Marshall et Lily ?",
+        "a": "Marvin"
+      },
+      {
+        "q": "Qui est Zoey ?",
+        "a": "Une militante qui sort avec Ted"
+      },
+      {
+        "q": "Qui est The Mother (Tracy) avant de rencontrer Ted ?",
+        "a": "La colocataire de Cindy"
+      }
+    ],
+    "10": [
+      {
+        "q": "Avec qui Ted finit-il sa vie à la fin de la série ?",
+        "a": "Robin"
+      },
+      {
+        "q": "Comment s’appelle le mari de Tracy, décédé avant qu’elle rencontre Ted ?",
+        "a": "Il n’existe pas, elle n’était pas mariée"
+      },
+      {
+        "q": "Qui finit par devenir juge ?",
+        "a": "Marshall"
+      },
+      {
+        "q": "Quelle chanson joue lors du mariage de Barney et Robin ?",
+        "a": "Sandcastles in the Sand"
+      },
+      {
+        "q": "Qui raconte l’histoire de « How I Met Your Mother » aux enfants ?",
+        "a": "Ted, leur père"
+      }
+    ]
+  }
+}

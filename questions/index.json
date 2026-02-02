@@ -1,0 +1,119 @@
+{
+  "version": "2.0",
+  "themes": [
+    {
+      "id": "geo",
+      "name": "Géographie",
+      "file": "geo.json",
+      "questionCount": 100
+    },
+    {
+      "id": "histoire",
+      "name": "Histoire",
+      "file": "histoire.json",
+      "questionCount": 100
+    },
+    {
+      "id": "sciences",
+      "name": "Sciences",
+      "file": "sciences.json",
+      "questionCount": 100
+    },
+    {
+      "id": "litterature",
+      "name": "Littérature",
+      "file": "litterature.json",
+      "questionCount": 100
+    },
+    {
+      "id": "cinema",
+      "name": "Cinéma",
+      "file": "cinema.json",
+      "questionCount": 100
+    },
+    {
+      "id": "musique",
+      "name": "Musique",
+      "file": "musique.json",
+      "questionCount": 100
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "file": "sport.json",
+      "questionCount": 100
+    },
+    {
+      "id": "harrypotter",
+      "name": "Harry Potter",
+      "file": "harrypotter.json",
+      "questionCount": 50
+    },
+    {
+      "id": "himym",
+      "name": "How I Met Your Mother",
+      "file": "himym.json",
+      "questionCount": 50
+    },
+    {
+      "id": "plusoumoins",
+      "name": "Le plus ou le moins",
+      "file": "plusoumoins.json",
+      "questionCount": 50
+    },
+    {
+      "id": "quisuisje",
+      "name": "Qui suis-je ?",
+      "file": "quisuisje.json",
+      "questionCount": 50
+    },
+    {
+      "id": "inventions",
+      "name": "Inventions et découvertes",
+      "file": "inventions.json",
+      "questionCount": 50
+    },
+    {
+      "id": "mythologie",
+      "name": "Mythologie",
+      "file": "mythologie.json",
+      "questionCount": 50
+    },
+    {
+      "id": "culture_francaise",
+      "name": "Culture française",
+      "file": "culture_francaise.json",
+      "questionCount": 50
+    },
+    {
+      "id": "chansons_2010",
+      "name": "Chansons US & FR des années 2010",
+      "file": "chansons_2010.json",
+      "questionCount": 50
+    },
+    {
+      "id": "gastronomie_mondiale",
+      "name": "Gastronomie mondiale",
+      "file": "gastronomie_mondiale.json",
+      "questionCount": 50
+    },
+    {
+      "id": "boissons_monde",
+      "name": "Boissons du monde",
+      "file": "boissons_monde.json",
+      "questionCount": 50
+    },
+    {
+      "id": "jeux_video",
+      "name": "Jeux vidéo",
+      "file": "jeux_video.json",
+      "questionCount": 50
+    },
+    {
+      "id": "sagas_celebres",
+      "name": "Sagas célèbres",
+      "file": "sagas_celebres.json",
+      "questionCount": 50
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": "sagas_celebres",
+  "name": "Sagas célèbres",
+  "questions": {
+    "1": [
+      {
+        "q": "Qui est le sorcier à la cicatrice en forme d’éclair ?",
+        "a": "Harry Potter"
+      },
+      {
+        "q": "Quel héros manie un sabre laser vert dans Star Wars ?",
+        "a": "Luke Skywalker"
+      },
+      {
+        "q": "Dans quelle saga trouve-t-on Katniss Everdeen ?",
+        "a": "Hunger Games"
+      },
+      {
+        "q": "Qui est l’elfe compagnon de Frodon dans Le Seigneur des Anneaux ?",
+        "a": "Legolas"
+      },
+      {
+        "q": "Quel super-héros Marvel est aussi appelé 'L’homme-araignée' ?",
+        "a": "Spider-Man"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quel anneau doit être détruit dans la saga Le Seigneur des Anneaux ?",
+        "a": "L’Anneau Unique"
+      },
+      {
+        "q": "Quel district représente Katniss Everdeen dans Hunger Games ?",
+        "a": "District 12"
+      },
+      {
+        "q": "Comment s’appelle l’école de sorcellerie de Harry Potter ?",
+        "a": "Poudlard"
+      },
+      {
+        "q": "Qui est le seigneur Sith maître de Dark Vador ?",
+        "a": "Dark Sidious (Palpatine)"
+      },
+      {
+        "q": "Quel super-héros Marvel brandit le marteau Mjolnir ?",
+        "a": "Thor"
+      }
+    ],
+    "3": [
+      {
+        "q": "Dans quelle saga trouve-t-on Peeta Mellark ?",
+        "a": "Hunger Games"
+      },
+      {
+        "q": "Quel personnage dit 'Je suis ton père' dans Star Wars ?",
+        "a": "Dark Vador"
+      },
+      {
+        "q": "Quel hobbit porte l’Anneau Unique jusqu’au Mordor ?",
+        "a": "Frodon Sacquet"
+      },
+      {
+        "q": "Quel est le nom complet de 'Gandalf' ?",
+        "a": "Gandalf le Gris (puis le Blanc)"
+      },
+      {
+        "q": "Dans quelle saga retrouve-t-on les reliques de la mort ?",
+        "a": "Harry Potter"
+      }
+    ],
+    "4": [
+      {
+        "q": "Quel mentor de Katniss Everdeen a gagné les Hunger Games avant elle ?",
+        "a": "Haymitch Abernathy"
+      },
+      {
+        "q": "Quel droïde doré parle six millions de formes de communication ?",
+        "a": "C-3PO"
+      },
+      {
+        "q": "Quel royaume est gouverné par Aragorn à la fin du Seigneur des Anneaux ?",
+        "a": "Le Gondor"
+      },
+      {
+        "q": "Quel personnage de Harry Potter est surnommé 'Le Prince de Sang-Mêlé' ?",
+        "a": "Severus Rogue"
+      },
+      {
+        "q": "Quel super-héros Marvel dit 'Je suis Iron Man' ?",
+        "a": "Tony Stark / Iron Man"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel arène des Hunger Games est une horloge géante mortelle ?",
+        "a": "Celle du 75ème Hunger Games (l’Expiation)"
+      },
+      {
+        "q": "Quel maître Jedi entraîne Obi-Wan Kenobi ?",
+        "a": "Qui-Gon Jinn"
+      },
+      {
+        "q": "Quel objet lumineux guide Frodon dans les ténèbres, offert par Galadriel ?",
+        "a": "La lumière d’Eärendil"
+      },
+      {
+        "q": "Quel est le nom du rival principal de Harry Potter à Poudlard ?",
+        "a": "Draco Malefoy"
+      },
+      {
+        "q": "Quelle saga oppose Avengers et Thanos ?",
+        "a": "Marvel / Avengers"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel événement est surnommé 'La Moisson' dans Hunger Games ?",
+        "a": "La sélection des tributs"
+      },
+      {
+        "q": "Quel chasseur de primes capture Han Solo dans L’Empire contre-attaque ?",
+        "a": "Boba Fett"
+      },
+      {
+        "q": "Quel est le nom complet de Gollum dans Le Seigneur des Anneaux ?",
+        "a": "Sméagol"
+      },
+      {
+        "q": "Quelle saga raconte l’histoire des sorciers 'Les Animaux Fantastiques' ?",
+        "a": "Harry Potter (univers)"
+      },
+      {
+        "q": "Dans Marvel, qui est le roi du Wakanda ?",
+        "a": "Black Panther / T’Challa"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel président cruel règne sur Panem dans Hunger Games ?",
+        "a": "Président Snow"
+      },
+      {
+        "q": "Quel est le vrai prénom de Dark Vador ?",
+        "a": "Anakin Skywalker"
+      },
+      {
+        "q": "Quel est le vrai nom du 'Balrog' affronté par Gandalf ?",
+        "a": "Durin’s Bane (Fléau de Durin)"
+      },
+      {
+        "q": "Quel sorcier a fondé la maison Serpentard à Poudlard ?",
+        "a": "Salazar Serpentard"
+      },
+      {
+        "q": "Quel artefact Marvel est dans le Tesseract ?",
+        "a": "La Pierre de l’Espace (Infinity Stone)"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quel symbole devient l’emblème de la rébellion dans Hunger Games ?",
+        "a": "Le geai moqueur (Mockingjay)"
+      },
+      {
+        "q": "Quel Jedi est maître de Yoda dans certaines légendes ?",
+        "a": "N’Kata Del Gormo (légendes)"
+      },
+      {
+        "q": "Quel anneau offre Galadriel à Frodon dans la Communauté de l’Anneau ?",
+        "a": "Elle n’offre pas d’anneau mais la lumière d’Eärendil (attention piège)"
+      },
+      {
+        "q": "Quelle baguette magique est la plus puissante dans Harry Potter ?",
+        "a": "La baguette de Sureau"
+      },
+      {
+        "q": "Dans Marvel, quelle saga s’achève par 'Avengers: Endgame' ?",
+        "a": "La saga de l’Infini"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel livre dans Hunger Games raconte la rébellion passée de Panem ?",
+        "a": "La Ballade du serpent et de l’oiseau chanteur"
+      },
+      {
+        "q": "Qui est le créateur de Star Wars ?",
+        "a": "George Lucas"
+      },
+      {
+        "q": "Quel auteur a écrit Le Seigneur des Anneaux ?",
+        "a": "J.R.R. Tolkien"
+      },
+      {
+        "q": "Qui tue Bellatrix Lestrange dans Harry Potter ?",
+        "a": "Molly Weasley"
+      },
+      {
+        "q": "Quel super-vilain Marvel veut éliminer la moitié de l’univers ?",
+        "a": "Thanos"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quelle édition des Hunger Games voit Katniss briser l’arène ?",
+        "a": "Le 75ème Hunger Games (Expiation)"
+      },
+      {
+        "q": "Quel est le vrai nom du 'Seigneur des Ténèbres' dans Harry Potter ?",
+        "a": "Tom Elvis Jedusor / Voldemort"
+      },
+      {
+        "q": "Quel anneau Sauron a-t-il forgé pour lui-même ?",
+        "a": "L’Anneau Unique"
+      },
+      {
+        "q": "Quel Jedi s’exile sur Dagobah après l’Ordre 66 ?",
+        "a": "Yoda"
+      },
+      {
+        "q": "Dans Marvel, quel personnage manie le Gantelet de l’Infini à la fin d’Endgame ?",
+        "a": "Tony Stark / Iron Man"
+      }
+    ]
+  }
+}

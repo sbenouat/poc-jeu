@@ -1,0 +1,226 @@
+{
+  "id": "culture_francaise",
+  "name": "Culture française",
+  "questions": {
+    "1": [
+      {
+        "q": "Quelle est la capitale de la France ?",
+        "a": "Paris"
+      },
+      {
+        "q": "Quelle est la devise de la République française ?",
+        "a": "Liberté, Égalité, Fraternité"
+      },
+      {
+        "q": "De quelle couleur est le béret traditionnel français ?",
+        "a": "Noir (souvent)"
+      },
+      {
+        "q": "Quel est le monument le plus célèbre de Paris construit en 1889 ?",
+        "a": "La tour Eiffel"
+      },
+      {
+        "q": "Quel est le fromage à pâte persillée bleu-blanc-rouge sur l’étiquette célèbre ?",
+        "a": "Le Roquefort"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quel fleuve traverse Paris ?",
+        "a": "La Seine"
+      },
+      {
+        "q": "Quel animal est l’emblème officieux de la France ?",
+        "a": "Le coq"
+      },
+      {
+        "q": "Dans quel stade joue l’équipe de France de football à domicile ?",
+        "a": "Stade de France"
+      },
+      {
+        "q": "Quel jour célèbre-t-on la Fête nationale française ?",
+        "a": "Le 14 juillet"
+      },
+      {
+        "q": "Quel pain long et croustillant est typiquement français ?",
+        "a": "La baguette"
+      }
+    ],
+    "3": [
+      {
+        "q": "Quel est le plat traditionnel à base de bœuf mijoté au vin rouge ?",
+        "a": "Le bœuf bourguignon"
+      },
+      {
+        "q": "Quel écrivain a écrit « Les Misérables » ?",
+        "a": "Victor Hugo"
+      },
+      {
+        "q": "Comment s’appelle la célèbre avenue parisienne reliant l’Arc de triomphe à la Concorde ?",
+        "a": "Les Champs-Élysées"
+      },
+      {
+        "q": "Quel peintre impressionniste a peint « Impression, soleil levant » ?",
+        "a": "Claude Monet"
+      },
+      {
+        "q": "Quel dessert flambé composé de crêpes et d’orange est né en France ?",
+        "a": "La crêpe Suzette"
+      }
+    ],
+    "4": [
+      {
+        "q": "Quel roi est surnommé le « Roi-Soleil » ?",
+        "a": "Louis XIV"
+      },
+      {
+        "q": "Quel fromage est réputé pour son odeur forte et vient de Normandie ?",
+        "a": "Le Camembert"
+      },
+      {
+        "q": "Quel est le plus grand musée de Paris par sa collection ?",
+        "a": "Le Louvre"
+      },
+      {
+        "q": "Quel acteur incarne OSS 117 dans les films récents ?",
+        "a": "Jean Dujardin"
+      },
+      {
+        "q": "Quel vin effervescent est produit en Champagne ?",
+        "a": "Le champagne"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel chef a rendu célèbre la ratatouille dans un film d’animation Pixar ?",
+        "a": "Rémy (le rat) — « Ratatouille »"
+      },
+      {
+        "q": "Quelle mer borde Nice et Marseille ?",
+        "a": "La mer Méditerranée"
+      },
+      {
+        "q": "Quel écrivain a créé Arsène Lupin ?",
+        "a": "Maurice Leblanc"
+      },
+      {
+        "q": "Quel est le nom du palais présidentiel à Paris ?",
+        "a": "Le palais de l’Élysée"
+      },
+      {
+        "q": "Quel gâteau en pâte feuilletée et crème d’amande se partage en janvier ?",
+        "a": "La galette des Rois (à la frangipane)"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel est le fromage au lait de chèvre cylindrique cendré de la Loire ?",
+        "a": "Le Sainte-Maure-de-Touraine"
+      },
+      {
+        "q": "Quel cinéaste a réalisé « La Haine » ?",
+        "a": "Mathieu Kassovitz"
+      },
+      {
+        "q": "Quel écrivain a reçu le Goncourt pour « L’Amant » ?",
+        "a": "Marguerite Duras"
+      },
+      {
+        "q": "Quel site mégalithique se trouve en Bretagne, près de Carnac ?",
+        "a": "Les alignements de menhirs de Carnac"
+      },
+      {
+        "q": "De quel département viennent traditionnellement les choucroute et flammekueche ?",
+        "a": "Du Bas-Rhin / Haut-Rhin (Alsace)"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel architecte a conçu la pyramide du Louvre inaugurée en 1989 ?",
+        "a": "Ieoh Ming Pei (I. M. Pei)"
+      },
+      {
+        "q": "Quel poète a écrit « Une saison en enfer » ?",
+        "a": "Arthur Rimbaud"
+      },
+      {
+        "q": "Quel couturier a popularisé la petite robe noire et le tailleur Chanel ?",
+        "a": "Coco Chanel (Gabrielle Chanel)"
+      },
+      {
+        "q": "Quel village médiéval perché, classé, se trouve sur un rocher dans le Lot ?",
+        "a": "Rocamadour"
+      },
+      {
+        "q": "Quel festival de cinéma se tient chaque année sur la Croisette ?",
+        "a": "Le Festival de Cannes"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quel est le plus haut sommet de France métropolitaine ?",
+        "a": "Le mont Blanc"
+      },
+      {
+        "q": "Quel compositeur français a écrit « Le Boléro » ?",
+        "a": "Maurice Ravel"
+      },
+      {
+        "q": "Quel écrivain a publié « À la recherche du temps perdu » ?",
+        "a": "Marcel Proust"
+      },
+      {
+        "q": "Quel courant artistique regroupe Monet, Renoir, Degas… ?",
+        "a": "L’impressionnisme"
+      },
+      {
+        "q": "Quelle spécialité lyonnaise associe quenelles et sauce écrevisses ?",
+        "a": "Les quenelles (souvent sauce Nantua)"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel chef 3 étoiles a tenu l’Auberge du Pont de Collonges ?",
+        "a": "Paul Bocuse"
+      },
+      {
+        "q": "Quel philosophe a écrit « Le contrat social » ?",
+        "a": "Jean-Jacques Rousseau"
+      },
+      {
+        "q": "Quel château de la Loire est connu pour son escalier à double révolution ?",
+        "a": "Le château de Chambord"
+      },
+      {
+        "q": "Quel écrivain a créé le commissaire Maigret ?",
+        "a": "Georges Simenon"
+      },
+      {
+        "q": "Quelle danse née dans le Sud-Ouest accompagne souvent les bandas ?",
+        "a": "La féria / la banda (rép. attendue : la « fête »; sinon précise « la danse gasconne/folklorique »)"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel architecte a bâti la villa Savoye (icône moderniste) ?",
+        "a": "Le Corbusier"
+      },
+      {
+        "q": "Quel peintre français a réalisé « Le Déjeuner sur l’herbe » et « Olympia » ?",
+        "a": "Édouard Manet"
+      },
+      {
+        "q": "Quel écrivain a reçu le Nobel en 2014 pour « Le Sermon sur la chute de Rome » (via Patrick Modiano 2014; attention : Modiano l’a reçu pour l’ensemble de son œuvre) ?",
+        "a": "Patrick Modiano"
+      },
+      {
+        "q": "Quel linguiste/écrivain a fixé en partie la langue française avec son « Dictionnaire » (XVIIe) ?",
+        "a": "L’Académie française (collectif) ; sinon : Vaugelas pour les Remarques"
+      },
+      {
+        "q": "Quel chef-d’œuvre roman orne Conques sur le chemin de Compostelle ?",
+        "a": "Le tympan du Jugement dernier de l’abbatiale Sainte-Foy de Conques"
+      }
+    ]
+  }
+}

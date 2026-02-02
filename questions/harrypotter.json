@@ -1,0 +1,226 @@
+{
+  "id": "harrypotter",
+  "name": "Harry Potter",
+  "questions": {
+    "1": [
+      {
+        "q": "Quel est le prénom du héros de la saga ?",
+        "a": "Harry"
+      },
+      {
+        "q": "Quel est le nom de famille de Ron ?",
+        "a": "Weasley"
+      },
+      {
+        "q": "Quel est le nom de famille d’Hermione ?",
+        "a": "Granger"
+      },
+      {
+        "q": "Comment s’appelle l’école de sorcellerie ?",
+        "a": "Poudlard"
+      },
+      {
+        "q": "Quel animal est Hedwige ?",
+        "a": "Une chouette"
+      }
+    ],
+    "2": [
+      {
+        "q": "Dans quelle maison est envoyé Harry ?",
+        "a": "Gryffondor"
+      },
+      {
+        "q": "Qui est le directeur de Poudlard ?",
+        "a": "Albus Dumbledore"
+      },
+      {
+        "q": "Quel est le sport favori des sorciers ?",
+        "a": "Le Quidditch"
+      },
+      {
+        "q": "Quel est le prénom du professeur Rogue ?",
+        "a": "Severus"
+      },
+      {
+        "q": "Quel est le nom du château où se trouve Poudlard ?",
+        "a": "Poudlard"
+      }
+    ],
+    "3": [
+      {
+        "q": "Quel est le nom du chien à trois têtes de Hagrid ?",
+        "a": "Touffu"
+      },
+      {
+        "q": "Quel est le nom du parrain de Harry ?",
+        "a": "Sirius Black"
+      },
+      {
+        "q": "Qui est l’elfe de maison de la famille Malefoy ?",
+        "a": "Dobby"
+      },
+      {
+        "q": "Qui est l’ennemi juré de Harry à l’école ?",
+        "a": "Drago Malefoy"
+      },
+      {
+        "q": "Quel professeur enseigne la métamorphose ?",
+        "a": "Minerva McGonagall"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui tue Dumbledore ?",
+        "a": "Severus Rogue"
+      },
+      {
+        "q": "Quel professeur enseigne la défense contre les forces du mal dans le tome 2 ?",
+        "a": "Gilderoy Lockhart"
+      },
+      {
+        "q": "Quel est le nom du gobelin qui travaille à Gringotts ?",
+        "a": "Gripsec"
+      },
+      {
+        "q": "Quel est le sort utilisé pour désarmer un adversaire ?",
+        "a": "Expelliarmus"
+      },
+      {
+        "q": "Quel est le nom du serpent de Voldemort ?",
+        "a": "Nagini"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel est le vrai nom de Voldemort ?",
+        "a": "Tom Elvis Jedusor"
+      },
+      {
+        "q": "Quel sort sert à tuer ?",
+        "a": "Avada Kedavra"
+      },
+      {
+        "q": "Quel professeur est loup-garou ?",
+        "a": "Remus Lupin"
+      },
+      {
+        "q": "Quel objet rend invisible ?",
+        "a": "La cape d’invisibilité"
+      },
+      {
+        "q": "Quel animal est Croûtard en réalité ?",
+        "a": "Peter Pettigrow"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel est le nom complet de l’école concurrente venue au Tournoi des Trois Sorciers dirigée par Madame Maxime ?",
+        "a": "Beauxbâtons"
+      },
+      {
+        "q": "Qui gagne le Tournoi des Trois Sorciers avec Harry ?",
+        "a": "Cedric Diggory (ils gagnent ensemble mais il meurt)"
+      },
+      {
+        "q": "Quel professeur enseigne les potions ?",
+        "a": "Severus Rogue"
+      },
+      {
+        "q": "Quel est le prénom de la mère de Harry ?",
+        "a": "Lily"
+      },
+      {
+        "q": "Quel est le prénom du père de Harry ?",
+        "a": "James"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel personnage peut se transformer en rat ?",
+        "a": "Peter Pettigrow"
+      },
+      {
+        "q": "Quel personnage est l’héritière de Serpentard dans le tome 2 ?",
+        "a": "Ginny Weasley (possédée par le journal)"
+      },
+      {
+        "q": "Quel objet Voldemort transforme-t-il en Horcruxe dans le tome 2 ?",
+        "a": "Le journal de Jedusor"
+      },
+      {
+        "q": "Quel est le patronus de Harry ?",
+        "a": "Un cerf"
+      },
+      {
+        "q": "Quel professeur est directeur de Serpentard ?",
+        "a": "Severus Rogue"
+      }
+    ],
+    "8": [
+      {
+        "q": "Qui tue Bellatrix Lestrange ?",
+        "a": "Molly Weasley"
+      },
+      {
+        "q": "Qui devient ministre de la Magie après la guerre ?",
+        "a": "Kingsley Shacklebolt"
+      },
+      {
+        "q": "Quel est le vrai maître de la baguette de Sureau avant Harry ?",
+        "a": "Draco Malefoy"
+      },
+      {
+        "q": "Quelle est la devise de Poudlard ?",
+        "a": "Draco dormiens nunquam titillandus"
+      },
+      {
+        "q": "Quel objet est nécessaire pour ouvrir la Chambre des Secrets ?",
+        "a": "Parler Fourchelang"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel est le prénom de la sœur de Dumbledore ?",
+        "a": "Ariana"
+      },
+      {
+        "q": "Quel est le prénom du frère de Dumbledore ?",
+        "a": "Aberforth"
+      },
+      {
+        "q": "Quel Horcruxe Hermione détruit-elle ?",
+        "a": "La coupe de Helga Poufsouffle"
+      },
+      {
+        "q": "Qui tue Nagini ?",
+        "a": "Neville Londubat"
+      },
+      {
+        "q": "Qui est le fantôme de Serdaigle ?",
+        "a": "La Dame Grise (Helena Serdaigle)"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel personnage est le véritable maître de la baguette de Sureau à la fin ?",
+        "a": "Harry Potter"
+      },
+      {
+        "q": "Quel Horcruxe est caché dans le médaillon ?",
+        "a": "Le médaillon de Salazar Serpentard"
+      },
+      {
+        "q": "Qui tue Voldemort ?",
+        "a": "Harry Potter (indirectement, son propre sort se retourne contre lui)"
+      },
+      {
+        "q": "Quel est le nom complet de Dumbledore ?",
+        "a": "Albus Percival Wulfric Brian Dumbledore"
+      },
+      {
+        "q": "Quelle pierre est l’un des Reliques de la Mort ?",
+        "a": "La pierre de résurrection"
+      }
+    ]
+  }
+}

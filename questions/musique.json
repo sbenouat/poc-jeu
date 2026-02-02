@@ -1,0 +1,426 @@
+{
+  "id": "musique",
+  "name": "Musique",
+  "questions": {
+    "1": [
+      {
+        "q": "Quel groupe a chanté « Yesterday » ?",
+        "a": "The Beatles"
+      },
+      {
+        "q": "Qui est le « King of Pop » ?",
+        "a": "Michael Jackson"
+      },
+      {
+        "q": "Qui a chanté « Shape of You » ?",
+        "a": "Ed Sheeran"
+      },
+      {
+        "q": "Qui a chanté « Rolling in the Deep » ?",
+        "a": "Adele"
+      },
+      {
+        "q": "Qui a composé « La Flûte enchantée » ?",
+        "a": "Mozart"
+      },
+      {
+        "q": "Qui a chanté « Thriller » ?",
+        "a": "Michael Jackson"
+      },
+      {
+        "q": "Qui a composé « La Lettre à Élise » ?",
+        "a": "Beethoven"
+      },
+      {
+        "q": "Qui a chanté « Poker Face » ?",
+        "a": "Lady Gaga"
+      },
+      {
+        "q": "Quel groupe a chanté « Bohemian Rhapsody » ?",
+        "a": "Queen"
+      },
+      {
+        "q": "Qui a composé « L’Hymne à la joie » ?",
+        "a": "Beethoven"
+      }
+    ],
+    "2": [
+      {
+        "q": "Qui a chanté « Hello » ?",
+        "a": "Adele"
+      },
+      {
+        "q": "Qui a chanté « Someone Like You » ?",
+        "a": "Adele"
+      },
+      {
+        "q": "Quel chanteur est surnommé le Boss ?",
+        "a": "Bruce Springsteen"
+      },
+      {
+        "q": "Qui a chanté « Like a Virgin » ?",
+        "a": "Madonna"
+      },
+      {
+        "q": "Quel groupe a chanté « Smells Like Teen Spirit » ?",
+        "a": "Nirvana"
+      },
+      {
+        "q": "Qui a chanté « Purple Rain » ?",
+        "a": "Prince"
+      },
+      {
+        "q": "Quel groupe a chanté « Hotel California » ?",
+        "a": "The Eagles"
+      },
+      {
+        "q": "Quel chanteur est connu pour « Imagine » ?",
+        "a": "John Lennon"
+      },
+      {
+        "q": "Quel groupe a chanté « Satisfaction » ?",
+        "a": "The Rolling Stones"
+      },
+      {
+        "q": "Qui a chanté « All of Me » ?",
+        "a": "John Legend"
+      }
+    ],
+    "3": [
+      {
+        "q": "Qui a composé « La 9e Symphonie » ?",
+        "a": "Beethoven"
+      },
+      {
+        "q": "Qui a composé « Les Quatre Saisons » ?",
+        "a": "Vivaldi"
+      },
+      {
+        "q": "Qui a composé « Le Lac des cygnes » ?",
+        "a": "Tchaïkovski"
+      },
+      {
+        "q": "Qui a composé « Carmen » ?",
+        "a": "Bizet"
+      },
+      {
+        "q": "Qui a composé « La Traviata » ?",
+        "a": "Verdi"
+      },
+      {
+        "q": "Qui a composé « L’Art de la fugue » ?",
+        "a": "Bach"
+      },
+      {
+        "q": "Qui a composé « Le Boléro » ?",
+        "a": "Ravel"
+      },
+      {
+        "q": "Qui a composé « La Symphonie fantastique » ?",
+        "a": "Berlioz"
+      },
+      {
+        "q": "Qui a composé « Guillaume Tell » ?",
+        "a": "Rossini"
+      },
+      {
+        "q": "Qui a composé « La Flûte enchantée » ?",
+        "a": "Mozart"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui a chanté « Born in the USA » ?",
+        "a": "Bruce Springsteen"
+      },
+      {
+        "q": "Qui a chanté « Like a Rolling Stone » ?",
+        "a": "Bob Dylan"
+      },
+      {
+        "q": "Qui a chanté « Respect » ?",
+        "a": "Aretha Franklin"
+      },
+      {
+        "q": "Qui a chanté « I Will Always Love You » ?",
+        "a": "Whitney Houston"
+      },
+      {
+        "q": "Qui a chanté « My Heart Will Go On » ?",
+        "a": "Céline Dion"
+      },
+      {
+        "q": "Qui a chanté « No Woman, No Cry » ?",
+        "a": "Bob Marley"
+      },
+      {
+        "q": "Qui a chanté « Wonderwall » ?",
+        "a": "Oasis"
+      },
+      {
+        "q": "Qui a chanté « Hey Jude » ?",
+        "a": "The Beatles"
+      },
+      {
+        "q": "Qui a chanté « Smooth Criminal » ?",
+        "a": "Michael Jackson"
+      },
+      {
+        "q": "Qui a chanté « Umbrella » ?",
+        "a": "Rihanna"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel groupe a chanté « Stairway to Heaven » ?",
+        "a": "Led Zeppelin"
+      },
+      {
+        "q": "Quel groupe a chanté « Another Brick in the Wall » ?",
+        "a": "Pink Floyd"
+      },
+      {
+        "q": "Quel groupe a chanté « Highway to Hell » ?",
+        "a": "AC/DC"
+      },
+      {
+        "q": "Quel groupe a chanté « Enter Sandman » ?",
+        "a": "Metallica"
+      },
+      {
+        "q": "Quel groupe a chanté « Sweet Child O’ Mine » ?",
+        "a": "Guns N’ Roses"
+      },
+      {
+        "q": "Quel groupe a chanté « Paranoid » ?",
+        "a": "Black Sabbath"
+      },
+      {
+        "q": "Quel groupe a chanté « Californication » ?",
+        "a": "Red Hot Chili Peppers"
+      },
+      {
+        "q": "Quel groupe a chanté « Losing My Religion » ?",
+        "a": "R.E.M."
+      },
+      {
+        "q": "Quel groupe a chanté « Radioactive » ?",
+        "a": "Imagine Dragons"
+      },
+      {
+        "q": "Quel groupe a chanté « Seven Nation Army » ?",
+        "a": "The White Stripes"
+      }
+    ],
+    "6": [
+      {
+        "q": "Qui est le chanteur principal de U2 ?",
+        "a": "Bono"
+      },
+      {
+        "q": "Qui est le chanteur principal de Coldplay ?",
+        "a": "Chris Martin"
+      },
+      {
+        "q": "Qui est le chanteur principal de Queen ?",
+        "a": "Freddie Mercury"
+      },
+      {
+        "q": "Qui est le chanteur principal des Rolling Stones ?",
+        "a": "Mick Jagger"
+      },
+      {
+        "q": "Qui est le chanteur principal de Nirvana ?",
+        "a": "Kurt Cobain"
+      },
+      {
+        "q": "Qui est le chanteur principal de Maroon 5 ?",
+        "a": "Adam Levine"
+      },
+      {
+        "q": "Qui est le chanteur principal de Muse ?",
+        "a": "Matthew Bellamy"
+      },
+      {
+        "q": "Qui est le chanteur principal de Radiohead ?",
+        "a": "Thom Yorke"
+      },
+      {
+        "q": "Qui est le chanteur principal de Metallica ?",
+        "a": "James Hetfield"
+      },
+      {
+        "q": "Qui est le chanteur principal de Pearl Jam ?",
+        "a": "Eddie Vedder"
+      }
+    ],
+    "7": [
+      {
+        "q": "Qui est la chanteuse de « Single Ladies » ?",
+        "a": "Beyoncé"
+      },
+      {
+        "q": "Qui est la chanteuse de « Bad Romance » ?",
+        "a": "Lady Gaga"
+      },
+      {
+        "q": "Qui est la chanteuse de « Wrecking Ball » ?",
+        "a": "Miley Cyrus"
+      },
+      {
+        "q": "Qui est la chanteuse de « Shake It Off » ?",
+        "a": "Taylor Swift"
+      },
+      {
+        "q": "Qui est la chanteuse de « Material Girl » ?",
+        "a": "Madonna"
+      },
+      {
+        "q": "Qui est la chanteuse de « Rehab » ?",
+        "a": "Amy Winehouse"
+      },
+      {
+        "q": "Qui est la chanteuse de « Vogue » ?",
+        "a": "Madonna"
+      },
+      {
+        "q": "Qui est la chanteuse de « Hollaback Girl » ?",
+        "a": "Gwen Stefani"
+      },
+      {
+        "q": "Qui est la chanteuse de « Rolling in the Deep » ?",
+        "a": "Adele"
+      },
+      {
+        "q": "Qui est la chanteuse de « Diamonds » ?",
+        "a": "Rihanna"
+      }
+    ],
+    "8": [
+      {
+        "q": "Qui est le compositeur de l’opéra « La Bohème » ?",
+        "a": "Puccini"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Aïda » ?",
+        "a": "Verdi"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Don Giovanni » ?",
+        "a": "Mozart"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Le Barbier de Séville » ?",
+        "a": "Rossini"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Tristan et Isolde » ?",
+        "a": "Wagner"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Carmen » ?",
+        "a": "Bizet"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Tosca » ?",
+        "a": "Puccini"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Nabucco » ?",
+        "a": "Verdi"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « Les Noces de Figaro » ?",
+        "a": "Mozart"
+      },
+      {
+        "q": "Qui est le compositeur de l’opéra « L’Anneau du Nibelung » ?",
+        "a": "Wagner"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel artiste est surnommé le « Roi du reggae » ?",
+        "a": "Bob Marley"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Roi du jazz » ?",
+        "a": "Louis Armstrong"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Roi du rock’n’roll » ?",
+        "a": "Elvis Presley"
+      },
+      {
+        "q": "Quel artiste est surnommé la « Reine de la soul » ?",
+        "a": "Aretha Franklin"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Duc du jazz » ?",
+        "a": "Duke Ellington"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Prince de la pop » ?",
+        "a": "Justin Timberlake"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Roi du blues » ?",
+        "a": "B.B. King"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Roi du funk » ?",
+        "a": "James Brown"
+      },
+      {
+        "q": "Quel artiste est surnommé le « Roi du rap » ?",
+        "a": "Jay-Z"
+      },
+      {
+        "q": "Quel artiste est surnommé la « Reine du R&B » ?",
+        "a": "Beyoncé"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel compositeur est surnommé le « Cantor de Leipzig » ?",
+        "a": "Bach"
+      },
+      {
+        "q": "Quel compositeur est sourd à la fin de sa vie mais continue à composer ?",
+        "a": "Beethoven"
+      },
+      {
+        "q": "Quel compositeur est mort très jeune, à 35 ans, en 1791 ?",
+        "a": "Mozart"
+      },
+      {
+        "q": "Quel compositeur a écrit la « Symphonie du Nouveau Monde » ?",
+        "a": "Dvořák"
+      },
+      {
+        "q": "Quel compositeur russe a écrit « Casse-Noisette » ?",
+        "a": "Tchaïkovski"
+      },
+      {
+        "q": "Quel compositeur a écrit « L’Oiseau de feu » ?",
+        "a": "Stravinsky"
+      },
+      {
+        "q": "Quel compositeur français a écrit « Le Carnaval des animaux » ?",
+        "a": "Saint-Saëns"
+      },
+      {
+        "q": "Quel compositeur allemand a écrit « L’Or du Rhin » ?",
+        "a": "Wagner"
+      },
+      {
+        "q": "Quel compositeur italien a écrit « Otello » ?",
+        "a": "Verdi"
+      },
+      {
+        "q": "Quel compositeur a écrit « Les Tableaux d’une exposition » ?",
+        "a": "Moussorgski"
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "plusoumoins",
+  "name": "Le plus ou le moins",
+  "questions": {
+    "1": [
+      {
+        "q": "Qui est le plus grand animal terrestre : l’éléphant ou la girafe ?",
+        "a": "La girafe"
+      },
+      {
+        "q": "Qui est plus rapide : le guépard ou l’autruche ?",
+        "a": "Le guépard"
+      },
+      {
+        "q": "Quel océan est le plus grand : Atlantique ou Pacifique ?",
+        "a": "Le Pacifique"
+      },
+      {
+        "q": "Qui vit le plus longtemps : la tortue ou le chien ?",
+        "a": "La tortue"
+      },
+      {
+        "q": "Quelle planète est la plus proche du Soleil : Mercure ou Vénus ?",
+        "a": "Mercure"
+      }
+    ],
+    "2": [
+      {
+        "q": "Qui a vécu le plus longtemps : Victor Hugo ou Napoléon Bonaparte ?",
+        "a": "Victor Hugo"
+      },
+      {
+        "q": "Quel pays est plus vaste : la Chine ou le Canada ?",
+        "a": "Le Canada"
+      },
+      {
+        "q": "Qui est plus lourd : un kilo de plumes ou un kilo de plomb ?",
+        "a": "C’est égal (1 kilo)"
+      },
+      {
+        "q": "Quel continent compte le plus de pays : l’Afrique ou l’Europe ?",
+        "a": "L’Afrique"
+      },
+      {
+        "q": "Qui a régné le plus longtemps : Louis XIV ou Napoléon Ier ?",
+        "a": "Louis XIV"
+      }
+    ],
+    "3": [
+      {
+        "q": "Quel est le plus haut sommet : l’Everest ou le Mont Blanc ?",
+        "a": "L’Everest"
+      },
+      {
+        "q": "Quel pays a la plus grande population : Inde ou Chine ?",
+        "a": "L’Inde (depuis 2023)"
+      },
+      {
+        "q": "Qui a écrit le plus de pièces de théâtre : Molière ou Racine ?",
+        "a": "Molière"
+      },
+      {
+        "q": "Quel sport attire le plus de spectateurs mondiaux : le football ou le cricket ?",
+        "a": "Le football"
+      },
+      {
+        "q": "Quel fruit contient le plus de vitamine C : l’orange ou le kiwi ?",
+        "a": "Le kiwi"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui est mort le plus tôt : Mozart ou Beethoven ?",
+        "a": "Mozart (35 ans)"
+      },
+      {
+        "q": "Quel pays est le plus peuplé d’Afrique : Nigeria ou Égypte ?",
+        "a": "Le Nigeria"
+      },
+      {
+        "q": "Qui a découvert l’Amérique en premier : Christophe Colomb ou Leif Erikson ?",
+        "a": "Leif Erikson"
+      },
+      {
+        "q": "Qui est plus vieux : la Tour Eiffel ou la Statue de la Liberté ?",
+        "a": "La Statue de la Liberté"
+      },
+      {
+        "q": "Qui a peint le plus de tableaux : Picasso ou Van Gogh ?",
+        "a": "Picasso"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel roman est plus ancien : L’Iliade ou Don Quichotte ?",
+        "a": "L’Iliade"
+      },
+      {
+        "q": "Quel pays est plus vaste : Russie ou États-Unis ?",
+        "a": "La Russie"
+      },
+      {
+        "q": "Qui est né en premier : Albert Einstein ou Isaac Newton ?",
+        "a": "Isaac Newton"
+      },
+      {
+        "q": "Quelle ville est plus ancienne : Rome ou Paris ?",
+        "a": "Rome"
+      },
+      {
+        "q": "Qui a écrit le plus de symphonies : Mozart ou Beethoven ?",
+        "a": "Haydn (plus que les deux), mais entre Mozart et Beethoven : Mozart"
+      }
+    ],
+    "6": [
+      {
+        "q": "Qui a gagné le plus de Coupes du Monde de football : Brésil ou Allemagne ?",
+        "a": "Brésil"
+      },
+      {
+        "q": "Qui a eu le mandat le plus long : Angela Merkel ou Emmanuel Macron ?",
+        "a": "Angela Merkel"
+      },
+      {
+        "q": "Qui a régné plus longtemps : Élisabeth II ou Victoria ?",
+        "a": "Élisabeth II"
+      },
+      {
+        "q": "Quel océan est le plus profond : Atlantique ou Pacifique ?",
+        "a": "Le Pacifique"
+      },
+      {
+        "q": "Qui est plus grand : Tour Eiffel ou Empire State Building ?",
+        "a": "Empire State Building"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel pays produit le plus de vin : Italie ou France ?",
+        "a": "Italie"
+      },
+      {
+        "q": "Qui est plus vieux : Google ou Facebook ?",
+        "a": "Google"
+      },
+      {
+        "q": "Qui est plus ancien : le téléphone ou l’ampoule électrique ?",
+        "a": "Le téléphone"
+      },
+      {
+        "q": "Quel est le plus grand désert : Sahara ou Gobi ?",
+        "a": "Sahara"
+      },
+      {
+        "q": "Qui est plus rapide : avion Concorde ou TGV ?",
+        "a": "Concorde"
+      }
+    ],
+    "8": [
+      {
+        "q": "Quel écrivain a vendu le plus de livres : J.K. Rowling ou J.R.R. Tolkien ?",
+        "a": "J.K. Rowling"
+      },
+      {
+        "q": "Qui a été président le premier : Barack Obama ou Donald Trump ?",
+        "a": "Barack Obama"
+      },
+      {
+        "q": "Quel pays a le plus de volcans : Indonésie ou Islande ?",
+        "a": "Indonésie"
+      },
+      {
+        "q": "Qui a gagné le plus de Tour de France : Bernard Hinault ou Eddy Merckx ?",
+        "a": "Eddy Merckx"
+      },
+      {
+        "q": "Quelle ville a le plus d’habitants : Tokyo ou New York ?",
+        "a": "Tokyo"
+      }
+    ],
+    "9": [
+      {
+        "q": "Qui a écrit le plus de pièces : Shakespeare ou Molière ?",
+        "a": "Shakespeare"
+      },
+      {
+        "q": "Qui est plus vieux : le Big Bang (théorie scientifique) ou la Terre ?",
+        "a": "Le Big Bang"
+      },
+      {
+        "q": "Quelle guerre a duré le plus longtemps : Guerre de Cent Ans ou Première Guerre mondiale ?",
+        "a": "La Guerre de Cent Ans"
+      },
+      {
+        "q": "Qui a été inventé en premier : l’imprimerie ou la boussole ?",
+        "a": "La boussole"
+      },
+      {
+        "q": "Quel peintre a produit le plus d’œuvres : Picasso ou Monet ?",
+        "a": "Picasso"
+      }
+    ],
+    "10": [
+      {
+        "q": "Quel empire a duré le plus longtemps : Empire romain d’Occident ou Empire byzantin ?",
+        "a": "Empire byzantin"
+      },
+      {
+        "q": "Qui a vécu le plus vieux : Jeanne Calment ou Michelangelo ?",
+        "a": "Jeanne Calment"
+      },
+      {
+        "q": "Quel est le plus vieux texte écrit : l’Épopée de Gilgamesh ou la Bible ?",
+        "a": "L’Épopée de Gilgamesh"
+      },
+      {
+        "q": "Qui a existé le premier : les dinosaures ou les premiers mammifères ?",
+        "a": "Les dinosaures"
+      },
+      {
+        "q": "Quelle est la plus ancienne université : Bologne ou Oxford ?",
+        "a": "Bologne"
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "id": "cinema",
+  "name": "Cinéma",
+  "questions": {
+    "1": [
+      {
+        "q": "Qui a réalisé le film « Titanic » ?",
+        "a": "James Cameron"
+      },
+      {
+        "q": "Quel acteur joue Jack dans « Titanic » ?",
+        "a": "Leonardo DiCaprio"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un jeune sorcier nommé Harry ?",
+        "a": "Harry Potter"
+      },
+      {
+        "q": "Qui a réalisé « Jurassic Park » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Quel super-héros est aussi appelé l’homme chauve-souris ?",
+        "a": "Batman"
+      },
+      {
+        "q": "Quel est le premier film d’animation de Disney ?",
+        "a": "Blanche-Neige et les Sept Nains"
+      },
+      {
+        "q": "Quel est le prénom du héros dans « Indiana Jones » ?",
+        "a": "Indiana"
+      },
+      {
+        "q": "Quel monstre vit à Skull Island ?",
+        "a": "King Kong"
+      },
+      {
+        "q": "Quel est le vrai nom de Spider-Man ?",
+        "a": "Peter Parker"
+      },
+      {
+        "q": "Quel extraterrestre dit « E.T. téléphone maison » ?",
+        "a": "E.T."
+      }
+    ],
+    "2": [
+      {
+        "q": "Qui a réalisé « Inception » ?",
+        "a": "Christopher Nolan"
+      },
+      {
+        "q": "Qui joue Neo dans « Matrix » ?",
+        "a": "Keanu Reeves"
+      },
+      {
+        "q": "Quel film met en scène un requin géant en 1975 ?",
+        "a": "Les Dents de la mer"
+      },
+      {
+        "q": "Quel film a pour réplique « Hasta la vista, baby » ?",
+        "a": "Terminator 2"
+      },
+      {
+        "q": "Quel acteur incarne Iron Man ?",
+        "a": "Robert Downey Jr."
+      },
+      {
+        "q": "Quel film raconte la vie de Simba ?",
+        "a": "Le Roi Lion"
+      },
+      {
+        "q": "Quel est le nom du robot dans « Star Wars » avec la forme cylindrique ?",
+        "a": "R2-D2"
+      },
+      {
+        "q": "Qui a réalisé « Pulp Fiction » ?",
+        "a": "Quentin Tarantino"
+      },
+      {
+        "q": "Quel film met en scène des dinosaures clonés ?",
+        "a": "Jurassic Park"
+      },
+      {
+        "q": "Quel film d’animation met en scène Woody et Buzz ?",
+        "a": "Toy Story"
+      }
+    ],
+    "3": [
+      {
+        "q": "Qui a réalisé « Avatar » ?",
+        "a": "James Cameron"
+      },
+      {
+        "q": "Quel film raconte l’histoire du naufrage du Titanic ?",
+        "a": "Titanic"
+      },
+      {
+        "q": "Quel réalisateur est surnommé « le maître du suspense » ?",
+        "a": "Alfred Hitchcock"
+      },
+      {
+        "q": "Qui a réalisé « E.T. » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Quel film commence par « Il était une fois dans l’Ouest » ?",
+        "a": "Il était une fois dans l’Ouest"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un ogre vert ?",
+        "a": "Shrek"
+      },
+      {
+        "q": "Qui a réalisé « The Dark Knight » ?",
+        "a": "Christopher Nolan"
+      },
+      {
+        "q": "Quel film raconte l’histoire de Rose et Jack ?",
+        "a": "Titanic"
+      },
+      {
+        "q": "Qui a réalisé « Les Évadés » (The Shawshank Redemption) ?",
+        "a": "Frank Darabont"
+      },
+      {
+        "q": "Quel film d’animation met en scène une fourmi nommée Z ?",
+        "a": "Fourmiz"
+      }
+    ],
+    "4": [
+      {
+        "q": "Qui a réalisé « Gladiator » ?",
+        "a": "Ridley Scott"
+      },
+      {
+        "q": "Quel acteur joue le Joker dans « The Dark Knight » ?",
+        "a": "Heath Ledger"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un naufragé avec un ballon nommé Wilson ?",
+        "a": "Seul au monde"
+      },
+      {
+        "q": "Quel film met en scène Jack Sparrow ?",
+        "a": "Pirates des Caraïbes"
+      },
+      {
+        "q": "Quel film d’animation raconte l’histoire de Nemo ?",
+        "a": "Le Monde de Nemo"
+      },
+      {
+        "q": "Quel film met en scène un extraterrestre bleu nommé Neytiri ?",
+        "a": "Avatar"
+      },
+      {
+        "q": "Quel film raconte la vie de Forrest ?",
+        "a": "Forrest Gump"
+      },
+      {
+        "q": "Quel film a pour réplique « Je suis ton père » ?",
+        "a": "Star Wars V"
+      },
+      {
+        "q": "Qui a réalisé « Les Affranchis » ?",
+        "a": "Martin Scorsese"
+      },
+      {
+        "q": "Quel film raconte l’histoire de Marty McFly ?",
+        "a": "Retour vers le futur"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel film d’animation raconte l’histoire de Wall-E ?",
+        "a": "Wall-E"
+      },
+      {
+        "q": "Quel film raconte l’histoire de Andy et ses jouets ?",
+        "a": "Toy Story"
+      },
+      {
+        "q": "Qui a réalisé « Le Parrain » ?",
+        "a": "Francis Ford Coppola"
+      },
+      {
+        "q": "Qui a réalisé « Apocalypse Now » ?",
+        "a": "Francis Ford Coppola"
+      },
+      {
+        "q": "Qui a réalisé « Taxi Driver » ?",
+        "a": "Martin Scorsese"
+      },
+      {
+        "q": "Quel film raconte la vie de Rocky Balboa ?",
+        "a": "Rocky"
+      },
+      {
+        "q": "Quel film d’animation raconte l’histoire de deux sœurs, Anna et Elsa ?",
+        "a": "La Reine des neiges"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un ogre vert ?",
+        "a": "Shrek"
+      },
+      {
+        "q": "Qui a réalisé « Le Fabuleux Destin d’Amélie Poulain » ?",
+        "a": "Jean-Pierre Jeunet"
+      },
+      {
+        "q": "Qui a réalisé « Inglourious Basterds » ?",
+        "a": "Quentin Tarantino"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel film d’animation met en scène une voiture rouge nommée Flash McQueen ?",
+        "a": "Cars"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un clown maléfique ?",
+        "a": "Ça"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un robot nommé R2-D2 ?",
+        "a": "Star Wars"
+      },
+      {
+        "q": "Qui a réalisé « Interstellar » ?",
+        "a": "Christopher Nolan"
+      },
+      {
+        "q": "Qui a réalisé « Inception » ?",
+        "a": "Christopher Nolan"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un super-héros appelé Clark Kent ?",
+        "a": "Superman"
+      },
+      {
+        "q": "Quel film d’animation raconte la vie d’une famille de super-héros ?",
+        "a": "Les Indestructibles"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un roi lion ?",
+        "a": "Le Roi Lion"
+      },
+      {
+        "q": "Qui a réalisé « Blade Runner » ?",
+        "a": "Ridley Scott"
+      },
+      {
+        "q": "Qui a réalisé « Alien » ?",
+        "a": "Ridley Scott"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel film raconte l’histoire d’un hobbit nommé Frodon ?",
+        "a": "Le Seigneur des Anneaux"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un sorcier nommé Harry ?",
+        "a": "Harry Potter"
+      },
+      {
+        "q": "Quel film raconte l’histoire d’un magicien nommé Gandalf ?",
+        "a": "Le Seigneur des Anneaux"
+      },
+      {
+        "q": "Qui a réalisé « Le Silence des agneaux » ?",
+        "a": "Jonathan Demme"
+      },
+      {
+        "q": "Qui a réalisé « Shutter Island » ?",
+        "a": "Martin Scorsese"
+      },
+      {
+        "q": "Qui a réalisé « La Ligne verte » ?",
+        "a": "Frank Darabont"
+      },
+      {
+        "q": "Qui a réalisé « Fight Club » ?",
+        "a": "David Fincher"
+      },
+      {
+        "q": "Qui a réalisé « Seven » ?",
+        "a": "David Fincher"
+      },
+      {
+        "q": "Qui a réalisé « Gone Girl » ?",
+        "a": "David Fincher"
+      },
+      {
+        "q": "Qui a réalisé « Zodiac » ?",
+        "a": "David Fincher"
+      }
+    ],
+    "8": [
+      {
+        "q": "Qui a réalisé « Lawrence d’Arabie » ?",
+        "a": "David Lean"
+      },
+      {
+        "q": "Qui a réalisé « Docteur Jivago » ?",
+        "a": "David Lean"
+      },
+      {
+        "q": "Qui a réalisé « Les Aventuriers de l’arche perdue » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « La Liste de Schindler » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « Il faut sauver le soldat Ryan » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « Minority Report » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « Le Terminal » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « Munich » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « Ready Player One » ?",
+        "a": "Steven Spielberg"
+      },
+      {
+        "q": "Qui a réalisé « West Side Story » (2021) ?",
+        "a": "Steven Spielberg"
+      }
+    ],
+    "9": [
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 1994 ?",
+        "a": "Forrest Gump"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 1997 ?",
+        "a": "Titanic"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2001 ?",
+        "a": "Gladiator"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2004 ?",
+        "a": "Le Seigneur des Anneaux : Le Retour du roi"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2009 ?",
+        "a": "Slumdog Millionaire"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2010 ?",
+        "a": "The Hurt Locker"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2012 ?",
+        "a": "The Artist"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2020 ?",
+        "a": "Parasite"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2021 ?",
+        "a": "Nomadland"
+      },
+      {
+        "q": "Quel film a gagné l’Oscar du meilleur film en 2022 ?",
+        "a": "CODA"
+      }
+    ],
+    "10": [
+      {
+        "q": "Qui a réalisé « Citizen Kane » ?",
+        "a": "Orson Welles"
+      },
+      {
+        "q": "Qui a réalisé « 2001, l’Odyssée de l’espace » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Orange mécanique » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Full Metal Jacket » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Eyes Wide Shut » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Barry Lyndon » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Shining » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Dr Folamour » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Spartacus » ?",
+        "a": "Stanley Kubrick"
+      },
+      {
+        "q": "Qui a réalisé « Paths of Glory » (Les Sentiers de la gloire) ?",
+        "a": "Stanley Kubrick"
+      }
+    ]
+  }
+}

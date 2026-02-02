@@ -63,6 +63,9 @@ const STATE = {
   currentQA: null,
   answerRevealed: false,
   usedThemes: new Set(),
+  // Lazy loading state
+  themeIndex: null,      // Metadata from index.json
+  loadedThemes: {},      // Cache: { themeId: themeData }
 };
 
 // --------- Utils ----------
@@ -98,26 +101,100 @@ function resetState(){
   STATE.currentQA = null;
   STATE.answerRevealed = false;
   STATE.usedThemes = new Set();
+  // Note: themeIndex and loadedThemes are preserved across game restarts
+  // to avoid re-fetching already loaded data
 }
 
-// --------- Data (questions) ----------
-async function loadQuestions(){
+// --------- Data (questions) - Lazy Loading ----------
+
+// Load theme index (metadata only, ~1KB)
+async function loadThemeIndex(){
+  try{
+    const res = await fetch("questions/index.json", {cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    STATE.themeIndex = await res.json();
+    STATE.questions = { themes: [] }; // Will be populated lazily
+    STATE.loadedThemes = {};
+    return true;
+  }catch(e){
+    // Fallback: load monolithic file
+    console.log("Fallback to questions.sample.json");
+    return await loadQuestionsFallback();
+  }
+}
+
+// Fallback: load the full monolithic file
+async function loadQuestionsFallback(){
   try{
     const res = await fetch("questions.sample.json", {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     STATE.questions = await res.json();
+    STATE.themeIndex = null; // Mark as using fallback mode
+    STATE.loadedThemes = {};
+    // Pre-populate loadedThemes cache with all themes
+    STATE.questions.themes.forEach(t => STATE.loadedThemes[t.id] = t);
+    return true;
   }catch(e){
     STATE.questions = {
       themes:[{
         id:"demo", name:"Démo",
-        questions:{ "1":[{q:"Capitale de la France ?",a:"Paris"}], "2":[{q:"Symbole de l’eau ?",a:"H2O"}],
+        questions:{ "1":[{q:"Capitale de la France ?",a:"Paris"}], "2":[{q:"Symbole de l'eau ?",a:"H2O"}],
           "3":[], "4":[], "5":[], "6":[], "7":[], "8":[], "9":[], "10":[] }
       }]
     };
+    STATE.themeIndex = null;
+    STATE.loadedThemes = { demo: STATE.questions.themes[0] };
+    return false;
   }
 }
 
-function getThemeById(id){ return STATE.questions.themes.find(t=>t.id===id) || null; }
+// Load a specific theme on demand
+async function loadTheme(themeId){
+  // Already loaded?
+  if(STATE.loadedThemes[themeId]) return STATE.loadedThemes[themeId];
+
+  // Using fallback mode (monolithic)?
+  if(!STATE.themeIndex){
+    return STATE.questions.themes.find(t=>t.id===themeId) || null;
+  }
+
+  // Find theme metadata in index
+  const meta = STATE.themeIndex.themes.find(t=>t.id===themeId);
+  if(!meta) return null;
+
+  try{
+    const res = await fetch(`questions/${meta.file}`, {cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const themeData = await res.json();
+    STATE.loadedThemes[themeId] = themeData;
+    // Also add to STATE.questions.themes for compatibility
+    if(!STATE.questions.themes.find(t=>t.id===themeId)){
+      STATE.questions.themes.push(themeData);
+    }
+    return themeData;
+  }catch(e){
+    console.error(`Failed to load theme ${themeId}:`, e);
+    return null;
+  }
+}
+
+// Get theme by ID (sync, only from cache/loaded)
+function getThemeById(id){
+  return STATE.loadedThemes[id] || STATE.questions.themes.find(t=>t.id===id) || null;
+}
+
+// Get all available theme IDs (from index or fallback)
+function getAllThemeIds(){
+  if(STATE.themeIndex){
+    return STATE.themeIndex.themes.map(t=>t.id);
+  }
+  return STATE.questions.themes.map(t=>t.id);
+}
+
+// Legacy function for compatibility
+async function loadQuestions(){
+  await loadThemeIndex();
+}
 function ensureUsedQuestionsPaths(themeId){
   if(!STATE.usedQuestions[themeId]) STATE.usedQuestions[themeId] = {};
   for(let d=1; d<=10; d++){ if(!STATE.usedQuestions[themeId][d]) STATE.usedQuestions[themeId][d] = []; }
@@ -146,14 +223,33 @@ function hasRemainingQuestions(theme){
   }
   return false;
 }
-function pickRandomTheme(){
-  const all = STATE.questions?.themes || [];
-  const candidates = all.filter(t => hasRemainingQuestions(t) && !STATE.usedThemes.has(t.id));
-  if(!candidates.length) return null;
-  const pool = candidates.length>1 ? candidates.filter(t=>t.id!==STATE.lastThemeId) : candidates;
-  const t = pool[randInt(0,pool.length-1)];
-  STATE.lastThemeId = t.id;
-  return t;
+async function pickRandomTheme(){
+  const allIds = getAllThemeIds();
+  // Filter out already used themes
+  const candidateIds = allIds.filter(id => !STATE.usedThemes.has(id));
+  if(!candidateIds.length) return null;
+
+  // Prefer themes that aren't the last one used
+  const pool = candidateIds.length > 1
+    ? candidateIds.filter(id => id !== STATE.lastThemeId)
+    : candidateIds;
+
+  // Pick random theme ID
+  const pickedId = pool[randInt(0, pool.length - 1)];
+
+  // Lazy load the theme
+  const theme = await loadTheme(pickedId);
+  if(!theme) return null;
+
+  // Verify it has remaining questions
+  if(!hasRemainingQuestions(theme)){
+    // Mark as used and try again
+    STATE.usedThemes.add(pickedId);
+    return await pickRandomTheme();
+  }
+
+  STATE.lastThemeId = pickedId;
+  return theme;
 }
 
 // --------- UI helpers ----------
@@ -258,8 +354,8 @@ function renderAll(){
 }
 
 // --------- Tour & manches ----------
-function setThemeForRound(){
-  STATE.theme = pickRandomTheme();
+async function setThemeForRound(){
+  STATE.theme = await pickRandomTheme();
   STATE.usedDifficulties = new Set();
   STATE.currentQA = null;
   STATE.answerRevealed = false;
@@ -285,7 +381,7 @@ function computeTurnOrderNames(withActiveFlag=false){
   }
   return names;
 }
-function nextPlayer(){
+async function nextPlayer(){
   STATE.currentQA = null;
   STATE.answerRevealed = false;
 
@@ -299,7 +395,7 @@ function nextPlayer(){
     }
     STATE.starterIndex = (STATE.starterIndex + 1) % STATE.players.length;
     STATE.turnIndex = STATE.starterIndex;
-    setThemeForRound();
+    await setThemeForRound();
   }
   saveLocal();
   renderAll();
@@ -327,14 +423,14 @@ function onShowAnswer(){
   if (navigator.vibrate) navigator.vibrate([8,20,8]);
   renderAll();
 }
-function onAnswer(isCorrect){
+async function onAnswer(isCorrect){
   if(!STATE.currentQA) return;
   if(isCorrect){
     const player = STATE.players[STATE.turnIndex];
     player.score += STATE.currentQA.diff;
   }
   saveLocal();
-  nextPlayer();
+  await nextPlayer();
 }
 
 // --------- Game flow ----------
@@ -344,8 +440,8 @@ async function startGame(players, rounds){
   STATE.players = players.map(n=>({name:n, score:0}));
   STATE.starterIndex = 0;
   STATE.turnIndex = STATE.starterIndex;
-  await loadQuestions();
-  setThemeForRound();
+  await loadThemeIndex();
+  await setThemeForRound();
   saveLocal();
   showScreen("game");
   renderAll();
@@ -373,7 +469,7 @@ function shareScores(){
 // --------- Events ----------
 function collectNames(){
   const names = $$("input[name=player]", els.playersForm).map(i=>i.value.trim()).filter(Boolean);
-  if(names.length<1 || names.length>5){ alert("Entre 1 à 5 joueurs."); return null; }
+  if(names.length<1 || names.length>10){ alert("Entre 1 à 10 joueurs."); return null; }
   return names;
 }
 els.start10.addEventListener("click", ()=>{
@@ -395,7 +491,7 @@ els.restartBtn.addEventListener("click", ()=>{
 els.shareBtn.addEventListener("click", shareScores);
 
 window.addEventListener("load", async ()=>{
-  await loadQuestions();
+  await loadThemeIndex();
   const saved = loadLocal();
   if(saved && confirm("Reprendre la partie sauvegardée ?")){
     MAX_ROUNDS = saved.maxRounds || 10;
@@ -407,7 +503,13 @@ window.addEventListener("load", async ()=>{
     STATE.usedDifficulties = new Set(saved.usedDifficulties || []);
     STATE.lastThemeId = saved.lastThemeId || null;
     STATE.usedThemes = new Set(saved.usedThemes || []);
-    STATE.theme = saved.themeId ? getThemeById(saved.themeId) || pickRandomTheme() : pickRandomTheme();
+    // Load the saved theme (async)
+    if(saved.themeId){
+      STATE.theme = await loadTheme(saved.themeId);
+    }
+    if(!STATE.theme){
+      STATE.theme = await pickRandomTheme();
+    }
     if(STATE.theme && !STATE.usedThemes.has(STATE.theme.id)) STATE.usedThemes.add(STATE.theme.id);
     showScreen("game");
     renderAll();
