@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-PoCer is a mobile-first multiplayer quiz game built as a vanilla HTML/CSS/JavaScript web application. It supports up to 5 players on a single device with difficulty-based scoring and theme-based rounds.
+PoCer is a mobile-first multiplayer quiz game built as a vanilla HTML/CSS/JavaScript web application. It supports up to 10 players on a single device with difficulty-based scoring and theme-based rounds.
+
+**Live site**: https://sbenouat.github.io/game/
 
 ## Development
 
@@ -20,9 +22,9 @@ No build step, dependencies, or package manager required.
 Four core files:
 
 - **index.html** - UI markup with three screens: setup, game, and recap
-- **script.js** - Game logic (~420 lines): state management, DOM manipulation, localStorage persistence
+- **script.js** - Game logic: state management, DOM manipulation, localStorage persistence
 - **styles.css** - Dark theme mobile-first styling with CSS custom properties
-- **questions.sample.json** - Question database organized by themes and difficulty levels (1-10)
+- **questions/** - Lazy-loaded theme files (19 themes), each with questions organized by difficulty (1-10)
 
 ### Game Flow
 
@@ -50,6 +52,22 @@ Central `STATE` object in script.js tracks: players, scores, current round, them
   }
 }
 ```
+
+## Question Difficulty Criteria
+
+| Level | Criteria | Example |
+|-------|----------|---------|
+| 1-2 | Elementary school knowledge, universal facts | Capital of France, 2+2 |
+| 3-4 | High school curriculum, common culture | Treaty of Versailles, Newton's laws |
+| 5-6 | Educated adult, media/reading knowledge | First man in space, E=mc² |
+| 7-8 | Specialized interest required | Specific treaty names, scientific constants |
+| 9-10 | Expert/obscure, advanced studies | Obscure dates, technical details |
+
+## Deployment
+
+Hosted on GitHub Pages. Deploy by pushing to `master` branch.
+
+**Settings > Pages > Source**: Deploy from branch (master / root)
 
 ## Notes
 
