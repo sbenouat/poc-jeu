@@ -29,7 +29,7 @@
       "id": "cinema",
       "name": "Cinéma",
       "file": "cinema.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "musique",
@@ -47,7 +47,7 @@
       "id": "harrypotter",
       "name": "Harry Potter",
       "file": "harrypotter.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "himym",
