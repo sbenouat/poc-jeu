@@ -12,3 +12,4 @@ Documentation factuelle du jeu, à jour avec le code de la branche `master`. Cha
 ---
 
 - [Roadmap](roadmap.md) — **cible, pas existant** : idées d'évolutions consignées pour discussion future
+- [Slash commands](commands.md) — commandes Claude Code disponibles dans ce projet
