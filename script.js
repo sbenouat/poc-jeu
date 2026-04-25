@@ -43,6 +43,8 @@ const els = {
   answerBlock: $("#answerBlock"),
   revealRow: $("#revealRow"),
   judgeRow: $("#judgeRow"),
+  timeoutRow: $("#timeoutRow"),
+  btnContinue: $("#btnContinue"),
   ptsSpan: $("#pts"),
   timerDisplay: $("#timerDisplay"),
   timerToggle: $("#timerToggle"),
@@ -87,6 +89,7 @@ const STATE = {
   questions: null,
   currentQA: null,
   answerRevealed: false,
+  timedOut: false,
   usedThemes: new Set(),
   themeIndex: null,
   loadedThemes: {},
@@ -146,6 +149,7 @@ function resetState(){
   STATE.lastThemeId = null;
   STATE.currentQA = null;
   STATE.answerRevealed = false;
+  STATE.timedOut = false;
   STATE.usedThemes = new Set();
 }
 
@@ -185,11 +189,17 @@ function stopTimer(){
   els.timerDisplay.classList.remove("warn");
 }
 
-async function onTimeout(){
+function onTimeout(){
   if(!STATE.currentQA || STATE.answerRevealed) return;
   STATE.answerRevealed = true;
+  STATE.timedOut = true;
   if (navigator.vibrate) navigator.vibrate([20, 40, 20]);
   renderAll();
+}
+
+async function onContinueAfterTimeout(){
+  if(!STATE.timedOut) return;
+  STATE.timedOut = false;
   await onAnswer(false, { reason: "timeout" });
 }
 
@@ -474,12 +484,19 @@ function renderQA(){
 
     if (STATE.answerRevealed){
       els.answerBlock.classList.remove("hidden");
-      els.judgeRow.classList.remove("hidden");
       els.revealRow.classList.add("hidden");
       els.showAnswerBtn?.setAttribute("aria-expanded", "true");
+      if(STATE.timedOut){
+        els.judgeRow.classList.add("hidden");
+        els.timeoutRow.classList.remove("hidden");
+      }else{
+        els.judgeRow.classList.remove("hidden");
+        els.timeoutRow.classList.add("hidden");
+      }
     }else{
       els.answerBlock.classList.add("hidden");
       els.judgeRow.classList.add("hidden");
+      els.timeoutRow.classList.add("hidden");
       els.revealRow.classList.remove("hidden");
       els.showAnswerBtn?.setAttribute("aria-expanded", "false");
     }
@@ -491,6 +508,7 @@ function renderQA(){
     els.scoreboardCard.open = true;
     els.timerDisplay.classList.add("hidden");
     els.timerDisplay.classList.remove("warn");
+    els.timeoutRow.classList.add("hidden");
   }
 }
 function renderAll(){
@@ -507,6 +525,7 @@ async function setThemeForRound(){
   STATE.usedDifficulties = new Set();
   STATE.currentQA = null;
   STATE.answerRevealed = false;
+  STATE.timedOut = false;
 
   if(!STATE.theme){
     toast("Plus de thèmes disponibles. Fin de partie.", { variant: "danger", durationMs: 2500 });
@@ -532,6 +551,7 @@ function computeTurnOrder(withActiveFlag = false){
 async function nextPlayer(){
   STATE.currentQA = null;
   STATE.answerRevealed = false;
+  STATE.timedOut = false;
 
   STATE.turnIndex = (STATE.turnIndex + 1) % STATE.players.length;
 
@@ -602,6 +622,7 @@ async function restoreFromSnapshot(snap){
   STATE.usedDifficulties = new Set(snap.usedDifficulties);
   STATE.currentQA = snap.currentQA;
   STATE.answerRevealed = snap.answerRevealed;
+  STATE.timedOut = false;
   STATE.lastThemeId = snap.lastThemeId;
   STATE.usedThemes = new Set(snap.usedThemes);
   if (snap.themeId) {
@@ -702,6 +723,7 @@ els.start5.addEventListener("click", () => {
 $("#showAnswerBtn").addEventListener("click", onShowAnswer);
 els.btnCorrect.addEventListener("click", () => onAnswer(true));
 els.btnWrong.addEventListener("click", () => onAnswer(false));
+els.btnContinue.addEventListener("click", onContinueAfterTimeout);
 els.endGameBtn.addEventListener("click", confirmEndGame);
 els.restartBtn.addEventListener("click", () => {
   clearSavedGame();

@@ -41,7 +41,7 @@ Aucune modale système (`confirm`/`alert`) n'est utilisée — uniquement la car
 5. **Verdict** : tap sur Bonne ou Mauvaise. Vibration `[10, 30, 10]` ou `25ms`.
    - Toast en bas : `+N pts pour <Joueur>` ou `0 pt pour <Joueur>`, avec un bouton "Annuler" actif 3s.
    - Tour suivant immédiatement (pas d'écran intermédiaire).
-6. **Timeout** (si timer activé et expiré avant le reveal) : la réponse est révélée automatiquement, vibration `[20, 40, 20]`, verdict mauvaise appliqué automatiquement. Toast `Temps écoulé — 0 pt pour <Joueur>` avec "Annuler" actif 3s — le undo restaure le tour avec la réponse révélée et les boutons de jugement, le joueur peut re-juger manuellement.
+6. **Timeout** (si timer activé et expiré avant le reveal) : la réponse est révélée automatiquement, vibration `[20, 40, 20]`. Les boutons Bonne/Mauvaise sont remplacés par un seul bouton **Continuer** — pas d'auto-advance, le groupe a le temps de lire la réponse à l'écran. Au clic, 0 point est appliqué, le tour avance et un toast `Temps écoulé — 0 pt pour <Joueur>` apparaît avec "Annuler" actif 3s. L'undo restaure le tour avec la réponse révélée et les boutons Bonne/Mauvaise, le joueur peut alors re-juger manuellement (par exemple si le groupe estime qu'il avait répondu juste à temps).
 
 ## Annuler un verdict
 

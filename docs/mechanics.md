@@ -110,7 +110,7 @@ Optionnel, activé par défaut. Toggle dans le setup (`#timerToggle`), persisté
 - **Démarrage** : à la fin de `onChooseDifficulty` (`startTimerLoop(deadline)`), après le `renderAll` qui affiche la question.
 - **Arrêt** : sur `onShowAnswer`, `onAnswer`, `restoreFromSnapshot`, `finishGame`, `resumeFromSave`. Helper `stopTimer`.
 - **Tick** : `setInterval` à 250ms qui calcule `remaining = deadline - Date.now()`. Met à jour `#timerDisplay` avec `Xs` (entier supérieur), bascule la classe `.warn` quand `remaining ≤ 3000ms`.
-- **Expiration** : `onTimeout()` met `answerRevealed = true`, vibre `[20, 40, 20]`, et appelle `onAnswer(false, { reason: "timeout" })`. Le toast indique "Temps écoulé — 0 pt pour X" au lieu de "0 pt pour X". L'undo reste disponible 3s.
+- **Expiration** : `onTimeout()` met `answerRevealed = true`, `timedOut = true`, vibre `[20, 40, 20]`, et révèle la réponse. Les boutons Bonne/Mauvaise sont remplacés par un bouton **Continuer** (`#btnContinue`). Le score n'est pas encore appliqué — le groupe a le temps de lire la réponse. Au clic sur Continuer (`onContinueAfterTimeout`) : `timedOut = false` puis `onAnswer(false, { reason: "timeout" })`, qui applique 0 point, avance et affiche le toast "Temps écoulé — 0 pt pour X" avec l'undo standard.
 - **Pas de persistance du timer** : `currentQA` n'étant pas sauvegardé, sur reload le joueur revient à la grille de difficulté ; la difficulté entamée reste marquée prise. Aucun timer fantôme.
 
 ## Effets latéraux
