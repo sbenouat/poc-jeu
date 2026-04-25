@@ -27,6 +27,10 @@
         <h2>Joueurs</h2>
         <div class="players-inputs" id="playersInputs"></div>
         <button type="button" id="addPlayerBtn" class="btn ghost btn-add">+ Ajouter un joueur</button>
+        <label class="setting-row">
+          <input type="checkbox" id="timerToggle" checked />
+          <span>Timer (10 + difficulté × 3s)</span>
+        </label>
         <div class="row">
           <button type="button" id="start5" class="btn secondary">Partie courte (5 manches)</button>
           <button type="button" id="start10" class="btn primary">Partie normale (10 manches)</button>
@@ -75,6 +79,7 @@
       <!-- Carte Q/R -->
       <section id="qaCard" class="card hidden">
         <div class="qa-row">
+          <div id="timerDisplay" class="timer-display hidden" aria-live="polite" aria-label="Temps restant"></div>
           <div class="q"><span id="questionText"></span></div>
           <div id="revealRow" class="reveal-row">
             <button id="showAnswerBtn" class="btn secondary" aria-expanded="false">Afficher la réponse</button>
@@ -83,6 +88,9 @@
           <div id="judgeRow" class="judge-row hidden">
             <button id="btnWrong" class="btn ghost">Mauvaise</button>
             <button id="btnCorrect" class="btn success">Bonne (+<span id="pts"></span>)</button>
+          </div>
+          <div id="timeoutRow" class="judge-row hidden">
+            <button id="btnContinue" class="btn primary">Continuer</button>
           </div>
         </div>
       </section>

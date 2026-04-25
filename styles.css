@@ -168,6 +168,26 @@ input::placeholder{color:#6c738a}
 .judge-row .btn{flex:1}
 .hint{color:#b7c0d7;font-size:13px}
 
+.timer-display{
+  display:block;width:fit-content;margin:0 0 10px auto;
+  font-size:22px;font-weight:800;
+  padding:6px 14px;border-radius:999px;
+  background:var(--chip2);color:var(--text);
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.3px;
+}
+.timer-display.warn{
+  background:var(--danger);color:#fff;
+  animation:timerPulse .5s ease-in-out infinite alternate;
+}
+@keyframes timerPulse{from{transform:scale(1)}to{transform:scale(1.08)}}
+
+.setting-row{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 0;color:var(--muted);font-size:14px;
+}
+.setting-row input[type=checkbox]{width:auto;accent-color:var(--primary)}
+
 .toolbar{display:flex;justify-content:center;margin:20px 0}
 
 .winners{font-weight:800;font-size:18px;margin:8px 0 12px}

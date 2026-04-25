@@ -84,7 +84,9 @@
 
 ---
 
-## 6. Timer dur
+## 6. Timer dur — ✅ Implémenté
+
+> Décrit dans `docs/mechanics.md` (section *Timer*), `docs/ui.md` et `docs/ux.md`. Formule retenue : `(10 + difficulté × 3)s`. Toggle dans le setup (défaut activé), persisté dans `pocer_settings`. Compteur numérique en pilule, alerte rouge + pulse sur les 3 dernières secondes. Auto-reveal + auto-mauvaise sur expiration, undo disponible 3s.
 
 **Idée** : à partir du moment où la question est affichée (ou la réponse révélée, à trancher), un compte à rebours de `difficulté × 5s` se déclenche. Si dépassé, la réponse est automatiquement déclarée mauvaise.
 
