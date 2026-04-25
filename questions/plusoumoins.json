@@ -3,224 +3,124 @@
   "name": "Le plus ou le moins",
   "questions": {
     "1": [
-      {
-        "q": "Qui est le plus grand animal terrestre : l’éléphant ou la girafe ?",
-        "a": "La girafe"
-      },
-      {
-        "q": "Qui est plus rapide : le guépard ou l’autruche ?",
-        "a": "Le guépard"
-      },
-      {
-        "q": "Quel océan est le plus grand : Atlantique ou Pacifique ?",
-        "a": "Le Pacifique"
-      },
-      {
-        "q": "Qui vit le plus longtemps : la tortue ou le chien ?",
-        "a": "La tortue"
-      },
-      {
-        "q": "Quelle planète est la plus proche du Soleil : Mercure ou Vénus ?",
-        "a": "Mercure"
-      }
+      { "q": "Quel est le plus grand animal terrestre : l'éléphant ou la souris ?", "a": "L'éléphant" },
+      { "q": "Quel astre est le plus grand : le Soleil ou la Lune ?", "a": "Le Soleil" },
+      { "q": "Quel animal est le plus rapide : le guépard ou la tortue ?", "a": "Le guépard" },
+      { "q": "Quel objet est le plus lourd : une plume ou une enclume ?", "a": "Une enclume" },
+      { "q": "Quel fruit est le plus gros : la pastèque ou la cerise ?", "a": "La pastèque" },
+      { "q": "Quel animal vit le plus longtemps : la tortue géante ou la souris ?", "a": "La tortue géante" },
+      { "q": "Quelle saison est la plus froide en France : l'hiver ou l'été ?", "a": "L'hiver" },
+      { "q": "Quel pays est le plus grand : la Russie ou la Belgique ?", "a": "La Russie" },
+      { "q": "Quel véhicule est le plus rapide : la voiture de course ou le vélo ?", "a": "La voiture de course" },
+      { "q": "Quel animal est le plus haut : la girafe ou le chat ?", "a": "La girafe" }
     ],
     "2": [
-      {
-        "q": "Qui a vécu le plus longtemps : Victor Hugo ou Napoléon Bonaparte ?",
-        "a": "Victor Hugo"
-      },
-      {
-        "q": "Quel pays est plus vaste : la Chine ou le Canada ?",
-        "a": "Le Canada"
-      },
-      {
-        "q": "Qui est plus lourd : un kilo de plumes ou un kilo de plomb ?",
-        "a": "C’est égal (1 kilo)"
-      },
-      {
-        "q": "Quel continent compte le plus de pays : l’Afrique ou l’Europe ?",
-        "a": "L’Afrique"
-      },
-      {
-        "q": "Qui a régné le plus longtemps : Louis XIV ou Napoléon Ier ?",
-        "a": "Louis XIV"
-      }
+      { "q": "Quelle ville est plus peuplée : Paris ou Berlin ?", "a": "Berlin" },
+      { "q": "Quel océan est le plus grand : Pacifique ou Arctique ?", "a": "Le Pacifique" },
+      { "q": "Quel pays a le plus d'habitants : la France ou le Luxembourg ?", "a": "La France" },
+      { "q": "Quelle tour est plus haute : la Tour Eiffel ou la Tour de Pise ?", "a": "La Tour Eiffel" },
+      { "q": "Quel continent est le plus grand : l'Asie ou l'Europe ?", "a": "L'Asie" },
+      { "q": "Quel animal est le plus gros : la baleine bleue ou le requin blanc ?", "a": "La baleine bleue" },
+      { "q": "Quel sport se joue avec le plus de joueurs sur le terrain : le football ou le tennis ?", "a": "Le football" },
+      { "q": "Quel pays est le plus au nord : la Norvège ou l'Espagne ?", "a": "La Norvège" },
+      { "q": "Quelle planète est la plus proche du Soleil : Mercure ou la Terre ?", "a": "Mercure" },
+      { "q": "Quel fleuve est le plus long en France : la Loire ou la Seine ?", "a": "La Loire" }
     ],
     "3": [
-      {
-        "q": "Quel est le plus haut sommet : l’Everest ou le Mont Blanc ?",
-        "a": "L’Everest"
-      },
-      {
-        "q": "Quel pays a la plus grande population : Inde ou Chine ?",
-        "a": "L’Inde (depuis 2023)"
-      },
-      {
-        "q": "Qui a écrit le plus de pièces de théâtre : Molière ou Racine ?",
-        "a": "Molière"
-      },
-      {
-        "q": "Quel sport attire le plus de spectateurs mondiaux : le football ou le cricket ?",
-        "a": "Le football"
-      },
-      {
-        "q": "Quel fruit contient le plus de vitamine C : l’orange ou le kiwi ?",
-        "a": "Le kiwi"
-      }
+      { "q": "Quelle ville est plus peuplée : Tokyo ou Pékin ?", "a": "Tokyo" },
+      { "q": "Quelle montagne est plus haute : le Mont-Blanc ou le Mont Cervin ?", "a": "Le Mont-Blanc" },
+      { "q": "Quel pays est plus grand en superficie : le Brésil ou l'Argentine ?", "a": "Le Brésil" },
+      { "q": "Quel monument est le plus ancien : la Tour Eiffel ou le Colisée de Rome ?", "a": "Le Colisée de Rome" },
+      { "q": "Quelle planète est plus grande : Jupiter ou Mars ?", "a": "Jupiter" },
+      { "q": "Quel mammifère marin est le plus rapide : l'orque ou le dauphin commun ?", "a": "L'orque" },
+      { "q": "Quel pays compte plus d'habitants : l'Allemagne ou l'Italie ?", "a": "L'Allemagne" },
+      { "q": "Quel désert est le plus grand : le Sahara ou le désert de Gobi ?", "a": "Le Sahara" },
+      { "q": "Quel sport est le plus pratiqué dans le monde : le football ou le rugby ?", "a": "Le football" },
+      { "q": "Quel animal a la plus grande longévité : la baleine boréale ou le chien ?", "a": "La baleine boréale" }
     ],
     "4": [
-      {
-        "q": "Qui est mort le plus tôt : Mozart ou Beethoven ?",
-        "a": "Mozart (35 ans)"
-      },
-      {
-        "q": "Quel pays est le plus peuplé d’Afrique : Nigeria ou Égypte ?",
-        "a": "Le Nigeria"
-      },
-      {
-        "q": "Qui a découvert l’Amérique en premier : Christophe Colomb ou Leif Erikson ?",
-        "a": "Leif Erikson"
-      },
-      {
-        "q": "Qui est plus vieux : la Tour Eiffel ou la Statue de la Liberté ?",
-        "a": "La Statue de la Liberté"
-      },
-      {
-        "q": "Qui a peint le plus de tableaux : Picasso ou Van Gogh ?",
-        "a": "Picasso"
-      }
+      { "q": "Quel pays a la plus grande superficie : la Russie ou le Canada ?", "a": "La Russie" },
+      { "q": "Quel pays est plus peuplé : les États-Unis ou le Mexique ?", "a": "Les États-Unis" },
+      { "q": "Quel fleuve est le plus long en Europe : la Volga ou le Danube ?", "a": "La Volga" },
+      { "q": "Quel lac est plus grand : le lac Léman ou le lac de Garde ?", "a": "Le lac Léman" },
+      { "q": "Quelle ville est plus peuplée : Madrid ou Barcelone ?", "a": "Madrid" },
+      { "q": "Quel animal court plus vite : le lévrier ou le cheval de course ?", "a": "Le lévrier" },
+      { "q": "Quel pays a remporté plus de Coupes du monde de football : le Brésil ou l'Allemagne ?", "a": "Le Brésil" },
+      { "q": "Quel monument est plus haut : la Statue de la Liberté ou le Christ Rédempteur de Rio ?", "a": "La Statue de la Liberté" },
+      { "q": "Quel écrivain a vécu le plus tôt : Victor Hugo ou Albert Camus ?", "a": "Victor Hugo" },
+      { "q": "Quelle île est plus grande : la Sicile ou la Corse ?", "a": "La Sicile" }
     ],
     "5": [
-      {
-        "q": "Quel roman est plus ancien : L’Iliade ou Don Quichotte ?",
-        "a": "L’Iliade"
-      },
-      {
-        "q": "Quel pays est plus vaste : Russie ou États-Unis ?",
-        "a": "La Russie"
-      },
-      {
-        "q": "Qui est né en premier : Albert Einstein ou Isaac Newton ?",
-        "a": "Isaac Newton"
-      },
-      {
-        "q": "Quelle ville est plus ancienne : Rome ou Paris ?",
-        "a": "Rome"
-      },
-      {
-        "q": "Qui a écrit le plus de symphonies : Mozart ou Beethoven ?",
-        "a": "Haydn (plus que les deux), mais entre Mozart et Beethoven : Mozart"
-      }
+      { "q": "Quel fleuve est le plus long : le Nil ou l'Amazone ?", "a": "L'Amazone" },
+      { "q": "Quelle œuvre est plus ancienne : l'Iliade d'Homère ou Don Quichotte de Cervantès ?", "a": "L'Iliade" },
+      { "q": "Quel pays a remporté plus de médailles d'or aux JO d'été (historique) : la France ou l'Italie ?", "a": "L'Italie" },
+      { "q": "Quel pic est plus élevé : l'Aconcagua ou le Kilimandjaro ?", "a": "L'Aconcagua" },
+      { "q": "Quel pays a plus d'habitants : la Turquie ou l'Iran ?", "a": "La Turquie" },
+      { "q": "Quel compositeur est né le plus tôt : Mozart ou Beethoven ?", "a": "Mozart" },
+      { "q": "Quelle ville est plus peuplée : Le Caire ou Lagos ?", "a": "Lagos" },
+      { "q": "Quel océan est plus vaste : l'océan Indien ou l'océan Atlantique ?", "a": "L'océan Atlantique" },
+      { "q": "Quel pays a une plus grande population : la Pologne ou les Pays-Bas ?", "a": "La Pologne" },
+      { "q": "Quel président français a gouverné plus longtemps : Charles de Gaulle ou Georges Pompidou ?", "a": "Charles de Gaulle" }
     ],
     "6": [
-      {
-        "q": "Qui a gagné le plus de Coupes du Monde de football : Brésil ou Allemagne ?",
-        "a": "Brésil"
-      },
-      {
-        "q": "Qui a eu le mandat le plus long : Angela Merkel ou Emmanuel Macron ?",
-        "a": "Angela Merkel"
-      },
-      {
-        "q": "Qui a régné plus longtemps : Élisabeth II ou Victoria ?",
-        "a": "Élisabeth II"
-      },
-      {
-        "q": "Quel océan est le plus profond : Atlantique ou Pacifique ?",
-        "a": "Le Pacifique"
-      },
-      {
-        "q": "Qui est plus grand : Tour Eiffel ou Empire State Building ?",
-        "a": "Empire State Building"
-      }
+      { "q": "Quel animal terrestre est le plus rapide sur longue distance : l'antilope pronghorn ou le cheval ?", "a": "L'antilope pronghorn" },
+      { "q": "Quelle œuvre est plus ancienne : l'Odyssée d'Homère ou l'Énéide de Virgile ?", "a": "L'Odyssée" },
+      { "q": "Quel pays compte plus d'îles : l'Indonésie ou les Philippines ?", "a": "L'Indonésie" },
+      { "q": "Quelle capitale est située plus au nord : Helsinki ou Stockholm ?", "a": "Helsinki" },
+      { "q": "Quel sommet est plus élevé : le K2 ou le Kangchenjunga ?", "a": "Le K2" },
+      { "q": "Quel peintre est né le plus tôt : Léonard de Vinci ou Michel-Ange ?", "a": "Léonard de Vinci" },
+      { "q": "Quelle ville a accueilli les JO d'été le plus tôt : Athènes (1896) ou Paris (1900) ?", "a": "Athènes" },
+      { "q": "Quelle mer est plus grande : la mer Méditerranée ou la mer des Caraïbes ?", "a": "La mer Méditerranée" },
+      { "q": "Quel pays est plus grand en superficie : le Kazakhstan ou l'Argentine ?", "a": "Le Kazakhstan" },
+      { "q": "Quel philosophe est né le plus tôt : Platon ou Aristote ?", "a": "Platon" }
     ],
     "7": [
-      {
-        "q": "Quel pays produit le plus de vin : Italie ou France ?",
-        "a": "Italie"
-      },
-      {
-        "q": "Qui est plus vieux : Google ou Facebook ?",
-        "a": "Google"
-      },
-      {
-        "q": "Qui est plus ancien : le téléphone ou l’ampoule électrique ?",
-        "a": "Le téléphone"
-      },
-      {
-        "q": "Quel est le plus grand désert : Sahara ou Gobi ?",
-        "a": "Sahara"
-      },
-      {
-        "q": "Qui est plus rapide : avion Concorde ou TGV ?",
-        "a": "Concorde"
-      }
+      { "q": "Quel félin est plus rapide en pointe : le guépard ou le lion ?", "a": "Le guépard" },
+      { "q": "Quel pays produit plus de vin (production annuelle récente) : la France ou l'Italie ?", "a": "L'Italie" },
+      { "q": "Quel pont est plus long : le Golden Gate ou le pont de Brooklyn ?", "a": "Le Golden Gate" },
+      { "q": "Quelle bataille est antérieure : Marignan ou Austerlitz ?", "a": "Marignan" },
+      { "q": "Quel monument est plus haut : la Tour Eiffel ou la Tokyo Tower ?", "a": "La Tokyo Tower" },
+      { "q": "Quel pays a remporté plus de Tours de France : la France ou la Belgique ?", "a": "La France" },
+      { "q": "Quel pic est plus élevé : le Denali (Alaska) ou le Mont Logan (Canada) ?", "a": "Le Denali" },
+      { "q": "Quelle île est plus grande : Madagascar ou Bornéo ?", "a": "Bornéo" },
+      { "q": "Quel pays a plus de frontières terrestres : la Chine ou la Russie ?", "a": "La Chine" },
+      { "q": "Quel poète est né le plus tôt : Baudelaire ou Rimbaud ?", "a": "Baudelaire" }
     ],
     "8": [
-      {
-        "q": "Quel écrivain a vendu le plus de livres : J.K. Rowling ou J.R.R. Tolkien ?",
-        "a": "J.K. Rowling"
-      },
-      {
-        "q": "Qui a été président le premier : Barack Obama ou Donald Trump ?",
-        "a": "Barack Obama"
-      },
-      {
-        "q": "Quel pays a le plus de volcans : Indonésie ou Islande ?",
-        "a": "Indonésie"
-      },
-      {
-        "q": "Qui a gagné le plus de Tour de France : Bernard Hinault ou Eddy Merckx ?",
-        "a": "Eddy Merckx"
-      },
-      {
-        "q": "Quelle ville a le plus d’habitants : Tokyo ou New York ?",
-        "a": "Tokyo"
-      }
+      { "q": "Quel océan est le plus profond : le Pacifique ou l'Atlantique ?", "a": "Le Pacifique" },
+      { "q": "Quel pays est plus peuplé en 2024 : la Chine ou l'Inde ?", "a": "L'Inde" },
+      { "q": "Quel barrage produit plus d'électricité : le barrage des Trois-Gorges ou Itaipu ?", "a": "Le barrage des Trois-Gorges" },
+      { "q": "Quelle planète a plus de lunes connues : Saturne ou Jupiter ?", "a": "Saturne" },
+      { "q": "Quel volcan est plus haut : l'Etna ou le Vésuve ?", "a": "L'Etna" },
+      { "q": "Quel record du monde du 100 m est plus ancien : celui d'Usain Bolt (2009) ou celui d'Asafa Powell (2007) ?", "a": "Celui d'Asafa Powell" },
+      { "q": "Quel auteur est né le plus tôt : Molière ou Shakespeare ?", "a": "Shakespeare" },
+      { "q": "Quel désert est plus chaud en moyenne : le Sahara ou la Vallée de la Mort ?", "a": "Le Sahara" },
+      { "q": "Quel pays a la plus longue côte au monde : le Canada ou la Norvège ?", "a": "Le Canada" },
+      { "q": "Quelle université française est plus ancienne : la Sorbonne ou Montpellier ?", "a": "La Sorbonne" }
     ],
     "9": [
-      {
-        "q": "Qui a écrit le plus de pièces : Shakespeare ou Molière ?",
-        "a": "Shakespeare"
-      },
-      {
-        "q": "Qui est plus vieux : le Big Bang (théorie scientifique) ou la Terre ?",
-        "a": "Le Big Bang"
-      },
-      {
-        "q": "Quelle guerre a duré le plus longtemps : Guerre de Cent Ans ou Première Guerre mondiale ?",
-        "a": "La Guerre de Cent Ans"
-      },
-      {
-        "q": "Qui a été inventé en premier : l’imprimerie ou la boussole ?",
-        "a": "La boussole"
-      },
-      {
-        "q": "Quel peintre a produit le plus d’œuvres : Picasso ou Monet ?",
-        "a": "Picasso"
-      }
+      { "q": "Quelle ville est plus peuplée en aire urbaine : Mexico ou São Paulo ?", "a": "São Paulo" },
+      { "q": "Quel sommet est le plus élevé d'Europe (hors Caucase) : le Mont-Blanc ou l'Elbrouz ?", "a": "L'Elbrouz" },
+      { "q": "Quelle cathédrale est plus ancienne : Notre-Dame de Paris ou la cathédrale de Chartres ?", "a": "Notre-Dame de Paris" },
+      { "q": "Quel pays a plus de prix Nobel de littérature (historique) : la France ou les États-Unis ?", "a": "La France" },
+      { "q": "Quelle dynastie chinoise est plus ancienne : la dynastie Han ou la dynastie Tang ?", "a": "La dynastie Han" },
+      { "q": "Quel grand lac africain est plus profond : le lac Tanganyika ou le lac Malawi ?", "a": "Le lac Tanganyika" },
+      { "q": "Quel pays compte plus de langues officielles : l'Inde ou l'Afrique du Sud ?", "a": "L'Inde" },
+      { "q": "Quelle œuvre architecturale est plus ancienne : la Grande Muraille de Chine ou les pyramides de Gizeh ?", "a": "Les pyramides de Gizeh" },
+      { "q": "Quel mathématicien est né le plus tôt : Euler ou Gauss ?", "a": "Euler" },
+      { "q": "Quel fleuve a le plus grand débit moyen : l'Amazone ou le Congo ?", "a": "L'Amazone" }
     ],
     "10": [
-      {
-        "q": "Quel empire a duré le plus longtemps : Empire romain d’Occident ou Empire byzantin ?",
-        "a": "Empire byzantin"
-      },
-      {
-        "q": "Qui a vécu le plus vieux : Jeanne Calment ou Michelangelo ?",
-        "a": "Jeanne Calment"
-      },
-      {
-        "q": "Quel est le plus vieux texte écrit : l’Épopée de Gilgamesh ou la Bible ?",
-        "a": "L’Épopée de Gilgamesh"
-      },
-      {
-        "q": "Qui a existé le premier : les dinosaures ou les premiers mammifères ?",
-        "a": "Les dinosaures"
-      },
-      {
-        "q": "Quelle est la plus ancienne université : Bologne ou Oxford ?",
-        "a": "Bologne"
-      }
+      { "q": "Quelle université est la plus ancienne : Bologne ou Oxford ?", "a": "Bologne" },
+      { "q": "Quel monarque français a régné le plus longtemps : Louis XIV ou Louis XV ?", "a": "Louis XIV" },
+      { "q": "Quelle civilisation antique est apparue le plus tôt : Sumer ou l'Égypte ancienne ?", "a": "Sumer" },
+      { "q": "Quel pic est plus élevé : le Lhotse ou le Makalu ?", "a": "Le Lhotse" },
+      { "q": "Quelle ville est plus peuplée en aire urbaine : Delhi ou Shanghai ?", "a": "Delhi" },
+      { "q": "Quel traité est plus ancien : le traité de Westphalie ou le traité d'Utrecht ?", "a": "Le traité de Westphalie" },
+      { "q": "Quelle bibliothèque antique est plus ancienne : celle d'Alexandrie ou celle de Pergame ?", "a": "Celle d'Alexandrie" },
+      { "q": "Quel compositeur baroque est né le plus tôt : Jean-Sébastien Bach ou Georg Friedrich Haendel ?", "a": "Georg Friedrich Haendel" },
+      { "q": "Quel pays a obtenu son indépendance le plus tôt : Haïti ou la Belgique ?", "a": "Haïti" },
+      { "q": "Quelle pièce de Shakespeare a été écrite le plus tôt : Hamlet ou Macbeth ?", "a": "Hamlet" }
     ]
   }
 }

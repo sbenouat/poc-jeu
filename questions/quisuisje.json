@@ -3,220 +3,124 @@
   "name": "Qui suis-je ?",
   "questions": {
     "1": [
-      {
-        "q": "Je suis un fruit jaune et courbé. Qui suis-je ?",
-        "a": "La banane"
-      },
-      {
-        "q": "Je suis un animal qui dit « meuh ». Qui suis-je ?",
-        "a": "La vache"
-      },
-      {
-        "q": "Je suis la capitale de la France. Qui suis-je ?",
-        "a": "Paris"
-      },
-      {
-        "q": "Je suis le sorcier avec une cicatrice en forme d'éclair. Qui suis-je ?",
-        "a": "Harry Potter"
-      },
-      {
-        "q": "Je suis une planète rouge. Qui suis-je ?",
-        "a": "Mars"
-      }
+      { "q": "Je suis un fruit jaune et courbé, à la peau facile à éplucher, que les singes adorent. Qui suis-je ?", "a": "La banane" },
+      { "q": "Je suis un animal domestique qui aboie et qu'on appelle le meilleur ami de l'homme. Qui suis-je ?", "a": "Le chien" },
+      { "q": "Je suis un astre qui éclaire la Terre pendant la journée et fait pousser les plantes. Qui suis-je ?", "a": "Le Soleil" },
+      { "q": "Je suis un animal jaune et noir qui fabrique du miel et vit en ruche. Qui suis-je ?", "a": "L'abeille" },
+      { "q": "Je suis blanche, froide, et je tombe du ciel en hiver pour recouvrir le sol. Qui suis-je ?", "a": "La neige" },
+      { "q": "Je suis un fruit rouge ou vert qu'Isaac Newton aurait vu tomber d'un arbre. Qui suis-je ?", "a": "La pomme" },
+      { "q": "Je suis un grand mammifère gris d'Afrique ou d'Asie, à trompe et longues défenses d'ivoire. Qui suis-je ?", "a": "L'éléphant" },
+      { "q": "Je suis un véhicule à deux roues, sans moteur, que l'on fait avancer en pédalant avec ses pieds. Qui suis-je ?", "a": "Le vélo" },
+      { "q": "Je suis surnommé le roi des animaux, j'ai une grande crinière dorée et je rugis très fort. Qui suis-je ?", "a": "Le lion" },
+      { "q": "Je suis un objet rond accroché au mur, avec deux aiguilles qui tournent pour indiquer l'heure. Qui suis-je ?", "a": "L'horloge" }
     ],
     "2": [
-      {
-        "q": "Je suis le président actuel de la France (2023). Qui suis-je ?",
-        "a": "Emmanuel Macron"
-      },
-      {
-        "q": "Je suis le meilleur ami de Batman. Qui suis-je ?",
-        "a": "Robin"
-      },
-      {
-        "q": "Je suis le héros qui a vaincu Voldemort. Qui suis-je ?",
-        "a": "Harry Potter"
-      },
-      {
-        "q": "Je suis le frère de Luigi. Qui suis-je ?",
-        "a": "Mario"
-      },
-      {
-        "q": "Je suis un géant vert qui crie « Hulk Smash ! ». Qui suis-je ?",
-        "a": "Hulk"
-      }
+      { "q": "Je suis une tour métallique construite à Paris pour l'Exposition universelle de 1889. Qui suis-je ?", "a": "La tour Eiffel" },
+      { "q": "Je suis un dessert italien glacé, parfumé à la vanille, au chocolat ou à la fraise. Qui suis-je ?", "a": "La glace" },
+      { "q": "Je suis un animal marin à huit tentacules qui peut changer de couleur. Qui suis-je ?", "a": "La pieuvre" },
+      { "q": "Je suis un instrument à cordes que l'on tient sous le menton et que l'on joue avec un archet. Qui suis-je ?", "a": "Le violon" },
+      { "q": "Je suis le plus haut sommet du monde, dans l'Himalaya, à la frontière entre le Népal et la Chine. Qui suis-je ?", "a": "L'Everest" },
+      { "q": "Je suis un animal rayé noir et blanc qui ressemble à un cheval et vit en Afrique. Qui suis-je ?", "a": "Le zèbre" },
+      { "q": "Je suis un sport collectif qui se joue avec un ballon rond et où l'on marque des buts. Qui suis-je ?", "a": "Le football" },
+      { "q": "Je suis une boisson chaude noire que l'on boit au petit-déjeuner pour se réveiller. Qui suis-je ?", "a": "Le café" },
+      { "q": "Je suis un instrument noir et blanc à 88 touches sur lequel on joue de la musique. Qui suis-je ?", "a": "Le piano" },
+      { "q": "Je suis un grand poisson redouté avec de nombreuses dents acérées et un aileron dorsal. Qui suis-je ?", "a": "Le requin" }
     ],
     "3": [
-      {
-        "q": "Je suis l'homme qui a marché sur la Lune en 1969. Qui suis-je ?",
-        "a": "Neil Armstrong"
-      },
-      {
-        "q": "Je suis un célèbre roi de France, surnommé le Roi-Soleil. Qui suis-je ?",
-        "a": "Louis XIV"
-      },
-      {
-        "q": "Je suis l'auteur de « Les Misérables ». Qui suis-je ?",
-        "a": "Victor Hugo"
-      },
-      {
-        "q": "Je suis un empereur français, célèbre pour Waterloo. Qui suis-je ?",
-        "a": "Napoléon Bonaparte"
-      },
-      {
-        "q": "Je suis un scientifique qui a proposé la relativité. Qui suis-je ?",
-        "a": "Albert Einstein"
-      }
+      { "q": "Je suis une souris noire en short rouge créée par Walt Disney en 1928. Qui suis-je ?", "a": "Mickey Mouse" },
+      { "q": "Je suis un fleuve qui traverse Paris et sépare la rive droite de la rive gauche. Qui suis-je ?", "a": "La Seine" },
+      { "q": "Je suis un peintre néerlandais célèbre pour mes tournesols et mon oreille coupée. Qui suis-je ?", "a": "Vincent van Gogh" },
+      { "q": "Je suis le plus grand océan du monde, situé entre l'Asie et l'Amérique. Qui suis-je ?", "a": "L'océan Pacifique" },
+      { "q": "Je suis un personnage de bande dessinée belge, jeune reporter accompagné de mon chien Milou. Qui suis-je ?", "a": "Tintin" },
+      { "q": "Je suis le plus long fleuve d'Afrique, traversant l'Égypte avant de se jeter en Méditerranée. Qui suis-je ?", "a": "Le Nil" },
+      { "q": "Je suis un peintre français impressionniste connu pour mes nymphéas et mon jardin de Giverny. Qui suis-je ?", "a": "Claude Monet" },
+      { "q": "Je suis une statue verte tenant une torche, offerte par la France aux États-Unis. Qui suis-je ?", "a": "La statue de la Liberté" },
+      { "q": "Je suis le plus petit pays du monde, enclavé dans Rome, siège du pape. Qui suis-je ?", "a": "Le Vatican" },
+      { "q": "Je suis un instrument astronomique qui permet d'observer les étoiles et les planètes lointaines. Qui suis-je ?", "a": "Le télescope" }
     ],
     "4": [
-      {
-        "q": "Je suis un film de James Cameron sorti en 1997. Qui suis-je ?",
-        "a": "Titanic"
-      },
-      {
-        "q": "Je suis le dieu de la foudre dans la mythologie nordique. Qui suis-je ?",
-        "a": "Thor"
-      },
-      {
-        "q": "Je suis un détective londonien créé par Arthur Conan Doyle. Qui suis-je ?",
-        "a": "Sherlock Holmes"
-      },
-      {
-        "q": "Je suis le chanteur de « Thriller ». Qui suis-je ?",
-        "a": "Michael Jackson"
-      },
-      {
-        "q": "Je suis le premier président noir des États-Unis. Qui suis-je ?",
-        "a": "Barack Obama"
-      }
+      { "q": "Je suis un peintre espagnol cubiste, auteur de Guernica et des Demoiselles d'Avignon. Qui suis-je ?", "a": "Pablo Picasso" },
+      { "q": "Je suis un physicien allemand à la chevelure blanche, auteur de la théorie de la relativité. Qui suis-je ?", "a": "Albert Einstein" },
+      { "q": "Je suis un monument antique en forme d'arène à Rome, où combattaient les gladiateurs. Qui suis-je ?", "a": "Le Colisée" },
+      { "q": "Je suis le plus grand désert chaud du monde, situé en Afrique du Nord. Qui suis-je ?", "a": "Le Sahara" },
+      { "q": "Je suis un compositeur autrichien prodige, mort à 35 ans, auteur de La Flûte enchantée. Qui suis-je ?", "a": "Mozart" },
+      { "q": "Je suis un tableau peint par Léonard de Vinci représentant une femme au sourire énigmatique. Qui suis-je ?", "a": "La Joconde" },
+      { "q": "Je suis le plus haut sommet d'Afrique, un volcan situé en Tanzanie. Qui suis-je ?", "a": "Le Kilimandjaro" },
+      { "q": "Je suis un écrivain français du XIXe siècle, auteur des Misérables et de Notre-Dame de Paris. Qui suis-je ?", "a": "Victor Hugo" },
+      { "q": "Je suis un château de la Loire à 365 cheminées, attribué partiellement à Léonard de Vinci. Qui suis-je ?", "a": "Chambord" },
+      { "q": "Je suis un musée parisien célèbre abritant la Joconde et la Vénus de Milo. Qui suis-je ?", "a": "Le Louvre" }
     ],
     "5": [
-      {
-        "q": "Je suis une scientifique franco-polonaise, deux fois prix Nobel. Qui suis-je ?",
-        "a": "Marie Curie"
-      },
-      {
-        "q": "Je suis le célèbre peintre de la Joconde. Qui suis-je ?",
-        "a": "Léonard de Vinci"
-      },
-      {
-        "q": "Je suis le créateur d'Apple. Qui suis-je ?",
-        "a": "Steve Jobs"
-      },
-      {
-        "q": "Je suis le créateur de Facebook. Qui suis-je ?",
-        "a": "Mark Zuckerberg"
-      },
-      {
-        "q": "Je suis le créateur du Seigneur des Anneaux. Qui suis-je ?",
-        "a": "J.R.R. Tolkien"
-      }
+      { "q": "Je suis une scientifique polonaise naturalisée française, deux fois prix Nobel pour mes travaux sur la radioactivité. Qui suis-je ?", "a": "Marie Curie" },
+      { "q": "Je suis une chaîne de montagnes qui traverse l'Amérique du Sud sur plus de 7000 kilomètres. Qui suis-je ?", "a": "La cordillère des Andes" },
+      { "q": "Je suis un explorateur génois qui a atteint l'Amérique en 1492 pour le compte de l'Espagne. Qui suis-je ?", "a": "Christophe Colomb" },
+      { "q": "Je suis un philosophe grec antique, élève de Platon et précepteur d'Alexandre le Grand. Qui suis-je ?", "a": "Aristote" },
+      { "q": "Je suis un archipel volcanique du Pacifique étudié par Darwin pour ses espèces uniques. Qui suis-je ?", "a": "Les Galápagos" },
+      { "q": "Je suis un compositeur allemand devenu sourd, auteur de neuf symphonies dont l'Hymne à la joie. Qui suis-je ?", "a": "Beethoven" },
+      { "q": "Je suis un temple grec antique situé sur l'Acropole d'Athènes, dédié à la déesse Athéna. Qui suis-je ?", "a": "Le Parthénon" },
+      { "q": "Je suis un écrivain britannique du XIXe siècle, auteur d'Oliver Twist et de David Copperfield. Qui suis-je ?", "a": "Charles Dickens" },
+      { "q": "Je suis un fleuve qui traverse Londres et qui se jette dans la mer du Nord. Qui suis-je ?", "a": "La Tamise" },
+      { "q": "Je suis un dictateur soviétique qui a succédé à Lénine et dirigé l'URSS jusqu'en 1953. Qui suis-je ?", "a": "Staline" }
     ],
     "6": [
-      {
-        "q": "Je suis un dictateur allemand pendant la Seconde Guerre mondiale. Qui suis-je ?",
-        "a": "Adolf Hitler"
-      },
-      {
-        "q": "Je suis la ville détruite par un volcan en 79 après J.-C. Qui suis-je ?",
-        "a": "Pompéi"
-      },
-      {
-        "q": "Je suis un écrivain britannique, créateur de Sherlock Holmes. Qui suis-je ?",
-        "a": "Arthur Conan Doyle"
-      },
-      {
-        "q": "Je suis une reine d'Égypte, connue pour ma beauté. Qui suis-je ?",
-        "a": "Cléopâtre"
-      },
-      {
-        "q": "Je suis le créateur de Microsoft. Qui suis-je ?",
-        "a": "Bill Gates"
-      }
+      { "q": "Je suis un romancier russe du XIXe siècle, auteur de Guerre et Paix et d'Anna Karénine. Qui suis-je ?", "a": "Tolstoï" },
+      { "q": "Je suis un canal artificiel d'Amérique centrale ouvert en 1914, reliant l'Atlantique au Pacifique. Qui suis-je ?", "a": "Le canal de Panama" },
+      { "q": "Je suis une reine d'Égypte de la dynastie ptolémaïque, célèbre pour ses liaisons avec César et Marc Antoine. Qui suis-je ?", "a": "Cléopâtre" },
+      { "q": "Je suis un poète français du XIXe siècle, auteur des Fleurs du mal, condamné pour outrage à la morale publique. Qui suis-je ?", "a": "Baudelaire" },
+      { "q": "Je suis une cité inca perchée dans les Andes péruviennes, redécouverte en 1911 par Hiram Bingham. Qui suis-je ?", "a": "Le Machu Picchu" },
+      { "q": "Je suis un astronome polonais du XVIe siècle qui a placé le Soleil au centre du système solaire. Qui suis-je ?", "a": "Copernic" },
+      { "q": "Je suis un peintre néerlandais du Siècle d'or, auteur de La Ronde de nuit. Qui suis-je ?", "a": "Rembrandt" },
+      { "q": "Je suis le plus grand temple religieux du monde, situé au Cambodge et construit au XIIe siècle. Qui suis-je ?", "a": "Angkor Vat" },
+      { "q": "Je suis un compositeur allemand baroque, auteur des Variations Goldberg et de la Messe en si mineur. Qui suis-je ?", "a": "Jean-Sébastien Bach" },
+      { "q": "Je suis un mausolée de marbre blanc construit par un empereur moghol pour son épouse défunte en Inde. Qui suis-je ?", "a": "Le Taj Mahal" }
     ],
     "7": [
-      {
-        "q": "Je suis un dictateur soviétique du XXe siècle. Qui suis-je ?",
-        "a": "Joseph Staline"
-      },
-      {
-        "q": "Je suis une aventurière de jeu vidéo, archéologue. Qui suis-je ?",
-        "a": "Lara Croft"
-      },
-      {
-        "q": "Je suis le plus célèbre vampire de la littérature. Qui suis-je ?",
-        "a": "Dracula"
-      },
-      {
-        "q": "Je suis le premier homme à voyager dans l'espace. Qui suis-je ?",
-        "a": "Youri Gagarine"
-      },
-      {
-        "q": "Je suis l'auteur de Harry Potter. Qui suis-je ?",
-        "a": "J.K. Rowling"
-      }
+      { "q": "Je suis un écrivain colombien, prix Nobel de littérature, auteur de Cent ans de solitude. Qui suis-je ?", "a": "Gabriel García Márquez" },
+      { "q": "Je suis un général carthaginois qui a traversé les Alpes avec des éléphants pour combattre Rome. Qui suis-je ?", "a": "Hannibal" },
+      { "q": "Je suis un palais russe somptueux situé près de Saint-Pétersbourg, surnommé le Versailles russe. Qui suis-je ?", "a": "Peterhof" },
+      { "q": "Je suis un dramaturge norvégien du XIXe siècle, auteur de Peer Gynt et de Maison de poupée. Qui suis-je ?", "a": "Henrik Ibsen" },
+      { "q": "Je suis un philosophe allemand du XIXe siècle qui a proclamé la mort de Dieu et théorisé le surhomme. Qui suis-je ?", "a": "Nietzsche" },
+      { "q": "Je suis une cité antique nabatéenne taillée dans la roche rose, située en Jordanie. Qui suis-je ?", "a": "Pétra" },
+      { "q": "Je suis un explorateur portugais qui a contourné l'Afrique pour atteindre l'Inde en 1498. Qui suis-je ?", "a": "Vasco de Gama" },
+      { "q": "Je suis une romancière britannique du XIXe siècle, auteure d'Orgueil et Préjugés et d'Emma. Qui suis-je ?", "a": "Jane Austen" },
+      { "q": "Je suis un archipel norvégien situé dans l'Arctique, abritant le grenier mondial des semences. Qui suis-je ?", "a": "Le Svalbard" },
+      { "q": "Je suis un peintre flamand de la Renaissance, auteur du Jardin des délices conservé au Prado. Qui suis-je ?", "a": "Jérôme Bosch" }
     ],
     "8": [
-      {
-        "q": "Je suis un roi macédonien qui a conquis la moitié du monde connu. Qui suis-je ?",
-        "a": "Alexandre le Grand"
-      },
-      {
-        "q": "Je suis un dictateur italien allié de Hitler. Qui suis-je ?",
-        "a": "Benito Mussolini"
-      },
-      {
-        "q": "Je suis une princesse Disney qui perd sa pantoufle. Qui suis-je ?",
-        "a": "Cendrillon"
-      },
-      {
-        "q": "Je suis une déesse grecque de la sagesse. Qui suis-je ?",
-        "a": "Athéna"
-      },
-      {
-        "q": "Je suis un leader sud-africain ayant lutté contre l'apartheid. Qui suis-je ?",
-        "a": "Nelson Mandela"
-      }
+      { "q": "Je suis un fleuve qui se jette dans le golfe du Bengale après avoir traversé le nord de l'Inde. Qui suis-je ?", "a": "Le Gange" },
+      { "q": "Je suis un mathématicien suisse du XVIIIe siècle, considéré comme l'un des plus prolifiques de l'histoire. Qui suis-je ?", "a": "Leonhard Euler" },
+      { "q": "Je suis un poète portugais du XVIe siècle, auteur des Lusiades, épopée nationale du Portugal. Qui suis-je ?", "a": "Camões" },
+      { "q": "Je suis une mer intérieure d'Asie centrale presque asséchée par l'irrigation soviétique. Qui suis-je ?", "a": "La mer d'Aral" },
+      { "q": "Je suis un compositeur russe du XXe siècle, auteur du Sacre du printemps qui fit scandale en 1913. Qui suis-je ?", "a": "Stravinsky" },
+      { "q": "Je suis un édifice religieux byzantin d'Istanbul, devenu mosquée puis musée puis à nouveau mosquée. Qui suis-je ?", "a": "Sainte-Sophie" },
+      { "q": "Je suis un physicien danois du XXe siècle, prix Nobel pour mon modèle atomique de 1913. Qui suis-je ?", "a": "Niels Bohr" },
+      { "q": "Je suis un romancier japonais contemporain, auteur de Kafka sur le rivage et de 1Q84. Qui suis-je ?", "a": "Haruki Murakami" },
+      { "q": "Je suis un lac d'Asie situé en Sibérie, le plus profond du monde et le plus ancien. Qui suis-je ?", "a": "Le lac Baïkal" },
+      { "q": "Je suis un peintre autrichien symboliste du début du XXe siècle, auteur du Baiser. Qui suis-je ?", "a": "Gustav Klimt" }
     ],
     "9": [
-      {
-        "q": "Je suis un roi des Huns, redouté dans l'Antiquité. Qui suis-je ?",
-        "a": "Attila"
-      },
-      {
-        "q": "Je suis un pharaon dont le tombeau fut découvert en 1922. Qui suis-je ?",
-        "a": "Toutânkhamon"
-      },
-      {
-        "q": "Je suis un philosophe grec, maître de Platon. Qui suis-je ?",
-        "a": "Socrate"
-      },
-      {
-        "q": "Je suis un héros grec qui a combattu à Troie. Qui suis-je ?",
-        "a": "Achille"
-      },
-      {
-        "q": "Je suis le fondateur de l'Empire mongol. Qui suis-je ?",
-        "a": "Gengis Khan"
-      }
+      { "q": "Je suis une reine-pharaon de la XVIIIe dynastie égyptienne ayant régné au XVe siècle av. J.-C. Qui suis-je ?", "a": "Hatchepsout" },
+      { "q": "Je suis un mathématicien indien autodidacte du début du XXe siècle, collaborateur de Hardy à Cambridge. Qui suis-je ?", "a": "Ramanujan" },
+      { "q": "Je suis un philosophe néerlandais du XVIIe siècle, excommunié, auteur de l'Éthique. Qui suis-je ?", "a": "Spinoza" },
+      { "q": "Je suis une chanteuse soprano grecque du XXe siècle, surnommée La Divina, célèbre pour Médée et Norma. Qui suis-je ?", "a": "Maria Callas" },
+      { "q": "Je suis un explorateur norvégien, premier à atteindre le pôle Sud en 1911. Qui suis-je ?", "a": "Roald Amundsen" },
+      { "q": "Je suis un poète persan du XIIIe siècle, fondateur des derviches tourneurs et auteur du Masnavi. Qui suis-je ?", "a": "Rûmî" },
+      { "q": "Je suis une cité abandonnée du Cambodge, ancienne capitale de l'empire khmer. Qui suis-je ?", "a": "Angkor" },
+      { "q": "Je suis une compositrice française du XXe siècle, professeure de Quincy Jones et de Philip Glass. Qui suis-je ?", "a": "Nadia Boulanger" },
+      { "q": "Je suis un chimiste russe du XIXe siècle, créateur du tableau périodique des éléments. Qui suis-je ?", "a": "Mendeleïev" },
+      { "q": "Je suis un peintre symboliste norvégien du XIXe siècle, auteur du Cri. Qui suis-je ?", "a": "Edvard Munch" }
     ],
     "10": [
-      {
-        "q": "Je suis le premier empereur de Chine. Qui suis-je ?",
-        "a": "Qin Shi Huangdi"
-      },
-      {
-        "q": "Je suis un philosophe allemand, auteur de « Ainsi parlait Zarathoustra ». Qui suis-je ?",
-        "a": "Friedrich Nietzsche"
-      },
-      {
-        "q": "Je suis un stratège chinois, auteur de « L'Art de la guerre ». Qui suis-je ?",
-        "a": "Sun Tzu"
-      },
-      {
-        "q": "Je suis un roi d'Angleterre exécuté pendant la révolution anglaise. Qui suis-je ?",
-        "a": "Charles Ier"
-      }
+      { "q": "Je suis un stratège chinois du Ve siècle av. J.-C., auteur d'un traité militaire intitulé L'Art de la guerre. Qui suis-je ?", "a": "Sun Tzu" },
+      { "q": "Je suis un mathématicien et astronome perse du XIe siècle, également poète auteur des Robaiyat. Qui suis-je ?", "a": "Omar Khayyam" },
+      { "q": "Je suis une mathématicienne et philosophe grecque d'Alexandrie assassinée en 415, première femme savante connue. Qui suis-je ?", "a": "Hypatie" },
+      { "q": "Je suis un cartographe flamand du XVIe siècle qui a donné mon nom à une projection cartographique. Qui suis-je ?", "a": "Mercator" },
+      { "q": "Je suis un savant ouzbek du XIe siècle, auteur du Canon de la médecine resté en usage en Europe pendant six siècles. Qui suis-je ?", "a": "Avicenne" },
+      { "q": "Je suis un inventeur serbe naturalisé américain, pionnier du courant alternatif et rival d'Edison. Qui suis-je ?", "a": "Nikola Tesla" },
+      { "q": "Je suis une impératrice byzantine du VIe siècle, ancienne actrice devenue épouse de Justinien. Qui suis-je ?", "a": "Théodora" },
+      { "q": "Je suis un astronome danois du XVIe siècle au nez de métal, employeur de Kepler. Qui suis-je ?", "a": "Tycho Brahe" },
+      { "q": "Je suis un poète soufi andalou du XIIIe siècle, auteur des Illuminations de La Mecque. Qui suis-je ?", "a": "Ibn Arabi" },
+      { "q": "Je suis une pharaonne de la XIIe dynastie ayant régné au XIXe siècle av. J.-C., dernière souveraine du Moyen Empire. Qui suis-je ?", "a": "Sobeknéferou" }
     ]
   }
 }
