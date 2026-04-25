@@ -53,7 +53,7 @@
       "id": "himym",
       "name": "How I Met Your Mother",
       "file": "himym.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "plusoumoins",
@@ -71,19 +71,19 @@
       "id": "inventions",
       "name": "Inventions et découvertes",
       "file": "inventions.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "mythologie",
       "name": "Mythologie",
       "file": "mythologie.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "culture_francaise",
       "name": "Culture française",
       "file": "culture_francaise.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "chansons_2010",
@@ -113,7 +113,7 @@
       "id": "sagas_celebres",
       "name": "Sagas célèbres",
       "file": "sagas_celebres.json",
-      "questionCount": 50
+      "questionCount": 150
     }
   ]
 }

@@ -3,224 +3,174 @@
   "name": "Mythologie",
   "questions": {
     "1": [
-      {
-        "q": "Qui est le dieu grec du tonnerre ?",
-        "a": "Zeus"
-      },
-      {
-        "q": "Qui est le dieu romain équivalent à Zeus ?",
-        "a": "Jupiter"
-      },
-      {
-        "q": "Qui est le dieu nordique du tonnerre ?",
-        "a": "Thor"
-      },
-      {
-        "q": "Qui est la déesse grecque de l’amour ?",
-        "a": "Aphrodite"
-      },
-      {
-        "q": "Qui est le dieu égyptien à tête de chacal ?",
-        "a": "Anubis"
-      }
+      { "q": "Quel dieu grec lance la foudre depuis le sommet du mont Olympe ?", "a": "Zeus" },
+      { "q": "Quel dieu romain de la guerre a donné son nom à une planète rouge ?", "a": "Mars" },
+      { "q": "Quel dieu nordique au marteau Mjöllnir contrôle le tonnerre ?", "a": "Thor" },
+      { "q": "Quelle déesse grecque de l'amour est née de l'écume de la mer ?", "a": "Aphrodite" },
+      { "q": "Quel héros de la guerre de Troie a un talon comme seul point faible ?", "a": "Achille" },
+      { "q": "Quel dieu grec règne sur les océans et brandit un trident à trois pointes ?", "a": "Poséidon" },
+      { "q": "Quelle créature mi-homme mi-taureau vivait dans le labyrinthe de Crète ?", "a": "Le Minotaure" },
+      { "q": "Quel dieu romain équivalent de Zeus règne en roi sur tous les autres dieux ?", "a": "Jupiter" },
+      { "q": "Quelle créature ailée à corps de cheval Persée chevauche-t-il ?", "a": "Pégase" },
+      { "q": "Quel dieu égyptien à tête de faucon est associé à l'astre solaire ?", "a": "Rê" },
+      { "q": "Quelle déesse grecque de la chasse est la sœur jumelle d'Apollon ?", "a": "Artémis" },
+      { "q": "Quel dieu grec règne sur les Enfers et le royaume des morts ?", "a": "Hadès" },
+      { "q": "Quel chien à trois têtes garde l'entrée des Enfers dans la mythologie grecque ?", "a": "Cerbère" },
+      { "q": "Comment s'appelle la haute montagne où vivent les dieux grecs ?", "a": "L'Olympe" },
+      { "q": "Quelle femme mythique transforme en pierre quiconque la regarde ?", "a": "Méduse" }
     ],
     "2": [
-      {
-        "q": "Qui est la déesse romaine de la chasse ?",
-        "a": "Diane"
-      },
-      {
-        "q": "Qui est le dieu grec de la mer ?",
-        "a": "Poséidon"
-      },
-      {
-        "q": "Quel héros grec a tué le Minotaure ?",
-        "a": "Thésée"
-      },
-      {
-        "q": "Quel dieu nordique est le père de Thor ?",
-        "a": "Odin"
-      },
-      {
-        "q": "Qui est la déesse égyptienne de la maternité et de la magie ?",
-        "a": "Isis"
-      }
+      { "q": "Quel dieu grec messager des Olympiens porte des sandales ailées ?", "a": "Hermès" },
+      { "q": "Quelle déesse grecque de la sagesse est née du crâne de Zeus ?", "a": "Athéna" },
+      { "q": "Quel dieu grec du vin et de l'ivresse est aussi appelé Bacchus chez les Romains ?", "a": "Dionysos" },
+      { "q": "Quel cyclope mangeur d'hommes a été aveuglé par Ulysse dans l'Odyssée ?", "a": "Polyphème" },
+      { "q": "Quel cheval géant en bois a permis aux Grecs d'entrer dans Troie ?", "a": "Le cheval de Troie" },
+      { "q": "Quel jeune homme s'est brûlé les ailes pour s'être trop rapproché du soleil ?", "a": "Icare" },
+      { "q": "Quel dieu grec sanguinaire de la guerre est l'amant d'Aphrodite ?", "a": "Arès" },
+      { "q": "Quelle déesse grecque protectrice du foyer est l'aînée des Olympiens ?", "a": "Hestia" },
+      { "q": "Quel dieu romain à deux visages regarde à la fois le passé et l'avenir ?", "a": "Janus" },
+      { "q": "Quel oiseau immortel renaît de ses cendres dans la mythologie antique ?", "a": "Le Phénix" },
+      { "q": "Quel dieu grec du soleil conduit un char enflammé à travers le ciel ?", "a": "Hélios" },
+      { "q": "Quelle reine grecque a été enlevée par Pâris et a déclenché la guerre de Troie ?", "a": "Hélène" },
+      { "q": "Quel héros grec a libéré Andromède enchaînée à un rocher face à un monstre marin ?", "a": "Persée" },
+      { "q": "Quel dieu nordique borgne et barbu règne sur le royaume d'Asgard ?", "a": "Odin" },
+      { "q": "Quelle créature géante grecque à un seul œil forge la foudre de Zeus ?", "a": "Le Cyclope" }
     ],
     "3": [
-      {
-        "q": "Quel héros grec a accompli 12 travaux ?",
-        "a": "Héraclès"
-      },
-      {
-        "q": "Qui est le dieu romain de la guerre ?",
-        "a": "Mars"
-      },
-      {
-        "q": "Qui est le dieu grec du soleil ?",
-        "a": "Apollon"
-      },
-      {
-        "q": "Qui est le dieu nordique de la ruse et du chaos ?",
-        "a": "Loki"
-      },
-      {
-        "q": "Quel fleuve séparait le monde des vivants et des morts dans la mythologie grecque ?",
-        "a": "Le Styx"
-      }
+      { "q": "Quel héros grec a accompli douze travaux pour expier le meurtre de ses enfants ?", "a": "Héraclès" },
+      { "q": "Quel dieu grec boiteux de la forge est l'époux d'Aphrodite ?", "a": "Héphaïstos" },
+      { "q": "Quel demi-dieu grec a vaincu le Minotaure dans le labyrinthe de Crète ?", "a": "Thésée" },
+      { "q": "Quelle femme a ouvert une boîte libérant tous les maux de l'humanité ?", "a": "Pandore" },
+      { "q": "Quel Titan grec est condamné à porter la voûte céleste sur ses épaules ?", "a": "Atlas" },
+      { "q": "Quel musicien grec est descendu aux Enfers pour ramener son épouse Eurydice ?", "a": "Orphée" },
+      { "q": "Quel héros a étranglé le lion de Némée comme tout premier de ses travaux ?", "a": "Héraclès" },
+      { "q": "Quelle créature à corps de lion, ailes d'aigle et tête humaine pose des énigmes ?", "a": "Le Sphinx" },
+      { "q": "Quelle prêtresse de Delphes prophétisait au nom du dieu Apollon ?", "a": "La Pythie" },
+      { "q": "Quel pharaon mythique d'Égypte a été assassiné par son frère Seth ?", "a": "Osiris" },
+      { "q": "Quel dieu grec joue divinement de la lyre et patronne la poésie ?", "a": "Apollon" },
+      { "q": "Quel demi-dieu grec a navigué sur l'Argo à la recherche de la Toison d'or ?", "a": "Jason" },
+      { "q": "Comment s'appelle le fleuve principal des Enfers grecs que traversent les âmes ?", "a": "Le Styx" },
+      { "q": "Quel monstre à neuf têtes Héraclès a-t-il vaincu près d'un marais ?", "a": "L'Hydre de Lerne" },
+      { "q": "Quel dieu nordique malicieux et changeur de forme est le père du loup Fenrir ?", "a": "Loki" }
     ],
     "4": [
-      {
-        "q": "Qui est la déesse grecque de la sagesse ?",
-        "a": "Athéna"
-      },
-      {
-        "q": "Quel héros grec a construit le cheval de Troie ?",
-        "a": "Ulysse"
-      },
-      {
-        "q": "Qui est le dieu égyptien du soleil ?",
-        "a": "Rê"
-      },
-      {
-        "q": "Qui est le dieu romain des enfers ?",
-        "a": "Pluton"
-      },
-      {
-        "q": "Qui est la déesse nordique de la mort ?",
-        "a": "Hel"
-      }
+      { "q": "Combien de travaux Héraclès doit-il accomplir au total selon la légende grecque ?", "a": "12" },
+      { "q": "Quelle nymphe a été métamorphosée en laurier pour échapper à Apollon ?", "a": "Daphné" },
+      { "q": "Quel chasseur grec a été transformé en cerf pour avoir vu Artémis se baigner ?", "a": "Actéon" },
+      { "q": "Quelle reine de Carthage s'est suicidée après le départ d'Énée ?", "a": "Didon" },
+      { "q": "Quel jeune homme s'est noyé en contemplant son reflet dans l'eau ?", "a": "Narcisse" },
+      { "q": "Quel dieu égyptien à tête de chacal préside aux rites de momification ?", "a": "Anubis" },
+      { "q": "Quelle déesse égyptienne magicienne est l'épouse-sœur d'Osiris ?", "a": "Isis" },
+      { "q": "Comment s'appelle l'arme à trois pointes que brandit le dieu Poséidon ?", "a": "Le trident" },
+      { "q": "Quel dieu grec a tué de ses flèches le dragon Python à Delphes ?", "a": "Apollon" },
+      { "q": "Quelle créature à tête de femme et corps d'oiseau attire les marins par son chant ?", "a": "La Sirène" },
+      { "q": "Quel jardin mythique abrite des pommes d'or gardées par un dragon ?", "a": "Le jardin des Hespérides" },
+      { "q": "Quel roi de Phrygie transformait en or tout ce qu'il touchait ?", "a": "Midas" },
+      { "q": "Quel monstre crachant le feu à corps composite a été tué par Bellérophon ?", "a": "La Chimère" },
+      { "q": "Quelle déesse romaine de la chasse correspond à la grecque Artémis ?", "a": "Diane" },
+      { "q": "Quel passeur taciturne conduit les morts à travers le fleuve Styx ?", "a": "Charon" }
     ],
     "5": [
-      {
-        "q": "Quel titan a volé le feu pour le donner aux hommes ?",
-        "a": "Prométhée"
-      },
-      {
-        "q": "Qui est le dieu grec des enfers ?",
-        "a": "Hadès"
-      },
-      {
-        "q": "Quel dieu nordique est destiné à tuer Odin au Ragnarök ?",
-        "a": "Fenrir (le loup)"
-      },
-      {
-        "q": "Quel dieu romain est le messager des dieux ?",
-        "a": "Mercure"
-      },
-      {
-        "q": "Quel monstre avait des serpents à la place des cheveux ?",
-        "a": "Méduse"
-      }
+      { "q": "Quel Titan a volé le feu aux dieux pour le donner aux hommes ?", "a": "Prométhée" },
+      { "q": "Quel Titan père de Zeus a dévoré ses propres enfants à leur naissance ?", "a": "Cronos" },
+      { "q": "Quelle déesse grecque des moissons cherche désespérément sa fille Perséphone ?", "a": "Déméter" },
+      { "q": "Quel roi a été condamné à pousser éternellement un rocher au sommet d'une colline ?", "a": "Sisyphe" },
+      { "q": "Quelle déesse grecque du mariage est l'épouse jalouse de Zeus ?", "a": "Héra" },
+      { "q": "Quel héros romain est le fondateur mythique de Rome avec son frère Rémus ?", "a": "Romulus" },
+      { "q": "Quel oiseau nocturne symbolise la déesse de la sagesse Athéna ?", "a": "La chouette" },
+      { "q": "Quel dieu nordique aveugle a tué accidentellement son frère Baldr ?", "a": "Höd" },
+      { "q": "Quelle plante magique rend Ulysse immunisé contre les sortilèges de Circé ?", "a": "Le moly" },
+      { "q": "Quel dieu grec primordial personnifie le ciel et est l'époux de Gaïa ?", "a": "Ouranos" },
+      { "q": "Quelle déesse grecque primordiale incarne la Terre nourricière ?", "a": "Gaïa" },
+      { "q": "Quel guerrier grec a été tué par une flèche dans le talon devant Troie ?", "a": "Achille" },
+      { "q": "Quelle créature mi-homme mi-cheval peuple les forêts de Thessalie ?", "a": "Le Centaure" },
+      { "q": "Quel dieu égyptien à tête d'ibis est associé à l'écriture et à la sagesse ?", "a": "Thot" },
+      { "q": "Quel monstre marin à plusieurs têtes affronte Ulysse en face de Charybde ?", "a": "Scylla" }
     ],
     "6": [
-      {
-        "q": "Qui est la déesse grecque de la chasse ?",
-        "a": "Artémis"
-      },
-      {
-        "q": "Quel dieu grec est souvent représenté avec des ailes aux pieds ?",
-        "a": "Hermès"
-      },
-      {
-        "q": "Qui est le dieu égyptien du chaos et du désert ?",
-        "a": "Seth"
-      },
-      {
-        "q": "Quel dieu nordique a donné un œil pour obtenir la sagesse ?",
-        "a": "Odin"
-      },
-      {
-        "q": "Quel est le dieu romain de la mer ?",
-        "a": "Neptune"
-      }
+      { "q": "Quelle Titanide associée à la lune est la mère de Léto et grand-mère d'Apollon ?", "a": "Phœbé" },
+      { "q": "Quel dieu nordique Vane de la fertilité est le frère jumeau de Freyja ?", "a": "Freyr" },
+      { "q": "Quel dieu égyptien du chaos et du désert a démembré son frère Osiris ?", "a": "Seth" },
+      { "q": "Quel fils d'Aphrodite et d'Hermès donne son nom à un être aux deux sexes ?", "a": "Hermaphrodite" },
+      { "q": "Quel héros grec d'Étolie a tué le sanglier monstrueux de Calydon ?", "a": "Méléagre" },
+      { "q": "Comment s'appelle l'objet d'abondance offert à Zeus enfant par la chèvre Amalthée ?", "a": "La corne d'abondance" },
+      { "q": "Quel fils d'Hélios a été foudroyé pour avoir mal conduit le char solaire ?", "a": "Phaéton" },
+      { "q": "Quelle nymphe ne peut que répéter les derniers mots qu'on lui dit ?", "a": "Écho" },
+      { "q": "Quel dieu grec de la médecine est représenté avec un bâton autour duquel s'enroule un serpent ?", "a": "Asclépios" },
+      { "q": "Quel dieu romain équivalent à Hermès est patron des voyageurs et marchands ?", "a": "Mercure" },
+      { "q": "Quelle créature à corps de bouc et torse humain accompagne le dieu Dionysos ?", "a": "Le Satyre" },
+      { "q": "Quel oiseau monstrueux à tête de femme harcèle Énée et les Argonautes ?", "a": "La Harpie" },
+      { "q": "Quel dieu grec primordial frère de Thanatos incarne le sommeil ?", "a": "Hypnos" },
+      { "q": "Quelle reine des Amazones combat Héraclès lors de son neuvième travail ?", "a": "Hippolyte" },
+      { "q": "Quel dieu égyptien à tête de bélier est créateur dans certaines traditions ?", "a": "Khnoum" }
     ],
     "7": [
-      {
-        "q": "Quel héros grec a vaincu le Cyclope Polyphème ?",
-        "a": "Ulysse"
-      },
-      {
-        "q": "Qui est la déesse grecque de la terre ?",
-        "a": "Gaïa"
-      },
-      {
-        "q": "Quel est le dieu nordique de la lumière et de la beauté ?",
-        "a": "Baldr"
-      },
-      {
-        "q": "Quel dieu romain est l’équivalent d’Apollon ?",
-        "a": "Apollon (même nom)"
-      },
-      {
-        "q": "Qui est le dieu grec du vin et des festivités ?",
-        "a": "Dionysos"
-      }
+      { "q": "Comment s'appelle l'arbre cosmique qui relie les neuf mondes nordiques ?", "a": "Yggdrasil" },
+      { "q": "Quel dieu nordique gardien du Bifröst sonne du cor au Ragnarök ?", "a": "Heimdall" },
+      { "q": "Quel roi argien a été tué par sa femme Clytemnestre à son retour de Troie ?", "a": "Agamemnon" },
+      { "q": "Quel devin aveugle thébain apparaît dans Œdipe et l'Odyssée ?", "a": "Tirésias" },
+      { "q": "Quelle magicienne transforme les compagnons d'Ulysse en porcs ?", "a": "Circé" },
+      { "q": "Quelle nymphe retient Ulysse pendant sept ans prisonnier sur son île ?", "a": "Calypso" },
+      { "q": "Quel monstre nordique est le loup gigantesque qui dévorera Odin lors du Ragnarök ?", "a": "Fenrir" },
+      { "q": "Comment s'appelle le bateau d'Odin construit en ongles de morts ?", "a": "Naglfar" },
+      { "q": "Quelle déesse égyptienne représente la justice et porte une plume sur la tête ?", "a": "Maât" },
+      { "q": "Quel héros nordique de la légende des Völsungs a tué le dragon Fáfnir ?", "a": "Sigurd" },
+      { "q": "Quel dieu égyptien à tête d'hippopotame veille sur les femmes enceintes ?", "a": "Tâouret" },
+      { "q": "Quelle prêtresse troyenne maudite par Apollon prédit l'avenir sans être crue ?", "a": "Cassandre" },
+      { "q": "Comment s'appelle le palais des guerriers tombés au combat dans la mythologie nordique ?", "a": "Valhalla" },
+      { "q": "Quel monstre primordial grec à cent têtes a affronté Zeus dans une guerre titanesque ?", "a": "Typhon" },
+      { "q": "Quelle déesse grecque ailée personnifie la victoire au combat ?", "a": "Niké" }
     ],
     "8": [
-      {
-        "q": "Quel héros grec a traversé la Méditerranée pour retrouver Iphigénie ?",
-        "a": "Oreste"
-      },
-      {
-        "q": "Quel dieu nordique est lié à la fertilité et à la prospérité ?",
-        "a": "Freyr"
-      },
-      {
-        "q": "Quel dieu égyptien avait une tête de faucon ?",
-        "a": "Horus"
-      },
-      {
-        "q": "Qui est la déesse grecque des moissons ?",
-        "a": "Déméter"
-      },
-      {
-        "q": "Quel monstre marin a été terrassé par Persée ?",
-        "a": "Cétus"
-      }
+      { "q": "Comment s'appelle la lance d'Odin forgée par les nains fils d'Ivaldi ?", "a": "Gungnir" },
+      { "q": "Quel anneau magique d'Odin se duplique toutes les neuf nuits ?", "a": "Draupnir" },
+      { "q": "Quel dieu égyptien fils d'Isis et d'Osiris venge son père contre Seth ?", "a": "Horus" },
+      { "q": "Quelle déesse égyptienne lionne représente la guerre et la maladie ?", "a": "Sekhmet" },
+      { "q": "Quel héros grec a capturé vivant le sanglier d'Érymanthe lors d'un travail ?", "a": "Héraclès" },
+      { "q": "Quel jeune Troyen aimé de Zeus est devenu l'échanson des dieux de l'Olympe ?", "a": "Ganymède" },
+      { "q": "Quelles femmes condamnées remplissent éternellement un tonneau percé aux Enfers ?", "a": "Les Danaïdes" },
+      { "q": "Quel géant condamné à avoir le foie dévoré par un aigle a tenté d'agresser Léto ?", "a": "Tityos" },
+      { "q": "Quel dieu nordique Vane échangé contre Mimir devient otage des Ases ?", "a": "Njörd" },
+      { "q": "Quelle déesse nordique de l'amour conduit un char tiré par deux chats ?", "a": "Freyja" },
+      { "q": "Quel héros japonais shintô est tiré d'une grosse pêche par un vieux couple sans enfant ?", "a": "Momotarô" },
+      { "q": "Quel dieu hindou à tête d'éléphant est le fils de Shiva et Parvatî ?", "a": "Ganesh" },
+      { "q": "Quelle déesse égyptienne du ciel avale chaque soir le soleil et le rend à l'aube ?", "a": "Nout" },
+      { "q": "Quel juge des Enfers grecs est l'un des trois fils de Zeus et Europe ?", "a": "Minos" },
+      { "q": "Quelle créature géante grecque a cent yeux et garde Io pour le compte d'Héra ?", "a": "Argos" }
     ],
     "9": [
-      {
-        "q": "Qui est le dieu grec du sommeil ?",
-        "a": "Hypnos"
-      },
-      {
-        "q": "Qui est le dieu romain du sommeil ?",
-        "a": "Somnus"
-      },
-      {
-        "q": "Quel est le lieu de repos des héros dans la mythologie grecque ?",
-        "a": "Les Champs Élysées"
-      },
-      {
-        "q": "Qui est le dieu égyptien associé à la momification ?",
-        "a": "Anubis"
-      },
-      {
-        "q": "Quel dieu nordique sera tué par une branche de gui ?",
-        "a": "Baldr"
-      }
+      { "q": "Comment s'appelle le serpent gigantesque qui ronge les racines d'Yggdrasil ?", "a": "Nidhögg" },
+      { "q": "Quelle valkyrie est endormie par Odin sur un rocher entouré de flammes ?", "a": "Brunehilde" },
+      { "q": "Quel dieu aztèque serpent à plumes est associé au vent et au savoir ?", "a": "Quetzalcóatl" },
+      { "q": "Quelle déesse hindoue à plusieurs bras tue le démon-buffle Mahisha ?", "a": "Durgâ" },
+      { "q": "Quel dieu celtique gaulois au maillet et à la roue préside au royaume des morts ?", "a": "Sucellos" },
+      { "q": "Quel dieu égyptien à tête de crocodile était particulièrement vénéré au Fayoum ?", "a": "Sobek" },
+      { "q": "Quel héros forgeron finnois forge le sampo magique dans le Kalevala ?", "a": "Ilmarinen" },
+      { "q": "Quel dieu grec primordial incarne le désir amoureux à l'origine du monde ?", "a": "Éros" },
+      { "q": "Comment appelle-t-on les monstres à cent bras qui ont aidé Zeus contre les Titans ?", "a": "Hécatonchires" },
+      { "q": "Quelle nymphe a été changée en source pour avoir aimé un mortel ?", "a": "Aréthuse" },
+      { "q": "Quel dieu shintô japonais du tonnerre frappe les tambours du ciel ?", "a": "Raijin" },
+      { "q": "Quel roi mythique d'Éthiopie est le père de la princesse Andromède ?", "a": "Céphée" },
+      { "q": "Quel dieu romain de la liberté libérait les esclaves affranchis lors de cérémonies ?", "a": "Liber" },
+      { "q": "Quelle déesse aztèque à jupe de serpents est mère des étoiles et de la Lune ?", "a": "Coatlicue" },
+      { "q": "Quel sage égyptien architecte de la pyramide de Saqqarah a été divinisé ?", "a": "Imhotep" }
     ],
     "10": [
-      {
-        "q": "Quel est le nom du serpent géant qui encercle le monde dans la mythologie nordique ?",
-        "a": "Jörmungandr"
-      },
-      {
-        "q": "Qui est le titan père de Zeus, Poséidon et Hadès ?",
-        "a": "Cronos"
-      },
-      {
-        "q": "Quel est le dieu égyptien créateur du monde selon la cosmogonie d’Héliopolis ?",
-        "a": "Atoum"
-      },
-      {
-        "q": "Qui est la déesse grecque de la discorde, à l’origine de la guerre de Troie ?",
-        "a": "Éris"
-      },
-      {
-        "q": "Quel est le royaume des morts dans la mythologie nordique ?",
-        "a": "Helheim"
-      }
+      { "q": "Comment s'appelle le serpent qui entoure Midgard dans la mythologie nordique ?", "a": "Jörmungand" },
+      { "q": "Quel dieu nordique silencieux et vengeur vainc le loup Fenrir lors du Ragnarök ?", "a": "Vidar" },
+      { "q": "Quel monstre égyptien à corps composite dévore le cœur des damnés au tribunal d'Osiris ?", "a": "Ammit" },
+      { "q": "Quel dieu hindou de la mort chevauche un buffle et tient un nœud coulant ?", "a": "Yama" },
+      { "q": "Quelle déesse aztèque de la lune fut démembrée par son frère Huitzilopochtli ?", "a": "Coyolxauhqui" },
+      { "q": "Quel dieu celtique irlandais polyvalent maîtrise tous les arts et tous les métiers ?", "a": "Lug" },
+      { "q": "Quel géant primordial nordique a été tué par les Ases pour façonner le monde ?", "a": "Ymir" },
+      { "q": "Quel dieu sumérien et akkadien règne sur le ciel comme père et roi des dieux ?", "a": "Anu" },
+      { "q": "Quelle déesse mésopotamienne de l'amour et de la guerre descend aux Enfers ?", "a": "Inanna" },
+      { "q": "Quel oiseau égyptien gigantesque pondait l'œuf cosmique à Hermopolis ?", "a": "Le Benou" },
+      { "q": "Quel cheval gris à huit pattes est la monture d'Odin et fils de Loki ?", "a": "Sleipnir" },
+      { "q": "Quel dieu shintô japonais des tempêtes est le frère d'Amaterasu et de Tsukuyomi ?", "a": "Susanoo" },
+      { "q": "Quel roi-héros mésopotamien part chercher l'immortalité avec son ami Enkidu ?", "a": "Gilgamesh" },
+      { "q": "Quelle déesse hindoue de la destruction porte un collier de crânes humains ?", "a": "Kali" },
+      { "q": "Quel dieu égyptien à tête de faucon protège Edfou et combat éternellement Seth ?", "a": "Hor-Behedeti" }
     ]
   }
 }

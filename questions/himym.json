@@ -3,224 +3,174 @@
   "name": "How I Met Your Mother",
   "questions": {
     "1": [
-      {
-        "q": "Quel est le prénom du personnage principal qui raconte l’histoire ?",
-        "a": "Ted"
-      },
-      {
-        "q": "Comment s’appelle le meilleur ami de Ted ?",
-        "a": "Marshall"
-      },
-      {
-        "q": "Qui est l’épouse de Marshall ?",
-        "a": "Lily"
-      },
-      {
-        "q": "Comment s’appelle l’ami séducteur de Ted ?",
-        "a": "Barney"
-      },
-      {
-        "q": "De quel pays vient Robin ?",
-        "a": "Canada"
-      }
+      { "q": "Comment s'appelle le narrateur principal qui raconte son histoire à ses enfants ?", "a": "Ted Mosby" },
+      { "q": "Quel est le métier de Ted Mosby ?", "a": "Architecte" },
+      { "q": "Comment s'appelle le bar où la bande se retrouve presque chaque épisode ?", "a": "MacLaren's" },
+      { "q": "Dans quelle ville américaine se déroule l'intégralité de la série ?", "a": "New York" },
+      { "q": "Quel personnage est célèbre pour porter en permanence un costume ?", "a": "Barney Stinson" },
+      { "q": "Quel est le prénom de la journaliste canadienne dont Ted tombe amoureux dès le pilote ?", "a": "Robin" },
+      { "q": "Comment s'appelle l'épouse de Marshall, institutrice de maternelle ?", "a": "Lily" },
+      { "q": "Quel est le prénom de l'ami de Ted qui étudie le droit ?", "a": "Marshall" },
+      { "q": "De quel pays vient Robin Scherbatsky ?", "a": "Canada" },
+      { "q": "Combien de saisons compte la série au total ?", "a": "Neuf" },
+      { "q": "Quel acteur incarne Ted Mosby ?", "a": "Josh Radnor" },
+      { "q": "Quel acteur joue Barney Stinson ?", "a": "Neil Patrick Harris" },
+      { "q": "Quelle actrice incarne Lily Aldrin ?", "a": "Alyson Hannigan" },
+      { "q": "Quel est le nom de famille de Marshall ?", "a": "Eriksen" },
+      { "q": "À qui Ted raconte-t-il toute cette longue histoire ?", "a": "À ses enfants" }
     ],
     "2": [
-      {
-        "q": "Quel est le nom de famille de Ted ?",
-        "a": "Mosby"
-      },
-      {
-        "q": "Quel est le nom de famille de Barney ?",
-        "a": "Stinson"
-      },
-      {
-        "q": "Quel est le nom de famille de Marshall ?",
-        "a": "Eriksen"
-      },
-      {
-        "q": "Quel est le nom de famille de Robin ?",
-        "a": "Scherbatsky"
-      },
-      {
-        "q": "Quel est le nom de famille de Lily ?",
-        "a": "Aldrin"
-      }
+      { "q": "Quelle expression Barney emploie pour dire que quelque chose est extraordinaire ?", "a": "Légendaire" },
+      { "q": "Quel mot Barney crie pour pousser ses amis à se mettre en costume ?", "a": "Suit up" },
+      { "q": "Quel acteur joue Marshall Eriksen ?", "a": "Jason Segel" },
+      { "q": "Quelle actrice joue Robin Scherbatsky ?", "a": "Cobie Smulders" },
+      { "q": "Dans quel État américain se trouve la ville natale de Marshall ?", "a": "Minnesota" },
+      { "q": "Quel sport canadien Robin pratique-t-elle avec passion ?", "a": "Hockey sur glace" },
+      { "q": "Quel est le nom de la chaîne où Robin présente le journal au début ?", "a": "Metro News 1" },
+      { "q": "Quel personnage chantait adolescente sous le nom de Robin Sparkles ?", "a": "Robin" },
+      { "q": "Quel objet jaune iconique est lié à la mère dans la série ?", "a": "Un parapluie" },
+      { "q": "Quel personnage travaille dans une mystérieuse multinationale ?", "a": "Barney" },
+      { "q": "Combien d'enfants Ted a-t-il à la fin de la série ?", "a": "Deux" },
+      { "q": "Quel est le prénom du fils de Ted ?", "a": "Luke" },
+      { "q": "Quel est le prénom de la fille de Ted ?", "a": "Penny" },
+      { "q": "Dans quelle université Marshall et Ted se sont-ils rencontrés ?", "a": "Wesleyan" },
+      { "q": "Quel surnom Marshall donne-t-il affectueusement à Lily ?", "a": "Lilypad" }
     ],
     "3": [
-      {
-        "q": "Quelle est la profession de Ted ?",
-        "a": "Architecte"
-      },
-      {
-        "q": "Quelle est la profession de Marshall ?",
-        "a": "Avocat"
-      },
-      {
-        "q": "Quelle est la profession de Lily ?",
-        "a": "Institutrice / artiste"
-      },
-      {
-        "q": "Quelle est la profession de Barney ?",
-        "a": "Inconnue (il dit « Please »)"
-      },
-      {
-        "q": "Quelle est la profession de Robin ?",
-        "a": "Journaliste / présentatrice télé"
-      }
+      { "q": "Quel pari permet à Marshall de gifler Barney plusieurs fois durant la série ?", "a": "Le Slap Bet" },
+      { "q": "Quel running gag oblige Barney à porter une cravate canard en peluche ?", "a": "Le Ducky Tie" },
+      { "q": "Comment s'appelle le code des règles entre potes selon Barney ?", "a": "The Bro Code" },
+      { "q": "Quelle chanson pop Robin a-t-elle enregistrée adolescente sous le nom de Robin Sparkles ?", "a": "Let's Go to the Mall" },
+      { "q": "Quel surnom Ted donne-t-il à sa future épouse pendant tout le récit ?", "a": "La Mère" },
+      { "q": "Quel est le prénom du frère de Barney, joué par Wayne Brady ?", "a": "James" },
+      { "q": "Quelle loi Ted invente-t-il pour quitter un mauvais rendez-vous avant cinq minutes ?", "a": "The Lemon Law" },
+      { "q": "Quel cri Marshall pousse après avoir gagné un débat juridique ?", "a": "Lawyered" },
+      { "q": "Quel acteur joue Ranjit, le chauffeur récurrent de la bande ?", "a": "Marshall Manesh" },
+      { "q": "Comment s'appelle l'oncle de Marshall qui possède une cabane dans les bois ?", "a": "Oncle Marvin" },
+      { "q": "Quel est le prénom du père de Marshall, décédé en saison 6 ?", "a": "Marvin" },
+      { "q": "Quelle phrase Barney lance comme défi quand on lui propose un pari ?", "a": "Challenge accepted" },
+      { "q": "Quel est le mot que Barney utilise systématiquement avant 'dary' pour souligner l'attente ?", "a": "Legen-wait for it" },
+      { "q": "Quel personnage est obsédé par les fantômes et le Sasquatch ?", "a": "Marshall" },
+      { "q": "Quel surnom Barney donne-t-il à ses copains masculins ?", "a": "Bro" }
     ],
     "4": [
-      {
-        "q": "Quel bar fréquentent-ils régulièrement ?",
-        "a": "MacLaren’s Pub"
-      },
-      {
-        "q": "Qui est le barman ami du groupe ?",
-        "a": "Carl"
-      },
-      {
-        "q": "Comment s’appelle le frère de Barney ?",
-        "a": "James"
-      },
-      {
-        "q": "Quel est le deuxième prénom de Ted ?",
-        "a": "Evelyn"
-      },
-      {
-        "q": "Qui est le colocataire de Ted dans la saison 1 ?",
-        "a": "Marshall"
-      }
+      { "q": "Comment s'appelle le second clip pop adulte et nostalgique de Robin Sparkles ?", "a": "Sandcastles in the Sand" },
+      { "q": "Quel acteur apparaît dans le clip 'Sandcastles in the Sand' aux côtés de Robin ?", "a": "James Van Der Beek" },
+      { "q": "Comment s'appelle le manuel illustré des stratégies de drague de Barney ?", "a": "The Playbook" },
+      { "q": "Quelle technique Barney utilise quand il dit 'Have you met Ted?' à une inconnue ?", "a": "Have You Met Ted" },
+      { "q": "Quel surnom adolescent Robin porte au Canada en chantant ?", "a": "Robin Sparkles" },
+      { "q": "Quel groupe interprète la musique du générique 'Hey Beautiful' ?", "a": "The Solids" },
+      { "q": "Quel est le prénom de la mère de Barney ?", "a": "Loretta" },
+      { "q": "Quelle actrice joue Loretta, la mère de Barney ?", "a": "Frances Conroy" },
+      { "q": "Quel personnage célèbre joue le père de Marshall en récurrent ?", "a": "Bill Fagerbakke" },
+      { "q": "Comment s'appelle le frère afro-américain de Barney ?", "a": "James Stinson" },
+      { "q": "Quelle est la profession du père biologique de Barney ?", "a": "Moniteur d'auto-école" },
+      { "q": "Quel acteur incarne Jerry, le père biologique de Barney ?", "a": "John Lithgow" },
+      { "q": "Quelle phrase Marshall lance après avoir prouvé un point juridique ?", "a": "Lawyered" },
+      { "q": "Quel est le surnom donné aux ex-petites amies de Ted, jouées en flashbacks ?", "a": "Les ex de Ted" },
+      { "q": "Quel surnom Barney donne aux femmes qu'il vient de quitter ?", "a": "Lemon" }
     ],
     "5": [
-      {
-        "q": "Quel objet jaune devient un symbole récurrent ?",
-        "a": "Le parapluie jaune"
-      },
-      {
-        "q": "Comment s’appelle le site de rencontres que Ted utilise ?",
-        "a": "Love Solutions"
-      },
-      {
-        "q": "Quel est le jeu inventé par Marshall et Barney ?",
-        "a": "Marshgammon"
-      },
-      {
-        "q": "Quel est le plat préféré de Marshall ?",
-        "a": "Le sandwich (en réalité cannabis)"
-      },
-      {
-        "q": "Quelle est la boisson préférée de Barney ?",
-        "a": "Le scotch"
-      }
+      { "q": "Avec quelle archéologue de Sarah Chalke Ted devait-il se marier en saison 4 ?", "a": "Stella" },
+      { "q": "Quelle femme abandonne Ted à l'autel pour son ex Tony ?", "a": "Stella" },
+      { "q": "Comment s'appelle la fille de Stella issue d'une précédente relation ?", "a": "Lucy" },
+      { "q": "Comment s'appelle la stripteaseuse dont Barney tombe amoureux en saison 7 ?", "a": "Quinn" },
+      { "q": "Avec quelle ex de Ted, jouée par Mandy Moore, vit-il un brûlant épisode en saison 1 ?", "a": "Amy" },
+      { "q": "Avec qui Robin entame-t-elle une relation sérieuse au début de la saison 4 ?", "a": "Barney" },
+      { "q": "Dans quelle saison Marshall et Lily se marient-ils enfin ?", "a": "Saison 2" },
+      { "q": "Comment s'appelle le fils que Marshall et Lily ont à la fin de la série ?", "a": "Marvin" },
+      { "q": "Comment Marshall apprend-il la mort de son père dans la saison 6 ?", "a": "Par téléphone" },
+      { "q": "Avec qui Ted partage-t-il son appartement après le départ de Marshall et Lily ?", "a": "Robin" },
+      { "q": "Comment s'appelle la psychiatre toxique avec qui Ted sort, jouée par Abby Elliott ?", "a": "Jeanette" },
+      { "q": "Quel est le nom du collègue puis petit ami de Robin à Metro News 1 ?", "a": "Don" },
+      { "q": "Quel acteur incarne Don, le copain de Robin en saison 5 ?", "a": "Benjamin Koldyke" },
+      { "q": "Comment s'appelle le réalisateur que Stella épouse, ex à elle ?", "a": "Tony" },
+      { "q": "Quelle ex de Ted travaille avec lui comme architecte et a une liaison brève en saison 5 ?", "a": "Karma" }
     ],
     "6": [
-      {
-        "q": "Quel est le nom du blog de Barney ?",
-        "a": "The Bro Code Blog"
-      },
-      {
-        "q": "Quel livre Barney a-t-il écrit ?",
-        "a": "The Bro Code"
-      },
-      {
-        "q": "Quel autre livre Barney a-t-il écrit ?",
-        "a": "The Playbook"
-      },
-      {
-        "q": "Qui est la première petite amie sérieuse de Ted dans la série ?",
-        "a": "Robin"
-      },
-      {
-        "q": "Qui est Stella ?",
-        "a": "La dermatologue qui sort avec Ted"
-      }
+      { "q": "Dans quelle ville côtière Ted aperçoit-il enfin la mère pour la première fois ?", "a": "Farhampton" },
+      { "q": "Comment s'appelle l'épisode pivot où Marshall court le marathon de New York ?", "a": "Marathon" },
+      { "q": "Quel est le titre de l'épisode pilote de la série ?", "a": "Pilot" },
+      { "q": "Quel chef de Robin sur Metro News 1, joué par Alexis Denisof, est un rival ?", "a": "Sandy Rivers" },
+      { "q": "Comment s'appelle l'émission matinale légère où Robin présente plus tard ?", "a": "Come On, Get Up New York!" },
+      { "q": "Quel groupe Marshall a-t-il créé avec Ted à la fac ?", "a": "The Funk, the Whole Funk and Nothing but the Funk" },
+      { "q": "Comment s'appelle la chanson Marshmallow / Lilypad sur leur frigo ?", "a": "Surnoms entre Marshall et Lily" },
+      { "q": "Quel sandwich métaphore Marshall évoque-t-il dans un flashback étudiant ?", "a": "Le sandwich" },
+      { "q": "Comment s'appelle la pizzeria favorite de la bande à proximité de l'appartement ?", "a": "Gazzola's" },
+      { "q": "Quel poste Marshall vise-t-il à la fin de la série après son rêve de juge ?", "a": "Juge" },
+      { "q": "Quel acteur joue Hammond Druthers, le patron architecte de Ted ?", "a": "Bryan Cranston" },
+      { "q": "Quel personnage tient le bar MacLaren's, barman emblématique ?", "a": "Carl" },
+      { "q": "Quel personnage est le surnom donné à Lily quand elle est enceinte ?", "a": "Lily Pad" },
+      { "q": "Quelle actrice joue Stella, la fiancée éphémère de Ted ?", "a": "Sarah Chalke" },
+      { "q": "Quelle expression Lily emploie souvent pour exprimer une crise de jalousie ?", "a": "Crazy eyes" }
     ],
     "7": [
-      {
-        "q": "Quel est le prénom du père de Marshall ?",
-        "a": "Marvin"
-      },
-      {
-        "q": "Quel est le prénom de la mère de Marshall ?",
-        "a": "Judy"
-      },
-      {
-        "q": "Comment s’appelle le père de Barney qu’il retrouve ?",
-        "a": "Jerome"
-      },
-      {
-        "q": "Quel est le surnom de Robin en tant que chanteuse adolescente ?",
-        "a": "Robin Sparkles"
-      },
-      {
-        "q": "Quel est le tube célèbre de Robin Sparkles ?",
-        "a": "Let’s Go to the Mall"
-      }
+      { "q": "Quel acteur joue Marshcop, le rival imaginaire de Marshall dans un épisode ?", "a": "Aucun — running gag de Marshall" },
+      { "q": "Quel est le titre de l'épisode entièrement tourné en temps réel dans une voiture ?", "a": "The Limo" },
+      { "q": "Quel surnom Barney donne à sa stratégie où il utilise un faux accent germanique ?", "a": "Lorenzo Von Matterhorn" },
+      { "q": "Quel pari Marshall remporte exactement contre Barney concernant l'identité de Robin Sparkles ?", "a": "Le Slap Bet original" },
+      { "q": "Combien de gifles Marshall gagne-t-il à l'origine dans le Slap Bet ?", "a": "Cinq" },
+      { "q": "Quel acteur joue Mickey, le beau-père de Lily ?", "a": "Chris Elliott" },
+      { "q": "Quel acteur joue Marshall Manesh dans le rôle de Ranjit ?", "a": "Marshall Manesh" },
+      { "q": "Quelle université de droit Marshall fréquente-t-il ?", "a": "Columbia" },
+      { "q": "Quel est le nom du chien préféré de Robin parmi ses cinq chiens ?", "a": "Bob Barker" },
+      { "q": "Quelle stratégie de Barney consiste à se faire passer pour un milliardaire ?", "a": "Lorenzo Von Matterhorn" },
+      { "q": "Quel acteur joue Zoey Pierson, l'ex-femme du Capitaine et amour de Ted ?", "a": "Jennifer Morrison" },
+      { "q": "Comment s'appelle l'antagoniste de Ted qui veut sauver l'Arcadian ?", "a": "Zoey Pierson" },
+      { "q": "Comment s'appelle le mystérieux Capitaine, ex-mari de Zoey ?", "a": "Le Capitaine" },
+      { "q": "Quel acteur incarne le Capitaine dans la série ?", "a": "Kyle MacLachlan" },
+      { "q": "Quel hôtel mythique apparaît dans la saison 9 où la bande séjourne ?", "a": "Farhampton Inn" }
     ],
     "8": [
-      {
-        "q": "Quel est le prénom de la mère des enfants de Ted ?",
-        "a": "Tracy"
-      },
-      {
-        "q": "Comment meurt le père de Marshall ?",
-        "a": "Crise cardiaque"
-      },
-      {
-        "q": "Quel est le nom du chien de Ted que Robin déteste ?",
-        "a": "Porthos (puis on apprend qu’il n’en a plus)"
-      },
-      {
-        "q": "Quelle université fréquentent Ted, Marshall et Lily ?",
-        "a": "Wesleyan University"
-      },
-      {
-        "q": "Quel est le nom du collègue de Barney, souvent mentionné ?",
-        "a": "Randy"
-      }
+      { "q": "Quel est le nom complet de la mère, révélé en saison 9 ?", "a": "Tracy McConnell" },
+      { "q": "Quelle actrice incarne la mère, Tracy McConnell ?", "a": "Cristin Milioti" },
+      { "q": "Quel instrument la mère joue-t-elle quand Ted la rencontre enfin ?", "a": "Basse" },
+      { "q": "Quel est le prénom de l'ex de Tracy, mort tragiquement avant Ted ?", "a": "Max" },
+      { "q": "À quel mariage la mère est-elle bassiste, mariage final de la saison 9 ?", "a": "Celui de Barney et Robin" },
+      { "q": "Quelle stratégie écrite par Barney est révélée à Robin pour la conquérir ?", "a": "The Robin" },
+      { "q": "Combien d'épisodes compte la saison finale de la série ?", "a": "Vingt-quatre" },
+      { "q": "Quel surnom Lily donne-t-elle à Marshall en parlant de son avenir paternel ?", "a": "Marshmallow" },
+      { "q": "Quelle phrase Ted dit pour décrire sa rencontre avec Tracy à Farhampton ?", "a": "Et c'est ainsi que j'ai rencontré votre mère" },
+      { "q": "Quel acteur joue Nick, brièvement le copain de Robin en saison 8 ?", "a": "Michael Trucco" },
+      { "q": "Comment s'appelle l'amie de Tracy qui se marie à Barney dans l'épisode-clé ?", "a": "Aucune — Tracy joue à ce mariage" },
+      { "q": "Quel est le surnom complet de Barney pour son équipe d'aventure avec Ted et Marshall ?", "a": "The Bro Code" },
+      { "q": "Quel personnage récurrent prononce 'Daddy's home!' en entrant dans une pièce ?", "a": "Barney" },
+      { "q": "Quel acteur joue le père de Robin, autoritaire et froid ?", "a": "Ray Wise" },
+      { "q": "Quel est le prénom du père de Robin ?", "a": "Robin Charles Scherbatsky Sr." }
     ],
     "9": [
-      {
-        "q": "Qui est la première femme de Barney ?",
-        "a": "Robin"
-      },
-      {
-        "q": "Quel est le prénom de la fille de Marshall et Lily ?",
-        "a": "Daisy"
-      },
-      {
-        "q": "Quel est le prénom du fils de Marshall et Lily ?",
-        "a": "Marvin"
-      },
-      {
-        "q": "Qui est Zoey ?",
-        "a": "Une militante qui sort avec Ted"
-      },
-      {
-        "q": "Qui est The Mother (Tracy) avant de rencontrer Ted ?",
-        "a": "La colocataire de Cindy"
-      }
+      { "q": "En quelle année Ted raconte-t-il l'histoire à ses enfants au début de la série ?", "a": "2030" },
+      { "q": "Quel jour précis Ted rencontre-t-il enfin la mère ?", "a": "Le jour du mariage de Barney et Robin" },
+      { "q": "Combien d'années Marshall et Lily ont-ils été ensemble avant leur mariage ?", "a": "Neuf ans" },
+      { "q": "Quel est le numéro précis de l'épisode 'Slap Bet' dans la saison 2 ?", "a": "Épisode 9" },
+      { "q": "Combien de chiens Robin possède-t-elle au début de la série ?", "a": "Cinq" },
+      { "q": "Quels sont les noms des chiens de Robin, baptisés d'après ses ex ?", "a": "Bob Barker, Mike, Marshall, Wayne et Frank" },
+      { "q": "Quel poste Marshall occupe-t-il à la toute fin de la série ?", "a": "Juge à la cour suprême de l'État de New York" },
+      { "q": "Quel emploi Marshall accepte avant de tenter le poste de juge ?", "a": "Avocat dans l'environnemental / Honeywell & Cootes" },
+      { "q": "En quelle année Tracy meurt-elle dans la chronologie de la série ?", "a": "2024" },
+      { "q": "Combien d'années Ted attend-il avant d'aller revoir Robin après la mort de Tracy ?", "a": "Six ans" },
+      { "q": "Quel est le titre du double épisode final de la série ?", "a": "Last Forever" },
+      { "q": "Comment s'appelle la fille de Barney née dans la finale ?", "a": "Ellie" },
+      { "q": "Quelle actrice joue Karen, l'amour de jeunesse de Ted ?", "a": "Laura Prepon" },
+      { "q": "Quel est le numéro de l'appartement de Ted et Marshall sur West 75th Street ?", "a": "Appartement 20" },
+      { "q": "Quelle phrase Marshall répète quand il croit aux phénomènes paranormaux ?", "a": "Je crois aux fantômes" }
     ],
     "10": [
-      {
-        "q": "Avec qui Ted finit-il sa vie à la fin de la série ?",
-        "a": "Robin"
-      },
-      {
-        "q": "Comment s’appelle le mari de Tracy, décédé avant qu’elle rencontre Ted ?",
-        "a": "Il n’existe pas, elle n’était pas mariée"
-      },
-      {
-        "q": "Qui finit par devenir juge ?",
-        "a": "Marshall"
-      },
-      {
-        "q": "Quelle chanson joue lors du mariage de Barney et Robin ?",
-        "a": "Sandcastles in the Sand"
-      },
-      {
-        "q": "Qui raconte l’histoire de « How I Met Your Mother » aux enfants ?",
-        "a": "Ted, leur père"
-      }
+      { "q": "Combien de temps dure le mariage entre Barney et Robin selon la finale ?", "a": "Trois ans" },
+      { "q": "Quel acteur incarne la voix off de Ted adulte qui narre la série ?", "a": "Bob Saget" },
+      { "q": "Quel est l'ingrédient secret du sandwich métaphore de Marshall en flashback ?", "a": "De la marijuana" },
+      { "q": "Combien de fois exactement Marshall gifle-t-il Barney au fil des Slap Bets cumulés ?", "a": "Huit" },
+      { "q": "Quel épisode introduit la fameuse stratégie 'Have You Met Ted?' de Barney ?", "a": "Pilot" },
+      { "q": "Quel est le nom du projet d'immeuble GNB que Ted dessine ?", "a": "GNB Headquarters / Goliath National Bank" },
+      { "q": "Comment s'appelle l'immeuble historique que Zoey veut sauver de la démolition ?", "a": "L'Arcadian" },
+      { "q": "Quel est le prénom du chien préféré de Robin, baptisé d'après une célébrité de la TV ?", "a": "Bob Barker" },
+      { "q": "Quel pourcentage de tirs au but Robin réussit-elle au hockey selon une vanne ?", "a": "Aucun chiffre canon — running gag" },
+      { "q": "Quel est le titre exact du second album solo de Robin Sparkles ?", "a": "Sandcastles in the Sand" },
+      { "q": "Quel personnage récurrent est l'irlandais barman de MacLaren's ?", "a": "Carl MacLaren" },
+      { "q": "Quel restaurant new-yorkais Marshall fréquente pour son sandwich préféré, immortalisé en running gag ?", "a": "Gazzola's" },
+      { "q": "Quel groupe joue à la conférence économique où Tracy se produit dans la saison 9 ?", "a": "Le groupe de Tracy" },
+      { "q": "Quel est le nom complet du père de Robin, militaire strict ?", "a": "Robin Charles Scherbatsky Sr." },
+      { "q": "Quelle phrase Ted écrit dans son livre d'architecture publié plus tard ?", "a": "Aucun titre canon — running gag" }
     ]
   }
 }
