@@ -14,20 +14,19 @@
       <h1>PoCer</h1>
       <p class="subtitle">Jeu de quiz — 1 téléphone, jusqu'à 10 joueurs</p>
 
+      <section id="resumeCard" class="card hidden">
+        <h2>Partie en cours</h2>
+        <p class="resume-info" id="resumeInfo">—</p>
+        <div class="row">
+          <button type="button" id="discardBtn" class="btn ghost">Nouvelle partie</button>
+          <button type="button" id="resumeBtn" class="btn primary">Reprendre</button>
+        </div>
+      </section>
+
       <form id="playersForm" class="card" onsubmit="return false;">
         <h2>Joueurs</h2>
-        <div class="players-inputs">
-          <input type="text" name="player" placeholder="Joueur 1" required />
-          <input type="text" name="player" placeholder="Joueur 2" />
-          <input type="text" name="player" placeholder="Joueur 3" />
-          <input type="text" name="player" placeholder="Joueur 4" />
-          <input type="text" name="player" placeholder="Joueur 5" />
-          <input type="text" name="player" placeholder="Joueur 6" />
-          <input type="text" name="player" placeholder="Joueur 7" />
-          <input type="text" name="player" placeholder="Joueur 8" />
-          <input type="text" name="player" placeholder="Joueur 9" />
-          <input type="text" name="player" placeholder="Joueur 10" />
-        </div>
+        <div class="players-inputs" id="playersInputs"></div>
+        <button type="button" id="addPlayerBtn" class="btn ghost btn-add">+ Ajouter un joueur</button>
         <div class="row">
           <button type="button" id="start5" class="btn secondary">Partie courte (5 manches)</button>
           <button type="button" id="start10" class="btn primary">Partie normale (10 manches)</button>
@@ -41,34 +40,33 @@
       <header class="round-header">
         <div class="round-info">
           <span class="round-chip" aria-live="polite">Manche <span id="roundNum">1</span>/<span id="roundTotal">10</span></span>
-          <span class="theme-chip">Thème : <strong id="currentTheme">—</strong> 🎯</span>
+          <span class="theme-chip">Thème : <strong id="currentTheme">—</strong></span>
         </div>
         <div class="round-progress" aria-hidden="true" id="roundDots">
           <!-- points générés en JS -->
         </div>
       </header>
 
-      <!-- Panneau joueur courant -->
-      <section class="current-player card elevate" aria-live="polite">
-        <div class="avatar" id="currentAvatar" aria-hidden="true">A</div>
-        <div class="cp-text">
-          <div class="cp-eyebrow">À toi de jouer</div>
-          <div class="cp-name" id="currentPlayerName">—</div>
-          <div class="cp-sub" id="turnOrderSub">Ordre : —</div>
+      <!-- Panneau joueur courant + ordre -->
+      <section class="player-panel card elevate" aria-live="polite">
+        <div class="player-panel-head">
+          <div class="avatar" id="currentAvatar" aria-hidden="true">A</div>
+          <div class="cp-text">
+            <div class="cp-eyebrow">À toi de jouer</div>
+            <div class="cp-name" id="currentPlayerName">—</div>
+          </div>
         </div>
+        <div class="turn-order" id="turnOrder" aria-label="Ordre des joueurs"></div>
       </section>
 
-      <!-- Ordre des tours (chips) -->
-      <section class="turn-order" id="turnOrder" aria-label="Ordre des joueurs"></section>
-
-      <!-- Scoreboard -->
-      <section class="card">
-        <h2>Scores</h2>
+      <!-- Scoreboard (repliable) -->
+      <details id="scoreboardCard" class="card scoreboard-card" open>
+        <summary><span>Scores</span></summary>
         <ul id="scoreboard" class="scoreboard"></ul>
-      </section>
+      </details>
 
       <!-- Choix de difficulté -->
-      <section class="card">
+      <section id="difficultyCard" class="card">
         <h2>Choisis ta difficulté</h2>
         <div id="difficultyGrid" class="difficulty-grid" role="group" aria-label="Choix de difficulté"></div>
         <div id="deckEmpty" class="hint hidden">Plus de questions à cette difficulté dans ce thème.</div>
@@ -77,11 +75,11 @@
       <!-- Carte Q/R -->
       <section id="qaCard" class="card hidden">
         <div class="qa-row">
-          <div class="q">❓ <span id="questionText"></span></div>
+          <div class="q"><span id="questionText"></span></div>
           <div id="revealRow" class="reveal-row">
             <button id="showAnswerBtn" class="btn secondary" aria-expanded="false">Afficher la réponse</button>
           </div>
-          <div id="answerBlock" class="a hidden">✅ <span id="answerText"></span></div>
+          <div id="answerBlock" class="a hidden"><span id="answerText"></span></div>
           <div id="judgeRow" class="judge-row hidden">
             <button id="btnWrong" class="btn ghost">Mauvaise</button>
             <button id="btnCorrect" class="btn success">Bonne (+<span id="pts"></span>)</button>
@@ -111,6 +109,15 @@
         <span class="score"></span>
       </li>
     </template>
+
+    <template id="playerInputTpl">
+      <div class="player-input-row">
+        <input type="text" name="player" />
+        <button type="button" class="btn-remove-player" aria-label="Retirer ce joueur">−</button>
+      </div>
+    </template>
+
+    <div id="toastHost" class="toast-host" aria-live="polite" aria-atomic="true"></div>
 
   </main>
   <script src="script.js"></script>

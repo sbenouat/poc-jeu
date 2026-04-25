@@ -1,4 +1,4 @@
-/* PoCer — jeu de quiz mobile-first (UX + choix 5/10 manches) */
+/* PoCer — jeu de quiz mobile-first */
 const $ = (s, ctx = document) => ctx.querySelector(s);
 const $$ = (s, ctx = document) => [...ctx.querySelectorAll(s)];
 
@@ -11,8 +11,14 @@ const screens = {
 const els = {
   // setup
   playersForm: $("#playersForm"),
+  playersInputs: $("#playersInputs"),
+  addPlayerBtn: $("#addPlayerBtn"),
   start5: $("#start5"),
   start10: $("#start10"),
+  resumeCard: $("#resumeCard"),
+  resumeBtn: $("#resumeBtn"),
+  discardBtn: $("#discardBtn"),
+  resumeInfo: $("#resumeInfo"),
   // header
   roundNum: $("#roundNum"),
   roundTotal: $("#roundTotal"),
@@ -22,9 +28,9 @@ const els = {
   currentPlayerName: $("#currentPlayerName"),
   currentAvatar: $("#currentAvatar"),
   turnOrder: $("#turnOrder"),
-  turnOrderSub: $("#turnOrderSub"),
   // scoreboard
   scoreboard: $("#scoreboard"),
+  scoreboardCard: $("#scoreboardCard"),
   // difficulty + QA
   difficultyGrid: $("#difficultyGrid"),
   qaCard: $("#qaCard"),
@@ -44,10 +50,27 @@ const els = {
   // misc
   endGameBtn: $("#endGameBtn"),
   restartBtn: $("#restartBtn"),
-  shareBtn: $("#shareBtn"),
+  toastHost: $("#toastHost"),
 };
 
-let MAX_ROUNDS = 10; // défini au démarrage selon le bouton
+let MAX_ROUNDS = 10;
+
+const MAX_PLAYERS = 10;
+const MIN_PLAYERS = 1;
+
+// Distinct, accessible colors for up to 10 players
+const PLAYER_COLORS = [
+  "#f87171", // red
+  "#fb923c", // orange
+  "#fbbf24", // amber
+  "#a3e635", // lime
+  "#34d399", // emerald
+  "#22d3ee", // cyan
+  "#60a5fa", // blue
+  "#a78bfa", // violet
+  "#f472b6", // pink
+  "#facc15", // yellow
+];
 
 // --------- État ----------
 const STATE = {
@@ -63,9 +86,8 @@ const STATE = {
   currentQA: null,
   answerRevealed: false,
   usedThemes: new Set(),
-  // Lazy loading state
-  themeIndex: null,      // Metadata from index.json
-  loadedThemes: {},      // Cache: { themeId: themeData }
+  themeIndex: null,
+  loadedThemes: {},
 };
 
 // --------- Utils ----------
@@ -89,6 +111,15 @@ function saveLocal(){
 function loadLocal(){
   try{ const raw = localStorage.getItem("pocer_state"); return raw? JSON.parse(raw): null; }catch{ return null; }
 }
+function clearSavedGame(){
+  localStorage.removeItem("pocer_state");
+}
+function saveLastNames(names){
+  try{ localStorage.setItem("pocer_lastPlayers", JSON.stringify(names)); }catch{}
+}
+function loadLastNames(){
+  try{ const raw = localStorage.getItem("pocer_lastPlayers"); return raw ? JSON.parse(raw) : null; }catch{ return null; }
+}
 function resetState(){
   STATE.players = [];
   STATE.turnIndex = 0;
@@ -101,37 +132,62 @@ function resetState(){
   STATE.currentQA = null;
   STATE.answerRevealed = false;
   STATE.usedThemes = new Set();
-  // Note: themeIndex and loadedThemes are preserved across game restarts
-  // to avoid re-fetching already loaded data
 }
 
-// --------- Data (questions) - Lazy Loading ----------
+// --------- Toast ----------
+function toast(message, opts = {}){
+  const { action, actionLabel, durationMs = 3000, variant } = opts;
+  const node = document.createElement("div");
+  node.className = "toast" + (variant ? " " + variant : "");
+  const text = document.createElement("span");
+  text.className = "toast-text";
+  text.textContent = message;
+  node.appendChild(text);
 
-// Load theme index (metadata only, ~1KB)
+  let timer;
+  const dismiss = () => {
+    clearTimeout(timer);
+    if (node.parentNode) node.parentNode.removeChild(node);
+  };
+
+  if (action) {
+    const btn = document.createElement("button");
+    btn.className = "toast-action" + (variant === "danger" ? " danger" : "");
+    btn.type = "button";
+    btn.textContent = actionLabel || "Annuler";
+    btn.addEventListener("click", () => {
+      action();
+      dismiss();
+    });
+    node.appendChild(btn);
+  }
+
+  els.toastHost.appendChild(node);
+  timer = setTimeout(dismiss, durationMs);
+  return dismiss;
+}
+
+// --------- Données (questions) — Lazy Loading ----------
 async function loadThemeIndex(){
   try{
     const res = await fetch("questions/index.json", {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     STATE.themeIndex = await res.json();
-    STATE.questions = { themes: [] }; // Will be populated lazily
+    STATE.questions = { themes: [] };
     STATE.loadedThemes = {};
     return true;
   }catch(e){
-    // Fallback: load monolithic file
-    console.log("Fallback to questions.sample.json");
     return await loadQuestionsFallback();
   }
 }
 
-// Fallback: load the full monolithic file
 async function loadQuestionsFallback(){
   try{
     const res = await fetch("questions.sample.json", {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     STATE.questions = await res.json();
-    STATE.themeIndex = null; // Mark as using fallback mode
+    STATE.themeIndex = null;
     STATE.loadedThemes = {};
-    // Pre-populate loadedThemes cache with all themes
     STATE.questions.themes.forEach(t => STATE.loadedThemes[t.id] = t);
     return true;
   }catch(e){
@@ -148,26 +204,18 @@ async function loadQuestionsFallback(){
   }
 }
 
-// Load a specific theme on demand
 async function loadTheme(themeId){
-  // Already loaded?
   if(STATE.loadedThemes[themeId]) return STATE.loadedThemes[themeId];
-
-  // Using fallback mode (monolithic)?
   if(!STATE.themeIndex){
     return STATE.questions.themes.find(t=>t.id===themeId) || null;
   }
-
-  // Find theme metadata in index
   const meta = STATE.themeIndex.themes.find(t=>t.id===themeId);
   if(!meta) return null;
-
   try{
     const res = await fetch(`questions/${meta.file}`, {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     const themeData = await res.json();
     STATE.loadedThemes[themeId] = themeData;
-    // Also add to STATE.questions.themes for compatibility
     if(!STATE.questions.themes.find(t=>t.id===themeId)){
       STATE.questions.themes.push(themeData);
     }
@@ -178,12 +226,6 @@ async function loadTheme(themeId){
   }
 }
 
-// Get theme by ID (sync, only from cache/loaded)
-function getThemeById(id){
-  return STATE.loadedThemes[id] || STATE.questions.themes.find(t=>t.id===id) || null;
-}
-
-// Get all available theme IDs (from index or fallback)
 function getAllThemeIds(){
   if(STATE.themeIndex){
     return STATE.themeIndex.themes.map(t=>t.id);
@@ -191,10 +233,6 @@ function getAllThemeIds(){
   return STATE.questions.themes.map(t=>t.id);
 }
 
-// Legacy function for compatibility
-async function loadQuestions(){
-  await loadThemeIndex();
-}
 function ensureUsedQuestionsPaths(themeId){
   if(!STATE.usedQuestions[themeId]) STATE.usedQuestions[themeId] = {};
   for(let d=1; d<=10; d++){ if(!STATE.usedQuestions[themeId][d]) STATE.usedQuestions[themeId][d] = []; }
@@ -213,7 +251,7 @@ function drawQuestion(theme, d){
   if(!cand.length) return null;
   const {qa,idx} = cand[randInt(0,cand.length-1)];
   STATE.usedQuestions[theme.id][d] = [...used, idx];
-  return {...qa, diff:d};
+  return {...qa, diff:d, _idx: idx};
 }
 function hasRemainingQuestions(theme){
   for(let d=1; d<=10; d++){
@@ -225,25 +263,18 @@ function hasRemainingQuestions(theme){
 }
 async function pickRandomTheme(){
   const allIds = getAllThemeIds();
-  // Filter out already used themes
   const candidateIds = allIds.filter(id => !STATE.usedThemes.has(id));
   if(!candidateIds.length) return null;
 
-  // Prefer themes that aren't the last one used
   const pool = candidateIds.length > 1
     ? candidateIds.filter(id => id !== STATE.lastThemeId)
     : candidateIds;
 
-  // Pick random theme ID
   const pickedId = pool[randInt(0, pool.length - 1)];
-
-  // Lazy load the theme
   const theme = await loadTheme(pickedId);
   if(!theme) return null;
 
-  // Verify it has remaining questions
   if(!hasRemainingQuestions(theme)){
-    // Mark as used and try again
     STATE.usedThemes.add(pickedId);
     return await pickRandomTheme();
   }
@@ -252,17 +283,66 @@ async function pickRandomTheme(){
   return theme;
 }
 
+// --------- Joueurs (setup dynamique) ----------
+function currentPlayerInputs(){
+  return $$("input[name=player]", els.playersInputs);
+}
+function updateRemoveButtonsVisibility(){
+  const rows = $$(".player-input-row", els.playersInputs);
+  rows.forEach((row, i) => {
+    const btn = row.querySelector(".btn-remove-player");
+    if (!btn) return;
+    btn.style.visibility = rows.length > MIN_PLAYERS ? "visible" : "hidden";
+  });
+  els.addPlayerBtn.disabled = rows.length >= MAX_PLAYERS;
+  els.addPlayerBtn.textContent = rows.length >= MAX_PLAYERS
+    ? `Maximum ${MAX_PLAYERS} joueurs`
+    : "+ Ajouter un joueur";
+  rows.forEach((row, i) => {
+    const input = row.querySelector("input");
+    input.placeholder = `Joueur ${i+1}`;
+  });
+}
+function addPlayerInput(value = ""){
+  const rows = $$(".player-input-row", els.playersInputs);
+  if (rows.length >= MAX_PLAYERS) return;
+  const tpl = $("#playerInputTpl");
+  const node = tpl.content.cloneNode(true);
+  const row = node.querySelector(".player-input-row");
+  const input = row.querySelector("input");
+  const removeBtn = row.querySelector(".btn-remove-player");
+  input.value = value;
+  removeBtn.addEventListener("click", () => {
+    row.remove();
+    updateRemoveButtonsVisibility();
+  });
+  els.playersInputs.appendChild(row);
+  updateRemoveButtonsVisibility();
+}
+function renderInitialPlayerInputs(){
+  els.playersInputs.innerHTML = "";
+  const last = loadLastNames();
+  if (last && last.length >= 2) {
+    last.slice(0, MAX_PLAYERS).forEach(n => addPlayerInput(n));
+  } else {
+    addPlayerInput();
+    addPlayerInput();
+  }
+}
+
 // --------- UI helpers ----------
 function showScreen(name){
   Object.values(screens).forEach(s=>s.classList.remove("active"));
   screens[name].classList.add("active");
+}
+function playerColor(p){
+  return PLAYER_COLORS[(p?.colorIdx ?? 0) % PLAYER_COLORS.length];
 }
 function renderRoundHeader(){
   els.roundNum.textContent = String(STATE.round);
   els.roundTotal.textContent = String(MAX_ROUNDS);
   els.currentTheme.textContent = STATE.theme ? STATE.theme.name : "—";
 
-  // points de progression : (re)générer si besoin
   if (els.roundDotsWrap.childElementCount !== MAX_ROUNDS){
     els.roundDotsWrap.innerHTML = "";
     for (let i=1; i<=MAX_ROUNDS; i++){
@@ -282,17 +362,17 @@ function renderCurrentPlayer(){
   const p = STATE.players[STATE.turnIndex];
   els.currentPlayerName.textContent = p?.name ?? "—";
   els.currentAvatar.textContent = initials(p?.name);
-  els.turnOrderSub.textContent = `Ordre : ${computeTurnOrderNames().join(" → ")}`;
+  els.currentAvatar.style.setProperty("--player-color", playerColor(p));
 
-  // turn chips
   els.turnOrder.innerHTML = "";
-  computeTurnOrderNames(true).forEach(({name,isActive},i)=>{
+  computeTurnOrder(true).forEach(({player, isActive}, i) => {
     const chip = document.createElement("div");
-    chip.className = "turn-chip"+(isActive?" active":"");
+    chip.className = "turn-chip" + (isActive ? " active" : "");
+    chip.style.setProperty("--player-color", playerColor(player));
     const b = document.createElement("span");
     b.className = "badge"; b.textContent = String(i+1);
     const n = document.createElement("span");
-    n.className = "name"; n.textContent = name;
+    n.className = "name"; n.textContent = player.name;
     chip.append(b,n);
     els.turnOrder.appendChild(chip);
   });
@@ -304,6 +384,8 @@ function renderScoreboard(intoEl){
   const tpl = $("#playerRowTpl");
   STATE.players.forEach(p=>{
     const node = tpl.content.cloneNode(true);
+    const row = node.querySelector(".score-row");
+    row.style.setProperty("--player-color", playerColor(p));
     node.querySelector(".name").textContent = p.name;
     node.querySelector(".score").textContent = String(p.score);
     intoEl.appendChild(node);
@@ -326,6 +408,7 @@ function renderDifficulties(){
 function renderQA(){
   if(STATE.currentQA){
     els.qaCard.classList.remove("hidden");
+    els.scoreboardCard.open = false;
     els.questionText.textContent = STATE.currentQA.q;
     els.answerText.textContent = STATE.currentQA.a;
     els.ptsSpan.textContent = String(STATE.currentQA.diff);
@@ -343,6 +426,7 @@ function renderQA(){
     }
   }else{
     els.qaCard.classList.add("hidden");
+    els.scoreboardCard.open = true;
   }
 }
 function renderAll(){
@@ -361,25 +445,25 @@ async function setThemeForRound(){
   STATE.answerRevealed = false;
 
   if(!STATE.theme){
-    alert("Plus de thèmes disponibles (ou plus de questions). Fin de partie !");
+    toast("Plus de thèmes disponibles. Fin de partie.", { variant: "danger", durationMs: 2500 });
     finishGame();
     return;
   }
   STATE.usedThemes.add(STATE.theme.id);
   saveLocal();
 }
-function computeTurnOrderNames(withActiveFlag=false){
-  const names = [];
+function computeTurnOrder(withActiveFlag = false){
+  const order = [];
   for(let i=0;i<STATE.players.length;i++){
     const idx = (STATE.starterIndex + i) % STATE.players.length;
-    const name = STATE.players[idx].name;
+    const player = STATE.players[idx];
     if(withActiveFlag){
-      names.push({name, isActive: idx===STATE.turnIndex});
+      order.push({ player, isActive: idx === STATE.turnIndex });
     }else{
-      names.push(name + (idx===STATE.turnIndex ? " (★)" : ""));
+      order.push(player);
     }
   }
-  return names;
+  return order;
 }
 async function nextPlayer(){
   STATE.currentQA = null;
@@ -423,23 +507,69 @@ function onShowAnswer(){
   if (navigator.vibrate) navigator.vibrate([8,20,8]);
   renderAll();
 }
+
+function snapshotForUndo(){
+  const themeId = STATE.theme?.id ?? null;
+  const usedAtTheme = themeId ? (STATE.usedQuestions[themeId] || {}) : {};
+  return {
+    players: STATE.players.map(p => ({...p})),
+    turnIndex: STATE.turnIndex,
+    starterIndex: STATE.starterIndex,
+    round: STATE.round,
+    themeId,
+    usedDifficulties: [...STATE.usedDifficulties],
+    usedQuestionsAtTheme: Object.fromEntries(Object.entries(usedAtTheme).map(([k, v]) => [k, [...v]])),
+    currentQA: STATE.currentQA ? {...STATE.currentQA} : null,
+    answerRevealed: STATE.answerRevealed,
+    lastThemeId: STATE.lastThemeId,
+    usedThemes: [...STATE.usedThemes],
+  };
+}
+async function restoreFromSnapshot(snap){
+  STATE.players = snap.players;
+  STATE.turnIndex = snap.turnIndex;
+  STATE.starterIndex = snap.starterIndex;
+  STATE.round = snap.round;
+  STATE.usedDifficulties = new Set(snap.usedDifficulties);
+  STATE.currentQA = snap.currentQA;
+  STATE.answerRevealed = snap.answerRevealed;
+  STATE.lastThemeId = snap.lastThemeId;
+  STATE.usedThemes = new Set(snap.usedThemes);
+  if (snap.themeId) {
+    STATE.theme = await loadTheme(snap.themeId);
+    STATE.usedQuestions[snap.themeId] = snap.usedQuestionsAtTheme;
+  }
+  showScreen("game");
+  saveLocal();
+  renderAll();
+}
+
 async function onAnswer(isCorrect){
   if(!STATE.currentQA) return;
+  const snap = snapshotForUndo();
+  const player = STATE.players[STATE.turnIndex];
+  const playerName = player.name;
+  const pts = STATE.currentQA.diff;
   if(isCorrect){
-    const player = STATE.players[STATE.turnIndex];
-    player.score += STATE.currentQA.diff;
+    player.score += pts;
   }
+  if (navigator.vibrate) navigator.vibrate(isCorrect ? [10, 30, 10] : 25);
   saveLocal();
   await nextPlayer();
+  toast(
+    isCorrect ? `+${pts} pt${pts>1?"s":""} pour ${playerName}` : `0 pt pour ${playerName}`,
+    { action: () => restoreFromSnapshot(snap), actionLabel: "Annuler", durationMs: 3000 }
+  );
 }
 
 // --------- Game flow ----------
 async function startGame(players, rounds){
   resetState();
-  MAX_ROUNDS = rounds;                    // <- défini par le bouton choisi
-  STATE.players = players.map(n=>({name:n, score:0}));
+  MAX_ROUNDS = rounds;
+  STATE.players = players.map((n, i) => ({ name: n, score: 0, colorIdx: i }));
   STATE.starterIndex = 0;
   STATE.turnIndex = STATE.starterIndex;
+  saveLastNames(players);
   await loadThemeIndex();
   await setThemeForRound();
   saveLocal();
@@ -447,6 +577,10 @@ async function startGame(players, rounds){
   renderAll();
 }
 function finishGame(){
+  if (!STATE.players.length) {
+    showScreen("setup");
+    return;
+  }
   const best = Math.max(...STATE.players.map(p=>p.score));
   const winners = STATE.players.filter(p=>p.score===best);
   els.winners.textContent = winners.length>1
@@ -454,66 +588,94 @@ function finishGame(){
     : `Vainqueur : ${winners[0].name} (${best} pts)`;
   renderScoreboard(els.finalTable);
   showScreen("recap");
+  clearSavedGame();
 }
-function shareScores(){
-  const lines = [
-    "PoCer — Résultats",
-    ...STATE.players.map(p=>`${p.name}: ${p.score} pts`),
-    `(Manches jouées: ${Math.min(STATE.round-1, MAX_ROUNDS)}/${MAX_ROUNDS})`
-  ];
-  const text = lines.join("\n");
-  if(navigator.share){ navigator.share({text}).catch(()=>{}); }
-  else { navigator.clipboard.writeText(text).then(()=>alert("Scores copiés !")); }
+
+function confirmEndGame(){
+  toast("Terminer la partie ?", {
+    variant: "danger",
+    actionLabel: "Confirmer",
+    action: finishGame,
+    durationMs: 4000,
+  });
 }
 
 // --------- Events ----------
 function collectNames(){
-  const names = $$("input[name=player]", els.playersForm).map(i=>i.value.trim()).filter(Boolean);
-  if(names.length<1 || names.length>10){ alert("Entre 1 à 10 joueurs."); return null; }
+  const names = currentPlayerInputs().map(i => i.value.trim()).filter(Boolean);
+  if (names.length < MIN_PLAYERS) {
+    toast(`Au moins ${MIN_PLAYERS} joueur requis.`, { variant: "danger" });
+    return null;
+  }
+  if (names.length > MAX_PLAYERS) {
+    toast(`Maximum ${MAX_PLAYERS} joueurs.`, { variant: "danger" });
+    return null;
+  }
   return names;
 }
-els.start10.addEventListener("click", ()=>{
+
+els.addPlayerBtn.addEventListener("click", () => addPlayerInput());
+els.start10.addEventListener("click", () => {
   const names = collectNames(); if(!names) return;
   startGame(names, 10);
 });
-els.start5.addEventListener("click", ()=>{
+els.start5.addEventListener("click", () => {
   const names = collectNames(); if(!names) return;
   startGame(names, 5);
 });
 $("#showAnswerBtn").addEventListener("click", onShowAnswer);
-els.btnCorrect.addEventListener("click", ()=>onAnswer(true));
-els.btnWrong.addEventListener("click", ()=>onAnswer(false));
-els.endGameBtn.addEventListener("click", finishGame);
-els.restartBtn.addEventListener("click", ()=>{
-  localStorage.removeItem("pocer_state");
+els.btnCorrect.addEventListener("click", () => onAnswer(true));
+els.btnWrong.addEventListener("click", () => onAnswer(false));
+els.endGameBtn.addEventListener("click", confirmEndGame);
+els.restartBtn.addEventListener("click", () => {
+  clearSavedGame();
   location.reload();
 });
-els.shareBtn.addEventListener("click", shareScores);
 
-window.addEventListener("load", async ()=>{
+// --------- Resume flow ----------
+function describeSave(saved){
+  const n = (saved.players || []).length;
+  const round = saved.round || 1;
+  const total = saved.maxRounds || 10;
+  return `${n} joueur${n>1?"s":""} — manche ${Math.min(round, total)}/${total}`;
+}
+async function resumeFromSave(saved){
+  MAX_ROUNDS = saved.maxRounds || 10;
+  STATE.players = (saved.players || []).map((p, i) => ({
+    name: p.name,
+    score: p.score ?? 0,
+    colorIdx: p.colorIdx ?? i,
+  }));
+  STATE.turnIndex = saved.turnIndex ?? 0;
+  STATE.starterIndex = saved.starterIndex ?? 0;
+  STATE.round = saved.round || 1;
+  STATE.usedQuestions = saved.usedQuestions || {};
+  STATE.usedDifficulties = new Set(saved.usedDifficulties || []);
+  STATE.lastThemeId = saved.lastThemeId || null;
+  STATE.usedThemes = new Set(saved.usedThemes || []);
+  if(saved.themeId){
+    STATE.theme = await loadTheme(saved.themeId);
+  }
+  if(!STATE.theme){
+    STATE.theme = await pickRandomTheme();
+  }
+  if(STATE.theme && !STATE.usedThemes.has(STATE.theme.id)) STATE.usedThemes.add(STATE.theme.id);
+  showScreen("game");
+  renderAll();
+}
+
+window.addEventListener("load", async () => {
+  renderInitialPlayerInputs();
   await loadThemeIndex();
   const saved = loadLocal();
-  if(saved && confirm("Reprendre la partie sauvegardée ?")){
-    MAX_ROUNDS = saved.maxRounds || 10;
-    STATE.players = saved.players || [];
-    STATE.turnIndex = saved.turnIndex ?? 0;
-    STATE.starterIndex = saved.starterIndex ?? 0;
-    STATE.round = saved.round || 1;
-    STATE.usedQuestions = saved.usedQuestions || {};
-    STATE.usedDifficulties = new Set(saved.usedDifficulties || []);
-    STATE.lastThemeId = saved.lastThemeId || null;
-    STATE.usedThemes = new Set(saved.usedThemes || []);
-    // Load the saved theme (async)
-    if(saved.themeId){
-      STATE.theme = await loadTheme(saved.themeId);
-    }
-    if(!STATE.theme){
-      STATE.theme = await pickRandomTheme();
-    }
-    if(STATE.theme && !STATE.usedThemes.has(STATE.theme.id)) STATE.usedThemes.add(STATE.theme.id);
-    showScreen("game");
-    renderAll();
-  }else{
-    showScreen("setup");
+  if (saved && saved.players?.length) {
+    els.resumeInfo.textContent = describeSave(saved);
+    els.resumeCard.classList.remove("hidden");
+    els.resumeBtn.addEventListener("click", () => resumeFromSave(saved));
+    els.discardBtn.addEventListener("click", () => {
+      clearSavedGame();
+      els.resumeCard.classList.add("hidden");
+    });
   }
+  showScreen("setup");
 });
