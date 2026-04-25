@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-PoCer is a mobile-first multiplayer quiz game built as a vanilla HTML/CSS/JavaScript web application. It supports up to 5 players on a single device with difficulty-based scoring and theme-based rounds.
+PoCer is a mobile-first multiplayer quiz game built as a vanilla HTML/CSS/JavaScript web application. It supports up to 10 players on a single device with difficulty-based scoring and theme-based rounds.
 
 ## Development
 
@@ -17,26 +17,31 @@ No build step, dependencies, or package manager required.
 
 ## Architecture
 
-Four core files:
+Core files:
 
 - **index.html** - UI markup with three screens: setup, game, and recap
-- **script.js** - Game logic (~420 lines): state management, DOM manipulation, localStorage persistence
+- **script.js** - Game logic: state management, DOM manipulation, localStorage persistence, lazy loading of question themes
 - **styles.css** - Dark theme mobile-first styling with CSS custom properties
-- **questions.sample.json** - Question database organized by themes and difficulty levels (1-10)
+- **questions/index.json** - Theme metadata pointing to per-theme files (primary source)
+- **questions/<theme>.json** - One file per theme, loaded on demand
+- **questions.sample.json** - Monolithic fallback used if `questions/index.json` fails to load
 
 ### Game Flow
 
-1. Players enter names (1-5 players) and choose game length (5 or 10 rounds)
-2. Each round: random theme selected → players take turns choosing difficulty → question drawn → answer revealed → points awarded (points = difficulty level)
+1. Players enter names (1-10 players) and choose game length (5 or 10 rounds)
+2. Each round: random theme selected → players take turns choosing difficulty → question drawn → answer revealed → points awarded (points = difficulty level if correct, 0 otherwise)
 3. Game state persisted to localStorage for session resumption
 
 ### State Management
 
-Central `STATE` object in script.js tracks: players, scores, current round, theme, used questions (by theme/difficulty), and used difficulties per round. Key functions:
+Central `STATE` object in script.js tracks: players, scores, current round, theme, used questions (by theme/difficulty), used difficulties per round, and the lazy-loading cache (`themeIndex`, `loadedThemes`). Key functions:
 - `startGame()`, `nextPlayer()`, `drawQuestion()`, `onAnswer()`, `renderAll()`
 - `saveLocal()` / `loadLocal()` for persistence
+- `loadThemeIndex()` / `loadTheme()` for lazy loading themes
 
 ### Question Data Format
+
+Per-theme file (`questions/<id>.json`):
 
 ```json
 {
@@ -51,9 +56,20 @@ Central `STATE` object in script.js tracks: players, scores, current round, them
 }
 ```
 
+Index file (`questions/index.json`):
+
+```json
+{
+  "themes": [
+    {"id": "theme-id", "name": "Theme Name", "file": "theme-id.json"}
+  ]
+}
+```
+
 ## Notes
 
 - French language UI
 - Mobile-first responsive design (breakpoint at 520px)
 - Haptic feedback via `navigator.vibrate()`
 - DOM helpers: `$` (querySelector) and `$$` (querySelectorAll)
+- Themes loaded lazily — only the metadata index is fetched at startup; theme files load when first picked
