@@ -35,13 +35,13 @@
       "id": "musique",
       "name": "Musique",
       "file": "musique.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "sport",
       "name": "Sport",
       "file": "sport.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "harrypotter",
@@ -89,7 +89,7 @@
       "id": "chansons_2010",
       "name": "Chansons US & FR des années 2010",
       "file": "chansons_2010.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "gastronomie_mondiale",
@@ -107,7 +107,7 @@
       "id": "jeux_video",
       "name": "Jeux vidéo",
       "file": "jeux_video.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "sagas_celebres",
