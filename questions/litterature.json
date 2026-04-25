@@ -3,424 +3,174 @@
   "name": "Littérature",
   "questions": {
     "1": [
-      {
-        "q": "Qui a écrit « Le Petit Prince » ?",
-        "a": "Antoine de Saint-Exupéry"
-      },
-      {
-        "q": "Qui a écrit « Les Misérables » ?",
-        "a": "Victor Hugo"
-      },
-      {
-        "q": "Qui a écrit « Le Comte de Monte-Cristo » ?",
-        "a": "Alexandre Dumas"
-      },
-      {
-        "q": "Qui est l’auteur de « Candide » ?",
-        "a": "Voltaire"
-      },
-      {
-        "q": "Quel auteur a créé le détective Sherlock Holmes ?",
-        "a": "Arthur Conan Doyle"
-      },
-      {
-        "q": "Qui a écrit « L’Étranger » ?",
-        "a": "Albert Camus"
-      },
-      {
-        "q": "Qui a écrit « Germinal » ?",
-        "a": "Émile Zola"
-      },
-      {
-        "q": "Qui a écrit « L’Île au trésor » ?",
-        "a": "Robert Louis Stevenson"
-      },
-      {
-        "q": "Qui a écrit « Orgueil et Préjugés » ?",
-        "a": "Jane Austen"
-      },
-      {
-        "q": "Qui a écrit « Don Quichotte » ?",
-        "a": "Miguel de Cervantès"
-      }
+      { "q": "Qui a écrit 'Le Petit Prince', conte philosophique publié en 1943 ?", "a": "Antoine de Saint-Exupéry" },
+      { "q": "Quel dramaturge anglais est l'auteur de 'Hamlet' et 'Roméo et Juliette' ?", "a": "William Shakespeare" },
+      { "q": "Quelle autrice britannique a créé la saga 'Harry Potter' à partir de 1997 ?", "a": "J.K. Rowling" },
+      { "q": "Quel écrivain français a écrit 'Les Misérables' et 'Notre-Dame de Paris' ?", "a": "Victor Hugo" },
+      { "q": "Quel personnage de Lewis Carroll suit un lapin blanc dans un terrier ?", "a": "Alice" },
+      { "q": "Quel auteur danois est célèbre pour ses contes comme 'La Petite Sirène' ?", "a": "Hans Christian Andersen" },
+      { "q": "Qui a écrit le roman 'Les Trois Mousquetaires' avec d'Artagnan comme héros ?", "a": "Alexandre Dumas" },
+      { "q": "Quelle autrice britannique est connue pour ses romans policiers avec Hercule Poirot ?", "a": "Agatha Christie" },
+      { "q": "Quel personnage de roman vit sur une île déserte avec son compagnon Vendredi ?", "a": "Robinson Crusoé" },
+      { "q": "Quel auteur français a écrit la fable 'Le Corbeau et le Renard' ?", "a": "Jean de La Fontaine" },
+      { "q": "Quel roman de Cervantes met en scène un chevalier qui combat des moulins à vent ?", "a": "Don Quichotte" },
+      { "q": "Quel personnage créé par J.R.R. Tolkien part détruire un anneau au Mordor ?", "a": "Frodon" },
+      { "q": "Quel scénariste a écrit la BD 'Astérix' avec Albert Uderzo ?", "a": "René Goscinny" },
+      { "q": "Quel roman de Mary Shelley met en scène un savant qui crée une créature ?", "a": "Frankenstein" },
+      { "q": "Quel auteur grec antique est traditionnellement associé à 'L'Iliade' et 'L'Odyssée' ?", "a": "Homère" }
     ],
     "2": [
-      {
-        "q": "Qui a écrit « Le Rouge et le Noir » ?",
-        "a": "Stendhal"
-      },
-      {
-        "q": "Qui a écrit « Madame Bovary » ?",
-        "a": "Gustave Flaubert"
-      },
-      {
-        "q": "Qui a écrit « Le Vieil Homme et la Mer » ?",
-        "a": "Ernest Hemingway"
-      },
-      {
-        "q": "Qui a écrit « 1984 » ?",
-        "a": "George Orwell"
-      },
-      {
-        "q": "Qui a écrit « Le Seigneur des Anneaux » ?",
-        "a": "J. R. R. Tolkien"
-      },
-      {
-        "q": "Qui a écrit « Le Nom de la rose » ?",
-        "a": "Umberto Eco"
-      },
-      {
-        "q": "Qui a écrit « Le Parfum » ?",
-        "a": "Patrick Süskind"
-      },
-      {
-        "q": "Qui a écrit « La Métamorphose » ?",
-        "a": "Franz Kafka"
-      },
-      {
-        "q": "Qui a écrit « Bel-Ami » ?",
-        "a": "Guy de Maupassant"
-      },
-      {
-        "q": "Qui a écrit « Les Fleurs du mal » ?",
-        "a": "Charles Baudelaire"
-      }
+      { "q": "Quel écrivain britannique a créé l'agent secret James Bond ?", "a": "Ian Fleming" },
+      { "q": "Quel auteur français du XIXe est l'auteur de 'Madame Bovary' ?", "a": "Gustave Flaubert" },
+      { "q": "Quel romancier américain a écrit 'Le Vieil Homme et la Mer' ?", "a": "Ernest Hemingway" },
+      { "q": "Quel personnage de Bram Stoker est un vampire transylvanien ?", "a": "Dracula" },
+      { "q": "Quel auteur russe a écrit 'Crime et Châtiment', publié en 1866 ?", "a": "Fiodor Dostoïevski" },
+      { "q": "Quel poète français est l'auteur des 'Fleurs du mal' publiées en 1857 ?", "a": "Charles Baudelaire" },
+      { "q": "Quel romancier anglais a écrit 'Oliver Twist' et 'David Copperfield' ?", "a": "Charles Dickens" },
+      { "q": "Quel écrivain américain a créé le personnage de Tarzan, élevé par les grands singes ?", "a": "Edgar Rice Burroughs" },
+      { "q": "Quel romancier français a écrit 'Le Comte de Monte-Cristo' ?", "a": "Alexandre Dumas" },
+      { "q": "Quel romancier américain a écrit 'Les Aventures de Tom Sawyer' ?", "a": "Mark Twain" },
+      { "q": "Quel auteur russe est l'auteur de 'Guerre et Paix', vaste fresque sur les guerres napoléoniennes ?", "a": "Léon Tolstoï" },
+      { "q": "Quel philosophe-romancier français a écrit 'L'Étranger', publié en 1942 chez Gallimard ?", "a": "Albert Camus" },
+      { "q": "Quel écrivain américain a créé le détective Sam Spade dans 'Le Faucon maltais' ?", "a": "Dashiell Hammett" },
+      { "q": "Quel auteur français a écrit 'Vingt mille lieues sous les mers' avec le capitaine Nemo ?", "a": "Jules Verne" },
+      { "q": "Quel personnage de Kipling vit dans la jungle avec une panthère et un ours ?", "a": "Mowgli" }
     ],
     "3": [
-      {
-        "q": "De quel pays est originaire Gabriel García Márquez ?",
-        "a": "Colombie"
-      },
-      {
-        "q": "De quel pays est originaire Haruki Murakami ?",
-        "a": "Japon"
-      },
-      {
-        "q": "Qui a créé le personnage d’Hercule Poirot ?",
-        "a": "Agatha Christie"
-      },
-      {
-        "q": "Quelle héroïne aime Mr. Rochester dans « Jane Eyre » ?",
-        "a": "Jane Eyre"
-      },
-      {
-        "q": "Quel roman commence par « Longtemps, je me suis couché de bonne heure » ?",
-        "a": "Du côté de chez Swann"
-      },
-      {
-        "q": "Qui a écrit « Le Meilleur des mondes » ?",
-        "a": "Aldous Huxley"
-      },
-      {
-        "q": "Qui a écrit « La Chartreuse de Parme » ?",
-        "a": "Stendhal"
-      },
-      {
-        "q": "Qui a écrit « Notre-Dame de Paris » ?",
-        "a": "Victor Hugo"
-      },
-      {
-        "q": "Quel écrivain russe a écrit « Crime et Châtiment » ?",
-        "a": "Fiodor Dostoïevski"
-      },
-      {
-        "q": "Quel auteur a écrit « Dix Petits Nègres » (titre original) ?",
-        "a": "Agatha Christie"
-      }
+      { "q": "Quel romancier français du XIXe est l'auteur de la saga des 'Rougon-Macquart' ?", "a": "Émile Zola" },
+      { "q": "Quelle autrice britannique a écrit 'Orgueil et Préjugés' en 1813 ?", "a": "Jane Austen" },
+      { "q": "Quel écrivain français a écrit 'Le Rouge et le Noir' avec Julien Sorel pour héros ?", "a": "Stendhal" },
+      { "q": "Quel auteur américain a écrit 'L'Attrape-cœurs' en 1951 avec le héros Holden Caulfield ?", "a": "J.D. Salinger" },
+      { "q": "Quel romancier colombien a écrit 'Cent ans de solitude', chef-d'œuvre du réalisme magique ?", "a": "Gabriel García Márquez" },
+      { "q": "Quel auteur tchèque a écrit 'La Métamorphose' en 1915, où Gregor Samsa devient un insecte ?", "a": "Franz Kafka" },
+      { "q": "Quel philosophe français a écrit la pièce 'Huis clos' où l'enfer, c'est les autres ?", "a": "Jean-Paul Sartre" },
+      { "q": "Quel poète français du XIXe est l'auteur du recueil 'Les Contemplations' ?", "a": "Victor Hugo" },
+      { "q": "Quel auteur américain a écrit 'Gatsby le Magnifique', icône des années folles ?", "a": "F. Scott Fitzgerald" },
+      { "q": "Quel romancier britannique a imaginé '1984', dystopie publiée en 1949 ?", "a": "George Orwell" },
+      { "q": "Quel auteur a créé le personnage du détective belge Hercule Poirot ?", "a": "Agatha Christie" },
+      { "q": "Quel écrivain français a écrit 'Bel-Ami' et 'Boule de Suif' ?", "a": "Guy de Maupassant" },
+      { "q": "Quel romancier russe est l'auteur d''Anna Karénine', drame conjugal publié en 1877 ?", "a": "Léon Tolstoï" },
+      { "q": "Quel romancier britannique a écrit 'Le Meilleur des mondes' en 1932 ?", "a": "Aldous Huxley" },
+      { "q": "Quel auteur a écrit la pièce 'Cyrano de Bergerac' créée en 1897 ?", "a": "Edmond Rostand" }
     ],
     "4": [
-      {
-        "q": "Qui a écrit « Cent ans de solitude » ?",
-        "a": "Gabriel García Márquez"
-      },
-      {
-        "q": "Qui a écrit « La Peste » ?",
-        "a": "Albert Camus"
-      },
-      {
-        "q": "Quel poète a écrit « Les Contemplations » ?",
-        "a": "Victor Hugo"
-      },
-      {
-        "q": "Qui a écrit « Voyage au bout de la nuit » ?",
-        "a": "Louis-Ferdinand Céline"
-      },
-      {
-        "q": "Quel auteur a écrit « Le Procès » ?",
-        "a": "Franz Kafka"
-      },
-      {
-        "q": "Qui a écrit « Le Vieil Homme et la Mer » et a obtenu le Nobel ?",
-        "a": "Ernest Hemingway"
-      },
-      {
-        "q": "Quel auteur a écrit « La Condition humaine » ?",
-        "a": "André Malraux"
-      },
-      {
-        "q": "Qui a écrit « Belle du Seigneur » ?",
-        "a": "Albert Cohen"
-      },
-      {
-        "q": "Quel écrivain a créé le personnage de D’Artagnan ?",
-        "a": "Alexandre Dumas"
-      },
-      {
-        "q": "Qui est l’auteur de « Les Trois Mousquetaires » ?",
-        "a": "Alexandre Dumas"
-      }
+      { "q": "Quel auteur britannique a créé le personnage de Sherlock Holmes ?", "a": "Arthur Conan Doyle" },
+      { "q": "Quel romancier français est l'auteur d''À la recherche du temps perdu' ?", "a": "Marcel Proust" },
+      { "q": "Quel dramaturge français du XVIIe a écrit 'Le Misanthrope' et 'Tartuffe' ?", "a": "Molière" },
+      { "q": "Quel auteur français a créé le personnage de Fantômas avec Marcel Allain ?", "a": "Pierre Souvestre" },
+      { "q": "Quel auteur tchèque a écrit 'Le Procès', publié à titre posthume en 1925 ?", "a": "Franz Kafka" },
+      { "q": "Quel poète français est l'auteur du recueil 'Alcools' publié en 1913 ?", "a": "Guillaume Apollinaire" },
+      { "q": "Quel auteur américain a écrit 'Pour qui sonne le glas' sur la guerre d'Espagne ?", "a": "Ernest Hemingway" },
+      { "q": "Quel écrivain britannique a écrit 'Le Portrait de Dorian Gray' ?", "a": "Oscar Wilde" },
+      { "q": "Quel poète français adolescent a écrit 'Le Bateau ivre' avant de cesser d'écrire ?", "a": "Arthur Rimbaud" },
+      { "q": "Quel auteur français a écrit 'La Peste' publiée en 1947, située à Oran en Algérie ?", "a": "Albert Camus" },
+      { "q": "Quel auteur russe est l'auteur des 'Frères Karamazov', son dernier roman publié en 1880 ?", "a": "Fiodor Dostoïevski" },
+      { "q": "Quel écrivain américain a écrit 'Les Raisins de la colère' en 1939 ?", "a": "John Steinbeck" },
+      { "q": "Quel auteur français a écrit 'Germinal' sur les mineurs du Nord ?", "a": "Émile Zola" },
+      { "q": "Quel romancier britannique a écrit 'Robinson Crusoé' en 1719 ?", "a": "Daniel Defoe" },
+      { "q": "Quel poète français du XVIe a écrit 'Mignonne, allons voir si la rose…' ?", "a": "Pierre de Ronsard" }
     ],
     "5": [
-      {
-        "q": "Quel écrivain a reçu le Nobel pour « Cent ans de solitude » ?",
-        "a": "Gabriel García Márquez"
-      },
-      {
-        "q": "Qui a écrit « La Divine Comédie » ?",
-        "a": "Dante Alighieri"
-      },
-      {
-        "q": "Qui a écrit « Faust » ?",
-        "a": "Goethe"
-      },
-      {
-        "q": "Qui a écrit « Le Décaméron » ?",
-        "a": "Boccace"
-      },
-      {
-        "q": "Quel auteur a écrit « Les Frères Karamazov » ?",
-        "a": "Fiodor Dostoïevski"
-      },
-      {
-        "q": "Qui a écrit « Guerre et Paix » ?",
-        "a": "Léon Tolstoï"
-      },
-      {
-        "q": "Qui a écrit « Le Bruit et la Fureur » ?",
-        "a": "William Faulkner"
-      },
-      {
-        "q": "Qui a écrit « Moby Dick » ?",
-        "a": "Herman Melville"
-      },
-      {
-        "q": "Qui a écrit « Ulysse » ?",
-        "a": "James Joyce"
-      },
-      {
-        "q": "Qui a écrit « Les Liaisons dangereuses » ?",
-        "a": "Choderlos de Laclos"
-      }
+      { "q": "Quel courant littéraire du XIXe siècle illustré par Hugo et Lamartine met l'accent sur le sentiment ?", "a": "Romantisme" },
+      { "q": "Quel poète français a écrit 'Le Spleen de Paris' en proses poétiques ?", "a": "Charles Baudelaire" },
+      { "q": "Quel romancier français a écrit 'Voyage au bout de la nuit' en 1932 ?", "a": "Louis-Ferdinand Céline" },
+      { "q": "Quel auteur argentin est célèbre pour ses 'Fictions' et son labyrinthe borgésien ?", "a": "Jorge Luis Borges" },
+      { "q": "Quel courant littéraire est fondé par André Breton avec son manifeste de 1924 ?", "a": "Surréalisme" },
+      { "q": "Quel romancier français a écrit 'La Condition humaine', prix Goncourt 1933 ?", "a": "André Malraux" },
+      { "q": "Quel auteur américain a écrit 'Sur la route', roman culte de la Beat Generation ?", "a": "Jack Kerouac" },
+      { "q": "Quel romancier français est l'auteur de 'Belle du Seigneur' publié en 1968 ?", "a": "Albert Cohen" },
+      { "q": "Quel courant littéraire du XVIIe siècle prône la raison et le respect des règles ?", "a": "Classicisme" },
+      { "q": "Quel poète français du XIXe a écrit 'Une saison en enfer', publié à compte d'auteur en 1873 ?", "a": "Arthur Rimbaud" },
+      { "q": "Quel auteur français a remporté le Goncourt 1956 pour 'Les Racines du ciel' ?", "a": "Romain Gary" },
+      { "q": "Quel romancier français a écrit 'L'Écume des jours' en 1947 ?", "a": "Boris Vian" },
+      { "q": "Quel écrivain américain a écrit 'Tendre est la nuit' publié en 1934 ?", "a": "F. Scott Fitzgerald" },
+      { "q": "Quel poète français est l'auteur des 'Méditations poétiques' publiées en 1820 ?", "a": "Alphonse de Lamartine" },
+      { "q": "Quelle autrice anglaise a écrit 'Les Hauts de Hurlevent' publié en 1847 ?", "a": "Emily Brontë" }
     ],
     "6": [
-      {
-        "q": "Quel dramaturge a écrit « Hamlet » ?",
-        "a": "William Shakespeare"
-      },
-      {
-        "q": "Quel dramaturge a écrit « Phèdre » ?",
-        "a": "Jean Racine"
-      },
-      {
-        "q": "Quel dramaturge a écrit « Le Cid » ?",
-        "a": "Pierre Corneille"
-      },
-      {
-        "q": "Quel dramaturge a écrit « Tartuffe » ?",
-        "a": "Molière"
-      },
-      {
-        "q": "Qui a écrit « En attendant Godot » ?",
-        "a": "Samuel Beckett"
-      },
-      {
-        "q": "Qui a écrit « Rhinocéros » ?",
-        "a": "Eugène Ionesco"
-      },
-      {
-        "q": "Qui a écrit « Antigone » (version moderne, 1944) ?",
-        "a": "Jean Anouilh"
-      },
-      {
-        "q": "Quel auteur a écrit « Huis clos » ?",
-        "a": "Jean-Paul Sartre"
-      },
-      {
-        "q": "Qui a écrit « Cyrano de Bergerac » ?",
-        "a": "Edmond Rostand"
-      },
-      {
-        "q": "Qui a écrit « Mère Courage et ses enfants » ?",
-        "a": "Bertolt Brecht"
-      }
+      { "q": "Quel écrivain irlandais est l'auteur d''Ulysse', roman moderniste publié en 1922 ?", "a": "James Joyce" },
+      { "q": "Quel romancier français a écrit 'Les Faux-Monnayeurs' en 1925 ?", "a": "André Gide" },
+      { "q": "Quel poète français est l'auteur de 'Capitale de la douleur' en 1926 ?", "a": "Paul Éluard" },
+      { "q": "Quelle autrice française a remporté le Goncourt 1984 pour 'L'Amant' ?", "a": "Marguerite Duras" },
+      { "q": "Quel courant littéraire du XIXe défendu par Zola applique méthodes scientifiques au roman ?", "a": "Naturalisme" },
+      { "q": "Quelle écrivaine britannique a écrit 'Mrs Dalloway' et 'La Promenade au phare' ?", "a": "Virginia Woolf" },
+      { "q": "Quel romancier américain a écrit 'Le Bruit et la Fureur' en 1929 ?", "a": "William Faulkner" },
+      { "q": "Quel poète français est l'auteur du recueil 'Paroles' publié en 1946 ?", "a": "Jacques Prévert" },
+      { "q": "Quel romancier français a écrit 'Le Père Goriot' et 'Eugénie Grandet' ?", "a": "Honoré de Balzac" },
+      { "q": "Quel auteur russe a écrit 'Le Maître et Marguerite', roman publié en 1967 ?", "a": "Mikhaïl Boulgakov" },
+      { "q": "Quel écrivain américain est l'auteur du roman 'Le Dernier des Mohicans' paru en 1826 ?", "a": "James Fenimore Cooper" },
+      { "q": "Quel poète français du XVIIe a écrit 'Les Fables' en douze livres ?", "a": "Jean de La Fontaine" },
+      { "q": "Quel romancier russo-américain a écrit 'Lolita' publié en 1955 ?", "a": "Vladimir Nabokov" },
+      { "q": "Quel romancier français est l'auteur de 'L'Espoir' sur la guerre d'Espagne ?", "a": "André Malraux" },
+      { "q": "Quel auteur portugais a écrit 'L'Aveuglement' publié en 1995 ?", "a": "José Saramago" }
     ],
     "7": [
-      {
-        "q": "Quel auteur a écrit « À la recherche du temps perdu » ?",
-        "a": "Marcel Proust"
-      },
-      {
-        "q": "Quel roman de Zola se déroule dans une mine ?",
-        "a": "Germinal"
-      },
-      {
-        "q": "Quel roman de Flaubert met en scène Emma ?",
-        "a": "Madame Bovary"
-      },
-      {
-        "q": "Quel roman de Stendhal raconte l’ambition de Julien Sorel ?",
-        "a": "Le Rouge et le Noir"
-      },
-      {
-        "q": "Quel écrivain a créé le personnage de Meursault ?",
-        "a": "Albert Camus"
-      },
-      {
-        "q": "Quel auteur argentin a écrit « Fictions » ?",
-        "a": "Jorge Luis Borges"
-      },
-      {
-        "q": "Quel poète français a écrit « Une saison en enfer » ?",
-        "a": "Arthur Rimbaud"
-      },
-      {
-        "q": "Qui a écrit « Le Maître et Marguerite » ?",
-        "a": "Mikhaïl Boulgakov"
-      },
-      {
-        "q": "Quel auteur a écrit « La Nausée » ?",
-        "a": "Jean-Paul Sartre"
-      },
-      {
-        "q": "Quel auteur a écrit « Les Racines du ciel » (Goncourt) ?",
-        "a": "Romain Gary"
-      }
+      { "q": "Quel écrivain irlandais a écrit la pièce 'En attendant Godot' créée en 1953 ?", "a": "Samuel Beckett" },
+      { "q": "Quel romancier français est l'auteur de 'Sodome et Gomorrhe', tome de 'La Recherche' ?", "a": "Marcel Proust" },
+      { "q": "Quel auteur autrichien a écrit 'L'Homme sans qualités', roman inachevé ?", "a": "Robert Musil" },
+      { "q": "Quel poète français du XIXe est l'auteur des 'Romances sans paroles' ?", "a": "Paul Verlaine" },
+      { "q": "Quel romancier allemand a écrit 'La Montagne magique' publié en 1924 ?", "a": "Thomas Mann" },
+      { "q": "Quel écrivain japonais a écrit 'Le Pavillon d'or' en 1956 avant son suicide rituel en 1970 ?", "a": "Yukio Mishima" },
+      { "q": "Quel romancier français a écrit 'Aurélien' et 'Les Beaux Quartiers' ?", "a": "Louis Aragon" },
+      { "q": "Quel dramaturge français du XVIIe est l'auteur du 'Cid' créé en 1637 ?", "a": "Pierre Corneille" },
+      { "q": "Quel auteur tchèque est l'auteur de 'L'Insoutenable Légèreté de l'être' ?", "a": "Milan Kundera" },
+      { "q": "Quel poète français du XVIIIe est l'auteur de 'La jeune captive' ?", "a": "André Chénier" },
+      { "q": "Quel poète français est l'auteur du recueil 'Les Chants de Maldoror' ?", "a": "Lautréamont" },
+      { "q": "Quel romancier italien est l'auteur du 'Nom de la rose' publié en 1980 ?", "a": "Umberto Eco" },
+      { "q": "Quel romancier français a écrit 'Manon Lescaut' au XVIIIe siècle ?", "a": "Abbé Prévost" },
+      { "q": "Quel poète français du XIXe est l'auteur des 'Poèmes saturniens' ?", "a": "Paul Verlaine" },
+      { "q": "Quel romancier français a écrit 'Le Grand Meaulnes' publié en 1913 ?", "a": "Alain-Fournier" }
     ],
     "8": [
-      {
-        "q": "Quel roman de Kafka met en scène un homme transformé en insecte ?",
-        "a": "La Métamorphose"
-      },
-      {
-        "q": "Quel roman d’Orwell décrit une société de surveillance extrême ?",
-        "a": "1984"
-      },
-      {
-        "q": "Quel roman de Huxley décrit une société eugéniste et conditionnée ?",
-        "a": "Le Meilleur des mondes"
-      },
-      {
-        "q": "Quel roman de Tolstoï met en scène Anna et Vronski ?",
-        "a": "Anna Karénine"
-      },
-      {
-        "q": "Quel roman de Dostoïevski met en scène Raskolnikov ?",
-        "a": "Crime et Châtiment"
-      },
-      {
-        "q": "Quel roman de Melville raconte la traque d’un cachalot blanc ?",
-        "a": "Moby Dick"
-      },
-      {
-        "q": "Quel roman de Cervantès met en scène un hidalgo fou ?",
-        "a": "Don Quichotte"
-      },
-      {
-        "q": "Quel roman de Victor Hugo raconte une émeute à Paris autour de Marius et Cosette ?",
-        "a": "Les Misérables"
-      },
-      {
-        "q": "Quel roman de Maupassant raconte l’ascension d’un séducteur arriviste ?",
-        "a": "Bel-Ami"
-      },
-      {
-        "q": "Quel roman de Zola se déroule dans un grand magasin ?",
-        "a": "Au Bonheur des Dames"
-      }
+      { "q": "Quel romancier japonais a écrit 'Kafka sur le rivage' publié en 2002 ?", "a": "Haruki Murakami" },
+      { "q": "Quelle autrice autrichienne a écrit 'La Pianiste', adapté au cinéma par Haneke ?", "a": "Elfriede Jelinek" },
+      { "q": "Quel romancier français a écrit 'La Modification' en 1957, prix Renaudot ?", "a": "Michel Butor" },
+      { "q": "Quel courant littéraire des années 1950 réunit Robbe-Grillet, Sarraute et Butor ?", "a": "Nouveau Roman" },
+      { "q": "Quel poète français est l'auteur de la pièce 'Le Soulier de satin' ?", "a": "Paul Claudel" },
+      { "q": "Quel romancier sud-africain a remporté le Nobel 2003, auteur de 'Disgrâce' ?", "a": "J.M. Coetzee" },
+      { "q": "Quel romancier franco-américain a écrit 'Les Bienveillantes', Goncourt 2006 ?", "a": "Jonathan Littell" },
+      { "q": "Quel romancier turc est l'auteur de 'Mon nom est Rouge', Nobel 2006 ?", "a": "Orhan Pamuk" },
+      { "q": "Quel poète français du XVIe a écrit 'Les Regrets' lors d'un séjour à Rome ?", "a": "Joachim du Bellay" },
+      { "q": "Quel romancier français a écrit 'Les Choses' en 1965, prix Renaudot ?", "a": "Georges Perec" },
+      { "q": "Quel romancier russe est l'auteur de 'Pétersbourg' publié en 1913 ?", "a": "Andreï Biély" },
+      { "q": "Quel auteur français du XVIIIe a écrit 'Les Liaisons dangereuses' en 1782 ?", "a": "Choderlos de Laclos" },
+      { "q": "Quel poète français a écrit 'Le Parti pris des choses' publié en 1942 ?", "a": "Francis Ponge" },
+      { "q": "Quel romancier nigérian a écrit 'Le Monde s'effondre' publié en 1958 ?", "a": "Chinua Achebe" },
+      { "q": "Quel auteur français a écrit 'La Vie mode d'emploi' en 1978 ?", "a": "Georges Perec" }
     ],
     "9": [
-      {
-        "q": "Quel poète a inventé le concept de « correspondances » ?",
-        "a": "Charles Baudelaire"
-      },
-      {
-        "q": "Quel recueil de Rimbaud contient « Le Bateau ivre » ?",
-        "a": "Poésies (ou Recueils divers de Rimbaud, souvent associé à « Une saison en enfer » et « Illuminations »)"
-      },
-      {
-        "q": "Quel poète a écrit « Le Dormeur du val » ?",
-        "a": "Arthur Rimbaud"
-      },
-      {
-        "q": "Qui a écrit « Les Chants de Maldoror » ?",
-        "a": "Lautréamont (Isidore Ducasse)"
-      },
-      {
-        "q": "Quel recueil de Mallarmé contient « L’Après-midi d’un faune » ?",
-        "a": "Poésies (poème éponyme)"
-      },
-      {
-        "q": "Quel poète surréaliste a écrit « Capitale de la douleur » ?",
-        "a": "Paul Éluard"
-      },
-      {
-        "q": "Qui est l’auteur de « Alcools » ?",
-        "a": "Guillaume Apollinaire"
-      },
-      {
-        "q": "Quel poète a théorisé le « cadavre exquis » avec Breton ?",
-        "a": "Paul Éluard (avec Breton, Tzara, etc.)"
-      },
-      {
-        "q": "Quel poète a écrit « Liberté » pendant la Seconde Guerre mondiale ?",
-        "a": "Paul Éluard"
-      },
-      {
-        "q": "Quel recueil de Baudelaire a été partiellement censuré en 1857 ?",
-        "a": "Les Fleurs du mal"
-      }
+      { "q": "Quel écrivain albanais est régulièrement cité pour le Nobel et a écrit 'Le Général de l'armée morte' ?", "a": "Ismaïl Kadaré" },
+      { "q": "Quelle poétesse russe est l'autrice du 'Requiem', écrit secrètement entre 1935 et 1940 ?", "a": "Anna Akhmatova" },
+      { "q": "Quel romancier allemand a écrit 'Les Émigrants' et 'Austerlitz' ?", "a": "W.G. Sebald" },
+      { "q": "Quel poète portugais a publié sous de multiples hétéronymes dont Alvaro de Campos ?", "a": "Fernando Pessoa" },
+      { "q": "Quel romancier français a écrit la 'Vie de Henry Brulard' à titre autobiographique ?", "a": "Stendhal" },
+      { "q": "Quel philosophe roumain de langue française a écrit 'Précis de décomposition' ?", "a": "Emil Cioran" },
+      { "q": "Quel romancier français a écrit 'Locus Solus' publié en 1914 ?", "a": "Raymond Roussel" },
+      { "q": "Quel poète anglais du XVIIe est l'auteur du 'Paradis perdu' publié en 1667 ?", "a": "John Milton" },
+      { "q": "Quel romancier autrichien a écrit 'La Marche de Radetzky' en 1932 ?", "a": "Joseph Roth" },
+      { "q": "Quel romancier français a écrit 'Le Rivage des Syrtes' en 1951, refusant le Goncourt ?", "a": "Julien Gracq" },
+      { "q": "Quel romancier suisse de langue allemande est l'auteur de 'L'Institut Benjamenta' ?", "a": "Robert Walser" },
+      { "q": "Quel romancier mexicain est l'auteur de 'Pedro Páramo' publié en 1955 ?", "a": "Juan Rulfo" },
+      { "q": "Quel poète russe est l'auteur du recueil 'La Pierre' publié en 1913 ?", "a": "Ossip Mandelstam" },
+      { "q": "Quel romancier français a écrit 'Les Géorgiques' publié en 1981 ?", "a": "Claude Simon" },
+      { "q": "Quel poète grec moderne a remporté le Nobel 1979, auteur d''Axion Esti' ?", "a": "Odysséas Elýtis" }
     ],
     "10": [
-      {
-        "q": "Quel écrivain a popularisé le monologue intérieur dans « Ulysse » ?",
-        "a": "James Joyce"
-      },
-      {
-        "q": "Quel roman de Proust explore la mémoire involontaire avec la madeleine ?",
-        "a": "Du côté de chez Swann"
-      },
-      {
-        "q": "Quel roman de Faulkner met en scène des points de vue multiples et un temps éclaté ?",
-        "a": "Le Bruit et la Fureur"
-      },
-      {
-        "q": "Quel roman de Musil est resté inachevé et monumental ?",
-        "a": "L’Homme sans qualités"
-      },
-      {
-        "q": "Quel roman de Borges est célèbre pour ses labyrinthes textuels ? (recueil)",
-        "a": "Fictions"
-      },
-      {
-        "q": "Quel roman de Nabokov met en scène Humbert Humbert ?",
-        "a": "Lolita"
-      },
-      {
-        "q": "Quel roman de Bulgakov mêle le diable et Moscou ?",
-        "a": "Le Maître et Marguerite"
-      },
-      {
-        "q": "Quel roman de Calvino explore des villes imaginaires ?",
-        "a": "Les Villes invisibles"
-      },
-      {
-        "q": "Quel roman de García Márquez incarne le réalisme magique dans la ville de Macondo ?",
-        "a": "Cent ans de solitude"
-      },
-      {
-        "q": "Quel roman de Thomas Mann raconte la vie d’un compositeur et questionne le génie et la morale ?",
-        "a": "Docteur Faustus"
-      }
+      { "q": "Quel écrivain hongrois a remporté le Nobel 2002 pour 'Être sans destin' ?", "a": "Imre Kertész" },
+      { "q": "Quel poète polonais Nobel 1980 est l'auteur de 'La Pensée captive' ?", "a": "Czesław Miłosz" },
+      { "q": "Quel romancier autrichien a publié 'Les Somnambules' en trois volumes en 1931-1932 ?", "a": "Hermann Broch" },
+      { "q": "Quel poète péruvien est l'auteur du recueil 'Trilce' publié en 1922 ?", "a": "César Vallejo" },
+      { "q": "Quel romancier yougoslave a remporté le Nobel 1961 pour 'Le Pont sur la Drina' ?", "a": "Ivo Andrić" },
+      { "q": "Quel romancier islandais a remporté le Nobel 1955, auteur de 'Salka Valka' ?", "a": "Halldór Laxness" },
+      { "q": "Quelle poétesse autrichienne est l'autrice du recueil 'Le Temps en sursis' en 1953 ?", "a": "Ingeborg Bachmann" },
+      { "q": "Quel romancier portugais Nobel 1998 a écrit 'L'Année de la mort de Ricardo Reis' ?", "a": "José Saramago" },
+      { "q": "En quelle année Marcel Proust publie-t-il 'Du côté de chez Swann', premier tome de 'La Recherche' ?", "a": "1913" },
+      { "q": "Quel romancier soudanais est l'auteur de 'Saison de la migration vers le Nord' en 1966 ?", "a": "Tayeb Salih" },
+      { "q": "Quel poète italien Nobel 1959 est l'auteur du recueil 'La Vie n'est pas un rêve' ?", "a": "Salvatore Quasimodo" },
+      { "q": "Quel romancier roumain est l'auteur de la trilogie 'Les Trois Juments' ?", "a": "Liviu Rebreanu" },
+      { "q": "Quel poète chilien Nobel 1971 est l'auteur du 'Chant général' publié en 1950 ?", "a": "Pablo Neruda" },
+      { "q": "Quel romancier suédois Nobel 1974 est l'auteur du 'Nain' en 1944 ?", "a": "Pär Lagerkvist" },
+      { "q": "Quel romancier polonais Nobel 1924 est l'auteur de la tétralogie 'Les Paysans' ?", "a": "Władysław Reymont" }
     ]
   }
 }

@@ -3,424 +3,174 @@
   "name": "Géographie",
   "questions": {
     "1": [
-      {
-        "q": "Quelle est la capitale de la France ?",
-        "a": "Paris"
-      },
-      {
-        "q": "Quelle est la capitale de l’Espagne ?",
-        "a": "Madrid"
-      },
-      {
-        "q": "Quelle est la capitale de l’Italie ?",
-        "a": "Rome"
-      },
-      {
-        "q": "Quelle est la capitale de l’Allemagne ?",
-        "a": "Berlin"
-      },
-      {
-        "q": "Dans quel pays se trouve le mont Fuji ?",
-        "a": "Japon"
-      },
-      {
-        "q": "Quel détroit sépare l’Espagne du Maroc ?",
-        "a": "Gibraltar"
-      },
-      {
-        "q": "Quel océan borde l’ouest de l’Europe ?",
-        "a": "Atlantique"
-      },
-      {
-        "q": "Quel grand désert couvre le nord de l’Afrique ?",
-        "a": "Sahara"
-      },
-      {
-        "q": "Quel fleuve traverse Paris ?",
-        "a": "La Seine"
-      },
-      {
-        "q": "Quelle est la capitale du Royaume-Uni ?",
-        "a": "Londres"
-      }
+      { "q": "Quelle est la capitale de la France ?", "a": "Paris" },
+      { "q": "Quel est le plus long fleuve de France ?", "a": "La Loire" },
+      { "q": "Quelle est la capitale de l'Italie, surnommée la Ville éternelle ?", "a": "Rome" },
+      { "q": "Quel océan borde la côte ouest de la France métropolitaine ?", "a": "L'océan Atlantique" },
+      { "q": "Quelle mer sépare la France du Royaume-Uni au niveau de Calais ?", "a": "La Manche" },
+      { "q": "Sur quel continent se trouve l'Égypte ?", "a": "L'Afrique" },
+      { "q": "Quelle est la capitale de l'Espagne ?", "a": "Madrid" },
+      { "q": "Quel est le plus grand océan du monde ?", "a": "L'océan Pacifique" },
+      { "q": "Quelle chaîne de montagnes sépare la France de l'Espagne ?", "a": "Les Pyrénées" },
+      { "q": "Quelle est la capitale de l'Allemagne, longtemps coupée en deux par un mur ?", "a": "Berlin" },
+      { "q": "Sur quel continent se trouve le Brésil ?", "a": "L'Amérique du Sud" },
+      { "q": "Quel pays a pour capitale Londres ?", "a": "Le Royaume-Uni" },
+      { "q": "Quel désert s'étend sur le nord de l'Afrique ?", "a": "Le Sahara" },
+      { "q": "Quel est le plus grand pays du monde par sa superficie ?", "a": "La Russie" },
+      { "q": "Quel fleuve traverse Paris ?", "a": "La Seine" }
     ],
     "2": [
-      {
-        "q": "Quelle est la capitale du Portugal ?",
-        "a": "Lisbonne"
-      },
-      {
-        "q": "Quelle est la capitale de la Grèce ?",
-        "a": "Athènes"
-      },
-      {
-        "q": "Quelle est la capitale du Canada ?",
-        "a": "Ottawa"
-      },
-      {
-        "q": "Quelle ville est considérée comme la capitale de la Suisse ?",
-        "a": "Berne"
-      },
-      {
-        "q": "Quelle est la capitale des Pays-Bas ?",
-        "a": "Amsterdam"
-      },
-      {
-        "q": "Quel est le plus grand pays du monde par superficie ?",
-        "a": "La Russie"
-      },
-      {
-        "q": "Quel est le plus petit État du monde ?",
-        "a": "La Cité du Vatican"
-      },
-      {
-        "q": "Quel est le seul pays lusophone d’Amérique du Sud ?",
-        "a": "Le Brésil"
-      },
-      {
-        "q": "Quelle chaîne de montagnes sépare la France et l’Espagne ?",
-        "a": "Les Pyrénées"
-      },
-      {
-        "q": "Comment s’appelle la mer entre la France et l’Angleterre ?",
-        "a": "La Manche"
-      }
+      { "q": "Quelle est la capitale du Portugal, port atlantique au bord du Tage ?", "a": "Lisbonne" },
+      { "q": "Quel pays a pour capitale Tokyo ?", "a": "Le Japon" },
+      { "q": "Quel est le plus haut sommet d'Europe occidentale, à la frontière franco-italienne ?", "a": "Le mont Blanc" },
+      { "q": "Quelle mer sépare l'Italie de la Croatie ?", "a": "La mer Adriatique" },
+      { "q": "Quel est le plus long fleuve du monde ?", "a": "Le Nil" },
+      { "q": "Quelle est la capitale de la Belgique, siège des institutions européennes ?", "a": "Bruxelles" },
+      { "q": "Quel pays a la forme d'une botte en Europe du Sud ?", "a": "L'Italie" },
+      { "q": "Quel détroit sépare l'Europe de l'Afrique au sud de l'Espagne ?", "a": "Le détroit de Gibraltar" },
+      { "q": "Quelle est la capitale de la Grèce, dominée par l'Acropole ?", "a": "Athènes" },
+      { "q": "Quel pays nordique a pour capitale Stockholm ?", "a": "La Suède" },
+      { "q": "Quel océan se trouve entre l'Afrique et l'Australie ?", "a": "L'océan Indien" },
+      { "q": "Quel État américain est composé d'un archipel volcanique du Pacifique ?", "a": "Hawaï" },
+      { "q": "Quelle est la capitale des Pays-Bas, célèbre pour ses canaux ?", "a": "Amsterdam" },
+      { "q": "Quel fleuve traverse Londres ?", "a": "La Tamise" },
+      { "q": "Quelle est la mer fermée la plus salée d'Europe, située entre l'Iran et la Russie ?", "a": "La mer Caspienne" }
     ],
     "3": [
-      {
-        "q": "Quelle est la capitale de la Turquie ?",
-        "a": "Ankara"
-      },
-      {
-        "q": "Quelle est la capitale de l’Australie ?",
-        "a": "Canberra"
-      },
-      {
-        "q": "Quelle est la capitale du Maroc ?",
-        "a": "Rabat"
-      },
-      {
-        "q": "Quelle est la capitale de l’Égypte ?",
-        "a": "Le Caire"
-      },
-      {
-        "q": "Quel est le plus grand lac d’Afrique ?",
-        "a": "Le lac Victoria"
-      },
-      {
-        "q": "Quel est le plus haut sommet d’Afrique ?",
-        "a": "Le Kilimandjaro"
-      },
-      {
-        "q": "Comment s’appelle la péninsule qui regroupe l’Espagne et le Portugal ?",
-        "a": "La péninsule Ibérique"
-      },
-      {
-        "q": "Quel grand pays insulaire se trouve au large de l’Afrique australe ?",
-        "a": "Madagascar"
-      },
-      {
-        "q": "Quelle est la grande chaîne de montagnes le long de la côte ouest de l’Amérique du Sud ?",
-        "a": "Les Andes"
-      },
-      {
-        "q": "Quel fleuve traverse Londres ?",
-        "a": "La Tamise"
-      }
+      { "q": "Quelle est la capitale de la Hongrie, traversée par le Danube ?", "a": "Budapest" },
+      { "q": "Quel fleuve traverse Vienne, Bratislava, Budapest et Belgrade ?", "a": "Le Danube" },
+      { "q": "Quelle est la capitale du Canada ?", "a": "Ottawa" },
+      { "q": "Quel pays africain a pour capitale Le Caire ?", "a": "L'Égypte" },
+      { "q": "Quelle chaîne de montagnes traverse l'Amérique du Sud le long du Pacifique ?", "a": "La cordillère des Andes" },
+      { "q": "Quel est le plus grand lac d'Afrique, partagé par plusieurs pays riverains ?", "a": "Le lac Victoria" },
+      { "q": "Quelle est la capitale de l'Irlande, traversée par la Liffey ?", "a": "Dublin" },
+      { "q": "Quel pays scandinave a pour capitale Oslo ?", "a": "La Norvège" },
+      { "q": "Quelle péninsule abrite l'Espagne et le Portugal ?", "a": "La péninsule Ibérique" },
+      { "q": "Quelle est la capitale de la Pologne ?", "a": "Varsovie" },
+      { "q": "Quel pays insulaire est aussi un continent à lui seul ?", "a": "L'Australie" },
+      { "q": "Quel grand fleuve traverse l'Amazonie brésilienne ?", "a": "L'Amazone" },
+      { "q": "Quelle est la capitale du Maroc ?", "a": "Rabat" },
+      { "q": "Quelle île française est divisée entre les départements de Corse-du-Sud et de Haute-Corse ?", "a": "La Corse" },
+      { "q": "Quel est le plus grand désert froid du monde ?", "a": "L'Antarctique" }
     ],
     "4": [
-      {
-        "q": "Quelle est la capitale de la Nouvelle-Zélande ?",
-        "a": "Wellington"
-      },
-      {
-        "q": "Quelle est la capitale du Nigeria ?",
-        "a": "Abuja"
-      },
-      {
-        "q": "Quelle est la capitale du Viêt Nam ?",
-        "a": "Hanoï"
-      },
-      {
-        "q": "Quelle est la capitale de la Corée du Sud ?",
-        "a": "Séoul"
-      },
-      {
-        "q": "Quel détroit sépare l’Asie de l’Amérique du Nord ?",
-        "a": "Le détroit de Béring"
-      },
-      {
-        "q": "Quel désert se situe entre la Chine et la Mongolie ?",
-        "a": "Le désert de Gobi"
-      },
-      {
-        "q": "Quel est le lac le plus profond du monde ?",
-        "a": "Le lac Baïkal"
-      },
-      {
-        "q": "Quel est le plus long fleuve d’Europe ?",
-        "a": "La Volga"
-      },
-      {
-        "q": "Quel micro-État est entièrement enclavé dans l’Italie (hors Vatican) ?",
-        "a": "Saint-Marin"
-      },
-      {
-        "q": "Quel est le plus haut sommet des Alpes ?",
-        "a": "Le mont Blanc"
-      }
+      { "q": "Quel fleuve traverse Berlin ?", "a": "La Spree" },
+      { "q": "Quelle est la capitale du Vietnam ?", "a": "Hanoï" },
+      { "q": "Quel détroit sépare l'Europe de l'Asie au niveau d'Istanbul ?", "a": "Le Bosphore" },
+      { "q": "Quelle est la capitale de l'Argentine, sur le Río de la Plata ?", "a": "Buenos Aires" },
+      { "q": "Quel pic est le point culminant des Pyrénées françaises ?", "a": "Le Vignemale" },
+      { "q": "Quel pays africain a pour capitale Nairobi ?", "a": "Le Kenya" },
+      { "q": "Quelle est la capitale de la Turquie ?", "a": "Ankara" },
+      { "q": "Quel fleuve français se jette dans la Méditerranée par un large delta camarguais ?", "a": "Le Rhône" },
+      { "q": "Quelle est la capitale du Chili, blottie au pied des Andes ?", "a": "Santiago" },
+      { "q": "Quel pays asiatique est le plus peuplé après l'Inde ?", "a": "La Chine" },
+      { "q": "Quelle mer borde la côte sud de la France métropolitaine ?", "a": "La mer Méditerranée" },
+      { "q": "Quelle est la capitale de la Finlande ?", "a": "Helsinki" },
+      { "q": "Quel canal relie la mer Méditerranée à la mer Rouge depuis 1869 ?", "a": "Le canal de Suez" },
+      { "q": "Quel grand parc naturel américain est mondialement connu pour ses geysers ?", "a": "Yellowstone" },
+      { "q": "Quelle est la plus grande île de la Méditerranée ?", "a": "La Sicile" }
     ],
     "5": [
-      {
-        "q": "Quelle est la capitale du Kazakhstan ?",
-        "a": "Astana"
-      },
-      {
-        "q": "Quelle est la capitale constitutionnelle de la Bolivie ?",
-        "a": "Sucre"
-      },
-      {
-        "q": "Quelle est la capitale politique de la Côte d’Ivoire ?",
-        "a": "Yamoussoukro"
-      },
-      {
-        "q": "Quelle est la capitale de la Tanzanie ?",
-        "a": "Dodoma"
-      },
-      {
-        "q": "Quelle est la capitale du Myanmar (Birmanie) ?",
-        "a": "Naypyidaw"
-      },
-      {
-        "q": "Quel pays enclavé d’Asie du Sud-Est est situé entre la Thaïlande et le Vietnam ?",
-        "a": "Le Laos"
-      },
-      {
-        "q": "Quel fleuve traverse Bagdad ?",
-        "a": "Le Tigre"
-      },
-      {
-        "q": "Quel vaste plan d’eau fermé d’Eurasie est souvent appelé une mer ?",
-        "a": "La mer Caspienne"
-      },
-      {
-        "q": "Quel est le plus grand désert au monde (tous types confondus) ?",
-        "a": "L’Antarctique"
-      },
-      {
-        "q": "Quelle chaîne sépare en partie l’Europe et l’Asie en Russie ?",
-        "a": "L’Oural"
-      }
+      { "q": "Quelle est la capitale du Pérou, fondée par Pizarro en 1535 ?", "a": "Lima" },
+      { "q": "Quel fleuve sépare le Mexique des États-Unis sur une longue distance ?", "a": "Le Rio Grande" },
+      { "q": "Quelle est la capitale de la Bulgarie ?", "a": "Sofia" },
+      { "q": "Quel cap est la pointe la plus méridionale du continent africain ?", "a": "Le cap des Aiguilles" },
+      { "q": "Quelle est la capitale du Sénégal, presqu'île tournée vers l'Atlantique ?", "a": "Dakar" },
+      { "q": "Quel volcan domine la baie de Naples et a détruit Pompéi en 79 ?", "a": "Le Vésuve" },
+      { "q": "Quelle est la capitale de la Roumanie ?", "a": "Bucarest" },
+      { "q": "Quel grand lac salé d'Asie centrale s'est largement asséché depuis 1960 ?", "a": "La mer d'Aral" },
+      { "q": "Quelle chaîne de montagnes sépare l'Europe de l'Asie en Russie ?", "a": "L'Oural" },
+      { "q": "Quelle est la capitale de la Nouvelle-Zélande ?", "a": "Wellington" },
+      { "q": "Quel pays d'Amérique centrale est traversé par un canal interocéanique majeur ?", "a": "Le Panama" },
+      { "q": "Quelle région française a pour préfecture Strasbourg ?", "a": "Le Grand Est" },
+      { "q": "Quel pays insulaire d'Asie du Sud-Est a Manille pour capitale ?", "a": "Les Philippines" },
+      { "q": "Quel est le plus haut sommet des Alpes françaises après le mont Blanc ?", "a": "La Barre des Écrins" },
+      { "q": "Quelle est la capitale de Cuba ?", "a": "La Havane" }
     ],
     "6": [
-      {
-        "q": "Quelle est la capitale de l’Éthiopie ?",
-        "a": "Addis-Abeba"
-      },
-      {
-        "q": "Quelle est la capitale de la Mongolie ?",
-        "a": "Oulan-Bator"
-      },
-      {
-        "q": "Quelle est la capitale du Népal ?",
-        "a": "Katmandou"
-      },
-      {
-        "q": "Quelle est la capitale de l’Azerbaïdjan ?",
-        "a": "Bakou"
-      },
-      {
-        "q": "Quelle est la capitale de la Colombie ?",
-        "a": "Bogota"
-      },
-      {
-        "q": "Quel État insulaire de Méditerranée forme un archipel entre la Sicile et la Tunisie ?",
-        "a": "Malte"
-      },
-      {
-        "q": "Quel est le point émergé le plus bas de la surface terrestre ?",
-        "a": "Le rivage de la mer Morte"
-      },
-      {
-        "q": "Quel fleuve traverse Budapest ?",
-        "a": "Le Danube"
-      },
-      {
-        "q": "Quel détroit relie la mer Rouge au golfe d’Aden ?",
-        "a": "Bab el-Mandeb"
-      },
-      {
-        "q": "Quel désert s’étend en Arizona et au nord-ouest du Mexique (Sonora/Basse-Californie) ?",
-        "a": "Le désert de Sonora"
-      }
+      { "q": "Quelle est la capitale du Kazakhstan, transférée depuis Almaty en 1997 ?", "a": "Astana" },
+      { "q": "Quel fleuve allemand se jette dans la mer du Nord après avoir traversé Hambourg ?", "a": "L'Elbe" },
+      { "q": "Quelle est la capitale de la Lettonie ?", "a": "Riga" },
+      { "q": "Quel détroit sépare la France du Royaume-Uni à son point le plus étroit ?", "a": "Le pas de Calais" },
+      { "q": "Quelle est la capitale de l'Éthiopie, siège de l'Union africaine ?", "a": "Addis-Abeba" },
+      { "q": "Quelle péninsule est partagée entre la Corée du Nord et la Corée du Sud ?", "a": "La péninsule coréenne" },
+      { "q": "Quelle est la capitale de la Slovénie ?", "a": "Ljubljana" },
+      { "q": "Quel grand fleuve traverse Saint-Pétersbourg avant de se jeter dans la Baltique ?", "a": "La Néva" },
+      { "q": "Quelle île grecque est la plus grande, célèbre pour le palais de Cnossos ?", "a": "La Crète" },
+      { "q": "Quelle est la capitale de la Tunisie ?", "a": "Tunis" },
+      { "q": "Quel sommet français domine le Massif central et culmine à 1885 m ?", "a": "Le puy de Sancy" },
+      { "q": "Quelle mer borde la côte est de la Suède ?", "a": "La mer Baltique" },
+      { "q": "Quelle est la capitale de l'Uruguay ?", "a": "Montevideo" },
+      { "q": "Quel pays a pour capitale Kuala Lumpur ?", "a": "La Malaisie" },
+      { "q": "Quel département français porte le numéro 75 ?", "a": "Paris (75)" }
     ],
     "7": [
-      {
-        "q": "Quelle est la capitale de l’Ouzbékistan ?",
-        "a": "Tachkent"
-      },
-      {
-        "q": "Quelle est la capitale officielle (administrative) du Sri Lanka ?",
-        "a": "Sri Jayawardenepura Kotte"
-      },
-      {
-        "q": "Quelle est la capitale de l’Érythrée ?",
-        "a": "Asmara"
-      },
-      {
-        "q": "Quelle est la capitale du Paraguay ?",
-        "a": "Asunción"
-      },
-      {
-        "q": "Quelle est la capitale de la Lituanie ?",
-        "a": "Vilnius"
-      },
-      {
-        "q": "Quel grand pays-archipel compte plus de 17 000 îles ?",
-        "a": "L’Indonésie"
-      },
-      {
-        "q": "Quel plateau d’Asie est surnommé « le toit du monde » ?",
-        "a": "Le plateau du Tibet"
-      },
-      {
-        "q": "Quelle chaîne de montagnes s’étend au Maroc, en Algérie et en Tunisie ?",
-        "a": "L’Atlas"
-      },
-      {
-        "q": "Quel désert d’Amérique du Sud est réputé le plus aride ?",
-        "a": "Le désert d’Atacama"
-      },
-      {
-        "q": "Quel fleuve forme en partie la frontière entre les États-Unis et le Mexique ?",
-        "a": "Le Rio Grande"
-      }
+      { "q": "Quelle est la capitale du Burkina Faso ?", "a": "Ouagadougou" },
+      { "q": "Quelle plaine française s'étend autour de la ville de Reims, célèbre pour son vignoble ?", "a": "La Champagne" },
+      { "q": "Quelle est la capitale de la Mongolie ?", "a": "Oulan-Bator" },
+      { "q": "Quel détroit relie la mer du Japon à la mer de Chine orientale, large d'à peine 200 km ?", "a": "Le détroit de Corée" },
+      { "q": "Quelle est la capitale de l'Azerbaïdjan, sur la Caspienne ?", "a": "Bakou" },
+      { "q": "Quel mont mythologique grec culmine à 2917 m en Thessalie ?", "a": "Le mont Olympe" },
+      { "q": "Quelle est la capitale du Bhoutan, royaume himalayen ?", "a": "Thimphou" },
+      { "q": "Quel fleuve russe est le plus long d'Europe et se jette dans la Caspienne ?", "a": "La Volga" },
+      { "q": "Quelle est la capitale du Paraguay ?", "a": "Asunción" },
+      { "q": "Quel archipel portugais est situé dans l'Atlantique au sud-ouest de Lisbonne ?", "a": "Madère" },
+      { "q": "Quelle est la capitale de l'Arménie ?", "a": "Erevan" },
+      { "q": "Quel sommet domine le massif des Vosges ?", "a": "Le Grand Ballon" },
+      { "q": "Quelle est la capitale du Cambodge ?", "a": "Phnom Penh" },
+      { "q": "Quel détroit relie la mer Noire à la mer de Marmara ?", "a": "Le détroit du Bosphore" },
+      { "q": "Quelle région française a pour préfecture Lyon ?", "a": "Auvergne-Rhône-Alpes" }
     ],
     "8": [
-      {
-        "q": "Quelle est la capitale du Bhoutan ?",
-        "a": "Thimphou"
-      },
-      {
-        "q": "Quelle est la capitale du Lesotho ?",
-        "a": "Maseru"
-      },
-      {
-        "q": "Quelle est la capitale du Malawi ?",
-        "a": "Lilongwe"
-      },
-      {
-        "q": "Quelle est la capitale du Tadjikistan ?",
-        "a": "Douchanbé"
-      },
-      {
-        "q": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
-        "a": "Port Moresby"
-      },
-      {
-        "q": "Quel est le plus grand delta du monde par la superficie des marais ?",
-        "a": "Le delta du Gange-Brahmapoutre (Sundarbans)"
-      },
-      {
-        "q": "Quelle mer au nord-est de l’Australie abrite la Grande Barrière de corail ?",
-        "a": "La mer de Corail"
-      },
-      {
-        "q": "Quelle est la plus grande île de la Méditerranée ?",
-        "a": "La Sicile"
-      },
-      {
-        "q": "Quelle grande chaîne montagneuse traverse l’Iran du nord-ouest au sud-est ?",
-        "a": "Le Zagros"
-      },
-      {
-        "q": "Comment s’appelle la dépression désertique d’Éthiopie aux extrêmes chaleurs ?",
-        "a": "La dépression du Danakil"
-      }
+      { "q": "Quel détroit sépare la Sicile de l'Italie continentale ?", "a": "Le détroit de Messine" },
+      { "q": "Quelle est la capitale du Tadjikistan ?", "a": "Douchanbé" },
+      { "q": "Quel sommet est le point culminant des Pyrénées, côté espagnol ?", "a": "Le pic d'Aneto" },
+      { "q": "Quelle est la capitale du Botswana ?", "a": "Gaborone" },
+      { "q": "Quel fleuve africain forme les chutes Victoria entre la Zambie et le Zimbabwe ?", "a": "Le Zambèze" },
+      { "q": "Quelle est la capitale du Suriname ?", "a": "Paramaribo" },
+      { "q": "Quel cap français marque la pointe la plus septentrionale du Cotentin ?", "a": "Le cap de la Hague" },
+      { "q": "Quelle est la capitale du Laos ?", "a": "Vientiane" },
+      { "q": "Quel détroit sépare l'Australie de la Nouvelle-Guinée ?", "a": "Le détroit de Torrès" },
+      { "q": "Quelle est la capitale du Honduras ?", "a": "Tegucigalpa" },
+      { "q": "Quel sommet domine la chaîne des Apennins en Italie centrale ?", "a": "Le Corno Grande" },
+      { "q": "Quelle mer s'étend à l'est de l'Australie et à l'ouest de la Nouvelle-Calédonie ?", "a": "La mer de Corail" },
+      { "q": "Quelle est la capitale officielle du Bénin ?", "a": "Porto-Novo" },
+      { "q": "Quel fleuve sibérien traverse Iakoutsk avant de se jeter dans l'océan Arctique ?", "a": "La Lena" },
+      { "q": "Quelle est la capitale du Tchad ?", "a": "N'Djamena" }
     ],
     "9": [
-      {
-        "q": "Quelle est la capitale du Kirghizistan ?",
-        "a": "Bichkek"
-      },
-      {
-        "q": "Quelle est la capitale du Suriname ?",
-        "a": "Paramaribo"
-      },
-      {
-        "q": "Quelle est la capitale de la Mauritanie ?",
-        "a": "Nouakchott"
-      },
-      {
-        "q": "Quelle est la capitale du Belize ?",
-        "a": "Belmopan"
-      },
-      {
-        "q": "Quelle est la capitale des États fédérés de Micronésie ?",
-        "a": "Palikir"
-      },
-      {
-        "q": "Quel est le plus long fleuve d’Asie ?",
-        "a": "Le Yangtsé"
-      },
-      {
-        "q": "Quelle mer intérieure relie la mer Noire à la Méditerranée via les Dardanelles ?",
-        "a": "La mer de Marmara"
-      },
-      {
-        "q": "Comment appelle-t-on l’arc volcanique qui borde le Pacifique ?",
-        "a": "La ceinture de feu du Pacifique"
-      },
-      {
-        "q": "Quel grand lac salé d’Asie centrale s’est fortement asséché depuis les années 1960 ?",
-        "a": "La mer d’Aral"
-      },
-      {
-        "q": "Quelle est l’île la plus peuplée du monde ?",
-        "a": "Java"
-      }
+      { "q": "Quel sommet alpin culmine à 4102 m dans le département des Hautes-Alpes ?", "a": "La Barre des Écrins (4102 m)" },
+      { "q": "Quelle est la capitale du Kirghizistan ?", "a": "Bichkek" },
+      { "q": "Quel cap est le point le plus à l'ouest du continent européen, au Portugal ?", "a": "Le cap da Roca" },
+      { "q": "Quelle est la capitale de l'Érythrée ?", "a": "Asmara" },
+      { "q": "Quel fleuve africain prend sa source au lac Tana en Éthiopie ?", "a": "Le Nil Bleu" },
+      { "q": "Quelle est la capitale du Lesotho ?", "a": "Maseru" },
+      { "q": "Quel sommet est le toit de la Corse ?", "a": "Le Monte Cinto" },
+      { "q": "Quelle est la capitale du Turkménistan ?", "a": "Achgabat" },
+      { "q": "Quel détroit sépare le Yémen de Djibouti à l'entrée de la mer Rouge ?", "a": "Bab-el-Mandeb" },
+      { "q": "Quelle est la capitale du Malawi ?", "a": "Lilongwe" },
+      { "q": "Quel ancien nom portait la ville d'Istanbul avant 1930 ?", "a": "Constantinople" },
+      { "q": "Quel sommet domine le massif du Mercantour, dans les Alpes-Maritimes ?", "a": "Le mont Gélas" },
+      { "q": "Quelle est la capitale du Brunei ?", "a": "Bandar Seri Begawan" },
+      { "q": "Quel fleuve chinois est surnommé le fleuve Jaune ?", "a": "Le Huang He" },
+      { "q": "Quelle est la capitale des îles Salomon ?", "a": "Honiara" }
     ],
     "10": [
-      {
-        "q": "Quel pays n’a pas de capitale officielle (le gouvernement siège à Yaren) ?",
-        "a": "Nauru"
-      },
-      {
-        "q": "Quelle est la capitale des Palaos (Peleliu/Belau) ?",
-        "a": "Ngerulmud"
-      },
-      {
-        "q": "Quelle est la capitale des Îles Marshall ?",
-        "a": "Majuro"
-      },
-      {
-        "q": "Quelle est la capitale du Burundi (depuis 2019) ?",
-        "a": "Gitega"
-      },
-      {
-        "q": "Quel est le point culminant du continent européen (au sens géographique) ?",
-        "a": "L’Elbrouz"
-      },
-      {
-        "q": "Quel est le plus grand lac du monde par superficie ?",
-        "a": "La mer Caspienne"
-      },
-      {
-        "q": "Quel archipel norvégien de l’Arctique abrite Longyearbyen ?",
-        "a": "Le Svalbard"
-      },
-      {
-        "q": "Quel est le plus grand atoll corallien du monde ?",
-        "a": "Kiritimati (île Christmas)"
-      },
-      {
-        "q": "Quel cap marque l’extrémité méridionale du continent africain ?",
-        "a": "Le cap des Aiguilles"
-      },
-      {
-        "q": "Quelle est la fosse océanique la plus profonde de la planète ?",
-        "a": "La fosse des Mariannes (Challenger Deep)"
-      }
+      { "q": "Quel est le point le plus bas émergé de la planète ?", "a": "La mer Morte (-430 m environ)" },
+      { "q": "Quelle est la capitale du Kiribati, micro-État du Pacifique ?", "a": "Tarawa-Sud" },
+      { "q": "Quel sommet est le point culminant de l'île de la Réunion ?", "a": "Le piton des Neiges" },
+      { "q": "Quel ancien nom désignait Saint-Pétersbourg entre 1924 et 1991 ?", "a": "Léningrad" },
+      { "q": "Quel district sert de capitale officieuse à Nauru, qui n'en a pas officiellement ?", "a": "Yaren" },
+      { "q": "Quel cap français est la pointe la plus occidentale de la Bretagne continentale ?", "a": "La pointe de Corsen" },
+      { "q": "Quelle est la capitale constitutionnelle de la Bolivie, distincte du siège du gouvernement ?", "a": "Sucre" },
+      { "q": "Quel sommet est le point culminant du massif vosgien ?", "a": "Le Grand Ballon (1424 m)" },
+      { "q": "Quel détroit sépare l'île japonaise de Hokkaido de Sakhaline ?", "a": "Le détroit de La Pérouse" },
+      { "q": "Quelle est la capitale du Soudan du Sud, indépendant depuis 2011 ?", "a": "Djouba" },
+      { "q": "Quel ancien nom désignait l'actuel Zimbabwe avant 1980 ?", "a": "La Rhodésie du Sud" },
+      { "q": "Quelle commune alsacienne est le point le plus oriental de la France métropolitaine ?", "a": "Lauterbourg" },
+      { "q": "Quelle est la capitale du Vanuatu ?", "a": "Port-Vila" },
+      { "q": "Quel ancien nom désignait Ho Chi Minh-Ville avant 1976 ?", "a": "Saïgon" },
+      { "q": "Quelle est la capitale administrative de la Birmanie depuis 2005 ?", "a": "Naypyidaw" }
     ]
   }
 }

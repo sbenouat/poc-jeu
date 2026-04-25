@@ -5,25 +5,25 @@
       "id": "geo",
       "name": "Géographie",
       "file": "geo.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "histoire",
       "name": "Histoire",
       "file": "histoire.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "sciences",
       "name": "Sciences",
       "file": "sciences.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "litterature",
       "name": "Littérature",
       "file": "litterature.json",
-      "questionCount": 100
+      "questionCount": 150
     },
     {
       "id": "cinema",
