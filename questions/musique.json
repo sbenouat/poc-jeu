@@ -16,7 +16,7 @@
       { "q": "Quel groupe irlandais est mené par le chanteur Bono ?", "a": "U2" },
       { "q": "Quel instrument à six cordes Jimi Hendrix a-t-il rendu célèbre ?", "a": "La guitare" },
       { "q": "Quelle chanteuse française enfant a chanté 'Joe le taxi' avant d'épouser Johnny Depp ?", "a": "Vanessa Paradis" },
-      { "q": "Quel rappeur français portant un bandana noir a sorti 'Tombé pour elle' ?", "a": "Booba" },
+      { "q": "Quelle chanteuse canadienne, surnommée 'la voix', a interprété 'My Heart Will Go On' pour le film Titanic ?", "a": "Céline Dion" },
       { "q": "Quel chanteur des Doors a écrit 'Light My Fire' ?", "a": "Jim Morrison" }
     ],
     "2": [
@@ -34,7 +34,7 @@
       { "q": "Quelle chanteuse française a interprété 'L'Aigle noir' ?", "a": "Barbara" },
       { "q": "Quel groupe de Liverpool a sorti l'album 'Sgt. Pepper's Lonely Hearts Club Band' ?", "a": "The Beatles" },
       { "q": "Quel artiste portoricain a chanté 'Despacito' avec Daddy Yankee ?", "a": "Luis Fonsi" },
-      { "q": "Quel groupe français a chanté 'Aux Champs-Élysées' avec un chanteur d'origine américaine ?", "a": "Joe Dassin" }
+      { "q": "Quel chanteur gallois à la voix de baryton a interprété 'Delilah' et 'It's Not Unusual' dans les années 60 ?", "a": "Tom Jones" }
     ],
     "3": [
       { "q": "Quel groupe australien de hard rock a sorti l'album 'Back in Black' ?", "a": "AC/DC" },
@@ -122,7 +122,7 @@
       { "q": "Quel rappeur français a sorti l'album 'Or noir' en 2013 ?", "a": "Kaaris" }
     ],
     "8": [
-      { "q": "Quel album de Pink Floyd, sorti en 1973, contient 'Money' et 'Time' ?", "a": "The Dark Side of the Moon" },
+      { "q": "Quel album de Miles Davis de 1970 marque le virage du jazz vers le jazz fusion électrique ?", "a": "Bitches Brew" },
       { "q": "Quel saxophoniste a enregistré 'A Love Supreme' en 1964 ?", "a": "John Coltrane" },
       { "q": "Quel compositeur autrichien a écrit la 'Symphonie n°9' restée inachevée à sa mort en 1911 ?", "a": "Mahler" },
       { "q": "Quel album de Captain Beefheart sorti en 1969 est considéré comme avant-gardiste ?", "a": "Trout Mask Replica" },

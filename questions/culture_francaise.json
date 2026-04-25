@@ -42,7 +42,7 @@
       { "q": "Comment s'appelle le druide qui prépare la potion magique d'Astérix ?", "a": "Panoramix" },
       { "q": "Quel héros à houppette créé par Hergé voyage avec son chien Milou ?", "a": "Tintin" },
       { "q": "Comment s'appelle l'opéra du neuvième arrondissement de Paris, conçu par un architecte du XIXe ?", "a": "L'Opéra Garnier" },
-      { "q": "Quelle expression veut dire 'révéler un secret' en lien avec un récipient et un félin ?", "a": "Vendre la mèche" },
+      { "q": "Quelle expression française signifie 'révéler un complot ou un secret', à l'origine liée à la mèche d'un explosif ?", "a": "Vendre la mèche" },
       { "q": "Quel président français des années 1970 a été élu en 1974 face à Mitterrand ?", "a": "Valéry Giscard d'Estaing" },
       { "q": "Quel plat alsacien est composé de chou fermenté et de charcuteries ?", "a": "La choucroute" },
       { "q": "Comment appelle-t-on le poisson en papier collé dans le dos le 1er avril ?", "a": "Un poisson d'avril" },
@@ -99,7 +99,7 @@
       { "q": "Quel château royal de la Loire, construit sur le Cher, fut offert par Henri II à Diane de Poitiers ?", "a": "Le château de Chenonceau" },
       { "q": "Quelle danse traditionnelle viennoise à trois temps est encore très présente dans les bals français ?", "a": "La valse" },
       { "q": "Quel cycliste belge a remporté cinq Tours de France et est surnommé 'le Cannibale' ?", "a": "Eddy Merckx" },
-      { "q": "Quel jeu télévisé d'Antenne 2 présenté par Patrice Laffont mettait en scène un labyrinthe et une lettre cachée ?", "a": "Fort Boyard (ou Pyramide selon la version)" },
+      { "q": "Quel jeu télévisé d'Antenne 2 présenté par Patrice Laffont mettait en scène un labyrinthe et une lettre cachée ?", "a": "Pyramide" },
       { "q": "Quelle ville bourguignonne accueille les Hospices et leur célèbre vente de vins aux enchères ?", "a": "Beaune" },
       { "q": "Quel humoriste français, créateur du 'Petit Rapporteur', a marqué la TV des années 1970 ?", "a": "Jacques Martin" },
       { "q": "Quel président de la République français, élu en 1981, est issu du Parti socialiste ?", "a": "François Mitterrand" }
@@ -157,7 +157,7 @@
     ],
     "10": [
       { "q": "Quelle est la devise de la Ville de Paris en latin, évoquant un navire battu mais qui ne sombre pas ?", "a": "Fluctuat nec mergitur" },
-      { "q": "Quelle est la devise latine de la ville de Lyon, en lien avec son histoire chrétienne ?", "a": "Avant, Avant, Lion le melhor" },
+      { "q": "Quelle est la devise de la ville de Lyon, en occitan médiéval, signifiant que le lion est le meilleur avant tout ?", "a": "Avant, Avant, Lion le melhor" },
       { "q": "Quel président de la IIIe République, élu en 1920, démissionna après seulement quelques mois à cause de problèmes de santé ?", "a": "Paul Deschanel" },
       { "q": "Quelle est la devise de Marseille, en latin, évoquant son rayonnement par ses œuvres ?", "a": "Actibus immensis urbs fulget Massiliensis" },
       { "q": "Quel président de la IIIe République fut renversé en 1879 après la crise du 16 mai 1877 ?", "a": "Patrice de Mac-Mahon" },
