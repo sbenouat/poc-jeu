@@ -3,416 +3,174 @@
   "name": "Sciences",
   "questions": {
     "1": [
-      {
-        "q": "Combien font 2 + 2 ?",
-        "a": "4"
-      },
-      {
-        "q": "Quelle planète est surnommée la planète bleue ?",
-        "a": "La Terre"
-      },
-      {
-        "q": "Combien de pattes a une araignée ?",
-        "a": "8"
-      },
-      {
-        "q": "Quel est l'organe qui pompe le sang ?",
-        "a": "Le cœur"
-      },
-      {
-        "q": "Quel est le symbole chimique de l'eau ?",
-        "a": "H2O"
-      },
-      {
-        "q": "Quel est l'astre qui éclaire la Terre la nuit ?",
-        "a": "La Lune"
-      },
-      {
-        "q": "Quel est l'état de l'eau à 0°C ?",
-        "a": "Solide (glace)"
-      },
-      {
-        "q": "Combien de continents y a-t-il sur Terre ?",
-        "a": "7"
-      },
-      {
-        "q": "Quel est l'astre autour duquel tourne la Terre ?",
-        "a": "Le Soleil"
-      },
-      {
-        "q": "Quel organe nous permet de respirer ?",
-        "a": "Les poumons"
-      }
+      { "q": "Combien font deux plus deux selon les mathématiques classiques ?", "a": "Quatre" },
+      { "q": "À quelle température, en degrés Celsius, l'eau bout-elle au niveau de la mer ?", "a": "100" },
+      { "q": "Quel astre brille au centre de notre système solaire et nous donne la lumière du jour ?", "a": "Le Soleil" },
+      { "q": "Combien de pattes possède une araignée adulte typique ?", "a": "Huit" },
+      { "q": "Quel organe sert à pomper le sang dans le corps humain ?", "a": "Le cœur" },
+      { "q": "Quelle planète habitons-nous, troisième en partant du Soleil ?", "a": "La Terre" },
+      { "q": "Combien de jours compte une année non bissextile ?", "a": "365" },
+      { "q": "Quel sens utilise l'œil pour percevoir le monde extérieur ?", "a": "La vue" },
+      { "q": "Quel gaz respirons-nous principalement pour vivre ?", "a": "L'oxygène" },
+      { "q": "Quel satellite naturel tourne autour de la Terre et éclaire la nuit ?", "a": "La Lune" },
+      { "q": "Quel scientifique allemand est célèbre pour la théorie de la relativité ?", "a": "Albert Einstein" },
+      { "q": "Combien de doigts compte une main humaine standard ?", "a": "Cinq" },
+      { "q": "Quelle est la couleur du sang humain quand il sort d'une artère ?", "a": "Rouge" },
+      { "q": "À quelle température, en degrés Celsius, l'eau pure gèle-t-elle ?", "a": "0" },
+      { "q": "Quel grand mammifère terrestre africain possède une trompe et de grandes oreilles ?", "a": "L'éléphant" }
     ],
     "2": [
-      {
-        "q": "Quelle planète est la plus proche du Soleil ?",
-        "a": "Mercure"
-      },
-      {
-        "q": "Quel gaz respirons-nous principalement ?",
-        "a": "L'oxygène (O2)"
-      },
-      {
-        "q": "Quel est l'organe principal du système nerveux ?",
-        "a": "Le cerveau"
-      },
-      {
-        "q": "Combien de dents a un adulte en moyenne ?",
-        "a": "32"
-      },
-      {
-        "q": "Quel est le plus grand océan du monde ?",
-        "a": "Le Pacifique"
-      },
-      {
-        "q": "Quelle étoile est la plus proche de la Terre ?",
-        "a": "Le Soleil"
-      },
-      {
-        "q": "Quelle planète est surnommée la planète rouge ?",
-        "a": "Mars"
-      },
-      {
-        "q": "Quelle est la planète la plus grosse du système solaire ?",
-        "a": "Jupiter"
-      },
-      {
-        "q": "Quel est le point d'ébullition de l'eau à pression normale ?",
-        "a": "100°C"
-      },
-      {
-        "q": "Quel gaz est produit par les plantes lors de la photosynthèse ?",
-        "a": "L'oxygène"
-      }
+      { "q": "Combien de saisons rythment l'année dans les zones tempérées ?", "a": "Quatre" },
+      { "q": "Quel est l'animal terrestre le plus rapide au monde ?", "a": "Le guépard" },
+      { "q": "Quel insecte produit le miel à partir du nectar des fleurs ?", "a": "L'abeille" },
+      { "q": "Quel organe humain filtre le sang et fabrique l'urine ?", "a": "Le rein" },
+      { "q": "Combien de continents reconnaît-on traditionnellement sur Terre ?", "a": "Sept" },
+      { "q": "Quel est le plus grand océan du monde par sa superficie ?", "a": "L'océan Pacifique" },
+      { "q": "Quel reptile célèbre vit dans le Nil et possède de puissantes mâchoires ?", "a": "Le crocodile" },
+      { "q": "Quelle figure géométrique possède trois côtés ?", "a": "Le triangle" },
+      { "q": "Quel arbre produit le gland comme fruit ?", "a": "Le chêne" },
+      { "q": "Quel sens du corps humain est principalement situé dans le nez ?", "a": "L'odorat" },
+      { "q": "Quel mammifère marin doit remonter à la surface pour respirer ?", "a": "La baleine" },
+      { "q": "Combien de chiffres composent le nombre cent en écriture décimale ?", "a": "Trois" },
+      { "q": "Quelle planète, surnommée la planète rouge, est voisine de la Terre ?", "a": "Mars" },
+      { "q": "Quel organe humain permet la digestion des aliments avant l'intestin ?", "a": "L'estomac" },
+      { "q": "Quel oiseau ne vole pas, vit en Antarctique et glisse sur la glace ?", "a": "Le manchot" }
     ],
     "3": [
-      {
-        "q": "Quel savant a formulé la théorie de la relativité ?",
-        "a": "Albert Einstein"
-      },
-      {
-        "q": "Quel savant a découvert la gravitation universelle ?",
-        "a": "Isaac Newton"
-      },
-      {
-        "q": "Quel est le plus gros organe du corps humain ?",
-        "a": "La peau"
-      },
-      {
-        "q": "Quel instrument mesure la température ?",
-        "a": "Le thermomètre"
-      },
-      {
-        "q": "Quel est le plus grand os du corps humain ?",
-        "a": "Le fémur"
-      },
-      {
-        "q": "Quelle science étudie les étoiles et planètes ?",
-        "a": "L'astronomie"
-      },
-      {
-        "q": "Quel est le nom du premier homme à avoir marché sur la Lune ?",
-        "a": "Neil Armstrong"
-      },
-      {
-        "q": "Quel physicien est célèbre pour l'équation E=mc² ?",
-        "a": "Albert Einstein"
-      },
-      {
-        "q": "Quel est le nom de la plus célèbre équation d'Einstein ?",
-        "a": "E=mc²"
-      },
-      {
-        "q": "Quelle planète a des anneaux spectaculaires ?",
-        "a": "Saturne"
-      }
+      { "q": "Quelle est la formule chimique de l'eau, présente dans tous les organismes vivants ?", "a": "H2O" },
+      { "q": "Combien de planètes compte aujourd'hui le système solaire selon l'UAI ?", "a": "Huit" },
+      { "q": "Quel scientifique anglais a énoncé la loi de la gravitation universelle ?", "a": "Isaac Newton" },
+      { "q": "Quel est le plus grand os du corps humain, situé dans la cuisse ?", "a": "Le fémur" },
+      { "q": "Quel gaz, expiré par l'homme, est absorbé par les plantes lors de la photosynthèse ?", "a": "Le dioxyde de carbone" },
+      { "q": "Quelle est la plus grande planète du système solaire ?", "a": "Jupiter" },
+      { "q": "Quel mathématicien grec antique a démontré le théorème portant son nom sur le triangle rectangle ?", "a": "Pythagore" },
+      { "q": "Combien de paires de chromosomes compte le génome humain typique ?", "a": "23" },
+      { "q": "Quel organe du corps humain est responsable de la pensée et de la mémoire ?", "a": "Le cerveau" },
+      { "q": "Quel est le métal liquide à température ambiante utilisé autrefois dans les thermomètres ?", "a": "Le mercure" },
+      { "q": "Quelle force, mesurée en newtons, attire les corps vers le centre de la Terre ?", "a": "La gravité" },
+      { "q": "Quel scientifique italien a perfectionné la lunette astronomique au XVIIᵉ siècle ?", "a": "Galilée" },
+      { "q": "Quel os de la cage thoracique protège les poumons et le cœur ?", "a": "Les côtes" },
+      { "q": "Quel astre brille la nuit et présente différentes phases au cours du mois ?", "a": "La Lune" },
+      { "q": "Quel petit corps céleste laisse une traînée lumineuse en entrant dans l'atmosphère ?", "a": "Une météorite" }
     ],
     "4": [
-      {
-        "q": "Quelle est la vitesse de la lumière dans le vide (approx.) ?",
-        "a": "300 000 km/s"
-      },
-      {
-        "q": "Qui est considéré comme le père de la microbiologie ?",
-        "a": "Louis Pasteur"
-      },
-      {
-        "q": "Quel est le gaz le plus abondant dans l'atmosphère terrestre ?",
-        "a": "L'azote (N2)"
-      },
-      {
-        "q": "Combien de paires de chromosomes possède l'être humain ?",
-        "a": "23"
-      },
-      {
-        "q": "Quel métal est liquide à température ambiante ?",
-        "a": "Le mercure"
-      },
-      {
-        "q": "Quel est le symbole chimique du sodium ?",
-        "a": "Na"
-      },
-      {
-        "q": "Quel est l'acide nucléique qui code nos gènes ?",
-        "a": "L'ADN"
-      },
-      {
-        "q": "Quel est le nom scientifique de l'homme moderne ?",
-        "a": "Homo sapiens"
-      },
-      {
-        "q": "Quel scientifique a proposé la théorie de l'évolution ?",
-        "a": "Charles Darwin"
-      },
-      {
-        "q": "Quel est le principal constituant de l'air ?",
-        "a": "L'azote"
-      }
+      { "q": "Quelle est la formule chimique du dioxyde de carbone rejeté par la respiration humaine ?", "a": "CO2" },
+      { "q": "Combien de degrés mesure la somme des angles d'un triangle plan ?", "a": "180" },
+      { "q": "Quel scientifique français est célèbre pour ses travaux sur la pasteurisation et la rage ?", "a": "Louis Pasteur" },
+      { "q": "Quel est le plus petit os du corps humain, situé dans l'oreille moyenne ?", "a": "L'étrier" },
+      { "q": "Quelle galaxie spirale abrite notre système solaire ?", "a": "La Voie lactée" },
+      { "q": "Quel est l'élément chimique dont le symbole est O et qui compose 21 % de l'air ?", "a": "L'oxygène" },
+      { "q": "Quel théorème permet de calculer l'hypoténuse d'un triangle rectangle à partir des deux autres côtés ?", "a": "Le théorème de Pythagore" },
+      { "q": "Quel organe humain produit l'insuline et participe à la digestion ?", "a": "Le pancréas" },
+      { "q": "Quelle planète est entourée d'anneaux particulièrement visibles depuis la Terre ?", "a": "Saturne" },
+      { "q": "Quel est le métal le plus utilisé dans le monde, principalement extrait sous forme de minerai ?", "a": "Le fer" },
+      { "q": "Quel scientifique britannique a énoncé la théorie de l'évolution par sélection naturelle ?", "a": "Charles Darwin" },
+      { "q": "Quelle unité du Système international mesure la force ?", "a": "Le newton" },
+      { "q": "Quel processus permet aux plantes de produire du glucose grâce à la lumière du Soleil ?", "a": "La photosynthèse" },
+      { "q": "Quelle est la couche gazeuse qui entoure la Terre et permet la vie ?", "a": "L'atmosphère" },
+      { "q": "Quel est le constituant principal des étoiles, dont le Soleil ?", "a": "L'hydrogène" }
     ],
     "5": [
-      {
-        "q": "Qui a inventé la pénicilline ?",
-        "a": "Alexander Fleming"
-      },
-      {
-        "q": "Quel est l'organe qui sécrète l'insuline ?",
-        "a": "Le pancréas"
-      },
-      {
-        "q": "Quel type de sang est donneur universel ?",
-        "a": "O négatif"
-      },
-      {
-        "q": "Quel est le plus petit os du corps humain ?",
-        "a": "L'étrier (dans l'oreille)"
-      },
-      {
-        "q": "Quel instrument mesure la pression atmosphérique ?",
-        "a": "Le baromètre"
-      },
-      {
-        "q": "Quel est l'organe qui fabrique l'urine ?",
-        "a": "Les reins"
-      },
-      {
-        "q": "Combien de dents de sagesse peut-on avoir ?",
-        "a": "4"
-      },
-      {
-        "q": "Quelle particule est chargée positivement dans l'atome ?",
-        "a": "Le proton"
-      },
-      {
-        "q": "Quelle particule est chargée négativement ?",
-        "a": "L'électron"
-      },
-      {
-        "q": "Quelle particule est neutre ?",
-        "a": "Le neutron"
-      }
+      { "q": "Combien de chromosomes contient une cellule somatique humaine normale ?", "a": "46" },
+      { "q": "Quelle est la vitesse approximative de la lumière dans le vide en kilomètres par seconde ?", "a": "300000" },
+      { "q": "Quel est le symbole chimique du sodium dans le tableau périodique ?", "a": "Na" },
+      { "q": "Quelle structure cellulaire contient l'ADN dans une cellule eucaryote ?", "a": "Le noyau" },
+      { "q": "Quel scientifique polonais a proposé un modèle héliocentrique du système solaire au XVIᵉ siècle ?", "a": "Nicolas Copernic" },
+      { "q": "Quel acide est principalement présent dans le suc gastrique humain ?", "a": "L'acide chlorhydrique" },
+      { "q": "Quelle est la plus grande lune de Jupiter, l'une des plus massives du système solaire ?", "a": "Ganymède" },
+      { "q": "Quelle particule subatomique de charge négative gravite autour du noyau atomique ?", "a": "L'électron" },
+      { "q": "Quel scientifique américain a découvert que l'éclair était un phénomène électrique ?", "a": "Benjamin Franklin" },
+      { "q": "Quel est le nom de l'unité mesurant l'intensité du courant électrique ?", "a": "L'ampère" },
+      { "q": "Quel mathématicien suisse a introduit la lettre e pour la base du logarithme népérien ?", "a": "Leonhard Euler" },
+      { "q": "Quel est le muscle le plus volumineux du corps humain, situé dans la fesse ?", "a": "Le grand fessier" },
+      { "q": "Quelle théorie explique l'expansion de l'Univers à partir d'un état initial dense et chaud ?", "a": "Le Big Bang" },
+      { "q": "Quel élément chimique a pour symbole Au et est utilisé en bijouterie ?", "a": "L'or" },
+      { "q": "Quel philosophe et savant grec antique est l'auteur du traité 'Histoire des animaux' ?", "a": "Aristote" }
     ],
     "6": [
-      {
-        "q": "Quelle unité mesure l'énergie ?",
-        "a": "Le joule"
-      },
-      {
-        "q": "Quelle unité mesure la force ?",
-        "a": "Le newton"
-      },
-      {
-        "q": "Quelle unité mesure la puissance ?",
-        "a": "Le watt"
-      },
-      {
-        "q": "Quel est l'élément chimique le plus léger ?",
-        "a": "L'hydrogène"
-      },
-      {
-        "q": "Quel élément chimique a pour symbole Fe ?",
-        "a": "Le fer"
-      },
-      {
-        "q": "Quel est l'organe qui produit la bile ?",
-        "a": "Le foie"
-      },
-      {
-        "q": "Quelle est la formule chimique du dioxyde de carbone ?",
-        "a": "CO2"
-      },
-      {
-        "q": "Quel est le centre de contrôle de la cellule ?",
-        "a": "Le noyau"
-      },
-      {
-        "q": "Quel est le pH de l'eau pure ?",
-        "a": "7"
-      },
-      {
-        "q": "Quelle est la planète la plus éloignée du Soleil ?",
-        "a": "Neptune"
-      }
+      { "q": "Quel est le numéro atomique du carbone, élément central de la chimie organique ?", "a": "6" },
+      { "q": "Quel astronome danois du XVIᵉ siècle a réalisé des mesures précises ayant aidé Kepler ?", "a": "Tycho Brahe" },
+      { "q": "Quelle molécule transporte l'oxygène dans le sang via les globules rouges ?", "a": "L'hémoglobine" },
+      { "q": "Quelle constante célèbre, notée π, donne le rapport circonférence/diamètre d'un cercle ?", "a": "Pi" },
+      { "q": "Quel scientifique français a découvert avec sa femme la radioactivité du polonium et du radium ?", "a": "Pierre Curie" },
+      { "q": "Quel est le nom de la couche atmosphérique contenant la couche d'ozone protectrice ?", "a": "La stratosphère" },
+      { "q": "Quel scientifique anglais a découvert la pénicilline en 1928 ?", "a": "Alexander Fleming" },
+      { "q": "Quelle est la formule chimique du méthane, principal composant du gaz naturel ?", "a": "CH4" },
+      { "q": "Quelle particule, sans charge électrique, est présente dans le noyau de l'atome ?", "a": "Le neutron" },
+      { "q": "Quel scientifique russe est l'auteur du tableau périodique des éléments en 1869 ?", "a": "Dmitri Mendeleïev" },
+      { "q": "Quelle science étudie les fossiles et l'histoire ancienne du vivant ?", "a": "La paléontologie" },
+      { "q": "Quel mathématicien grec est célèbre pour avoir crié 'Eurêka' dans son bain ?", "a": "Archimède" },
+      { "q": "Quel est le terme désignant un animal qui se nourrit exclusivement de viande ?", "a": "Carnivore" },
+      { "q": "Combien d'os, environ, compose le squelette d'un adulte humain ?", "a": "206" },
+      { "q": "Quel est le nom du processus par lequel l'eau passe de l'état liquide à l'état gazeux ?", "a": "L'évaporation" }
     ],
     "7": [
-      {
-        "q": "Quelle unité mesure la fréquence ?",
-        "a": "Le hertz (Hz)"
-      },
-      {
-        "q": "Quel est l'autre nom de la vitamine C ?",
-        "a": "Acide ascorbique"
-      },
-      {
-        "q": "Quelle planète possède le plus grand nombre de lunes ?",
-        "a": "Saturne"
-      },
-      {
-        "q": "Quel organe est touché par l'hépatite ?",
-        "a": "Le foie"
-      },
-      {
-        "q": "Quelle unité mesure l'intensité électrique ?",
-        "a": "L'ampère"
-      },
-      {
-        "q": "Quelle unité mesure la tension électrique ?",
-        "a": "Le volt"
-      },
-      {
-        "q": "Quelle unité mesure la résistance électrique ?",
-        "a": "L'ohm"
-      },
-      {
-        "q": "Quel est le nom scientifique du sucre de table ?",
-        "a": "Saccharose"
-      },
-      {
-        "q": "Quel est l'autre acide nucléique impliqué dans la synthèse des protéines ?",
-        "a": "L'ARN"
-      },
-      {
-        "q": "Quel gaz est utilisé pour gonfler les ballons dirigeables car il est plus léger que l'air ?",
-        "a": "L'hélium"
-      }
+      { "q": "Quel est le numéro atomique de l'oxygène dans le tableau périodique ?", "a": "8" },
+      { "q": "Quel scientifique britannique a co-découvert la structure en double hélice de l'ADN avec Watson ?", "a": "Francis Crick" },
+      { "q": "Quel mathématicien français du XVIIᵉ siècle est l'auteur de la géométrie analytique ?", "a": "René Descartes" },
+      { "q": "Quel est le nom de la galaxie spirale la plus proche de la Voie lactée, visible à l'œil nu ?", "a": "Andromède" },
+      { "q": "Quelle constante de gravitation, mesurée en N·m²/kg², est notée G ?", "a": "La constante gravitationnelle" },
+      { "q": "Quelle hormone, sécrétée par le pancréas, abaisse le taux de sucre dans le sang ?", "a": "L'insuline" },
+      { "q": "Quel astronome allemand a énoncé les trois lois du mouvement des planètes ?", "a": "Johannes Kepler" },
+      { "q": "Quel est le nom du phénomène par lequel un noyau lourd se scinde en deux noyaux plus légers ?", "a": "La fission nucléaire" },
+      { "q": "Quel inventeur américain est célèbre pour la mise au point de l'ampoule électrique commerciale ?", "a": "Thomas Edison" },
+      { "q": "Quel est le pH d'une solution neutre à 25 °C ?", "a": "7" },
+      { "q": "Quel processus biologique permet à une cellule de se diviser en deux cellules identiques ?", "a": "La mitose" },
+      { "q": "Quel élément, de symbole Hg, possède la particularité d'être liquide à température ambiante ?", "a": "Le mercure" },
+      { "q": "Quel instrument optique utilisent les astronomes pour observer le ciel profond ?", "a": "Le télescope" },
+      { "q": "Quelle branche des mathématiques étudie les fonctions, dérivées et intégrales ?", "a": "L'analyse" },
+      { "q": "Quel naturaliste suédois a inventé la nomenclature binominale des espèces vivantes ?", "a": "Carl von Linné" }
     ],
     "8": [
-      {
-        "q": "Quel est le nom de la première femme dans l'espace ?",
-        "a": "Valentina Terechkova"
-      },
-      {
-        "q": "Quel est le nom du premier homme dans l'espace ?",
-        "a": "Youri Gagarine"
-      },
-      {
-        "q": "Quel est l'organe qui capte la lumière pour la vision ?",
-        "a": "La rétine"
-      },
-      {
-        "q": "Quel est le nombre atomique de l'hydrogène ?",
-        "a": "1"
-      },
-      {
-        "q": "Quel est l'élément chimique le plus abondant dans l'univers ?",
-        "a": "L'hydrogène"
-      },
-      {
-        "q": "Quel est l'élément chimique le plus abondant dans la croûte terrestre ?",
-        "a": "L'oxygène"
-      },
-      {
-        "q": "Quelle unité mesure la température dans le système international ?",
-        "a": "Le kelvin"
-      },
-      {
-        "q": "Quel est le plus grand organe interne du corps humain ?",
-        "a": "Le foie"
-      },
-      {
-        "q": "Quelle est la molécule qui transporte l'oxygène dans le sang ?",
-        "a": "L'hémoglobine"
-      },
-      {
-        "q": "Quel est l'autre nom de la loi de l'inertie ?",
-        "a": "La première loi de Newton"
-      }
+      { "q": "Quel est le numéro atomique du fer, élément central de l'hémoglobine ?", "a": "26" },
+      { "q": "Quel physicien autrichien est connu pour son chat dans une expérience de pensée quantique ?", "a": "Erwin Schrödinger" },
+      { "q": "Quelle est la valeur approximative de l'accélération de la pesanteur terrestre en m/s² ?", "a": "9,81" },
+      { "q": "Quel savant a formulé le principe selon lequel la pression dans un fluide se transmet en tous points ?", "a": "Blaise Pascal" },
+      { "q": "Quel est le nom de l'enzyme qui dégrade l'amidon dans la salive humaine ?", "a": "L'amylase" },
+      { "q": "Quel astrophysicien américain a popularisé la cosmologie dans la série 'Cosmos' en 1980 ?", "a": "Carl Sagan" },
+      { "q": "Quelle est la masse approximative d'un proton en unités de masse atomique ?", "a": "1" },
+      { "q": "Quel chimiste suédois a inventé la dynamite et créé la fondation des prix portant son nom ?", "a": "Alfred Nobel" },
+      { "q": "Quel mathématicien allemand est surnommé 'le prince des mathématiciens' au XIXᵉ siècle ?", "a": "Carl Friedrich Gauss" },
+      { "q": "Quelle particule véhicule l'interaction électromagnétique entre particules chargées ?", "a": "Le photon" },
+      { "q": "Quelle structure du cerveau humain est essentielle à la formation de la mémoire à long terme ?", "a": "L'hippocampe" },
+      { "q": "Quelle célèbre nébuleuse, visible à l'œil nu, se trouve dans la constellation d'Orion ?", "a": "La nébuleuse d'Orion" },
+      { "q": "Quelle est la formule chimique de l'ammoniac, gaz à odeur piquante utilisé en engrais ?", "a": "NH3" },
+      { "q": "Quel physicien allemand a découvert les rayons X en 1895 ?", "a": "Wilhelm Röntgen" },
+      { "q": "Quel processus géologique forme les chaînes de montagnes par collision des plaques ?", "a": "L'orogenèse" }
     ],
     "9": [
-      {
-        "q": "Quel est le nombre atomique de l'oxygène ?",
-        "a": "8"
-      },
-      {
-        "q": "Quel est le nombre atomique du carbone ?",
-        "a": "6"
-      },
-      {
-        "q": "Quel est le nombre atomique du fer ?",
-        "a": "26"
-      },
-      {
-        "q": "Quel est le nombre atomique de l'or ?",
-        "a": "79"
-      },
-      {
-        "q": "Quel est le nombre atomique de l'uranium ?",
-        "a": "92"
-      },
-      {
-        "q": "Quel scientifique a découvert la radioactivité ?",
-        "a": "Henri Becquerel"
-      },
-      {
-        "q": "Quel couple de scientifiques a étudié le radium ?",
-        "a": "Pierre et Marie Curie"
-      },
-      {
-        "q": "Quel est le gaz le plus lourd de l'atmosphère terrestre ?",
-        "a": "Le dioxyde de carbone (CO2)"
-      },
-      {
-        "q": "Gaz rare utilisé dans les enseignes lumineuses ?",
-        "a": "Le néon"
-      },
-      {
-        "q": "Quel est le nom de la première théorie de l'évolution publiée en 1859 ?",
-        "a": "L'Origine des espèces (Darwin)"
-      }
+      { "q": "Quelle constante reliant énergie et fréquence, notée h, est centrale en mécanique quantique ?", "a": "La constante de Planck" },
+      { "q": "Quel mathématicien italien né à Turin est l'auteur du traité 'Mécanique analytique' en 1788 ?", "a": "Joseph-Louis Lagrange" },
+      { "q": "Quelle équation célèbre, due à Einstein, relie masse et énergie ?", "a": "E=mc²" },
+      { "q": "Quel scientifique britannique a énoncé les équations classiques de l'électromagnétisme au XIXᵉ siècle ?", "a": "James Clerk Maxwell" },
+      { "q": "Comment nomme-t-on la grandeur thermodynamique mesurant le désordre d'un système ?", "a": "L'entropie" },
+      { "q": "Quel astronome américain a démontré l'expansion de l'Univers grâce au décalage vers le rouge ?", "a": "Edwin Hubble" },
+      { "q": "Quel est le nom de l'unité du Système international mesurant la dose absorbée de rayonnement ?", "a": "Le gray" },
+      { "q": "Quelle particule élémentaire confère leur masse aux autres particules selon le mécanisme du même nom ?", "a": "Le boson de Higgs" },
+      { "q": "Quel mathématicien indien autodidacte a collaboré avec Hardy à Cambridge au début du XXᵉ siècle ?", "a": "Srinivasa Ramanujan" },
+      { "q": "Comment nomme-t-on la transformation par laquelle un sucre devient alcool sous l'action de levures ?", "a": "La fermentation alcoolique" },
+      { "q": "Quel physicien danois a proposé en 1913 un modèle quantique de l'atome d'hydrogène ?", "a": "Niels Bohr" },
+      { "q": "Comment nomme-t-on la couche du Soleil visible à l'œil nu, juste sous la couronne ?", "a": "La photosphère" },
+      { "q": "Quel physicien britannique a découvert le neutron en 1932 ?", "a": "James Chadwick" },
+      { "q": "Quel processus métabolique cellulaire produit l'ATP en présence d'oxygène ?", "a": "La respiration cellulaire" },
+      { "q": "Quel théorème stipule qu'une équation polynomiale de degré n a exactement n racines complexes ?", "a": "Le théorème fondamental de l'algèbre" }
     ],
     "10": [
-      {
-        "q": "Quel est le nombre d'éléments dans le tableau périodique (2023) ?",
-        "a": "118"
-      },
-      {
-        "q": "Quel est le nom du plus grand accélérateur de particules du monde ?",
-        "a": "Le LHC (Large Hadron Collider)"
-      },
-      {
-        "q": "Quelle particule élémentaire est associée au champ de masse découvert en 2012 ?",
-        "a": "Le boson de Higgs"
-      },
-      {
-        "q": "Quelle est la théorie qui décrit les particules élémentaires et leurs interactions ?",
-        "a": "Le modèle standard de la physique des particules"
-      },
-      {
-        "q": "Quel est l'âge approximatif de l'univers ?",
-        "a": "13,8 milliards d'années"
-      },
-      {
-        "q": "Quel est le nom de la constante gravitationnelle universelle ?",
-        "a": "G"
-      },
-      {
-        "q": "Quelle unité mesure l'énergie nucléaire libérée par une bombe atomique ?",
-        "a": "Le kilotonne (ou mégatonne) de TNT"
-      },
-      {
-        "q": "Quel est le nom de la sonde qui a quitté le système solaire en 2012 ?",
-        "a": "Voyager 1"
-      }
+      { "q": "Quel physicien allemand a énoncé le principe d'incertitude en mécanique quantique en 1927 ?", "a": "Werner Heisenberg" },
+      { "q": "Quel mathématicien autrichien a démontré les théorèmes d'incomplétude en 1931 ?", "a": "Kurt Gödel" },
+      { "q": "Quelle scientifique américaine a découvert les éléments génétiques mobiles, ou transposons, dans le maïs ?", "a": "Barbara McClintock" },
+      { "q": "Quel mathématicien français a fondé la théorie des groupes avant sa mort en duel à 20 ans ?", "a": "Évariste Galois" },
+      { "q": "Quel astrophysicien indien a calculé la limite de masse au-delà de laquelle une naine blanche s'effondre ?", "a": "Subrahmanyan Chandrasekhar" },
+      { "q": "Quel mathématicien allemand a formulé en 1859 une conjecture célèbre sur les zéros d'une fonction zêta ?", "a": "Bernhard Riemann" },
+      { "q": "Quel chimiste américain a remporté deux prix Nobel, en chimie puis pour la paix ?", "a": "Linus Pauling" },
+      { "q": "Quelle cristallographe britannique a obtenu les clichés de diffraction X de l'ADN en 1952 ?", "a": "Rosalind Franklin" },
+      { "q": "Quel physicien italien a dirigé la première réaction en chaîne contrôlée à Chicago en 1942 ?", "a": "Enrico Fermi" },
+      { "q": "Quel paléontologue américain a co-développé la théorie des équilibres ponctués avec Niles Eldredge ?", "a": "Stephen Jay Gould" },
+      { "q": "Quel mathématicien russe a démontré la conjecture de Poincaré et refusé la médaille Fields ?", "a": "Grigori Perelman" },
+      { "q": "Quel chimiste allemand est à l'origine de la synthèse industrielle de l'ammoniac à partir de N2 et H2 ?", "a": "Fritz Haber" },
+      { "q": "Quel physicien néerlandais a reçu le Nobel 1913 pour ses travaux sur les propriétés à basse température ?", "a": "Heike Kamerlingh Onnes" },
+      { "q": "Quelle astronome américaine a fourni la preuve observationnelle de la matière noire dans les galaxies ?", "a": "Vera Rubin" },
+      { "q": "Quel généticien japonais a proposé en 1968 la théorie neutraliste de l'évolution moléculaire ?", "a": "Motoo Kimura" }
     ]
   }
 }

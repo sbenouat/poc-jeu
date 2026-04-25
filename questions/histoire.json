@@ -3,408 +3,174 @@
   "name": "Histoire",
   "questions": {
     "1": [
-      {
-        "q": "En quelle année a eu lieu la Révolution française ?",
-        "a": "1789"
-      },
-      {
-        "q": "Qui fut le premier empereur de France ?",
-        "a": "Napoléon Ier"
-      },
-      {
-        "q": "Qui a découvert l'Amérique en 1492 ?",
-        "a": "Christophe Colomb"
-      },
-      {
-        "q": "Quel mur est tombé en 1989 ?",
-        "a": "Le mur de Berlin"
-      },
-      {
-        "q": "Quel roi est surnommé le « Roi Soleil » ?",
-        "a": "Louis XIV"
-      },
-      {
-        "q": "Quel événement a eu lieu le 14 juillet 1789 ?",
-        "a": "La prise de la Bastille"
-      },
-      {
-        "q": "Quel roi a lancé la construction de Versailles ?",
-        "a": "Louis XIV"
-      },
-      {
-        "q": "Qui a fondé l'Empire carolingien ?",
-        "a": "Charlemagne"
-      },
-      {
-        "q": "Quelle reine d'Égypte était connue pour sa beauté ?",
-        "a": "Cléopâtre"
-      },
-      {
-        "q": "Quel empire a construit le Colisée ?",
-        "a": "L'Empire romain"
-      }
+      { "q": "En quelle année a eu lieu la prise de la Bastille, événement déclencheur de la Révolution française ?", "a": "1789" },
+      { "q": "Quel empereur français a été vaincu à Waterloo en 1815 ?", "a": "Napoléon Bonaparte" },
+      { "q": "Quel mur séparant l'Est et l'Ouest est tombé en novembre 1989 à Berlin ?", "a": "Le mur de Berlin" },
+      { "q": "Quel conflit mondial s'est terminé en 1945 avec la capitulation de l'Allemagne et du Japon ?", "a": "La Seconde Guerre mondiale" },
+      { "q": "Quel navigateur génois a atteint l'Amérique en 1492 pour le compte de l'Espagne ?", "a": "Christophe Colomb" },
+      { "q": "Quel roi de France était surnommé le Roi-Soleil ?", "a": "Louis XIV" },
+      { "q": "Quelle civilisation antique a construit les pyramides de Gizeh ?", "a": "Les Égyptiens" },
+      { "q": "Dans quelle ville italienne se trouvait le Colisée, symbole de l'Empire romain ?", "a": "Rome" },
+      { "q": "Quelle jeune Française a été brûlée vive à Rouen en 1431 après avoir combattu les Anglais ?", "a": "Jeanne d'Arc" },
+      { "q": "Quel dictateur allemand est arrivé au pouvoir en 1933 et s'est suicidé en 1945 ?", "a": "Adolf Hitler" },
+      { "q": "Quelle reine d'Angleterre a régné de 1952 à 2022 ?", "a": "Élisabeth II" },
+      { "q": "Quel président américain a aboli l'esclavage pendant la guerre de Sécession ?", "a": "Abraham Lincoln" },
+      { "q": "Quelle opération de 1944 a vu les Alliés débarquer en Normandie le 6 juin ?", "a": "Le Débarquement de Normandie" },
+      { "q": "Quel général français a appelé à la résistance depuis Londres le 18 juin 1940 ?", "a": "Charles de Gaulle" },
+      { "q": "Quel empire dirigé par Jules César dominait la Méditerranée durant l'Antiquité ?", "a": "L'Empire romain" }
     ],
     "2": [
-      {
-        "q": "Qui était le roi de France pendant la Révolution française ?",
-        "a": "Louis XVI"
-      },
-      {
-        "q": "Quel général a libéré la France pendant la Seconde Guerre mondiale ?",
-        "a": "Charles de Gaulle"
-      },
-      {
-        "q": "En quelle année a eu lieu le débarquement de Normandie ?",
-        "a": "1944"
-      },
-      {
-        "q": "En quelle année a eu lieu la Première Guerre mondiale ?",
-        "a": "1914-1918"
-      },
-      {
-        "q": "En quelle année l'homme a-t-il marché sur la Lune ?",
-        "a": "1969"
-      },
-      {
-        "q": "Qui fut président des États-Unis pendant la guerre de Sécession ?",
-        "a": "Abraham Lincoln"
-      },
-      {
-        "q": "Qui a peint la Cène ?",
-        "a": "Léonard de Vinci"
-      },
-      {
-        "q": "Quel roi fut guillotiné pendant la Révolution française ?",
-        "a": "Louis XVI"
-      },
-      {
-        "q": "Qui était le premier président noir d'Afrique du Sud ?",
-        "a": "Nelson Mandela"
-      },
-      {
-        "q": "Qui a aboli l'apartheid en Afrique du Sud ?",
-        "a": "Nelson Mandela (avec F. W. de Klerk)"
-      }
+      { "q": "Quelle révolution a débuté en Russie en 1917 et a renversé le tsar ?", "a": "La Révolution russe" },
+      { "q": "Quel pharaon enfant a été enterré dans la Vallée des Rois et redécouvert en 1922 ?", "a": "Toutânkhamon" },
+      { "q": "Quel roi de France a été guillotiné le 21 janvier 1793 ?", "a": "Louis XVI" },
+      { "q": "Quelle reine de France a été guillotinée en octobre 1793, après son mari ?", "a": "Marie-Antoinette" },
+      { "q": "En quelle année les Américains ont-ils déclaré leur indépendance ?", "a": "1776" },
+      { "q": "Quel premier empereur a unifié la Chine et a fait débuter la Grande Muraille ?", "a": "Qin Shi Huang" },
+      { "q": "Quelle ville japonaise a subi la première bombe atomique en août 1945 ?", "a": "Hiroshima" },
+      { "q": "Quel navigateur portugais a contourné le cap de Bonne-Espérance pour atteindre l'Inde en 1498 ?", "a": "Vasco de Gama" },
+      { "q": "Quelle guerre a opposé la France et l'Angleterre pendant plus d'un siècle au Moyen Âge ?", "a": "La guerre de Cent Ans" },
+      { "q": "Quel président des États-Unis a été assassiné à Dallas le 22 novembre 1963 ?", "a": "John F. Kennedy" },
+      { "q": "Quelle dynastie chinoise a régné de 1368 à 1644 et bâti la Cité interdite ?", "a": "La dynastie Ming" },
+      { "q": "En quelle année est tombé l'Empire romain d'Occident ?", "a": "476" },
+      { "q": "Quel chef macédonien a conquis un immense empire jusqu'à l'Indus au IVe siècle av. J.-C. ?", "a": "Alexandre le Grand" },
+      { "q": "Quel personnage indien a mené la résistance non violente contre la domination britannique ?", "a": "Gandhi" },
+      { "q": "Quel chancelier soviétique a engagé la Perestroïka dans les années 1980 ?", "a": "Mikhaïl Gorbatchev" }
     ],
     "3": [
-      {
-        "q": "Qui était le premier président de la Ve République française ?",
-        "a": "Charles de Gaulle"
-      },
-      {
-        "q": "Qui était Jeanne d'Arc ?",
-        "a": "Une héroïne française de la guerre de Cent Ans"
-      },
-      {
-        "q": "Quelle grande peste a ravagé l'Europe au XIVe siècle ?",
-        "a": "La peste noire"
-      },
-      {
-        "q": "Quel roi d'Angleterre a eu six épouses ?",
-        "a": "Henri VIII"
-      },
-      {
-        "q": "Qui était Martin Luther King ?",
-        "a": "Un leader du mouvement des droits civiques aux États-Unis"
-      },
-      {
-        "q": "Quel événement a eu lieu le 11 septembre 2001 ?",
-        "a": "Les attentats aux États-Unis"
-      },
-      {
-        "q": "Quelle guerre opposa le Nord et le Sud des États-Unis ?",
-        "a": "La guerre de Sécession"
-      },
-      {
-        "q": "Quelle bataille a mis fin à l'Empire napoléonien ?",
-        "a": "Waterloo"
-      },
-      {
-        "q": "Qui a fondé l'Empire mongol ?",
-        "a": "Gengis Khan"
-      },
-      {
-        "q": "Quel pays a lancé Spoutnik, le premier satellite ?",
-        "a": "L'URSS"
-      }
+      { "q": "En quelle année Constantinople est-elle tombée aux mains des Ottomans, marquant la fin de l'Empire byzantin ?", "a": "1453" },
+      { "q": "Quel empereur franc a été couronné à Rome par le pape Léon III en l'an 800 ?", "a": "Charlemagne" },
+      { "q": "Quel traité de 1919 a officiellement mis fin à la Première Guerre mondiale ?", "a": "Le traité de Versailles" },
+      { "q": "Quelle bataille de 1066 a permis à Guillaume le Conquérant de prendre l'Angleterre ?", "a": "La bataille de Hastings" },
+      { "q": "Quel président américain a lancé le programme New Deal après la crise de 1929 ?", "a": "Franklin D. Roosevelt" },
+      { "q": "Quelle reine d'Angleterre a régné de 1558 à 1603, donnant son nom à une époque ?", "a": "Élisabeth Ire" },
+      { "q": "Quel mouvement religieux du XVIe siècle a été déclenché par Martin Luther ?", "a": "La Réforme protestante" },
+      { "q": "En quelle année a été signée la Magna Carta en Angleterre ?", "a": "1215" },
+      { "q": "Quel empereur romain a fondé Constantinople en 330 ?", "a": "Constantin Ier" },
+      { "q": "Quelle bataille napoléonienne de 1805 est considérée comme son chef-d'œuvre tactique ?", "a": "La bataille d'Austerlitz" },
+      { "q": "Quel chef gaulois s'est rendu à Jules César après le siège d'Alésia en 52 av. J.-C. ?", "a": "Vercingétorix" },
+      { "q": "Quelle dynastie a régné sur la France de Hugues Capet à Charles IV ?", "a": "Les Capétiens directs" },
+      { "q": "Quel roi de France a fait construire le château de Versailles à grande échelle ?", "a": "Louis XIV" },
+      { "q": "Quelle ville italienne fut le berceau de la Renaissance sous les Médicis ?", "a": "Florence" },
+      { "q": "Quel conflit a opposé le Nord et le Sud des États-Unis de 1861 à 1865 ?", "a": "La guerre de Sécession" }
     ],
     "4": [
-      {
-        "q": "Qui fut assassiné à Sarajevo en 1914, déclenchant la Première Guerre mondiale ?",
-        "a": "L'archiduc François-Ferdinand"
-      },
-      {
-        "q": "Quel empereur romain a fait adopter le christianisme ?",
-        "a": "Constantin Ier"
-      },
-      {
-        "q": "Quel traité a mis fin à la Première Guerre mondiale ?",
-        "a": "Le traité de Versailles"
-      },
-      {
-        "q": "Quel célèbre chef militaire carthaginois a traversé les Alpes avec ses éléphants ?",
-        "a": "Hannibal"
-      },
-      {
-        "q": "Quel empire précolombien a construit Machu Picchu ?",
-        "a": "L'Empire inca"
-      },
-      {
-        "q": "Quel pharaon est associé au masque funéraire en or découvert en 1922 ?",
-        "a": "Toutankhamon"
-      },
-      {
-        "q": "Qui a écrit le « Contrat social » ?",
-        "a": "Jean-Jacques Rousseau"
-      },
-      {
-        "q": "Quel roi franc fut couronné empereur en 800 ?",
-        "a": "Charlemagne"
-      },
-      {
-        "q": "Quelle révolution a eu lieu en 1917 ?",
-        "a": "La révolution russe"
-      },
-      {
-        "q": "Qui a écrit « Mein Kampf » ?",
-        "a": "Adolf Hitler"
-      }
+      { "q": "Quel empereur romain a légalisé le christianisme par l'édit de Milan en 313 ?", "a": "Constantin Ier" },
+      { "q": "Quel roi de France a signé l'édit de Nantes en 1598, accordant la liberté de culte aux protestants ?", "a": "Henri IV" },
+      { "q": "Quel traité de 1494 a partagé le Nouveau Monde entre l'Espagne et le Portugal ?", "a": "Le traité de Tordesillas" },
+      { "q": "Quel président français a aboli la peine de mort en 1981 ?", "a": "François Mitterrand" },
+      { "q": "Quelle dynastie a régné sur la Russie de 1613 à 1917 ?", "a": "Les Romanov" },
+      { "q": "Quel conflit de 1899 à 1902 a opposé les Britanniques aux colons néerlandais d'Afrique du Sud ?", "a": "La guerre des Boers" },
+      { "q": "En quelle année Vasco Núñez de Balboa a-t-il aperçu le Pacifique pour la première fois ?", "a": "1513" },
+      { "q": "Quel Premier ministre britannique a dirigé le Royaume-Uni pendant la Seconde Guerre mondiale ?", "a": "Winston Churchill" },
+      { "q": "Quelle bataille de 732 a vu Charles Martel arrêter les armées musulmanes en Aquitaine ?", "a": "La bataille de Poitiers" },
+      { "q": "Quel empire précolombien a été conquis par Hernán Cortés en 1521 ?", "a": "L'Empire aztèque" },
+      { "q": "Quel empereur français a vendu la Louisiane aux États-Unis en 1803 ?", "a": "Napoléon Bonaparte" },
+      { "q": "Dans quel pays a débuté la Première Révolution industrielle dans la seconde moitié du XVIIIe siècle ?", "a": "L'Angleterre" },
+      { "q": "Quel sultan ottoman a fait tomber Constantinople en 1453 ?", "a": "Mehmed II" },
+      { "q": "Quel président américain a démissionné en 1974 à la suite du scandale du Watergate ?", "a": "Richard Nixon" },
+      { "q": "Quel roi anglais a fait exécuter Anne Boleyn en 1536 ?", "a": "Henri VIII" }
     ],
     "5": [
-      {
-        "q": "Quel empire avait pour capitale Constantinople ?",
-        "a": "L'Empire byzantin"
-      },
-      {
-        "q": "Quel pays a été dirigé par Franco après la guerre civile ?",
-        "a": "L'Espagne"
-      },
-      {
-        "q": "En quelle année a pris fin l'Empire romain d'Occident ?",
-        "a": "476"
-      },
-      {
-        "q": "Quel dirigeant soviétique a lancé la perestroïka ?",
-        "a": "Mikhaïl Gorbatchev"
-      },
-      {
-        "q": "Quelle guerre a opposé le Vietnam du Nord et le Vietnam du Sud ?",
-        "a": "La guerre du Vietnam"
-      },
-      {
-        "q": "Quel pays a mené la révolution bolchevique ?",
-        "a": "La Russie"
-      },
-      {
-        "q": "Quel chef gaulois a résisté à Jules César ?",
-        "a": "Vercingétorix"
-      },
-      {
-        "q": "Quel événement a eu lieu en France en mai 1968 ?",
-        "a": "Les manifestations étudiantes et ouvrières"
-      },
-      {
-        "q": "Qui a mené la réforme protestante en 1517 ?",
-        "a": "Martin Luther"
-      },
-      {
-        "q": "Quel dirigeant cubain a pris le pouvoir en 1959 ?",
-        "a": "Fidel Castro"
-      }
+      { "q": "En quelle année a eu lieu le sacre de Napoléon Ier comme empereur des Français ?", "a": "1804" },
+      { "q": "Quelle guerre civile espagnole a porté Franco au pouvoir entre 1936 et 1939 ?", "a": "La guerre d'Espagne" },
+      { "q": "Quel roi de France a été poignardé par Ravaillac en 1610 ?", "a": "Henri IV" },
+      { "q": "Quel traité de 1763 a mis fin à la guerre de Sept Ans ?", "a": "Le traité de Paris" },
+      { "q": "Quel empereur byzantin a fait codifier le droit romain au VIe siècle ?", "a": "Justinien Ier" },
+      { "q": "Quelle dynastie chinoise a régné de 1644 à 1912 ?", "a": "La dynastie Qing" },
+      { "q": "Quel conquistador espagnol a renversé l'Empire inca en 1533 ?", "a": "Francisco Pizarro" },
+      { "q": "En quelle année eut lieu la prise de Jérusalem par les croisés lors de la première croisade ?", "a": "1099" },
+      { "q": "Sous quel président a été lancé le projet Manhattan aux États-Unis ?", "a": "Franklin D. Roosevelt" },
+      { "q": "Quelle bataille de 1571 a vu la victoire chrétienne contre la flotte ottomane en Méditerranée ?", "a": "La bataille de Lépante" },
+      { "q": "Quel empereur romain est traditionnellement accusé d'avoir laissé brûler Rome en 64 ?", "a": "Néron" },
+      { "q": "Quelle révolution de 1830 en France a renversé Charles X ?", "a": "Les Trois Glorieuses" },
+      { "q": "Quel chancelier allemand a unifié l'Allemagne en 1871 ?", "a": "Otto von Bismarck" },
+      { "q": "En quelle année les Espagnols ont-ils pris Grenade, achevant la Reconquista ?", "a": "1492" },
+      { "q": "Quel régime politique a succédé au Second Empire après le 4 septembre 1870 ?", "a": "La Troisième République" }
     ],
     "6": [
-      {
-        "q": "Quel explorateur portugais a contourné le cap de Bonne-Espérance ?",
-        "a": "Vasco de Gama"
-      },
-      {
-        "q": "Qui était le premier président de la République française ?",
-        "a": "Louis-Napoléon Bonaparte"
-      },
-      {
-        "q": "Quelle guerre a opposé Athènes et Sparte ?",
-        "a": "La guerre du Péloponnèse"
-      },
-      {
-        "q": "Quelle dynastie française succède aux Mérovingiens ?",
-        "a": "Les Carolingiens"
-      },
-      {
-        "q": "Quel roi anglais a signé la Magna Carta en 1215 ?",
-        "a": "Jean sans Terre"
-      },
-      {
-        "q": "Qui était le premier tsar de Russie ?",
-        "a": "Ivan le Terrible"
-      },
-      {
-        "q": "Quel mouvement a conduit à l'indépendance de l'Inde ?",
-        "a": "Le mouvement de Gandhi (non-violence)"
-      },
-      {
-        "q": "Qui était le dernier roi de France ?",
-        "a": "Louis-Philippe Ier"
-      },
-      {
-        "q": "Quelle bataille a été la plus meurtrière de la Première Guerre mondiale ?",
-        "a": "La bataille de Verdun"
-      },
-      {
-        "q": "Qui a mené la longue marche en Chine ?",
-        "a": "Mao Zedong"
-      }
+      { "q": "Quel traité de 1648 a mis fin à la guerre de Trente Ans en Europe ?", "a": "Les traités de Westphalie" },
+      { "q": "Quel empereur a réuni le concile de Nicée en 325 pour fixer la doctrine chrétienne ?", "a": "Constantin Ier" },
+      { "q": "Quelle dynastie a régné sur l'Iran de 1501 à 1736 et imposé le chiisme comme religion d'État ?", "a": "Les Safavides" },
+      { "q": "En quel mois et année les bolcheviks ont-ils renversé le gouvernement provisoire russe ?", "a": "Octobre 1917" },
+      { "q": "Quel pape a appelé à la première croisade au concile de Clermont en 1095 ?", "a": "Urbain II" },
+      { "q": "Quelle bataille navale de 1805 a vu Nelson vaincre les flottes franco-espagnoles au large de l'Espagne ?", "a": "La bataille de Trafalgar" },
+      { "q": "Quel empereur a divisé l'Empire romain en deux parties en 285 ?", "a": "Dioclétien" },
+      { "q": "Quel roi de France a été capturé à Pavie en 1525 par les troupes de Charles Quint ?", "a": "François Ier" },
+      { "q": "Quel mouvement social et politique a marqué une crise majeure en France en mai 1968 ?", "a": "Mai 68" },
+      { "q": "Quel empereur du Saint-Empire a abdiqué en 1556 au profit de son fils Philippe II ?", "a": "Charles Quint" },
+      { "q": "Quel conflit de 1853 à 1856 a opposé la Russie à une coalition franco-britannique-ottomane ?", "a": "La guerre de Crimée" },
+      { "q": "Quel premier secrétaire tchécoslovaque a dirigé le Printemps de Prague en 1968 ?", "a": "Alexander Dubček" },
+      { "q": "Quelle bataille de 1709 a vu Pierre le Grand vaincre Charles XII de Suède ?", "a": "La bataille de Poltava" },
+      { "q": "En quelle année a été signé le traité de Rome instituant la CEE ?", "a": "1957" },
+      { "q": "Quelle puissance coloniale a été expulsée d'Indochine après la défaite de Diên Biên Phu en 1954 ?", "a": "La France" }
     ],
     "7": [
-      {
-        "q": "Quel chef nazi fut responsable de la solution finale ?",
-        "a": "Heinrich Himmler"
-      },
-      {
-        "q": "Qui a fondé l'Empire perse achéménide ?",
-        "a": "Cyrus le Grand"
-      },
-      {
-        "q": "Quelle croisade a abouti à la prise de Jérusalem en 1099 ?",
-        "a": "La première croisade"
-      },
-      {
-        "q": "Quel roi a établi l'édit de Nantes ?",
-        "a": "Henri IV"
-      },
-      {
-        "q": "Quel événement marque le début du Moyen Âge en Europe ?",
-        "a": "La chute de l'Empire romain d'Occident (476)"
-      },
-      {
-        "q": "Quel traité a mis fin à la guerre de Trente Ans ?",
-        "a": "Le traité de Westphalie"
-      },
-      {
-        "q": "Quel leader soviétique a succédé à Staline ?",
-        "a": "Nikita Khrouchtchev"
-      },
-      {
-        "q": "Qui a dirigé la Révolution culturelle en Chine ?",
-        "a": "Mao Zedong"
-      },
-      {
-        "q": "Quel empereur romain a divisé l'Empire en deux parties ?",
-        "a": "Dioclétien"
-      },
-      {
-        "q": "Quelle reine anglaise a vaincu l'Armada espagnole ?",
-        "a": "Élisabeth Ire"
-      }
+      { "q": "Quel traité signé en 1259 entre Henri III d'Angleterre et Louis IX a réglé le contentieux sur l'Aquitaine ?", "a": "Le traité de Paris" },
+      { "q": "Quel khan mongol a fondé la dynastie Yuan en Chine au XIIIe siècle ?", "a": "Kubilai Khan" },
+      { "q": "Quelle bataille de 1066 a vu Harold II battre l'envahisseur norvégien Harald Hardrada ?", "a": "La bataille de Stamford Bridge" },
+      { "q": "Quel roi mérovingien a été baptisé à Reims aux alentours de 496 ?", "a": "Clovis Ier" },
+      { "q": "Quel traité de 1697 a mis fin à la guerre de la Ligue d'Augsbourg ?", "a": "Le traité de Ryswick" },
+      { "q": "Quel empereur byzantin est mort lors du siège de Constantinople en 1453 ?", "a": "Constantin XI Paléologue" },
+      { "q": "Quelle bataille de 1402 a vu Tamerlan vaincre et capturer le sultan ottoman Bayezid Ier ?", "a": "La bataille d'Ankara" },
+      { "q": "Quel chef écossais célèbre a mené la première guerre d'indépendance contre Édouard Ier d'Angleterre ?", "a": "William Wallace" },
+      { "q": "Quelle dynastie grecque a régné sur l'Égypte des Ptolémées avant la conquête romaine ?", "a": "La dynastie lagide" },
+      { "q": "Quel traité de 1659 a mis fin à la guerre franco-espagnole et fixé la frontière des Pyrénées ?", "a": "Le traité des Pyrénées" },
+      { "q": "Quel califat a succédé aux Omeyyades à partir de 750 ?", "a": "Le califat abbasside" },
+      { "q": "Quel pape a excommunié Henri IV du Saint-Empire en 1076 lors de la querelle des Investitures ?", "a": "Grégoire VII" },
+      { "q": "Quelle bataille de 1314 a vu Robert Bruce vaincre les Anglais et garantir l'indépendance écossaise ?", "a": "La bataille de Bannockburn" },
+      { "q": "Quel empereur a fait construire un mur défensif dans le nord de la Bretagne romaine au IIe siècle ?", "a": "Hadrien" },
+      { "q": "Quel traité de 1748 a mis fin à la guerre de Succession d'Autriche ?", "a": "Le traité d'Aix-la-Chapelle" }
     ],
     "8": [
-      {
-        "q": "Quel traité a partagé le Nouveau Monde entre l'Espagne et le Portugal en 1494 ?",
-        "a": "Le traité de Tordesillas"
-      },
-      {
-        "q": "Quel roi de Prusse est surnommé le « Grand » ?",
-        "a": "Frédéric II"
-      },
-      {
-        "q": "Quelle bataille navale opposa Rome et Carthage ?",
-        "a": "La bataille des îles Égates"
-      },
-      {
-        "q": "Quel traité a mis fin à la guerre de Cent Ans ?",
-        "a": "Le traité de Picquigny"
-      },
-      {
-        "q": "Quelle conférence de 1945 a préparé l'ONU ?",
-        "a": "La conférence de San Francisco"
-      },
-      {
-        "q": "Quelle bataille a marqué la fin de l'empire perse face à Alexandre le Grand ?",
-        "a": "La bataille de Gaugamèles"
-      },
-      {
-        "q": "Qui fut le premier président de la IVe République française ?",
-        "a": "Vincent Auriol"
-      },
-      {
-        "q": "Quel général grec a vaincu les Perses à Marathon ?",
-        "a": "Miltiade"
-      },
-      {
-        "q": "Quel traité a mis fin à la guerre d'Indépendance américaine ?",
-        "a": "Le traité de Paris (1783)"
-      },
-      {
-        "q": "Qui a signé les Accords de Camp David en 1978 ?",
-        "a": "Anouar el-Sadate, Menahem Begin, Jimmy Carter"
-      }
+      { "q": "Quelle bataille de 378 a vu les Wisigoths écraser l'armée romaine et tuer l'empereur Valens ?", "a": "La bataille d'Andrinople" },
+      { "q": "Quel calife abbasside a fondé Bagdad en 762 ?", "a": "Al-Mansour" },
+      { "q": "Quelle bataille de 1242 a vu Alexandre Nevski vaincre les chevaliers teutoniques sur un lac gelé ?", "a": "La bataille du lac Peïpous" },
+      { "q": "Quel roi anglo-saxon est traditionnellement considéré comme le premier roi unique de toute l'Angleterre, au Xe siècle ?", "a": "Æthelstan" },
+      { "q": "Quel congrès tenu en 1815 a réorganisé l'Europe après la chute de Napoléon ?", "a": "Le congrès de Vienne" },
+      { "q": "Quelle dynastie indienne fondée par Babur en 1526 a régné jusqu'en 1857 ?", "a": "La dynastie moghole" },
+      { "q": "Quelle bataille de 1389 a marqué la défaite des Serbes face aux Ottomans au Kosovo ?", "a": "La bataille de Kosovo Polje" },
+      { "q": "Quel traité de 1713 a mis fin à la guerre de Succession d'Espagne ?", "a": "Le traité d'Utrecht" },
+      { "q": "Quels généraux byzantins ont reconquis l'Italie pour Justinien au VIe siècle ?", "a": "Bélisaire et Narsès" },
+      { "q": "Quelle confédération germanique a écrasé Varus dans la forêt de Teutobourg en l'an 9 ?", "a": "Les Chérusques" },
+      { "q": "Quel tsar russe a négocié la paix de Tilsit avec Napoléon en 1807 ?", "a": "Alexandre Ier" },
+      { "q": "Quel traité de 1856 a mis fin à la guerre de Crimée ?", "a": "Le traité de Paris" },
+      { "q": "Quelle bataille de 1525 a vu François Ier capturé par les troupes de Charles Quint en Italie ?", "a": "La bataille de Pavie" },
+      { "q": "Quel empereur a publié en 212 un édit accordant la citoyenneté romaine à tous les hommes libres de l'Empire ?", "a": "Caracalla" },
+      { "q": "Quel traité de 1801 a mis fin à la guerre opposant la France et le Saint-Empire ?", "a": "Le traité de Lunéville" }
     ],
     "9": [
-      {
-        "q": "Quelle est la plus ancienne civilisation connue de Mésopotamie ?",
-        "a": "Les Sumériens"
-      },
-      {
-        "q": "Qui a fondé l'Empire ottoman ?",
-        "a": "Osman Ier"
-      },
-      {
-        "q": "Qui a fondé la dynastie Ming en Chine ?",
-        "a": "Zhu Yuanzhang (Hongwu)"
-      },
-      {
-        "q": "Quel empereur byzantin a fait construire Sainte-Sophie ?",
-        "a": "Justinien Ier"
-      },
-      {
-        "q": "Quel événement marque le début de la Révolution russe ?",
-        "a": "La révolution de Février 1917"
-      },
-      {
-        "q": "Quelle bataille a opposé Napoléon et les Russes en 1812 ?",
-        "a": "La bataille de la Moskova (Borodino)"
-      },
-      {
-        "q": "Quel empereur romain est mort en 180 ap. J.-C., marquant la fin de la Pax Romana ?",
-        "a": "Marc Aurèle"
-      },
-      {
-        "q": "Qui a été le premier président de la République populaire de Chine ?",
-        "a": "Mao Zedong"
-      },
-      {
-        "q": "Quel empereur romain a construit un mur en Angleterre ?",
-        "a": "Hadrien"
-      },
-      {
-        "q": "Quelle dynastie a dirigé la Chine pendant le Moyen Âge ?",
-        "a": "Les Tang (entre autres)"
-      }
+      { "q": "Quel traité de 843 a partagé l'empire de Charlemagne entre ses trois petits-fils ?", "a": "Le traité de Verdun" },
+      { "q": "Quelle bataille de 1410 a vu la Pologne et la Lituanie écraser les chevaliers teutoniques ?", "a": "La bataille de Grunwald" },
+      { "q": "Quelle bataille de 1212 a vu une coalition chrétienne battre les Almohades en Espagne ?", "a": "La bataille de Las Navas de Tolosa" },
+      { "q": "Quel chah safavide a affronté les Ottomans à la bataille de Tchaldiran en 1514 ?", "a": "Ismaïl Ier" },
+      { "q": "Quel empereur byzantin fut capturé par les Seldjoukides à Manzikert en 1071 ?", "a": "Romain IV Diogène" },
+      { "q": "Quel maire du palais a été le père de Pépin le Bref et le grand-père de Charlemagne ?", "a": "Charles Martel" },
+      { "q": "Quelle bataille de 1645 a marqué une victoire décisive de Cromwell sur les royalistes anglais ?", "a": "La bataille de Naseby" },
+      { "q": "Quel calife omeyyade a déplacé la capitale du califat à Damas après la première fitna ?", "a": "Mu'awiya Ier" },
+      { "q": "Quelle bataille de 1396 a vu les Ottomans écraser une croisade européenne sur le Danube ?", "a": "La bataille de Nicopolis" },
+      { "q": "Quel traité de 1814 a marqué la première abdication de Napoléon et son exil à l'île d'Elbe ?", "a": "Le traité de Fontainebleau" },
+      { "q": "Quel empereur chinois a commandité les expéditions maritimes de Zheng He au début du XVe siècle ?", "a": "Yongle" },
+      { "q": "Quel traité de 870 a partagé la Lotharingie entre Charles le Chauve et Louis le Germanique ?", "a": "Le traité de Meerssen" },
+      { "q": "Quelle bataille de 627 a vu l'empereur byzantin Héraclius vaincre les Perses sassanides près de l'antique capitale assyrienne ?", "a": "La bataille de Ninive" },
+      { "q": "Quel roi de France a signé le traité de Brétigny en 1360, fixant une trêve dans la guerre de Cent Ans ?", "a": "Jean II le Bon" },
+      { "q": "Quelle bataille de 1525 a marqué l'écrasement final des paysans révoltés par les princes allemands ?", "a": "La bataille de Frankenhausen" }
     ],
     "10": [
-      {
-        "q": "Quel traité a fondé la Communauté économique européenne en 1957 ?",
-        "a": "Le traité de Rome"
-      },
-      {
-        "q": "Quel traité a mis fin à la Seconde Guerre mondiale avec le Japon ?",
-        "a": "Le traité de San Francisco (1951)"
-      },
-      {
-        "q": "Quelle dynastie française a précédé les Capétiens ?",
-        "a": "Les Carolingiens"
-      },
-      {
-        "q": "Quel roi est connu pour avoir lancé les croisades ?",
-        "a": "Urbain II (pape)"
-      },
-      {
-        "q": "Quelle révolution a débuté en Angleterre au XVIIIe siècle ?",
-        "a": "La révolution industrielle"
-      },
-      {
-        "q": "Quel pays a subi l'Inquisition espagnole ?",
-        "a": "L'Espagne"
-      }
+      { "q": "Quel cardinal a négocié la paix des Pyrénées en 1659 du côté français ?", "a": "Mazarin" },
+      { "q": "Quel khan mongol a saccagé Bagdad en 1258, mettant fin au califat abbasside ?", "a": "Houlagou Khan" },
+      { "q": "Quel traité de 1635 a vu Richelieu engager officiellement la France dans la guerre de Trente Ans aux côtés des Provinces-Unies ?", "a": "Le traité de Compiègne" },
+      { "q": "Quelle bataille de 1241 a vu les Mongols écraser une armée polono-allemande en Silésie ?", "a": "La bataille de Legnica" },
+      { "q": "Quel empereur byzantin isaurien a promulgué l'Ecloga, un code juridique abrégé, en 741 ?", "a": "Léon III l'Isaurien" },
+      { "q": "Quel traité de 1696 a fixé la paix entre Louis XIV et le duché de Savoie en marge de la guerre de la Ligue d'Augsbourg ?", "a": "Le traité de Turin" },
+      { "q": "Quelle bataille de 1346, première grande victoire anglaise de la guerre de Cent Ans, a vu triompher l'arc long ?", "a": "La bataille de Crécy" },
+      { "q": "Quel humaniste italien fut chancelier de Florence et auteur des Histoires florentines au XVe siècle ?", "a": "Leonardo Bruni" },
+      { "q": "Quel tsar de Bulgarie a longtemps tenu tête à Basile II avant la défaite de Kleidion en 1014 ?", "a": "Samuel de Bulgarie" },
+      { "q": "Quel traité de 1801 a réglé l'évacuation des Français d'Égypte par négociation avec les Ottomans et les Britanniques ?", "a": "Le traité d'El-Arich" },
+      { "q": "Quel chef hun a vaincu Théodose II et imposé un tribut à l'Empire d'Orient au milieu du Ve siècle ?", "a": "Attila" },
+      { "q": "Quel traité de 1815 entre la France et les Alliés a suivi le retour de Napoléon des Cent-Jours ?", "a": "Le second traité de Paris" },
+      { "q": "Quelle bataille de 1485 a marqué la fin de la guerre des Deux-Roses et l'avènement des Tudors ?", "a": "La bataille de Bosworth" },
+      { "q": "Quel sultan mamelouk a vaincu les Mongols à Aïn Djalout en 1260 ?", "a": "Qutuz" },
+      { "q": "Quel traité de 1229 a mis fin à la croisade des Albigeois et soumis le comté de Toulouse à la France ?", "a": "Le traité de Meaux-Paris" }
     ]
   }
 }

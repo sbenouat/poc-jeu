@@ -3,224 +3,174 @@
   "name": "Culture française",
   "questions": {
     "1": [
-      {
-        "q": "Quelle est la capitale de la France ?",
-        "a": "Paris"
-      },
-      {
-        "q": "Quelle est la devise de la République française ?",
-        "a": "Liberté, Égalité, Fraternité"
-      },
-      {
-        "q": "De quelle couleur est le béret traditionnel français ?",
-        "a": "Noir (souvent)"
-      },
-      {
-        "q": "Quel est le monument le plus célèbre de Paris construit en 1889 ?",
-        "a": "La tour Eiffel"
-      },
-      {
-        "q": "Quel est le fromage à pâte persillée bleu-blanc-rouge sur l’étiquette célèbre ?",
-        "a": "Le Roquefort"
-      }
+      { "q": "Quelle est la devise officielle de la République française, héritée de la Révolution ?", "a": "Liberté, Égalité, Fraternité" },
+      { "q": "Quelles sont les trois couleurs du drapeau français, dans l'ordre du mât vers le bord libre ?", "a": "Bleu, blanc, rouge" },
+      { "q": "Comment s'appelle l'hymne national français écrit par Rouget de Lisle ?", "a": "La Marseillaise" },
+      { "q": "Quelle est la capitale de la France, traversée par la Seine ?", "a": "Paris" },
+      { "q": "Quel monument en fer, érigé en 1889, est devenu le symbole de Paris ?", "a": "La tour Eiffel" },
+      { "q": "Quel animal, oiseau gaulois, est l'un des symboles non officiels de la France ?", "a": "Le coq" },
+      { "q": "Quel jour célèbre-t-on la fête nationale française chaque année ?", "a": "Le 14 juillet" },
+      { "q": "Quelle figure féminine casquée représente la République française ?", "a": "Marianne" },
+      { "q": "Quel pain long et croustillant est emblématique du petit-déjeuner français ?", "a": "La baguette" },
+      { "q": "Quel petit village gaulois résiste encore et toujours à l'envahisseur dans une célèbre BD ?", "a": "Le village d'Astérix" },
+      { "q": "Quelle viennoiserie en forme de croissant de lune se mange souvent au petit-déjeuner ?", "a": "Le croissant" },
+      { "q": "Quel fromage à pâte molle et croûte fleurie porte le nom d'un village normand ?", "a": "Le camembert" },
+      { "q": "Quel grand fleuve traverse Paris d'est en ouest et coupe la ville en deux rives ?", "a": "La Seine" },
+      { "q": "Quelle célèbre avenue parisienne relie la Concorde à l'Étoile ?", "a": "Les Champs-Élysées" },
+      { "q": "Quel président de la République française a appelé le 18 juin 1940 à la résistance ?", "a": "Charles de Gaulle" }
     ],
     "2": [
-      {
-        "q": "Quel fleuve traverse Paris ?",
-        "a": "La Seine"
-      },
-      {
-        "q": "Quel animal est l’emblème officieux de la France ?",
-        "a": "Le coq"
-      },
-      {
-        "q": "Dans quel stade joue l’équipe de France de football à domicile ?",
-        "a": "Stade de France"
-      },
-      {
-        "q": "Quel jour célèbre-t-on la Fête nationale française ?",
-        "a": "Le 14 juillet"
-      },
-      {
-        "q": "Quel pain long et croustillant est typiquement français ?",
-        "a": "La baguette"
-      }
+      { "q": "Quel arc de triomphe se dresse au sommet des Champs-Élysées, place de l'Étoile ?", "a": "L'Arc de triomphe" },
+      { "q": "Quel musée parisien, ancien palais royal, abrite la Joconde ?", "a": "Le Louvre" },
+      { "q": "Quelle cathédrale gothique de l'île de la Cité a été partiellement ravagée par un incendie en 2019 ?", "a": "Notre-Dame de Paris" },
+      { "q": "Quelle basilique blanche, achevée en 1914, domine Paris depuis la butte Montmartre ?", "a": "Le Sacré-Cœur" },
+      { "q": "Quel château fut la résidence des rois de France, construit par Louis XIV ?", "a": "Le château de Versailles" },
+      { "q": "Comment appelle-t-on la cuisine régionale française à base de socca, pissaladière et salade niçoise ?", "a": "La cuisine niçoise" },
+      { "q": "Quel président français a été élu en 2017 puis réélu en 2022 ?", "a": "Emmanuel Macron" },
+      { "q": "Quel acolyte rond et toujours affamé accompagne Astérix dans ses aventures ?", "a": "Obélix" },
+      { "q": "Quel plat de pommes de terre gratinées au fromage est typique de la Savoie ?", "a": "La tartiflette" },
+      { "q": "Quel chef d'État français de 1981 à 1995 a fait construire la Pyramide du Louvre ?", "a": "François Mitterrand" },
+      { "q": "Comment appelle-t-on le bouquet floral offert le 1er mai en France ?", "a": "Le muguet" },
+      { "q": "Quelle galette feuilletée à la frangipane cache traditionnellement une fève chaque 6 janvier ?", "a": "La galette des rois" },
+      { "q": "Quel fromage bleu est produit dans l'Aveyron, dans des grottes naturelles ?", "a": "Le roquefort" },
+      { "q": "Quel monument parisien, construit en 1889, devait être démonté au bout de 20 ans ?", "a": "La tour Eiffel" },
+      { "q": "Quelle place parisienne célèbre pour son obélisque égyptien marque la fin des Champs-Élysées ?", "a": "La place de la Concorde" }
     ],
     "3": [
-      {
-        "q": "Quel est le plat traditionnel à base de bœuf mijoté au vin rouge ?",
-        "a": "Le bœuf bourguignon"
-      },
-      {
-        "q": "Quel écrivain a écrit « Les Misérables » ?",
-        "a": "Victor Hugo"
-      },
-      {
-        "q": "Comment s’appelle la célèbre avenue parisienne reliant l’Arc de triomphe à la Concorde ?",
-        "a": "Les Champs-Élysées"
-      },
-      {
-        "q": "Quel peintre impressionniste a peint « Impression, soleil levant » ?",
-        "a": "Claude Monet"
-      },
-      {
-        "q": "Quel dessert flambé composé de crêpes et d’orange est né en France ?",
-        "a": "La crêpe Suzette"
-      }
+      { "q": "Quelle expression française signifie qu'une chose est très facile à faire ?", "a": "C'est du gâteau" },
+      { "q": "Que signifie l'expression française familière 'avoir le cafard' au quotidien ?", "a": "Être triste, déprimé" },
+      { "q": "Comment s'appelle le druide qui prépare la potion magique d'Astérix ?", "a": "Panoramix" },
+      { "q": "Quel héros à houppette créé par Hergé voyage avec son chien Milou ?", "a": "Tintin" },
+      { "q": "Comment s'appelle l'opéra du neuvième arrondissement de Paris, conçu par un architecte du XIXe ?", "a": "L'Opéra Garnier" },
+      { "q": "Quelle expression française signifie 'révéler un complot ou un secret', à l'origine liée à la mèche d'un explosif ?", "a": "Vendre la mèche" },
+      { "q": "Quel président français des années 1970 a été élu en 1974 face à Mitterrand ?", "a": "Valéry Giscard d'Estaing" },
+      { "q": "Quel plat alsacien est composé de chou fermenté et de charcuteries ?", "a": "La choucroute" },
+      { "q": "Comment appelle-t-on le poisson en papier collé dans le dos le 1er avril ?", "a": "Un poisson d'avril" },
+      { "q": "Quel monument parisien, surnommé 'la grande dame', mesure environ 330 mètres ?", "a": "La tour Eiffel" },
+      { "q": "Quelle plage normande, lieu du débarquement allié de juin 1944, porte un nom américain ?", "a": "Omaha Beach" },
+      { "q": "Quel chien blanc et noir est le compagnon d'Obélix dans les BD d'Astérix ?", "a": "Idéfix" },
+      { "q": "Que signifie l'expression française 'poser un lapin' à quelqu'un dans le langage courant ?", "a": "Ne pas venir à un rendez-vous fixé" },
+      { "q": "Quelle expression liée au pain veut dire 'avoir beaucoup de travail à venir' ?", "a": "Avoir du pain sur la planche" },
+      { "q": "Quel pont parisien le plus ancien, malgré son nom, traverse la Seine ?", "a": "Le Pont-Neuf" }
     ],
     "4": [
-      {
-        "q": "Quel roi est surnommé le « Roi-Soleil » ?",
-        "a": "Louis XIV"
-      },
-      {
-        "q": "Quel fromage est réputé pour son odeur forte et vient de Normandie ?",
-        "a": "Le Camembert"
-      },
-      {
-        "q": "Quel est le plus grand musée de Paris par sa collection ?",
-        "a": "Le Louvre"
-      },
-      {
-        "q": "Quel acteur incarne OSS 117 dans les films récents ?",
-        "a": "Jean Dujardin"
-      },
-      {
-        "q": "Quel vin effervescent est produit en Champagne ?",
-        "a": "Le champagne"
-      }
+      { "q": "Quel objet vert et piquant trône dans les salons français en décembre ?", "a": "Le sapin de Noël" },
+      { "q": "Quelle expression signifie 'se mettre dans une situation embarrassante par sa propre faute' ?", "a": "Mettre les pieds dans le plat" },
+      { "q": "Quel personnage de BD belge, créé par Peyo, est un petit être bleu vivant dans un village de champignons ?", "a": "Le Schtroumpf" },
+      { "q": "Quel président français a aboli la peine de mort en 1981 grâce à Robert Badinter ?", "a": "François Mitterrand" },
+      { "q": "Quel jeu télévisé culte de TF1 oppose les candidats au 'maître de midi' ?", "a": "Les 12 coups de midi" },
+      { "q": "Quel château de la Loire est célèbre pour son escalier à double révolution attribué à Léonard de Vinci ?", "a": "Le château de Chambord" },
+      { "q": "Quelle expression veut dire 'être très occupé', en lien avec d'autres préoccupations ?", "a": "Avoir d'autres chats à fouetter" },
+      { "q": "Quelle chanteuse française, surnommée 'la Môme', a interprété La Vie en rose ?", "a": "Édith Piaf" },
+      { "q": "Quel grand magasin parisien, fondé en 1865, est connu pour sa coupole ?", "a": "Les Galeries Lafayette" },
+      { "q": "Comment appelle-t-on les pâtisseries allongées garnies de crème et glacées au chocolat ou au café ?", "a": "Les éclairs" },
+      { "q": "Quel cycliste français a remporté cinq Tours de France entre 1957 et 1964 ?", "a": "Jacques Anquetil" },
+      { "q": "Quel personnage à béret rouge créé par Goscinny et Sempé est un écolier farceur ?", "a": "Le Petit Nicolas" },
+      { "q": "Quelle marque française de luxe a été fondée par Coco Chanel rue Cambon ?", "a": "Chanel" },
+      { "q": "Comment s'appelle le maillot porté par le leader du classement général du Tour de France ?", "a": "Le maillot jaune" },
+      { "q": "Quel président de la République de 1995 à 2007, surnommé 'Chichi', était maire de Paris ?", "a": "Jacques Chirac" }
     ],
     "5": [
-      {
-        "q": "Quel chef a rendu célèbre la ratatouille dans un film d’animation Pixar ?",
-        "a": "Rémy (le rat) — « Ratatouille »"
-      },
-      {
-        "q": "Quelle mer borde Nice et Marseille ?",
-        "a": "La mer Méditerranée"
-      },
-      {
-        "q": "Quel écrivain a créé Arsène Lupin ?",
-        "a": "Maurice Leblanc"
-      },
-      {
-        "q": "Quel est le nom du palais présidentiel à Paris ?",
-        "a": "Le palais de l’Élysée"
-      },
-      {
-        "q": "Quel gâteau en pâte feuilletée et crème d’amande se partage en janvier ?",
-        "a": "La galette des Rois (à la frangipane)"
-      }
+      { "q": "Quel animateur historique de 'Questions pour un champion' a quitté l'émission en 2016 après plus de 25 ans ?", "a": "Julien Lepers" },
+      { "q": "Quel plat lyonnais à base de quenelles de brochet est servi gratiné dans les bouchons ?", "a": "Les quenelles sauce Nantua" },
+      { "q": "Quel héros de BD créé par Franquin est un employé de bureau farfelu et paresseux ?", "a": "Gaston Lagaffe" },
+      { "q": "Quel animateur français, présentateur du JT de TF1 pendant plus de 30 ans, est parti en 2008 ?", "a": "Patrick Poivre d'Arvor" },
+      { "q": "Quelle émission jeunesse de TF1 animée par Dorothée a marqué les années 1980-1990 ?", "a": "Le Club Dorothée" },
+      { "q": "Quel personnage de BD français créé par Morris est un cow-boy 'qui tire plus vite que son ombre' ?", "a": "Lucky Luke" },
+      { "q": "Quelle danse régionale bretonne se pratique en chaîne lors des fest-noz ?", "a": "La gavotte" },
+      { "q": "Quelle spécialité corse à base de farine de châtaigne accompagne souvent les charcuteries ?", "a": "La pulenda" },
+      { "q": "Quel présentateur a animé 'Le Juste Prix' sur TF1 dans les années 90 ?", "a": "Philippe Risoli" },
+      { "q": "Quel plat à base de tripes mijotées est une spécialité normande de la ville de Caen ?", "a": "Les tripes à la mode de Caen" },
+      { "q": "Quels personnages féminin et masculin de BD créés par Roba sont une fillette et un cocker ?", "a": "Boule et Bill" },
+      { "q": "Quelle émission de variétés du dimanche soir, présentée par Michel Drucker, dure depuis 1998 sur France 2 ?", "a": "Vivement dimanche" },
+      { "q": "Quel chanteur français, surnommé 'le taulier', a été marié à Sylvie Vartan puis à Laeticia ?", "a": "Johnny Hallyday" },
+      { "q": "Quelle ville du Sud-Ouest est la capitale autoproclamée du cassoulet ?", "a": "Castelnaudary" },
+      { "q": "Quel parc d'attractions situé à Marne-la-Vallée a ouvert ses portes en 1992 ?", "a": "Disneyland Paris" }
     ],
     "6": [
-      {
-        "q": "Quel est le fromage au lait de chèvre cylindrique cendré de la Loire ?",
-        "a": "Le Sainte-Maure-de-Touraine"
-      },
-      {
-        "q": "Quel cinéaste a réalisé « La Haine » ?",
-        "a": "Mathieu Kassovitz"
-      },
-      {
-        "q": "Quel écrivain a reçu le Goncourt pour « L’Amant » ?",
-        "a": "Marguerite Duras"
-      },
-      {
-        "q": "Quel site mégalithique se trouve en Bretagne, près de Carnac ?",
-        "a": "Les alignements de menhirs de Carnac"
-      },
-      {
-        "q": "De quel département viennent traditionnellement les choucroute et flammekueche ?",
-        "a": "Du Bas-Rhin / Haut-Rhin (Alsace)"
-      }
+      { "q": "Quel humoriste belge, maître du jeu de mots, a popularisé l'expression 'Je m'en serais voulu de ne pas m'en plaindre' ?", "a": "Raymond Devos" },
+      { "q": "Quel présentateur a animé 'Champs-Élysées' sur Antenne 2 dans les années 1980 ?", "a": "Michel Drucker" },
+      { "q": "Quelle région française est célèbre pour ses santons traditionnels exposés dans les crèches de Noël ?", "a": "La Provence" },
+      { "q": "Quel plat alsacien, sorte de pizza fine à la crème, lardons et oignons, se traduit par 'tarte flambée' ?", "a": "La flammekueche" },
+      { "q": "Quel animal jaune et tacheté, créé par Franquin, vit dans la jungle palombienne ?", "a": "Le Marsupilami" },
+      { "q": "Quel chanteur français, originaire de Sète, est l'auteur de 'Les Copains d'abord' ?", "a": "Georges Brassens" },
+      { "q": "Quel jeu télévisé musical de France 2, présenté par Nagui, fait deviner des paroles de chansons ?", "a": "N'oubliez pas les paroles" },
+      { "q": "Quelle ville du Pays basque accueille chaque été des fêtes en tenue blanche et rouge ?", "a": "Bayonne" },
+      { "q": "Quel château royal de la Loire, construit sur le Cher, fut offert par Henri II à Diane de Poitiers ?", "a": "Le château de Chenonceau" },
+      { "q": "Quelle danse traditionnelle viennoise à trois temps est encore très présente dans les bals français ?", "a": "La valse" },
+      { "q": "Quel cycliste belge a remporté cinq Tours de France et est surnommé 'le Cannibale' ?", "a": "Eddy Merckx" },
+      { "q": "Quel jeu télévisé d'Antenne 2 présenté par Patrice Laffont mettait en scène un labyrinthe et une lettre cachée ?", "a": "Pyramide" },
+      { "q": "Quelle ville bourguignonne accueille les Hospices et leur célèbre vente de vins aux enchères ?", "a": "Beaune" },
+      { "q": "Quel humoriste français, créateur du 'Petit Rapporteur', a marqué la TV des années 1970 ?", "a": "Jacques Martin" },
+      { "q": "Quel président de la République français, élu en 1981, est issu du Parti socialiste ?", "a": "François Mitterrand" }
     ],
     "7": [
-      {
-        "q": "Quel architecte a conçu la pyramide du Louvre inaugurée en 1989 ?",
-        "a": "Ieoh Ming Pei (I. M. Pei)"
-      },
-      {
-        "q": "Quel poète a écrit « Une saison en enfer » ?",
-        "a": "Arthur Rimbaud"
-      },
-      {
-        "q": "Quel couturier a popularisé la petite robe noire et le tailleur Chanel ?",
-        "a": "Coco Chanel (Gabrielle Chanel)"
-      },
-      {
-        "q": "Quel village médiéval perché, classé, se trouve sur un rocher dans le Lot ?",
-        "a": "Rocamadour"
-      },
-      {
-        "q": "Quel festival de cinéma se tient chaque année sur la Croisette ?",
-        "a": "Le Festival de Cannes"
-      }
+      { "q": "Quelle émission télé du dimanche midi, animée par Jacques Martin, présentait des enfants chantant en direct ?", "a": "L'École des fans" },
+      { "q": "Quel mont rocheux normand, surmonté d'une abbaye, attire des millions de visiteurs chaque année ?", "a": "Le Mont-Saint-Michel" },
+      { "q": "Quelle danse occitane se pratique en ronde dans les villages du Languedoc et de Provence ?", "a": "La farandole" },
+      { "q": "Quel chanteur, surnommé 'l'idole des jeunes' à ses débuts, est né en 1943 et décédé en 2017 ?", "a": "Johnny Hallyday" },
+      { "q": "Quel jeu de séduction télévisé des années 80 sur TF1 mettait des candidats sur un manège tournant ?", "a": "Tournez manège" },
+      { "q": "Quelle BD française scénarisée par Goscinny et dessinée par Uderzo a fêté ses 60 ans en 2019 ?", "a": "Astérix" },
+      { "q": "Quel château fort du Périgord, perché sur une falaise, surplombe la Dordogne face à Castelnaud ?", "a": "Le château de Beynac" },
+      { "q": "Quel mets lyonnais à base de fromage blanc, ail et fines herbes se sert frais dans les bouchons ?", "a": "La cervelle de canut" },
+      { "q": "Quelle émission documentaire culte, animée par Frédéric Lopez, emmène des stars chez l'habitant à l'étranger ?", "a": "Rendez-vous en terre inconnue" },
+      { "q": "Quelle danse de Bretagne en chaîne ouverte est l'une des plus emblématiques des fest-noz ?", "a": "L'an dro" },
+      { "q": "Quel homme politique surnommé 'le Tigre' fut président du Conseil pendant la Première Guerre mondiale ?", "a": "Georges Clemenceau" },
+      { "q": "Quel jeu télévisé culte de TF1, présenté par Bernard Montiel puis Patrick Roy, opposait deux familles ?", "a": "Une famille en or" },
+      { "q": "Quel chanteur français, auteur de 'La Bohème', est né arménien sous le nom de Shahnour Aznavourian ?", "a": "Charles Aznavour" },
+      { "q": "Quel château royal des bords de Loire est célèbre pour la salamandre de François Ier et son aile gothique ?", "a": "Le château de Blois" },
+      { "q": "Quelle danse régionale auvergnate à trois temps est aussi un rythme de bal traditionnel ?", "a": "La bourrée" }
     ],
     "8": [
-      {
-        "q": "Quel est le plus haut sommet de France métropolitaine ?",
-        "a": "Le mont Blanc"
-      },
-      {
-        "q": "Quel compositeur français a écrit « Le Boléro » ?",
-        "a": "Maurice Ravel"
-      },
-      {
-        "q": "Quel écrivain a publié « À la recherche du temps perdu » ?",
-        "a": "Marcel Proust"
-      },
-      {
-        "q": "Quel courant artistique regroupe Monet, Renoir, Degas… ?",
-        "a": "L’impressionnisme"
-      },
-      {
-        "q": "Quelle spécialité lyonnaise associe quenelles et sauce écrevisses ?",
-        "a": "Les quenelles (souvent sauce Nantua)"
-      }
+      { "q": "Quel jeu télévisé de Cyril Hanouna sur C8 a duré plus de 10 ans en quotidienne ?", "a": "Touche pas à mon poste" },
+      { "q": "Quel président de la IIIe République fut assassiné à Lyon en 1894 par l'anarchiste Caserio ?", "a": "Sadi Carnot" },
+      { "q": "Quel château fort cathare du Languedoc, perché sur un piton rocheux, fut le dernier refuge en 1244 ?", "a": "Le château de Montségur" },
+      { "q": "Quelle émission de TF1 présentée par Jean-Pierre Foucault a remplacé 'Sacrée Soirée' dans les années 90 ?", "a": "Combien ça coûte ?" },
+      { "q": "Quelle expression française rare signifie 'attendre longtemps debout sans bouger' ?", "a": "Faire le pied de grue" },
+      { "q": "Quelle BD-héroïne française créée par Jacques Tardi enquête à Paris au début du XXe siècle ?", "a": "Adèle Blanc-Sec" },
+      { "q": "Quel château du Berry, propriété de Talleyrand, fut transformé en musée du Second Empire ?", "a": "Le château de Valençay" },
+      { "q": "Quelle émission jeunesse d'Antenne 2 animée par Dorothée à ses débuts a précédé Le Club Dorothée ?", "a": "Récré A2" },
+      { "q": "Quel président de la IIIe République, libéral et orléaniste, fut le premier président élu en 1871 ?", "a": "Adolphe Thiers" },
+      { "q": "Quel chanteur français, auteur du 'Métèque', est né en Égypte en 1934 ?", "a": "Georges Moustaki" },
+      { "q": "Quel château du Berry fut acquis par George Sand et accueillit Chopin et Liszt ?", "a": "Le château de Nohant" },
+      { "q": "Quelle émission politique satirique de marionnettes a été diffusée sur Canal+ jusqu'en 2018 ?", "a": "Les Guignols de l'info" },
+      { "q": "Quelle danse traditionnelle bretonne, dérivée d'une suite, comporte plusieurs parties enchaînées ?", "a": "La suite de Loudéac (ou la gavotte de l'Aven)" },
+      { "q": "Quel jeu télévisé d'Antenne 2 présenté par Patrice Laffont a duré depuis 1972 et joue avec mots et chiffres ?", "a": "Des chiffres et des lettres" },
+      { "q": "Quel humoriste français du XXe siècle a marqué la radio avec son personnage de Bouvard et Pécuchet ?", "a": "Pierre Dac" }
     ],
     "9": [
-      {
-        "q": "Quel chef 3 étoiles a tenu l’Auberge du Pont de Collonges ?",
-        "a": "Paul Bocuse"
-      },
-      {
-        "q": "Quel philosophe a écrit « Le contrat social » ?",
-        "a": "Jean-Jacques Rousseau"
-      },
-      {
-        "q": "Quel château de la Loire est connu pour son escalier à double révolution ?",
-        "a": "Le château de Chambord"
-      },
-      {
-        "q": "Quel écrivain a créé le commissaire Maigret ?",
-        "a": "Georges Simenon"
-      },
-      {
-        "q": "Quelle danse née dans le Sud-Ouest accompagne souvent les bandas ?",
-        "a": "La féria / la banda (rép. attendue : la « fête »; sinon précise « la danse gasconne/folklorique »)"
-      }
+      { "q": "Quelle expression française désuète, héritée de la marine, signifie 'partir discrètement sans se faire remarquer' ?", "a": "Filer à l'anglaise" },
+      { "q": "Quel président de la IIIe République, élu en 1879, démissionna en 1887 après le scandale des décorations de son gendre ?", "a": "Jules Grévy" },
+      { "q": "Quel château médiéval du Tarn, classé monument historique, abrita Toulouse-Lautrec dans son enfance ?", "a": "Le château du Bosc" },
+      { "q": "Quelle expression rare en français signifie 'être très pauvre, sans le sou' ?", "a": "Être sur la paille" },
+      { "q": "Quel président de la IIIe République, modéré, fut chef du gouvernement quatre fois entre 1892 et 1917 ?", "a": "Alexandre Ribot" },
+      { "q": "Quel château du Maine-et-Loire est célèbre pour conserver la tenture de l'Apocalypse ?", "a": "Le château d'Angers" },
+      { "q": "Quelle danse limousine ancestrale est jouée à la cabrette et dansée en couple dans les bourrées ?", "a": "La bourrée limousine" },
+      { "q": "Quel auteur français de BD, sous le pseudo Mœbius, a créé 'Arzach' et 'L'Incal' ?", "a": "Jean Giraud" },
+      { "q": "Quelle expression française désuète signifie 'avoir des difficultés financières et tirer avec peine' ?", "a": "Tirer le diable par la queue" },
+      { "q": "Quel président de la IIIe République, élu en 1899, a gracié Dreyfus et inauguré l'Exposition universelle de 1900 ?", "a": "Émile Loubet" },
+      { "q": "Quel jeu télévisé culte mais oublié de FR3, animé par Pierre Bellemare, traitait d'énigmes policières ?", "a": "Les Dossiers extraordinaires" },
+      { "q": "Quel château fortifié de Vendée, construit au XIIe siècle, fut une place forte des guerres de religion ?", "a": "Le château de Tiffauges" },
+      { "q": "Quelle danse traditionnelle gasconne en quadrille accompagne les fêtes du Sud-Ouest ?", "a": "Le rondeau gascon" },
+      { "q": "Quel président de la IIIe République, en fonction en 1914, était originaire de Lorraine ?", "a": "Raymond Poincaré" },
+      { "q": "Quelle expression française rare, héritée du langage médiéval, signifie 'parler en vain' ?", "a": "Prêcher dans le désert" }
     ],
     "10": [
-      {
-        "q": "Quel architecte a bâti la villa Savoye (icône moderniste) ?",
-        "a": "Le Corbusier"
-      },
-      {
-        "q": "Quel peintre français a réalisé « Le Déjeuner sur l’herbe » et « Olympia » ?",
-        "a": "Édouard Manet"
-      },
-      {
-        "q": "Quel écrivain a reçu le Nobel en 2014 pour « Le Sermon sur la chute de Rome » (via Patrick Modiano 2014; attention : Modiano l’a reçu pour l’ensemble de son œuvre) ?",
-        "a": "Patrick Modiano"
-      },
-      {
-        "q": "Quel linguiste/écrivain a fixé en partie la langue française avec son « Dictionnaire » (XVIIe) ?",
-        "a": "L’Académie française (collectif) ; sinon : Vaugelas pour les Remarques"
-      },
-      {
-        "q": "Quel chef-d’œuvre roman orne Conques sur le chemin de Compostelle ?",
-        "a": "Le tympan du Jugement dernier de l’abbatiale Sainte-Foy de Conques"
-      }
+      { "q": "Quelle est la devise de la Ville de Paris en latin, évoquant un navire battu mais qui ne sombre pas ?", "a": "Fluctuat nec mergitur" },
+      { "q": "Quelle est la devise de la ville de Lyon, en occitan médiéval, signifiant que le lion est le meilleur avant tout ?", "a": "Avant, Avant, Lion le melhor" },
+      { "q": "Quel président de la IIIe République, élu en 1920, démissionna après seulement quelques mois à cause de problèmes de santé ?", "a": "Paul Deschanel" },
+      { "q": "Quelle est la devise de Marseille, en latin, évoquant son rayonnement par ses œuvres ?", "a": "Actibus immensis urbs fulget Massiliensis" },
+      { "q": "Quel président de la IIIe République fut renversé en 1879 après la crise du 16 mai 1877 ?", "a": "Patrice de Mac-Mahon" },
+      { "q": "Quelle expression française très rare et désuète signifie 'parler à tort et à travers' ?", "a": "Battre la campagne" },
+      { "q": "Quelle est la devise latine de la ville de Bordeaux, évoquant lis, lune et lion ?", "a": "Lilia sola regunt lunam, undas, castra, leonem" },
+      { "q": "Quel président de la IIIe République fut en fonction de 1924 à 1931, ancien radical du Sud-Ouest ?", "a": "Gaston Doumergue" },
+      { "q": "Quel château béarnais, ancienne résidence des rois de Navarre, vit naître Henri IV en 1553 ?", "a": "Le château de Pau" },
+      { "q": "Quelle est la devise latine de la ville de Nice, évoquant sa fidélité à la maison de Savoie ?", "a": "Nicaea civitas fidelissima" },
+      { "q": "Quel BD-auteur chilien naturalisé français a co-créé 'L'Incal' avec Mœbius ?", "a": "Alejandro Jodorowsky" },
+      { "q": "Quelle expression française archaïque, héritée du jeu, signifie 'se tirer habilement d'une situation difficile' ?", "a": "Tirer son épingle du jeu" },
+      { "q": "Quel président de la IIIe République, élu en 1931, fut assassiné par un Russe blanc en 1932 ?", "a": "Paul Doumer" },
+      { "q": "Quelle danse traditionnelle catalane, dansée en cercle, est l'emblème culturel du Roussillon ?", "a": "La sardane" },
+      { "q": "Quelle est la devise occitane de la ville de Toulouse, signifiant 'pour Toulouse toujours plus' ?", "a": "Per Tolosa totjorn mai" }
     ]
   }
 }

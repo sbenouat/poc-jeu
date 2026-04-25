@@ -3,224 +3,174 @@
   "name": "Harry Potter",
   "questions": {
     "1": [
-      {
-        "q": "Quel est le prénom du héros de la saga ?",
-        "a": "Harry"
-      },
-      {
-        "q": "Quel est le nom de famille de Ron ?",
-        "a": "Weasley"
-      },
-      {
-        "q": "Quel est le nom de famille d’Hermione ?",
-        "a": "Granger"
-      },
-      {
-        "q": "Comment s’appelle l’école de sorcellerie ?",
-        "a": "Poudlard"
-      },
-      {
-        "q": "Quel animal est Hedwige ?",
-        "a": "Une chouette"
-      }
+      { "q": "Comment s'appelle l'école de sorcellerie où Harry étudie ?", "a": "Poudlard" },
+      { "q": "Quelle forme a la cicatrice qu'Harry porte sur le front ?", "a": "Un éclair" },
+      { "q": "Quel sport magique se joue sur des balais avec un Vif d'or ?", "a": "Quidditch" },
+      { "q": "Comment s'appelle le mage noir contre lequel Harry combat depuis l'enfance ?", "a": "Voldemort" },
+      { "q": "Quel est le prénom du meilleur ami roux d'Harry ?", "a": "Ron" },
+      { "q": "Comment s'appelle la meilleure amie d'Harry, surnommée 'Miss-je-sais-tout' ?", "a": "Hermione" },
+      { "q": "Combien de tomes officiels compte la série de J.K. Rowling ?", "a": "Sept" },
+      { "q": "Comment s'appelle la chouette blanche offerte à Harry par Hagrid ?", "a": "Hedwige" },
+      { "q": "Comment s'appelle le directeur de Poudlard pendant la majorité de la scolarité d'Harry ?", "a": "Albus Dumbledore" },
+      { "q": "Combien de maisons compte Poudlard ?", "a": "Quatre" },
+      { "q": "À quelle maison appartient Harry ?", "a": "Gryffondor" },
+      { "q": "Comment s'appelle l'objet qui décide de la maison d'un élève ?", "a": "Le Choixpeau magique" },
+      { "q": "Quel acteur a incarné Harry Potter dans les films ?", "a": "Daniel Radcliffe" },
+      { "q": "Comment s'appelle le géant ami d'Harry, gardien des clés de Poudlard ?", "a": "Hagrid" },
+      { "q": "Comment s'appelle l'institution qui gouverne le monde sorcier britannique ?", "a": "Le ministère de la Magie" }
     ],
     "2": [
-      {
-        "q": "Dans quelle maison est envoyé Harry ?",
-        "a": "Gryffondor"
-      },
-      {
-        "q": "Qui est le directeur de Poudlard ?",
-        "a": "Albus Dumbledore"
-      },
-      {
-        "q": "Quel est le sport favori des sorciers ?",
-        "a": "Le Quidditch"
-      },
-      {
-        "q": "Quel est le prénom du professeur Rogue ?",
-        "a": "Severus"
-      },
-      {
-        "q": "Quel est le nom du château où se trouve Poudlard ?",
-        "a": "Poudlard"
-      }
+      { "q": "En quel bois est la baguette d'Harry, achetée chez Ollivander ?", "a": "Houx" },
+      { "q": "Quel professeur enseigne les potions durant les premières années d'Harry à Poudlard ?", "a": "Severus Rogue" },
+      { "q": "Comment s'appelle la rue où vivent les Dursley ?", "a": "Privet Drive" },
+      { "q": "Quel sortilège de désarmement Harry utilise-t-il très fréquemment ?", "a": "Expelliarmus" },
+      { "q": "Comment s'appelle le hibou de Ron, offert par Sirius ?", "a": "Coquecigrue" },
+      { "q": "Quelle est la maison réputée pour produire des sorciers maléfiques ?", "a": "Serpentard" },
+      { "q": "Comment s'appelle le frère jumeau de Fred Weasley ?", "a": "George" },
+      { "q": "Quel est le prénom du père d'Harry ?", "a": "James" },
+      { "q": "Quel est le prénom de la mère d'Harry ?", "a": "Lily" },
+      { "q": "Comment se nomme l'école française qui visite Poudlard dans le tome 4 ?", "a": "Beauxbâtons" },
+      { "q": "Quel sortilège permet de produire un Patronus contre les Détraqueurs ?", "a": "Expecto Patronum" },
+      { "q": "Comment s'appelle le balai de course offert à Harry en troisième année ?", "a": "L'Éclair de feu" },
+      { "q": "Comment s'appelle le serpent gigantesque qui pétrifie les élèves dans le tome 2 ?", "a": "Le Basilic" },
+      { "q": "Quel chien à trois têtes garde la trappe au premier étage dans le tome 1 ?", "a": "Touffu" },
+      { "q": "Comment s'appelle le journal qui possède Ginny dans le tome 2 ?", "a": "Le journal de Tom Jedusor" }
     ],
     "3": [
-      {
-        "q": "Quel est le nom du chien à trois têtes de Hagrid ?",
-        "a": "Touffu"
-      },
-      {
-        "q": "Quel est le nom du parrain de Harry ?",
-        "a": "Sirius Black"
-      },
-      {
-        "q": "Qui est l’elfe de maison de la famille Malefoy ?",
-        "a": "Dobby"
-      },
-      {
-        "q": "Qui est l’ennemi juré de Harry à l’école ?",
-        "a": "Drago Malefoy"
-      },
-      {
-        "q": "Quel professeur enseigne la métamorphose ?",
-        "a": "Minerva McGonagall"
-      }
+      { "q": "Quel objet ensorcelé permet à Hermione de suivre plusieurs cours en même temps en troisième année ?", "a": "Un Retourneur de Temps" },
+      { "q": "Quel est le métier de Mr. Weasley au ministère de la Magie ?", "a": "Il étudie le mauvais usage des objets moldus" },
+      { "q": "Comment s'appelle l'autre école sorcière, située à l'Est, qui visite Poudlard dans le tome 4 ?", "a": "Durmstrang" },
+      { "q": "Comment s'appelle la journaliste sensationnaliste qui suit Harry dans le tome 4 ?", "a": "Rita Skeeter" },
+      { "q": "Quel est le vrai nom de Voldemort ?", "a": "Tom Elvis Jedusor" },
+      { "q": "Comment s'appelle le chat orange et touffu d'Hermione ?", "a": "Pattenrond" },
+      { "q": "Quel professeur enseigne la défense contre les forces du mal en troisième année ?", "a": "Remus Lupin" },
+      { "q": "Quelle potion permet de prendre l'apparence de quelqu'un d'autre pendant une heure ?", "a": "Polynectar" },
+      { "q": "Quel est le nom complet d'Albus Dumbledore ?", "a": "Albus Percival Wulfric Brian Dumbledore" },
+      { "q": "Quelle adresse londonienne sert de quartier général à l'Ordre du Phénix ?", "a": "12 Square Grimmaurd" },
+      { "q": "Quel sortilège interdit cause une douleur insupportable ?", "a": "Endoloris" },
+      { "q": "Comment s'appelle la prison des sorciers, gardée par les Détraqueurs ?", "a": "Azkaban" },
+      { "q": "Quel pub borgne sépare le monde moldu du Chemin de Traverse ?", "a": "Le Chaudron Baveur" },
+      { "q": "Comment s'appelle le placard où Harry vit chez les Dursley ?", "a": "Le placard sous l'escalier" },
+      { "q": "Quelle est la devise de Poudlard, en latin ?", "a": "Draco dormiens nunquam titillandus" }
     ],
     "4": [
-      {
-        "q": "Qui tue Dumbledore ?",
-        "a": "Severus Rogue"
-      },
-      {
-        "q": "Quel professeur enseigne la défense contre les forces du mal dans le tome 2 ?",
-        "a": "Gilderoy Lockhart"
-      },
-      {
-        "q": "Quel est le nom du gobelin qui travaille à Gringotts ?",
-        "a": "Gripsec"
-      },
-      {
-        "q": "Quel est le sort utilisé pour désarmer un adversaire ?",
-        "a": "Expelliarmus"
-      },
-      {
-        "q": "Quel est le nom du serpent de Voldemort ?",
-        "a": "Nagini"
-      }
+      { "q": "Qui dirigeait Poudlard juste avant Albus Dumbledore ?", "a": "Armando Dippet" },
+      { "q": "Comment s'appelle la boutique de farces et attrapes de Pré-au-Lard ?", "a": "Zonko" },
+      { "q": "Quel est le prénom du frère cadet de Sirius, devenu Mangemort puis traître à Voldemort ?", "a": "Regulus" },
+      { "q": "Comment se nomme la fille de Ron et Hermione, dans l'épilogue ?", "a": "Rose" },
+      { "q": "Comment se nomme le fils de Ron et Hermione ?", "a": "Hugo" },
+      { "q": "Quel professeur enseigne la divination à Poudlard ?", "a": "Sibylle Trelawney" },
+      { "q": "Quel est le prénom de Mrs. Weasley ?", "a": "Molly" },
+      { "q": "Quel sort permet d'allumer une lumière au bout de la baguette ?", "a": "Lumos" },
+      { "q": "Comment s'appelle le fantôme de la maison Gryffondor ?", "a": "Nick Quasi-Sans-Tête" },
+      { "q": "Comment s'appelle le fantôme professeur d'histoire de la magie ?", "a": "Professeur Binns" },
+      { "q": "Quelle créature pacifique vit dans le Lac Noir de Poudlard ?", "a": "Le calmar géant" },
+      { "q": "Quel est le titre de Severus Rogue dans la maison Serpentard ?", "a": "Directeur de la maison Serpentard" },
+      { "q": "Comment s'appelle le demi-frère géant d'Hagrid, ramené à Poudlard ?", "a": "Graup" },
+      { "q": "Combien de points vaut un Vif d'or capturé au Quidditch ?", "a": "150 points" },
+      { "q": "Comment s'appelle le miroir qui montre à chacun son désir le plus cher ?", "a": "Le Miroir du Riséd" }
     ],
     "5": [
-      {
-        "q": "Quel est le vrai nom de Voldemort ?",
-        "a": "Tom Elvis Jedusor"
-      },
-      {
-        "q": "Quel sort sert à tuer ?",
-        "a": "Avada Kedavra"
-      },
-      {
-        "q": "Quel professeur est loup-garou ?",
-        "a": "Remus Lupin"
-      },
-      {
-        "q": "Quel objet rend invisible ?",
-        "a": "La cape d’invisibilité"
-      },
-      {
-        "q": "Quel animal est Croûtard en réalité ?",
-        "a": "Peter Pettigrow"
-      }
+      { "q": "Quel sort utilise Voldemort contre Harry bébé, qui rebondit sur lui ?", "a": "Avada Kedavra" },
+      { "q": "Comment s'appelle la sœur de Vernon Dursley, transformée en ballon dans le tome 3 ?", "a": "Marge Dursley" },
+      { "q": "Quelle est la date d'anniversaire d'Harry Potter ?", "a": "31 juillet" },
+      { "q": "Comment s'appelle le ministre de la Magie après la chute de Cornelius Fudge ?", "a": "Rufus Scrimgeour" },
+      { "q": "Comment se nomme le pub de Pré-au-Lard tenu par Madame Rosmerta ?", "a": "Les Trois Balais" },
+      { "q": "Quel est le prénom complet de Tonks ?", "a": "Nymphadora" },
+      { "q": "Quel cours optionnel Hermione abandonne-t-elle en troisième année après une crise ?", "a": "La Divination" },
+      { "q": "Comment s'appelle le bébé fils de Lupin et Tonks ?", "a": "Teddy" },
+      { "q": "Comment s'appelle le serpent familier de Voldemort ?", "a": "Nagini" },
+      { "q": "Quelle plante permet à Harry de respirer sous l'eau lors de la deuxième tâche du tournoi des Trois Sorciers ?", "a": "La branchiflore" },
+      { "q": "Quel est l'animagus de James Potter, le père d'Harry ?", "a": "Un cerf" },
+      { "q": "Quel est l'animagus de Sirius Black ?", "a": "Un grand chien noir" },
+      { "q": "En quel bois est la baguette qu'Harry prend à Drago Malefoy ?", "a": "Aubépine" },
+      { "q": "Comment s'appelle la boutique d'objets de magie noire de l'Allée des Embrumes ?", "a": "Barjow et Beurk" },
+      { "q": "Comment s'appelle l'arbre vivant et violent qui pousse à proximité du château ?", "a": "Le Saule cogneur" }
     ],
     "6": [
-      {
-        "q": "Quel est le nom complet de l’école concurrente venue au Tournoi des Trois Sorciers dirigée par Madame Maxime ?",
-        "a": "Beauxbâtons"
-      },
-      {
-        "q": "Qui gagne le Tournoi des Trois Sorciers avec Harry ?",
-        "a": "Cedric Diggory (ils gagnent ensemble mais il meurt)"
-      },
-      {
-        "q": "Quel professeur enseigne les potions ?",
-        "a": "Severus Rogue"
-      },
-      {
-        "q": "Quel est le prénom de la mère de Harry ?",
-        "a": "Lily"
-      },
-      {
-        "q": "Quel est le prénom du père de Harry ?",
-        "a": "James"
-      }
+      { "q": "Quel est le prénom de la mère de Tom Jedusor ?", "a": "Merope Gaunt" },
+      { "q": "Quel est le nom du grand-père maternel de Voldemort, descendant de Salazar Serpentard ?", "a": "Marvolo Gaunt" },
+      { "q": "Comment s'appelle l'oncle de Voldemort, frère de Merope ?", "a": "Morfin Gaunt" },
+      { "q": "Sur quel principe magique repose la protection qu'Harry conserve tant qu'il vit chez les Dursley ?", "a": "Le sacrifice du sang de Lily" },
+      { "q": "Quelle prison contient Gellert Grindelwald après sa capture par Dumbledore ?", "a": "Nurmengard" },
+      { "q": "Comment se nomme la sœur cadette d'Albus Dumbledore, morte dans son enfance ?", "a": "Ariana" },
+      { "q": "Comment se nomme le frère d'Albus Dumbledore, tenancier de la Tête de Sanglier ?", "a": "Aberforth" },
+      { "q": "Quelle espèce de dragon garde le coffre des Lestrange à Gringotts ?", "a": "Un Pansedefer ukrainien" },
+      { "q": "Quel objet Hermione hérite-t-elle de Dumbledore dans son testament ?", "a": "Les Contes de Beedle le Barde" },
+      { "q": "Quel objet Ron hérite-t-il de Dumbledore ?", "a": "Le Déluminateur" },
+      { "q": "Quel est le titre du conte qui révèle l'existence des Reliques de la Mort ?", "a": "Le Conte des trois frères" },
+      { "q": "Quel est le statut de sang de Severus Rogue, selon les origines de ses parents ?", "a": "Sang-mêlé" },
+      { "q": "Quel chapitre du tome 7 raconte la véritable histoire de Severus Rogue ?", "a": "L'Histoire du Prince" },
+      { "q": "Combien de Horcruxes Voldemort crée-t-il volontairement, selon Dumbledore ?", "a": "Six" },
+      { "q": "Quel est le septième Horcruxe, créé involontairement ?", "a": "Harry Potter" }
     ],
     "7": [
-      {
-        "q": "Quel personnage peut se transformer en rat ?",
-        "a": "Peter Pettigrow"
-      },
-      {
-        "q": "Quel personnage est l’héritière de Serpentard dans le tome 2 ?",
-        "a": "Ginny Weasley (possédée par le journal)"
-      },
-      {
-        "q": "Quel objet Voldemort transforme-t-il en Horcruxe dans le tome 2 ?",
-        "a": "Le journal de Jedusor"
-      },
-      {
-        "q": "Quel est le patronus de Harry ?",
-        "a": "Un cerf"
-      },
-      {
-        "q": "Quel professeur est directeur de Serpentard ?",
-        "a": "Severus Rogue"
-      }
+      { "q": "Comment se nomme la vieille historienne sorcière qui vit à Godric's Hollow et que Voldemort tue ?", "a": "Bathilda Tourdesac" },
+      { "q": "Quelle matière, considérée comme la plus difficile par Hermione, étudie les chiffres magiques ?", "a": "Arithmancie" },
+      { "q": "Comment appelle-t-on les créatures aquatiques qui peuplent le Lac Noir et négocient avec les Champions du Tournoi ?", "a": "Les êtres de l'eau (sirènes)" },
+      { "q": "Quel pays remporte la finale de la Coupe du monde de Quidditch dans le tome 4 ?", "a": "L'Irlande" },
+      { "q": "Quel attrapeur bulgare est célèbre dans le monde sorcier ?", "a": "Viktor Krum" },
+      { "q": "Quel délégué accompagne Mr. Weasley à la Coupe du monde de Quidditch ?", "a": "Ludo Verpey" },
+      { "q": "Quel poste Percy Weasley occupe-t-il au ministère dans le tome 5 ?", "a": "Secrétaire particulier de Cornelius Fudge" },
+      { "q": "Quel objet Albus Dumbledore lègue-t-il à Harry dans son testament ?", "a": "Le Vif d'or de sa première finale de Quidditch" },
+      { "q": "Que cache le Vif d'or qu'Harry reçoit en héritage ?", "a": "La Pierre de Résurrection" },
+      { "q": "Comment s'appelle la directrice de la maison Poufsouffle ?", "a": "Pomona Chourave" },
+      { "q": "Comment s'appelle le directeur de la maison Serdaigle ?", "a": "Filius Flitwick" },
+      { "q": "Quel élève de Poufsouffle meurt dans le cimetière à la fin du tome 4 ?", "a": "Cédric Diggory" },
+      { "q": "Quel acteur incarne Severus Rogue dans les films ?", "a": "Alan Rickman" },
+      { "q": "Qui est le 'Prince de Sang-Mêlé', auteur du manuel de potions annoté qu'Harry utilise en sixième année ?", "a": "Severus Rogue" },
+      { "q": "Comment s'appelle le tableau gardien de la salle commune de Gryffondor ?", "a": "La Grosse Dame" }
     ],
     "8": [
-      {
-        "q": "Qui tue Bellatrix Lestrange ?",
-        "a": "Molly Weasley"
-      },
-      {
-        "q": "Qui devient ministre de la Magie après la guerre ?",
-        "a": "Kingsley Shacklebolt"
-      },
-      {
-        "q": "Quel est le vrai maître de la baguette de Sureau avant Harry ?",
-        "a": "Draco Malefoy"
-      },
-      {
-        "q": "Quelle est la devise de Poudlard ?",
-        "a": "Draco dormiens nunquam titillandus"
-      },
-      {
-        "q": "Quel objet est nécessaire pour ouvrir la Chambre des Secrets ?",
-        "a": "Parler Fourchelang"
-      }
+      { "q": "Quel est le surnom donné par Sirius à James Potter durant leur scolarité ?", "a": "Cornedrue" },
+      { "q": "Quel est le surnom de Remus Lupin durant sa scolarité ?", "a": "Lunard" },
+      { "q": "Quel est le surnom de Peter Pettigrew durant sa scolarité ?", "a": "Queudver" },
+      { "q": "En quelle année Voldemort tue-t-il James et Lily Potter ?", "a": "1981" },
+      { "q": "En quelle année Harry naît-il ?", "a": "1980" },
+      { "q": "En quelle année Harry entre-t-il à Poudlard ?", "a": "1991" },
+      { "q": "En quelle année se déroule la bataille finale de Poudlard ?", "a": "1998" },
+      { "q": "Quel auteur est imposé par Dolores Ombrage en cinquième année pour le cours de défense contre les forces du mal ?", "a": "Wilbert Eskivdur" },
+      { "q": "Comment Harry devient-il le maître de la Baguette de Sureau ?", "a": "En désarmant Drago Malefoy au manoir des Malefoy" },
+      { "q": "Comment s'appelle le café fleur-bleu où Harry et Cho ont leur premier rendez-vous ?", "a": "Chez Madame Pieddodu" },
+      { "q": "Quel département du ministère étudie les voiles, le temps et l'amour ?", "a": "Le département des Mystères" },
+      { "q": "Qui est la première petite amie d'Harry ?", "a": "Cho Chang" },
+      { "q": "Combien de Champions participent au tournoi des Trois Sorciers dans le tome 4, en raison de la fraude ?", "a": "Quatre" },
+      { "q": "Quel est le score final de l'Irlande contre la Bulgarie en finale de la Coupe du monde de Quidditch ?", "a": "170 à 160" },
+      { "q": "Quel est le métier de Bill Weasley, le frère aîné ?", "a": "Briseur de sorts pour Gringotts" }
     ],
     "9": [
-      {
-        "q": "Quel est le prénom de la sœur de Dumbledore ?",
-        "a": "Ariana"
-      },
-      {
-        "q": "Quel est le prénom du frère de Dumbledore ?",
-        "a": "Aberforth"
-      },
-      {
-        "q": "Quel Horcruxe Hermione détruit-elle ?",
-        "a": "La coupe de Helga Poufsouffle"
-      },
-      {
-        "q": "Qui tue Nagini ?",
-        "a": "Neville Londubat"
-      },
-      {
-        "q": "Qui est le fantôme de Serdaigle ?",
-        "a": "La Dame Grise (Helena Serdaigle)"
-      }
+      { "q": "Comment s'appelle l'épouse de Lucius Malefoy ?", "a": "Narcissa Malefoy (née Black)" },
+      { "q": "Quel est le prénom du père de Sirius Black ?", "a": "Orion" },
+      { "q": "Quel est le prénom de la mère de Sirius Black ?", "a": "Walburga" },
+      { "q": "Comment s'appelle l'elfe de maison qui sert d'abord les Malefoy avant d'être libéré par Harry ?", "a": "Dobby" },
+      { "q": "Comment s'appelle l'elfe de maison qui sert la famille Black puis Harry ?", "a": "Kreattur" },
+      { "q": "Combien d'enfants Harry et Ginny ont-ils dans l'épilogue ?", "a": "Trois" },
+      { "q": "Comment s'appelle la fille d'Harry et Ginny ?", "a": "Lily Luna" },
+      { "q": "Quel est le métier de Charlie Weasley ?", "a": "Dresseur de dragons en Roumanie" },
+      { "q": "Comment s'appelle la fille aînée de Bill et Fleur Weasley ?", "a": "Victoire" },
+      { "q": "Comment se nomme la sœur aînée de Bellatrix Lestrange et Narcissa Malefoy ?", "a": "Andromeda Tonks" },
+      { "q": "Combien de frères et sœurs Hermione Granger a-t-elle ?", "a": "Aucun (elle est fille unique)" },
+      { "q": "Qui assure l'intérim de la direction de Poudlard juste après la chute de Dumbledore ?", "a": "Minerva McGonagall" },
+      { "q": "Comment s'appelle l'œuvre fictive de Gilderoy Lockhart sur les loups-garous ?", "a": "Promenades avec les loups-garous" },
+      { "q": "Quel est le nom du second fils d'Harry et Ginny ?", "a": "Albus Severus" },
+      { "q": "Quel est le prénom du fils aîné d'Harry et Ginny ?", "a": "James Sirius" }
     ],
     "10": [
-      {
-        "q": "Quel personnage est le véritable maître de la baguette de Sureau à la fin ?",
-        "a": "Harry Potter"
-      },
-      {
-        "q": "Quel Horcruxe est caché dans le médaillon ?",
-        "a": "Le médaillon de Salazar Serpentard"
-      },
-      {
-        "q": "Qui tue Voldemort ?",
-        "a": "Harry Potter (indirectement, son propre sort se retourne contre lui)"
-      },
-      {
-        "q": "Quel est le nom complet de Dumbledore ?",
-        "a": "Albus Percival Wulfric Brian Dumbledore"
-      },
-      {
-        "q": "Quelle pierre est l’un des Reliques de la Mort ?",
-        "a": "La pierre de résurrection"
-      }
+      { "q": "En quelle année est sorti le premier livre 'Harry Potter à l'école des sorciers' au Royaume-Uni ?", "a": "1997" },
+      { "q": "Quelle maison d'édition britannique a publié pour la première fois Harry Potter ?", "a": "Bloomsbury" },
+      { "q": "Combien d'éditeurs ont refusé le manuscrit de J.K. Rowling avant Bloomsbury ?", "a": "12" },
+      { "q": "Comment s'appelle l'agent littéraire qui accepte Rowling après les douze refus ?", "a": "Christopher Little" },
+      { "q": "Comment s'appelle la grand-mère paternelle de Neville Londubat ?", "a": "Augusta Londubat" },
+      { "q": "Quel animal accompagne le concierge Argus Rusard à Poudlard ?", "a": "Miss Teigne" },
+      { "q": "Quel goût de Dragée Surprise de Bertie Crochue Dumbledore mange-t-il à la fin du tome 1 ?", "a": "Cire d'oreille" },
+      { "q": "À quel âge Severus Rogue rencontre-t-il Lily Evans pour la première fois ?", "a": "Neuf ans" },
+      { "q": "En quelle année Sirius Black s'évade-t-il d'Azkaban ?", "a": "1993" },
+      { "q": "À quelle heure du soir se déroule traditionnellement le cours d'astronomie à Poudlard ?", "a": "Minuit" },
+      { "q": "Comment se nomme l'oncle de Sirius qui meurt en lui laissant un héritage en or ?", "a": "Alphard Black" },
+      { "q": "Comment se nomme l'éditeur du Chicaneur, père de Luna Lovegood ?", "a": "Xenophilius Lovegood" },
+      { "q": "Quel objet maudit est confié à Katie Bell sous l'effet d'un Imperium dans le tome 6 ?", "a": "Un collier d'opales" },
+      { "q": "Quel professeur de potions tient un club d'élèves prometteurs surnommé le Club de Slug ?", "a": "Horace Slughorn" },
+      { "q": "Quel est l'auteur fictif du livre 'Quidditch à travers les âges' au sein de l'univers HP ?", "a": "Kennilworthy Whisp" }
     ]
   }
 }

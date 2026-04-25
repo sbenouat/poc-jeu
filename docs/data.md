@@ -93,6 +93,25 @@ Si même `questions.sample.json` n'est pas accessible : un thème "Démo" minima
 
 `hasRemainingQuestions(theme)` retourne `true` dès qu'au moins une difficulté du thème a au moins une question non utilisée. Sert à `pickRandomTheme` pour ignorer les thèmes épuisés.
 
+## Volume et calibration des questions
+
+**Volume cible actuel** :
+- 17 thèmes standards à **150 questions** (15 par niveau de difficulté de 1 à 10).
+- 2 thèmes à format spécial (`plusoumoins`, `quisuisje`) à **100 questions** (10 par niveau) — leurs contraintes de format limitent la variation.
+- Total : ~2 750 questions.
+
+**Calibration de difficulté** : **relative au thème**. Un niveau 10 en HIMYM ne demande pas le même bagage qu'un niveau 10 en Histoire ; chaque thème a sa propre échelle interne.
+
+| Niveau | Profil cible (relatif au thème) |
+|--------|---------------------------------|
+| 1-2    | Trivial — quelqu'un même peu intéressé par le thème connaît la réponse |
+| 3-4    | Connaissance basique — vu/lu/entendu une fois |
+| 5-6    | Amateur régulier — détails connus |
+| 7-8    | Passionné — anecdotes, dates, noms moins évidents |
+| 9-10   | Expert — détail piège, fait peu connu, point précis qui sépare le fan du super-fan |
+
+Cette grille a été appliquée lors de la refonte du corpus (branche `questions-rewrite`).
+
 ## Migration / régénération
 
 Le script `split-themes.py` à la racine du repo (Python 3) régénère :

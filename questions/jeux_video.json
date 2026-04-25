@@ -3,224 +3,174 @@
   "name": "Jeux vidéo",
   "questions": {
     "1": [
-      {
-        "q": "Quel est le plombier moustachu le plus célèbre du jeu vidéo ?",
-        "a": "Mario"
-      },
-      {
-        "q": "Dans quel jeu doit-on attraper des créatures appelées Pokémon ?",
-        "a": "Pokémon"
-      },
-      {
-        "q": "Quel hérisson bleu est la mascotte de Sega ?",
-        "a": "Sonic"
-      },
-      {
-        "q": "Dans quel jeu incarne-t-on un guerrier qui affronte des creepers ?",
-        "a": "Minecraft"
-      },
-      {
-        "q": "Quel jeu d’Activision met en scène un soldat dans des guerres modernes ?",
-        "a": "Call of Duty"
-      }
+      { "q": "Quel plombier moustachu en salopette rouge est la mascotte de Nintendo ?", "a": "Mario" },
+      { "q": "Quel hérisson bleu très rapide est la mascotte historique de Sega ?", "a": "Sonic" },
+      { "q": "Quel jeu de blocs cubiques permet de construire et explorer un monde infini ?", "a": "Minecraft" },
+      { "q": "Quel jeu de battle royale aux skins colorés a explosé en 2017 chez Epic Games ?", "a": "Fortnite" },
+      { "q": "Quelle saga Nintendo demande de capturer des créatures comme Pikachu ?", "a": "Pokémon" },
+      { "q": "Quelle créature électrique jaune est la mascotte de la saga Pokémon ?", "a": "Pikachu" },
+      { "q": "Quel jeu de simulation de vie permet de créer des familles dans des maisons ?", "a": "Les Sims" },
+      { "q": "Quelle saga de football d'EA Sports sortait chaque année avant son renommage en EA Sports FC ?", "a": "FIFA" },
+      { "q": "Quel jeu d'arcade des années 80 demande de manger des pac-gommes en évitant des fantômes ?", "a": "Pac-Man" },
+      { "q": "Quel jeu russe consiste à empiler des blocs de formes variées qui tombent ?", "a": "Tetris" },
+      { "q": "Quel frère vert et peureux accompagne souvent Mario dans ses aventures ?", "a": "Luigi" },
+      { "q": "Quel héros en tunique verte sauve la princesse Zelda dans les jeux Nintendo ?", "a": "Link" },
+      { "q": "Quelle console portable Nintendo de 1989 popularisa Tetris dans le monde entier ?", "a": "Game Boy" },
+      { "q": "Quel jeu de tir militaire annuel est édité par Activision depuis 2003 ?", "a": "Call of Duty" },
+      { "q": "Quelle saga de Rockstar suit des criminels dans des villes américaines fictives ?", "a": "GTA" }
     ],
     "2": [
-      {
-        "q": "Quel jeu de tir multijoueur a popularisé le mode Battle Royale en 2017 ?",
-        "a": "Fortnite"
-      },
-      {
-        "q": "Quelle licence Nintendo met en avant des courses de kart ?",
-        "a": "Mario Kart"
-      },
-      {
-        "q": "Quel jeu de danse utilise une caméra ou manette pour suivre les mouvements ?",
-        "a": "Just Dance"
-      },
-      {
-        "q": "Quelle console portable de Nintendo succède à la Game Boy ?",
-        "a": "La Nintendo DS"
-      },
-      {
-        "q": "Quel studio a créé la série The Legend of Zelda ?",
-        "a": "Nintendo"
-      }
+      { "q": "Quelle princesse Mario doit-il régulièrement sauver des griffes de Bowser ?", "a": "Peach" },
+      { "q": "Quel grand méchant à carapace et cornes enlève la princesse Peach ?", "a": "Bowser" },
+      { "q": "Quel singe en cravate rouge est le héros de la série Donkey Kong ?", "a": "Donkey Kong" },
+      { "q": "Quel jeu de FPS de Blizzard met en scène des héros comme Tracer et Reinhardt ?", "a": "Overwatch" },
+      { "q": "Quelle saga Ubisoft suit des Assassins à travers l'Histoire avec Altaïr et Ezio ?", "a": "Assassin's Creed" },
+      { "q": "Quel renard ailé et son équipe pilotent l'Arwing dans une saga Nintendo ?", "a": "Star Fox" },
+      { "q": "Quel jeu de tir tactique 5v5 de Riot Games est sorti en 2020 ?", "a": "Valorant" },
+      { "q": "Quel MOBA de Riot Games oppose deux équipes de cinq sur la Faille de l'Invocateur ?", "a": "League of Legends" },
+      { "q": "Quel titre de FromSoftware de 2011 a popularisé le sous-genre soulslike ?", "a": "Dark Souls" },
+      { "q": "Quel jeu Nintendo de 2017 envoie Link explorer Hyrule en monde ouvert sur Switch ?", "a": "Breath of the Wild" },
+      { "q": "Quelle console Sony de 1994 a lancé Crash Bandicoot et Tomb Raider ?", "a": "PlayStation" },
+      { "q": "Quelle dinosaure verte sert de monture à Mario dans plusieurs jeux ?", "a": "Yoshi" },
+      { "q": "Quel jeu de course Nintendo voit Mario et ses amis s'affronter avec des carapaces ?", "a": "Mario Kart" },
+      { "q": "Quel jeu de combat Nintendo réunit Mario, Link, Pikachu et bien d'autres ?", "a": "Super Smash Bros" },
+      { "q": "Quel jeu de rôle de 2015 voit Geralt chasser des monstres dans un monde slave ?", "a": "The Witcher 3" }
     ],
     "3": [
-      {
-        "q": "Quel jeu de rôle en ligne massivement multijoueur (MMORPG) a été lancé en 2004 par Blizzard ?",
-        "a": "World of Warcraft"
-      },
-      {
-        "q": "Quel héros porte un grappin et combat des pirates dans Uncharted ?",
-        "a": "Nathan Drake"
-      },
-      {
-        "q": "Quel est le jeu culte où l’on capture des fantômes avec un aspirateur dans un manoir ?",
-        "a": "Luigi’s Mansion"
-      },
-      {
-        "q": "Quel jeu de survie et d’horreur met en scène Leon Kennedy et Umbrella Corporation ?",
-        "a": "Resident Evil"
-      },
-      {
-        "q": "Quel jeu en monde ouvert de Rockstar met en scène des cowboys ?",
-        "a": "Red Dead Redemption"
-      }
+      { "q": "Quel studio japonais a créé Mario, Zelda et Metroid ?", "a": "Nintendo" },
+      { "q": "Quel studio développe la saga Final Fantasy ?", "a": "Square Enix" },
+      { "q": "Quel studio polonais a développé The Witcher 3 et Cyberpunk 2077 ?", "a": "CD Projekt Red" },
+      { "q": "Quel jeu de zombies coopératif de Valve sorti en 2008 a marqué l'ère Source ?", "a": "Left 4 Dead" },
+      { "q": "Quel jeu de 2017 voit Aloy chasser des machines dans un monde post-apo ?", "a": "Horizon Zero Dawn" },
+      { "q": "Quelle saga de Naughty Dog suit Nathan Drake en chasse au trésor ?", "a": "Uncharted" },
+      { "q": "Quel jeu de Bethesda de 2011 invite à crier en dragon dans Bordeciel ?", "a": "Skyrim" },
+      { "q": "Quel jeu Valve de 2007 propose des énigmes avec un pistolet à portails ?", "a": "Portal" },
+      { "q": "Quel jeu Konami met en scène l'agent Solid Snake dans des missions d'infiltration ?", "a": "Metal Gear Solid" },
+      { "q": "Quel jeu de Capcom oppose des chasseurs à des dragons géants en équipe ?", "a": "Monster Hunter" },
+      { "q": "Quel jeu de Capcom inventa le survival horror moderne en 1996 ?", "a": "Resident Evil" },
+      { "q": "Quel jeu de tir multijoueur tactique gratuit créé en 1999 a donné naissance à une scène esport mondiale ?", "a": "Counter-Strike" },
+      { "q": "Quel jeu de plateforme 3D de Naughty Dog sorti en 1996 sur PlayStation met en scène un marsupial orange au look punk ?", "a": "Crash Bandicoot" },
+      { "q": "Quelle saga de simulation urbaine de Maxis a précédé Les Sims ?", "a": "SimCity" },
+      { "q": "Quelle saga horrifique de Konami se déroule dans une ville brumeuse maudite ?", "a": "Silent Hill" }
     ],
     "4": [
-      {
-        "q": "Quelle franchise de combat inclut des personnages comme Ryu et Ken ?",
-        "a": "Street Fighter"
-      },
-      {
-        "q": "Quel jeu de tir futuriste oppose les Spartans de l’UNSC à l’Alliance Covenante ?",
-        "a": "Halo"
-      },
-      {
-        "q": "Quel jeu de rôle japonais se distingue par ses invocations et son héros Cloud Strife ?",
-        "a": "Final Fantasy VII"
-      },
-      {
-        "q": "Quel jeu d’aventure a pour héroïne Lara Croft ?",
-        "a": "Tomb Raider"
-      },
-      {
-        "q": "Quel studio a développé The Witcher et Cyberpunk 2077 ?",
-        "a": "CD Projekt Red"
-      }
+      { "q": "Quel studio développe la saga The Legend of Zelda ?", "a": "Nintendo" },
+      { "q": "Quel studio a développé GTA V et Red Dead Redemption 2 ?", "a": "Rockstar Games" },
+      { "q": "Quel studio japonais est connu pour Final Fantasy et Dragon Quest ?", "a": "Square Enix" },
+      { "q": "Quelle chasseuse de primes en armure orange est l'héroïne de Metroid ?", "a": "Samus Aran" },
+      { "q": "Quel personnage masqué pourchasse Link dans Majora's Mask ?", "a": "Skull Kid" },
+      { "q": "Quelle saga de Bethesda se déroule après une apocalypse nucléaire ?", "a": "Fallout" },
+      { "q": "Quelle saga Bioware met en scène le Commandant Shepard dans l'espace ?", "a": "Mass Effect" },
+      { "q": "Quel jeu d'aventure de Naughty Dog de 2013 met en scène Joel et Ellie ?", "a": "The Last of Us" },
+      { "q": "Quel jeu de Rockstar de 2018 suit le hors-la-loi Arthur Morgan dans le Far West ?", "a": "Red Dead Redemption 2" },
+      { "q": "Quel jeu de FromSoftware de 2015 sur PS4 succède à Dark Souls dans une ville gothique ?", "a": "Bloodborne" },
+      { "q": "Quel jeu de combat de Capcom oppose Ryu et Ken depuis 1987 ?", "a": "Street Fighter" },
+      { "q": "Quel jeu de combat de Bandai Namco met en scène Heihachi Mishima ?", "a": "Tekken" },
+      { "q": "Quel jeu de plateforme propose Chell, GLaDOS et un fameux gâteau ?", "a": "Portal" },
+      { "q": "Quel jeu de tir scientifique mettant en scène Gordon Freeman a créé le langage du FPS narratif en 1998 ?", "a": "Half-Life" },
+      { "q": "Quelle saga Square Enix a vu Cloud, Tidus et Lightning comme héros successifs ?", "a": "Final Fantasy" }
     ],
     "5": [
-      {
-        "q": "Dans quel jeu incarne-t-on un assassin équipé d’une lame cachée ?",
-        "a": "Assassin’s Creed"
-      },
-      {
-        "q": "Quel est le jeu le plus vendu de tous les temps (plus de 200 millions d’exemplaires) ?",
-        "a": "Minecraft"
-      },
-      {
-        "q": "Quel jeu de tir en équipe met en scène Tracer, Winston et Genji ?",
-        "a": "Overwatch"
-      },
-      {
-        "q": "Quel jeu de stratégie met en scène des Zergs, Protoss et Terrans ?",
-        "a": "StarCraft"
-      },
-      {
-        "q": "Quel héros est accompagné de Yoshi dans plusieurs aventures ?",
-        "a": "Mario"
-      }
+      { "q": "En quelle année est sorti le premier Super Mario Bros sur NES ?", "a": "1985" },
+      { "q": "En quelle année est sorti World of Warcraft ?", "a": "2004" },
+      { "q": "En quelle année est sorti GTA V à l'origine sur PS3 et Xbox 360 ?", "a": "2013" },
+      { "q": "En quelle année Minecraft est-il officiellement sorti en version 1.0 ?", "a": "2011" },
+      { "q": "Quel studio japonais a créé Final Fantasy avant de fusionner avec Enix ?", "a": "Squaresoft" },
+      { "q": "Quel jeu Nintendo de 1998 sur N64 introduit le système de verrouillage Z-targeting ?", "a": "Ocarina of Time" },
+      { "q": "Quel jeu de Hideo Kojima de 2019 met en vedette Norman Reedus en livreur post-apo ?", "a": "Death Stranding" },
+      { "q": "Quel studio a développé la série Dark Souls et Elden Ring ?", "a": "FromSoftware" },
+      { "q": "Quel jeu Naughty Dog de 1996 a lancé une mascotte marsupiale chez Sony ?", "a": "Crash Bandicoot" },
+      { "q": "Quelle compagnie produisait la console Dreamcast, dernière console maison de la marque ?", "a": "Sega" },
+      { "q": "Quel jeu de Nintendo introduit Mario en 3D sur Nintendo 64 en 1996 ?", "a": "Super Mario 64" },
+      { "q": "Quelle est la console la plus vendue de tous les temps en unités ?", "a": "PlayStation 2" },
+      { "q": "Quel jeu Rockstar de 2008 introduit Niko Bellic à Liberty City ?", "a": "GTA IV" },
+      { "q": "Quel jeu Bioware de 2007 propose un voyage spatial avec choix moraux et romance ?", "a": "Mass Effect" },
+      { "q": "Quel jeune sniper russe est le protagoniste de la saga Metro adaptée des romans de Glukhovsky ?", "a": "Artyom" }
     ],
     "6": [
-      {
-        "q": "Quelle série de jeux vidéo de sport met en avant Cristiano Ronaldo ou Lionel Messi ?",
-        "a": "FIFA"
-      },
-      {
-        "q": "Quel jeu en 2D a popularisé l’expression 'Finish him!' ?",
-        "a": "Mortal Kombat"
-      },
-      {
-        "q": "Quel jeu d’infiltration met en scène Solid Snake ?",
-        "a": "Metal Gear Solid"
-      },
-      {
-        "q": "Dans quel jeu de rôle incarne-t-on le 'Dovahkiin' ?",
-        "a": "The Elder Scrolls V: Skyrim"
-      },
-      {
-        "q": "Quel jeu indépendant met en scène un chevalier insecte dans un monde souterrain ?",
-        "a": "Hollow Knight"
-      }
+      { "q": "Quel directeur japonais a créé Mario, Donkey Kong et Zelda chez Nintendo ?", "a": "Shigeru Miyamoto" },
+      { "q": "Quel créateur japonais est à l'origine de la saga Metal Gear Solid ?", "a": "Hideo Kojima" },
+      { "q": "En quelle année est sortie la PlayStation 1 au Japon ?", "a": "1994" },
+      { "q": "En quelle année la Wii a-t-elle été lancée ?", "a": "2006" },
+      { "q": "Quel jeu de FromSoftware de 2022 a remporté le Game of the Year aux Game Awards ?", "a": "Elden Ring" },
+      { "q": "Quel auteur de fantasy a co-écrit le worldbuilding d'Elden Ring avec Miyazaki ?", "a": "George R. R. Martin" },
+      { "q": "Quelle saga de Konami met en scène les chasseurs de vampires Belmont ?", "a": "Castlevania" },
+      { "q": "Quel jeu de Square de 1997 voit Cloud affronter Sephiroth ?", "a": "Final Fantasy VII" },
+      { "q": "Quel jeu de stratégie en temps réel de Blizzard sorti en 1998 a marqué l'esport coréen ?", "a": "StarCraft" },
+      { "q": "Quel jeu indé de Toby Fox de 2015 fait choisir entre tuer ou épargner les monstres ?", "a": "Undertale" },
+      { "q": "Quel jeu indé de 2017 met en scène le Chevalier dans le royaume de Hallownest ?", "a": "Hollow Knight" },
+      { "q": "Quel concepteur a co-créé Sonic chez Sega aux côtés de Naoto Ohshima ?", "a": "Yuji Naka" },
+      { "q": "Quel jeu de Naughty Dog de 2020 a divisé les fans avec la mort d'un protagoniste ?", "a": "The Last of Us Part II" },
+      { "q": "Quel jeu Bethesda de 2002 voit le héros emprisonné s'évader dans Vvardenfell ?", "a": "Morrowind" },
+      { "q": "Quel jeu de course de Nintendo lance la formule sur SNES en 1992 ?", "a": "Super Mario Kart" }
     ],
     "7": [
-      {
-        "q": "Quel jeu de tir à la première personne de Valve a popularisé le mode compétitif 'Dust II' ?",
-        "a": "Counter-Strike"
-      },
-      {
-        "q": "Quel jeu met en scène Kratos, le dieu de la guerre ?",
-        "a": "God of War"
-      },
-      {
-        "q": "Quel jeu de simulation permet de gérer une ville et son maire ?",
-        "a": "SimCity"
-      },
-      {
-        "q": "Quel jeu de survie horrifique se déroule dans la ville de Silent Hill ?",
-        "a": "Silent Hill"
-      },
-      {
-        "q": "Quel jeu de rythme demande de frapper des cubes en musique avec des sabres lasers ?",
-        "a": "Beat Saber"
-      }
+      { "q": "Quel acteur prête sa voix à Joel dans 'The Last of Us' ?", "a": "Troy Baker" },
+      { "q": "Quelle actrice incarne Ellie en motion capture dans 'The Last of Us' ?", "a": "Ashley Johnson" },
+      { "q": "Quel compositeur japonais a écrit les musiques de Final Fantasy I à X ?", "a": "Nobuo Uematsu" },
+      { "q": "Quel concepteur dirige FromSoftware et a créé Demon's Souls ?", "a": "Hidetaka Miyazaki" },
+      { "q": "Quel jeu de 2007 d'Irrational Games se déroule dans la cité sous-marine de Rapture ?", "a": "BioShock" },
+      { "q": "Quel jeu d'horreur Frictional de 2010 a inauguré le sous-genre 'cache-toi' moderne ?", "a": "Amnesia: The Dark Descent" },
+      { "q": "Quel développeur indépendant suédois a créé Minecraft à l'origine ?", "a": "Markus Persson" },
+      { "q": "Quel musicien de Nine Inch Nails a composé la BO de Quake en 1996 ?", "a": "Trent Reznor" },
+      { "q": "Quel jeu d'arcade de 1978 voit le joueur défendre la Terre face à des envahisseurs en lignes ?", "a": "Space Invaders" },
+      { "q": "En quelle année est sorti le premier 'King of Fighters' de SNK sur Neo Geo ?", "a": "1994" },
+      { "q": "Quel personnage de Final Fantasy VII manie l'épée appelée Buster Sword ?", "a": "Cloud Strife" },
+      { "q": "Quel boss caché de Final Fantasy VII apparaît au fond d'un cratère sous-marin ?", "a": "Emerald Weapon" },
+      { "q": "Quel scénariste japonais est l'auteur des récits de Xenogears et Xenoblade Chronicles ?", "a": "Tetsuya Takahashi" },
+      { "q": "Quel jeu de gestion de Maxis de 1989 a créé le sous-genre du city-builder moderne ?", "a": "SimCity" },
+      { "q": "Quel duo de développeurs australien forme le studio Team Cherry derrière Hollow Knight ?", "a": "Ari Gibson et William Pellen" }
     ],
     "8": [
-      {
-        "q": "Quelle licence met en scène un hérisson bleu affrontant le Dr Robotnik ?",
-        "a": "Sonic the Hedgehog"
-      },
-      {
-        "q": "Quel jeu de rôle propose de devenir le 'Champion de Kanto' ?",
-        "a": "Pokémon Rouge/Bleu"
-      },
-      {
-        "q": "Quelle licence Nintendo a pour mascotte un elfe vêtu de vert ?",
-        "a": "The Legend of Zelda (Link)"
-      },
-      {
-        "q": "Quel jeu de survie multijoueur met en scène des imposteurs dans un vaisseau ?",
-        "a": "Among Us"
-      },
-      {
-        "q": "Quel FPS de Valve repose sur la résolution d’énigmes avec des portails ?",
-        "a": "Portal"
-      }
+      { "q": "Quel jeu PlayStation de 1999 propose un mode kart avec Crash et Coco Bandicoot ?", "a": "Crash Team Racing" },
+      { "q": "Quelle loutre orange est l'acolyte du héros dans la série Jak and Daxter ?", "a": "Daxter" },
+      { "q": "En quelle année est sorti EverQuest, MMO précurseur de WoW ?", "a": "1999" },
+      { "q": "Quel jeu de tir de 1993 d'id Software a popularisé le FPS sur PC ?", "a": "Doom" },
+      { "q": "Quel scientifique en combinaison HEV est le protagoniste de la saga Half-Life ?", "a": "Gordon Freeman" },
+      { "q": "Quel antagoniste mystérieux et récurrent de Half-Life porte une mallette et un costume ?", "a": "G-Man" },
+      { "q": "Quel jeu de Capcom de 2005 redonne vie à la saga Resident Evil avec Leon en Espagne ?", "a": "Resident Evil 4" },
+      { "q": "Quel épisode de Metal Gear Solid sorti en 2004 envoie Naked Snake dans la jungle soviétique ?", "a": "Metal Gear Solid 3: Snake Eater" },
+      { "q": "Quel jeu de Nintendo de 2002 sur GameCube propose un Zelda en cel-shading naval ?", "a": "The Wind Waker" },
+      { "q": "Quel jeu de Rare de 1998 sur N64 mêle plateforme et collectionnite avec un ours et un oiseau ?", "a": "Banjo-Kazooie" },
+      { "q": "Quel doubleur prête sa voix à Kratos dans les God of War de 2018 et 2022 ?", "a": "Christopher Judge" },
+      { "q": "Quel jeu Nintendo de 2002 sur GameCube est un Metroid en vue à la première personne ?", "a": "Metroid Prime" },
+      { "q": "Quel acteur célèbre prête sa voix au Joker dans la trilogie Batman Arkham ?", "a": "Mark Hamill" },
+      { "q": "Quel jeu de stratégie au tour par tour de Sid Meier voit le joueur bâtir une société à travers les âges ?", "a": "Civilization" },
+      { "q": "Quel jeu de Naughty Dog de 2009 a popularisé la scène d'introduction d'un train suspendu ?", "a": "Uncharted 2" }
     ],
     "9": [
-      {
-        "q": "Quel jeu en monde ouvert de Rockstar met en scène la ville fictive de Los Santos ?",
-        "a": "Grand Theft Auto V"
-      },
-      {
-        "q": "Quel jeu indépendant de Toby Fox raconte l’histoire de Frisk dans un univers souterrain ?",
-        "a": "Undertale"
-      },
-      {
-        "q": "Quel MOBA oppose des champions sur la Faille de l’invocateur ?",
-        "a": "League of Legends"
-      },
-      {
-        "q": "Quel jeu d’horreur indépendant met en scène un animatronique tueur ?",
-        "a": "Five Nights at Freddy’s"
-      },
-      {
-        "q": "Quel jeu de FromSoftware met en scène des morts-vivants et une difficulté extrême ?",
-        "a": "Dark Souls"
-      }
+      { "q": "Quel jeu PS2 de 2001 utilise la mémoire de la carte mémoire pour 'lire' les autres jeux du joueur ?", "a": "Metal Gear Solid 2" },
+      { "q": "Quel glitch mythique de Pokémon Rouge/Bleu permet de capturer un Pokémon hors-norme dans un océan vide ?", "a": "MissingNo" },
+      { "q": "Quel jeu d'arcade de 1981 introduit Mario sous le nom Jumpman ?", "a": "Donkey Kong" },
+      { "q": "Quel jeu de plateforme indé de 2018 met en scène Madeline qui escalade une montagne canadienne ?", "a": "Celeste" },
+      { "q": "Quel développeur indé a créé Stardew Valley en solitaire pendant quatre ans ?", "a": "Eric Barone" },
+      { "q": "Quel jeu Atari de 1972 est considéré comme le premier jeu vidéo commercial à succès ?", "a": "Pong" },
+      { "q": "Quel MMO sandbox lancé en 2003 propose une économie spatiale entièrement gérée par les joueurs ?", "a": "EVE Online" },
+      { "q": "Quel jeu indé d'Edmund McMillen sorti en 2011 est un roguelike avec un bébé en larmes ?", "a": "The Binding of Isaac" },
+      { "q": "Quel doubleur historique prête sa voix à Solid Snake dans la VO de Metal Gear Solid 1 à 4 ?", "a": "David Hayter" },
+      { "q": "Quel jeu de Looking Glass de 1998 est l'ancêtre des immersive sims modernes ?", "a": "Thief: The Dark Project" },
+      { "q": "Quel jeu de tir Xbox de 2001 a lancé Master Chief sur la console de Microsoft ?", "a": "Halo: Combat Evolved" },
+      { "q": "Quel jeu indé de Lucas Pope sorti en 2013 fait incarner un agent des douanes d'Arstotzka ?", "a": "Papers, Please" },
+      { "q": "Quel jeu Konami de 1986 est le tout premier épisode de la saga Castlevania sur NES ?", "a": "Castlevania" },
+      { "q": "Quel jeu indé de 2018 par Lucas Pope explore un naufrage maritime via une montre temporelle ?", "a": "Return of the Obra Dinn" },
+      { "q": "Quel concepteur japonais dirige le studio Sega AM2 et est l'auteur de Shenmue ?", "a": "Yu Suzuki" }
     ],
     "10": [
-      {
-        "q": "Quel jeu de rôle de 2017 de Nintendo met en scène Hyrule en monde ouvert ?",
-        "a": "The Legend of Zelda: Breath of the Wild"
-      },
-      {
-        "q": "Quel jeu de 2018 raconte l’histoire d’Arthur Morgan et du gang Van der Linde ?",
-        "a": "Red Dead Redemption 2"
-      },
-      {
-        "q": "Quel battle royale de Respawn Entertainment est sorti en 2019 ?",
-        "a": "Apex Legends"
-      },
-      {
-        "q": "Quel jeu de stratégie au tour par tour met en scène des civilisations de l’Antiquité à l’ère moderne ?",
-        "a": "Civilization"
-      },
-      {
-        "q": "Quel RPG japonais sorti en 1997 est souvent considéré comme une révolution du genre ?",
-        "a": "Final Fantasy VII"
-      }
+      { "q": "Quel jeu d'arcade de 1981 met en scène une grenouille traversant route et rivière ?", "a": "Frogger" },
+      { "q": "Quel jeu Atari de 1980 contient le tout premier easter egg connu, signé par son auteur ?", "a": "Adventure" },
+      { "q": "Quel programmeur a caché son nom dans 'Adventure' d'Atari, créant le premier easter egg connu ?", "a": "Warren Robinett" },
+      { "q": "Quel jeu textuel de 1976 par William Crowther est l'ancêtre fondateur de l'aventure interactive ?", "a": "Colossal Cave Adventure" },
+      { "q": "Quel britannique a co-créé MUD1 en 1978 avec Roy Trubshaw, ancêtre de tous les MMO ?", "a": "Richard Bartle" },
+      { "q": "Quel jeu d'arcade Namco de 1979 introduit les sprites colorés et les ennemis qui plongent vers le joueur ?", "a": "Galaxian" },
+      { "q": "Quel jeu indé de 2008 par Jonathan Blow utilise la manipulation du temps comme mécanique principale ?", "a": "Braid" },
+      { "q": "Quel scénariste français de Quantic Dream a réalisé Heavy Rain et Detroit: Become Human ?", "a": "David Cage" },
+      { "q": "Quel programmeur britannique a co-créé Elite en 1984, pionnier du space sim ouvert ?", "a": "David Braben" },
+      { "q": "Quel jeu d'arcade de 1980 par Williams est le premier shoot'em up à défilement horizontal libre ?", "a": "Defender" },
+      { "q": "Quel jeu PC-98 japonais de 1996 par ZUN a lancé la saga des shoot'em up Touhou ?", "a": "Highly Responsive to Prayers" },
+      { "q": "Quel monde caché négatif est accessible dans Super Mario Bros via un glitch de tuyau célèbre ?", "a": "Minus World" },
+      { "q": "Quel jeu d'id Software de 1992 a popularisé le moteur 2.5D et préfigure Doom ?", "a": "Wolfenstein 3D" },
+      { "q": "Quel jeu indé d'Eric Chahi de 1991 mêle rotoscopie et science-fiction sur Amiga ?", "a": "Another World" },
+      { "q": "Quel concepteur japonais d'ICO et Shadow of the Colossus a fondé le studio GenDesign ?", "a": "Fumito Ueda" }
     ]
   }
 }

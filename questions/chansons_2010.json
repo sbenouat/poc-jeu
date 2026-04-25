@@ -3,224 +3,174 @@
   "name": "Chansons US & FR des années 2010",
   "questions": {
     "1": [
-      {
-        "q": "Quel titre d’Adele sorti en 2010 commence par 'There's a fire starting in my heart' ?",
-        "a": "Rolling in the Deep"
-      },
-      {
-        "q": "Quelle chanson de Stromae a pour refrain 'Alors on danse' ?",
-        "a": "Alors on danse"
-      },
-      {
-        "q": "Dans quel film d’animation de 2013 entend-on 'Let It Go' ?",
-        "a": "La Reine des Neiges (Frozen)"
-      },
-      {
-        "q": "Quel duo français est derrière le tube mondial 'Get Lucky' ?",
-        "a": "Daft Punk"
-      },
-      {
-        "q": "Quel chanteur français a sorti 'Formidable' en 2013 ?",
-        "a": "Stromae"
-      }
+      { "q": "Qui chante 'Happy', sorti en 2013 et utilisé dans 'Moi, Moche et Méchant 2' ?", "a": "Pharrell Williams" },
+      { "q": "Quel chanteur belge francophone interprète 'Papaoutai' en 2013 ?", "a": "Stromae" },
+      { "q": "Quelle chanteuse britannique sort le tube 'Hello' en 2015 ?", "a": "Adele" },
+      { "q": "Quel duo électro français masqué a sorti 'Get Lucky' en 2013 ?", "a": "Daft Punk" },
+      { "q": "Quel chanteur belge interprète 'Alors on danse' en 2010 ?", "a": "Stromae" },
+      { "q": "Quelle chanteuse américaine interprète 'Roar' en 2013 ?", "a": "Katy Perry" },
+      { "q": "Quel chanteur britannique roux chante 'Shape of You' en 2017 ?", "a": "Ed Sheeran" },
+      { "q": "Quel chanteur canadien sort 'Sorry' en 2015 ?", "a": "Justin Bieber" },
+      { "q": "Quelle artiste américaine sort 'Born This Way' en 2011 ?", "a": "Lady Gaga" },
+      { "q": "Quel chanteur belge interprète 'Formidable' en 2013 ?", "a": "Stromae" },
+      { "q": "Quel groupe pop américain a sorti 'Moves Like Jagger' en 2011 ?", "a": "Maroon 5" },
+      { "q": "Quelle chanteuse signe le tube 'Christine' en 2014 ?", "a": "Christine and the Queens" },
+      { "q": "Quel rappeur français interprète 'Bella' en 2013 ?", "a": "Maître Gims" },
+      { "q": "Quelle chanteuse française signe le tube 'Djadja' en 2018 ?", "a": "Aya Nakamura" },
+      { "q": "Quel chanteur français interprète 'Dommage' en 2017 avec son frère Oli ?", "a": "Bigflo et Oli" }
     ],
     "2": [
-      {
-        "q": "Quelle chanson de Pharrell Williams est devenue un hymne à la bonne humeur en 2013 ?",
-        "a": "Happy"
-      },
-      {
-        "q": "Quel titre d’Indila en 2013 contient le refrain 'Oh ma douce souffrance' ?",
-        "a": "Dernière danse"
-      },
-      {
-        "q": "Quelle chanteuse américaine a sorti 'Born This Way' en 2011 ?",
-        "a": "Lady Gaga"
-      },
-      {
-        "q": "Quel groupe français a signé le hit 'Désolé' en 2010 ?",
-        "a": "Sexion d’Assaut"
-      },
-      {
-        "q": "Quel artiste britannique a enchaîné les tubes avec 'Shape of You' en 2017 ?",
-        "a": "Ed Sheeran"
-      }
+      { "q": "Quel groupe britannique chante 'A Sky Full of Stars' en 2014 ?", "a": "Coldplay" },
+      { "q": "Quelle chanteuse barbadienne interprète 'Diamonds' en 2012 ?", "a": "Rihanna" },
+      { "q": "Quel artiste américain sort 'Uptown Funk' avec Mark Ronson en 2014 ?", "a": "Bruno Mars" },
+      { "q": "Quel rappeur américain sort 'Lose Yourself' puis l'album 'Recovery' en 2010 ?", "a": "Eminem" },
+      { "q": "Quelle chanteuse interprète 'Rolling in the Deep' en 2010 ?", "a": "Adele" },
+      { "q": "Quel rappeur belge sort 'Or Noir' en 2013 ?", "a": "Kaaris" },
+      { "q": "Quelle chanteuse américaine sort 'Shake It Off' en 2014 ?", "a": "Taylor Swift" },
+      { "q": "Quel duo de frères rappeurs toulousains a sorti 'Dommage' en 2017 ?", "a": "Bigflo et Oli" },
+      { "q": "Quel groupe américain sort 'Radioactive' en 2012 ?", "a": "Imagine Dragons" },
+      { "q": "Quel rappeur français signe 'Sapés comme jamais' en 2015 ?", "a": "Maître Gims" },
+      { "q": "Quelle chanteuse française signe 'Tout oublier' avec Roméo Elvis en 2018 ?", "a": "Angèle" },
+      { "q": "Quel rappeur français marseillais a popularisé le slogan 'Bande organisée' ?", "a": "Jul" },
+      { "q": "Quelle chanteuse française a percé en 2018 avec l'album 'Brol' ?", "a": "Angèle" },
+      { "q": "Quel chanteur français signe 'Dernière danse' en 2015 ?", "a": "Indila" },
+      { "q": "Quel chanteur américain sort 'Just the Way You Are' en 2010 ?", "a": "Bruno Mars" }
     ],
     "3": [
-      {
-        "q": "Dans quelle chanson de 2013 Lorde critique-t-elle les codes du luxe ('gold teeth, Grey Goose...') ?",
-        "a": "Royals"
-      },
-      {
-        "q": "Quel titre d’Angèle et Roméo Elvis a été un énorme succès en 2018 ?",
-        "a": "Tout oublier"
-      },
-      {
-        "q": "Quel hit latino de 2017 a explosé les records de vues sur YouTube ?",
-        "a": "Despacito"
-      },
-      {
-        "q": "Quelle chanteuse australienne a sorti 'Chandelier' en 2014 ?",
-        "a": "Sia"
-      },
-      {
-        "q": "Quel rappeur français a popularisé 'Sapés comme jamais' ?",
-        "a": "Maître Gims (feat. Niska)"
-      }
+      { "q": "Quel album de Daft Punk sorti en 2013 contient 'Get Lucky' ?", "a": "Random Access Memories" },
+      { "q": "Quel single d'Adele est extrait de l'album '21' et atteint le numéro un en 2011 ?", "a": "Rolling in the Deep" },
+      { "q": "Quel chanteur britannique sort 'Thinking Out Loud' en 2014 ?", "a": "Ed Sheeran" },
+      { "q": "Quel rappeur français signe l'album 'Subliminal' en 2013 ?", "a": "Maître Gims" },
+      { "q": "Quel chanteur belge interprète 'Tous les mêmes' en 2013 ?", "a": "Stromae" },
+      { "q": "Quel rappeur français signe l'album 'Feu' en 2015 ?", "a": "Nekfeu" },
+      { "q": "Quel chanteur américain interprète 'Treasure' sur 'Unorthodox Jukebox' ?", "a": "Bruno Mars" },
+      { "q": "Quelle chanteuse française sort l'album 'Brol' en 2018 ?", "a": "Angèle" },
+      { "q": "Quel rappeur américain sort 'good kid, m.A.A.d city' en 2012 ?", "a": "Kendrick Lamar" },
+      { "q": "Quel album de Stromae contient 'Alors on danse' ?", "a": "Cheese" },
+      { "q": "Quel album de Maroon 5 contient 'Moves Like Jagger' ?", "a": "Hands All Over" },
+      { "q": "Quelle chanson de Pharrell Williams figure sur l'album 'G I R L' en 2014 ?", "a": "Happy" },
+      { "q": "Quel album de Drake sort en 2011 et contient 'Headlines' ?", "a": "Take Care" },
+      { "q": "Quel album d'Adele sort en novembre 2015 ?", "a": "25" },
+      { "q": "Quel album de Stromae sort en août 2013 ?", "a": "Racine carrée" }
     ],
     "4": [
-      {
-        "q": "Quel titre de Rihanna et Calvin Harris (2011) répète 'We found love in a hopeless place' ?",
-        "a": "We Found Love"
-      },
-      {
-        "q": "Quelle chanson de Nekfeu (2015) commence par 'J'fais partie de ces gens qui s'laissent guider par la chance' ?",
-        "a": "On verra"
-      },
-      {
-        "q": "Quel tube d’Imagine Dragons (2012) a pour refrain 'Welcome to the new age' ?",
-        "a": "Radioactive"
-      },
-      {
-        "q": "Quelle chanteuse française a marqué 2014 avec 'Christine' ?",
-        "a": "Christine and the Queens"
-      },
-      {
-        "q": "Quel hit de 2010 de Shakira était l’hymne officiel de la Coupe du monde de football ?",
-        "a": "Waka Waka (This Time for Africa)"
-      }
+      { "q": "Quel duo français a sorti 'Get Lucky' en featuring avec Pharrell Williams ?", "a": "Daft Punk" },
+      { "q": "Quel rappeur français signe le tube 'Tchikita' en 2015 ?", "a": "Jul" },
+      { "q": "Quel single de Maroon 5 figure sur 'Overexposed' en 2012 ?", "a": "One More Night" },
+      { "q": "Quel groupe américain interprète 'Pumped Up Kicks' sorti en 2010 ?", "a": "Foster the People" },
+      { "q": "Quel rappeur français sort 'Or Noir Part. II' en 2014 ?", "a": "Kaaris" },
+      { "q": "Quel chanteur britannique sort l'album '+' (Plus) en 2011 ?", "a": "Ed Sheeran" },
+      { "q": "Quel single de Stromae sur 'Racine carrée' évoque le cancer ?", "a": "Quand c'est ?" },
+      { "q": "Quelle chanteuse française sort 'Chaleur humaine' en 2014 ?", "a": "Christine and the Queens" },
+      { "q": "Quel rappeur américain interprète 'HUMBLE.' sorti en 2017 ?", "a": "Kendrick Lamar" },
+      { "q": "Quel single de Bruno Mars donne son titre à l'album '24K Magic' en 2016 ?", "a": "24K Magic" },
+      { "q": "Quel album de Drake contient 'Hotline Bling', sorti en 2016 ?", "a": "Views" },
+      { "q": "Quel album d'Eminem sort en 2013 et inclut 'The Monster' avec Rihanna ?", "a": "The Marshall Mathers LP 2" },
+      { "q": "Quel single de Pharrell Williams figure sur 'G I R L' à part 'Happy' ?", "a": "Marilyn Monroe" },
+      { "q": "Quel single de Maître Gims figure sur l'album 'Subliminal' ?", "a": "J'me tire" },
+      { "q": "Quelle chanteuse signe 'Chandelier' en 2014 ?", "a": "Sia" }
     ],
     "5": [
-      {
-        "q": "Quel duo franco-américain a sorti 'Titanium' en 2011 ?",
-        "a": "David Guetta feat. Sia"
-      },
-      {
-        "q": "Quelle chanson d’Indila parle d’un personnage 'qui tourne dans le vide' ?",
-        "a": "Tourner dans le vide"
-      },
-      {
-        "q": "Quel single d’Adele a remporté le Grammy de la chanson de l’année en 2012 ?",
-        "a": "Rolling in the Deep"
-      },
-      {
-        "q": "Quel hit électro de 2011 signé LMFAO répète 'Everyday I’m shufflin’' ?",
-        "a": "Party Rock Anthem"
-      },
-      {
-        "q": "Quel rappeur français a sorti 'Dommage' en 2017 ?",
-        "a": "Bigflo & Oli"
-      }
+      { "q": "Quel duo français de rappeurs masqués signe 'Le monde ou rien' en 2015 ?", "a": "PNL" },
+      { "q": "Quel album de Beyoncé sorti en 2016 contient 'Sorry' ?", "a": "Lemonade" },
+      { "q": "Quel album de Kendrick Lamar sort en 2015 et contient 'Alright' ?", "a": "To Pimp a Butterfly" },
+      { "q": "Quel groupe parisien comprenait Nekfeu, Alpha Wann et 1995 ?", "a": "1995" },
+      { "q": "Quel single d'Orelsan figure sur 'La fête est finie' en 2017 ?", "a": "Basique" },
+      { "q": "Quel album de Frank Ocean sort en 2012 et contient 'Thinkin Bout You' ?", "a": "Channel Orange" },
+      { "q": "Quel rappeur français interprète 'Zombie' et signe l'album 'Or Noir' ?", "a": "Kaaris" },
+      { "q": "Quel album de Lana Del Rey sort en 2012 et contient 'Video Games' ?", "a": "Born to Die" },
+      { "q": "Quel single de Lorde, sorti en 2013, atteint le numéro un aux États-Unis ?", "a": "Royals" },
+      { "q": "Quel rappeur français sort l'album 'Dans la légende' en 2016 ?", "a": "PNL" },
+      { "q": "Quel album de Christine and the Queens succède à 'Chaleur humaine' en 2018 ?", "a": "Chris" },
+      { "q": "Quel album de The Weeknd sort en 2015 et contient 'Can't Feel My Face' ?", "a": "Beauty Behind the Madness" },
+      { "q": "Quel rappeur français signe 'Validé' (single, 2017) sur l'album 'Trône' ?", "a": "Booba" },
+      { "q": "Quel single de Sia, sorti en 2014, dépasse les 2 milliards de vues sur YouTube ?", "a": "Chandelier" },
+      { "q": "Quel rappeur français signe l'album 'Genèse' en 2017 ?", "a": "Niska" }
     ],
     "6": [
-      {
-        "q": "Quel titre de Sia de 2016 contient le refrain 'Baby I don’t need dollar bills to have fun tonight' ?",
-        "a": "Cheap Thrills"
-      },
-      {
-        "q": "Quel album d’Ed Sheeran sorti en 2017 contient 'Shape of You' ?",
-        "a": "÷ (Divide)"
-      },
-      {
-        "q": "Quel morceau de Black M (2014) contient le refrain 'Sur ma route, oui, il y a eu du move' ?",
-        "a": "Sur ma route"
-      },
-      {
-        "q": "Quel hit de Lady Gaga de 2011 s’inspire des années 80 et a pour titre 'The Edge of …' ?",
-        "a": "The Edge of Glory"
-      },
-      {
-        "q": "Quel rappeur canadien a sorti 'Hotline Bling' en 2015 ?",
-        "a": "Drake"
-      }
+      { "q": "Quel album de Bigflo et Oli sort en 2017 et contient 'Dommage' ?", "a": "La vraie vie" },
+      { "q": "Quel single de Daft Punk sur 'Random Access Memories' présente Giorgio Moroder ?", "a": "Giorgio by Moroder" },
+      { "q": "Quel rappeur français signe l'album 'Trône' en 2017 ?", "a": "Booba" },
+      { "q": "Quel single de Kanye West figure sur 'My Beautiful Dark Twisted Fantasy' avec Rihanna ?", "a": "All of the Lights" },
+      { "q": "Quel rappeur français sort 'FLIP' en 2017 et 'Jeannine' en 2018 ?", "a": "Lomepal" },
+      { "q": "Quel single ouvre l'album 'Blonde' de Frank Ocean en 2016 ?", "a": "Nikes" },
+      { "q": "Quel rappeur marseillais sort l'album 'JVLIVS' en 2018 ?", "a": "SCH" },
+      { "q": "Quel single de Lady Gaga figure sur l'album 'Joanne' en 2016 ?", "a": "Million Reasons" },
+      { "q": "Quel album d'Orelsan sort en 2011 et provoque une polémique en France ?", "a": "Le chant des sirènes" },
+      { "q": "Quel single de Childish Gambino sort en 2018 et remporte 4 Grammys ?", "a": "This Is America" },
+      { "q": "Quel album de Maître Gims sort en 2015 et contient 'Est-ce que tu m'aimes ?' ?", "a": "Mon cœur avait raison" },
+      { "q": "Quel rappeur français signe l'album 'Agartha' en 2017 ?", "a": "Vald" },
+      { "q": "Quel single de Justin Timberlake figure sur 'The 20/20 Experience' en 2013 ?", "a": "Mirrors" },
+      { "q": "Quel single de Nekfeu figure sur 'Feu' et est extrait en 2015 ?", "a": "On verra" },
+      { "q": "Quel rappeur français sort 'Pyramide' en 2018 ?", "a": "PNL" }
     ],
     "7": [
-      {
-        "q": "Quel tube de Mark Ronson feat. Bruno Mars (2014) a pour refrain 'Uptown funk you up' ?",
-        "a": "Uptown Funk"
-      },
-      {
-        "q": "Quelle chanson de Vianney (2014) répète 'Si tu m’emmènes, j’te suivrai partout' ?",
-        "a": "Pas là"
-      },
-      {
-        "q": "Quel single de Billie Eilish de 2019 commence par 'White shirt now red, my bloody nose' ?",
-        "a": "Bad Guy"
-      },
-      {
-        "q": "Quel titre de Dadju (2017) est une déclaration romantique avec un seul mot en titre ?",
-        "a": "Reine"
-      },
-      {
-        "q": "Quel groupe électro français a signé 'Midnight City' en 2011 ?",
-        "a": "M83"
-      }
+      { "q": "Quel album de Damso sort en 2017 et contient 'Macarena' ?", "a": "Ipséité" },
+      { "q": "Quel single du duo Disclosure figure sur 'Settle' en 2013 avec Sam Smith ?", "a": "Latch" },
+      { "q": "Quel rappeur belge a percé en 2017 avec l'album 'Ipséité' ?", "a": "Damso" },
+      { "q": "Quel single de Kendrick Lamar sur 'DAMN.' duette avec Rihanna ?", "a": "LOYALTY." },
+      { "q": "Quel album de Vianney sort en 2014 et contient 'Pas là' ?", "a": "Idées blanches" },
+      { "q": "Quel single de Tame Impala figure sur 'Currents' en 2015 ?", "a": "The Less I Know the Better" },
+      { "q": "Quel album de Lorde sort en 2017 et succède à 'Pure Heroine' ?", "a": "Melodrama" },
+      { "q": "Quel single d'Aya Nakamura sort en 2018 et devient un tube mondial ?", "a": "Djadja" },
+      { "q": "Quel single de Calvin Harris sur 'Funk Wav Bounces Vol. 1' réunit Pharrell, Katy Perry et Big Sean ?", "a": "Feels" },
+      { "q": "Quel rappeur français de Vitry sort l'album 'Destin' en 2019 ?", "a": "Ninho" },
+      { "q": "Quel single de Frank Ocean sur 'Channel Orange' dure plus de 9 minutes ?", "a": "Pyramids" },
+      { "q": "Quel single de Mark Ronson sort en 2014 avec Bruno Mars et atteint le numéro un mondial ?", "a": "Uptown Funk" },
+      { "q": "Quel rappeur français signe l'album 'L'Empereur' en 2016 ?", "a": "Lacrim" },
+      { "q": "Quel single d'Indila sort en 2014 et dépasse le milliard de vues ?", "a": "Dernière danse" },
+      { "q": "Quel album de Booba sort en 2015 et succède à 'D.U.C' ?", "a": "Nero Nemesis" }
     ],
     "8": [
-      {
-        "q": "Quel hit de Drake de 2018 contient 'Kiki, do you love me?' ?",
-        "a": "In My Feelings"
-      },
-      {
-        "q": "Quel rappeur français a popularisé 'Tchikita' en 2016 ?",
-        "a": "Jul"
-      },
-      {
-        "q": "Quel titre d’Ellie Goulding a été la BO de 'Cinquante nuances de Grey' (2015) ?",
-        "a": "Love Me Like You Do"
-      },
-      {
-        "q": "Quel artiste belge a sorti 'Balance ton quoi' en 2019 ?",
-        "a": "Angèle"
-      },
-      {
-        "q": "Quel titre d’Ariana Grande (2019) cite ses ex dans le refrain ?",
-        "a": "Thank U, Next"
-      }
+      { "q": "Quel album de Stromae succède à 'Cheese' et sort en 2013 ?", "a": "Racine carrée" },
+      { "q": "Quel album de Kendrick Lamar succède à 'good kid, m.A.A.d city' en 2015 ?", "a": "To Pimp a Butterfly" },
+      { "q": "Quel album de Damso sort en 2018 et succède à 'Ipséité' ?", "a": "Lithopédion" },
+      { "q": "Quel single de Beyoncé sur 'Lemonade' s'ouvre par 'Hold up, they don't love you like I love you' ?", "a": "Hold Up" },
+      { "q": "Quel album de PNL sorti en 2016 a permis au duo d'exploser en France ?", "a": "Dans la légende" },
+      { "q": "Quel single ouvre 'Channel Orange' de Frank Ocean après l'intro 'Start' ?", "a": "Thinkin Bout You" },
+      { "q": "Quel single d'Orelsan sur 'La fête est finie' évoque le suicide d'un proche ?", "a": "Notes pour trop tard" },
+      { "q": "Quel album de Kanye West sort en juin 2013 ?", "a": "Yeezus" },
+      { "q": "Quel rappeur français de Sevran signe l'album 'Genèse' en 2017 ?", "a": "Niska" },
+      { "q": "Quel single de Justin Bieber sur 'Purpose' est produit par Skrillex et Diplo ?", "a": "Where Are Ü Now" },
+      { "q": "Quel album de Bigflo et Oli succède à 'La vraie vie' en 2018 ?", "a": "La vie de rêve" },
+      { "q": "Quel single de The Weeknd sur 'Starboy' (2016) est coproduit par Daft Punk ?", "a": "Starboy" },
+      { "q": "Quel single de Lana Del Rey figure sur 'Ultraviolence' en 2014 ?", "a": "West Coast" },
+      { "q": "Quel rappeur français signe le single 'Médicament' en 2018 sur l'album 'JVLIVS' ?", "a": "SCH" },
+      { "q": "Quel single de Vald figure sur 'Agartha' et évoque la prison ?", "a": "Désaccordé" }
     ],
     "9": [
-      {
-        "q": "Quel album de Kendrick Lamar (2015) est considéré comme une œuvre majeure du rap US ?",
-        "a": "To Pimp a Butterfly"
-      },
-      {
-        "q": "Quel hit de Taylor Swift (2014) répète 'Cause the players gonna play, play, play, play, play' ?",
-        "a": "Shake It Off"
-      },
-      {
-        "q": "Quelle chanson de Maître Gims et Vianney (2018) répète 'Et même si je meurs demain...' ?",
-        "a": "La même"
-      },
-      {
-        "q": "Quel single de The Weeknd (2015) contient 'I only call you when it's half past five' ?",
-        "a": "The Hills"
-      },
-      {
-        "q": "Quel duo français a cartonné avec 'Je te promets' en version reprise 2010 (Stars 80) ?",
-        "a": "Garou & Jenifer"
-      }
+      { "q": "Quel single d'Adele a remporté le Grammy de la chanson de l'année en 2012 ?", "a": "Rolling in the Deep" },
+      { "q": "En quelle année Daft Punk reçoit-il le Grammy de l'album de l'année pour 'Random Access Memories' ?", "a": "2014" },
+      { "q": "Quelle certification l'album '25' d'Adele atteint-il en France après sa sortie ?", "a": "Disque de diamant" },
+      { "q": "Quel single ouvre 'Racine carrée' de Stromae comme premier extrait en 2013 ?", "a": "Papaoutai" },
+      { "q": "En quelle année Beyoncé sort-elle son album visuel surprise éponyme sur iTunes ?", "a": "2013" },
+      { "q": "Combien de Grammys 'This Is America' de Childish Gambino remporte-t-il en 2019 ?", "a": "Quatre" },
+      { "q": "En quelle année exacte sort 'Lemonade' de Beyoncé ?", "a": "2016" },
+      { "q": "Quel album de Frank Ocean est sorti en streaming gratuit juste avant 'Blonde' en 2016 ?", "a": "Endless" },
+      { "q": "Quel rappeur français a remporté la Victoire de l'artiste masculin en 2018 ?", "a": "Orelsan" },
+      { "q": "En quelle année Adele sort-elle l'album '21' ?", "a": "2011" },
+      { "q": "Quel label de PNL distribue 'Dans la légende' en 2016 ?", "a": "QLF Records" },
+      { "q": "Quel single de Pharrell Williams a été nominé à l'Oscar de la meilleure chanson originale en 2014 ?", "a": "Happy" },
+      { "q": "Combien de semaines 'Despacito' (remix avec Justin Bieber) reste-t-il numéro 1 du Billboard Hot 100 en 2017 ?", "a": "Seize semaines" },
+      { "q": "En quelle année 'Christine and the Queens' sort-elle l'album 'Chris' ?", "a": "2018" },
+      { "q": "Quel rappeur français a remporté la Victoire de l'album de musiques urbaines en 2018 ?", "a": "Orelsan (La fête est finie)" }
     ],
     "10": [
-      {
-        "q": "Quel album de Beyoncé sorti en 2016 inclut 'Formation' ?",
-        "a": "Lemonade"
-      },
-      {
-        "q": "Quel rappeur français a sorti l’album 'Les étoiles vagabondes' en 2019 ?",
-        "a": "Nekfeu"
-      },
-      {
-        "q": "Quel morceau de Kendrick Lamar a reçu le prix Pulitzer en 2018 (album complet) ?",
-        "a": "DAMN."
-      },
-      {
-        "q": "Quel hit de Post Malone (2017) répète 'I fall apart' ?",
-        "a": "I Fall Apart"
-      },
-      {
-        "q": "Quel titre de Mylène Farmer (2015) avec Sting s’intitule 'Stolen Car' ?",
-        "a": "Stolen Car"
-      }
+      { "q": "En quelle année exacte Adele sort-elle l'album '25' ?", "a": "2015" },
+      { "q": "Quelle phrase ouvre le morceau 'Papaoutai' de Stromae ?", "a": "Dites-moi d'où il vient, enfin je saurai où je vais" },
+      { "q": "Combien de Victoires de la musique Orelsan remporte-t-il en 2018 pour 'La fête est finie' ?", "a": "Trois" },
+      { "q": "Quelle est la date exacte de sortie de 'Random Access Memories' de Daft Punk ?", "a": "17 mai 2013" },
+      { "q": "Quel ingénieur du son a mixé la majorité de 'To Pimp a Butterfly' de Kendrick Lamar ?", "a": "Derek Ali (MixedByAli)" },
+      { "q": "Quelle phrase ouvre 'Alors on danse' de Stromae ?", "a": "Qui dit étude dit travail" },
+      { "q": "En quelle année exacte Frank Ocean sort-il 'Blonde' ?", "a": "2016" },
+      { "q": "Combien d'exemplaires l'album '21' d'Adele a-t-il vendus dans le monde fin 2019 ?", "a": "Plus de 31 millions" },
+      { "q": "Quelle est la date exacte de sortie de 'Lemonade' de Beyoncé ?", "a": "23 avril 2016" },
+      { "q": "Quel label distribue l'album 'Brol' d'Angèle en 2018 ?", "a": "Romance Musique / Initial Artist Services" },
+      { "q": "Quel album de Kendrick Lamar accompagne le film Marvel 'Black Panther' en 2018 ?", "a": "Black Panther: The Album" },
+      { "q": "Quelle phrase ouvre le refrain de 'Formidable' de Stromae ?", "a": "Tu étais formidable, j'étais fort minable" },
+      { "q": "Combien de Grammys Adele remporte-t-elle pour '25' à la cérémonie 2017 ?", "a": "Cinq" },
+      { "q": "Quelle est la date exacte de sortie de 'good kid, m.A.A.d city' de Kendrick Lamar ?", "a": "22 octobre 2012" },
+      { "q": "Quel single de Stromae figure en face B (single physique) de 'Papaoutai' en 2013 ?", "a": "Merci" }
     ]
   }
 }

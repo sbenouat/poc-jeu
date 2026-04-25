@@ -3,224 +3,174 @@
   "name": "Sagas célèbres",
   "questions": {
     "1": [
-      {
-        "q": "Qui est le sorcier à la cicatrice en forme d’éclair ?",
-        "a": "Harry Potter"
-      },
-      {
-        "q": "Quel héros manie un sabre laser vert dans Star Wars ?",
-        "a": "Luke Skywalker"
-      },
-      {
-        "q": "Dans quelle saga trouve-t-on Katniss Everdeen ?",
-        "a": "Hunger Games"
-      },
-      {
-        "q": "Qui est l’elfe compagnon de Frodon dans Le Seigneur des Anneaux ?",
-        "a": "Legolas"
-      },
-      {
-        "q": "Quel super-héros Marvel est aussi appelé 'L’homme-araignée' ?",
-        "a": "Spider-Man"
-      }
+      { "q": "Quel jeune fermier de Tatooine devient un Jedi dans la trilogie originale Star Wars ?", "a": "Luke Skywalker" },
+      { "q": "Quel milliardaire en armure rouge et or est le premier héros du MCU au cinéma ?", "a": "Iron Man" },
+      { "q": "Quel petit Hobbit doit détruire l'Anneau Unique dans Le Seigneur des anneaux ?", "a": "Frodon" },
+      { "q": "Quel pirate au tricorne est joué par Johnny Depp dans Pirates des Caraïbes ?", "a": "Jack Sparrow" },
+      { "q": "Quel archéologue au chapeau et au fouet est le héros de la saga Indiana Jones ?", "a": "Indiana Jones" },
+      { "q": "Quel agent secret britannique a pour matricule 007 ?", "a": "James Bond" },
+      { "q": "Quel super-héros dieu nordique manie le marteau Mjolnir dans le MCU ?", "a": "Thor" },
+      { "q": "Quel super-héros chauve-souris veille sur Gotham City ?", "a": "Batman" },
+      { "q": "Quel super-héros aux toiles d'araignée est l'alter ego de Peter Parker ?", "a": "Spider-Man" },
+      { "q": "Quel super-héros kryptonien porte un S sur la poitrine ?", "a": "Superman" },
+      { "q": "Dans Hunger Games, quelle héroïne du District 12 est jouée par Jennifer Lawrence ?", "a": "Katniss Everdeen" },
+      { "q": "Quel vampire scintillant tombe amoureux de Bella dans la saga Twilight ?", "a": "Edward Cullen" },
+      { "q": "Quelle saga met en scène la famille Toretto et des courses de voitures illégales ?", "a": "Fast and Furious" },
+      { "q": "Quel agent de l'IMF est joué par Tom Cruise dans Mission Impossible ?", "a": "Ethan Hunt" },
+      { "q": "Quelle série télé adaptée de George R. R. Martin met en scène le Trône de fer ?", "a": "Game of Thrones" }
     ],
     "2": [
-      {
-        "q": "Quel anneau doit être détruit dans la saga Le Seigneur des Anneaux ?",
-        "a": "L’Anneau Unique"
-      },
-      {
-        "q": "Quel district représente Katniss Everdeen dans Hunger Games ?",
-        "a": "District 12"
-      },
-      {
-        "q": "Comment s’appelle l’école de sorcellerie de Harry Potter ?",
-        "a": "Poudlard"
-      },
-      {
-        "q": "Qui est le seigneur Sith maître de Dark Vador ?",
-        "a": "Dark Sidious (Palpatine)"
-      },
-      {
-        "q": "Quel super-héros Marvel brandit le marteau Mjolnir ?",
-        "a": "Thor"
-      }
+      { "q": "Quel méchant casqué et au souffle bruyant est le père de Luke Skywalker ?", "a": "Dark Vador" },
+      { "q": "Quel magicien gris guide la Communauté de l'Anneau dans Le Seigneur des anneaux ?", "a": "Gandalf" },
+      { "q": "Quel forgeron joué par Orlando Bloom apparaît dans Pirates des Caraïbes ?", "a": "Will Turner" },
+      { "q": "Quelle créature dégénérée appelle l'Anneau « mon précieux » ?", "a": "Gollum" },
+      { "q": "Quel super-héros vert et géant est le Dr Bruce Banner transformé ?", "a": "Hulk" },
+      { "q": "Quel capitaine américain figé dans la glace est joué par Chris Evans ?", "a": "Captain America" },
+      { "q": "Quel mutant griffu joué par Hugh Jackman apparaît dans X-Men ?", "a": "Wolverine" },
+      { "q": "Quelle espionne rousse super-héroïne est jouée par Scarlett Johansson ?", "a": "Black Widow" },
+      { "q": "Quel jardinier loyal accompagne Frodon depuis la Comté ?", "a": "Sam (Samsagace Gamegie)" },
+      { "q": "Quel agent du MI6 décerne les missions à James Bond ?", "a": "M" },
+      { "q": "Quel rôle Vin Diesel tient-il dans la saga Fast and Furious ?", "a": "Dominic Toretto" },
+      { "q": "Quel acteur joue Brian O'Conner dans Fast and Furious ?", "a": "Paul Walker" },
+      { "q": "Quel roi du Rohan oncle d'Eowyn apparaît dans Le Seigneur des anneaux ?", "a": "Théoden" },
+      { "q": "Quel hobbit oncle de Frodon part en aventure dans Le Hobbit ?", "a": "Bilbon Sacquet" },
+      { "q": "Dans quelle ville américaine vit Peter Parker dans Spider-Man ?", "a": "New York" }
     ],
     "3": [
-      {
-        "q": "Dans quelle saga trouve-t-on Peeta Mellark ?",
-        "a": "Hunger Games"
-      },
-      {
-        "q": "Quel personnage dit 'Je suis ton père' dans Star Wars ?",
-        "a": "Dark Vador"
-      },
-      {
-        "q": "Quel hobbit porte l’Anneau Unique jusqu’au Mordor ?",
-        "a": "Frodon Sacquet"
-      },
-      {
-        "q": "Quel est le nom complet de 'Gandalf' ?",
-        "a": "Gandalf le Gris (puis le Blanc)"
-      },
-      {
-        "q": "Dans quelle saga retrouve-t-on les reliques de la mort ?",
-        "a": "Harry Potter"
-      }
+      { "q": "Quel acteur incarne Aragorn dans la trilogie du Seigneur des anneaux ?", "a": "Viggo Mortensen" },
+      { "q": "Quel acteur joue Legolas dans Le Seigneur des anneaux ?", "a": "Orlando Bloom" },
+      { "q": "Quel sorcier maléfique sans corps règne sur le Mordor ?", "a": "Sauron" },
+      { "q": "Quel apprenti Sith au sabre rouge double est tué par Obi-Wan dans La Menace fantôme ?", "a": "Dark Maul" },
+      { "q": "Quel chasseur de primes mandalorien célèbre apparaît dans la trilogie originale ?", "a": "Boba Fett" },
+      { "q": "Quel dieu asgardien de la malice est le frère de Thor ?", "a": "Loki" },
+      { "q": "Quel titan violet collectionneur de pierres est le grand méchant de la saga Avengers ?", "a": "Thanos" },
+      { "q": "Quel clown maléfique est l'antagoniste emblématique de Batman ?", "a": "Le Joker" },
+      { "q": "Quel lieu accueille les Jeux dans Hunger Games où vit Effie ?", "a": "Le Capitole" },
+      { "q": "Quelle ville fictive abrite la famille Cullen dans Twilight ?", "a": "Forks" },
+      { "q": "Quel acteur joue James Bond entre 1962 et 1971 ?", "a": "Sean Connery" },
+      { "q": "Quel ennemi récurrent de James Bond porte un chat blanc persan ?", "a": "Ernst Stavro Blofeld" },
+      { "q": "Quel acteur joue Indiana Jones dans les quatre premiers films ?", "a": "Harrison Ford" },
+      { "q": "Quel ennemi mort-vivant trahit Jack Sparrow dans le premier Pirates des Caraïbes ?", "a": "Hector Barbossa" },
+      { "q": "Quelle arme légendaire reforgée porte Aragorn lors de la bataille finale ?", "a": "Andúril" }
     ],
     "4": [
-      {
-        "q": "Quel mentor de Katniss Everdeen a gagné les Hunger Games avant elle ?",
-        "a": "Haymitch Abernathy"
-      },
-      {
-        "q": "Quel droïde doré parle six millions de formes de communication ?",
-        "a": "C-3PO"
-      },
-      {
-        "q": "Quel royaume est gouverné par Aragorn à la fin du Seigneur des Anneaux ?",
-        "a": "Le Gondor"
-      },
-      {
-        "q": "Quel personnage de Harry Potter est surnommé 'Le Prince de Sang-Mêlé' ?",
-        "a": "Severus Rogue"
-      },
-      {
-        "q": "Quel super-héros Marvel dit 'Je suis Iron Man' ?",
-        "a": "Tony Stark / Iron Man"
-      }
+      { "q": "Quel acteur incarne James Bond entre 2006 et 2021 ?", "a": "Daniel Craig" },
+      { "q": "Quel premier film officiel de James Bond sort en 1962 ?", "a": "James Bond 007 contre Dr No" },
+      { "q": "Quel sorcier blanc trahit la Communauté en s'alliant à Sauron ?", "a": "Saroumane" },
+      { "q": "Quel apprenti Jedi devient finalement Dark Vador ?", "a": "Anakin Skywalker" },
+      { "q": "Quel chevalier Jedi forme Anakin dans la prélogie Star Wars ?", "a": "Obi-Wan Kenobi" },
+      { "q": "Quel maître Jedi vert centenaire forme Luke sur Dagobah ?", "a": "Yoda" },
+      { "q": "Quel personnage Marvel au costume rouge et noir est joué par Ryan Reynolds ?", "a": "Deadpool" },
+      { "q": "Quel acteur reprend le rôle de Spider-Man dans le MCU à partir de 2016 ?", "a": "Tom Holland" },
+      { "q": "Quel acteur joue Frodon dans la trilogie de Peter Jackson ?", "a": "Elijah Wood" },
+      { "q": "Quel District habite Katniss Everdeen dans Hunger Games ?", "a": "Le District 12" },
+      { "q": "Quel mentor ivrogne entraîne Katniss pour les Jeux dans Hunger Games ?", "a": "Haymitch Abernathy" },
+      { "q": "Quel acteur joue Edward Cullen dans Twilight ?", "a": "Robert Pattinson" },
+      { "q": "Quel acteur joue Jacob Black dans Twilight ?", "a": "Taylor Lautner" },
+      { "q": "Quelle héroïne joue Shailene Woodley dans la saga Divergente ?", "a": "Tris Prior" },
+      { "q": "Quel personnage du Trône de fer surnomme-t-on « le Lutin » ?", "a": "Tyrion Lannister" }
     ],
     "5": [
-      {
-        "q": "Quel arène des Hunger Games est une horloge géante mortelle ?",
-        "a": "Celle du 75ème Hunger Games (l’Expiation)"
-      },
-      {
-        "q": "Quel maître Jedi entraîne Obi-Wan Kenobi ?",
-        "a": "Qui-Gon Jinn"
-      },
-      {
-        "q": "Quel objet lumineux guide Frodon dans les ténèbres, offert par Galadriel ?",
-        "a": "La lumière d’Eärendil"
-      },
-      {
-        "q": "Quel est le nom du rival principal de Harry Potter à Poudlard ?",
-        "a": "Draco Malefoy"
-      },
-      {
-        "q": "Quelle saga oppose Avengers et Thanos ?",
-        "a": "Marvel / Avengers"
-      }
+      { "q": "Quel film d'Indiana Jones de 1984 se déroule en Inde avec Demi-Lune ?", "a": "Indiana Jones et le Temple maudit" },
+      { "q": "Quel film de Pirates des Caraïbes introduit Davy Jones et le Hollandais Volant ?", "a": "Le Secret du coffre maudit" },
+      { "q": "Quel personnage de Hunger Games est la sœur cadette de Katniss ?", "a": "Primrose Everdeen" },
+      { "q": "Quel personnage de Pirates des Caraïbes est joué par Geoffrey Rush ?", "a": "Hector Barbossa" },
+      { "q": "Quel nain compagnon de Bilbon dirige la compagnie dans Le Hobbit ?", "a": "Thorin Écu-de-Chêne" },
+      { "q": "Quel dragon doré dort sur le trésor d'Erebor dans Le Hobbit ?", "a": "Smaug" },
+      { "q": "Quel chevalier Sith encapuchonné est le maître de Dark Maul dans la prélogie ?", "a": "Dark Sidious (Palpatine)" },
+      { "q": "Quel chasseur de primes survit dans la saga depuis L'Empire contre-attaque ?", "a": "Boba Fett" },
+      { "q": "Quel personnage de Game of Thrones est surnommé le « Roi du Nord » au début de la série ?", "a": "Robb Stark" },
+      { "q": "Quel héritier d'Iron Man devient Iron Spider dans Avengers Infinity War ?", "a": "Peter Parker (Spider-Man)" },
+      { "q": "Quel acteur joue le Joker dans The Dark Knight de 2008 ?", "a": "Heath Ledger" },
+      { "q": "Quel acteur incarne Bane dans The Dark Knight Rises ?", "a": "Tom Hardy" },
+      { "q": "Quel super-héros Marvel rétrécit grâce aux particules Pym ?", "a": "Ant-Man" },
+      { "q": "Quel duo père-fils dirige Stark Industries au début d'Iron Man ?", "a": "Howard et Tony Stark" },
+      { "q": "Quel chef d'équipe gardien de la galaxie est joué par Chris Pratt ?", "a": "Star-Lord (Peter Quill)" }
     ],
     "6": [
-      {
-        "q": "Quel événement est surnommé 'La Moisson' dans Hunger Games ?",
-        "a": "La sélection des tributs"
-      },
-      {
-        "q": "Quel chasseur de primes capture Han Solo dans L’Empire contre-attaque ?",
-        "a": "Boba Fett"
-      },
-      {
-        "q": "Quel est le nom complet de Gollum dans Le Seigneur des Anneaux ?",
-        "a": "Sméagol"
-      },
-      {
-        "q": "Quelle saga raconte l’histoire des sorciers 'Les Animaux Fantastiques' ?",
-        "a": "Harry Potter (univers)"
-      },
-      {
-        "q": "Dans Marvel, qui est le roi du Wakanda ?",
-        "a": "Black Panther / T’Challa"
-      }
+      { "q": "Quelle planète aquatique des Gungans abrite Jar Jar Binks dans La Menace fantôme ?", "a": "Naboo" },
+      { "q": "Quel monde glacé voit la bataille de la trilogie originale dans L'Empire contre-attaque ?", "a": "Hoth" },
+      { "q": "Quel personnage féminin de Star Wars est la sœur jumelle de Luke ?", "a": "Leia Organa" },
+      { "q": "Quel acteur joue Han Solo dans la trilogie originale ?", "a": "Harrison Ford" },
+      { "q": "Quel acteur joue Han Solo jeune dans le spin-off Solo de 2018 ?", "a": "Alden Ehrenreich" },
+      { "q": "Quel chasseur a abattu l'Étoile Noire en pilotant l'X-Wing rouge cinq dans Un nouvel espoir ?", "a": "Luke Skywalker" },
+      { "q": "Quel personnage du MCU est le mentor de Doctor Strange ?", "a": "L'Ancien" },
+      { "q": "Quel personnage du Trône de fer porte le surnom de « Mère des Dragons » ?", "a": "Daenerys Targaryen" },
+      { "q": "Quel personnage de Game of Thrones est surnommé « Le Limier » ?", "a": "Sandor Clegane" },
+      { "q": "Quel film de la saga Hunger Games se passe pour la première fois dans l'Arène des Quartiers ?", "a": "L'Embrasement" },
+      { "q": "Quel personnage de Twilight devient le compagnon de Jacob Black à la fin ?", "a": "Renesmée Cullen" },
+      { "q": "Quelle faction représente l'altruisme dans Divergente ?", "a": "Les Altruistes" },
+      { "q": "Quel acteur joue Quatre dans Divergente ?", "a": "Theo James" },
+      { "q": "Quel acteur joue le fils d'Indiana Jones dans Le Royaume du Crâne de Cristal ?", "a": "Shia LaBeouf (Mutt)" },
+      { "q": "Quel personnage de Mission Impossible est joué par Simon Pegg ?", "a": "Benji Dunn" }
     ],
     "7": [
-      {
-        "q": "Quel président cruel règne sur Panem dans Hunger Games ?",
-        "a": "Président Snow"
-      },
-      {
-        "q": "Quel est le vrai prénom de Dark Vador ?",
-        "a": "Anakin Skywalker"
-      },
-      {
-        "q": "Quel est le vrai nom du 'Balrog' affronté par Gandalf ?",
-        "a": "Durin’s Bane (Fléau de Durin)"
-      },
-      {
-        "q": "Quel sorcier a fondé la maison Serpentard à Poudlard ?",
-        "a": "Salazar Serpentard"
-      },
-      {
-        "q": "Quel artefact Marvel est dans le Tesseract ?",
-        "a": "La Pierre de l’Espace (Infinity Stone)"
-      }
+      { "q": "Quel est le nom du vaisseau de Han Solo dans Star Wars ?", "a": "Le Faucon Millenium" },
+      { "q": "Quel est le nom du droïde astromécano bleu et blanc dans Star Wars ?", "a": "R2-D2" },
+      { "q": "Quel est le nom du droïde de protocole doré dans Star Wars ?", "a": "C-3PO" },
+      { "q": "Quel film de Mission Impossible voit Ethan grimper la tour Burj Khalifa à Dubaï ?", "a": "Protocole Fantôme" },
+      { "q": "Quel film de Fast and Furious voit la mort apparente du personnage de Han ?", "a": "Tokyo Drift" },
+      { "q": "Quel personnage du Hobbit est le roi des Elfes de la Forêt Noire ?", "a": "Thranduil" },
+      { "q": "Quel acteur joue Bilbon Sacquet dans la trilogie du Hobbit ?", "a": "Martin Freeman" },
+      { "q": "Quel acteur joue Bilbon âgé dans Le Seigneur des anneaux ?", "a": "Ian Holm" },
+      { "q": "Quel acteur joue Théoden dans Le Seigneur des anneaux ?", "a": "Bernard Hill" },
+      { "q": "Quel acteur joue Faramir dans Le Seigneur des anneaux ?", "a": "David Wenham" },
+      { "q": "Quel acteur joue Boromir dans La Communauté de l'Anneau ?", "a": "Sean Bean" },
+      { "q": "Quel personnage de Game of Thrones est exécuté à la fin de la première saison ?", "a": "Eddard (Ned) Stark" },
+      { "q": "Quel château de Westeros est le siège ancestral des Stark ?", "a": "Winterfell" },
+      { "q": "Quel mentor sombre forme Tris dans Divergente avant de la trahir ?", "a": "Eric" },
+      { "q": "Quel premier épisode de la saga Pirates des Caraïbes sort en 2003 ?", "a": "La Malédiction du Black Pearl" }
     ],
     "8": [
-      {
-        "q": "Quel symbole devient l’emblème de la rébellion dans Hunger Games ?",
-        "a": "Le geai moqueur (Mockingjay)"
-      },
-      {
-        "q": "Quel Jedi est maître de Yoda dans certaines légendes ?",
-        "a": "N’Kata Del Gormo (légendes)"
-      },
-      {
-        "q": "Quel anneau offre Galadriel à Frodon dans la Communauté de l’Anneau ?",
-        "a": "Elle n’offre pas d’anneau mais la lumière d’Eärendil (attention piège)"
-      },
-      {
-        "q": "Quelle baguette magique est la plus puissante dans Harry Potter ?",
-        "a": "La baguette de Sureau"
-      },
-      {
-        "q": "Dans Marvel, quelle saga s’achève par 'Avengers: Endgame' ?",
-        "a": "La saga de l’Infini"
-      }
+      { "q": "Quel est le nom de l'épée de Jon Snow dans Game of Thrones ?", "a": "Grand-Griffe (Longclaw)" },
+      { "q": "Quel est le nom de l'épée de Ned Stark dans Game of Thrones ?", "a": "Glace (Ice)" },
+      { "q": "Quel est le nom du cheval d'Aragorn capturé par les Orques puis retrouvé ?", "a": "Brego" },
+      { "q": "Quel est le nom de l'épée de Frodon qui brille en présence d'Orques ?", "a": "Dard (Sting)" },
+      { "q": "Quel est le matériau de la cotte de mailles offerte à Frodon par Bilbon ?", "a": "Mithril" },
+      { "q": "Quel est le nom du cheval que monte Gandalf dans Les Deux Tours ?", "a": "Gripoil (Shadowfax)" },
+      { "q": "Quelle planète détruite par l'Étoile de la Mort dans Un nouvel espoir était celle de Leia ?", "a": "Alderaan" },
+      { "q": "Quel est le nom du Stormtrooper déserteur dans Le Réveil de la Force ?", "a": "Finn (FN-2187)" },
+      { "q": "Quel est le titre du quatrième film de Mission Impossible avec la tour Burj Khalifa ?", "a": "Protocole Fantôme" },
+      { "q": "Quel est le titre du premier film de Fast and Furious sorti en 2001 ?", "a": "Fast and Furious" },
+      { "q": "Quel est le titre du deuxième film de la saga Hunger Games après Hunger Games ?", "a": "L'Embrasement" },
+      { "q": "Quel est le titre français du dernier opus de Hunger Games avec Katniss en Geai moqueur ?", "a": "La Révolte" },
+      { "q": "Quel est le nom complet de la femme nain qui aime Kili dans Le Hobbit ?", "a": "Tauriel" },
+      { "q": "Quel est le nom du chef de l'équipe Apostles dans Mission Impossible Fallout ?", "a": "August Walker (John Lark)" },
+      { "q": "Quel est le titre du film James Bond où Vesper Lynd apparaît avec Daniel Craig ?", "a": "Casino Royale" }
     ],
     "9": [
-      {
-        "q": "Quel livre dans Hunger Games raconte la rébellion passée de Panem ?",
-        "a": "La Ballade du serpent et de l’oiseau chanteur"
-      },
-      {
-        "q": "Qui est le créateur de Star Wars ?",
-        "a": "George Lucas"
-      },
-      {
-        "q": "Quel auteur a écrit Le Seigneur des Anneaux ?",
-        "a": "J.R.R. Tolkien"
-      },
-      {
-        "q": "Qui tue Bellatrix Lestrange dans Harry Potter ?",
-        "a": "Molly Weasley"
-      },
-      {
-        "q": "Quel super-vilain Marvel veut éliminer la moitié de l’univers ?",
-        "a": "Thanos"
-      }
+      { "q": "En quelle année sort le tout premier film Star Wars (Un nouvel espoir) ?", "a": "1977" },
+      { "q": "Quel acteur prête sa voix à Dark Vador en version originale ?", "a": "James Earl Jones" },
+      { "q": "Quel acteur joue physiquement Dark Vador en costume dans la trilogie originale ?", "a": "David Prowse" },
+      { "q": "Quel marionnettiste prête sa voix à Yoda dans la prélogie et l'originale ?", "a": "Frank Oz" },
+      { "q": "Quelle est la couleur du sabre laser de Mace Windu, demandée par l'acteur lui-même ?", "a": "Violet" },
+      { "q": "Combien de tomes officiels Suzanne Collins a-t-elle écrit dans la saga Hunger Games (préquel inclus) ?", "a": "4" },
+      { "q": "Quel est le titre du préquel de Hunger Games sorti en 2020 ?", "a": "La Ballade du serpent et de l'oiseau chanteur" },
+      { "q": "Quel acteur double Smaug en version originale dans Le Hobbit ?", "a": "Benedict Cumberbatch" },
+      { "q": "Combien d'Oscars a remporté Le Retour du roi à la cérémonie de 2004 ?", "a": "11" },
+      { "q": "Qui réalise les trois films de la trilogie originale du Seigneur des anneaux ?", "a": "Peter Jackson" },
+      { "q": "Quel acteur a abandonné le rôle d'Aragorn juste avant le tournage, remplacé par Mortensen ?", "a": "Stuart Townsend" },
+      { "q": "Quel film James Bond marque la première apparition de Q joué par Ben Whishaw ?", "a": "Skyfall" },
+      { "q": "Quel acteur joue James Bond une seule fois dans Au service secret de Sa Majesté ?", "a": "George Lazenby" },
+      { "q": "Quelle actrice joue Mystique dans la trilogie X-Men originale ?", "a": "Rebecca Romijn" },
+      { "q": "Quel premier film Marvel Studios (MCU) sort en 2008 ?", "a": "Iron Man" }
     ],
     "10": [
-      {
-        "q": "Quelle édition des Hunger Games voit Katniss briser l’arène ?",
-        "a": "Le 75ème Hunger Games (Expiation)"
-      },
-      {
-        "q": "Quel est le vrai nom du 'Seigneur des Ténèbres' dans Harry Potter ?",
-        "a": "Tom Elvis Jedusor / Voldemort"
-      },
-      {
-        "q": "Quel anneau Sauron a-t-il forgé pour lui-même ?",
-        "a": "L’Anneau Unique"
-      },
-      {
-        "q": "Quel Jedi s’exile sur Dagobah après l’Ordre 66 ?",
-        "a": "Yoda"
-      },
-      {
-        "q": "Dans Marvel, quel personnage manie le Gantelet de l’Infini à la fin d’Endgame ?",
-        "a": "Tony Stark / Iron Man"
-      }
+      { "q": "Combien de tomes officiels compte la saga A Song of Ice and Fire publiés à ce jour ?", "a": "5" },
+      { "q": "Quel est le titre du sixième tome promis et non publié d'A Song of Ice and Fire ?", "a": "The Winds of Winter" },
+      { "q": "Quel est le numéro d'identification de Stormtrooper de Finn dans Le Réveil de la Force ?", "a": "FN-2187" },
+      { "q": "Quel acteur fait un caméo non crédité en Stormtrooper dans Le Réveil de la Force ?", "a": "Daniel Craig" },
+      { "q": "Quel film James Bond est sorti en 1969 et a marqué l'unique apparition de George Lazenby ?", "a": "Au service secret de Sa Majesté" },
+      { "q": "Combien de films officiels compte la saga James Bond produits par Eon jusqu'à Mourir peut attendre ?", "a": "25" },
+      { "q": "Pourquoi le sabre laser de Kylo Ren a-t-il une garde et crépite-t-il ?", "a": "Cristal kyber fissuré" },
+      { "q": "Quel acteur initialement choisi pour Wolverine s'est désisté avant Hugh Jackman ?", "a": "Dougray Scott" },
+      { "q": "Quel scénariste créateur des comics Marvel fait un caméo dans presque tous les films Marvel jusqu'à 2018 ?", "a": "Stan Lee" },
+      { "q": "En quelle année et quel mois sort Un nouvel espoir aux États-Unis ?", "a": "Mai 1977" },
+      { "q": "Quelle est la durée approximative de la version longue du Retour du roi ?", "a": "Environ 4h23 (263 min)" },
+      { "q": "Quel est le nom Quenya (elfique) original de Gandalf le Gris ?", "a": "Olórin" },
+      { "q": "Quel objet Indiana Jones cherche-t-il dans le quatrième opus de 2008 ?", "a": "Le Crâne de Cristal" },
+      { "q": "Quel est le titre exact du film Indiana Jones de 2023 avec Phoebe Waller-Bridge ?", "a": "Indiana Jones et le Cadran de la destinée" },
+      { "q": "Quel est le vrai nom de Jon Snow révélé à la fin de Game of Thrones ?", "a": "Aegon Targaryen" }
     ]
   }
 }

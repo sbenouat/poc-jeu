@@ -3,392 +3,174 @@
   "name": "Musique",
   "questions": {
     "1": [
-      {
-        "q": "Quel groupe a chanté « Yesterday » ?",
-        "a": "The Beatles"
-      },
-      {
-        "q": "Qui est le « King of Pop » ?",
-        "a": "Michael Jackson"
-      },
-      {
-        "q": "Qui a chanté « Thriller » ?",
-        "a": "Michael Jackson"
-      },
-      {
-        "q": "Quel groupe a chanté « Bohemian Rhapsody » ?",
-        "a": "Queen"
-      },
-      {
-        "q": "Qui a composé « La Lettre à Élise » ?",
-        "a": "Beethoven"
-      },
-      {
-        "q": "Qui a composé « L'Hymne à la joie » ?",
-        "a": "Beethoven"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du rock'n'roll » ?",
-        "a": "Elvis Presley"
-      },
-      {
-        "q": "Quel compositeur est sourd à la fin de sa vie mais continue à composer ?",
-        "a": "Beethoven"
-      },
-      {
-        "q": "Qui a composé « La Flûte enchantée » ?",
-        "a": "Mozart"
-      },
-      {
-        "q": "Quel chanteur est connu pour « Imagine » ?",
-        "a": "John Lennon"
-      }
+      { "q": "Quel groupe britannique des années 60, formé à Liverpool, a chanté 'Yesterday' et 'Let It Be' ?", "a": "The Beatles" },
+      { "q": "Quel chanteur belge a interprété la chanson 'Ne me quitte pas' ?", "a": "Jacques Brel" },
+      { "q": "Quel roi de la pop a chanté 'Thriller' et 'Billie Jean' ?", "a": "Michael Jackson" },
+      { "q": "Quel groupe suédois a remporté l'Eurovision en 1974 avec 'Waterloo' ?", "a": "ABBA" },
+      { "q": "Quelle chanteuse française est connue comme 'la Môme' et a chanté 'La Vie en rose' ?", "a": "Édith Piaf" },
+      { "q": "Quel groupe de rock a sorti 'Bohemian Rhapsody' avec Freddie Mercury au chant ?", "a": "Queen" },
+      { "q": "Quel chanteur incarne le 'King' du rock and roll américain et a chanté 'Jailhouse Rock' ?", "a": "Elvis Presley" },
+      { "q": "Quelle chanteuse américaine a chanté 'Like a Virgin' et 'Material Girl' dans les années 80 ?", "a": "Madonna" },
+      { "q": "Quel artiste belge masqué a chanté 'Alors on danse' et 'Papaoutai' ?", "a": "Stromae" },
+      { "q": "Quel chanteur français a interprété 'Allumer le feu' et 'Que je t'aime' ?", "a": "Johnny Hallyday" },
+      { "q": "Quel groupe irlandais est mené par le chanteur Bono ?", "a": "U2" },
+      { "q": "Quel instrument à six cordes Jimi Hendrix a-t-il rendu célèbre ?", "a": "La guitare" },
+      { "q": "Quelle chanteuse française enfant a chanté 'Joe le taxi' avant d'épouser Johnny Depp ?", "a": "Vanessa Paradis" },
+      { "q": "Quelle chanteuse canadienne, surnommée 'la voix', a interprété 'My Heart Will Go On' pour le film Titanic ?", "a": "Céline Dion" },
+      { "q": "Quel chanteur des Doors a écrit 'Light My Fire' ?", "a": "Jim Morrison" }
     ],
     "2": [
-      {
-        "q": "Qui a chanté « Shape of You » ?",
-        "a": "Ed Sheeran"
-      },
-      {
-        "q": "Qui a chanté « Rolling in the Deep » ?",
-        "a": "Adele"
-      },
-      {
-        "q": "Qui a chanté « Poker Face » ?",
-        "a": "Lady Gaga"
-      },
-      {
-        "q": "Qui a chanté « Hello » ?",
-        "a": "Adele"
-      },
-      {
-        "q": "Quel groupe a chanté « Smells Like Teen Spirit » ?",
-        "a": "Nirvana"
-      },
-      {
-        "q": "Quel groupe a chanté « Hotel California » ?",
-        "a": "The Eagles"
-      },
-      {
-        "q": "Quel groupe a chanté « Satisfaction » ?",
-        "a": "The Rolling Stones"
-      },
-      {
-        "q": "Qui est le chanteur principal de Queen ?",
-        "a": "Freddie Mercury"
-      },
-      {
-        "q": "Qui a chanté « Like a Virgin » ?",
-        "a": "Madonna"
-      },
-      {
-        "q": "Qui a chanté « Purple Rain » ?",
-        "a": "Prince"
-      }
+      { "q": "Quel compositeur autrichien enfant prodige a écrit l'opéra 'La Flûte enchantée' ?", "a": "Mozart" },
+      { "q": "Quel groupe a chanté 'Smells Like Teen Spirit' avec Kurt Cobain au chant ?", "a": "Nirvana" },
+      { "q": "Quelle chanteuse britannique a interprété 'Rolling in the Deep' et 'Hello' ?", "a": "Adele" },
+      { "q": "Quel chanteur français d'origine arménienne a écrit 'La Bohème' et 'Emmenez-moi' ?", "a": "Charles Aznavour" },
+      { "q": "Quel groupe a chanté 'Sweet Child o' Mine' avec Axl Rose et Slash ?", "a": "Guns N' Roses" },
+      { "q": "Quel compositeur allemand devenu sourd a écrit la Neuvième Symphonie ?", "a": "Beethoven" },
+      { "q": "Quelle chanteuse colombienne a chanté 'Hips Don't Lie' et 'Waka Waka' ?", "a": "Shakira" },
+      { "q": "Quel groupe britannique mené par les frères Gallagher a chanté 'Wonderwall' ?", "a": "Oasis" },
+      { "q": "Quel chanteur français au crâne rasé a interprété 'Tombé du ciel' et 'Je voudrais voir New York' ?", "a": "Jacques Higelin" },
+      { "q": "Quel rappeur a sorti l'album 'The Marshall Mathers LP' en 2000 ?", "a": "Eminem" },
+      { "q": "Quel chanteur jamaïcain est l'icône du reggae avec 'No Woman No Cry' ?", "a": "Bob Marley" },
+      { "q": "Quelle chanteuse française a interprété 'L'Aigle noir' ?", "a": "Barbara" },
+      { "q": "Quel groupe de Liverpool a sorti l'album 'Sgt. Pepper's Lonely Hearts Club Band' ?", "a": "The Beatles" },
+      { "q": "Quel artiste portoricain a chanté 'Despacito' avec Daddy Yankee ?", "a": "Luis Fonsi" },
+      { "q": "Quel chanteur gallois à la voix de baryton a interprété 'Delilah' et 'It's Not Unusual' dans les années 60 ?", "a": "Tom Jones" }
     ],
     "3": [
-      {
-        "q": "Qui a composé « La 9e Symphonie » ?",
-        "a": "Beethoven"
-      },
-      {
-        "q": "Qui a composé « Les Quatre Saisons » ?",
-        "a": "Vivaldi"
-      },
-      {
-        "q": "Qui a composé « Le Lac des cygnes » ?",
-        "a": "Tchaïkovski"
-      },
-      {
-        "q": "Qui a composé « Carmen » ?",
-        "a": "Bizet"
-      },
-      {
-        "q": "Qui a composé « Le Boléro » ?",
-        "a": "Ravel"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du reggae » ?",
-        "a": "Bob Marley"
-      },
-      {
-        "q": "Qui a chanté « No Woman, No Cry » ?",
-        "a": "Bob Marley"
-      },
-      {
-        "q": "Qui est le chanteur principal des Rolling Stones ?",
-        "a": "Mick Jagger"
-      },
-      {
-        "q": "Qui est le chanteur principal de Nirvana ?",
-        "a": "Kurt Cobain"
-      },
-      {
-        "q": "Quel compositeur russe a écrit « Casse-Noisette » ?",
-        "a": "Tchaïkovski"
-      }
+      { "q": "Quel groupe australien de hard rock a sorti l'album 'Back in Black' ?", "a": "AC/DC" },
+      { "q": "Quel chanteur français à la moustache a interprété 'Les Copains d'abord' ?", "a": "Georges Brassens" },
+      { "q": "Quel groupe de Los Angeles a chanté 'Californication' et 'Under the Bridge' ?", "a": "Red Hot Chili Peppers" },
+      { "q": "Quel compositeur italien baroque a écrit 'Les Quatre Saisons' ?", "a": "Vivaldi" },
+      { "q": "Quel chanteur anglais roux a sorti l'album 'Divide' avec le titre 'Shape of You' ?", "a": "Ed Sheeran" },
+      { "q": "Quel trompettiste de jazz a enregistré l'album 'Kind of Blue' en 1959 ?", "a": "Miles Davis" },
+      { "q": "Quel groupe français des années 80 a chanté 'Marcia Baïla' ?", "a": "Les Rita Mitsouko" },
+      { "q": "Quelle chanteuse barbadienne a interprété 'Diamonds' et 'Umbrella' ?", "a": "Rihanna" },
+      { "q": "Quel chanteur français a écrit 'Le Sud' et 'Mirza' ?", "a": "Nino Ferrer" },
+      { "q": "Quel groupe britannique a sorti l'album 'OK Computer' en 1997 ?", "a": "Radiohead" },
+      { "q": "Quel rappeur américain a chanté 'In Da Club' en 2003 ?", "a": "50 Cent" },
+      { "q": "Quel groupe californien a chanté 'Hotel California' en 1976 ?", "a": "Eagles" },
+      { "q": "Quel auteur-compositeur français a écrit 'Né en 17 à Leidenstadt' ?", "a": "Jean-Jacques Goldman" },
+      { "q": "Quel pianiste polonais du XIXe siècle a composé de nombreuses polonaises et nocturnes ?", "a": "Chopin" },
+      { "q": "Quel groupe a chanté 'Don't Stop Believin'' en 1981 ?", "a": "Journey" }
     ],
     "4": [
-      {
-        "q": "Qui a chanté « Born in the USA » ?",
-        "a": "Bruce Springsteen"
-      },
-      {
-        "q": "Quel chanteur est surnommé le Boss ?",
-        "a": "Bruce Springsteen"
-      },
-      {
-        "q": "Qui a chanté « Like a Rolling Stone » ?",
-        "a": "Bob Dylan"
-      },
-      {
-        "q": "Qui a chanté « Respect » ?",
-        "a": "Aretha Franklin"
-      },
-      {
-        "q": "Qui a chanté « I Will Always Love You » ?",
-        "a": "Whitney Houston"
-      },
-      {
-        "q": "Qui a chanté « My Heart Will Go On » ?",
-        "a": "Céline Dion"
-      },
-      {
-        "q": "Qui a chanté « Wonderwall » ?",
-        "a": "Oasis"
-      },
-      {
-        "q": "Qui a chanté « Hey Jude » ?",
-        "a": "The Beatles"
-      },
-      {
-        "q": "Qui a chanté « Umbrella » ?",
-        "a": "Rihanna"
-      },
-      {
-        "q": "Quel artiste est surnommé la « Reine de la soul » ?",
-        "a": "Aretha Franklin"
-      }
+      { "q": "Quel est le vrai prénom de Bob Dylan, né Robert Zimmerman ?", "a": "Robert" },
+      { "q": "Quel groupe britannique a sorti l'album 'The Wall' en 1979 ?", "a": "Pink Floyd" },
+      { "q": "Quel chanteur français a écrit 'Chanson pour l'Auvergnat' ?", "a": "Georges Brassens" },
+      { "q": "Quel compositeur russe a écrit le ballet 'Le Lac des cygnes' ?", "a": "Tchaïkovski" },
+      { "q": "Quel groupe a sorti l'album 'Nevermind' en 1991 ?", "a": "Nirvana" },
+      { "q": "Quel saxophoniste américain de bebop est surnommé 'Bird' ?", "a": "Charlie Parker" },
+      { "q": "Quel chanteur franco-américain a interprété 'Aux Champs-Élysées' et 'L'Été indien' ?", "a": "Joe Dassin" },
+      { "q": "Quel groupe écossais a chanté 'Take Me Out' en 2004 ?", "a": "Franz Ferdinand" },
+      { "q": "Quel rappeur français a fondé NTM avec JoeyStarr ?", "a": "Kool Shen" },
+      { "q": "Quel album mythique de Pink Floyd contient le titre 'Money' ?", "a": "The Dark Side of the Moon" },
+      { "q": "Quel chanteur français a écrit 'Je suis venu te dire que je m'en vais' ?", "a": "Serge Gainsbourg" },
+      { "q": "Quel groupe a sorti 'Stairway to Heaven' en 1971 ?", "a": "Led Zeppelin" },
+      { "q": "Quelle chanteuse américaine a interprété 'I Will Always Love You' dans 'Bodyguard' ?", "a": "Whitney Houston" },
+      { "q": "Quel terme italien désigne un tempo rapide et joyeux en musique classique ?", "a": "Allegro" },
+      { "q": "Quel chanteur québécois a interprété 'Belle' dans la comédie musicale 'Notre-Dame de Paris' ?", "a": "Garou" }
     ],
     "5": [
-      {
-        "q": "Quel groupe a chanté « Stairway to Heaven » ?",
-        "a": "Led Zeppelin"
-      },
-      {
-        "q": "Quel groupe a chanté « Another Brick in the Wall » ?",
-        "a": "Pink Floyd"
-      },
-      {
-        "q": "Quel groupe a chanté « Highway to Hell » ?",
-        "a": "AC/DC"
-      },
-      {
-        "q": "Quel groupe a chanté « Enter Sandman » ?",
-        "a": "Metallica"
-      },
-      {
-        "q": "Quel groupe a chanté « Sweet Child O' Mine » ?",
-        "a": "Guns N' Roses"
-      },
-      {
-        "q": "Qui est le chanteur principal de U2 ?",
-        "a": "Bono"
-      },
-      {
-        "q": "Qui est le chanteur principal de Coldplay ?",
-        "a": "Chris Martin"
-      },
-      {
-        "q": "Qui est la chanteuse de « Single Ladies » ?",
-        "a": "Beyoncé"
-      },
-      {
-        "q": "Qui est la chanteuse de « Shake It Off » ?",
-        "a": "Taylor Swift"
-      },
-      {
-        "q": "Qui est la chanteuse de « Rehab » ?",
-        "a": "Amy Winehouse"
-      }
+      { "q": "Quel groupe britannique a composé l'opéra-rock 'Tommy' sorti en 1969 ?", "a": "The Who" },
+      { "q": "Quel album de Michael Jackson sorti en 1982 reste l'un des plus vendus de tous les temps ?", "a": "Thriller" },
+      { "q": "Quel compositeur français impressionniste a écrit le 'Boléro' en 1928 ?", "a": "Maurice Ravel" },
+      { "q": "Quel groupe progressif a sorti l'album concept 'The Lamb Lies Down on Broadway' ?", "a": "Genesis" },
+      { "q": "Quel chanteur français a écrit 'L'eau à la bouche' et 'Bonnie and Clyde' ?", "a": "Serge Gainsbourg" },
+      { "q": "Quel album des Beatles, sorti en 1969, montre les quatre membres traversant un passage piéton ?", "a": "Abbey Road" },
+      { "q": "Quel trompettiste de jazz est surnommé 'Satchmo' ?", "a": "Louis Armstrong" },
+      { "q": "Quelle chanteuse islandaise excentrique a sorti l'album 'Debut' en 1993 ?", "a": "Björk" },
+      { "q": "Quel compositeur autrichien a écrit le 'Requiem' inachevé à sa mort en 1791 ?", "a": "Mozart" },
+      { "q": "Quel chanteur britannique caméléon a sorti l'album 'Blackstar' deux jours avant sa mort ?", "a": "David Bowie" },
+      { "q": "Quel duo électronique français a sorti l'album 'Discovery' avec 'One More Time' ?", "a": "Daft Punk" },
+      { "q": "Quel terme désigne une œuvre pour instrument soliste accompagné par un orchestre ?", "a": "Concerto" },
+      { "q": "Quel chanteur belge a écrit 'Amsterdam' et 'Quand on n'a que l'amour' ?", "a": "Jacques Brel" },
+      { "q": "Quel rappeur a sorti l'album 'good kid, m.A.A.d city' en 2012 ?", "a": "Kendrick Lamar" },
+      { "q": "Quel festival mythique de 1969 a réuni Hendrix, Joplin et Santana dans l'État de New York ?", "a": "Woodstock" }
     ],
     "6": [
-      {
-        "q": "Quel groupe a chanté « Paranoid » ?",
-        "a": "Black Sabbath"
-      },
-      {
-        "q": "Quel groupe a chanté « Californication » ?",
-        "a": "Red Hot Chili Peppers"
-      },
-      {
-        "q": "Quel groupe a chanté « Losing My Religion » ?",
-        "a": "R.E.M."
-      },
-      {
-        "q": "Quel groupe a chanté « Radioactive » ?",
-        "a": "Imagine Dragons"
-      },
-      {
-        "q": "Quel groupe a chanté « Seven Nation Army » ?",
-        "a": "The White Stripes"
-      },
-      {
-        "q": "Qui est le chanteur principal de Maroon 5 ?",
-        "a": "Adam Levine"
-      },
-      {
-        "q": "Qui est le chanteur principal de Metallica ?",
-        "a": "James Hetfield"
-      },
-      {
-        "q": "Qui est la chanteuse de « Bad Romance » ?",
-        "a": "Lady Gaga"
-      },
-      {
-        "q": "Qui est la chanteuse de « Wrecking Ball » ?",
-        "a": "Miley Cyrus"
-      },
-      {
-        "q": "Qui a composé « La Traviata » ?",
-        "a": "Verdi"
-      }
+      { "q": "Quel album des Beach Boys, sorti en 1966, est considéré comme un chef-d'œuvre de la pop ?", "a": "Pet Sounds" },
+      { "q": "Quel compositeur baroque allemand a écrit 'Le Clavier bien tempéré' ?", "a": "Jean-Sébastien Bach" },
+      { "q": "Quel album de Fleetwood Mac sorti en 1977 contient 'Go Your Own Way' ?", "a": "Rumours" },
+      { "q": "Quel chanteur belge a écrit 'Le Plat Pays' ?", "a": "Jacques Brel" },
+      { "q": "Quel groupe canadien a sorti l'album 'Funeral' en 2004 ?", "a": "Arcade Fire" },
+      { "q": "Quel terme italien indique une exécution douce et délicate, opposée à 'forte' ?", "a": "Piano" },
+      { "q": "Quel chanteur soul américain a écrit 'What's Going On' en 1971 ?", "a": "Marvin Gaye" },
+      { "q": "Quel groupe progressif britannique a sorti 'In the Court of the Crimson King' en 1969 ?", "a": "King Crimson" },
+      { "q": "Quel compositeur hongrois est l'auteur des 'Rhapsodies hongroises' pour piano ?", "a": "Franz Liszt" },
+      { "q": "Quel album de Serge Gainsbourg avec Jane Birkin contient 'Je t'aime moi non plus' ?", "a": "Jane Birkin – Serge Gainsbourg" },
+      { "q": "Quel album solo de Paul McCartney inclut 'Maybe I'm Amazed' en 1970 ?", "a": "McCartney" },
+      { "q": "Quel groupe de Manchester a sorti 'Love Will Tear Us Apart' avec Ian Curtis au chant ?", "a": "Joy Division" },
+      { "q": "Quel chanteur français a écrit la chanson 'San Francisco' en 1972 ?", "a": "Maxime Le Forestier" },
+      { "q": "Quel album du Velvet Underground avec Nico montre une banane d'Andy Warhol en pochette ?", "a": "The Velvet Underground & Nico" },
+      { "q": "Quel chanteur portugais a popularisé le fado avec sa voix mélancolique ?", "a": "Amália Rodrigues" }
     ],
     "7": [
-      {
-        "q": "Qui a composé « L'Art de la fugue » ?",
-        "a": "Bach"
-      },
-      {
-        "q": "Qui a composé « La Symphonie fantastique » ?",
-        "a": "Berlioz"
-      },
-      {
-        "q": "Qui a composé « Guillaume Tell » ?",
-        "a": "Rossini"
-      },
-      {
-        "q": "Qui est le chanteur principal de Muse ?",
-        "a": "Matthew Bellamy"
-      },
-      {
-        "q": "Qui est le chanteur principal de Radiohead ?",
-        "a": "Thom Yorke"
-      },
-      {
-        "q": "Qui est le chanteur principal de Pearl Jam ?",
-        "a": "Eddie Vedder"
-      },
-      {
-        "q": "Qui est la chanteuse de « Material Girl » ?",
-        "a": "Madonna"
-      },
-      {
-        "q": "Qui est la chanteuse de « Hollaback Girl » ?",
-        "a": "Gwen Stefani"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du jazz » ?",
-        "a": "Louis Armstrong"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du funk » ?",
-        "a": "James Brown"
-      }
+      { "q": "Quel batteur de Led Zeppelin est mort en 1980, mettant fin au groupe ?", "a": "John Bonham" },
+      { "q": "Quel album de The Clash sorti en 1979 contient le titre 'London Calling' ?", "a": "London Calling" },
+      { "q": "Quel compositeur français a écrit l'opéra 'Pelléas et Mélisande' en 1902 ?", "a": "Claude Debussy" },
+      { "q": "Quel album de Radiohead sorti en 2000 marque un tournant électronique ?", "a": "Kid A" },
+      { "q": "Quel chanteur de Joy Division s'est suicidé en 1980 avant la tournée américaine ?", "a": "Ian Curtis" },
+      { "q": "Quel pianiste canadien est connu pour ses interprétations des Variations Goldberg de Bach ?", "a": "Glenn Gould" },
+      { "q": "Quel groupe a sorti l'album 'Doolittle' en 1989, référence du rock alternatif ?", "a": "Pixies" },
+      { "q": "Quel chanteur français a fondé Téléphone avec Louis Bertignac ?", "a": "Jean-Louis Aubert" },
+      { "q": "Quel compositeur russe a écrit 'Le Sacre du printemps' qui causa un scandale en 1913 ?", "a": "Stravinsky" },
+      { "q": "Quel album de Bruce Springsteen sorti en 1975 inclut 'Thunder Road' ?", "a": "Born to Run" },
+      { "q": "Quel batteur de The Police a une carrière solo prolifique ?", "a": "Stewart Copeland" },
+      { "q": "Quel guitariste argentin a accompagné Astor Piazzolla dans le tango nuevo ?", "a": "Roberto Grela" },
+      { "q": "Quel album de PJ Harvey a remporté le Mercury Prize en 2001 ?", "a": "Stories from the City, Stories from the Sea" },
+      { "q": "Quel chanteur britannique végétarien a fondé The Smiths avec le guitariste Johnny Marr ?", "a": "Morrissey" },
+      { "q": "Quel rappeur français a sorti l'album 'Or noir' en 2013 ?", "a": "Kaaris" }
     ],
     "8": [
-      {
-        "q": "Qui est le compositeur de l'opéra « La Bohème » ?",
-        "a": "Puccini"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Aïda » ?",
-        "a": "Verdi"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Don Giovanni » ?",
-        "a": "Mozart"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Le Barbier de Séville » ?",
-        "a": "Rossini"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Tristan et Isolde » ?",
-        "a": "Wagner"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Tosca » ?",
-        "a": "Puccini"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Nabucco » ?",
-        "a": "Verdi"
-      },
-      {
-        "q": "Quel compositeur est surnommé le « Cantor de Leipzig » ?",
-        "a": "Bach"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Duc du jazz » ?",
-        "a": "Duke Ellington"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du blues » ?",
-        "a": "B.B. King"
-      }
+      { "q": "Quel album de Miles Davis de 1970 marque le virage du jazz vers le jazz fusion électrique ?", "a": "Bitches Brew" },
+      { "q": "Quel saxophoniste a enregistré 'A Love Supreme' en 1964 ?", "a": "John Coltrane" },
+      { "q": "Quel compositeur autrichien a écrit la 'Symphonie n°9' restée inachevée à sa mort en 1911 ?", "a": "Mahler" },
+      { "q": "Quel album de Captain Beefheart sorti en 1969 est considéré comme avant-gardiste ?", "a": "Trout Mask Replica" },
+      { "q": "Quel groupe allemand de krautrock a sorti 'Tago Mago' en 1971 ?", "a": "Can" },
+      { "q": "Quel album solo de John Lennon contient la chanson 'Imagine' ?", "a": "Imagine" },
+      { "q": "Quel chanteur français a sorti l'album 'Histoire de Melody Nelson' en 1971 ?", "a": "Serge Gainsbourg" },
+      { "q": "Quel guitariste du Velvet Underground a aussi joué avec Bowie sur 'Transformer' ?", "a": "Lou Reed" },
+      { "q": "Quel compositeur français du XXe siècle a écrit 'Turangalîla-Symphonie' ?", "a": "Olivier Messiaen" },
+      { "q": "Quel album de Kraftwerk sorti en 1977 a influencé l'électro et la techno ?", "a": "Trans-Europe Express" },
+      { "q": "Quel batteur de jazz a co-dirigé un Quintet avec Clifford Brown dans les années 50 ?", "a": "Max Roach" },
+      { "q": "Quel groupe a sorti l'album 'Loveless' en 1991, référence du shoegaze ?", "a": "My Bloody Valentine" },
+      { "q": "Quel chanteur français a sorti l'album 'L'Imprudence' en 2002 ?", "a": "Alain Bashung" },
+      { "q": "Quel compositeur américain a écrit 'In C', œuvre fondatrice du minimalisme ?", "a": "Terry Riley" },
+      { "q": "Quel album de Joni Mitchell sorti en 1971 inclut 'A Case of You' ?", "a": "Blue" }
     ],
     "9": [
-      {
-        "q": "Qui est le compositeur de l'opéra « Les Noces de Figaro » ?",
-        "a": "Mozart"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « L'Anneau du Nibelung » ?",
-        "a": "Wagner"
-      },
-      {
-        "q": "Quel compositeur a écrit la « Symphonie du Nouveau Monde » ?",
-        "a": "Dvořák"
-      },
-      {
-        "q": "Quel compositeur a écrit « L'Oiseau de feu » ?",
-        "a": "Stravinsky"
-      },
-      {
-        "q": "Quel compositeur français a écrit « Le Carnaval des animaux » ?",
-        "a": "Saint-Saëns"
-      },
-      {
-        "q": "Quel compositeur allemand a écrit « L'Or du Rhin » ?",
-        "a": "Wagner"
-      },
-      {
-        "q": "Quel compositeur italien a écrit « Otello » ?",
-        "a": "Verdi"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Prince de la pop » ?",
-        "a": "Justin Timberlake"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du rap » ?",
-        "a": "Jay-Z"
-      },
-      {
-        "q": "Quel artiste est surnommé la « Reine du R&B » ?",
-        "a": "Beyoncé"
-      }
+      { "q": "Quel pianiste de jazz cubain a fondé le groupe 'Irakere' dans les années 70 ?", "a": "Chucho Valdés" },
+      { "q": "Quel compositeur autrichien est l'auteur de l'opéra 'Wozzeck' créé en 1925 ?", "a": "Alban Berg" },
+      { "q": "Quel album de Scott Walker sorti en 1995 marque son retour expérimental ?", "a": "Tilt" },
+      { "q": "Quel violoniste italien virtuose du XIXe siècle a écrit les 24 Caprices ?", "a": "Niccolò Paganini" },
+      { "q": "Quel album de Talk Talk de 1988 a influencé la naissance du post-rock ?", "a": "Spirit of Eden" },
+      { "q": "Quel compositeur estonien a développé le style 'tintinnabuli' minimaliste ?", "a": "Arvo Pärt" },
+      { "q": "Quel groupe japonais de 1978 est pionnier de la synth-pop avec Ryuichi Sakamoto ?", "a": "Yellow Magic Orchestra" },
+      { "q": "Quel chanteur français de Taxi Girl a sorti l'album 'Pavillon sous la lune' en 1989 ?", "a": "Daniel Darc" },
+      { "q": "Quel pianiste de jazz a enregistré l'improvisation solo 'The Köln Concert' en 1975 ?", "a": "Keith Jarrett" },
+      { "q": "Quel compositeur grec d'origine roumaine a écrit 'Metastaseis' en 1954 ?", "a": "Iannis Xenakis" },
+      { "q": "Quel album du groupe Slint sorti en 1991 est une référence du post-rock ?", "a": "Spiderland" },
+      { "q": "Quel ténor italien a chanté Calaf dans 'Turandot' lors du Mondial 1990 ?", "a": "Luciano Pavarotti" },
+      { "q": "Quel guitariste de jazz manouche a perdu deux doigts dans un incendie en 1928 ?", "a": "Django Reinhardt" },
+      { "q": "Quel album de This Heat sorti en 1981 est un classique du post-punk expérimental ?", "a": "Deceit" },
+      { "q": "Quel chanteur britannique de Roxy Music a aussi inventé l'ambient avec 'Music for Airports' ?", "a": "Brian Eno" }
     ],
     "10": [
-      {
-        "q": "Quel compositeur a écrit « Les Tableaux d'une exposition » ?",
-        "a": "Moussorgski"
-      },
-      {
-        "q": "Quel compositeur est mort très jeune, à 35 ans, en 1791 ?",
-        "a": "Mozart"
-      }
+      { "q": "Quel compositeur russe a écrit 'Les Tableaux d'une exposition' en 1874, plus tard orchestrés par Ravel ?", "a": "Modeste Moussorgski" },
+      { "q": "Quel ethnomusicologue hongrois a collecté les musiques populaires d'Europe centrale avec Béla Bartók ?", "a": "Zoltán Kodály" },
+      { "q": "Quel saxophoniste a enregistré l'album 'Free Jazz: A Collective Improvisation' en 1960 ?", "a": "Ornette Coleman" },
+      { "q": "Quel ingénieur français a fondé le GRM en 1958 et créé la musique concrète ?", "a": "Pierre Schaeffer" },
+      { "q": "Quel compositeur français a écrit les 'Vingt Regards sur l'Enfant-Jésus' pour piano en 1944 ?", "a": "Olivier Messiaen" },
+      { "q": "Quel chef d'orchestre roumain a dirigé la Philharmonie de Munich pendant 17 ans jusqu'en 1996 ?", "a": "Sergiu Celibidache" },
+      { "q": "Quel opéra d'Alban Berg, inachevé à sa mort en 1935, a été complété par Friedrich Cerha ?", "a": "Lulu" },
+      { "q": "Quel professeur juif américain a écrit 'Strange Fruit' interprétée par Billie Holiday en 1939 ?", "a": "Abel Meeropol" },
+      { "q": "Quel compositeur soviétique a écrit la 'Symphonie n°7 dite Leningrad' pendant le siège de la ville ?", "a": "Chostakovitch" },
+      { "q": "Quel album de Robert Wyatt sorti en 1974 fait suite à l'accident le rendant paraplégique ?", "a": "Rock Bottom" },
+      { "q": "Quel chef d'orchestre italien a fondé l'orchestre symphonique de la NBC à New York en 1937 ?", "a": "Arturo Toscanini" },
+      { "q": "Quel pianiste texan a remporté le concours Tchaïkovski à Moscou en 1958 en pleine Guerre froide ?", "a": "Van Cliburn" },
+      { "q": "Quel album expérimental de Nurse With Wound de 1979 contient une longue liste d'artistes en pochette ?", "a": "Chance Meeting on a Dissecting Table of a Sewing Machine and an Umbrella" },
+      { "q": "Quel compositeur danois a écrit la 'Symphonie n°4 dite Inextinguible' en 1916 ?", "a": "Carl Nielsen" },
+      { "q": "Quel festival néerlandais d'avant-garde sonore se tient à Amsterdam depuis 1994 ?", "a": "Sonic Acts" }
     ]
   }
 }

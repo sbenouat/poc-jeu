@@ -3,224 +3,174 @@
   "name": "Inventions et découvertes",
   "questions": {
     "1": [
-      {
-        "q": "Qui a inventé le téléphone ?",
-        "a": "Alexander Graham Bell"
-      },
-      {
-        "q": "Qui a inventé l’ampoule électrique ?",
-        "a": "Thomas Edison"
-      },
-      {
-        "q": "Qui a découvert la gravité en voyant une pomme tomber ?",
-        "a": "Isaac Newton"
-      },
-      {
-        "q": "Qui a inventé l’avion avec son frère Orville ?",
-        "a": "Wilbur Wright"
-      },
-      {
-        "q": "Qui a inventé la radio ?",
-        "a": "Guglielmo Marconi"
-      }
+      { "q": "Qui a inventé l'ampoule électrique à incandescence en 1879 ?", "a": "Thomas Edison" },
+      { "q": "Quel inventeur écossais d'origine a inventé le téléphone breveté en 1876 ?", "a": "Alexander Graham Bell" },
+      { "q": "Quel chimiste français a mis au point le vaccin contre la rage en 1885 ?", "a": "Louis Pasteur" },
+      { "q": "Quel scientifique d'origine allemande a formulé la théorie de la relativité ?", "a": "Albert Einstein" },
+      { "q": "Quels frères américains ont réalisé le premier vol motorisé contrôlé en 1903 ?", "a": "Les frères Wright" },
+      { "q": "Qui a peint la Joconde et conçu de nombreuses inventions à la Renaissance ?", "a": "Léonard de Vinci" },
+      { "q": "Quel navigateur génois au service de l'Espagne a atteint l'Amérique en 1492 ?", "a": "Christophe Colomb" },
+      { "q": "Qui a inventé l'imprimerie à caractères mobiles en Europe vers 1450 ?", "a": "Johannes Gutenberg" },
+      { "q": "Quel physicien a énoncé la loi de la gravitation universelle ?", "a": "Isaac Newton" },
+      { "q": "Quels frères français ont inventé le cinématographe en 1895 ?", "a": "Les frères Lumière" },
+      { "q": "Quel premier homme a marché sur la Lune le 21 juillet 1969 ?", "a": "Neil Armstrong" },
+      { "q": "Quel astronome italien a observé Jupiter avec une lunette en 1610 ?", "a": "Galilée" },
+      { "q": "Quelle scientifique d'origine polonaise a découvert le radium ?", "a": "Marie Curie" },
+      { "q": "Qui a publié la théorie de l'évolution dans 'L'Origine des espèces' en 1859 ?", "a": "Charles Darwin" },
+      { "q": "Quel inventeur américain a déposé le brevet du phonographe en 1877 ?", "a": "Thomas Edison" }
     ],
     "2": [
-      {
-        "q": "Qui a découvert l’Amérique en 1492 ?",
-        "a": "Christophe Colomb"
-      },
-      {
-        "q": "Qui a inventé la pénicilline ?",
-        "a": "Alexander Fleming"
-      },
-      {
-        "q": "Qui a inventé la machine à vapeur moderne ?",
-        "a": "James Watt"
-      },
-      {
-        "q": "Qui a inventé le World Wide Web ?",
-        "a": "Tim Berners-Lee"
-      },
-      {
-        "q": "Qui a inventé l’imprimerie en Europe ?",
-        "a": "Gutenberg"
-      }
+      { "q": "Quel ingénieur écossais a perfectionné la machine à vapeur au XVIIIe siècle ?", "a": "James Watt" },
+      { "q": "Quel chimiste suédois a inventé la dynamite en 1867, d'où son célèbre prix ?", "a": "Alfred Nobel" },
+      { "q": "Quel ingénieur italien a transmis le premier signal radio transatlantique en 1901 ?", "a": "Guglielmo Marconi" },
+      { "q": "Quel bactériologiste écossais a découvert la pénicilline par hasard en 1928 ?", "a": "Alexander Fleming" },
+      { "q": "Quel astronaute soviétique fut le premier homme dans l'espace en 1961 ?", "a": "Youri Gagarine" },
+      { "q": "Quel ingénieur français a conçu la tour métallique inaugurée à Paris en 1889 ?", "a": "Gustave Eiffel" },
+      { "q": "Quel inventeur américain a perfectionné l'aspirateur électrique portatif vers 1908 ?", "a": "James Spangler" },
+      { "q": "Quel chimiste suédois a inventé le thermomètre à échelle centigrade ?", "a": "Anders Celsius" },
+      { "q": "Quel physicien allemand a découvert les rayons X en 1895 par hasard dans son laboratoire ?", "a": "Wilhelm Röntgen" },
+      { "q": "Qui a proposé en 1543 que la Terre tourne autour du Soleil ?", "a": "Nicolas Copernic" },
+      { "q": "Quel inventeur écossais a mis au point la télévision mécanique en 1926 ?", "a": "John Logie Baird" },
+      { "q": "Quel médecin breton a inventé le stéthoscope en 1816 pour ausculter ses patients ?", "a": "René Laennec" },
+      { "q": "Quel explorateur portugais a contourné l'Afrique pour atteindre l'Inde en 1498 ?", "a": "Vasco de Gama" },
+      { "q": "Quel astronaute américain est mort lors de la mission Apollo 1 en 1967 ?", "a": "Gus Grissom" },
+      { "q": "Quel inventeur a déposé le brevet du moteur Diesel en 1892 ?", "a": "Rudolf Diesel" }
     ],
     "3": [
-      {
-        "q": "Qui a inventé la dynamite ?",
-        "a": "Alfred Nobel"
-      },
-      {
-        "q": "Qui a inventé le cinéma ?",
-        "a": "Les frères Lumière"
-      },
-      {
-        "q": "Qui a découvert la relativité ?",
-        "a": "Albert Einstein"
-      },
-      {
-        "q": "Qui a inventé le stylo à bille ?",
-        "a": "László Bíró"
-      },
-      {
-        "q": "Qui a inventé le phonographe ?",
-        "a": "Thomas Edison"
-      }
+      { "q": "Quel astronome allemand a énoncé les trois lois du mouvement des planètes ?", "a": "Johannes Kepler" },
+      { "q": "Quel chimiste russe a établi la classification périodique des éléments en 1869 ?", "a": "Dmitri Mendeleïev" },
+      { "q": "Quel ingénieur allemand a construit la première automobile à essence en 1886 ?", "a": "Karl Benz" },
+      { "q": "Quel physicien danois a proposé un modèle de l'atome en 1913 ?", "a": "Niels Bohr" },
+      { "q": "Quel naturaliste suédois a créé la nomenclature binominale des espèces ?", "a": "Carl von Linné" },
+      { "q": "Quel chimiste français est considéré comme le père de la chimie moderne ?", "a": "Antoine Lavoisier" },
+      { "q": "Quel mathématicien grec a énoncé un théorème sur les triangles rectangles ?", "a": "Pythagore" },
+      { "q": "Quel scientifique anglais a découvert la circulation sanguine au XVIIe siècle ?", "a": "William Harvey" },
+      { "q": "Quel médecin britannique a mis au point le premier vaccin contre la variole en 1796 ?", "a": "Edward Jenner" },
+      { "q": "Quel ingénieur italien a inventé la pile électrique en 1800 ?", "a": "Alessandro Volta" },
+      { "q": "Quel ingénieur hongrois a inventé le stylo à bille en 1938 ?", "a": "László Bíró" },
+      { "q": "Quel ingénieur a déposé le brevet du télégraphe électrique avec son code en 1837 ?", "a": "Samuel Morse" },
+      { "q": "Quel mathématicien grec a écrit 'Les Éléments' vers 300 av. J.-C. ?", "a": "Euclide" },
+      { "q": "Quel explorateur portugais a réalisé le premier tour du monde commencé en 1519 ?", "a": "Fernand de Magellan" },
+      { "q": "Quel ingénieur allemand a construit la première fusée à carburant liquide opérationnelle V-2 ?", "a": "Wernher von Braun" }
     ],
     "4": [
-      {
-        "q": "Qui a inventé l’électricité moderne avec le courant alternatif ?",
-        "a": "Nikola Tesla"
-      },
-      {
-        "q": "Qui a inventé la pile électrique ?",
-        "a": "Alessandro Volta"
-      },
-      {
-        "q": "Qui a découvert l’insuline ?",
-        "a": "Frederick Banting et Charles Best"
-      },
-      {
-        "q": "Qui a inventé le revolver Colt ?",
-        "a": "Samuel Colt"
-      },
-      {
-        "q": "Qui a inventé le premier ordinateur programmable ?",
-        "a": "Konrad Zuse"
-      }
+      { "q": "Quels biologistes ont décrit la double hélice de l'ADN en 1953 ?", "a": "Watson et Crick" },
+      { "q": "Quel physicien italien a réalisé la première réaction nucléaire en chaîne en 1942 ?", "a": "Enrico Fermi" },
+      { "q": "Quel ingénieur britannique a conçu le premier ordinateur programmable Colossus ?", "a": "Tommy Flowers" },
+      { "q": "Quel physicien allemand a formulé le principe d'incertitude en 1927 ?", "a": "Werner Heisenberg" },
+      { "q": "Quel ingénieur a inventé le téléphone mobile portable testé en 1973 ?", "a": "Martin Cooper" },
+      { "q": "Quel physicien français a découvert la radioactivité naturelle en 1896 ?", "a": "Henri Becquerel" },
+      { "q": "Quelle scientifique a découvert la fission nucléaire avec Otto Hahn ?", "a": "Lise Meitner" },
+      { "q": "Quel ingénieur britannique a proposé le World Wide Web au CERN en 1989 ?", "a": "Tim Berners-Lee" },
+      { "q": "Quel mathématicien anglais est considéré comme le père de l'informatique théorique ?", "a": "Alan Turing" },
+      { "q": "Quel astronome américain a découvert l'expansion de l'univers en 1929 ?", "a": "Edwin Hubble" },
+      { "q": "Quel chimiste français a découvert le phénomène de polarisation de la lumière ?", "a": "Étienne-Louis Malus" },
+      { "q": "Quel médecin canadien a co-découvert l'insuline en 1921 avec Charles Best ?", "a": "Frederick Banting" },
+      { "q": "Quel inventeur américain a conçu la première chaîne de montage automobile ?", "a": "Henry Ford" },
+      { "q": "Quel physicien anglais a découvert l'électron en 1897 par les rayons cathodiques ?", "a": "Joseph John Thomson" },
+      { "q": "Quel physicien néo-zélandais a proposé le modèle planétaire de l'atome en 1911 ?", "a": "Ernest Rutherford" }
     ],
     "5": [
-      {
-        "q": "Qui a découvert l’Amérique du Sud par voie maritime ?",
-        "a": "Amerigo Vespucci"
-      },
-      {
-        "q": "Qui a inventé le parachute ?",
-        "a": "Louis-Sébastien Lenormand"
-      },
-      {
-        "q": "Qui a découvert l’ADN avec James Watson ?",
-        "a": "Francis Crick"
-      },
-      {
-        "q": "Qui a inventé le téléphone portable ?",
-        "a": "Martin Cooper"
-      },
-      {
-        "q": "Qui a inventé la machine à écrire ?",
-        "a": "Christopher Sholes"
-      }
+      { "q": "Quel ingénieur allemand a construit le premier moteur à combustion interne à quatre temps en 1876 ?", "a": "Nikolaus Otto" },
+      { "q": "Quel ingénieur français a inventé la photographie en 1826 avec une vue depuis sa fenêtre ?", "a": "Nicéphore Niépce" },
+      { "q": "Quel physicien anglais a unifié l'électricité et le magnétisme par ses équations ?", "a": "James Clerk Maxwell" },
+      { "q": "Quel chimiste allemand a synthétisé l'urée en 1828, brisant la frontière chimie organique/inorganique ?", "a": "Friedrich Wöhler" },
+      { "q": "Quel naturaliste anglais a partagé la théorie de la sélection naturelle avec Darwin ?", "a": "Alfred Russel Wallace" },
+      { "q": "Quel ingénieur américain a inventé la machine à coudre commerciale en 1851 ?", "a": "Isaac Singer" },
+      { "q": "Quel physicien français a mesuré la vitesse de la lumière dans l'air en 1849 ?", "a": "Hippolyte Fizeau" },
+      { "q": "Quel ingénieur écossais a inventé le pneumatique gonflable pour bicyclette en 1888 ?", "a": "John Boyd Dunlop" },
+      { "q": "Quel ingénieur français a inventé le métier à tisser à cartes perforées en 1801 ?", "a": "Joseph Marie Jacquard" },
+      { "q": "Quel chimiste français a découvert le radium et le polonium avec sa femme ?", "a": "Pierre Curie" },
+      { "q": "Quel ingénieur américain a inventé le réfrigérateur domestique électrique en 1913 ?", "a": "Fred W. Wolf" },
+      { "q": "Quel astronome danois a observé et étudié la supernova apparue en 1572 ?", "a": "Tycho Brahe" },
+      { "q": "Quel ingénieur français a fait voler le premier dirigeable en 1852 ?", "a": "Henri Giffard" },
+      { "q": "Quel chimiste français a découvert la pasteurisation et la fermentation ?", "a": "Louis Pasteur" },
+      { "q": "Quel ingénieur allemand a co-inventé la motocyclette à essence en 1885 ?", "a": "Gottlieb Daimler" }
     ],
     "6": [
-      {
-        "q": "Qui a inventé la voiture moderne avec le moteur à explosion ?",
-        "a": "Karl Benz"
-      },
-      {
-        "q": "Qui a inventé l’aspirine ?",
-        "a": "Felix Hoffmann"
-      },
-      {
-        "q": "Qui a inventé le microscope ?",
-        "a": "Antoni van Leeuwenhoek"
-      },
-      {
-        "q": "Qui a inventé la boussole ?",
-        "a": "Les Chinois"
-      },
-      {
-        "q": "Qui a inventé le moteur diesel ?",
-        "a": "Rudolf Diesel"
-      }
+      { "q": "Quel physicien français a découvert la piézoélectricité avec son frère en 1880 ?", "a": "Pierre Curie" },
+      { "q": "Quel mathématicien et physicien français a conçu une machine à calculer mécanique en 1642 ?", "a": "Blaise Pascal" },
+      { "q": "Quel ingénieur allemand a construit le premier ordinateur programmable Z3 en 1941 ?", "a": "Konrad Zuse" },
+      { "q": "Quel ingénieur américain a inventé le télégraphe et le code éponyme ?", "a": "Samuel Morse" },
+      { "q": "Quel chimiste suédois a découvert l'oxygène en 1772 avant Priestley ?", "a": "Carl Wilhelm Scheele" },
+      { "q": "Quel chimiste anglais a isolé l'oxygène et l'a nommé 'air déphlogistiqué' en 1774 ?", "a": "Joseph Priestley" },
+      { "q": "Quel physicien danois a découvert le magnétisme produit par un courant électrique en 1820 ?", "a": "Hans Christian Ørsted" },
+      { "q": "Quel physicien anglais a énoncé la loi de l'induction électromagnétique en 1831 ?", "a": "Michael Faraday" },
+      { "q": "Quel astronome anglais a découvert la planète Uranus en 1781 ?", "a": "William Herschel" },
+      { "q": "Quel physicien français a découvert la décomposition de la lumière par diffraction ?", "a": "Augustin Fresnel" },
+      { "q": "Quel mathématicien suisse a introduit la notation moderne pour les fonctions ?", "a": "Leonhard Euler" },
+      { "q": "Quel ingénieur britannique a inventé la première locomotive à vapeur viable en 1814 ?", "a": "George Stephenson" },
+      { "q": "Quel médecin hongrois a découvert l'importance du lavage des mains en obstétrique ?", "a": "Ignace Semmelweis" },
+      { "q": "Quel physicien italien a réalisé la première expérience sur la pression atmosphérique en 1643 ?", "a": "Evangelista Torricelli" },
+      { "q": "Quel inventeur américain a déposé plus de 1000 brevets dans son laboratoire de Menlo Park ?", "a": "Thomas Edison" }
     ],
     "7": [
-      {
-        "q": "Qui a inventé l’hélicoptère moderne ?",
-        "a": "Igor Sikorsky"
-      },
-      {
-        "q": "Qui a inventé la télévision ?",
-        "a": "John Logie Baird"
-      },
-      {
-        "q": "Qui a inventé le code Morse ?",
-        "a": "Samuel Morse"
-      },
-      {
-        "q": "Qui a inventé la photographie ?",
-        "a": "Nicéphore Niépce"
-      },
-      {
-        "q": "Qui a inventé le radar ?",
-        "a": "Robert Watson-Watt"
-      }
+      { "q": "Quel physicien allemand a découvert les ondes électromagnétiques expérimentalement en 1887 ?", "a": "Heinrich Hertz" },
+      { "q": "Quel chimiste anglais a introduit la théorie atomique moderne en 1803 ?", "a": "John Dalton" },
+      { "q": "Quel ingénieur serbo-américain a développé le courant alternatif au XIXe siècle ?", "a": "Nikola Tesla" },
+      { "q": "Quel astronome français a calculé en 1846 la position de Neptune avant sa découverte ?", "a": "Urbain Le Verrier" },
+      { "q": "Quel ingénieur français a inventé le pneumatique démontable pour automobile en 1891 ?", "a": "Édouard Michelin" },
+      { "q": "Quel physicien indien a découvert l'effet de diffusion qui porte son nom en 1928 ?", "a": "Chandrasekhara Raman" },
+      { "q": "Quelle scientifique américaine a co-découvert la transposition génétique chez le maïs ?", "a": "Barbara McClintock" },
+      { "q": "Quel chimiste français a découvert l'iode en 1811 dans des cendres d'algues ?", "a": "Bernard Courtois" },
+      { "q": "Quel mathématicien allemand est connu pour son ruban à une seule face décrit en 1858 ?", "a": "August Möbius" },
+      { "q": "Quel physicien français a inventé le gyroscope en 1852 et démontré la rotation terrestre ?", "a": "Léon Foucault" },
+      { "q": "Quel chimiste anglais a découvert le sodium et le potassium par électrolyse en 1807 ?", "a": "Humphry Davy" },
+      { "q": "Quel facteur d'instruments belge a inventé le saxophone breveté en 1846 ?", "a": "Adolphe Sax" },
+      { "q": "Quel ingénieur américain a inventé le réfrigérateur à compression de vapeur en 1834 ?", "a": "Jacob Perkins" },
+      { "q": "Quel chimiste français a publié la théorie analytique de la chaleur en 1822 ?", "a": "Joseph Fourier" },
+      { "q": "Quel chimiste américain a inventé la bakélite en 1907, premier plastique synthétique ?", "a": "Leo Baekeland" }
     ],
     "8": [
-      {
-        "q": "Qui a inventé le stéthoscope ?",
-        "a": "René Laennec"
-      },
-      {
-        "q": "Qui a découvert la radioactivité avec Pierre Curie ?",
-        "a": "Marie Curie"
-      },
-      {
-        "q": "Qui a inventé l’électricité statique (premières expériences) ?",
-        "a": "Benjamin Franklin"
-      },
-      {
-        "q": "Qui a inventé la lunette astronomique ?",
-        "a": "Galilée"
-      },
-      {
-        "q": "Qui a inventé le télescope Hubble (concept) ?",
-        "a": "NASA/ESA"
-      }
+      { "q": "Quel astronome polonais a placé le Soleil au centre du système solaire en 1543 ?", "a": "Nicolas Copernic" },
+      { "q": "Quel physicien américain a co-inventé le transistor en 1947 chez Bell Labs ?", "a": "John Bardeen" },
+      { "q": "Quelle ingénieure pionnière a écrit les premiers algorithmes destinés à une machine au XIXe siècle ?", "a": "Ada Lovelace" },
+      { "q": "Quel physicien autrichien a formulé le principe d'exclusion en 1925 ?", "a": "Wolfgang Pauli" },
+      { "q": "Quel inventeur américain a popularisé l'aviation lourde avant les Wright en 1896 ?", "a": "Samuel Pierpont Langley" },
+      { "q": "Quel astronome américain a découvert la planète naine Pluton en 1930 ?", "a": "Clyde Tombaugh" },
+      { "q": "Quel chimiste allemand a synthétisé l'aspirine sous forme stable en 1897 ?", "a": "Felix Hoffmann" },
+      { "q": "Quel physicien français a découvert la polarisation rotatoire en 1811 ?", "a": "François Arago" },
+      { "q": "Quel ingénieur américain a inventé l'ascenseur de sécurité en 1853 ?", "a": "Elisha Otis" },
+      { "q": "Quel ingénieur suisse a inventé le scratch ou velcro en 1941 ?", "a": "George de Mestral" },
+      { "q": "Quelle astronome britannique a découvert les pulsars en 1967 ?", "a": "Jocelyn Bell" },
+      { "q": "Quel chimiste anglais a découvert le benzène en 1825 dans le gaz d'éclairage ?", "a": "Michael Faraday" },
+      { "q": "Quel ingénieur danois a inventé le haut-parleur électrodynamique avec Edwin Pridham en 1915 ?", "a": "Peter Jensen" },
+      { "q": "Quel physicien indien a co-formulé la statistique des bosons avec Einstein en 1924 ?", "a": "Satyendra Nath Bose" },
+      { "q": "Quel ingénieur américain a inventé le jean en denim en 1873 avec Jacob Davis ?", "a": "Levi Strauss" }
     ],
     "9": [
-      {
-        "q": "Qui a inventé le vaccin contre la rage ?",
-        "a": "Louis Pasteur"
-      },
-      {
-        "q": "Qui a inventé la locomotive à vapeur ?",
-        "a": "George Stephenson"
-      },
-      {
-        "q": "Qui a inventé le cinéma sonore ?",
-        "a": "Warner Bros avec The Jazz Singer"
-      },
-      {
-        "q": "Qui a inventé la première imprimante 3D ?",
-        "a": "Chuck Hull"
-      },
-      {
-        "q": "Qui a inventé le premier satellite artificiel (Spoutnik 1) ?",
-        "a": "URSS"
-      }
+      { "q": "Quel ingénieur américain a inventé l'imprimante laser au Xerox PARC en 1969 ?", "a": "Gary Starkweather" },
+      { "q": "Quel ingénieur suisse a inventé le bathyscaphe avec son fils Jacques en 1948 ?", "a": "Auguste Piccard" },
+      { "q": "Quel ingénieur britannique a déposé le brevet du moteur à réaction en 1930 ?", "a": "Frank Whittle" },
+      { "q": "Quel ingénieur russo-américain a inventé l'hélicoptère monorotor pratique en 1939 ?", "a": "Igor Sikorsky" },
+      { "q": "Quel ingénieur français a inventé la viscose en 1884, ancêtre de la rayonne ?", "a": "Hilaire de Chardonnet" },
+      { "q": "Quel astronome italien du XVIIe siècle a découvert quatre satellites de Saturne ?", "a": "Jean-Dominique Cassini" },
+      { "q": "Quel ingénieur américain a inventé la souris d'ordinateur en 1964 ?", "a": "Douglas Engelbart" },
+      { "q": "Quel physicien français a énoncé un principe de moindre action en 1744 ?", "a": "Pierre Louis de Maupertuis" },
+      { "q": "Quel chimiste américain a déterminé l'âge de la Terre par l'uranium-plomb en 1956 ?", "a": "Clair Patterson" },
+      { "q": "Quel ingénieur américain a inventé la photographie instantanée Polaroid en 1948 ?", "a": "Edwin Land" },
+      { "q": "Quel botaniste russe a découvert la chromatographie sur colonne en 1903 ?", "a": "Mikhaïl Tsvet" },
+      { "q": "Quel ingénieur britannique a conçu la machine à différences mécanique au XIXe siècle ?", "a": "Charles Babbage" },
+      { "q": "Quel chimiste suédois a découvert le tungstène en 1781 ainsi que le chlore ?", "a": "Carl Wilhelm Scheele" },
+      { "q": "Quelle scientifique chinoise a co-découvert l'artémisinine contre le paludisme ?", "a": "Tu Youyou" },
+      { "q": "Quel paléontologue britannique a inventé le mot 'dinosaure' en 1842 ?", "a": "Richard Owen" }
     ],
     "10": [
-      {
-        "q": "Qui a inventé l’écriture cunéiforme ?",
-        "a": "Les Sumériens"
-      },
-      {
-        "q": "Qui a inventé le papier ?",
-        "a": "Cai Lun (Chine, IIe siècle)"
-      },
-      {
-        "q": "Qui a inventé l’alphabet moderne ?",
-        "a": "Les Phéniciens"
-      },
-      {
-        "q": "Qui a inventé l’imprimerie à caractères mobiles ?",
-        "a": "Bi Sheng (Chine, XIe siècle)"
-      },
-      {
-        "q": "Qui a inventé le zéro en mathématiques ?",
-        "a": "Les Indiens (civilisation Gupta)"
-      }
+      { "q": "Quel physicien allemand a inventé le compteur Geiger en 1908 ?", "a": "Hans Geiger" },
+      { "q": "Quel ingénieur a démontré le télémanipulateur radiocommandé en 1898 à New York ?", "a": "Nikola Tesla" },
+      { "q": "Quel astronome arabe du Xe siècle a écrit le 'Livre des étoiles fixes' ?", "a": "Al-Sufi" },
+      { "q": "Quel chimiste français a isolé le fluor pour la première fois en 1886 ?", "a": "Henri Moissan" },
+      { "q": "Quel archéologue britannique a découvert le tombeau de Toutânkhamon en 1922 ?", "a": "Howard Carter" },
+      { "q": "Quel ingénieur grec d'Alexandrie a décrit une machine à vapeur primitive au Ier siècle ?", "a": "Héron d'Alexandrie" },
+      { "q": "Quel ingénieur britannique a co-inventé l'horloge atomique au césium en 1955 ?", "a": "Louis Essen" },
+      { "q": "Quel chimiste écossais a découvert l'argon en 1894 avec Lord Rayleigh ?", "a": "William Ramsay" },
+      { "q": "Quel photographe français a inventé la carte de visite photographique en 1854 ?", "a": "André-Adolphe-Eugène Disdéri" },
+      { "q": "Quel scientifique anglais a mesuré la constante gravitationnelle dans son expérience en 1798 ?", "a": "Henry Cavendish" },
+      { "q": "Quel ingénieur allemand a déposé le brevet du moteur Wankel rotatif en 1929 ?", "a": "Felix Wankel" },
+      { "q": "Quel ingénieur français a construit le premier métier à tisser automatisé en 1747 ?", "a": "Jacques de Vaucanson" },
+      { "q": "Quel chimiste allemand a découvert le germanium en 1886 confirmant la prédiction de Mendeleïev ?", "a": "Clemens Winkler" },
+      { "q": "Quel astronome perse du XIIIe siècle a fondé l'observatoire de Maragha ?", "a": "Nasir al-Din al-Tusi" },
+      { "q": "Quel anthropologue américain a découvert le squelette de Lucy en Éthiopie en 1974 ?", "a": "Donald Johanson" }
     ]
   }
 }

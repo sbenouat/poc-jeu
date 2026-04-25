@@ -3,404 +3,174 @@
   "name": "Sport",
   "questions": {
     "1": [
-      {
-        "q": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?",
-        "a": "11"
-      },
-      {
-        "q": "Quel sport pratique Lionel Messi ?",
-        "a": "Football"
-      },
-      {
-        "q": "Quel sport pratique Roger Federer ?",
-        "a": "Tennis"
-      },
-      {
-        "q": "Quel sport pratique Michael Jordan ?",
-        "a": "Basketball"
-      },
-      {
-        "q": "Quel sport pratique Usain Bolt ?",
-        "a": "Athlétisme"
-      },
-      {
-        "q": "Quel sport pratique Tiger Woods ?",
-        "a": "Golf"
-      },
-      {
-        "q": "Quel sport pratique Serena Williams ?",
-        "a": "Tennis"
-      },
-      {
-        "q": "Quel sport pratique Rafael Nadal ?",
-        "a": "Tennis"
-      },
-      {
-        "q": "Quel sport pratique Kylian Mbappé ?",
-        "a": "Football"
-      },
-      {
-        "q": "Combien de minutes dure un match de football ?",
-        "a": "90"
-      }
+      { "q": "Combien de joueurs composent une équipe de football sur le terrain ?", "a": "11" },
+      { "q": "Avec quelle partie du corps est-il interdit de toucher le ballon au foot, sauf pour le gardien ?", "a": "La main" },
+      { "q": "Quel sport se joue avec une raquette et un volant ?", "a": "Le badminton" },
+      { "q": "Combien de joueurs sur le terrain dans une équipe de basket ?", "a": "5" },
+      { "q": "Quel pays a remporté la Coupe du monde de football 2022 au Qatar ?", "a": "L'Argentine" },
+      { "q": "Dans quel sport utilise-t-on un panier en hauteur pour marquer ?", "a": "Le basket" },
+      { "q": "De quelle couleur est le maillot du leader du Tour de France ?", "a": "Jaune" },
+      { "q": "Combien de points vaut un essai au rugby à XV (sans la transformation) ?", "a": "5" },
+      { "q": "Quel sport pratique Roger Federer ?", "a": "Le tennis" },
+      { "q": "Dans quel sport remporte-t-on la Coupe Stanley ?", "a": "Le hockey sur glace" },
+      { "q": "Quel sport se pratique sur un green avec des clubs et une petite balle blanche ?", "a": "Le golf" },
+      { "q": "Quelle est la couleur principale du maillot de l'équipe de France de football à domicile ?", "a": "Bleu" },
+      { "q": "Combien de joueurs sur le terrain dans une équipe de rugby à XV ?", "a": "15" },
+      { "q": "Quel sport pratique Teddy Riner ?", "a": "Le judo" },
+      { "q": "Dans quel sport marque-t-on un home run ?", "a": "Le baseball" }
     ],
     "2": [
-      {
-        "q": "Quel sport pratique Lewis Hamilton ?",
-        "a": "Formule 1"
-      },
-      {
-        "q": "Quel sport pratique Tony Parker ?",
-        "a": "Basketball"
-      },
-      {
-        "q": "Combien de points vaut un essai au rugby ?",
-        "a": "5"
-      },
-      {
-        "q": "Quel sport se joue avec une planche et des vagues ?",
-        "a": "Surf"
-      },
-      {
-        "q": "Quel sport utilise un tatami ?",
-        "a": "Judo"
-      },
-      {
-        "q": "Quel sport pratique Novak Djokovic ?",
-        "a": "Tennis"
-      },
-      {
-        "q": "Quel sport pratique Michael Phelps ?",
-        "a": "Natation"
-      },
-      {
-        "q": "Quel sport pratique Stephen Curry ?",
-        "a": "Basketball"
-      },
-      {
-        "q": "Quel sport pratique Teddy Riner ?",
-        "a": "Judo"
-      },
-      {
-        "q": "Quel sport pratique Zinedine Zidane ?",
-        "a": "Football"
-      }
+      { "q": "Quel pays a accueilli les Jeux olympiques d'été 2024 ?", "a": "La France" },
+      { "q": "Quel club a remporté la Ligue des champions en 2024 ?", "a": "Le Real Madrid" },
+      { "q": "Quel sport pratique Tony Parker ?", "a": "Le basket" },
+      { "q": "Combien de sets faut-il gagner pour remporter un match du Grand Chelem chez les hommes ?", "a": "3" },
+      { "q": "Quelle est la nationalité de Lionel Messi ?", "a": "Argentine" },
+      { "q": "Quel sport pratique Kylian Mbappé ?", "a": "Le football" },
+      { "q": "Dans quelle ville se déroule chaque année le tournoi de Roland-Garros ?", "a": "Paris" },
+      { "q": "Combien de minutes dure un match de football réglementaire ?", "a": "90" },
+      { "q": "Quel pays a remporté la Coupe du monde de football 1998 ?", "a": "La France" },
+      { "q": "Dans quelle ville se joue chaque année le tournoi de Wimbledon ?", "a": "Londres" },
+      { "q": "Dans quel sport Usain Bolt est-il une légende ?", "a": "L'athlétisme" },
+      { "q": "Quel pilote néerlandais a dominé la F1 ces dernières saisons et gagné en 2024 ?", "a": "Max Verstappen" },
+      { "q": "Quel sport pratique Tiger Woods ?", "a": "Le golf" },
+      { "q": "Quel club français a remporté le plus de titres de Ligue 1 ces dernières années ?", "a": "Le Paris Saint-Germain" },
+      { "q": "Quel sport pratique Michael Phelps ?", "a": "La natation" }
     ],
     "3": [
-      {
-        "q": "Combien de joueurs dans une équipe de volley-ball ?",
-        "a": "6"
-      },
-      {
-        "q": "Combien de joueurs dans une équipe de handball ?",
-        "a": "7"
-      },
-      {
-        "q": "Combien de joueurs dans une équipe de basket sur le terrain ?",
-        "a": "5"
-      },
-      {
-        "q": "Combien de joueurs dans une équipe de rugby à XV ?",
-        "a": "15"
-      },
-      {
-        "q": "Quel sport pratique Diego Maradona ?",
-        "a": "Football"
-      },
-      {
-        "q": "Quel sport pratique Pelé ?",
-        "a": "Football"
-      },
-      {
-        "q": "Quel sport pratique Mike Tyson ?",
-        "a": "Boxe"
-      },
-      {
-        "q": "Quel boxeur est surnommé « The Greatest » ?",
-        "a": "Muhammad Ali"
-      },
-      {
-        "q": "Quel joueur NBA est surnommé « King James » ?",
-        "a": "LeBron James"
-      },
-      {
-        "q": "Quel pays a remporté la Coupe du Monde 2018 ?",
-        "a": "France"
-      }
+      { "q": "Quel pays a remporté l'Euro de football 2024 organisé en Allemagne ?", "a": "L'Espagne" },
+      { "q": "Quel boxeur américain est surnommé 'The Greatest' ?", "a": "Mohamed Ali" },
+      { "q": "Combien de Ballons d'or Cristiano Ronaldo a-t-il remportés ?", "a": "5" },
+      { "q": "Dans quelle ville se trouve le mythique stade de Wembley ?", "a": "Londres" },
+      { "q": "Quel cycliste britannique a remporté le Tour de France en 2012 ?", "a": "Bradley Wiggins" },
+      { "q": "Quel sport pratique Antoine Dupont ?", "a": "Le rugby" },
+      { "q": "Quelle est la distance officielle d'un marathon en kilomètres ?", "a": "42,195 km" },
+      { "q": "Quel club anglais est surnommé 'The Red Devils' ?", "a": "Manchester United" },
+      { "q": "Quel pays a remporté la Coupe du monde de rugby 2023 disputée en France ?", "a": "L'Afrique du Sud" },
+      { "q": "Quel sport pratique Serena Williams ?", "a": "Le tennis" },
+      { "q": "Combien de joueurs sur le terrain dans une équipe de handball ?", "a": "7" },
+      { "q": "Quelle compétition oppose tous les deux ans l'Europe aux États-Unis en golf ?", "a": "La Ryder Cup" },
+      { "q": "Quel club français de football est surnommé 'Les Verts' ?", "a": "Saint-Étienne" },
+      { "q": "Quelle équipe a remporté le Super Bowl LVIII en 2024 ?", "a": "Les Kansas City Chiefs" },
+      { "q": "Quel cycliste slovène a remporté le Tour de France 2020 et 2021 ?", "a": "Tadej Pogačar" }
     ],
     "4": [
-      {
-        "q": "Quel pays a remporté la Coupe du Monde 2014 ?",
-        "a": "Allemagne"
-      },
-      {
-        "q": "Quel pays a remporté la Coupe du Monde 2010 ?",
-        "a": "Espagne"
-      },
-      {
-        "q": "Qui a remporté l'Euro 2016 ?",
-        "a": "Portugal"
-      },
-      {
-        "q": "Combien de fois le Brésil a-t-il gagné la Coupe du Monde ?",
-        "a": "5"
-      },
-      {
-        "q": "Qui a remporté la Coupe du Monde 1998 ?",
-        "a": "France"
-      },
-      {
-        "q": "Qui a gagné les JO de Londres 2012 au 100m ?",
-        "a": "Usain Bolt"
-      },
-      {
-        "q": "Quel coureur a gagné le 100m en 9,58 secondes (record du monde) ?",
-        "a": "Usain Bolt"
-      },
-      {
-        "q": "Quel joueur a marqué la « Main de Dieu » ?",
-        "a": "Diego Maradona"
-      },
-      {
-        "q": "Quel boxeur est surnommé « Iron Mike » ?",
-        "a": "Mike Tyson"
-      },
-      {
-        "q": "Qui est le meilleur buteur de l'histoire de la Ligue des Champions ?",
-        "a": "Cristiano Ronaldo"
-      }
+      { "q": "Quel pays a accueilli les JO d'hiver 2022 à Pékin ?", "a": "La Chine" },
+      { "q": "Combien de fois Zinédine Zidane a-t-il remporté la Ligue des champions comme entraîneur ?", "a": "3" },
+      { "q": "Quel sport pratique Earvin Ngapeth ?", "a": "Le volley-ball" },
+      { "q": "Quel club espagnol a remporté la Liga 2023-2024 ?", "a": "Le Real Madrid" },
+      { "q": "Quel pays a remporté l'Euro 2016 organisé en France ?", "a": "Le Portugal" },
+      { "q": "Quel cycliste britannique a remporté quatre Tours de France entre 2013 et 2017 ?", "a": "Chris Froome" },
+      { "q": "Combien de quart-temps comporte un match de basket NBA ?", "a": "4" },
+      { "q": "Quel pays a remporté la Coupe du monde féminine de football 2023 ?", "a": "L'Espagne" },
+      { "q": "Quel sport oppose deux équipes de six joueurs séparées par un filet ?", "a": "Le volley-ball" },
+      { "q": "Quel athlète jamaïcain détient le record du monde du 100 m ?", "a": "Usain Bolt" },
+      { "q": "Quel pilote français a remporté quatre titres mondiaux de F1 dans les années 1980 ?", "a": "Alain Prost" },
+      { "q": "Quelle équipe de la NBA est basée à Boston ?", "a": "Les Celtics" },
+      { "q": "Quel boxeur philippin est devenu champion du monde dans huit catégories ?", "a": "Manny Pacquiao" },
+      { "q": "Quel club anglais a remporté la Premier League sans défaite en 2003-2004 ?", "a": "Arsenal" },
+      { "q": "Dans quel sport décerne-t-on le Heisman Trophy ?", "a": "Le football américain" }
     ],
     "5": [
-      {
-        "q": "Combien de médailles d'or a gagné Michael Phelps ?",
-        "a": "23"
-      },
-      {
-        "q": "Combien de fois Rafael Nadal a-t-il gagné Roland-Garros ?",
-        "a": "14"
-      },
-      {
-        "q": "Combien de fois la France a-t-elle gagné la Coupe du Monde de football ?",
-        "a": "2"
-      },
-      {
-        "q": "Combien de fois l'Allemagne a-t-elle gagné la Coupe du Monde ?",
-        "a": "4"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 2021 ?",
-        "a": "Lionel Messi"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1998 ?",
-        "a": "Zinedine Zidane"
-      },
-      {
-        "q": "Quelle équipe NBA a gagné le plus de titres ?",
-        "a": "Boston Celtics et Los Angeles Lakers"
-      },
-      {
-        "q": "Qui est le meilleur buteur de l'histoire de l'équipe de France ?",
-        "a": "Olivier Giroud"
-      },
-      {
-        "q": "Quel nageur détient le record de médailles olympiques ?",
-        "a": "Michael Phelps"
-      },
-      {
-        "q": "Quel joueur français a marqué une panenka en finale de Coupe du Monde ?",
-        "a": "Zinedine Zidane"
-      }
+      { "q": "Quel est le record du monde du 100 m masculin établi par Usain Bolt en 2009 ?", "a": "9 s 58" },
+      { "q": "Quel pilote britannique a remporté sept titres mondiaux de F1, à égalité avec Schumacher ?", "a": "Lewis Hamilton" },
+      { "q": "Quel basketteur français a été champion NBA quatre fois avec les Spurs ?", "a": "Tony Parker" },
+      { "q": "Quel coureur kenyan a battu le record du monde du marathon en 2022 à Berlin ?", "a": "Eliud Kipchoge" },
+      { "q": "Quel boxeur américain est resté invaincu en 50 combats professionnels ?", "a": "Floyd Mayweather" },
+      { "q": "Combien de Roland-Garros Rafael Nadal a-t-il remportés au total ?", "a": "14" },
+      { "q": "Quel club allemand a remporté la Ligue des champions en 2013 et 2020 ?", "a": "Le Bayern Munich" },
+      { "q": "Quel athlète a remporté quatre médailles d'or aux JO de Berlin en 1936 ?", "a": "Jesse Owens" },
+      { "q": "Quel rugbyman néo-zélandais est considéré comme l'un des plus grands ouvreurs de l'histoire ?", "a": "Dan Carter" },
+      { "q": "Quel skieur norvégien est multiple champion olympique en ski de fond depuis 2018 ?", "a": "Johannes Klæbo" },
+      { "q": "Quelle ville de la côte est américaine accueille chaque année le plus ancien marathon majeur ?", "a": "Boston" },
+      { "q": "Quel champion français a remporté le championnat du monde de moto MotoGP en 2000 ?", "a": "Olivier Jacque" },
+      { "q": "Quelle joueuse américaine a remporté 23 titres du Grand Chelem en simple ?", "a": "Serena Williams" },
+      { "q": "Quel sport oppose les All Blacks aux Springboks ?", "a": "Le rugby" },
+      { "q": "Quel pilote allemand a couru chez Ferrari et Mercedes et compte plusieurs victoires en F1 ?", "a": "Nico Rosberg" }
     ],
     "6": [
-      {
-        "q": "Quel pays a remporté la Coupe du Monde 2006 ?",
-        "a": "Italie"
-      },
-      {
-        "q": "Quel pays a remporté la Coupe du Monde 2002 ?",
-        "a": "Brésil"
-      },
-      {
-        "q": "Qui a remporté Roland-Garros en 2020 ?",
-        "a": "Rafael Nadal"
-      },
-      {
-        "q": "Qui a remporté l'Euro 2000 ?",
-        "a": "France"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 2008 ?",
-        "a": "Cristiano Ronaldo"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1986 ?",
-        "a": "Diego Maradona"
-      },
-      {
-        "q": "Qui est le meilleur buteur de l'histoire de la Coupe du Monde ?",
-        "a": "Miroslav Klose"
-      },
-      {
-        "q": "Qui a gagné Roland-Garros 1983 pour la France ?",
-        "a": "Yannick Noah"
-      },
-      {
-        "q": "Quel club a remporté la Ligue des Champions 2020 ?",
-        "a": "Bayern Munich"
-      },
-      {
-        "q": "Quel club a remporté la Ligue des Champions 2019 ?",
-        "a": "Liverpool"
-      }
+      { "q": "Quel cycliste a remporté cinq Tours de France consécutifs entre 1991 et 1995 ?", "a": "Miguel Indurain" },
+      { "q": "Quel basketteur a marqué 100 points en un seul match NBA en 1962 ?", "a": "Wilt Chamberlain" },
+      { "q": "Quel pilote brésilien est mort à Imola en 1994 ?", "a": "Ayrton Senna" },
+      { "q": "Quel club a remporté la première Coupe d'Europe des clubs champions en 1956 ?", "a": "Le Real Madrid" },
+      { "q": "Quel athlète éthiopien a couru le marathon des JO 1960 pieds nus ?", "a": "Abebe Bikila" },
+      { "q": "Quel rugbyman français a marqué le drop de la victoire contre la Nouvelle-Zélande en demi-finale du Mondial 1999 ?", "a": "Christophe Lamaison" },
+      { "q": "Quel skieur français a remporté trois titres olympiques aux JO de Grenoble en 1968 ?", "a": "Jean-Claude Killy" },
+      { "q": "Quel champion français a remporté Roland-Garros en 1983 ?", "a": "Yannick Noah" },
+      { "q": "Quel pays organise les JO d'hiver 2026 à Milan-Cortina ?", "a": "L'Italie" },
+      { "q": "Quel sprinteur français a remporté l'or mondial du 110 m haies en 2005 ?", "a": "Ladji Doucouré" },
+      { "q": "Combien de fois Michael Schumacher a-t-il été champion du monde de F1 ?", "a": "7" },
+      { "q": "Quel record du monde du saut à la perche masculin Armand Duplantis a-t-il porté à 6,26 m ?", "a": "6,26 m" },
+      { "q": "Quel boxeur a battu Sonny Liston en 1964 pour devenir champion du monde des poids lourds ?", "a": "Mohamed Ali" },
+      { "q": "Quel pilote allemand a remporté son premier titre mondial F1 en 1994 ?", "a": "Michael Schumacher" },
+      { "q": "Quel cycliste italien a remporté le Tour de France en 1998 avant d'être déchu pour dopage ?", "a": "Marco Pantani" }
     ],
     "7": [
-      {
-        "q": "Quel club a remporté la Ligue des Champions 2018 ?",
-        "a": "Real Madrid"
-      },
-      {
-        "q": "Qui a remporté la Coupe du Monde 1994 ?",
-        "a": "Brésil"
-      },
-      {
-        "q": "Qui a remporté la Coupe du Monde 1982 ?",
-        "a": "Italie"
-      },
-      {
-        "q": "Qui a remporté la Coupe du Monde 1966 ?",
-        "a": "Angleterre"
-      },
-      {
-        "q": "Quel sportif a remporté 7 Tours de France mais a été déchu pour dopage ?",
-        "a": "Lance Armstrong"
-      },
-      {
-        "q": "Quel cycliste a gagné 5 Tours de France dans les années 60-70 ?",
-        "a": "Eddy Merckx"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 2005 ?",
-        "a": "Ronaldinho"
-      },
-      {
-        "q": "Quel sport pratique Simone Biles ?",
-        "a": "Gymnastique"
-      },
-      {
-        "q": "Quel sport pratique Kobe Bryant ?",
-        "a": "Basketball"
-      },
-      {
-        "q": "Combien de joueurs dans une équipe de baseball ?",
-        "a": "9"
-      }
+      { "q": "Quel coureur belge a remporté cinq Tours de France entre 1969 et 1974 ?", "a": "Eddy Merckx" },
+      { "q": "Quel basketteur a remporté six titres NBA avec les Chicago Bulls ?", "a": "Michael Jordan" },
+      { "q": "Quel boxeur a battu Mohamed Ali en 1971 lors du 'Combat du siècle' à New York ?", "a": "Joe Frazier" },
+      { "q": "Quel rugbyman gallois est l'auteur du célèbre essai des Barbarians contre les All Blacks en 1973 ?", "a": "Gareth Edwards" },
+      { "q": "Quel cycliste français a remporté le Tour de France en 1983 et 1984 ?", "a": "Laurent Fignon" },
+      { "q": "Quel circuit britannique accueille le Grand Prix de F1 depuis 1950 ?", "a": "Silverstone" },
+      { "q": "Quel athlète américain a sauté 8,90 m en longueur aux JO de Mexico en 1968 ?", "a": "Bob Beamon" },
+      { "q": "Quel footballeur a marqué le but vainqueur de la finale de Coupe du monde 2014 pour l'Allemagne ?", "a": "Mario Götze" },
+      { "q": "Quel basketteur a été élu MVP de la NBA six fois et a fait toute sa carrière chez les Lakers ?", "a": "Kareem Abdul-Jabbar" },
+      { "q": "Quel champion suédois a remporté cinq Wimbledon consécutifs de 1976 à 1980 ?", "a": "Björn Borg" },
+      { "q": "Quel coureur français a perdu le Tour de France 1989 pour 8 secondes face à LeMond ?", "a": "Laurent Fignon" },
+      { "q": "Quel boxeur cubain a remporté trois titres olympiques des poids lourds entre 1972 et 1980 ?", "a": "Teófilo Stevenson" },
+      { "q": "Quel rugbyman anglais a inscrit le drop de la victoire en finale de Coupe du monde 2003 ?", "a": "Jonny Wilkinson" },
+      { "q": "Quel pilote autrichien a survécu à un terrible accident au Nürburgring en 1976 ?", "a": "Niki Lauda" },
+      { "q": "Quel cycliste américain a été déchu de ses sept victoires consécutives sur le Tour de France ?", "a": "Lance Armstrong" }
     ],
     "8": [
-      {
-        "q": "Quel cycliste français a remporté le Tour de France 1985 ?",
-        "a": "Bernard Hinault"
-      },
-      {
-        "q": "Quel cycliste espagnol a remporté plusieurs fois le Tour de France ?",
-        "a": "Miguel Indurain"
-      },
-      {
-        "q": "Qui a remporté l'Euro 1992 ?",
-        "a": "Danemark"
-      },
-      {
-        "q": "Qui a remporté la Coupe du Monde 1978 ?",
-        "a": "Argentine"
-      },
-      {
-        "q": "Qui a gagné le Tour de France 2019 ?",
-        "a": "Egan Bernal"
-      },
-      {
-        "q": "Quel sport pratique Nadia Comaneci ?",
-        "a": "Gymnastique"
-      },
-      {
-        "q": "Quel sport pratique Carl Lewis ?",
-        "a": "Athlétisme"
-      },
-      {
-        "q": "Quel sport pratique Alain Prost ?",
-        "a": "Formule 1"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1995 ?",
-        "a": "George Weah"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1991 ?",
-        "a": "Jean-Pierre Papin"
-      }
+      { "q": "Combien de Tours de France a remportés Bernard Hinault ?", "a": "5" },
+      { "q": "Quel pilote sud-africain a remporté le titre mondial de F1 en 1979 ?", "a": "Jody Scheckter" },
+      { "q": "Quel rugbyman néo-zélandais a inscrit l'essai vainqueur en finale de la Coupe du monde 1987 ?", "a": "David Kirk" },
+      { "q": "Quel coureur italien a remporté le Tour et le Giro la même année à deux reprises dans les années 1940-50 ?", "a": "Fausto Coppi" },
+      { "q": "Quel athlète tchèque détient le record du monde du décathlon de 2001 à 2012 ?", "a": "Roman Šebrle" },
+      { "q": "Quelle équipe NBA a établi le record de 73 victoires en saison régulière en 2015-2016 ?", "a": "Les Golden State Warriors" },
+      { "q": "Quel footballeur argentin a inscrit 'la main de Dieu' contre l'Angleterre en 1986 ?", "a": "Diego Maradona" },
+      { "q": "Quel coureur de fond marocain a remporté l'or olympique du 5000 m en 1984 ?", "a": "Saïd Aouita" },
+      { "q": "Quel club uruguayen a remporté la première Coupe Libertadores en 1960 ?", "a": "Peñarol" },
+      { "q": "Quel boxeur a perdu son titre mondial en 1990 face à Buster Douglas à Tokyo ?", "a": "Mike Tyson" },
+      { "q": "Quel champion français a remporté l'Open d'Australie de tennis en 1983 ?", "a": "Yannick Noah" },
+      { "q": "Quel skieur autrichien est l'un des plus titrés en descente avec le surnom 'Herminator' ?", "a": "Hermann Maier" },
+      { "q": "Quel cycliste français a remporté le Tour de France en 1956 ?", "a": "Roger Walkowiak" },
+      { "q": "Quelle nageuse hongroise a remporté trois titres olympiques du 400 m 4 nages en 1992, 1996 et 2000 ?", "a": "Krisztina Egerszegi" },
+      { "q": "Quel rugbyman français est le meilleur réalisateur de l'histoire du XV de France ?", "a": "Frédéric Michalak" }
     ],
     "9": [
-      {
-        "q": "Qui a remporté le Ballon d'Or 1983 ?",
-        "a": "Michel Platini"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1982 ?",
-        "a": "Paolo Rossi"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1974 ?",
-        "a": "Johan Cruyff"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or 1970 ?",
-        "a": "Pelé"
-      },
-      {
-        "q": "Quel sport pratique Alain Bernard ?",
-        "a": "Natation"
-      },
-      {
-        "q": "Quel sport pratique Clarisse Agbégnénou ?",
-        "a": "Judo"
-      },
-      {
-        "q": "Quel sport pratique Laure Manaudou ?",
-        "a": "Natation"
-      },
-      {
-        "q": "Quel sport se joue avec une batte et une balle en Angleterre ?",
-        "a": "Cricket"
-      },
-      {
-        "q": "Qui a remporté Wimbledon en 2019 ?",
-        "a": "Novak Djokovic"
-      },
-      {
-        "q": "Quel sport pratique Diego Forlán ?",
-        "a": "Football"
-      }
+      { "q": "Qui a remporté le Ballon d'or 1958 après le Mondial en Suède ?", "a": "Raymond Kopa" },
+      { "q": "Quel coureur français a remporté le Tour de France en 1947 après-guerre ?", "a": "Jean Robic" },
+      { "q": "Quel boxeur allemand a battu Joe Louis en 1936 avant de perdre la revanche en 1938 ?", "a": "Max Schmeling" },
+      { "q": "Quel pilote argentin a été cinq fois champion du monde de F1 dans les années 1950 ?", "a": "Juan Manuel Fangio" },
+      { "q": "Quel coureur de fond finlandais a dominé le demi-fond mondial dans les années 1920 ?", "a": "Paavo Nurmi" },
+      { "q": "Quel basketteur a marqué 81 points en un match NBA en 2006 face à Toronto ?", "a": "Kobe Bryant" },
+      { "q": "Quel cycliste belge a remporté Paris-Roubaix quatre fois entre 1972 et 1977 ?", "a": "Roger De Vlaeminck" },
+      { "q": "Quel champion espagnol a remporté le Tour de France en 1959 ?", "a": "Federico Bahamontes" },
+      { "q": "Quel rugbyman sud-africain a soulevé la Coupe du monde 1995 sous les yeux de Mandela ?", "a": "Francois Pienaar" },
+      { "q": "Quelle joueuse de tennis allemande a remporté 22 titres du Grand Chelem ?", "a": "Steffi Graf" },
+      { "q": "Quel athlète cubain détient depuis 1993 le record du monde du saut en hauteur avec 2,45 m ?", "a": "Javier Sotomayor" },
+      { "q": "Quel coureur britannique a remporté le Tour de France en 2018, son seul succès dans l'épreuve ?", "a": "Geraint Thomas" },
+      { "q": "Quel boxeur américain a perdu face à Mohamed Ali à Kinshasa en 1974 ?", "a": "George Foreman" },
+      { "q": "Quel rugbyman français a inscrit le célèbre 'essai du bout du monde' en 1994 contre les All Blacks ?", "a": "Jean-Luc Sadourny" },
+      { "q": "Quelle nageuse est-allemande a battu de nombreux records en 1988 à Séoul, dont le 50 m nage libre ?", "a": "Kristin Otto" }
     ],
     "10": [
-      {
-        "q": "Qui a remporté le premier Ballon d'Or en 1956 ?",
-        "a": "Stanley Matthews"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or en 1969 ?",
-        "a": "Gianni Rivera"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or en 1961 ?",
-        "a": "Omar Sívori"
-      },
-      {
-        "q": "Qui a remporté le Ballon d'Or en 1958 ?",
-        "a": "Raymond Kopa"
-      },
-      {
-        "q": "Quel sport pratique Yohan Blake ?",
-        "a": "Athlétisme"
-      }
+      { "q": "Qui a remporté le tout premier Ballon d'or en 1956 ?", "a": "Stanley Matthews" },
+      { "q": "Quel cycliste a remporté le tout premier Tour de France en 1903 ?", "a": "Maurice Garin" },
+      { "q": "Quel athlète soviétique a porté le record du monde du saut à la perche jusqu'à 6,14 m en 1994 ?", "a": "Sergueï Bubka" },
+      { "q": "Quel pilote danois a remporté neuf fois les 24 Heures du Mans, record absolu ?", "a": "Tom Kristensen" },
+      { "q": "Quel rugbyman néo-zélandais flanker a marqué le premier essai de la finale du Mondial 1987 ?", "a": "Michael Jones" },
+      { "q": "Quelle championne tchécoslovaque puis américaine a remporté Wimbledon neuf fois en simple ?", "a": "Martina Navrátilová" },
+      { "q": "Quel coureur éthiopien a remporté l'or olympique du marathon en 1960 et 1964 ?", "a": "Abebe Bikila" },
+      { "q": "Quel cycliste a remporté Liège-Bastogne-Liège cinq fois, record absolu de la doyenne ?", "a": "Eddy Merckx" },
+      { "q": "Quel athlète tchèque détient depuis 1996 le record du monde du lancer du javelot ?", "a": "Jan Železný" },
+      { "q": "Quel pilote français a remporté le championnat du monde des rallyes en 1981 ?", "a": "Ari Vatanen" },
+      { "q": "Quel athlète britannique a été champion olympique du décathlon en 1980 et 1984 ?", "a": "Daley Thompson" },
+      { "q": "Quel hockeyeur canadien est surnommé 'The Great One' et détient de nombreux records NHL ?", "a": "Wayne Gretzky" },
+      { "q": "Quel boxeur poids plume mexicain est considéré comme l'un des plus grands et a affronté Manny Pacquiao trois fois ?", "a": "Marco Antonio Barrera" },
+      { "q": "Quelle skieuse italienne a remporté le titre olympique du slalom en 1972 à Sapporo ?", "a": "Barbara Cochran" },
+      { "q": "Quel coureur australien a remporté le Tour de France en 2011, premier vainqueur de son pays ?", "a": "Cadel Evans" }
     ]
   }
 }
