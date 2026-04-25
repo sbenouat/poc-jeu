@@ -3,224 +3,174 @@
   "name": "Boissons du monde",
   "questions": {
     "1": [
-      {
-        "q": "Quelle boisson chaude se prépare en infusant des feuilles de théier ?",
-        "a": "Le thé"
-      },
-      {
-        "q": "Quelle boisson est faite à base de grains torréfiés et moulus ?",
-        "a": "Le café"
-      },
-      {
-        "q": "Quel jus d’agrume est souvent bu au petit-déjeuner ?",
-        "a": "Le jus d’orange"
-      },
-      {
-        "q": "Quel soda brun célèbre a été inventé en 1886 à Atlanta ?",
-        "a": "Coca-Cola"
-      },
-      {
-        "q": "Quel alcool est associé à la bière blonde allemande servie à l’Oktoberfest ?",
-        "a": "La bière"
-      }
+      { "q": "Quelle boisson chaude se prépare en infusant des feuilles dans de l'eau bouillante ?", "a": "Le thé" },
+      { "q": "Quelle boisson chaude noire est obtenue à partir de grains torréfiés et moulus ?", "a": "Le café" },
+      { "q": "Quelle boisson alcoolisée fermentée à base de raisin est rouge, blanche ou rosée ?", "a": "Le vin" },
+      { "q": "Quelle boisson alcoolisée mousseuse à base de houblon et de malt est servie en pinte ?", "a": "La bière" },
+      { "q": "Quelle boisson liquide indispensable à la vie est composée d'hydrogène et d'oxygène ?", "a": "L'eau" },
+      { "q": "Quel jus d'agrume orange est traditionnellement bu au petit-déjeuner ?", "a": "Le jus d'orange" },
+      { "q": "Quelle boisson lactée blanche est principalement produite par les vaches ?", "a": "Le lait" },
+      { "q": "Quel soda brun à base de cola est commercialisé par une marque rouge mondialement connue ?", "a": "Le Coca-Cola" },
+      { "q": "Quelle boisson chaude sucrée est préparée à partir de cacao et de lait ?", "a": "Le chocolat chaud" },
+      { "q": "Quel jus rouge est extrait du fruit également utilisé pour faire du vin ?", "a": "Le jus de raisin" },
+      { "q": "Quelle boisson pétillante sans alcool contient typiquement du sucre et des bulles ?", "a": "Le soda" },
+      { "q": "Quel jus jaune est obtenu en pressant un agrume très acide ?", "a": "Le jus de citron" },
+      { "q": "Quelle boisson chaude se prépare avec un sachet contenant des feuilles séchées ?", "a": "Le thé en sachet" },
+      { "q": "Quel jus orangé est extrait d'une drupe à noyau au goût sucré et velouté ?", "a": "Le jus de pêche" },
+      { "q": "Quelle boisson sucrée vient en bouteille et a un goût de citron pétillant ?", "a": "La limonade" }
     ],
     "2": [
-      {
-        "q": "Quel vin effervescent vient exclusivement de la région de Champagne en France ?",
-        "a": "Le champagne"
-      },
-      {
-        "q": "Quelle boisson japonaise est faite à partir de riz fermenté ?",
-        "a": "Le saké"
-      },
-      {
-        "q": "Quel cocktail à base de rhum, menthe, sucre, citron vert et eau gazeuse vient de Cuba ?",
-        "a": "Le mojito"
-      },
-      {
-        "q": "Quelle boisson chaude mexicaine se prépare avec du cacao et de la cannelle ?",
-        "a": "Le chocolat chaud mexicain"
-      },
-      {
-        "q": "Quelle boisson gazeuse française, aromatisée au citron, s’appelle aussi 'limonade' ?",
-        "a": "La limonade"
-      }
+      { "q": "Quel café italien court est servi dans une petite tasse en porcelaine ?", "a": "L'espresso" },
+      { "q": "Quel cocktail tropical mélange rhum, lait de coco et jus d'ananas ?", "a": "La piña colada" },
+      { "q": "Quelle boisson anglaise se boit traditionnellement à 17 heures avec du lait ?", "a": "Le thé noir" },
+      { "q": "Quelle marque française de soda à l'orange et au citron a un nom commençant par O ?", "a": "Orangina" },
+      { "q": "Quel alcool blanc anisé devient trouble lorsqu'on y ajoute de l'eau ?", "a": "Le pastis" },
+      { "q": "Quelle eau gazeuse française provient des Vosges et a un nom de six lettres ?", "a": "Vittel" },
+      { "q": "Quelle boisson asiatique fermentée à base de riz est servie chaude ou froide au Japon ?", "a": "Le saké" },
+      { "q": "Quel sirop rouge sucré est traditionnellement utilisé dans la diabolo grenadine ?", "a": "La grenadine" },
+      { "q": "Quel cocktail cubain mélange rhum, menthe, citron vert, sucre et eau gazeuse ?", "a": "Le mojito" },
+      { "q": "Quelle boisson énergisante autrichienne contient de la taurine et a deux taureaux pour logo ?", "a": "Red Bull" },
+      { "q": "Quel café italien est composé d'un espresso et de mousse de lait ?", "a": "Le cappuccino" },
+      { "q": "Quel alcool fort transparent slave est la base de la vodka martini ?", "a": "La vodka" },
+      { "q": "Quelle marque verte de soda au citron-lime est concurrente directe de Sprite ?", "a": "7 Up" },
+      { "q": "Quelle boisson lactée fermentée bulgare se boit nature ou sucrée ?", "a": "Le yaourt à boire" },
+      { "q": "Quel soda américain au goût de cerise et 23 arômes est commercialisé par sa propre marque ?", "a": "Dr Pepper" }
     ],
     "3": [
-      {
-        "q": "Quel alcool anisé est très populaire en Grèce et à Chypre ?",
-        "a": "L’ouzo"
-      },
-      {
-        "q": "Quel thé parfumé à la bergamote porte le nom d’un comte anglais ?",
-        "a": "Le thé Earl Grey"
-      },
-      {
-        "q": "Quel alcool est utilisé pour préparer une caïpirinha brésilienne ?",
-        "a": "La cachaça"
-      },
-      {
-        "q": "Quelle boisson indienne est un mélange de thé noir, lait et épices ?",
-        "a": "Le chai masala"
-      },
-      {
-        "q": "Quel café italien est servi dans une petite tasse concentrée ?",
-        "a": "L’espresso"
-      }
+      { "q": "Quel vin effervescent français protégé par une AOC est associé aux célébrations ?", "a": "Le champagne" },
+      { "q": "Quel whisky écossais doit vieillir au minimum trois ans en fût de chêne ?", "a": "Le scotch" },
+      { "q": "Quel cocktail brésilien mélange cachaça, citron vert et sucre de canne ?", "a": "La caïpirinha" },
+      { "q": "Quel apéritif italien orange amer est la base du spritz vénitien ?", "a": "L'Aperol" },
+      { "q": "Quelle bière belge brassée par les moines depuis le Moyen Âge porte le label monastique ?", "a": "La trappiste" },
+      { "q": "Quel alcool mexicain est distillé à partir de l'agave bleue ?", "a": "La tequila" },
+      { "q": "Quelle boisson chaude japonaise verte est obtenue en fouettant une poudre fine ?", "a": "Le matcha" },
+      { "q": "Quel cocktail au champagne et jus de pêche a été inventé à Venise au Harry's Bar ?", "a": "Le Bellini" },
+      { "q": "Quel digestif français à base d'herbes a été créé par les moines chartreux ?", "a": "La Chartreuse" },
+      { "q": "Quel café italien servi avec une larme de mousse de lait porte le nom d'une tache ?", "a": "Le macchiato" },
+      { "q": "Quelle boisson sud-américaine se boit avec une bombilla à partir de feuilles séchées ?", "a": "Le maté" },
+      { "q": "Quel alcool grec anisé devient blanc opaque dès qu'on lui ajoute de l'eau ?", "a": "L'ouzo" },
+      { "q": "Quelle marque française d'eau plate vient des Alpes et appartient à Danone ?", "a": "Évian" },
+      { "q": "Quel cocktail cubain mélange rhum blanc, jus de citron vert et sucre dans un verre à martini ?", "a": "Le daïquiri" },
+      { "q": "Quel vin doux portugais muté est produit dans la vallée du Douro ?", "a": "Le porto" }
     ],
     "4": [
-      {
-        "q": "Quel vin fortifié portugais est produit dans la vallée du Douro ?",
-        "a": "Le porto"
-      },
-      {
-        "q": "Quel cocktail américain est composé de bourbon, sucre, eau et feuilles de menthe ?",
-        "a": "Le mint julep"
-      },
-      {
-        "q": "Quelle boisson fermentée mongole est faite à partir de lait de jument ?",
-        "a": "Le koumis"
-      },
-      {
-        "q": "Quel thé traditionnel chinois est vieilli et compressé en galettes ?",
-        "a": "Le thé Pu-erh"
-      },
-      {
-        "q": "Quelle boisson à base de pommes fermentées est appelée cidre ?",
-        "a": "Le cidre"
-      }
+      { "q": "De quel pays est originaire la tequila, distillée à partir d'agave bleue ?", "a": "Le Mexique" },
+      { "q": "Quel vin rouge français AOC est produit autour de la ville éponyme du Sud-Ouest ?", "a": "Le bordeaux" },
+      { "q": "Quel cocktail à base de gin et tonic est emblématique de l'apéritif britannique ?", "a": "Le gin tonic" },
+      { "q": "Quelle bière brune irlandaise célèbre porte le nom de son fondateur Arthur ?", "a": "La Guinness" },
+      { "q": "Quel cocktail rouge à base de vodka et jus de tomate est consommé au brunch ?", "a": "Le Bloody Mary" },
+      { "q": "Quel apéritif italien à base de vin blanc et fines herbes est servi avec une olive ?", "a": "Le Martini" },
+      { "q": "Quelle eau-de-vie de poire produite en Suisse et en France porte le nom du fruit Williams ?", "a": "Le Williamine" },
+      { "q": "Quel cocktail au gin avec citron et sucre porte le nom d'un héros de bar du XIXe siècle ?", "a": "Le Tom Collins" },
+      { "q": "Quel vin doux naturel français des Pyrénées-Orientales est servi en apéritif ?", "a": "Le Banyuls" },
+      { "q": "Quel café noir long allongé d'eau chaude porte un nom évoquant l'Amérique ?", "a": "L'americano" },
+      { "q": "Quel alcool turc anisé blanchit à l'eau et est appelé lait de lion ?", "a": "Le raki" },
+      { "q": "Quel cocktail à base de whisky, vermouth rouge et angostura porte un nom new-yorkais ?", "a": "Le Manhattan" },
+      { "q": "Quel apéritif français anisé a été inventé par Paul Ricard à Marseille en 1932 ?", "a": "Le Ricard" },
+      { "q": "Quelle bière allemande blonde et légère est servie en chope d'un litre à l'Oktoberfest ?", "a": "La Märzen" },
+      { "q": "Quel digestif français à base d'orange est utilisé dans la crêpe Suzette ?", "a": "Le Grand Marnier" }
     ],
     "5": [
-      {
-        "q": "Quel cocktail mexicain est à base de tequila, triple sec et jus de citron vert ?",
-        "a": "La margarita"
-      },
-      {
-        "q": "Quel apéritif français est fait de vin et de crème de cassis ?",
-        "a": "Le kir"
-      },
-      {
-        "q": "Quelle boisson gazeuse sud-américaine est faite de feuilles de coca (sans cocaïne aujourd’hui) ?",
-        "a": "Inca Kola"
-      },
-      {
-        "q": "Quel alcool de canne à sucre est produit notamment en Martinique et en Guadeloupe ?",
-        "a": "Le rhum"
-      },
-      {
-        "q": "Quel cocktail new-yorkais est composé de whisky, vermouth rouge et bitter ?",
-        "a": "Le Manhattan"
-      }
+      { "q": "Quelle région française produit les vins de Pinot Noir et Chardonnay autour de Beaune ?", "a": "La Bourgogne" },
+      { "q": "Quel cocktail néo-orléanais à base de cognac, absinthe et bitter est servi dans un verre givré ?", "a": "Le Sazerac" },
+      { "q": "Quel cépage blanc est emblématique des vins de Sancerre et Pouilly-Fumé ?", "a": "Le sauvignon blanc" },
+      { "q": "Quel cocktail italien à base de Campari, vermouth rouge et gin a été créé à Florence ?", "a": "Le Negroni" },
+      { "q": "Quel cépage rouge domine les vins de la vallée du Rhône Sud comme Châteauneuf-du-Pape ?", "a": "Le grenache" },
+      { "q": "Quel alcool fort russe est traditionnellement bu en shot avec du caviar ?", "a": "La vodka" },
+      { "q": "Quelle maison de champagne porte le nom d'une veuve française du XVIIIe siècle ?", "a": "Veuve Clicquot" },
+      { "q": "Quel cocktail à base de tequila, triple sec et citron vert est servi avec du sel sur le verre ?", "a": "La Margarita" },
+      { "q": "Quel vin liquoreux français est produit dans la région bordelaise du Sauternais ?", "a": "Le Sauternes" },
+      { "q": "Quelle bière belge fermentée spontanément en cuves ouvertes vient de la vallée de la Senne ?", "a": "Le lambic" },
+      { "q": "Quel cocktail mélange café chaud, whisky irlandais, sucre et crème fouettée ?", "a": "L'Irish coffee" },
+      { "q": "Quel apéritif italien rouge amer est plus fort en alcool que l'Aperol ?", "a": "Le Campari" },
+      { "q": "Quel rhum français issu du jus de canne fraîche est produit en Martinique sous AOC ?", "a": "Le rhum agricole" },
+      { "q": "Quel cépage blanc du val de Loire produit le Vouvray et le Montlouis ?", "a": "Le chenin" },
+      { "q": "Quel cocktail à base de gin, jus de citron, sucre et eau gazeuse porte un nom pétillant ?", "a": "Le gin fizz" }
     ],
     "6": [
-      {
-        "q": "Quelle boisson fermentée coréenne est faite à base de riz et servie claire ou laiteuse ?",
-        "a": "Le makgeolli"
-      },
-      {
-        "q": "Quel cocktail à base de vodka, jus de tomate, épices et céleri porte un nom sanglant ?",
-        "a": "Le Bloody Mary"
-      },
-      {
-        "q": "Quel alcool écossais est vieilli en fût de chêne et se boit pur ou en cocktail ?",
-        "a": "Le whisky (scotch)"
-      },
-      {
-        "q": "Quel café glacé italien est servi avec de la glace vanille ou crème chantilly ?",
-        "a": "L’affogato"
-      },
-      {
-        "q": "Quelle boisson gazeuse canadienne est à base de gingembre ?",
-        "a": "Le ginger ale"
-      }
+      { "q": "Quelle appellation française de la vallée du Rhône est célèbre pour son vin rouge des papes ?", "a": "Châteauneuf-du-Pape" },
+      { "q": "Quel cocktail polynésien à base de rhum, jus de citron, sirop d'orgeat et curaçao a été créé en 1944 ?", "a": "Le Mai Tai" },
+      { "q": "Quel cépage rouge italien est utilisé pour produire le Chianti en Toscane ?", "a": "Le sangiovese" },
+      { "q": "Quel cocktail cubain à base de rhum et pamplemousse est dit Hemingway dans sa version sans sucre ?", "a": "Le daïquiri Hemingway" },
+      { "q": "Quel vin pétillant italien est principalement produit en Vénétie à partir du cépage Glera ?", "a": "Le prosecco" },
+      { "q": "Quelle eau-de-vie de cidre normande bénéficie d'une AOC depuis 1942 ?", "a": "Le calvados" },
+      { "q": "Quel cocktail à base de bourbon, sucre, eau et angostura est l'un des plus anciens du monde ?", "a": "L'Old Fashioned" },
+      { "q": "Quel cépage rouge bordelais est l'un des principaux du Médoc avec le Cabernet Sauvignon ?", "a": "Le merlot" },
+      { "q": "Quelle bière allemande de blé est trouble et servie avec une rondelle de citron en Bavière ?", "a": "La Weizen" },
+      { "q": "Quel cocktail à base de vodka, café liqueur et crème porte un nom de Russe blanc ?", "a": "Le White Russian" },
+      { "q": "Quel apéritif espagnol à base de vin et fruits est servi au pichet en été ?", "a": "La sangria" },
+      { "q": "Quel cocktail à base de gin, lait, sirop, sucre et eau gazeuse est dit Ramos depuis 1888 ?", "a": "Le Ramos Gin Fizz" },
+      { "q": "Quelle région italienne produit le Barolo, surnommé le roi des vins ?", "a": "Le Piémont" },
+      { "q": "Quel digestif italien aux herbes est traditionnellement bu après le repas pour la digestion ?", "a": "L'amaro" },
+      { "q": "Quel apéritif français à base de vin blanc et crème de cassis est originaire de Dijon ?", "a": "Le kir" }
     ],
     "7": [
-      {
-        "q": "Quel spiritueux mexicain est fabriqué à partir d’agave bleue ?",
-        "a": "La tequila"
-      },
-      {
-        "q": "Quel cocktail tropical associe rhum, jus d’ananas et crème de coco ?",
-        "a": "La piña colada"
-      },
-      {
-        "q": "Quel vin fortifié espagnol est souvent servi à l’apéritif, notamment en Andalousie ?",
-        "a": "Le xérès (sherry)"
-      },
-      {
-        "q": "Quel thé japonais en poudre verte est utilisé dans la cérémonie du thé ?",
-        "a": "Le matcha"
-      },
-      {
-        "q": "Quel café glacé américain très populaire est vendu par Starbucks ?",
-        "a": "Le Frappuccino"
-      }
+      { "q": "Quelle sous-région bourguignonne produit le Chablis à partir du cépage Chardonnay ?", "a": "Le Chablisien" },
+      { "q": "Quel cocktail à base de cognac, triple sec et jus de citron jaune existe depuis 1922 ?", "a": "Le Sidecar" },
+      { "q": "Quel cépage blanc autrichien produit le vin emblématique du pays au goût poivré ?", "a": "Le Grüner Veltliner" },
+      { "q": "Quel ingrédient amer fermenté est essentiel à la fabrication de la bière en plus du houblon ?", "a": "Le malt" },
+      { "q": "Quel cocktail des années 1930 à base de gin, jus de citron, framboise et blanc d'œuf est rosé ?", "a": "Le Clover Club" },
+      { "q": "Quel cépage rouge argentin a trouvé son terroir d'élection dans la région de Mendoza ?", "a": "Le malbec" },
+      { "q": "Quelle distillerie irlandaise du comté de Cork produit le whisky Jameson aujourd'hui ?", "a": "Midleton" },
+      { "q": "Quel cépage blanc allemand produit les vins de la Moselle aux notes minérales et de pétrole ?", "a": "Le riesling" },
+      { "q": "Quelle technique champenoise consiste à incliner les bouteilles pour faire descendre le dépôt ?", "a": "Le remuage" },
+      { "q": "Quel cocktail créé au Raffles de Singapour mélange gin, cherry brandy et jus d'ananas ?", "a": "Le Singapore Sling" },
+      { "q": "Quel cépage rouge sud-africain est un croisement entre Pinot Noir et Cinsault ?", "a": "Le pinotage" },
+      { "q": "Quelle appellation du Médoc produit les premiers crus Latour, Lafite et Mouton Rothschild ?", "a": "Pauillac" },
+      { "q": "Quel grand cru d'Alsace planté en Riesling est situé sur la commune de Thann ?", "a": "Le Rangen" },
+      { "q": "Quel ingrédient amer du Negroni provient d'une plante appelée gentiane ?", "a": "Le Campari" },
+      { "q": "Quelle DOCG italienne produit le Barbaresco à base de Nebbiolo dans le Piémont ?", "a": "Le Barbaresco" }
     ],
     "8": [
-      {
-        "q": "Quel alcool italien amer est la base du spritz ?",
-        "a": "L’Aperol (ou le Campari)"
-      },
-      {
-        "q": "Quel cocktail new-yorkais est fait de vodka, triple sec, citron vert et cranberry ?",
-        "a": "Le cosmopolitan"
-      },
-      {
-        "q": "Quel alcool japonais est distillé à partir d’orge, patates douces ou riz ?",
-        "a": "Le shōchū"
-      },
-      {
-        "q": "Quel café turc est préparé dans une petite casserole appelée cezve ?",
-        "a": "Le café turc"
-      },
-      {
-        "q": "Quelle boisson sud-américaine se boit avec une calebasse et une bombilla ?",
-        "a": "Le maté"
-      }
+      { "q": "Quel cépage rouge est aujourd'hui le plus planté au monde en superficie viticole ?", "a": "Le cabernet sauvignon" },
+      { "q": "Quelle technique de vinification consiste à provoquer une seconde fermentation en bouteille ?", "a": "La méthode champenoise" },
+      { "q": "Quelle distillerie écossaise du Speyside produit le single malt Glenfiddich depuis 1887 ?", "a": "Glenfiddich" },
+      { "q": "Quel champignon noble du Sauternes provoque la concentration des sucres sur les grains ?", "a": "Botrytis cinerea" },
+      { "q": "Quel cépage italien blanc est utilisé pour produire le Soave en Vénétie ?", "a": "La garganega" },
+      { "q": "Quelle technique de distillation utilise une colonne plutôt qu'un alambic à repasse ?", "a": "La distillation continue" },
+      { "q": "Quel alcool chinois à base de sorgho fermenté titre souvent plus de 50 % d'alcool ?", "a": "Le baijiu" },
+      { "q": "Quel cocktail polynésien créé par Donn Beach mélange rhum, pamplemousse et falernum ?", "a": "Le Zombie" },
+      { "q": "Quelle région espagnole produit les vins rouges de Tempranillo en barriques américaines ?", "a": "La Rioja" },
+      { "q": "Quel ingrédient résineux est ajouté au vin grec pour produire le Retsina ?", "a": "La résine de pin" },
+      { "q": "Quel cépage hongrois est planté dans la région du Tokaj pour les vins doux botrytisés ?", "a": "Le furmint" },
+      { "q": "Quel cocktail créé au Savoy par Harry Craddock mélange gin et vermouth blanc à six contre un ?", "a": "Le Dry Martini" },
+      { "q": "Quel cépage portugais blanc produit le vinho verde dans la région du Minho ?", "a": "L'alvarinho" },
+      { "q": "Quelle classification du Médoc a été établie sur ordre de Napoléon III en 1855 ?", "a": "Le classement de 1855" },
+      { "q": "Quel cocktail créé en 1934 par Donn Beach mélange rhum, jus de citron vert et marasquin ?", "a": "Le Test Pilot" }
     ],
     "9": [
-      {
-        "q": "Quel spiritueux italien à base de marc de raisin se boit en digestif ?",
-        "a": "La grappa"
-      },
-      {
-        "q": "Quel cocktail est composé de rhum blanc, citron vert et sucre de canne, servi à La Havane ?",
-        "a": "Le daiquiri"
-      },
-      {
-        "q": "Quel alcool fortifié français vient de la région de Cognac ?",
-        "a": "Le cognac"
-      },
-      {
-        "q": "Quel café italien mélangé avec du lait chaud mousseux est servi le matin ?",
-        "a": "Le cappuccino"
-      },
-      {
-        "q": "Quel cocktail tiki inventé en Californie mélange rhum, amaretto, jus de citron vert et sirop d’orgeat ?",
-        "a": "Le Mai Tai"
-      }
+      { "q": "Quel domaine bourguignon produit le mythique Romanée-Conti dans la côte de Nuits ?", "a": "Le domaine de la Romanée-Conti" },
+      { "q": "Quelle distillerie écossaise d'Islay produit le single malt fortement tourbé Lagavulin ?", "a": "Lagavulin" },
+      { "q": "Quel cépage italien rare et tannique est utilisé pour produire le Brunello di Montalcino ?", "a": "Le sangiovese grosso" },
+      { "q": "Quel château bordelais premier grand cru classé A est situé à Saint-Émilion avec Cheval Blanc ?", "a": "Château Ausone" },
+      { "q": "Quelle technique japonaise de fabrication du saké consiste à polir le riz à 50 % ou moins ?", "a": "Le ginjo" },
+      { "q": "Quel cocktail des années 1920 à base de gin, jus de citron, miel et eau gazeuse a été créé à Londres ?", "a": "Le Bee's Knees" },
+      { "q": "Quel cépage blanc sud-africain rare est utilisé pour produire le Constantia historique ?", "a": "Le muscat de Frontignan" },
+      { "q": "Quelle distillerie japonaise fondée par Masataka Taketsuru a produit le whisky Yoichi ?", "a": "Nikka" },
+      { "q": "Quel grand cru d'Alsace planté en Gewurztraminer est situé sur la commune de Ribeauvillé ?", "a": "Le Kirchberg" },
+      { "q": "Quel cocktail créé au Harry's New York Bar de Paris en 1915 mélange gin, citron, sucre et champagne ?", "a": "Le French 75" },
+      { "q": "Quel domaine du Languedoc produit la cuvée mythique fondée par Aimé Guibert en 1978 ?", "a": "Mas de Daumas Gassac" },
+      { "q": "Quelle technique champenoise consiste à éliminer le dépôt par congélation du col de la bouteille ?", "a": "Le dégorgement" },
+      { "q": "Quel cépage géorgien millénaire est utilisé pour produire les vins en amphore qvevri ?", "a": "Le rkatsiteli" },
+      { "q": "Quel domaine bourguignon de Vosne-Romanée détient le monopole de La Tâche sur six hectares ?", "a": "La Romanée-Conti" },
+      { "q": "Quel château de Pomerol produit le mythique vin rouge sans classement officiel ?", "a": "Pétrus" }
     ],
     "10": [
-      {
-        "q": "Quel whisky japonais de la distillerie Suntory est célèbre dans le monde entier ?",
-        "a": "Yamazaki (ou Hibiki)"
-      },
-      {
-        "q": "Quel alcool chinois très fort à base de sorgho est le plus bu au monde ?",
-        "a": "Le baijiu"
-      },
-      {
-        "q": "Quel cocktail de la Nouvelle-Orléans contient absinthe, whisky de seigle, sucre et bitter ?",
-        "a": "Le Sazerac"
-      },
-      {
-        "q": "Quel café vietnamien se prépare avec du lait concentré sucré ?",
-        "a": "Le café vietnamien"
-      },
-      {
-        "q": "Quel alcool péruvien et chilien est utilisé pour faire le Pisco Sour ?",
-        "a": "Le pisco"
-      }
+      { "q": "Quelle distillerie japonaise a sorti son premier whisky Yamazaki single malt en 1923 ?", "a": "Suntory" },
+      { "q": "Quel château bordelais a obtenu le rang de premier grand cru classé en 1973, brisant le classement de 1855 ?", "a": "Mouton Rothschild" },
+      { "q": "En quelle année la maison Moët a-t-elle commercialisé sa première cuvée Dom Pérignon ?", "a": "1936" },
+      { "q": "Quel cépage rare endémique du Jura est utilisé pour produire le Vin Jaune de Château-Chalon ?", "a": "Le savagnin" },
+      { "q": "Quelle distillerie écossaise du Speyside produit le single malt The Macallan ?", "a": "The Macallan" },
+      { "q": "Quel cocktail oublié des années 1910 à base de gin, marasquin, citron et liqueur Yvette est dit aérien ?", "a": "L'Aviation" },
+      { "q": "Quelle technique italienne consiste à sécher les raisins avant pressurage pour produire l'Amarone ?", "a": "L'appassimento" },
+      { "q": "En quelle année le château Pétrus a-t-il été acquis par la famille Loubat à Pomerol ?", "a": "1925" },
+      { "q": "Quelle brasserie trappiste belge produit la Westvleteren 12, élue meilleure bière du monde ?", "a": "L'abbaye Saint-Sixte de Westvleteren" },
+      { "q": "Quel cépage portugais rare est utilisé pour produire le Madère vintage de style demi-doux ?", "a": "Le bual" },
+      { "q": "Quelle distillerie taïwanaise fondée en 2005 a remporté de nombreux prix avec sa cuvée Solist ?", "a": "Kavalan" },
+      { "q": "En quelle année Richard Hennessy a-t-il fondé sa maison de cognac à Cognac ?", "a": "1765" },
+      { "q": "Quelle maison champenoise produit la cuvée Cristal créée en 1876 pour le tsar Alexandre II ?", "a": "Louis Roederer" },
+      { "q": "Quel millésime du Romanée-Conti est considéré comme légendaire au lendemain de la guerre ?", "a": "1945" },
+      { "q": "Quelle distillerie écossaise produit Ardbeg, single malt très tourbé d'Islay racheté par LVMH en 2004 ?", "a": "Ardbeg" }
     ]
   }
 }

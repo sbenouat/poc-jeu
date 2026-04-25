@@ -3,224 +3,174 @@
   "name": "Gastronomie mondiale",
   "questions": {
     "1": [
-      {
-        "q": "De quel pays vient la pizza ?",
-        "a": "Italie"
-      },
-      {
-        "q": "Quel plat japonais est composé de riz vinaigré et de poisson cru ?",
-        "a": "Sushi"
-      },
-      {
-        "q": "Quel plat mexicain est une galette de maïs garnie ?",
-        "a": "Taco"
-      },
-      {
-        "q": "Quel fromage français célèbre vient de Normandie et a une croûte blanche ?",
-        "a": "Camembert"
-      },
-      {
-        "q": "Quel plat espagnol à base de riz et de safran est célèbre à Valence ?",
-        "a": "Paella"
-      }
+      { "q": "De quel pays vient la pizza ?", "a": "Italie" },
+      { "q": "De quel pays viennent les sushis ?", "a": "Japon" },
+      { "q": "Quel fromage italien fondu garnit traditionnellement la pizza Margherita ?", "a": "Mozzarella" },
+      { "q": "Quel plat anglais associe poisson pané et frites ?", "a": "Fish and chips" },
+      { "q": "Quel sandwich américain est composé de pain rond, steak haché et fromage ?", "a": "Hamburger" },
+      { "q": "Quel féculent à base de blé est la base des pâtes italiennes ?", "a": "Blé" },
+      { "q": "Quel plat français est une fine galette sucrée ou salée pliée en quatre ?", "a": "Crêpe" },
+      { "q": "Quelle viennoiserie française en forme de croissant de lune se mange au petit-déjeuner ?", "a": "Croissant" },
+      { "q": "Quel plat italien long et fin se mange à la bolognaise ?", "a": "Spaghetti" },
+      { "q": "Quel fromage suisse fondu se déguste avec du pain au bout d'une pique ?", "a": "Fondue" },
+      { "q": "Quel plat mexicain consiste en une galette de maïs garnie et roulée ?", "a": "Tacos" },
+      { "q": "Quel plat japonais est une boulette de riz vinaigré surmontée de poisson cru ?", "a": "Sushi" },
+      { "q": "Quelle boisson chaude italienne mêle expresso et lait moussé ?", "a": "Cappuccino" },
+      { "q": "Quel pain plat indien accompagne souvent le curry ?", "a": "Naan" },
+      { "q": "Quel dessert glacé italien se décline en de multiples parfums ?", "a": "Glace" }
     ],
     "2": [
-      {
-        "q": "Quel dessert italien est fait de couches de biscuits imbibés de café et de mascarpone ?",
-        "a": "Tiramisu"
-      },
-      {
-        "q": "Quelle soupe froide espagnole à base de tomate est servie en été ?",
-        "a": "Gazpacho"
-      },
-      {
-        "q": "Quel plat indien à base de riz et d’épices peut inclure viande ou légumes ?",
-        "a": "Biryani"
-      },
-      {
-        "q": "Quel fromage grec est souvent utilisé dans la salade grecque ?",
-        "a": "Feta"
-      },
-      {
-        "q": "Quelle pâte italienne se mange avec du pesto ou de la sauce tomate ?",
-        "a": "Spaghetti"
-      }
+      { "q": "Quels ingrédients principaux composent les pâtes carbonara ?", "a": "Œufs et lard" },
+      { "q": "Quel plat espagnol à base de riz safrané contient fruits de mer et viande ?", "a": "Paella" },
+      { "q": "Quel plat italien gratiné superpose pâtes, sauce tomate et béchamel ?", "a": "Lasagnes" },
+      { "q": "Quel plat français consiste en un bœuf mijoté longuement au vin rouge ?", "a": "Bœuf bourguignon" },
+      { "q": "Quel dessert italien à base de mascarpone et de café est saupoudré de cacao ?", "a": "Tiramisu" },
+      { "q": "Quel plat asiatique consiste en un bouillon de nouilles d'origine japonaise ?", "a": "Ramen" },
+      { "q": "Quel plat mexicain est une tortilla pliée et frite, garnie de viande et fromage ?", "a": "Quesadilla" },
+      { "q": "Quel plat français à base de pommes de terre, lardons et reblochon est savoyard ?", "a": "Tartiflette" },
+      { "q": "Quel plat britannique est un rosbif accompagné de pudding de Yorkshire ?", "a": "Sunday roast" },
+      { "q": "Quel pain plat italien aromatisé à l'huile d'olive et au romarin précède la pizza ?", "a": "Focaccia" },
+      { "q": "Quel plat indien associe poulet mariné au yaourt cuit au four tandoor ?", "a": "Poulet tandoori" },
+      { "q": "Quel plat italien est un riz crémeux cuit au bouillon ?", "a": "Risotto" },
+      { "q": "Quel plat thaïlandais est une soupe pimentée à la citronnelle et aux crevettes ?", "a": "Tom yum" },
+      { "q": "Quel plat français mijote un coq dans le vin rouge ?", "a": "Coq au vin" },
+      { "q": "Quel plat américain est une grosse côte de bœuf grillée au barbecue ?", "a": "Steak" }
     ],
     "3": [
-      {
-        "q": "De quel pays vient le couscous traditionnel ?",
-        "a": "Maghreb (Maroc, Algérie, Tunisie)"
-      },
-      {
-        "q": "Quel plat coréen est du chou fermenté pimenté ?",
-        "a": "Kimchi"
-      },
-      {
-        "q": "Quel plat japonais consiste à tremper de la viande dans un bouillon bouillant ?",
-        "a": "Shabu-shabu"
-      },
-      {
-        "q": "Quel pays est célèbre pour ses tapas ?",
-        "a": "Espagne"
-      },
-      {
-        "q": "Quel dessert français est flambé avec du rhum et se compose de crêpes ?",
-        "a": "Crêpe Suzette"
-      }
+      { "q": "Quel plat provençal mijote courgettes, aubergines, poivrons et tomates ?", "a": "Ratatouille" },
+      { "q": "Quel plat sauté thaïlandais associe nouilles de riz, œuf et cacahuètes ?", "a": "Pad thaï" },
+      { "q": "Quel ingrédient principal compose le houmous ?", "a": "Pois chiches" },
+      { "q": "Quelle salade italienne associe tomate, mozzarella et basilic ?", "a": "Caprese" },
+      { "q": "Quelle entrée libanaise est faite de blé concassé, persil et tomate ?", "a": "Taboulé" },
+      { "q": "Quel plat marocain mijoté tient son nom du récipient en terre cuite à couvercle conique ?", "a": "Tajine" },
+      { "q": "Quel plat indien désigne une préparation à base d'épices et de sauce ?", "a": "Curry" },
+      { "q": "Quel plat français en croûte associe foie gras et truffe enrobés de pâte ?", "a": "Pâté en croûte" },
+      { "q": "Quelle soupe espagnole froide à base de tomates et concombres se sert l'été ?", "a": "Gaspacho" },
+      { "q": "Quel plat alsacien superpose chou fermenté, charcuterie et pommes de terre ?", "a": "Choucroute" },
+      { "q": "Quel plat italien consiste en de fines tranches de bœuf cru à l'huile et parmesan ?", "a": "Carpaccio" },
+      { "q": "Quelle sauce mexicaine verte ou rouge à base de piment accompagne les tacos ?", "a": "Salsa" },
+      { "q": "Quel dessert français consiste en de la crème brûlée caramélisée au chalumeau ?", "a": "Crème brûlée" },
+      { "q": "Quelle pâtisserie viennoise feuilletée fourrée au chocolat se mange au petit-déjeuner ?", "a": "Pain au chocolat" },
+      { "q": "Quel plat grec consiste en une brochette de viande grillée à la broche ?", "a": "Souvláki" }
     ],
     "4": [
-      {
-        "q": "Quel plat russe est une soupe de betterave rouge ?",
-        "a": "Bortsch"
-      },
-      {
-        "q": "Quel plat libanais est une salade de persil, tomates, boulgour et citron ?",
-        "a": "Taboulé"
-      },
-      {
-        "q": "Quel pays est à l’origine du plat Pho, soupe de nouilles ?",
-        "a": "Vietnam"
-      },
-      {
-        "q": "Quel fromage italien est à la base de la pizza Margherita ?",
-        "a": "Mozzarella"
-      },
-      {
-        "q": "Quel dessert autrichien est une tarte à l’abricot avec pâte sablée et tressage sur le dessus ?",
-        "a": "Linzer Torte"
-      }
+      { "q": "Quel plat français superpose pommes de terre et crème dans un gratin dauphinois ?", "a": "Gratin dauphinois" },
+      { "q": "Quel plat espagnol propose des petites portions à grignoter ?", "a": "Tapas" },
+      { "q": "Quel plat japonais consiste en une pâte enrobant des légumes ou crevettes frits ?", "a": "Tempura" },
+      { "q": "Quelle spécialité grecque associe concombre, yaourt et menthe ?", "a": "Tzatziki" },
+      { "q": "Quel plat sénégalais à base de riz, poisson et légumes est le plat national ?", "a": "Thieboudienne" },
+      { "q": "Quel plat américain à base de viande hachée mijotée au piment et haricots rouges ?", "a": "Chili con carne" },
+      { "q": "Quelle entrée japonaise consiste en raviolis grillés puis cuits à la vapeur ?", "a": "Gyozas" },
+      { "q": "Quel plat indien désigne du riz épicé cuit avec viande ou légumes ?", "a": "Biryani" },
+      { "q": "Quel plat italien fourré ressemblant à un demi-cercle est un raviolon farci ?", "a": "Calzone" },
+      { "q": "Quelle viande crue hachée se sert avec un jaune d'œuf en France ?", "a": "Tartare de bœuf" },
+      { "q": "Quel plat libanais consiste en des boulettes de boulgour fourrées de viande ?", "a": "Kebbé" },
+      { "q": "Quel dessert italien est une glace à l'azote ou aux fruits sans œufs ?", "a": "Sorbet" },
+      { "q": "Quelle pâtisserie française en forme de petite boule fourrée est aux amandes ?", "a": "Macaron" },
+      { "q": "Quel produit italien est un fin jambon cru affiné de Parme ?", "a": "Prosciutto" },
+      { "q": "Quel plat français de crustacés est servi avec mayonnaise et citron ?", "a": "Plateau de fruits de mer" }
     ],
     "5": [
-      {
-        "q": "Quel plat américain est une galette de viande servie dans un pain rond ?",
-        "a": "Hamburger"
-      },
-      {
-        "q": "Quel dessert portugais est une petite tartelette à la crème ?",
-        "a": "Pastel de nata"
-      },
-      {
-        "q": "Quel plat turc consiste en viande grillée servie sur une brochette ?",
-        "a": "Kebab"
-      },
-      {
-        "q": "Quelle soupe française contient oignons caramélisés et fromage gratiné ?",
-        "a": "Soupe à l’oignon"
-      },
-      {
-        "q": "Quel plat japonais est constitué de brochettes de poulet grillées ?",
-        "a": "Yakitori"
-      }
+      { "q": "De quelle région d'Afrique du Nord est originaire le couscous ?", "a": "Maghreb" },
+      { "q": "Quelle région française est célèbre pour la quiche aux lardons et œufs ?", "a": "Lorraine" },
+      { "q": "Quel plat français à base de tripes mijotées vient de Caen ?", "a": "Tripes à la mode de Caen" },
+      { "q": "Quelle spécialité de Marseille est une soupe de poissons safranée ?", "a": "Bouillabaisse" },
+      { "q": "Quel plat traditionnel basque associe poivrons, oignons et tomates aux œufs ?", "a": "Pipérade" },
+      { "q": "Quel poisson cru mariné au citron vert est emblématique du Pérou ?", "a": "Ceviche" },
+      { "q": "Quelle pâte fermentée japonaise à base de soja est utilisée pour les soupes ?", "a": "Miso" },
+      { "q": "Quel plat indien à base d'épinards et de fromage frais a pour nom palak quoi ?", "a": "Palak paneer" },
+      { "q": "Quelle pâtisserie marocaine en forme de croissant est aux amandes et au miel ?", "a": "Cornes de gazelle" },
+      { "q": "Quelle technique espagnole consiste en un riz cuit dans une large poêle plate ?", "a": "Paella" },
+      { "q": "Quel plat italien désigne des petits raviolis ronds farcis de viande ?", "a": "Tortellini" },
+      { "q": "Quelle algue séchée japonaise enveloppe les makis ?", "a": "Nori" },
+      { "q": "Quelle spécialité belge associe moules cuites à la marinière et frites ?", "a": "Moules-frites" },
+      { "q": "Quel plat turc est une viande grillée empilée sur broche verticale ?", "a": "Döner kebab" },
+      { "q": "Quelle viande argentine est cuite au feu de bois lors d'un long barbecue ?", "a": "Asado" }
     ],
     "6": [
-      {
-        "q": "Quel plat brésilien associe haricots noirs, porc et riz ?",
-        "a": "Feijoada"
-      },
-      {
-        "q": "Quel plat hongrois est un ragoût épicé au paprika ?",
-        "a": "Goulash"
-      },
-      {
-        "q": "Quel plat éthiopien est servi sur une grande galette appelée injera ?",
-        "a": "Wat (ragoût éthiopien)"
-      },
-      {
-        "q": "Quel fromage suisse est fondu pour la raclette ?",
-        "a": "Fromage à raclette (Valais)"
-      },
-      {
-        "q": "Quel dessert américain est une tarte aux pommes traditionnelle ?",
-        "a": "Apple Pie"
-      }
+      { "q": "Quel plat lyonnais est un saucisson cuit en brioche ?", "a": "Saucisson brioché" },
+      { "q": "Quel plat russe est composé de bœuf émincé à la sauce smetana ?", "a": "Bœuf Stroganoff" },
+      { "q": "Quelle racine épicée jaune compose le curry et donne sa couleur au riz biryani ?", "a": "Curcuma" },
+      { "q": "Quel plat hongrois mijoté de bœuf au paprika est célèbre ?", "a": "Goulash" },
+      { "q": "Quel plat français du Sud-Ouest associe haricots blancs et confits ?", "a": "Cassoulet" },
+      { "q": "Quel plat libanais à base de pois chiches frits ressemble à des boulettes ?", "a": "Falafel" },
+      { "q": "Quel plat coréen est composé de légumes fermentés au piment ?", "a": "Kimchi" },
+      { "q": "Quel plat britannique est une tourte à la viande hachée et purée ?", "a": "Shepherd's pie" },
+      { "q": "Quelle viande de porc laquée cantonaise est rouge à l'extérieur ?", "a": "Char siu" },
+      { "q": "Quel plat marocain est une soupe de tomates, lentilles et pois chiches ?", "a": "Harira" },
+      { "q": "Quel plat italien milanais est une jarretière de veau braisée à la gremolata ?", "a": "Osso buco" },
+      { "q": "Quelle spécialité chinoise est une raviole de Shanghai farcie remplie de bouillon ?", "a": "Xiao long bao" },
+      { "q": "Quelle célèbre pâte à tartiner italienne aux noisettes est née à Alba ?", "a": "Nutella" },
+      { "q": "Quelle herbe asiatique parfumée caractérise la cuisine thaïlandaise ?", "a": "Citronnelle" },
+      { "q": "Quel bouillon japonais à base d'algues kombu et de bonite séchée parfume les soupes ?", "a": "Dashi" }
     ],
     "7": [
-      {
-        "q": "Quel plat japonais est un bouillon de nouilles servi chaud, parfois au porc ?",
-        "a": "Ramen"
-      },
-      {
-        "q": "Quel vin mousseux italien ressemble au champagne mais vient de Vénétie ?",
-        "a": "Prosecco"
-      },
-      {
-        "q": "Quel plat thaïlandais est une salade de papaye verte pimentée ?",
-        "a": "Som Tam"
-      },
-      {
-        "q": "Quel dessert indien à base de lait et de sucre se forme en petites boules sucrées ?",
-        "a": "Gulab Jamun"
-      },
-      {
-        "q": "Quel plat allemand est une saucisse servie avec de la moutarde ?",
-        "a": "Bratwurst"
-      }
+      { "q": "Quelle technique française consiste à saisir une viande à très haute température ?", "a": "Saisir" },
+      { "q": "Quelle technique japonaise désigne le tranchage très fin du poisson cru ?", "a": "Sashimi" },
+      { "q": "Quel lait italien rare et précieux donne la mozzarella di bufala ?", "a": "Lait de bufflonne" },
+      { "q": "Quel plat français consiste en une selle d'agneau enrobée de duxelles et feuilletée ?", "a": "Selle d'agneau en croûte" },
+      { "q": "Quelle technique culinaire utilise un siphon pour réaliser des espumas ?", "a": "Siphon" },
+      { "q": "Quel plat russe est une crêpe fine à la levure servie avec caviar ?", "a": "Blini" },
+      { "q": "Quel plat libanais est composé de viande crue hachée d'agneau et de boulgour ?", "a": "Kebbé nayyé" },
+      { "q": "Quel poisson japonais venimeux nécessite une licence pour être préparé ?", "a": "Fugu" },
+      { "q": "Quel plat français consiste en des rognons de veau flambés au madère ?", "a": "Rognons au madère" },
+      { "q": "Quelle technique consiste à faire revenir les grains de riz du risotto avant de mouiller ?", "a": "Tostatura" },
+      { "q": "Quel plat italien sicilien est un beignet de riz farci pané et frit ?", "a": "Arancini" },
+      { "q": "Quel plat péruvien est un poisson cru tranché finement à la sauce relevée ?", "a": "Tiradito" },
+      { "q": "Quel plat français consiste en un gigot d'agneau cuit pendant sept heures ?", "a": "Gigot de sept heures" },
+      { "q": "Quelle bouillie de maïs italienne accompagne souvent les viandes du Nord ?", "a": "Polenta" },
+      { "q": "Quel ingrédient noir et précieux truffe les plats du Périgord ?", "a": "Truffe noire" }
     ],
     "8": [
-      {
-        "q": "Quel plat marocain se prépare dans un plat en terre cuite conique ?",
-        "a": "Tajine"
-      },
-      {
-        "q": "Quel dessert grec est constitué de pâte filo, de miel et de noix ?",
-        "a": "Baklava"
-      },
-      {
-        "q": "Quel plat japonais de poisson cru tranché finement s’appelle ?",
-        "a": "Sashimi"
-      },
-      {
-        "q": "Quel pays a inventé la fondue au fromage partagée ?",
-        "a": "Suisse"
-      },
-      {
-        "q": "Quel plat mexicain est un roulé de maïs farci, souvent nappé de sauce chili ?",
-        "a": "Enchilada"
-      }
+      { "q": "Quelle technique consiste à cuire sous vide à basse température ?", "a": "Cuisson sous vide" },
+      { "q": "Quelle technique espagnole moléculaire transforme un liquide en perles ?", "a": "Sphérification" },
+      { "q": "Quelle technique française consiste à clarifier un beurre en retirant le petit-lait ?", "a": "Beurre clarifié" },
+      { "q": "Quel plat français mijote queue de bœuf et carottes en pot-au-feu nordiste ?", "a": "Hochepot" },
+      { "q": "Quel plat catalan est un ragoût de poulet, lapin et écrevisses ou langoustines ?", "a": "Mar i muntanya" },
+      { "q": "Quel plat français de Bresse est une volaille cuite enfermée dans une vessie ?", "a": "Poularde en vessie" },
+      { "q": "Quel terme italien désigne le séchage et l'affinage de la viande à l'air ?", "a": "Stagionatura" },
+      { "q": "Quel plat alsacien est un pâté en croûte feuilleté de canard et foie gras ?", "a": "Tourte alsacienne" },
+      { "q": "Quel plat japonais associe pâte de soja fermentée et tofu en bouillon dashi ?", "a": "Soupe miso" },
+      { "q": "Quel plat hawaïen est composé de poisson cru mariné servi en bol sur du riz ?", "a": "Poke bowl" },
+      { "q": "Quel plat péruvien est un ragoût épicé de poulet aux noix, fromage et piment ?", "a": "Ají de gallina" },
+      { "q": "Quelle technique culinaire consiste à fumer un produit en dessous de 30 degrés ?", "a": "Fumage à froid" },
+      { "q": "Quelle charcuterie normande est une andouille fumée originaire de Vire ?", "a": "Andouille de Vire" },
+      { "q": "Quelle soupe russe froide à base de kvas et betterave se sert l'été ?", "a": "Okrochka" },
+      { "q": "Quelle pâtisserie française est une génoise levée imbibée de sirop au rhum ?", "a": "Baba au rhum" }
     ],
     "9": [
-      {
-        "q": "Quel dessert français à base de meringue et de crème est nommé d’après une danse ?",
-        "a": "Pavlova"
-      },
-      {
-        "q": "Quel plat japonais est une omelette fourrée de riz sauté ?",
-        "a": "Omurice"
-      },
-      {
-        "q": "Quel plat espagnol de petites fritures d’encornets s’appelle ?",
-        "a": "Calamares fritos"
-      },
-      {
-        "q": "Quel dessert turc est un flan au lait souvent parfumé à l’eau de rose ?",
-        "a": "Muhallebi"
-      },
-      {
-        "q": "Quel plat indien est un pain plat cuit au four tandoor ?",
-        "a": "Naan"
-      }
+      { "q": "Quel chef catalan dirigeait elBulli, sacré meilleur restaurant du monde plusieurs fois ?", "a": "Ferran Adrià" },
+      { "q": "Quel chef danois dirige le restaurant Noma à Copenhague ?", "a": "René Redzepi" },
+      { "q": "Quel chef britannique a popularisé la cuisine moléculaire avec The Fat Duck ?", "a": "Heston Blumenthal" },
+      { "q": "Quel chef français du Suquet à Laguiole est célèbre pour son aligot et le gargouillou ?", "a": "Michel Bras" },
+      { "q": "Quel plat péruvien à base de pomme de terre jaune est une purée farcie froide ?", "a": "Causa limeña" },
+      { "q": "Quel plat italien des Pouilles est une pâte en forme de petite oreille ?", "a": "Orecchiette" },
+      { "q": "Quel plat éthiopien est une crêpe fermentée servant de support aux ragoûts ?", "a": "Injera" },
+      { "q": "Quel plat indonésien est un riz frit aux œufs, légumes et crevettes ?", "a": "Nasi goreng" },
+      { "q": "Quel plat hongrois est une crêpe roulée farcie de fromage blanc ou de confiture ?", "a": "Palacsinta" },
+      { "q": "Quel chef français étoilé a marqué l'histoire du Louis XV à Monaco ?", "a": "Alain Ducasse" },
+      { "q": "Quel restaurant tokyoïte de sushis tenu par Jiro Ono se trouve dans le métro ?", "a": "Sukiyabashi Jiro" },
+      { "q": "Quelle cheffe française triplement étoilée tient la Maison Pic à Valence ?", "a": "Anne-Sophie Pic" },
+      { "q": "Quel plat finlandais est une soupe onctueuse de saumon à la crème et à l'aneth ?", "a": "Lohikeitto" },
+      { "q": "Quel plat coréen est composé de bœuf mariné grillé sur table ?", "a": "Bulgogi" },
+      { "q": "Quel chef français a obtenu trois étoiles très jeune à L'Arpège à Paris ?", "a": "Alain Passard" }
     ],
     "10": [
-      {
-        "q": "Quel plat japonais consiste en légumes ou crevettes frits dans une pâte légère ?",
-        "a": "Tempura"
-      },
-      {
-        "q": "Quel dessert français sophistiqué associe couches de pâte feuilletée et crème pâtissière ?",
-        "a": "Mille-feuille"
-      },
-      {
-        "q": "Quel plat du Moyen-Orient est un mélange de pois chiches et d’épices frits ?",
-        "a": "Falafel"
-      },
-      {
-        "q": "Quel dessert italien glacé est préparé avec du café et de la crème glacée ?",
-        "a": "Affogato"
-      },
-      {
-        "q": "Quel plat japonais festif de riz, poisson, algue et garnitures variées est servi en plateau ?",
-        "a": "Chirashi"
-      }
+      { "q": "Quel chef français a popularisé la nouvelle cuisine dans les années 1970 ?", "a": "Paul Bocuse" },
+      { "q": "En quelle année le Guide Michelin a-t-il décerné ses premières étoiles aux restaurants ?", "a": "1926" },
+      { "q": "Quel chef français a créé la soupe VGE aux truffes en 1975 pour l'Élysée ?", "a": "Paul Bocuse" },
+      { "q": "Quel chef trois étoiles français s'est suicidé à Saulieu en 2003 ?", "a": "Bernard Loiseau" },
+      { "q": "Quel menu japonais raffiné comporte plusieurs petits services saisonniers servis dans un ordre précis ?", "a": "Kaiseki" },
+      { "q": "Quel plat russe d'apparat est un poulet pané farci de beurre à l'ail ?", "a": "Poulet à la Kiev" },
+      { "q": "Quel chef autrichien dirige le restaurant Steirereck à Vienne, primé World's 50 Best ?", "a": "Heinz Reitbauer" },
+      { "q": "Quel plat philippin national est un ragoût de viande mariné au vinaigre et soja ?", "a": "Adobo" },
+      { "q": "Quel plat birman traditionnel est une soupe de poisson au curry servie au petit-déjeuner ?", "a": "Mohinga" },
+      { "q": "En quelle année le concours Bocuse d'Or a-t-il été créé à Lyon ?", "a": "1987" },
+      { "q": "Quel chef italien étoilé dirige l'Osteria Francescana à Modène ?", "a": "Massimo Bottura" },
+      { "q": "Quel plat sénégalais est un poulet mariné au citron, oignons confits et moutarde ?", "a": "Yassa au poulet" },
+      { "q": "Quel chef français pionnier a tenu trois étoiles à La Pyramide à Vienne dans les années 1930 ?", "a": "Fernand Point" },
+      { "q": "Quel plat géorgien est un pain en forme de barque garni de fromage et d'un œuf ?", "a": "Khatchapouri" },
+      { "q": "Quel buffet scandinave nordique propose hareng, saumon et boulettes en libre-service ?", "a": "Smörgåsbord" }
     ]
   }
 }

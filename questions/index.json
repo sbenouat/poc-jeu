@@ -59,13 +59,13 @@
       "id": "plusoumoins",
       "name": "Le plus ou le moins",
       "file": "plusoumoins.json",
-      "questionCount": 50
+      "questionCount": 100
     },
     {
       "id": "quisuisje",
       "name": "Qui suis-je ?",
       "file": "quisuisje.json",
-      "questionCount": 50
+      "questionCount": 100
     },
     {
       "id": "inventions",
@@ -95,13 +95,13 @@
       "id": "gastronomie_mondiale",
       "name": "Gastronomie mondiale",
       "file": "gastronomie_mondiale.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "boissons_monde",
       "name": "Boissons du monde",
       "file": "boissons_monde.json",
-      "questionCount": 50
+      "questionCount": 150
     },
     {
       "id": "jeux_video",
