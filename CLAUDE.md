@@ -15,6 +15,19 @@ python -m http.server 8000
 
 No build step, dependencies, or package manager required.
 
+## Documentation
+
+Detailed docs live under `docs/`. Start with `docs/README.md` for the index. Each doc describes the current state of the code, not roadmap items:
+
+- `docs/architecture.md` — files, modules in `script.js`, `STATE` shape, render pipeline, lifecycle
+- `docs/mechanics.md` — game rules, scoring, turn order, theme rotation, undo, end-of-game
+- `docs/ui.md` — CSS variables, screens, components (cards, buttons, chips, toasts, palette)
+- `docs/ux.md` — flows (setup, resume, in-game, undo, end), mobile-first decisions, accessibility
+- `docs/data.md` — `questions/` layout, lazy loading, fallback chain, `split-themes.py`
+- `docs/persistence.md` — `pocer_state` and `pocer_lastPlayers` shapes, when written/cleared
+
+When the code changes substantively, update the relevant `docs/*.md` to keep them factual.
+
 ## Architecture
 
 Core files:
