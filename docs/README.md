@@ -8,3 +8,7 @@ Documentation factuelle du jeu, à jour avec le code de la branche `master`. Cha
 - [UX](ux.md) — flux utilisateur (setup, reprise, jeu, fin)
 - [Données questions](data.md) — format des fichiers, lazy loading, fallback
 - [Persistance](persistence.md) — clés localStorage et leur shape
+
+---
+
+- [Roadmap](roadmap.md) — **cible, pas existant** : idées d'évolutions consignées pour discussion future
