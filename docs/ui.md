@@ -95,10 +95,21 @@ Boutons désactivés : `opacity 0.25` + `grayscale 0.6`. Press : translate `1px`
 
 ### Carte Q/A (`#qaCard`)
 
+- Compteur timer `#timerDisplay` (visible si timer activé et avant reveal — voir *Timer*)
 - Question (taille 20px)
 - Bouton "Afficher la réponse"
 - Réponse (taille 18px, masquée jusqu'à reveal)
 - Boutons de jugement : "Mauvaise" (`.btn.ghost`) et "Bonne (+N)" (`.btn.success`), `flex: 1` chacun
+
+### Timer (`.timer-display`)
+
+Pilule alignée à droite de la carte Q/A. `font-size: 22px`, `font-weight: 800`, `font-variant-numeric: tabular-nums` pour éviter le jitter. Fond `--chip2`, texte `--text`.
+
+Variante `.warn` (3 dernières secondes) : fond `--danger`, texte blanc, animation `timerPulse` (scale 1 → 1.08, 500ms aller-retour).
+
+### Setting setup (`.setting-row`)
+
+Ligne checkbox + label dans le formulaire de setup. Texte en `--muted`, taille 14px. Checkbox native avec `accent-color: --primary` pour s'aligner sur la palette.
 
 ### Toast (`#toastHost`, `.toast`)
 

@@ -44,6 +44,8 @@ const els = {
   revealRow: $("#revealRow"),
   judgeRow: $("#judgeRow"),
   ptsSpan: $("#pts"),
+  timerDisplay: $("#timerDisplay"),
+  timerToggle: $("#timerToggle"),
   // recap
   finalTable: $("#finalTable"),
   winners: $("#winners"),
@@ -120,6 +122,19 @@ function saveLastNames(names){
 function loadLastNames(){
   try{ const raw = localStorage.getItem("pocer_lastPlayers"); return raw ? JSON.parse(raw) : null; }catch{ return null; }
 }
+
+const SETTINGS = { timerEnabled: true };
+function loadSettings(){
+  try{
+    const raw = localStorage.getItem("pocer_settings");
+    if(!raw) return;
+    const obj = JSON.parse(raw);
+    if(typeof obj.timerEnabled === "boolean") SETTINGS.timerEnabled = obj.timerEnabled;
+  }catch{}
+}
+function saveSettings(){
+  try{ localStorage.setItem("pocer_settings", JSON.stringify(SETTINGS)); }catch{}
+}
 function resetState(){
   STATE.players = [];
   STATE.turnIndex = 0;
@@ -132,6 +147,50 @@ function resetState(){
   STATE.currentQA = null;
   STATE.answerRevealed = false;
   STATE.usedThemes = new Set();
+}
+
+// --------- Timer ----------
+let timerHandle = null;
+let timerDeadline = null;
+
+function timerDurationFor(diff){ return (10 + diff * 3) * 1000; }
+
+function startTimerLoop(deadline){
+  stopTimer();
+  timerDeadline = deadline;
+  const tick = () => {
+    if(timerDeadline == null) return;
+    const remaining = timerDeadline - Date.now();
+    if(remaining <= 0){
+      els.timerDisplay.textContent = "0s";
+      els.timerDisplay.classList.add("warn");
+      stopTimer();
+      onTimeout();
+      return;
+    }
+    const secs = Math.ceil(remaining / 1000);
+    els.timerDisplay.textContent = `${secs}s`;
+    els.timerDisplay.classList.toggle("warn", remaining <= 3000);
+  };
+  tick();
+  timerHandle = setInterval(tick, 250);
+}
+
+function stopTimer(){
+  if(timerHandle != null){
+    clearInterval(timerHandle);
+    timerHandle = null;
+  }
+  timerDeadline = null;
+  els.timerDisplay.classList.remove("warn");
+}
+
+async function onTimeout(){
+  if(!STATE.currentQA || STATE.answerRevealed) return;
+  STATE.answerRevealed = true;
+  if (navigator.vibrate) navigator.vibrate([20, 40, 20]);
+  renderAll();
+  await onAnswer(false, { reason: "timeout" });
 }
 
 // --------- Toast ----------
@@ -424,9 +483,14 @@ function renderQA(){
       els.revealRow.classList.remove("hidden");
       els.showAnswerBtn?.setAttribute("aria-expanded", "false");
     }
+    const showTimer = SETTINGS.timerEnabled && !STATE.answerRevealed;
+    els.timerDisplay.classList.toggle("hidden", !showTimer);
+    if(!showTimer) els.timerDisplay.classList.remove("warn");
   }else{
     els.qaCard.classList.add("hidden");
     els.scoreboardCard.open = true;
+    els.timerDisplay.classList.add("hidden");
+    els.timerDisplay.classList.remove("warn");
   }
 }
 function renderAll(){
@@ -501,9 +565,13 @@ function onChooseDifficulty(d){
   if (navigator.vibrate) navigator.vibrate(8);
   saveLocal();
   renderAll();
+  if(SETTINGS.timerEnabled){
+    startTimerLoop(Date.now() + timerDurationFor(d));
+  }
 }
 function onShowAnswer(){
   STATE.answerRevealed = true;
+  stopTimer();
   if (navigator.vibrate) navigator.vibrate([8,20,8]);
   renderAll();
 }
@@ -526,6 +594,7 @@ function snapshotForUndo(){
   };
 }
 async function restoreFromSnapshot(snap){
+  stopTimer();
   STATE.players = snap.players;
   STATE.turnIndex = snap.turnIndex;
   STATE.starterIndex = snap.starterIndex;
@@ -544,8 +613,9 @@ async function restoreFromSnapshot(snap){
   renderAll();
 }
 
-async function onAnswer(isCorrect){
+async function onAnswer(isCorrect, opts = {}){
   if(!STATE.currentQA) return;
+  stopTimer();
   const snap = snapshotForUndo();
   const player = STATE.players[STATE.turnIndex];
   const playerName = player.name;
@@ -556,10 +626,11 @@ async function onAnswer(isCorrect){
   if (navigator.vibrate) navigator.vibrate(isCorrect ? [10, 30, 10] : 25);
   saveLocal();
   await nextPlayer();
-  toast(
-    isCorrect ? `+${pts} pt${pts>1?"s":""} pour ${playerName}` : `0 pt pour ${playerName}`,
-    { action: () => restoreFromSnapshot(snap), actionLabel: "Annuler", durationMs: 3000 }
-  );
+  let message;
+  if(opts.reason === "timeout") message = `Temps écoulé — 0 pt pour ${playerName}`;
+  else if(isCorrect) message = `+${pts} pt${pts>1?"s":""} pour ${playerName}`;
+  else message = `0 pt pour ${playerName}`;
+  toast(message, { action: () => restoreFromSnapshot(snap), actionLabel: "Annuler", durationMs: 3000 });
 }
 
 // --------- Game flow ----------
@@ -577,6 +648,7 @@ async function startGame(players, rounds){
   renderAll();
 }
 function finishGame(){
+  stopTimer();
   if (!STATE.players.length) {
     showScreen("setup");
     return;
@@ -615,6 +687,10 @@ function collectNames(){
 }
 
 els.addPlayerBtn.addEventListener("click", () => addPlayerInput());
+els.timerToggle.addEventListener("change", () => {
+  SETTINGS.timerEnabled = els.timerToggle.checked;
+  saveSettings();
+});
 els.start10.addEventListener("click", () => {
   const names = collectNames(); if(!names) return;
   startGame(names, 10);
@@ -640,6 +716,7 @@ function describeSave(saved){
   return `${n} joueur${n>1?"s":""} — manche ${Math.min(round, total)}/${total}`;
 }
 async function resumeFromSave(saved){
+  stopTimer();
   MAX_ROUNDS = saved.maxRounds || 10;
   STATE.players = (saved.players || []).map((p, i) => ({
     name: p.name,
@@ -665,6 +742,8 @@ async function resumeFromSave(saved){
 }
 
 window.addEventListener("load", async () => {
+  loadSettings();
+  els.timerToggle.checked = SETTINGS.timerEnabled;
   renderInitialPlayerInputs();
   await loadThemeIndex();
   const saved = loadLocal();

@@ -18,8 +18,10 @@ Une partie est une séquence de **manches**. Chaque manche est composée de **N 
 À chaque tour :
 1. Le joueur courant choisit une difficulté de 1 à 10 (`onChooseDifficulty`).
 2. Une question est tirée au hasard parmi celles non encore utilisées de cette difficulté pour ce thème (`drawQuestion`).
-3. Le joueur affiche la réponse (`onShowAnswer`).
-4. Le joueur (ou le groupe) déclare la réponse "Bonne" ou "Mauvaise" (`onAnswer`).
+3. Si le timer est activé (cf. *Timer*), un compte à rebours démarre.
+4. Le joueur affiche la réponse (`onShowAnswer`) — le timer s'arrête.
+5. Le joueur (ou le groupe) déclare la réponse "Bonne" ou "Mauvaise" (`onAnswer`).
+6. Si le timer expire avant le reveal, la réponse est révélée automatiquement et `onAnswer(false, { reason: "timeout" })` est appelé.
 
 ## Scoring
 
@@ -100,6 +102,17 @@ L'écran récap propose un bouton "Rejouer" qui efface aussi `pocer_state` et re
 
 Si toutes les questions de cette difficulté sont utilisées, la fonction retourne `null` et l'UI affiche brièvement le message `#deckEmpty` (1.8s).
 
+## Timer
+
+Optionnel, activé par défaut. Toggle dans le setup (`#timerToggle`), persisté dans `pocer_settings` localStorage (cf. `docs/persistence.md`).
+
+- **Durée** : `(10 + difficulté × 3)` secondes — soit 13s pour la difficulté 1, jusqu'à 40s pour la 10. Helper `timerDurationFor(diff)` dans `script.js`.
+- **Démarrage** : à la fin de `onChooseDifficulty` (`startTimerLoop(deadline)`), après le `renderAll` qui affiche la question.
+- **Arrêt** : sur `onShowAnswer`, `onAnswer`, `restoreFromSnapshot`, `finishGame`, `resumeFromSave`. Helper `stopTimer`.
+- **Tick** : `setInterval` à 250ms qui calcule `remaining = deadline - Date.now()`. Met à jour `#timerDisplay` avec `Xs` (entier supérieur), bascule la classe `.warn` quand `remaining ≤ 3000ms`.
+- **Expiration** : `onTimeout()` met `answerRevealed = true`, vibre `[20, 40, 20]`, et appelle `onAnswer(false, { reason: "timeout" })`. Le toast indique "Temps écoulé — 0 pt pour X" au lieu de "0 pt pour X". L'undo reste disponible 3s.
+- **Pas de persistance du timer** : `currentQA` n'étant pas sauvegardé, sur reload le joueur revient à la grille de difficulté ; la difficulté entamée reste marquée prise. Aucun timer fantôme.
+
 ## Effets latéraux
 
 - **Vibration** (`navigator.vibrate`) sur :
@@ -107,5 +120,5 @@ Si toutes les questions de cette difficulté sont utilisées, la fonction retour
   - Choix d'une difficulté (8ms) dans `onChooseDifficulty`
   - Affichage de la réponse (pattern `[8, 20, 8]`) dans `onShowAnswer`
   - Verdict bonne (`[10, 30, 10]`) ou mauvaise (25ms) dans `onAnswer`
+  - Timeout (pattern `[20, 40, 20]`) dans `onTimeout`
 - Aucun son.
-- Aucun timer / chronomètre.

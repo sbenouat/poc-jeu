@@ -11,6 +11,7 @@ Au chargement de la page :
 3. Le formulaire de setup propose :
    - **+ Ajouter un joueur** : ajoute une ligne (jusqu'à 10). Au-delà, le bouton est désactivé et le texte devient "Maximum 10 joueurs".
    - **−** sur chaque ligne (sauf la dernière restante) : retire la ligne et renumérote les placeholders.
+   - **Toggle Timer** : case à cocher (défaut activé). Persisté dans `pocer_settings`. Quand activé, applique un compte à rebours de `10 + difficulté × 3` secondes par tour.
    - **Partie courte (5 manches)** ou **Partie normale (10 manches)** : démarre la partie.
 
 À la validation (`collectNames`) :
@@ -35,11 +36,12 @@ Aucune modale système (`confirm`/`alert`) n'est utilisée — uniquement la car
    - Si la difficulté est déjà prise dans la manche → bouton désactivé.
    - Si la difficulté n'a plus de questions → bouton désactivé.
    - Sur tap valide, la carte Q/A apparaît, le scoreboard se replie automatiquement.
-3. **Lecture de la question** : affichée en grand (20px). Bouton "Afficher la réponse" en dessous.
-4. **Réponse révélée** : tap sur "Afficher la réponse". Vibration `[8, 20, 8]`. La réponse apparaît, les boutons "Mauvaise" / "Bonne (+N)" remplacent le bouton de reveal.
+3. **Lecture de la question** : affichée en grand (20px). Bouton "Afficher la réponse" en dessous. Si le timer est activé, un compteur `Xs` est visible en haut à droite de la carte ; il bascule en rouge avec un pulse sur les 3 dernières secondes.
+4. **Réponse révélée** : tap sur "Afficher la réponse". Vibration `[8, 20, 8]`. La réponse apparaît, les boutons "Mauvaise" / "Bonne (+N)" remplacent le bouton de reveal. Le timer s'arrête.
 5. **Verdict** : tap sur Bonne ou Mauvaise. Vibration `[10, 30, 10]` ou `25ms`.
    - Toast en bas : `+N pts pour <Joueur>` ou `0 pt pour <Joueur>`, avec un bouton "Annuler" actif 3s.
    - Tour suivant immédiatement (pas d'écran intermédiaire).
+6. **Timeout** (si timer activé et expiré avant le reveal) : la réponse est révélée automatiquement, vibration `[20, 40, 20]`, verdict mauvaise appliqué automatiquement. Toast `Temps écoulé — 0 pt pour <Joueur>` avec "Annuler" actif 3s — le undo restaure le tour avec la réponse révélée et les boutons de jugement, le joueur peut re-juger manuellement.
 
 ## Annuler un verdict
 
@@ -70,7 +72,8 @@ Deux entrées :
 - Toasts plutôt que dialogues système : pas de coupure d'immersion, dismiss par timeout sans tap obligatoire.
 - Carte de reprise plutôt que `confirm()` : choix explicite "Reprendre / Nouvelle", aucune répétition involontaire.
 - Bouton de fin de partie protégé par confirmation toast (4s).
-- Annulation toujours possible 3s après chaque verdict.
+- Annulation toujours possible 3s après chaque verdict (y compris timeout).
+- Mode casual : timer désactivable depuis le setup, persisté dans `pocer_settings` — le user peut jouer sans pression du temps.
 
 ## Accessibilité
 

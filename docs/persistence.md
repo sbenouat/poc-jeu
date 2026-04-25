@@ -1,6 +1,6 @@
 # Persistance (localStorage)
 
-PoCer utilise deux clés `localStorage` distinctes. Aucun cookie, aucun IndexedDB, aucun backend.
+PoCer utilise trois clés `localStorage` distinctes. Aucun cookie, aucun IndexedDB, aucun backend.
 
 ## `pocer_state` — partie en cours
 
@@ -48,6 +48,22 @@ Lu au démarrage (`window.load`) pour proposer la reprise via `#resumeCard`.
 - `finishGame()` une fois le récap affiché
 - Bouton "Rejouer" sur l'écran récap (avant `location.reload()`)
 - Bouton "Nouvelle partie" sur la carte de reprise
+
+## `pocer_settings` — réglages de jeu
+
+Écrit via `saveSettings()` à chaque changement du toggle timer dans le setup. Lu via `loadSettings()` au chargement de la page.
+
+### Shape
+
+```json
+{ "timerEnabled": true }
+```
+
+Seul champ pour l'instant : `timerEnabled` (booléen, défaut `true`). Lu avec validation de type (`typeof === "boolean"`) ; toute valeur invalide est ignorée et la valeur par défaut s'applique.
+
+### Effacement
+
+Pas effacé automatiquement — survit entre parties pour conserver la préférence du user. Pour réinitialiser, recocher la case dans le setup.
 
 ## `pocer_lastPlayers` — derniers noms saisis
 
