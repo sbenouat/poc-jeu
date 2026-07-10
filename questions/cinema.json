@@ -3,424 +3,174 @@
   "name": "Cinéma",
   "questions": {
     "1": [
-      {
-        "q": "Quel héros de dessin animé dit « Vers l'infini et au-delà » ?",
-        "a": "Buzz l'Éclair"
-      },
-      {
-        "q": "Quel film raconte la vie du lionceau Simba ?",
-        "a": "Le Roi Lion"
-      },
-      {
-        "q": "Quel film raconte l'histoire d'un jeune sorcier nommé Harry ?",
-        "a": "Harry Potter"
-      },
-      {
-        "q": "Quel super-héros est aussi appelé l'homme chauve-souris ?",
-        "a": "Batman"
-      },
-      {
-        "q": "Quel agent secret a pour matricule 007 ?",
-        "a": "James Bond"
-      },
-      {
-        "q": "Dans quelle saga entend-on « Que la Force soit avec toi » ?",
-        "a": "Star Wars"
-      },
-      {
-        "q": "Quel film d'animation met en scène les jouets Woody et Buzz ?",
-        "a": "Toy Story"
-      },
-      {
-        "q": "Quel ogre vert vit dans un marais avec un âne très bavard ?",
-        "a": "Shrek"
-      },
-      {
-        "q": "Quel film d'animation raconte l'histoire des sœurs Anna et Elsa ?",
-        "a": "La Reine des neiges"
-      },
-      {
-        "q": "Quel célèbre paquebot coule dans le film avec Leonardo DiCaprio ?",
-        "a": "Le Titanic"
-      }
+      { "q": "Quel film de 1997 voit Jack offrir un collier à Rose à bord d'un paquebot qui sombre ?", "a": "Titanic" },
+      { "q": "Quel film d'animation Disney met en scène un lionceau nommé Simba dont le père est tué par Scar ?", "a": "Le Roi Lion" },
+      { "q": "Quel film de 1993 voit un parc d'attractions envahi par des dinosaures clonés ?", "a": "Jurassic Park" },
+      { "q": "Quel film de 1985 envoie Marty McFly dans le passé à bord d'une DeLorean ?", "a": "Retour vers le futur" },
+      { "q": "Quel film de 2009 se déroule sur la planète Pandora, peuplée des Na'vi bleus ?", "a": "Avatar" },
+      { "q": "Quel film d'animation Disney de 2013 met en scène les sœurs Anna et Elsa ?", "a": "La Reine des neiges" },
+      { "q": "Quel film de Spielberg met en scène un extraterrestre qui veut rentrer chez lui ?", "a": "E.T. l'extra-terrestre" },
+      { "q": "Dans quelle saga Frodon part-il détruire un anneau dans un volcan ?", "a": "Le Seigneur des anneaux" },
+      { "q": "Quel super-héros milliardaire en armure rouge et or est joué par Robert Downey Jr. ?", "a": "Iron Man" },
+      { "q": "Quel acteur incarne Wolverine dans la saga X-Men ?", "a": "Hugh Jackman" },
+      { "q": "Quelle saga française met Astérix et Obélix face aux Romains ?", "a": "Astérix" },
+      { "q": "Quel film d'animation Pixar de 1995 met en scène les jouets Woody et Buzz l'Éclair ?", "a": "Toy Story" },
+      { "q": "Quel film de 1996 voit Will Smith repousser une invasion extraterrestre le 4 juillet ?", "a": "Independence Day" },
+      { "q": "Dans quel film Tom Hanks est-il bloqué sur une île avec un ballon nommé Wilson ?", "a": "Seul au monde" },
+      { "q": "Quel film de DreamWorks met en scène un jeune viking nommé Harold et un dragon nommé Krokmou ?", "a": "Dragons" }
     ],
     "2": [
-      {
-        "q": "Quel extraterrestre veut « téléphoner maison » ?",
-        "a": "E.T."
-      },
-      {
-        "q": "Quel singe géant escalade l'Empire State Building ?",
-        "a": "King Kong"
-      },
-      {
-        "q": "Quel film d'animation raconte la recherche d'un poisson-clown nommé Nemo ?",
-        "a": "Le Monde de Nemo"
-      },
-      {
-        "q": "Dans quelle saga de films navigue le pirate Jack Sparrow ?",
-        "a": "Pirates des Caraïbes"
-      },
-      {
-        "q": "Dans quel film des dinosaures sont-ils ramenés à la vie dans un parc d'attractions ?",
-        "a": "Jurassic Park"
-      },
-      {
-        "q": "Quel super-héros devient vert et énorme quand il se met en colère ?",
-        "a": "Hulk"
-      },
-      {
-        "q": "Dans quel film de Noël un enfant est-il oublié seul chez lui ?",
-        "a": "Maman, j'ai raté l'avion"
-      },
-      {
-        "q": "Dans quel film un requin géant terrorise-t-il une plage ?",
-        "a": "Les Dents de la mer"
-      },
-      {
-        "q": "Quel super-héros porte une cape rouge et un grand « S » sur la poitrine ?",
-        "a": "Superman"
-      },
-      {
-        "q": "Quel film d'animation met en scène la voiture de course Flash McQueen ?",
-        "a": "Cars"
-      }
+      { "q": "Quel acteur joue Néo dans 'Matrix' ?", "a": "Keanu Reeves" },
+      { "q": "Quel film d'animation Pixar de 2008 met en scène un robot solitaire qui nettoie la Terre ?", "a": "WALL-E" },
+      { "q": "Quel film d'animation raconte l'histoire de Rémy, un rat qui rêve de cuisiner à Paris ?", "a": "Ratatouille" },
+      { "q": "Quel acteur joue Forrest Gump dans le film de 1994 ?", "a": "Tom Hanks" },
+      { "q": "Dans quel film Bruce Willis affronte seul des terroristes dans un gratte-ciel ?", "a": "Piège de cristal" },
+      { "q": "Quelle actrice française incarne Amélie Poulain ?", "a": "Audrey Tautou" },
+      { "q": "Quel film de 2010 voit Leonardo DiCaprio s'infiltrer dans les rêves des autres ?", "a": "Inception" },
+      { "q": "Quel pirate Johnny Depp incarne-t-il dans une saga Disney ?", "a": "Jack Sparrow" },
+      { "q": "Dans quel film Russell Crowe incarne un général romain devenu gladiateur ?", "a": "Gladiator" },
+      { "q": "Quel film de 1975 voit un grand requin blanc terroriser une station balnéaire ?", "a": "Les Dents de la mer" },
+      { "q": "Quel acteur joue le Joker dans 'The Dark Knight' de 2008 ?", "a": "Heath Ledger" },
+      { "q": "Dans quel film Robin Williams fait dire à ses élèves 'Ô Capitaine, mon Capitaine' ?", "a": "Le Cercle des poètes disparus" },
+      { "q": "Quelle actrice joue Mia dans 'La La Land' face à Ryan Gosling ?", "a": "Emma Stone" },
+      { "q": "Quel film de 1972 raconte la famille Corleone et la mafia italo-américaine ?", "a": "Le Parrain" },
+      { "q": "Quel film d'animation Disney de 1989 met en scène une sirène nommée Ariel ?", "a": "La Petite Sirène" }
     ],
     "3": [
-      {
-        "q": "Quel est le vrai nom de Spider-Man ?",
-        "a": "Peter Parker"
-      },
-      {
-        "q": "Quel acteur joue Jack dans « Titanic » ?",
-        "a": "Leonardo DiCaprio"
-      },
-      {
-        "q": "Dans quelle saga entend-on la réplique « Je suis ton père » ?",
-        "a": "Star Wars"
-      },
-      {
-        "q": "Dans quel film Marty McFly voyage-t-il dans le temps ?",
-        "a": "Retour vers le futur"
-      },
-      {
-        "q": "Quelle saga raconte le voyage du hobbit Frodon pour détruire un anneau ?",
-        "a": "Le Seigneur des anneaux"
-      },
-      {
-        "q": "Quel est le premier long-métrage d'animation de Disney, avec sept nains ?",
-        "a": "Blanche-Neige et les Sept Nains"
-      },
-      {
-        "q": "Quel acteur incarne Iron Man au cinéma ?",
-        "a": "Robert Downey Jr."
-      },
-      {
-        "q": "Quel film d'animation met en scène un rat qui cuisine dans un grand restaurant parisien ?",
-        "a": "Ratatouille"
-      },
-      {
-        "q": "Quel héros aventurier porte un chapeau, un fouet et cherche des trésors ?",
-        "a": "Indiana Jones"
-      },
-      {
-        "q": "Quelle saga de films met en scène Dominic Toretto et des courses de voitures ?",
-        "a": "Fast and Furious"
-      }
+      { "q": "Qui réalise 'Pulp Fiction' en 1994 ?", "a": "Quentin Tarantino" },
+      { "q": "Quel acteur incarne Tony Montana dans 'Scarface' (1983) ?", "a": "Al Pacino" },
+      { "q": "Dans quel film Edward Norton et Brad Pitt fondent un club secret de combat ?", "a": "Fight Club" },
+      { "q": "Quelle actrice joue Mathilda dans 'Léon' de Luc Besson ?", "a": "Natalie Portman" },
+      { "q": "Quel film de 1995 voit Kevin Spacey incarner un boiteux mystérieux nommé Verbal ?", "a": "Usual Suspects" },
+      { "q": "Quel acteur joue Hannibal Lecter dans 'Le Silence des agneaux' ?", "a": "Anthony Hopkins" },
+      { "q": "Quel film de Kubrick voit Jack Nicholson devenir fou dans un hôtel isolé du Colorado ?", "a": "Shining" },
+      { "q": "Quel film de 1999 voit Kevin Spacey incarner un père de famille en pleine crise existentielle ?", "a": "American Beauty" },
+      { "q": "Quel film de Sergio Leone de 1966 met en scène trois chasseurs de prime sous la guerre de Sécession ?", "a": "Le Bon, la Brute et le Truand" },
+      { "q": "Quel film de Fincher voit Brad Pitt et Morgan Freeman traquer un tueur inspiré des sept péchés capitaux ?", "a": "Seven" },
+      { "q": "Quel acteur incarne Joker dans la version de 2019 réalisée par Todd Phillips ?", "a": "Joaquin Phoenix" },
+      { "q": "Quel film français de 1995 de Mathieu Kassovitz suit un trio en banlieue après une bavure policière ?", "a": "La Haine" },
+      { "q": "Quel film de Tarantino voit Uma Thurman traquer un commando d'assassins en kimono jaune ?", "a": "Kill Bill" },
+      { "q": "Quel film des Coen de 2007 voit Javier Bardem en tueur impassible à la coupe au bol ?", "a": "No Country for Old Men" },
+      { "q": "Quel film de 2003 voit Bill Murray et Scarlett Johansson errer dans un hôtel de Tokyo ?", "a": "Lost in Translation" }
     ],
     "4": [
-      {
-        "q": "Quel film a pour réplique culte « Hasta la vista, baby » ?",
-        "a": "Terminator 2"
-      },
-      {
-        "q": "Quel acteur joue Neo dans « Matrix » ?",
-        "a": "Keanu Reeves"
-      },
-      {
-        "q": "Quelle équipe appelle-t-on quand des fantômes envahissent New York ?",
-        "a": "SOS Fantômes"
-      },
-      {
-        "q": "Dans quel film un homme raconte sa vie sur un banc en disant que « la vie, c'est comme une boîte de chocolats » ?",
-        "a": "Forrest Gump"
-      },
-      {
-        "q": "Quel film d'animation raconte l'histoire du petit robot Wall-E ?",
-        "a": "Wall-E"
-      },
-      {
-        "q": "Quel acteur incarne Jack Sparrow ?",
-        "a": "Johnny Depp"
-      },
-      {
-        "q": "Quelle actrice incarne Hermione dans les films « Harry Potter » ?",
-        "a": "Emma Watson"
-      },
-      {
-        "q": "Quel film français avec Omar Sy raconte l'amitié entre un tétraplégique et son aide à domicile ?",
-        "a": "Intouchables"
-      },
-      {
-        "q": "Quel acteur incarne le boxeur Rocky Balboa ?",
-        "a": "Sylvester Stallone"
-      },
-      {
-        "q": "Dans quel film des humains bleus vivent-ils sur la planète Pandora ?",
-        "a": "Avatar"
-      }
+      { "q": "Qui réalise 'La Liste de Schindler' et 'Il faut sauver le soldat Ryan' ?", "a": "Steven Spielberg" },
+      { "q": "Quel film de Christopher Nolan voit un homme à la mémoire courte enquêter sur le meurtre de sa femme ?", "a": "Memento" },
+      { "q": "Dans quel film des Coen Frances McDormand incarne une shérif enceinte du Minnesota ?", "a": "Fargo" },
+      { "q": "Quel film de Polanski de 2002 met en scène un pianiste juif survivant à Varsovie ?", "a": "Le Pianiste" },
+      { "q": "Quel film des Coen voit Jeff Bridges incarner 'The Dude' face à un quiproquo de tapis souillé ?", "a": "The Big Lebowski" },
+      { "q": "Quel film de 2010 voit Natalie Portman incarner une danseuse possédée par son rôle ?", "a": "Black Swan" },
+      { "q": "Quel film de Jeunet de 1991 voit la livraison de viande humaine dans un immeuble post-apocalyptique ?", "a": "Delicatessen" },
+      { "q": "Quel film de Steve McQueen de 2013 retrace l'histoire vraie de Solomon Northup ?", "a": "12 Years a Slave" },
+      { "q": "Quel film de Wes Anderson de 2014 se déroule dans un palace fictif d'Europe centrale ?", "a": "The Grand Budapest Hotel" },
+      { "q": "Quel film de Park Chan-wook de 2003 voit un homme chercher qui l'a séquestré 15 ans ?", "a": "Old Boy" },
+      { "q": "Quel acteur incarne Truman dans 'The Truman Show' (1998) ?", "a": "Jim Carrey" },
+      { "q": "Quel film de Paul Thomas Anderson voit Daniel Day-Lewis en magnat impitoyable du pétrole ?", "a": "There Will Be Blood" },
+      { "q": "Quel film de 1976 de Scorsese voit De Niro incarner un chauffeur de taxi insomniaque ?", "a": "Taxi Driver" },
+      { "q": "Quel film de Jacques Audiard de 2009 se déroule en prison avec Tahar Rahim ?", "a": "Un prophète" },
+      { "q": "Quel film de 2019 de Bong Joon-ho remporte la Palme d'or et l'Oscar du meilleur film ?", "a": "Parasite" }
     ],
     "5": [
-      {
-        "q": "Quel acteur joue le Joker dans « The Dark Knight » ?",
-        "a": "Heath Ledger"
-      },
-      {
-        "q": "Quel film d'horreur met en scène le clown Grippe-Sou ?",
-        "a": "Ça"
-      },
-      {
-        "q": "Dans quel film un naufragé parle-t-il à un ballon de volley nommé Wilson ?",
-        "a": "Seul au monde"
-      },
-      {
-        "q": "Quel acteur incarne James Bond dans « Skyfall » ?",
-        "a": "Daniel Craig"
-      },
-      {
-        "q": "Dans quelle saga Katniss Everdeen participe-t-elle à des jeux mortels ?",
-        "a": "Hunger Games"
-      },
-      {
-        "q": "Dans quel film le général romain Maximus devient-il gladiateur ?",
-        "a": "Gladiator"
-      },
-      {
-        "q": "Quel acteur incarne Wolverine au cinéma ?",
-        "a": "Hugh Jackman"
-      },
-      {
-        "q": "Dans quel film de guerre Tom Hanks part-il sauver un soldat prénommé Ryan ?",
-        "a": "Il faut sauver le soldat Ryan"
-      },
-      {
-        "q": "Quel film musical avec Ryan Gosling et Emma Stone se déroule à Los Angeles ?",
-        "a": "La La Land"
-      },
-      {
-        "q": "Dans quel film entend-on « Je vais lui faire une offre qu'il ne pourra pas refuser » ?",
-        "a": "Le Parrain"
-      }
+      { "q": "Qui réalise 'Mulholland Drive' (2001) et 'Eraserhead' ?", "a": "David Lynch" },
+      { "q": "Quel cinéaste italien réalise 'La Dolce Vita' et 'Huit et demi' ?", "a": "Federico Fellini" },
+      { "q": "Quel film de 1957 d'Ingmar Bergman voit un chevalier jouer aux échecs avec la Mort ?", "a": "Le Septième Sceau" },
+      { "q": "Quel film de 1962 de David Lean dépeint la révolte arabe contre les Ottomans ?", "a": "Lawrence d'Arabie" },
+      { "q": "Quel film de 1980 de Scorsese voit De Niro incarner le boxeur Jake LaMotta ?", "a": "Raging Bull" },
+      { "q": "Quel film de 1942 voit Humphrey Bogart tenir un café dans une ville marocaine ?", "a": "Casablanca" },
+      { "q": "Quel film de 1959 de François Truffaut suit le jeune Antoine Doinel ?", "a": "Les Quatre Cents Coups" },
+      { "q": "Quel film de Godard de 1960 met en scène Belmondo en petit voyou parisien ?", "a": "À bout de souffle" },
+      { "q": "Quel film de 1979 de Coppola transpose 'Au cœur des ténèbres' au Vietnam ?", "a": "Apocalypse Now" },
+      { "q": "Quel film de 1939 est l'adaptation du roman de Margaret Mitchell sur la guerre de Sécession ?", "a": "Autant en emporte le vent" },
+      { "q": "Quel film de Jacques Tati de 1958 satirise l'architecture moderne et ses gadgets ?", "a": "Mon oncle" },
+      { "q": "Quel film de 1994 de Krzysztof Kieślowski clôt sa trilogie des couleurs ?", "a": "Trois couleurs : Rouge" },
+      { "q": "Quel film néoréaliste de 1948 de De Sica suit un homme à la recherche de son vélo volé ?", "a": "Le Voleur de bicyclette" },
+      { "q": "Quel cinéaste japonais réalise 'Les Sept Samouraïs' en 1954 ?", "a": "Akira Kurosawa" },
+      { "q": "Quel film de 1968 de Kubrick débute avec des singes préhistoriques découvrant un monolithe ?", "a": "2001 : L'Odyssée de l'espace" }
     ],
     "6": [
-      {
-        "q": "Quel réalisateur est surnommé « le maître du suspense » ?",
-        "a": "Alfred Hitchcock"
-      },
-      {
-        "q": "Quel acteur incarne Maximus dans « Gladiator » ?",
-        "a": "Russell Crowe"
-      },
-      {
-        "q": "Quelle actrice incarne Amélie Poulain ?",
-        "a": "Audrey Tautou"
-      },
-      {
-        "q": "Dans quel film Jim Carrey vit-il sans le savoir dans une émission de télé-réalité ?",
-        "a": "The Truman Show"
-      },
-      {
-        "q": "Quel film de science-fiction met en scène des voleurs qui s'introduisent dans les rêves ?",
-        "a": "Inception"
-      },
-      {
-        "q": "Quelle actrice joue Rose dans « Titanic » ?",
-        "a": "Kate Winslet"
-      },
-      {
-        "q": "Quel film musical met en scène Danny et Sandy, avec John Travolta ?",
-        "a": "Grease"
-      },
-      {
-        "q": "Dans quel film Bruce Willis incarne-t-il le policier John McClane ?",
-        "a": "Die Hard (Piège de cristal)"
-      },
-      {
-        "q": "Quel film français culte met en scène Jacquouille la Fripouille ?",
-        "a": "Les Visiteurs"
-      },
-      {
-        "q": "Quel acteur français incarne Obélix au cinéma ?",
-        "a": "Gérard Depardieu"
-      }
+      { "q": "Quelle réalisatrice signe 'Lost in Translation' (2003) et 'Virgin Suicides' ?", "a": "Sofia Coppola" },
+      { "q": "Quel film de Bergman de 1966 met en scène deux femmes dont les identités fusionnent ?", "a": "Persona" },
+      { "q": "Quel film de Tarkovski de 1979 suit trois hommes vers une Zone interdite ?", "a": "Stalker" },
+      { "q": "Quel film de 1989 de Spike Lee se déroule un jour caniculaire à Brooklyn ?", "a": "Do the Right Thing" },
+      { "q": "Quel film de 1964 de Kubrick parodie la guerre froide avec Peter Sellers dans trois rôles ?", "a": "Docteur Folamour" },
+      { "q": "Quel film polonais de 1958 d'Andrzej Wajda clôt sa trilogie de guerre ?", "a": "Cendres et diamant" },
+      { "q": "Quel film de 1962 de John Ford met James Stewart et John Wayne face à un hors-la-loi ?", "a": "L'homme qui tua Liberty Valance" },
+      { "q": "Quel film de 1955 de Charles Laughton met Robert Mitchum en prédicateur tueur ?", "a": "La Nuit du chasseur" },
+      { "q": "Quel film de 1971 de William Friedkin voit Gene Hackman traquer un trafiquant à New York ?", "a": "French Connection" },
+      { "q": "Quel film de 1973 de Nicolas Roeg se déroule à Venise avec Donald Sutherland et Julie Christie ?", "a": "Ne vous retournez pas" },
+      { "q": "Quel film de 1965 de David Lean adapte un roman de Boris Pasternak ?", "a": "Le Docteur Jivago" },
+      { "q": "Quel film de Wim Wenders a remporté la Palme d'or 1984 ?", "a": "Paris, Texas" },
+      { "q": "Quel film de 1990 de Scorsese suit l'ascension de Henry Hill dans la mafia new-yorkaise ?", "a": "Les Affranchis" },
+      { "q": "Quel cinéaste danois a fondé le mouvement Dogme95 et réalisé 'Breaking the Waves' ?", "a": "Lars von Trier" },
+      { "q": "Quel acteur a remporté l'Oscar du meilleur acteur pour 'There Will Be Blood' en 2008 ?", "a": "Daniel Day-Lewis" }
     ],
     "7": [
-      {
-        "q": "Qui a réalisé « Titanic » et « Avatar » ?",
-        "a": "James Cameron"
-      },
-      {
-        "q": "Qui a réalisé « Jurassic Park » et « E.T. » ?",
-        "a": "Steven Spielberg"
-      },
-      {
-        "q": "Quel film de 1997 a remporté 11 Oscars ?",
-        "a": "Titanic"
-      },
-      {
-        "q": "Quel acteur incarne Vito Corleone dans « Le Parrain » ?",
-        "a": "Marlon Brando"
-      },
-      {
-        "q": "Quel film raconte l'évasion d'Andy Dufresne de la prison de Shawshank ?",
-        "a": "Les Évadés"
-      },
-      {
-        "q": "Quel film d'animation japonais suit la jeune Chihiro dans le monde des esprits ?",
-        "a": "Le Voyage de Chihiro"
-      },
-      {
-        "q": "Quel réalisateur a fait « Pulp Fiction » et « Kill Bill » ?",
-        "a": "Quentin Tarantino"
-      },
-      {
-        "q": "Quel film de science-fiction a pour slogan « Dans l'espace, personne ne vous entend crier » ?",
-        "a": "Alien"
-      },
-      {
-        "q": "Quel acteur incarne Hannibal Lecter dans « Le Silence des agneaux » ?",
-        "a": "Anthony Hopkins"
-      },
-      {
-        "q": "Quel acteur incarne l'homme sans nom dans « Le Bon, la Brute et le Truand » ?",
-        "a": "Clint Eastwood"
-      }
+      { "q": "Quel chef opérateur a tourné 'Citizen Kane' en 1941, popularisant la profondeur de champ ?", "a": "Gregg Toland" },
+      { "q": "Quel film de 1957 de Sidney Lumet se déroule entièrement dans une salle de délibération de jurés ?", "a": "Douze hommes en colère" },
+      { "q": "Quel cinéaste japonais réalise 'Voyage à Tokyo' en 1953 ?", "a": "Yasujirō Ozu" },
+      { "q": "Quel film de Coppola de 1974 voit Gene Hackman en spécialiste de la surveillance audio ?", "a": "Conversation secrète" },
+      { "q": "Quel film de Cassavetes de 1974 voit Gena Rowlands en femme au bord de la dépression ?", "a": "Une femme sous influence" },
+      { "q": "Quel film de 1976 d'Alan J. Pakula retrace l'enquête de deux journalistes du Watergate ?", "a": "Les Hommes du président" },
+      { "q": "Quel film de 1968 de Sergio Leone clôt officieusement sa première trilogie western ?", "a": "Il était une fois dans l'Ouest" },
+      { "q": "Quel film de Godard de 1965 mêle science-fiction et film noir ?", "a": "Alphaville" },
+      { "q": "Quel cinéaste taïwanais réalise 'Yi Yi' et 'A Brighter Summer Day' ?", "a": "Edward Yang" },
+      { "q": "Quel cinéaste hongrois réalise 'Les Harmonies Werckmeister' et 'Le Cheval de Turin' ?", "a": "Béla Tarr" },
+      { "q": "Quel film de 1956 de John Ford voit John Wayne chercher sa nièce captive des Comanches ?", "a": "La Prisonnière du désert" },
+      { "q": "Quel film de 1985 de Kurosawa transpose 'Le Roi Lear' à l'époque féodale japonaise ?", "a": "Ran" },
+      { "q": "Quel cinéaste roumain a remporté la Palme d'or 2007 pour '4 mois, 3 semaines, 2 jours' ?", "a": "Cristian Mungiu" },
+      { "q": "Quel film de 1932 de Tod Browning a longtemps été interdit pour son casting d'acteurs aux corps atypiques ?", "a": "Freaks" },
+      { "q": "Quel film de Pasolini de 1975 a été interdit dans plusieurs pays pour sa violence extrême ?", "a": "Salò ou les 120 journées de Sodome" }
     ],
     "8": [
-      {
-        "q": "Qui a réalisé « Inception » et « Interstellar » ?",
-        "a": "Christopher Nolan"
-      },
-      {
-        "q": "Quel film sud-coréen a remporté l'Oscar du meilleur film en 2020 ?",
-        "a": "Parasite"
-      },
-      {
-        "q": "Quel film muet français a remporté l'Oscar du meilleur film en 2012 ?",
-        "a": "The Artist"
-      },
-      {
-        "q": "Quel réalisateur français a fait « Le Grand Bleu » et « Léon » ?",
-        "a": "Luc Besson"
-      },
-      {
-        "q": "Quel acteur incarne le Joker dans le film « Joker » (2019) ?",
-        "a": "Joaquin Phoenix"
-      },
-      {
-        "q": "Quel film d'horreur avec Jack Nicholson se déroule dans l'hôtel isolé Overlook ?",
-        "a": "Shining"
-      },
-      {
-        "q": "Quel film se déroulant dans la Rome antique a remporté l'Oscar du meilleur film en 2001 ?",
-        "a": "Gladiator"
-      },
-      {
-        "q": "Quel troisième volet d'une trilogie a remporté 11 Oscars en 2004 ?",
-        "a": "Le Seigneur des anneaux : Le Retour du roi"
-      },
-      {
-        "q": "Quel compositeur a écrit la musique de « Star Wars » et d'« Indiana Jones » ?",
-        "a": "John Williams"
-      },
-      {
-        "q": "Quel film de Quentin Tarantino se déroule pendant la Seconde Guerre mondiale ?",
-        "a": "Inglourious Basterds"
-      }
+      { "q": "Quel film d'Erich von Stroheim de 1924 dure originellement plus de neuf heures avant d'être amputé par MGM ?", "a": "Les Rapaces" },
+      { "q": "Quel cinéaste russe est l'auteur de 'L'Enfance d'Ivan' et 'Andreï Roublev' ?", "a": "Andreï Tarkovski" },
+      { "q": "Quel film de 1967 de Robert Bresson suit une jeune fille en détresse dans la France rurale ?", "a": "Mouchette" },
+      { "q": "Quel film de 1975 de Chantal Akerman dépeint trois jours d'une femme à Bruxelles, en plans fixes ?", "a": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles" },
+      { "q": "Quel cinéaste portugais a continué à tourner jusqu'à l'âge de 106 ans ?", "a": "Manoel de Oliveira" },
+      { "q": "Quel film de 1959 d'Alain Resnais associe une histoire d'amour à la mémoire d'Hiroshima ?", "a": "Hiroshima mon amour" },
+      { "q": "Quel court-métrage de 1929 de Buñuel et Dalí est célèbre pour la scène de l'œil tranché ?", "a": "Un chien andalou" },
+      { "q": "Quel cinéaste a réalisé 'Los Olvidados' au Mexique en 1950 ?", "a": "Luis Buñuel" },
+      { "q": "Quel acteur a remporté l'Oscar du meilleur acteur 1976 pour 'Network', à titre posthume ?", "a": "Peter Finch" },
+      { "q": "Quel film de 1971 d'Hal Ashby met en scène Harold, jeune obsédé par la mort, et Maude, septuagénaire ?", "a": "Harold et Maude" },
+      { "q": "Quel cinéaste autrichien a réalisé 'Le Ruban blanc' et 'Amour' ?", "a": "Michael Haneke" },
+      { "q": "Quel film de 1967 d'Antonioni se déroule à Londres avec un photographe de mode ?", "a": "Blow-Up" },
+      { "q": "Quel film de 1988 de Krzysztof Kieślowski est un cycle de dix téléfilms inspirés des commandements ?", "a": "Décalogue" },
+      { "q": "Quel cinéaste finlandais est l'auteur de 'L'Homme sans passé' et 'Le Havre' ?", "a": "Aki Kaurismäki" },
+      { "q": "Quel cinéaste argentin a remporté l'Oscar du film étranger 2010 pour 'Dans ses yeux' ?", "a": "Juan José Campanella" }
     ],
     "9": [
-      {
-        "q": "Qui a réalisé « Le Parrain » ?",
-        "a": "Francis Ford Coppola"
-      },
-      {
-        "q": "Qui a réalisé « Fight Club » et « Seven » ?",
-        "a": "David Fincher"
-      },
-      {
-        "q": "Qui a réalisé « Shining » et « 2001, l'Odyssée de l'espace » ?",
-        "a": "Stanley Kubrick"
-      },
-      {
-        "q": "Qui a réalisé « Le Fabuleux Destin d'Amélie Poulain » ?",
-        "a": "Jean-Pierre Jeunet"
-      },
-      {
-        "q": "Qui a réalisé « Taxi Driver » et « Les Affranchis » ?",
-        "a": "Martin Scorsese"
-      },
-      {
-        "q": "Quel réalisateur a fait « Alien » et « Blade Runner » ?",
-        "a": "Ridley Scott"
-      },
-      {
-        "q": "Quel film a remporté le tout premier Oscar du meilleur film d'animation en 2002 ?",
-        "a": "Shrek"
-      },
-      {
-        "q": "Quel chanteur a composé les chansons du « Roi Lion », dont « Can You Feel the Love Tonight » ?",
-        "a": "Elton John"
-      },
-      {
-        "q": "Quel film d'Alfred Hitchcock est célèbre pour sa scène de meurtre sous la douche ?",
-        "a": "Psychose"
-      },
-      {
-        "q": "Quel compositeur italien a écrit la musique du « Bon, la Brute et le Truand » ?",
-        "a": "Ennio Morricone"
-      }
+      { "q": "Quel acteur joue le tueur d'enfants dans 'M le Maudit' de Fritz Lang en 1931 ?", "a": "Peter Lorre" },
+      { "q": "Quel film soviétique de 1925 d'Eisenstein contient la scène mythique des escaliers d'Odessa ?", "a": "Le Cuirassé Potemkine" },
+      { "q": "Quel film de 1922 de Murnau est une adaptation non autorisée de Dracula ?", "a": "Nosferatu le vampire" },
+      { "q": "Quel scénariste italien a co-écrit 'Le Voleur de bicyclette' et 'Umberto D' avec De Sica ?", "a": "Cesare Zavattini" },
+      { "q": "Quel cinéaste sénégalais est considéré comme le père du cinéma africain et a réalisé 'La Noire de…' ?", "a": "Ousmane Sembène" },
+      { "q": "Quel film d'Aleksandr Sokourov de 2002 est tourné en un seul plan-séquence dans l'Ermitage ?", "a": "L'Arche russe" },
+      { "q": "Quel chef opérateur a accompagné Ingmar Bergman pendant des décennies, signant 'Cris et chuchotements' ?", "a": "Sven Nykvist" },
+      { "q": "Quel film de 1981 d'Andrzej Wajda mêle fiction et documentaire sur Solidarność ?", "a": "L'Homme de fer" },
+      { "q": "Quelle monteuse, fidèle de Scorsese, a remporté trois Oscars du meilleur montage ?", "a": "Thelma Schoonmaker" },
+      { "q": "Quel film de 1925 de Charlie Chaplin se déroule lors de la ruée vers l'or au Yukon ?", "a": "La Ruée vers l'or" },
+      { "q": "Quel cinéaste italien a réalisé 'Voyage en Italie' avec Ingrid Bergman en 1954 ?", "a": "Roberto Rossellini" },
+      { "q": "Quel film de Tarkovski de 1966 retrace la vie d'un peintre d'icônes médiéval ?", "a": "Andreï Roublev" },
+      { "q": "Quel film de 1962 de Chris Marker est composé presque entièrement de photographies fixes ?", "a": "La Jetée" },
+      { "q": "Quel cinéaste cambodgien, rescapé des Khmers rouges, a réalisé 'L'Image manquante' ?", "a": "Rithy Panh" },
+      { "q": "Quel acteur a refusé l'Oscar du meilleur acteur 1973 pour 'Le Parrain' ?", "a": "Marlon Brando" }
     ],
     "10": [
-      {
-        "q": "Qui a réalisé « La Ligne verte » et « Les Évadés » ?",
-        "a": "Frank Darabont"
-      },
-      {
-        "q": "Quel acteur a remporté trois Oscars du meilleur acteur, un record ?",
-        "a": "Daniel Day-Lewis"
-      },
-      {
-        "q": "Quel film de Stanley Kubrick suit le jeune délinquant Alex DeLarge ?",
-        "a": "Orange mécanique"
-      },
-      {
-        "q": "Qui a réalisé « Citizen Kane », souvent cité comme le meilleur film de l'histoire ?",
-        "a": "Orson Welles"
-      },
-      {
-        "q": "Quel acteur incarne Travis Bickle dans « Taxi Driver » ?",
-        "a": "Robert De Niro"
-      },
-      {
-        "q": "Quelle réalisatrice a été la première femme à remporter l'Oscar du meilleur réalisateur ?",
-        "a": "Kathryn Bigelow"
-      },
-      {
-        "q": "Quel réalisateur français a fait « La Haine » ?",
-        "a": "Mathieu Kassovitz"
-      },
-      {
-        "q": "Quel compositeur a écrit la musique d'« Interstellar » et d'« Inception » ?",
-        "a": "Hans Zimmer"
-      },
-      {
-        "q": "Quel acteur a été le premier James Bond au cinéma ?",
-        "a": "Sean Connery"
-      },
-      {
-        "q": "Quel film de science-fiction de 1982 avec Harrison Ford se déroule à Los Angeles en 2019 ?",
-        "a": "Blade Runner"
-      }
+      { "q": "Quel cinéaste arménien soviétique est l'auteur de 'La Couleur de la grenade' (1969) ?", "a": "Sergueï Paradjanov" },
+      { "q": "Quelle actrice détient le record de quatre Oscars de la meilleure actrice ?", "a": "Katharine Hepburn" },
+      { "q": "Quel film de 1975 de Robert Altman dresse le portrait choral de la scène musicale du Tennessee ?", "a": "Nashville" },
+      { "q": "Quel premier film parlant de l'histoire est sorti en 1927 avec Al Jolson ?", "a": "Le Chanteur de jazz" },
+      { "q": "Quel monteur de 'Citizen Kane' est ensuite devenu réalisateur, signant 'West Side Story' ?", "a": "Robert Wise" },
+      { "q": "Quel film de 1964 de Sergio Leone lance officiellement le western spaghetti ?", "a": "Pour une poignée de dollars" },
+      { "q": "Quel film de 1949 de Carol Reed se déroule à Vienne, avec une cithare comme thème musical ?", "a": "Le Troisième Homme" },
+      { "q": "Quel cinéaste mauritanien a réalisé 'Timbuktu' (2014), nommé à l'Oscar du film étranger ?", "a": "Abderrahmane Sissako" },
+      { "q": "Quel cinéaste thaïlandais a remporté la Palme d'or 2010 pour 'Oncle Boonmee' ?", "a": "Apichatpong Weerasethakul" },
+      { "q": "Quel premier acteur noir a remporté l'Oscar du meilleur acteur, en 1964 pour 'Le Lys des champs' ?", "a": "Sidney Poitier" },
+      { "q": "Quel scénariste a co-écrit avec Buñuel 'Belle de jour' et 'Le Charme discret de la bourgeoisie' ?", "a": "Jean-Claude Carrière" },
+      { "q": "Quel monteur, longtemps collaborateur de Coppola, a remporté l'Oscar pour 'Le Patient anglais' ?", "a": "Walter Murch" },
+      { "q": "Quel film de 1928 de Carl Theodor Dreyer fait un usage radical des gros plans frontaux ?", "a": "La Passion de Jeanne d'Arc" },
+      { "q": "Quel cinéaste, surnommé le 'maître du suspense', a tourné plus de 50 films sans jamais remporter l'Oscar du meilleur réalisateur ?", "a": "Alfred Hitchcock" },
+      { "q": "Quelle actrice française a remporté l'Oscar de la meilleure actrice 2008 pour 'La Môme' ?", "a": "Marion Cotillard" }
     ]
   }
 }
