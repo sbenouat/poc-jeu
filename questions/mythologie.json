@@ -4,35 +4,71 @@
   "questions": {
     "1": [
       {
-        "q": "Qui est le dieu grec du tonnerre ?",
+        "q": "Quel dieu grec, roi de l’Olympe, lance la foudre ?",
         "a": "Zeus"
       },
       {
-        "q": "Qui est le dieu romain équivalent à Zeus ?",
-        "a": "Jupiter"
+        "q": "Quel héros très fort de la mythologie a accompli douze travaux ?",
+        "a": "Hercule (Héraclès)"
       },
       {
-        "q": "Qui est le dieu nordique du tonnerre ?",
+        "q": "Quel dieu au marteau, célèbre grâce aux films Marvel, vient de la mythologie nordique ?",
         "a": "Thor"
+      },
+      {
+        "q": "Quel animal géant en bois a permis aux Grecs d’entrer dans la ville de Troie ?",
+        "a": "Un cheval (le cheval de Troie)"
+      },
+      {
+        "q": "Sur quelle montagne vivent les dieux grecs ?",
+        "a": "L’Olympe"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quelle créature de la mythologie grecque est mi-homme mi-cheval ?",
+        "a": "Le centaure"
+      },
+      {
+        "q": "Quel monstre de la mythologie grecque a des serpents à la place des cheveux ?",
+        "a": "Méduse"
+      },
+      {
+        "q": "Quel dieu farceur, frère adoptif de Thor dans les films Marvel, est le dieu nordique de la ruse ?",
+        "a": "Loki"
+      },
+      {
+        "q": "Quelle partie du corps était le seul point faible du héros Achille ?",
+        "a": "Le talon"
+      },
+      {
+        "q": "Quelle créature mi-femme mi-poisson attirait les marins par son chant ?",
+        "a": "La sirène"
+      }
+    ],
+    "3": [
+      {
+        "q": "Quel dieu romain est l’équivalent de Zeus ?",
+        "a": "Jupiter"
       },
       {
         "q": "Qui est la déesse grecque de l’amour ?",
         "a": "Aphrodite"
       },
       {
-        "q": "Qui est le dieu égyptien à tête de chacal ?",
+        "q": "Quel dieu égyptien a une tête de chacal ?",
         "a": "Anubis"
-      }
-    ],
-    "2": [
-      {
-        "q": "Qui est la déesse romaine de la chasse ?",
-        "a": "Diane"
       },
       {
-        "q": "Qui est le dieu grec de la mer ?",
+        "q": "Qui est le dieu grec de la mer, armé d’un trident ?",
         "a": "Poséidon"
       },
+      {
+        "q": "Quel monstre mi-homme mi-taureau vivait dans un labyrinthe en Crète ?",
+        "a": "Le Minotaure"
+      }
+    ],
+    "4": [
       {
         "q": "Quel héros grec a tué le Minotaure ?",
         "a": "Thésée"
@@ -42,131 +78,91 @@
         "a": "Odin"
       },
       {
-        "q": "Qui est la déesse égyptienne de la maternité et de la magie ?",
-        "a": "Isis"
-      }
-    ],
-    "3": [
-      {
-        "q": "Quel héros grec a accompli 12 travaux ?",
-        "a": "Héraclès"
-      },
-      {
-        "q": "Qui est le dieu romain de la guerre ?",
-        "a": "Mars"
-      },
-      {
-        "q": "Qui est le dieu grec du soleil ?",
-        "a": "Apollon"
-      },
-      {
-        "q": "Qui est le dieu nordique de la ruse et du chaos ?",
-        "a": "Loki"
-      },
-      {
-        "q": "Quel fleuve séparait le monde des vivants et des morts dans la mythologie grecque ?",
-        "a": "Le Styx"
-      }
-    ],
-    "4": [
-      {
-        "q": "Qui est la déesse grecque de la sagesse ?",
+        "q": "Quelle déesse grecque de la sagesse a donné son nom à la ville d’Athènes ?",
         "a": "Athéna"
       },
       {
-        "q": "Quel héros grec a construit le cheval de Troie ?",
-        "a": "Ulysse"
+        "q": "Quel dieu romain de la guerre a donné son nom à une planète rouge ?",
+        "a": "Mars"
       },
+      {
+        "q": "Quel héros grec, roi d’Ithaque, a eu l’idée du cheval de Troie ?",
+        "a": "Ulysse"
+      }
+    ],
+    "5": [
+      {
+        "q": "Qui est la déesse romaine de la chasse ?",
+        "a": "Diane"
+      },
+      {
+        "q": "Qui est le dieu grec du soleil et des arts ?",
+        "a": "Apollon"
+      },
+      {
+        "q": "Quel fleuve des Enfers les morts devaient-ils traverser dans la mythologie grecque ?",
+        "a": "Le Styx"
+      },
+      {
+        "q": "Qui est le dieu grec des Enfers ?",
+        "a": "Hadès"
+      },
+      {
+        "q": "Quel dieu romain de la mer a donné son nom à une planète ?",
+        "a": "Neptune"
+      }
+    ],
+    "6": [
+      {
+        "q": "Qui est la déesse égyptienne de la magie, épouse d’Osiris ?",
+        "a": "Isis"
+      },
+      {
+        "q": "Quel titan a volé le feu aux dieux pour le donner aux hommes ?",
+        "a": "Prométhée"
+      },
+      {
+        "q": "Qui est la déesse grecque de la chasse, sœur jumelle d’Apollon ?",
+        "a": "Artémis"
+      },
+      {
+        "q": "Quel dieu grec, messager des dieux, porte des sandales ailées ?",
+        "a": "Hermès"
+      },
+      {
+        "q": "Qui est le dieu grec du vin et de la fête ?",
+        "a": "Dionysos"
+      }
+    ],
+    "7": [
       {
         "q": "Qui est le dieu égyptien du soleil ?",
         "a": "Rê"
       },
       {
-        "q": "Qui est le dieu romain des enfers ?",
-        "a": "Pluton"
-      },
-      {
-        "q": "Qui est la déesse nordique de la mort ?",
-        "a": "Hel"
-      }
-    ],
-    "5": [
-      {
-        "q": "Quel titan a volé le feu pour le donner aux hommes ?",
-        "a": "Prométhée"
-      },
-      {
-        "q": "Qui est le dieu grec des enfers ?",
-        "a": "Hadès"
-      },
-      {
-        "q": "Quel dieu nordique est destiné à tuer Odin au Ragnarök ?",
-        "a": "Fenrir (le loup)"
-      },
-      {
-        "q": "Quel dieu romain est le messager des dieux ?",
-        "a": "Mercure"
-      },
-      {
-        "q": "Quel monstre avait des serpents à la place des cheveux ?",
-        "a": "Méduse"
-      }
-    ],
-    "6": [
-      {
-        "q": "Qui est la déesse grecque de la chasse ?",
-        "a": "Artémis"
-      },
-      {
-        "q": "Quel dieu grec est souvent représenté avec des ailes aux pieds ?",
-        "a": "Hermès"
-      },
-      {
-        "q": "Qui est le dieu égyptien du chaos et du désert ?",
-        "a": "Seth"
-      },
-      {
-        "q": "Quel dieu nordique a donné un œil pour obtenir la sagesse ?",
+        "q": "Quel dieu nordique a sacrifié un œil pour obtenir la sagesse ?",
         "a": "Odin"
       },
       {
-        "q": "Quel est le dieu romain de la mer ?",
-        "a": "Neptune"
-      }
-    ],
-    "7": [
-      {
-        "q": "Quel héros grec a vaincu le Cyclope Polyphème ?",
-        "a": "Ulysse"
+        "q": "Qui est le dieu romain des Enfers, qui a donné son nom à une planète naine ?",
+        "a": "Pluton"
       },
       {
-        "q": "Qui est la déesse grecque de la terre ?",
-        "a": "Gaïa"
+        "q": "Quelle épouse fidèle a attendu Ulysse pendant vingt ans à Ithaque ?",
+        "a": "Pénélope"
       },
       {
-        "q": "Quel est le dieu nordique de la lumière et de la beauté ?",
-        "a": "Baldr"
-      },
-      {
-        "q": "Quel dieu romain est l’équivalent d’Apollon ?",
-        "a": "Apollon (même nom)"
-      },
-      {
-        "q": "Qui est le dieu grec du vin et des festivités ?",
-        "a": "Dionysos"
+        "q": "Quel dieu romain, messager des dieux, a donné son nom à une planète ?",
+        "a": "Mercure"
       }
     ],
     "8": [
       {
-        "q": "Quel héros grec a traversé la Méditerranée pour retrouver Iphigénie ?",
-        "a": "Oreste"
+        "q": "Qui est la déesse grecque de la Terre, mère des titans ?",
+        "a": "Gaïa"
       },
       {
-        "q": "Quel dieu nordique est lié à la fertilité et à la prospérité ?",
-        "a": "Freyr"
-      },
-      {
-        "q": "Quel dieu égyptien avait une tête de faucon ?",
+        "q": "Quel dieu égyptien à tête de faucon est le fils d’Isis et d’Osiris ?",
         "a": "Horus"
       },
       {
@@ -174,52 +170,56 @@
         "a": "Déméter"
       },
       {
-        "q": "Quel monstre marin a été terrassé par Persée ?",
-        "a": "Cétus"
+        "q": "Quel dieu égyptien du chaos et du désert a tué son frère Osiris ?",
+        "a": "Seth"
+      },
+      {
+        "q": "Quel titan, père de Zeus, dévorait ses propres enfants ?",
+        "a": "Cronos"
       }
     ],
     "9": [
       {
-        "q": "Qui est le dieu grec du sommeil ?",
+        "q": "Quel loup géant est destiné à tuer Odin lors de la fin du monde nordique ?",
+        "a": "Fenrir"
+      },
+      {
+        "q": "Quel dieu grec du sommeil a donné son nom au mot « hypnose » ?",
         "a": "Hypnos"
       },
       {
-        "q": "Qui est le dieu romain du sommeil ?",
-        "a": "Somnus"
+        "q": "Comment s’appelle la fin du monde dans la mythologie nordique ?",
+        "a": "Le Ragnarök"
       },
       {
-        "q": "Quel est le lieu de repos des héros dans la mythologie grecque ?",
-        "a": "Les Champs Élysées"
-      },
-      {
-        "q": "Qui est le dieu égyptien associé à la momification ?",
-        "a": "Anubis"
-      },
-      {
-        "q": "Quel dieu nordique sera tué par une branche de gui ?",
+        "q": "Quel dieu nordique de la lumière a été tué par une flèche de gui ?",
         "a": "Baldr"
+      },
+      {
+        "q": "Comment s’appelle le paradis des guerriers nordiques morts au combat ?",
+        "a": "Le Valhalla"
       }
     ],
     "10": [
       {
-        "q": "Quel est le nom du serpent géant qui encercle le monde dans la mythologie nordique ?",
+        "q": "Quel serpent géant encercle le monde dans la mythologie nordique ?",
         "a": "Jörmungandr"
       },
       {
-        "q": "Qui est le titan père de Zeus, Poséidon et Hadès ?",
-        "a": "Cronos"
-      },
-      {
-        "q": "Quel est le dieu égyptien créateur du monde selon la cosmogonie d’Héliopolis ?",
-        "a": "Atoum"
-      },
-      {
-        "q": "Qui est la déesse grecque de la discorde, à l’origine de la guerre de Troie ?",
+        "q": "Quelle déesse grecque de la discorde a lancé la pomme d’or à l’origine de la guerre de Troie ?",
         "a": "Éris"
       },
       {
-        "q": "Quel est le royaume des morts dans la mythologie nordique ?",
-        "a": "Helheim"
+        "q": "Qui est la déesse nordique qui règne sur le royaume des morts ?",
+        "a": "Hel"
+      },
+      {
+        "q": "Quel dieu nordique est associé à la fertilité et à la prospérité ?",
+        "a": "Freyr"
+      },
+      {
+        "q": "Quel arbre géant relie les neuf mondes de la mythologie nordique ?",
+        "a": "Yggdrasil"
       }
     ]
   }

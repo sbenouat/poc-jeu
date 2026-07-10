@@ -4,222 +4,222 @@
   "questions": {
     "1": [
       {
-        "q": "Quelle boisson chaude se prépare en infusant des feuilles de théier ?",
-        "a": "Le thé"
-      },
-      {
-        "q": "Quelle boisson est faite à base de grains torréfiés et moulus ?",
+        "q": "Quelle boisson chaude est faite de grains torréfiés et moulus ?",
         "a": "Le café"
       },
       {
-        "q": "Quel jus d’agrume est souvent bu au petit-déjeuner ?",
+        "q": "Quelle boisson chaude se prépare en infusant des feuilles dans de l’eau ?",
+        "a": "Le thé"
+      },
+      {
+        "q": "Quel jus d’agrume boit-on souvent au petit-déjeuner ?",
         "a": "Le jus d’orange"
       },
       {
-        "q": "Quel soda brun célèbre a été inventé en 1886 à Atlanta ?",
-        "a": "Coca-Cola"
+        "q": "Quel célèbre soda brun a été inventé à Atlanta en 1886 ?",
+        "a": "Le Coca-Cola"
       },
       {
-        "q": "Quel alcool est associé à la bière blonde allemande servie à l’Oktoberfest ?",
-        "a": "La bière"
+        "q": "Quelle boisson à bulles ouvre-t-on pour fêter le Nouvel An ?",
+        "a": "Le champagne"
       }
     ],
     "2": [
       {
-        "q": "Quel vin effervescent vient exclusivement de la région de Champagne en France ?",
-        "a": "Le champagne"
+        "q": "Quelle boisson dorée et mousseuse coule à flots à l’Oktoberfest ?",
+        "a": "La bière"
       },
       {
-        "q": "Quelle boisson japonaise est faite à partir de riz fermenté ?",
-        "a": "Le saké"
+        "q": "Quelle boisson est obtenue en faisant fermenter du jus de raisin ?",
+        "a": "Le vin"
       },
       {
-        "q": "Quel cocktail à base de rhum, menthe, sucre, citron vert et eau gazeuse vient de Cuba ?",
-        "a": "Le mojito"
-      },
-      {
-        "q": "Quelle boisson chaude mexicaine se prépare avec du cacao et de la cannelle ?",
-        "a": "Le chocolat chaud mexicain"
-      },
-      {
-        "q": "Quelle boisson gazeuse française, aromatisée au citron, s’appelle aussi 'limonade' ?",
+        "q": "Quelle boisson gazeuse au goût de citron porte un nom qui vient de « limon » ?",
         "a": "La limonade"
+      },
+      {
+        "q": "Quelle boisson chaude au cacao réconforte en hiver ?",
+        "a": "Le chocolat chaud"
+      },
+      {
+        "q": "Quel cocktail cubain mélange rhum, menthe, sucre et citron vert ?",
+        "a": "Le mojito"
       }
     ],
     "3": [
       {
-        "q": "Quel alcool anisé est très populaire en Grèce et à Chypre ?",
-        "a": "L’ouzo"
+        "q": "Quelle boisson normande ou bretonne est faite de pommes fermentées ?",
+        "a": "Le cidre"
       },
       {
-        "q": "Quel thé parfumé à la bergamote porte le nom d’un comte anglais ?",
-        "a": "Le thé Earl Grey"
-      },
-      {
-        "q": "Quel alcool est utilisé pour préparer une caïpirinha brésilienne ?",
-        "a": "La cachaça"
-      },
-      {
-        "q": "Quelle boisson indienne est un mélange de thé noir, lait et épices ?",
-        "a": "Le chai masala"
-      },
-      {
-        "q": "Quel café italien est servi dans une petite tasse concentrée ?",
+        "q": "Quel café italien très concentré est servi dans une petite tasse ?",
         "a": "L’espresso"
+      },
+      {
+        "q": "Quelle boisson japonaise est un alcool de riz ?",
+        "a": "Le saké"
+      },
+      {
+        "q": "Quel cocktail mexicain à la tequila se sert avec du sel sur le bord du verre ?",
+        "a": "La margarita"
+      },
+      {
+        "q": "Quel alcool de canne à sucre est produit en Martinique et en Guadeloupe ?",
+        "a": "Le rhum"
       }
     ],
     "4": [
       {
-        "q": "Quel vin fortifié portugais est produit dans la vallée du Douro ?",
-        "a": "Le porto"
+        "q": "Quel café italien au lait chaud mousseux se boit le matin ?",
+        "a": "Le cappuccino"
       },
       {
-        "q": "Quel cocktail américain est composé de bourbon, sucre, eau et feuilles de menthe ?",
-        "a": "Le mint julep"
-      },
-      {
-        "q": "Quelle boisson fermentée mongole est faite à partir de lait de jument ?",
-        "a": "Le koumis"
-      },
-      {
-        "q": "Quel thé traditionnel chinois est vieilli et compressé en galettes ?",
-        "a": "Le thé Pu-erh"
-      },
-      {
-        "q": "Quelle boisson à base de pommes fermentées est appelée cidre ?",
-        "a": "Le cidre"
-      }
-    ],
-    "5": [
-      {
-        "q": "Quel cocktail mexicain est à base de tequila, triple sec et jus de citron vert ?",
-        "a": "La margarita"
-      },
-      {
-        "q": "Quel apéritif français est fait de vin et de crème de cassis ?",
-        "a": "Le kir"
-      },
-      {
-        "q": "Quelle boisson gazeuse sud-américaine est faite de feuilles de coca (sans cocaïne aujourd’hui) ?",
-        "a": "Inca Kola"
-      },
-      {
-        "q": "Quel alcool de canne à sucre est produit notamment en Martinique et en Guadeloupe ?",
-        "a": "Le rhum"
-      },
-      {
-        "q": "Quel cocktail new-yorkais est composé de whisky, vermouth rouge et bitter ?",
-        "a": "Le Manhattan"
-      }
-    ],
-    "6": [
-      {
-        "q": "Quelle boisson fermentée coréenne est faite à base de riz et servie claire ou laiteuse ?",
-        "a": "Le makgeolli"
-      },
-      {
-        "q": "Quel cocktail à base de vodka, jus de tomate, épices et céleri porte un nom sanglant ?",
-        "a": "Le Bloody Mary"
-      },
-      {
-        "q": "Quel alcool écossais est vieilli en fût de chêne et se boit pur ou en cocktail ?",
-        "a": "Le whisky (scotch)"
-      },
-      {
-        "q": "Quel café glacé italien est servi avec de la glace vanille ou crème chantilly ?",
-        "a": "L’affogato"
-      },
-      {
-        "q": "Quelle boisson gazeuse canadienne est à base de gingembre ?",
-        "a": "Le ginger ale"
-      }
-    ],
-    "7": [
-      {
-        "q": "Quel spiritueux mexicain est fabriqué à partir d’agave bleue ?",
+        "q": "Quel spiritueux mexicain est fabriqué à partir d’agave ?",
         "a": "La tequila"
+      },
+      {
+        "q": "Quel apéritif anisé se boit avec de l’eau fraîche dans le sud de la France ?",
+        "a": "Le pastis"
       },
       {
         "q": "Quel cocktail tropical associe rhum, jus d’ananas et crème de coco ?",
         "a": "La piña colada"
       },
       {
-        "q": "Quel vin fortifié espagnol est souvent servi à l’apéritif, notamment en Andalousie ?",
-        "a": "Le xérès (sherry)"
+        "q": "Quel alcool écossais vieilli en fût de chêne s’appelle aussi « scotch » ?",
+        "a": "Le whisky"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel thé parfumé à la bergamote porte le nom d’un comte anglais ?",
+        "a": "Le Earl Grey"
       },
       {
-        "q": "Quel thé japonais en poudre verte est utilisé dans la cérémonie du thé ?",
+        "q": "Quel apéritif bourguignon mélange vin blanc et crème de cassis ?",
+        "a": "Le kir"
+      },
+      {
+        "q": "Quel vin fortifié portugais porte le nom d’une ville du pays ?",
+        "a": "Le porto"
+      },
+      {
+        "q": "Quel cocktail à base de vodka et de jus de tomate porte un nom sanglant ?",
+        "a": "Le Bloody Mary"
+      },
+      {
+        "q": "Quel alcool anisé grec se boit à l’apéritif ?",
+        "a": "L’ouzo"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel thé japonais en poudre verte colore de nombreux desserts ?",
         "a": "Le matcha"
       },
       {
-        "q": "Quel café glacé américain très populaire est vendu par Starbucks ?",
+        "q": "Quel cocktail italien orange, à base d’Aperol, se boit en terrasse ?",
+        "a": "Le spritz"
+      },
+      {
+        "q": "Quelle boisson chaude indienne mélange thé noir, lait et épices ?",
+        "a": "Le chai"
+      },
+      {
+        "q": "Quelle eau-de-vie prestigieuse vient d’une ville de Charente ?",
+        "a": "Le cognac"
+      },
+      {
+        "q": "Quel café glacé mixé a été popularisé par Starbucks ?",
         "a": "Le Frappuccino"
+      }
+    ],
+    "7": [
+      {
+        "q": "Quel alcool brésilien est la base de la caïpirinha ?",
+        "a": "La cachaça"
+      },
+      {
+        "q": "Quelle boisson sud-américaine se boit dans une calebasse avec une paille en métal ?",
+        "a": "Le maté"
+      },
+      {
+        "q": "Quel cocktail new-yorkais mélange whisky, vermouth rouge et bitter ?",
+        "a": "Le Manhattan"
+      },
+      {
+        "q": "Quel cocktail rose mélange vodka, triple sec, citron vert et cranberry ?",
+        "a": "Le cosmopolitan"
+      },
+      {
+        "q": "Quel café, servi avec son marc, se prépare dans une petite casserole appelée cezve ?",
+        "a": "Le café turc"
       }
     ],
     "8": [
       {
-        "q": "Quel alcool italien amer est la base du spritz ?",
-        "a": "L’Aperol (ou le Campari)"
+        "q": "Quel soda jaune fluo est plus populaire que le Coca-Cola au Pérou ?",
+        "a": "L’Inca Kola"
       },
       {
-        "q": "Quel cocktail new-yorkais est fait de vodka, triple sec, citron vert et cranberry ?",
-        "a": "Le cosmopolitan"
+        "q": "Quel cocktail cubain de rhum blanc, citron vert et sucre était le préféré d’Hemingway ?",
+        "a": "Le daiquiri"
       },
       {
-        "q": "Quel alcool japonais est distillé à partir d’orge, patates douces ou riz ?",
-        "a": "Le shōchū"
+        "q": "Quel vin fortifié d’Andalousie s’appelle aussi « sherry » ?",
+        "a": "Le xérès"
       },
       {
-        "q": "Quel café turc est préparé dans une petite casserole appelée cezve ?",
-        "a": "Le café turc"
+        "q": "Quel digestif italien est fabriqué à partir de marc de raisin ?",
+        "a": "La grappa"
       },
       {
-        "q": "Quelle boisson sud-américaine se boit avec une calebasse et une bombilla ?",
-        "a": "Le maté"
+        "q": "Quel cocktail du sud des États-Unis mélange bourbon, sucre et feuilles de menthe ?",
+        "a": "Le mint julep"
       }
     ],
     "9": [
       {
-        "q": "Quel spiritueux italien à base de marc de raisin se boit en digestif ?",
-        "a": "La grappa"
+        "q": "Quel thé chinois fermenté est vendu compressé en galettes ?",
+        "a": "Le pu-erh"
       },
       {
-        "q": "Quel cocktail est composé de rhum blanc, citron vert et sucre de canne, servi à La Havane ?",
-        "a": "Le daiquiri"
+        "q": "Quel alcool national coréen se vend en petites bouteilles vertes ?",
+        "a": "Le soju"
       },
       {
-        "q": "Quel alcool fortifié français vient de la région de Cognac ?",
-        "a": "Le cognac"
-      },
-      {
-        "q": "Quel café italien mélangé avec du lait chaud mousseux est servi le matin ?",
-        "a": "Le cappuccino"
-      },
-      {
-        "q": "Quel cocktail tiki inventé en Californie mélange rhum, amaretto, jus de citron vert et sirop d’orgeat ?",
+        "q": "Quel cocktail tiki mélange rhum, curaçao et sirop d’orgeat ?",
         "a": "Le Mai Tai"
+      },
+      {
+        "q": "De quel pays viennent les whiskys Yamazaki et Nikka ?",
+        "a": "Le Japon"
+      },
+      {
+        "q": "Avec quel lait le café vietnamien traditionnel est-il préparé ?",
+        "a": "Le lait concentré sucré"
       }
     ],
     "10": [
       {
-        "q": "Quel whisky japonais de la distillerie Suntory est célèbre dans le monde entier ?",
-        "a": "Yamazaki (ou Hibiki)"
-      },
-      {
-        "q": "Quel alcool chinois très fort à base de sorgho est le plus bu au monde ?",
+        "q": "Quel alcool chinois de sorgho est l’alcool le plus bu au monde ?",
         "a": "Le baijiu"
       },
       {
-        "q": "Quel cocktail de la Nouvelle-Orléans contient absinthe, whisky de seigle, sucre et bitter ?",
+        "q": "Quel cocktail de La Nouvelle-Orléans mélange whisky de seigle, absinthe et bitter ?",
         "a": "Le Sazerac"
       },
       {
-        "q": "Quel café vietnamien se prépare avec du lait concentré sucré ?",
-        "a": "Le café vietnamien"
+        "q": "Quel alcool péruvien et chilien sert à préparer le Pisco Sour ?",
+        "a": "Le pisco"
       },
       {
-        "q": "Quel alcool péruvien et chilien est utilisé pour faire le Pisco Sour ?",
-        "a": "Le pisco"
+        "q": "Quel alcool japonais distillé, différent du saké, est fait d’orge ou de patate douce ?",
+        "a": "Le shōchū"
+      },
+      {
+        "q": "Comment appelle-t-on les bières belges brassées dans des abbayes par des moines ?",
+        "a": "Les trappistes"
       }
     ]
   }

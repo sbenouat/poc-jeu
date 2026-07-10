@@ -4,137 +4,217 @@
   "questions": {
     "1": [
       {
-        "q": "Quel groupe a chanté « Yesterday » ?",
-        "a": "The Beatles"
+        "q": "Quel instrument a des touches noires et blanches ?",
+        "a": "Le piano"
       },
       {
-        "q": "Qui est le « King of Pop » ?",
+        "q": "Quel instrument frappe-t-on avec des baguettes ?",
+        "a": "La batterie"
+      },
+      {
+        "q": "Quel instrument à cordes se joue avec un archet ?",
+        "a": "Le violon"
+      },
+      {
+        "q": "Quel est l'hymne national de la France ?",
+        "a": "La Marseillaise"
+      },
+      {
+        "q": "Quelle chanson chante-t-on autour d'un gâteau d'anniversaire ?",
+        "a": "« Joyeux anniversaire »"
+      },
+      {
+        "q": "Quel artiste est surnommé le « King of Pop » ?",
         "a": "Michael Jackson"
       },
       {
-        "q": "Qui a chanté « Thriller » ?",
-        "a": "Michael Jackson"
+        "q": "Quelle comptine demande « Dormez-vous ? Dormez-vous ? » ?",
+        "a": "Frère Jacques"
       },
       {
-        "q": "Quel groupe a chanté « Bohemian Rhapsody » ?",
-        "a": "Queen"
+        "q": "Combien y a-t-il de notes de musique (do, ré, mi…) ?",
+        "a": "7"
       },
       {
-        "q": "Qui a composé « La Lettre à Élise » ?",
-        "a": "Beethoven"
+        "q": "Dans quel style de musique classe-t-on Mozart et Beethoven ?",
+        "a": "La musique classique"
       },
       {
-        "q": "Qui a composé « L'Hymne à la joie » ?",
-        "a": "Beethoven"
+        "q": "Quel objet un chanteur tient-il pour amplifier sa voix sur scène ?",
+        "a": "Un micro"
+      }
+    ],
+    "2": [
+      {
+        "q": "Quel chanteur belge chante « Papaoutai » et « Alors on danse » ?",
+        "a": "Stromae"
+      },
+      {
+        "q": "Quelle chanteuse française chante « Djadja » ?",
+        "a": "Aya Nakamura"
+      },
+      {
+        "q": "Quelle chanteuse colombienne chante « Waka Waka » ?",
+        "a": "Shakira"
+      },
+      {
+        "q": "Quel groupe suédois chante « Dancing Queen » ?",
+        "a": "ABBA"
+      },
+      {
+        "q": "Quel rockeur français chantait « Allumer le feu » ?",
+        "a": "Johnny Hallyday"
       },
       {
         "q": "Quel artiste est surnommé le « Roi du rock'n'roll » ?",
         "a": "Elvis Presley"
       },
       {
-        "q": "Quel compositeur est sourd à la fin de sa vie mais continue à composer ?",
-        "a": "Beethoven"
+        "q": "Quelle chanteuse canadienne interprète la chanson du film « Titanic » ?",
+        "a": "Céline Dion"
       },
       {
-        "q": "Qui a composé « La Flûte enchantée » ?",
-        "a": "Mozart"
+        "q": "Quel groupe anglais chante « We Will Rock You » et « Bohemian Rhapsody » ?",
+        "a": "Queen"
       },
       {
-        "q": "Quel chanteur est connu pour « Imagine » ?",
-        "a": "John Lennon"
-      }
-    ],
-    "2": [
-      {
-        "q": "Qui a chanté « Shape of You » ?",
-        "a": "Ed Sheeran"
+        "q": "Quel DJ français est mondialement connu avec « Titanium » ?",
+        "a": "David Guetta"
       },
       {
-        "q": "Qui a chanté « Rolling in the Deep » ?",
-        "a": "Adele"
-      },
-      {
-        "q": "Qui a chanté « Poker Face » ?",
-        "a": "Lady Gaga"
-      },
-      {
-        "q": "Qui a chanté « Hello » ?",
-        "a": "Adele"
-      },
-      {
-        "q": "Quel groupe a chanté « Smells Like Teen Spirit » ?",
-        "a": "Nirvana"
-      },
-      {
-        "q": "Quel groupe a chanté « Hotel California » ?",
-        "a": "The Eagles"
-      },
-      {
-        "q": "Quel groupe a chanté « Satisfaction » ?",
-        "a": "The Rolling Stones"
-      },
-      {
-        "q": "Qui est le chanteur principal de Queen ?",
-        "a": "Freddie Mercury"
-      },
-      {
-        "q": "Qui a chanté « Like a Virgin » ?",
-        "a": "Madonna"
-      },
-      {
-        "q": "Qui a chanté « Purple Rain » ?",
-        "a": "Prince"
+        "q": "Quelle chanteuse américaine chante « Single Ladies » ?",
+        "a": "Beyoncé"
       }
     ],
     "3": [
       {
-        "q": "Qui a composé « La 9e Symphonie » ?",
-        "a": "Beethoven"
+        "q": "Quel groupe de Liverpool a chanté « Let It Be » et « Yesterday » ?",
+        "a": "The Beatles"
       },
       {
-        "q": "Qui a composé « Les Quatre Saisons » ?",
-        "a": "Vivaldi"
+        "q": "Quelle chanteuse française chante « La Vie en rose » ?",
+        "a": "Édith Piaf"
       },
       {
-        "q": "Qui a composé « Le Lac des cygnes » ?",
-        "a": "Tchaïkovski"
+        "q": "Quelle chanteuse anglaise chante « Hello » et « Rolling in the Deep » ?",
+        "a": "Adele"
       },
       {
-        "q": "Qui a composé « Carmen » ?",
-        "a": "Bizet"
-      },
-      {
-        "q": "Qui a composé « Le Boléro » ?",
-        "a": "Ravel"
+        "q": "Quelle chanteuse chante « Poker Face » et « Bad Romance » ?",
+        "a": "Lady Gaga"
       },
       {
         "q": "Quel artiste est surnommé le « Roi du reggae » ?",
         "a": "Bob Marley"
       },
       {
-        "q": "Qui a chanté « No Woman, No Cry » ?",
-        "a": "Bob Marley"
+        "q": "Combien de cordes a une guitare classique ?",
+        "a": "6"
       },
       {
-        "q": "Qui est le chanteur principal des Rolling Stones ?",
-        "a": "Mick Jagger"
+        "q": "Quelle superstar américaine chante « Shake It Off » ?",
+        "a": "Taylor Swift"
       },
       {
-        "q": "Qui est le chanteur principal de Nirvana ?",
-        "a": "Kurt Cobain"
+        "q": "Quelle chanteuse chante « Umbrella » et « Diamonds » ?",
+        "a": "Rihanna"
       },
       {
-        "q": "Quel compositeur russe a écrit « Casse-Noisette » ?",
-        "a": "Tchaïkovski"
+        "q": "Quel chanteur canadien, découvert adolescent sur YouTube, chante « Baby » ?",
+        "a": "Justin Bieber"
+      },
+      {
+        "q": "Quel chanteur anglais roux chante « Shape of You » ?",
+        "a": "Ed Sheeran"
       }
     ],
     "4": [
       {
-        "q": "Qui a chanté « Born in the USA » ?",
-        "a": "Bruce Springsteen"
+        "q": "Qui est le chanteur du groupe Queen ?",
+        "a": "Freddie Mercury"
       },
       {
-        "q": "Quel chanteur est surnommé le Boss ?",
+        "q": "Quel groupe a chanté « Smells Like Teen Spirit » ?",
+        "a": "Nirvana"
+      },
+      {
+        "q": "Quelle chanteuse a chanté « Like a Virgin » ?",
+        "a": "Madonna"
+      },
+      {
+        "q": "Quel membre des Beatles a chanté « Imagine » ?",
+        "a": "John Lennon"
+      },
+      {
+        "q": "Quel chanteur français chante « Les Lacs du Connemara » ?",
+        "a": "Michel Sardou"
+      },
+      {
+        "q": "Quelle chanteuse française chante « Dernière danse » ?",
+        "a": "Indila"
+      },
+      {
+        "q": "Quelle chanteuse belge chante « Balance ton quoi » ?",
+        "a": "Angèle"
+      },
+      {
+        "q": "Quel chanteur français, mort électrocuté, chantait « Alexandrie Alexandra » ?",
+        "a": "Claude François"
+      },
+      {
+        "q": "Quel rappeur américain chante « Lose Yourself » ?",
+        "a": "Eminem"
+      },
+      {
+        "q": "Quel chanteur américain chante « Uptown Funk » et « 24K Magic » ?",
+        "a": "Bruno Mars"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel groupe a chanté « Satisfaction » ?",
+        "a": "The Rolling Stones"
+      },
+      {
+        "q": "Qui est le chanteur des Rolling Stones ?",
+        "a": "Mick Jagger"
+      },
+      {
+        "q": "Qui était le chanteur de Nirvana ?",
+        "a": "Kurt Cobain"
+      },
+      {
+        "q": "Quel groupe a chanté « Hotel California » ?",
+        "a": "The Eagles"
+      },
+      {
+        "q": "Quel groupe australien chante « Highway to Hell » ?",
+        "a": "AC/DC"
+      },
+      {
+        "q": "Quel artiste a chanté « Purple Rain » ?",
+        "a": "Prince"
+      },
+      {
+        "q": "Qui chante « I Will Always Love You » dans le film « Bodyguard » ?",
+        "a": "Whitney Houston"
+      },
+      {
+        "q": "Quel chanteur français chante « Mistral gagnant » ?",
+        "a": "Renaud"
+      },
+      {
+        "q": "Quel chanteur français chante « La Bohème » et « Emmenez-moi » ?",
+        "a": "Charles Aznavour"
+      },
+      {
+        "q": "Quel groupe de rap marseillais chante « Je danse le Mia » ?",
+        "a": "IAM"
+      }
+    ],
+    "6": [
+      {
+        "q": "Qui a chanté « Born in the USA » ?",
         "a": "Bruce Springsteen"
       },
       {
@@ -142,252 +222,204 @@
         "a": "Bob Dylan"
       },
       {
-        "q": "Qui a chanté « Respect » ?",
+        "q": "Quelle chanteuse a chanté « Respect » ?",
         "a": "Aretha Franklin"
       },
       {
-        "q": "Qui a chanté « I Will Always Love You » ?",
-        "a": "Whitney Houston"
-      },
-      {
-        "q": "Qui a chanté « My Heart Will Go On » ?",
-        "a": "Céline Dion"
-      },
-      {
-        "q": "Qui a chanté « Wonderwall » ?",
+        "q": "Quel groupe britannique a chanté « Wonderwall » ?",
         "a": "Oasis"
       },
       {
-        "q": "Qui a chanté « Hey Jude » ?",
-        "a": "The Beatles"
-      },
-      {
-        "q": "Qui a chanté « Umbrella » ?",
-        "a": "Rihanna"
-      },
-      {
-        "q": "Quel artiste est surnommé la « Reine de la soul » ?",
-        "a": "Aretha Franklin"
-      }
-    ],
-    "5": [
-      {
-        "q": "Quel groupe a chanté « Stairway to Heaven » ?",
-        "a": "Led Zeppelin"
-      },
-      {
-        "q": "Quel groupe a chanté « Another Brick in the Wall » ?",
-        "a": "Pink Floyd"
-      },
-      {
-        "q": "Quel groupe a chanté « Highway to Hell » ?",
-        "a": "AC/DC"
-      },
-      {
-        "q": "Quel groupe a chanté « Enter Sandman » ?",
-        "a": "Metallica"
+        "q": "Quelle chanteuse anglaise, disparue en 2011, a chanté « Rehab » ?",
+        "a": "Amy Winehouse"
       },
       {
         "q": "Quel groupe a chanté « Sweet Child O' Mine » ?",
         "a": "Guns N' Roses"
       },
       {
-        "q": "Qui est le chanteur principal de U2 ?",
+        "q": "Qui est le chanteur du groupe U2 ?",
         "a": "Bono"
       },
       {
-        "q": "Qui est le chanteur principal de Coldplay ?",
+        "q": "Quel compositeur a écrit « La Lettre à Élise » ?",
+        "a": "Beethoven"
+      },
+      {
+        "q": "Quel chanteur français chante « Foule sentimentale » ?",
+        "a": "Alain Souchon"
+      },
+      {
+        "q": "Quel crooner américain chante « My Way » et « New York, New York » ?",
+        "a": "Frank Sinatra"
+      }
+    ],
+    "7": [
+      {
+        "q": "Qui a composé « La Flûte enchantée » ?",
+        "a": "Mozart"
+      },
+      {
+        "q": "Qui a composé « Les Quatre Saisons » ?",
+        "a": "Vivaldi"
+      },
+      {
+        "q": "Quel groupe a chanté « Another Brick in the Wall » ?",
+        "a": "Pink Floyd"
+      },
+      {
+        "q": "Quel groupe a chanté « Stairway to Heaven » ?",
+        "a": "Led Zeppelin"
+      },
+      {
+        "q": "Qui est le chanteur de Coldplay ?",
         "a": "Chris Martin"
       },
       {
-        "q": "Qui est la chanteuse de « Single Ladies » ?",
-        "a": "Beyoncé"
+        "q": "Quel trompettiste à la voix rauque chante « What a Wonderful World » ?",
+        "a": "Louis Armstrong"
       },
       {
-        "q": "Qui est la chanteuse de « Shake It Off » ?",
-        "a": "Taylor Swift"
+        "q": "Quel groupe de metal a chanté « Enter Sandman » ?",
+        "a": "Metallica"
       },
       {
-        "q": "Qui est la chanteuse de « Rehab » ?",
-        "a": "Amy Winehouse"
+        "q": "Quelle chanteuse américaine chante « Wrecking Ball » ?",
+        "a": "Miley Cyrus"
+      },
+      {
+        "q": "Quel compositeur français a écrit « Le Boléro » ?",
+        "a": "Ravel"
+      },
+      {
+        "q": "Quel chanteur belge a chanté « Ne me quitte pas » ?",
+        "a": "Jacques Brel"
       }
     ],
-    "6": [
+    "8": [
       {
-        "q": "Quel groupe a chanté « Paranoid » ?",
-        "a": "Black Sabbath"
+        "q": "Qui a composé l'opéra « Carmen » ?",
+        "a": "Bizet"
       },
       {
-        "q": "Quel groupe a chanté « Californication » ?",
-        "a": "Red Hot Chili Peppers"
+        "q": "Quel compositeur russe a écrit « Le Lac des cygnes » ?",
+        "a": "Tchaïkovski"
       },
       {
         "q": "Quel groupe a chanté « Losing My Religion » ?",
         "a": "R.E.M."
       },
       {
+        "q": "Quel groupe a chanté « Californication » ?",
+        "a": "Red Hot Chili Peppers"
+      },
+      {
         "q": "Quel groupe a chanté « Radioactive » ?",
         "a": "Imagine Dragons"
       },
       {
-        "q": "Quel groupe a chanté « Seven Nation Army » ?",
+        "q": "Quel groupe a chanté « Seven Nation Army », reprise dans tous les stades ?",
         "a": "The White Stripes"
       },
       {
-        "q": "Qui est le chanteur principal de Maroon 5 ?",
-        "a": "Adam Levine"
+        "q": "Quel chanteur américain, « parrain de la soul », chante « I Feel Good » ?",
+        "a": "James Brown"
       },
       {
-        "q": "Qui est le chanteur principal de Metallica ?",
+        "q": "Qui est le chanteur de Metallica ?",
         "a": "James Hetfield"
       },
       {
-        "q": "Qui est la chanteuse de « Bad Romance » ?",
-        "a": "Lady Gaga"
+        "q": "Quel chanteur anglais chante « Your Song » et « Rocket Man » ?",
+        "a": "Elton John"
       },
       {
-        "q": "Qui est la chanteuse de « Wrecking Ball » ?",
-        "a": "Miley Cyrus"
-      },
-      {
-        "q": "Qui a composé « La Traviata » ?",
-        "a": "Verdi"
-      }
-    ],
-    "7": [
-      {
-        "q": "Qui a composé « L'Art de la fugue » ?",
-        "a": "Bach"
-      },
-      {
-        "q": "Qui a composé « La Symphonie fantastique » ?",
-        "a": "Berlioz"
-      },
-      {
-        "q": "Qui a composé « Guillaume Tell » ?",
-        "a": "Rossini"
-      },
-      {
-        "q": "Qui est le chanteur principal de Muse ?",
-        "a": "Matthew Bellamy"
-      },
-      {
-        "q": "Qui est le chanteur principal de Radiohead ?",
-        "a": "Thom Yorke"
-      },
-      {
-        "q": "Qui est le chanteur principal de Pearl Jam ?",
-        "a": "Eddie Vedder"
-      },
-      {
-        "q": "Qui est la chanteuse de « Material Girl » ?",
-        "a": "Madonna"
-      },
-      {
-        "q": "Qui est la chanteuse de « Hollaback Girl » ?",
-        "a": "Gwen Stefani"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du jazz » ?",
-        "a": "Louis Armstrong"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du funk » ?",
-        "a": "James Brown"
-      }
-    ],
-    "8": [
-      {
-        "q": "Qui est le compositeur de l'opéra « La Bohème » ?",
-        "a": "Puccini"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Aïda » ?",
-        "a": "Verdi"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Don Giovanni » ?",
-        "a": "Mozart"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Le Barbier de Séville » ?",
-        "a": "Rossini"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Tristan et Isolde » ?",
-        "a": "Wagner"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Tosca » ?",
-        "a": "Puccini"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « Nabucco » ?",
-        "a": "Verdi"
-      },
-      {
-        "q": "Quel compositeur est surnommé le « Cantor de Leipzig » ?",
-        "a": "Bach"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Duc du jazz » ?",
-        "a": "Duke Ellington"
-      },
-      {
-        "q": "Quel artiste est surnommé le « Roi du blues » ?",
-        "a": "B.B. King"
+        "q": "Quel chanteur français a chanté « Osez Joséphine » ?",
+        "a": "Alain Bashung"
       }
     ],
     "9": [
-      {
-        "q": "Qui est le compositeur de l'opéra « Les Noces de Figaro » ?",
-        "a": "Mozart"
-      },
-      {
-        "q": "Qui est le compositeur de l'opéra « L'Anneau du Nibelung » ?",
-        "a": "Wagner"
-      },
-      {
-        "q": "Quel compositeur a écrit la « Symphonie du Nouveau Monde » ?",
-        "a": "Dvořák"
-      },
-      {
-        "q": "Quel compositeur a écrit « L'Oiseau de feu » ?",
-        "a": "Stravinsky"
-      },
       {
         "q": "Quel compositeur français a écrit « Le Carnaval des animaux » ?",
         "a": "Saint-Saëns"
       },
       {
-        "q": "Quel compositeur allemand a écrit « L'Or du Rhin » ?",
-        "a": "Wagner"
-      },
-      {
-        "q": "Quel compositeur italien a écrit « Otello » ?",
+        "q": "Qui a composé l'opéra « La Traviata » ?",
         "a": "Verdi"
       },
       {
-        "q": "Quel artiste est surnommé le « Prince de la pop » ?",
-        "a": "Justin Timberlake"
+        "q": "Qui est le chanteur de Muse ?",
+        "a": "Matthew Bellamy"
       },
       {
-        "q": "Quel artiste est surnommé le « Roi du rap » ?",
-        "a": "Jay-Z"
+        "q": "Qui est le chanteur de Radiohead ?",
+        "a": "Thom Yorke"
       },
       {
-        "q": "Quel artiste est surnommé la « Reine du R&B » ?",
-        "a": "Beyoncé"
+        "q": "Quelle chanteuse chante « Hollaback Girl » ?",
+        "a": "Gwen Stefani"
+      },
+      {
+        "q": "Quel guitariste de Queen est aussi docteur en astrophysique ?",
+        "a": "Brian May"
+      },
+      {
+        "q": "Quel chanteur menait Oasis avec son frère Noel ?",
+        "a": "Liam Gallagher"
+      },
+      {
+        "q": "Quel compositeur polonais est célèbre pour ses nocturnes au piano ?",
+        "a": "Chopin"
+      },
+      {
+        "q": "Quel pianiste et chanteur aveugle chante « Georgia on My Mind » ?",
+        "a": "Ray Charles"
+      },
+      {
+        "q": "Quel chanteur était le leader du groupe The Police ?",
+        "a": "Sting"
       }
     ],
     "10": [
       {
-        "q": "Quel compositeur a écrit « Les Tableaux d'une exposition » ?",
-        "a": "Moussorgski"
+        "q": "Qui a composé l'opéra « La Bohème » ?",
+        "a": "Puccini"
       },
       {
-        "q": "Quel compositeur est mort très jeune, à 35 ans, en 1791 ?",
-        "a": "Mozart"
+        "q": "Quel compositeur allemand a écrit « La Chevauchée des Walkyries » ?",
+        "a": "Wagner"
+      },
+      {
+        "q": "Quel opéra de Mozart met en scène le séducteur Don Juan ?",
+        "a": "Don Giovanni"
+      },
+      {
+        "q": "Quel artiste de jazz est surnommé « Duke » ?",
+        "a": "Duke Ellington"
+      },
+      {
+        "q": "Quel bluesman surnommé « B.B. » jouait sur sa guitare nommée Lucille ?",
+        "a": "B.B. King"
+      },
+      {
+        "q": "Qui a composé l'opéra « Le Barbier de Séville » ?",
+        "a": "Rossini"
+      },
+      {
+        "q": "Qui est le batteur des Beatles ?",
+        "a": "Ringo Starr"
+      },
+      {
+        "q": "Quel chanteur des Doors est mort à 27 ans à Paris ?",
+        "a": "Jim Morrison"
+      },
+      {
+        "q": "Quelle cantatrice grecque est la plus célèbre du XXe siècle ?",
+        "a": "Maria Callas"
+      },
+      {
+        "q": "Quel compositeur autrichien a écrit la valse « Le Beau Danube bleu » ?",
+        "a": "Johann Strauss"
       }
     ]
   }

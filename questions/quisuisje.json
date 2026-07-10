@@ -16,26 +16,22 @@
         "a": "Paris"
       },
       {
-        "q": "Je suis le sorcier avec une cicatrice en forme d'éclair. Qui suis-je ?",
+        "q": "Je suis un animal qui miaule et ronronne. Qui suis-je ?",
+        "a": "Le chat"
+      },
+      {
+        "q": "Je suis l’astre qui éclaire la Terre pendant la journée. Qui suis-je ?",
+        "a": "Le Soleil"
+      }
+    ],
+    "2": [
+      {
+        "q": "Je suis le sorcier avec une cicatrice en forme d’éclair. Qui suis-je ?",
         "a": "Harry Potter"
       },
       {
         "q": "Je suis une planète rouge. Qui suis-je ?",
         "a": "Mars"
-      }
-    ],
-    "2": [
-      {
-        "q": "Je suis le président actuel de la France (2023). Qui suis-je ?",
-        "a": "Emmanuel Macron"
-      },
-      {
-        "q": "Je suis le meilleur ami de Batman. Qui suis-je ?",
-        "a": "Robin"
-      },
-      {
-        "q": "Je suis le héros qui a vaincu Voldemort. Qui suis-je ?",
-        "a": "Harry Potter"
       },
       {
         "q": "Je suis le frère de Luigi. Qui suis-je ?",
@@ -44,35 +40,57 @@
       {
         "q": "Je suis un géant vert qui crie « Hulk Smash ! ». Qui suis-je ?",
         "a": "Hulk"
+      },
+      {
+        "q": "Je suis une princesse Disney qui perd sa pantoufle. Qui suis-je ?",
+        "a": "Cendrillon"
       }
     ],
     "3": [
       {
-        "q": "Je suis l'homme qui a marché sur la Lune en 1969. Qui suis-je ?",
-        "a": "Neil Armstrong"
+        "q": "Je suis le président de la République française élu en 2017 et réélu en 2022. Qui suis-je ?",
+        "a": "Emmanuel Macron"
+      },
+      {
+        "q": "Je suis le meilleur ami de Batman. Qui suis-je ?",
+        "a": "Robin"
       },
       {
         "q": "Je suis un célèbre roi de France, surnommé le Roi-Soleil. Qui suis-je ?",
         "a": "Louis XIV"
       },
       {
-        "q": "Je suis l'auteur de « Les Misérables ». Qui suis-je ?",
-        "a": "Victor Hugo"
-      },
-      {
         "q": "Je suis un empereur français, célèbre pour Waterloo. Qui suis-je ?",
         "a": "Napoléon Bonaparte"
       },
       {
-        "q": "Je suis un scientifique qui a proposé la relativité. Qui suis-je ?",
-        "a": "Albert Einstein"
+        "q": "Je suis la souris la plus célèbre de Disney. Qui suis-je ?",
+        "a": "Mickey"
       }
     ],
     "4": [
       {
+        "q": "Je suis l’homme qui a marché sur la Lune en 1969. Qui suis-je ?",
+        "a": "Neil Armstrong"
+      },
+      {
+        "q": "Je suis l’auteur de « Les Misérables ». Qui suis-je ?",
+        "a": "Victor Hugo"
+      },
+      {
+        "q": "Je suis un scientifique qui a proposé la relativité. Qui suis-je ?",
+        "a": "Albert Einstein"
+      },
+      {
+        "q": "Je suis le chanteur de « Thriller ». Qui suis-je ?",
+        "a": "Michael Jackson"
+      },
+      {
         "q": "Je suis un film de James Cameron sorti en 1997. Qui suis-je ?",
         "a": "Titanic"
-      },
+      }
+    ],
+    "5": [
       {
         "q": "Je suis le dieu de la foudre dans la mythologie nordique. Qui suis-je ?",
         "a": "Thor"
@@ -82,26 +100,22 @@
         "a": "Sherlock Holmes"
       },
       {
-        "q": "Je suis le chanteur de « Thriller ». Qui suis-je ?",
-        "a": "Michael Jackson"
-      },
-      {
         "q": "Je suis le premier président noir des États-Unis. Qui suis-je ?",
         "a": "Barack Obama"
-      }
-    ],
-    "5": [
-      {
-        "q": "Je suis une scientifique franco-polonaise, deux fois prix Nobel. Qui suis-je ?",
-        "a": "Marie Curie"
       },
       {
         "q": "Je suis le célèbre peintre de la Joconde. Qui suis-je ?",
         "a": "Léonard de Vinci"
       },
       {
-        "q": "Je suis le créateur d'Apple. Qui suis-je ?",
+        "q": "Je suis le créateur d’Apple. Qui suis-je ?",
         "a": "Steve Jobs"
+      }
+    ],
+    "6": [
+      {
+        "q": "Je suis une scientifique franco-polonaise, deux fois prix Nobel. Qui suis-je ?",
+        "a": "Marie Curie"
       },
       {
         "q": "Je suis le créateur de Facebook. Qui suis-je ?",
@@ -110,9 +124,17 @@
       {
         "q": "Je suis le créateur du Seigneur des Anneaux. Qui suis-je ?",
         "a": "J.R.R. Tolkien"
+      },
+      {
+        "q": "Je suis une reine d’Égypte, connue pour ma beauté. Qui suis-je ?",
+        "a": "Cléopâtre"
+      },
+      {
+        "q": "Je suis le créateur de Microsoft. Qui suis-je ?",
+        "a": "Bill Gates"
       }
     ],
-    "6": [
+    "7": [
       {
         "q": "Je suis un dictateur allemand pendant la Seconde Guerre mondiale. Qui suis-je ?",
         "a": "Adolf Hitler"
@@ -126,15 +148,15 @@
         "a": "Arthur Conan Doyle"
       },
       {
-        "q": "Je suis une reine d'Égypte, connue pour ma beauté. Qui suis-je ?",
-        "a": "Cléopâtre"
+        "q": "Je suis le plus célèbre vampire de la littérature. Qui suis-je ?",
+        "a": "Dracula"
       },
       {
-        "q": "Je suis le créateur de Microsoft. Qui suis-je ?",
-        "a": "Bill Gates"
+        "q": "Je suis l’auteure de Harry Potter. Qui suis-je ?",
+        "a": "J.K. Rowling"
       }
     ],
-    "7": [
+    "8": [
       {
         "q": "Je suis un dictateur soviétique du XXe siècle. Qui suis-je ?",
         "a": "Joseph Staline"
@@ -144,19 +166,19 @@
         "a": "Lara Croft"
       },
       {
-        "q": "Je suis le plus célèbre vampire de la littérature. Qui suis-je ?",
-        "a": "Dracula"
-      },
-      {
-        "q": "Je suis le premier homme à voyager dans l'espace. Qui suis-je ?",
+        "q": "Je suis le premier homme à voyager dans l’espace. Qui suis-je ?",
         "a": "Youri Gagarine"
       },
       {
-        "q": "Je suis l'auteur de Harry Potter. Qui suis-je ?",
-        "a": "J.K. Rowling"
+        "q": "Je suis un leader sud-africain ayant lutté contre l’apartheid. Qui suis-je ?",
+        "a": "Nelson Mandela"
+      },
+      {
+        "q": "Je suis une déesse grecque de la sagesse. Qui suis-je ?",
+        "a": "Athéna"
       }
     ],
-    "8": [
+    "9": [
       {
         "q": "Je suis un roi macédonien qui a conquis la moitié du monde connu. Qui suis-je ?",
         "a": "Alexandre le Grand"
@@ -166,21 +188,7 @@
         "a": "Benito Mussolini"
       },
       {
-        "q": "Je suis une princesse Disney qui perd sa pantoufle. Qui suis-je ?",
-        "a": "Cendrillon"
-      },
-      {
-        "q": "Je suis une déesse grecque de la sagesse. Qui suis-je ?",
-        "a": "Athéna"
-      },
-      {
-        "q": "Je suis un leader sud-africain ayant lutté contre l'apartheid. Qui suis-je ?",
-        "a": "Nelson Mandela"
-      }
-    ],
-    "9": [
-      {
-        "q": "Je suis un roi des Huns, redouté dans l'Antiquité. Qui suis-je ?",
+        "q": "Je suis un roi des Huns, redouté dans l’Antiquité. Qui suis-je ?",
         "a": "Attila"
       },
       {
@@ -188,34 +196,30 @@
         "a": "Toutânkhamon"
       },
       {
-        "q": "Je suis un philosophe grec, maître de Platon. Qui suis-je ?",
-        "a": "Socrate"
-      },
-      {
         "q": "Je suis un héros grec qui a combattu à Troie. Qui suis-je ?",
         "a": "Achille"
-      },
-      {
-        "q": "Je suis le fondateur de l'Empire mongol. Qui suis-je ?",
-        "a": "Gengis Khan"
       }
     ],
     "10": [
       {
-        "q": "Je suis le premier empereur de Chine. Qui suis-je ?",
-        "a": "Qin Shi Huangdi"
+        "q": "Je suis un philosophe grec, maître de Platon. Qui suis-je ?",
+        "a": "Socrate"
+      },
+      {
+        "q": "Je suis le fondateur de l’Empire mongol. Qui suis-je ?",
+        "a": "Gengis Khan"
       },
       {
         "q": "Je suis un philosophe allemand, auteur de « Ainsi parlait Zarathoustra ». Qui suis-je ?",
         "a": "Friedrich Nietzsche"
       },
       {
-        "q": "Je suis un stratège chinois, auteur de « L'Art de la guerre ». Qui suis-je ?",
+        "q": "Je suis un stratège chinois, auteur de « L’Art de la guerre ». Qui suis-je ?",
         "a": "Sun Tzu"
       },
       {
-        "q": "Je suis un roi d'Angleterre exécuté pendant la révolution anglaise. Qui suis-je ?",
-        "a": "Charles Ier"
+        "q": "Je suis un physicien en fauteuil roulant, célèbre pour mes travaux sur les trous noirs. Qui suis-je ?",
+        "a": "Stephen Hawking"
       }
     ]
   }

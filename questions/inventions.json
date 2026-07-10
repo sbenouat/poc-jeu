@@ -4,222 +4,222 @@
   "questions": {
     "1": [
       {
-        "q": "Qui a inventé le téléphone ?",
-        "a": "Alexander Graham Bell"
+        "q": "À quoi sert une boussole ?",
+        "a": "À indiquer le nord (s’orienter)"
       },
       {
-        "q": "Qui a inventé l’ampoule électrique ?",
-        "a": "Thomas Edison"
+        "q": "Quelle invention permet de parler à quelqu’un à distance grâce à un combiné ?",
+        "a": "Le téléphone"
       },
       {
-        "q": "Qui a découvert la gravité en voyant une pomme tomber ?",
-        "a": "Isaac Newton"
+        "q": "Quelle invention à deux roues avance quand on pédale ?",
+        "a": "Le vélo"
       },
       {
-        "q": "Qui a inventé l’avion avec son frère Orville ?",
-        "a": "Wilbur Wright"
+        "q": "Quelle invention éclaire nos maisons quand on appuie sur l’interrupteur ?",
+        "a": "L’ampoule électrique"
       },
       {
-        "q": "Qui a inventé la radio ?",
-        "a": "Guglielmo Marconi"
+        "q": "Quelle machine lave le linge automatiquement ?",
+        "a": "La machine à laver"
       }
     ],
     "2": [
       {
-        "q": "Qui a découvert l’Amérique en 1492 ?",
-        "a": "Christophe Colomb"
+        "q": "Quelle invention permet de voler d’un continent à l’autre en quelques heures ?",
+        "a": "L’avion"
       },
       {
-        "q": "Qui a inventé la pénicilline ?",
-        "a": "Alexander Fleming"
+        "q": "Quel appareil garde les aliments au froid dans la cuisine ?",
+        "a": "Le réfrigérateur"
       },
       {
-        "q": "Qui a inventé la machine à vapeur moderne ?",
-        "a": "James Watt"
+        "q": "Quel appareil réchauffe les plats en quelques secondes grâce à des ondes ?",
+        "a": "Le four à micro-ondes"
       },
       {
-        "q": "Qui a inventé le World Wide Web ?",
-        "a": "Tim Berners-Lee"
+        "q": "Quel savant français a donné son nom à la pasteurisation du lait ?",
+        "a": "Louis Pasteur"
       },
       {
-        "q": "Qui a inventé l’imprimerie en Europe ?",
-        "a": "Gutenberg"
+        "q": "Quelle invention permet de regarder films et émissions depuis son canapé ?",
+        "a": "La télévision"
       }
     ],
     "3": [
       {
-        "q": "Qui a inventé la dynamite ?",
-        "a": "Alfred Nobel"
+        "q": "Qu’a inventé Gutenberg au XVe siècle ?",
+        "a": "L’imprimerie"
       },
+      {
+        "q": "Quel savant aurait découvert la gravité en voyant tomber une pomme ?",
+        "a": "Isaac Newton"
+      },
+      {
+        "q": "Dans quel pays le papier a-t-il été inventé ?",
+        "a": "En Chine"
+      },
+      {
+        "q": "Quelle invention des années 1990 permet de naviguer de page en page sur Internet ?",
+        "a": "Le Web (World Wide Web)"
+      },
+      {
+        "q": "Quel engin volant à air chaud doit son nom aux frères Montgolfier ?",
+        "a": "La montgolfière"
+      }
+    ],
+    "4": [
+      {
+        "q": "Quel inventeur américain est célèbre pour l’ampoule électrique ?",
+        "a": "Thomas Edison"
+      },
+      {
+        "q": "Quel scientifique est l’auteur de la célèbre formule E=mc² ?",
+        "a": "Albert Einstein"
+      },
+      {
+        "q": "Contre quelle maladie Louis Pasteur a-t-il mis au point un vaccin célèbre ?",
+        "a": "La rage"
+      },
+      {
+        "q": "Quel savant grec aurait crié « Eurêka ! » dans son bain ?",
+        "a": "Archimède"
+      },
+      {
+        "q": "Quel engin les frères Wright ont-ils fait voler pour la première fois en 1903 ?",
+        "a": "L’avion"
+      }
+    ],
+    "5": [
+      {
+        "q": "Quel médicament célèbre Alexander Fleming a-t-il découvert par accident ?",
+        "a": "La pénicilline"
+      },
+      {
+        "q": "Qu’a inventé Alfred Nobel avant de créer son célèbre prix ?",
+        "a": "La dynamite"
+      },
+      {
+        "q": "Quelle scientifique a reçu deux prix Nobel pour ses travaux sur la radioactivité ?",
+        "a": "Marie Curie"
+      },
+      {
+        "q": "Quel moyen de transport doit-on à Karl Benz ?",
+        "a": "L’automobile"
+      },
+      {
+        "q": "Quel savant américain a inventé le paratonnerre ?",
+        "a": "Benjamin Franklin"
+      }
+    ],
+    "6": [
+      {
+        "q": "Quel objet Alessandro Volta a-t-il inventé, lui qui a donné son nom au « volt » ?",
+        "a": "La pile électrique"
+      },
+      {
+        "q": "Quel appareil permettant d’enregistrer le son Thomas Edison a-t-il inventé ?",
+        "a": "Le phonographe"
+      },
+      {
+        "q": "Quelle invention doit-on à Louis Braille ?",
+        "a": "L’écriture pour aveugles (le braille)"
+      },
+      {
+        "q": "Quel ingénieur allemand a donné son nom à un moteur fonctionnant au gazole ?",
+        "a": "Rudolf Diesel"
+      },
+      {
+        "q": "Quel savant italien a observé la Lune et les planètes avec sa lunette astronomique au XVIIe siècle ?",
+        "a": "Galilée"
+      }
+    ],
+    "7": [
       {
         "q": "Qui a inventé le cinéma ?",
         "a": "Les frères Lumière"
       },
       {
-        "q": "Qui a découvert la relativité ?",
-        "a": "Albert Einstein"
+        "q": "Qui a inventé le téléphone ?",
+        "a": "Alexander Graham Bell"
       },
       {
-        "q": "Qui a inventé le stylo à bille ?",
-        "a": "László Bíró"
-      },
-      {
-        "q": "Qui a inventé le phonographe ?",
-        "a": "Thomas Edison"
-      }
-    ],
-    "4": [
-      {
-        "q": "Qui a inventé l’électricité moderne avec le courant alternatif ?",
-        "a": "Nikola Tesla"
-      },
-      {
-        "q": "Qui a inventé la pile électrique ?",
-        "a": "Alessandro Volta"
-      },
-      {
-        "q": "Qui a découvert l’insuline ?",
-        "a": "Frederick Banting et Charles Best"
-      },
-      {
-        "q": "Qui a inventé le revolver Colt ?",
-        "a": "Samuel Colt"
-      },
-      {
-        "q": "Qui a inventé le premier ordinateur programmable ?",
-        "a": "Konrad Zuse"
-      }
-    ],
-    "5": [
-      {
-        "q": "Qui a découvert l’Amérique du Sud par voie maritime ?",
-        "a": "Amerigo Vespucci"
-      },
-      {
-        "q": "Qui a inventé le parachute ?",
-        "a": "Louis-Sébastien Lenormand"
-      },
-      {
-        "q": "Qui a découvert l’ADN avec James Watson ?",
-        "a": "Francis Crick"
-      },
-      {
-        "q": "Qui a inventé le téléphone portable ?",
-        "a": "Martin Cooper"
-      },
-      {
-        "q": "Qui a inventé la machine à écrire ?",
-        "a": "Christopher Sholes"
-      }
-    ],
-    "6": [
-      {
-        "q": "Qui a inventé la voiture moderne avec le moteur à explosion ?",
-        "a": "Karl Benz"
-      },
-      {
-        "q": "Qui a inventé l’aspirine ?",
-        "a": "Felix Hoffmann"
-      },
-      {
-        "q": "Qui a inventé le microscope ?",
-        "a": "Antoni van Leeuwenhoek"
-      },
-      {
-        "q": "Qui a inventé la boussole ?",
-        "a": "Les Chinois"
-      },
-      {
-        "q": "Qui a inventé le moteur diesel ?",
-        "a": "Rudolf Diesel"
-      }
-    ],
-    "7": [
-      {
-        "q": "Qui a inventé l’hélicoptère moderne ?",
-        "a": "Igor Sikorsky"
-      },
-      {
-        "q": "Qui a inventé la télévision ?",
-        "a": "John Logie Baird"
-      },
-      {
-        "q": "Qui a inventé le code Morse ?",
+        "q": "Quel inventeur américain a donné son nom au code télégraphique en points et en traits ?",
         "a": "Samuel Morse"
       },
       {
-        "q": "Qui a inventé la photographie ?",
-        "a": "Nicéphore Niépce"
+        "q": "Quel ingénieur écossais a perfectionné la machine à vapeur et donné son nom à une unité de puissance ?",
+        "a": "James Watt"
       },
       {
-        "q": "Qui a inventé le radar ?",
-        "a": "Robert Watson-Watt"
+        "q": "Quel aliment Antoine Parmentier a-t-il popularisé en France ?",
+        "a": "La pomme de terre"
       }
     ],
     "8": [
       {
-        "q": "Qui a inventé le stéthoscope ?",
-        "a": "René Laennec"
+        "q": "Quel savant d’origine serbe, rival d’Edison, a défendu le courant alternatif ?",
+        "a": "Nikola Tesla"
       },
       {
-        "q": "Qui a découvert la radioactivité avec Pierre Curie ?",
-        "a": "Marie Curie"
+        "q": "Qui a inventé le World Wide Web en 1989 ?",
+        "a": "Tim Berners-Lee"
       },
       {
-        "q": "Qui a inventé l’électricité statique (premières expériences) ?",
-        "a": "Benjamin Franklin"
+        "q": "Quelle découverte médicale doit-on à Wilhelm Röntgen ?",
+        "a": "Les rayons X (la radiographie)"
       },
       {
-        "q": "Qui a inventé la lunette astronomique ?",
-        "a": "Galilée"
+        "q": "Quel inventeur américain a donné son nom à un célèbre revolver ?",
+        "a": "Samuel Colt"
       },
       {
-        "q": "Qui a inventé le télescope Hubble (concept) ?",
-        "a": "NASA/ESA"
+        "q": "Quelle machine volante Igor Sikorsky a-t-il mise au point ?",
+        "a": "L’hélicoptère"
       }
     ],
     "9": [
       {
-        "q": "Qui a inventé le vaccin contre la rage ?",
-        "a": "Louis Pasteur"
+        "q": "Qui a inventé la radio ?",
+        "a": "Guglielmo Marconi"
       },
       {
-        "q": "Qui a inventé la locomotive à vapeur ?",
-        "a": "George Stephenson"
+        "q": "Qui a réalisé la toute première photographie de l’histoire ?",
+        "a": "Nicéphore Niépce"
       },
       {
-        "q": "Qui a inventé le cinéma sonore ?",
-        "a": "Warner Bros avec The Jazz Singer"
+        "q": "Quel duo de scientifiques a découvert la structure en double hélice de l’ADN ?",
+        "a": "Watson et Crick"
       },
       {
-        "q": "Qui a inventé la première imprimante 3D ?",
-        "a": "Chuck Hull"
+        "q": "Quelle invention doit-on à John Logie Baird ?",
+        "a": "La télévision"
       },
       {
-        "q": "Qui a inventé le premier satellite artificiel (Spoutnik 1) ?",
-        "a": "URSS"
+        "q": "Quel pays a lancé le premier satellite artificiel, Spoutnik 1 ?",
+        "a": "L’URSS"
       }
     ],
     "10": [
       {
-        "q": "Qui a inventé l’écriture cunéiforme ?",
+        "q": "Quel peuple de Mésopotamie a inventé l’écriture cunéiforme ?",
         "a": "Les Sumériens"
       },
       {
-        "q": "Qui a inventé le papier ?",
-        "a": "Cai Lun (Chine, IIe siècle)"
-      },
-      {
-        "q": "Qui a inventé l’alphabet moderne ?",
+        "q": "Quel peuple marchand de la Méditerranée antique a inventé le premier alphabet ?",
         "a": "Les Phéniciens"
       },
       {
-        "q": "Qui a inventé l’imprimerie à caractères mobiles ?",
-        "a": "Bi Sheng (Chine, XIe siècle)"
+        "q": "De quelle civilisation vient l’invention du zéro en mathématiques ?",
+        "a": "L’Inde"
       },
       {
-        "q": "Qui a inventé le zéro en mathématiques ?",
-        "a": "Les Indiens (civilisation Gupta)"
+        "q": "Quel inventeur écossais du pneu gonflable a donné son nom à une marque de pneus ?",
+        "a": "John Dunlop"
+      },
+      {
+        "q": "Quel médecin anglais a inventé la vaccination contre la variole ?",
+        "a": "Edward Jenner"
       }
     ]
   }

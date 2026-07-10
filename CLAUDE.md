@@ -55,13 +55,17 @@ Central `STATE` object in script.js tracks: players, scores, current round, them
 
 ## Question Difficulty Criteria
 
+Target audience: a group of friends playing at a party, not quiz champions. When in doubt, make it easier.
+
 | Level | Criteria | Example |
 |-------|----------|---------|
-| 1-2 | Elementary school knowledge, universal facts | Capital of France, 2+2 |
-| 3-4 | High school curriculum, common culture | Treaty of Versailles, Newton's laws |
-| 5-6 | Educated adult, media/reading knowledge | First man in space, E=mc² |
-| 7-8 | Specialized interest required | Specific treaty names, scientific constants |
-| 9-10 | Expert/obscure, advanced studies | Obscure dates, technical details |
+| 1-2 | Trivial, obvious to everyone | Capital of France, color of the sky |
+| 3-4 | Elementary school, very well-known facts | Capital of Spain, days of the week |
+| 5-6 | Middle/high school, common culture | Treaty of Versailles, Louis XIV |
+| 7-8 | Educated adult, media/reading knowledge | First man in space, E=mc² |
+| 9-10 | Specialized interest — never expert/obscure | Well-known director of a cult film, capital of Kazakhstan |
+
+Prefer recognition questions ("which work / which dish / which character") over proper-name recall ("who invented/composed/wrote"), except for universal names (Hugo, Mozart, Einstein).
 
 ## Deployment
 
