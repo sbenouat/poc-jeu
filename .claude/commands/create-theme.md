@@ -25,15 +25,17 @@ Produis **150 questions** (standard) ou **100 questions** (format spécial), ré
 
 **Format JSON strict** — chaque question est `{"q": "...", "a": "..."}` en texte brut (pas de HTML, pas de Markdown, pas d'astérisques). La réponse `a` doit être courte et tranchable (un mot, un nom propre, une date).
 
-**Calibration relative au thème** (échelle intra-thème) :
+**Calibration** — public cible : un groupe d'amis en soirée, PAS des passionnés de quiz. En cas de doute, choisis le niveau le plus facile.
 
 | Niveau | Profil cible |
 |--------|-------------|
-| 1–2 | Trivial — quelqu'un même peu intéressé par le thème connaît la réponse |
-| 3–4 | Connaissance basique — vu/lu/entendu une fois |
-| 5–6 | Amateur régulier — détails connus |
-| 7–8 | Passionné — anecdotes, dates, noms moins évidents |
-| 9–10 | Expert — détail piège, fait peu connu, point précis qui sépare le fan du super-fan |
+| 1–2 | Trivial — évident même pour quelqu'un qui ne s'intéresse pas au thème |
+| 3–4 | Très connu — une exposition minimale au thème suffit |
+| 5–6 | Culture commune — un amateur occasionnel répond |
+| 7–8 | Adulte cultivé / amateur régulier |
+| 9–10 | Bon connaisseur (bon fan pour un thème spécialisé) — JAMAIS expert/obscur, jamais de détail piège |
+
+Préfère la reconnaissance ("quelle œuvre / quel plat / quel personnage") à la restitution de nom propre ("qui a inventé/composé/écrit"), sauf noms universels (Hugo, Mozart, Einstein).
 
 **Règles de qualité :**
 - Pas de doublon : une même réponse ne doit pas apparaître deux fois pour le même fait, même reformulé.

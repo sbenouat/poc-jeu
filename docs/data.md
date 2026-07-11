@@ -100,17 +100,17 @@ Si même `questions.sample.json` n'est pas accessible : un thème "Démo" minima
 - 2 thèmes à format spécial (`plusoumoins`, `quisuisje`) à **100 questions** (10 par niveau) — leurs contraintes de format limitent la variation.
 - Total : ~2 750 questions.
 
-**Calibration de difficulté** : **relative au thème**. Un niveau 10 en HIMYM ne demande pas le même bagage qu'un niveau 10 en Histoire ; chaque thème a sa propre échelle interne.
+**Calibration de difficulté** : relative au thème mais **plafonnée**. Public cible : un groupe d'amis en soirée, pas des passionnés de quiz. En cas de doute, viser plus facile.
 
 | Niveau | Profil cible (relatif au thème) |
 |--------|---------------------------------|
-| 1-2    | Trivial — quelqu'un même peu intéressé par le thème connaît la réponse |
-| 3-4    | Connaissance basique — vu/lu/entendu une fois |
-| 5-6    | Amateur régulier — détails connus |
-| 7-8    | Passionné — anecdotes, dates, noms moins évidents |
-| 9-10   | Expert — détail piège, fait peu connu, point précis qui sépare le fan du super-fan |
+| 1-2    | Trivial — évident même pour quelqu'un peu intéressé par le thème |
+| 3-4    | Très connu — une exposition minimale au thème suffit |
+| 5-6    | Culture commune — un amateur occasionnel répond |
+| 7-8    | Adulte cultivé / amateur régulier |
+| 9-10   | Bon connaisseur (bon fan pour un thème spécialisé) — jamais expert/obscur, jamais de détail piège |
 
-Cette grille a été appliquée lors de la refonte du corpus (branche `questions-rewrite`).
+Préférer la reconnaissance ("quelle œuvre / quel plat / quel personnage") à la restitution de nom propre ("qui a inventé/composé/écrit"), sauf noms universels. Cette grille remplace celle de la refonte d'avril 2026 (branche `questions-rewrite`), jugée trop difficile à l'usage.
 
 ## Migration / régénération
 

@@ -64,9 +64,9 @@ Corrige toute erreur structurelle avant de continuer.
 
 Lis le fichier du thème (ou chaque fichier si audit global) et examine :
 
-**Calibrage** — vérifie que les extrêmes sont cohérents :
-- Niveaux 1–2 : les questions doivent être connues de quelqu'un qui ne s'intéresse pas vraiment au thème.
-- Niveaux 9–10 : les questions doivent vraiment séparer le passionné du super-fan. Si une réponse est connue de beaucoup de monde (ex. "La mer Morte" en géo niveau 10, "Imagine" en musique niveau 8), c'est un signal de mauvais calibrage.
+**Calibrage** — public cible : un groupe d'amis en soirée, pas des passionnés de quiz. Vérifie que les extrêmes sont cohérents :
+- Niveaux 1–2 : les questions doivent être évidentes même pour quelqu'un qui ne s'intéresse pas au thème.
+- Niveaux 9–10 : bon connaisseur (bon fan pour un thème spécialisé), mais JAMAIS expert/obscur. Une question dont la réponse exige un savoir de spécialiste (date précise obscure, nom propre pointu, détail piège) est un signal de mauvais calibrage — à redescendre ou supprimer, pas à garder.
 
 **Erreurs factuelles** — signale tout fait douteux : mauvaise attribution d'une œuvre, date incorrecte, biographie erronée. En cas de doute, mentionne-le plutôt que de corriger à tort.
 
